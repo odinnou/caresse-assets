@@ -5,34 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mentions Légales - Caresse</title>
     <style>
-        body { font-family: -apple-system, sans-serif; line-height: 1.6; color: #444; padding: 20px; max-width: 800px; margin: auto; }
-        h1 { color: #333; border-bottom: 2px solid #EEE; padding-bottom: 10px; }
-        .section { margin-bottom: 20px; }
-        .label { font-weight: bold; color: #000; }
+        body { font-family: -apple-system, sans-serif; line-height: 1.6; color: #555; padding: 20px; max-width: 800px; margin: auto; background-color: #f9f9f9; }
+        header { text-align: center; margin-bottom: 40px; }
+        .logo { height: 80px; width: auto; }
+        h1 { color: #34495e; text-align: center; margin-bottom: 40px; }
+        h2 { color: #2c3e50; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-top: 30px; font-size: 1.3em; }
+        .section { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 25px; }
+        .item { margin-bottom: 10px; }
+        .label { font-weight: 600; color: #5D6D7E; display: block; margin-bottom: 2px; font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.5px;}
+        .value { color: #222; font-size: 1.1em; }
     </style>
 </head>
 <body>
-    <h1>Mentions Légales</h1>
+    <header>
+        <img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" alt="Logo Caresse" class="logo">
+    </header>
+
+    <h1>⚖️ Mentions Légales</h1>
 
     <div class="section">
-        <h2>1. Éditeur de l'application</h2>
-        <p><span class="label">Nom/Société :</span> [TON NOM OU SOCIÉTÉ]</p>
-        <p><span class="label">Siège social :</span> [TON ADRESSE]</p>
-        <p><span class="label">Immatriculation :</span> [SIREN/SIRET]</p>
-        <p><span class="label">Contact :</span> [TON EMAIL]</p>
-        <p><span class="label">Directeur de la publication :</span> [TON NOM]</p>
+        <h2>🏢 1. Éditeur de l'application</h2>
+        <div class="item">
+            <span class="label">Nom/Société</span>
+            <span class="value">[TON NOM OU SOCIÉTÉ]</span>
+        </div>
+        <div class="item">
+            <span class="label">Siège social</span>
+            <span class="value">[TON ADRESSE COMPLÈTE]</span>
+        </div>
+        <div class="item">
+            <span class="label">Immatriculation (SIREN/SIRET)</span>
+            <span class="value">[NUMÉRO]</span>
+        </div>
+        <div class="item">
+            <span class="label">Contact Email</span>
+            <span class="value">[TON EMAIL]</span>
+        </div>
+        <div class="item">
+            <span class="label">Directeur de la publication</span>
+            <span class="value">[TON NOM]</span>
+        </div>
     </div>
 
     <div class="section">
-        <h2>2. Hébergement</h2>
-        <p><span class="label">Serveurs et Audio :</span> Microsoft Azure (Europe)</p>
-        <p><span class="label">Base de données :</span> Supabase Inc.</p>
-        <p><span class="label">Authentification :</span> Firebase (Google Cloud)</p>
+        <h2>🌍 2. Hébergement & Infrastructure</h2>
+        <div class="item">
+            <span class="label">Serveurs et Stockage Audio</span>
+            <span class="value">Microsoft Azure (Région Europe)</span>
+        </div>
+        <div class="item">
+            <span class="label">Base de données</span>
+            <span class="value">Supabase Inc.</span>
+        </div>
+        <div class="item">
+            <span class="label">Authentification et Notifications</span>
+            <span class="value">Firebase (Google Cloud)</span>
+        </div>
     </div>
 
     <div class="section">
-        <h2>3. Propriété Intellectuelle</h2>
-        <p>L'application Caresse et l'intégralité de ses contenus (logos, interfaces, algorithmes) sont protégés par le droit d'auteur. Toute reproduction totale ou partielle est strictement interdite sans autorisation préalable.</p>
+        <h2>© 3. Propriété Intellectuelle</h2>
+        <p>L'application Caresse, son concept, sa marque, ses logos, ses interfaces graphiques et ses algorithmes sont la propriété exclusive de l'éditeur. Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments de l'application, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable.</p>
     </div>
 </body>
 </html>
