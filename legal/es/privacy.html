@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de privacidad - Caresse</title>
+    <style>
+        :root { --primary: #5D3FD3; --secondary: #7B68EE; --bg-note: #F8F4FF; }
+        body { font-family: -apple-system, sans-serif; line-height: 1.6; color: #333; padding: 20px; max-width: 800px; margin: auto; }
+        header { text-align: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .logo { height: 80px; width: auto; }
+        h1 { color: var(--primary); border-bottom: 2px solid #EEE; padding-bottom: 10px; }
+        h2 { color: var(--secondary); margin-top: 30px; }
+        .highlight { background: var(--bg-note); padding: 15px; border-left: 4px solid var(--primary); margin: 20px 0; border-radius: 0 4px 4px 0; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        th { background: var(--bg-note); color: var(--primary); padding: 10px; text-align: left; }
+        td { padding: 9px 10px; border-bottom: 1px solid #eee; vertical-align: top; }
+        footer { margin-top: 50px; font-size: 0.8em; color: #777; border-top: 1px solid #EEE; padding-top: 20px; text-align: center;}
+    </style>
+</head>
+<body>
+    <header><img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" alt="Logo Caresse" class="logo"></header>
+    <h1>Política de privacidad</h1>
+    <p><strong>Última actualización:</strong> 28 de marzo de 2026</p>
+
+    <div class="highlight">
+        <strong>Nuestro compromiso:</strong> Caresse es una aplicación íntima. Proteger su privacidad no es solo una obligación legal, es una prioridad fundamental. Recopilamos lo estrictamente necesario, no vendemos ningún dato y usted mantiene el control total sobre su información.
+    </div>
+
+    <h2>1. Responsable del tratamiento</h2>
+    <p>El responsable del tratamiento de los datos personales es el editor de la aplicación Caresse, contactable en admin@caresse.app.</p>
+
+    <h2>2. Datos recopilados</h2>
+    <p>Caresse recopila únicamente los datos estrictamente necesarios para el funcionamiento del servicio:</p>
+
+    <table>
+        <tr>
+            <th>Dato</th>
+            <th>Finalidad</th>
+            <th>Base legal</th>
+        </tr>
+        <tr>
+            <td>Identificador anónimo (UID Firebase)</td>
+            <td>Autenticación y persistencia de la cuenta</td>
+            <td>Ejecución del contrato</td>
+        </tr>
+        <tr>
+            <td>Nombre o seudónimo</td>
+            <td>Personalización de audio de las experiencias (pronunciado por la voz IA)</td>
+            <td>Consentimiento explícito</td>
+        </tr>
+        <tr>
+            <td>Características anatómicas (sexo biológico declarado)</td>
+            <td>Adaptación de las sugerencias físicas de los escenarios a la anatomía de los participantes</td>
+            <td>Consentimiento explícito</td>
+        </tr>
+        <tr>
+            <td>Parámetros de sesión (prácticas, accesorios, duración, lugar)</td>
+            <td>Generación del escenario personalizado</td>
+            <td>Ejecución del contrato</td>
+        </tr>
+        <tr>
+            <td>Historial de escenarios generados</td>
+            <td>Acceso a experiencias anteriores desde la aplicación</td>
+            <td>Ejecución del contrato</td>
+        </tr>
+        <tr>
+            <td>Datos de compra (vía RevenueCat)</td>
+            <td>Gestión de créditos y del lifetime unlock</td>
+            <td>Ejecución del contrato</td>
+        </tr>
+        <tr>
+            <td>Estadísticas de uso agregadas y anonimizadas (vía Google Analytics)</td>
+            <td>Análisis del comportamiento del usuario en la aplicación (ej.: puntos de abandono en el funnel de creación de experiencia) para mejorar el servicio. Sin seguimiento individual.</td>
+            <td>Interés legítimo</td>
+        </tr>
+    </table>
+
+    <p>No recopilamos: dirección de correo electrónico (salvo si usted nos contacta), número de teléfono, localización GPS, contactos, datos biométricos, ni ningún dato que permita identificarle fuera de la aplicación.</p>
+
+    <h2>3. Transmisión a servicios de terceros</h2>
+    <p>Para generar los escenarios, ciertos parámetros se transmiten a servicios de IA y síntesis de voz (TTS) de terceros. Esta transmisión es seudoanonimizada: el nombre o seudónimo introducido puede incluirse, pero no se comparte ningún dato que le identifique directamente (correo electrónico, identificador de cuenta, nombre civil completo).</p>
+
+    <p>Los servicios de terceros utilizados incluyen:</p>
+    <ul>
+        <li><strong>Firebase (Google)</strong> — autenticación y base de datos</li>
+        <li><strong>Microsoft Azure</strong> — alojamiento de servidores, archivos de audio y datos de escenarios (Europa)</li>
+        <li><strong>Proveedores de IA</strong> — generación de escenarios (los parámetros de sesión se transmiten de forma seudoanonimizada)</li>
+        <li><strong>Proveedores TTS</strong> — síntesis de voz (el nombre o seudónimo se transmite para personalización de audio)</li>
+        <li><strong>RevenueCat</strong> — gestión de compras y créditos</li>
+        <li><strong>Google Analytics (Firebase Analytics)</strong> — análisis de comportamiento anonimizado (no se transmiten datos personales identificables)</li>
+    </ul>
+
+    <p>Cada uno de estos proveedores tiene su propia política de privacidad y está sujeto a la normativa aplicable (RGPD para los servicios alojados en Europa).</p>
+    <p>Ningún dato personal se vende a terceros con fines publicitarios o comerciales.</p>
+
+    <h2>4. Alojamiento y seguridad</h2>
+    <p>Los datos y archivos de audio están alojados en servidores de Microsoft Azure ubicados en Europa. Todas las comunicaciones entre la aplicación y nuestros servidores están cifradas mediante HTTPS/TLS.</p>
+    <p>El acceso a los datos está restringido a lo estrictamente necesario. Ningún empleado o proveedor accede al contenido de sus escenarios a título personal.</p>
+
+    <h2>5. Período de conservación</h2>
+    <p>Los datos se conservan mientras su cuenta esté activa. En caso de eliminación de la cuenta:</p>
+    <ul>
+        <li>Los escenarios, archivos de audio y parámetros de sesión se eliminan definitivamente de nuestros servidores.</li>
+        <li>El identificador anónimo se borra de nuestra base de datos.</li>
+        <li>Los datos de transacción (compras) pueden ser conservados por Apple, Google y RevenueCat conforme a sus propias obligaciones legales.</li>
+    </ul>
+
+    <h2>6. Sus derechos</h2>
+    <p>De conformidad con el Reglamento General de Protección de Datos (RGPD), usted dispone de los siguientes derechos:</p>
+    <ul>
+        <li><strong>Derecho de acceso:</strong> obtener una copia de los datos que le conciernen.</li>
+        <li><strong>Derecho de rectificación:</strong> corregir datos inexactos.</li>
+        <li><strong>Derecho de supresión</strong> (derecho al olvido): solicitar la eliminación completa de sus datos.</li>
+        <li><strong>Derecho a la portabilidad:</strong> recibir sus datos en un formato estructurado.</li>
+        <li><strong>Derecho de oposición:</strong> oponerse a ciertos tratamientos basados en el interés legítimo.</li>
+    </ul>
+    <p>Para ejercer estos derechos, contacte al editor en admin@caresse.app. Toda solicitud será atendida en un plazo máximo de un mes.</p>
+    <p>También puede presentar una reclamación ante su autoridad de protección de datos local. Los usuarios de la UE pueden contactar a la <strong>CNIL</strong> (Francia): <a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>.</p>
+
+    <h2>7. Eliminación de cuenta y derecho al olvido</h2>
+    <p>Puede solicitar la eliminación completa de su cuenta y de todos sus datos en cualquier momento contactando al editor en admin@caresse.app.</p>
+    <p>La eliminación conlleva el borrado definitivo e irreversible de todos sus escenarios, archivos de audio y datos de perfil. Esta acción no puede deshacerse.</p>
+
+    <div class="highlight">
+        <strong>Nota sobre créditos y compras:</strong> La eliminación de la cuenta conlleva la pérdida definitiva de los créditos no consumidos. El lifetime unlock puede restaurarse posteriormente mediante la función "Restaurar compras". Consulte las <a href="cgv.html">Condiciones de Venta</a> para más detalles.
+    </div>
+
+    <h2>8. Cookies y rastreadores</h2>
+    <p>La aplicación móvil Caresse no utiliza cookies publicitarias ni rastreadores de terceros con fines de segmentación. Los únicos identificadores técnicos utilizados son los necesarios para el funcionamiento del servicio (sesión Firebase, identificador RevenueCat).</p>
+
+    <h2>9. Modificaciones de la política</h2>
+    <p>Esta política puede actualizarse en cualquier momento. En caso de cambio sustancial que afecte a sus derechos, será informado a través de la aplicación. La versión vigente siempre está accesible desde la aplicación y este documento.</p>
+
+    <h2>10. Contacto</h2>
+    <p>Para cualquier consulta sobre la protección de sus datos, contacte al editor en admin@caresse.app.</p>
+
+    <footer>Caresse — Practica con respeto y amabilidad.</footer>
+</body>
+</html>
