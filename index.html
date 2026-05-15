@@ -424,21 +424,15 @@
         }
 
         .store-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background: var(--text-primary);
-            color: white;
-            padding: 14px 28px;
-            border-radius: 14px;
+            display: inline-block;
             text-decoration: none;
-            font-weight: 600;
-            font-size: 0.95rem;
-            transition: 0.3s;
+            transition: transform 0.2s, opacity 0.2s;
         }
 
-        .store-badge:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(26,26,46,0.25); }
-        .store-badge .badge-icon { font-size: 1.5rem; }
+        .store-badge:hover { transform: translateY(-2px); opacity: 0.88; }
+        .store-badge img { height: 54px; width: auto; display: block; }
+        /* Google Play EN PNG has ~20% internal whitespace top/bottom — scale up then clip with negative margin */
+        .store-badge.gplay img { height: 80px; margin: -13px 0; }
 
         .age-notice { font-size: 0.8rem; color: var(--text-secondary); opacity: 0.6; margin-top: 8px; }
 
@@ -714,21 +708,11 @@
         <p class="section-sub" data-lang="en">Download Caresse for free. A demo experience is waiting for you on your very first launch — no sign-up required.</p>
 
         <div class="store-badges">
-            <a href="#" class="store-badge" aria-label="Télécharger sur l'App Store">
-                <span class="badge-icon">🍎</span>
-                <div>
-                    <div style="font-size:0.7rem; opacity:0.7;" data-lang="fr">Disponible sur</div>
-                    <div style="font-size:0.7rem; opacity:0.7;" data-lang="en">Download on the</div>
-                    <div>App Store</div>
-                </div>
+            <a href="#" class="store-badge" aria-label="Download on the App Store">
+                <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
             </a>
-            <a href="#" class="store-badge" aria-label="Télécharger sur Google Play">
-                <span class="badge-icon">▶</span>
-                <div>
-                    <div style="font-size:0.7rem; opacity:0.7;" data-lang="fr">Disponible sur</div>
-                    <div style="font-size:0.7rem; opacity:0.7;" data-lang="en">Get it on</div>
-                    <div>Google Play</div>
-                </div>
+            <a href="#" class="store-badge gplay" aria-label="Get it on Google Play">
+                <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
             </a>
         </div>
 
