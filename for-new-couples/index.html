@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Caresse pour les nouveaux couples — Explorez ensemble sans pression | iOS & Android</title>
+    <meta name="description" content="Caresse aide les nouveaux couples à explorer l'intimité ensemble, guidés par l'IA. Brisez la glace, communiquez vos désirs et créez une complicité authentique dès le départ.">
+    <meta name="keywords" content="nouveaux couples, briser la glace intimité, explorer ensemble, débuter relation intime, app nouveau couple, audio intime débutant, communication couple débutant">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Studio Mokuton">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://caresse.app/for-new-couples/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://caresse.app/for-new-couples/">
+    <meta property="og:site_name" content="Caresse">
+    <meta property="og:title" content="Caresse pour les nouveaux couples — Explorez sans pression">
+    <meta property="og:description" content="Brisez la glace et explorez l'intimité ensemble, guidés par une voix IA. Parfait pour les nouveaux couples.">
+    <meta property="og:image" content="https://caresse.app/screens/fr/07_android_fr.png">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="en_US">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Caresse pour les nouveaux couples">
+    <meta name="twitter:description" content="Explorez l'intimité ensemble sans pression. Guidé par l'IA, conçu pour les débuts de relation.">
+    <meta name="twitter:image" content="https://caresse.app/screens/fr/07_android_fr.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse pour les nouveaux couples",
+      "description": "Expérience audio intime guidée par l'IA pour les nouveaux couples. Brisez la glace, communiquez vos désirs et créez une complicité dès le départ.",
+      "url": "https://caresse.app/for-new-couples/",
+      "isPartOf": { "@type": "WebSite", "name": "Caresse", "url": "https://caresse.app/" },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Caresse", "item": "https://caresse.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Nouveaux couples", "item": "https://caresse.app/for-new-couples/" }
+        ]
+      }
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #5D3D8C;
+            --secondary: #9E7BB5;
+            --primary-vibrant: #9361FD;
+            --background: #F9F7FD;
+            --surface: #FFFFFF;
+            --text-primary: #1A1A2E;
+            --text-secondary: #5D5D7A;
+            --pink: #FF6B9D;
+            --grad-primary: linear-gradient(135deg, #9361FD, #5D3D8C);
+            --grad-pink: linear-gradient(135deg, #9361FD, #FF6B9D);
+            --grad-soft: linear-gradient(135deg, #F9F7FD 0%, #EDE8F7 100%);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, system-ui, sans-serif; background-color: var(--background); color: var(--text-primary); line-height: 1.6; overflow-x: hidden; }
+
+        header { padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.85); backdrop-filter: blur(12px); position: fixed; width: 100%; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(93,61,140,0.06); }
+        .logo { height: 32px; }
+        .lang-toggle { display: flex; gap: 4px; background: rgba(93,61,140,0.08); border-radius: 20px; padding: 4px; }
+        .lang-btn { border: none; background: none; padding: 6px 14px; border-radius: 16px; font-size: 0.85rem; font-weight: 600; cursor: pointer; color: var(--text-secondary); transition: all 0.2s; }
+        .lang-btn.active { background: var(--primary); color: white; }
+
+        .hero { min-height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 60px 8% 80px; background: radial-gradient(ellipse at 50% 30%, rgba(255,107,157,0.12) 0%, transparent 60%), radial-gradient(ellipse at 20% 80%, rgba(147,97,253,0.08) 0%, transparent 50%), var(--background); }
+        .hero-eyebrow { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 20px; opacity: 0.8; }
+        h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); font-weight: 800; line-height: 1.1; margin-bottom: 24px; background: var(--grad-pink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero p { color: var(--text-secondary); font-size: clamp(1rem, 2vw, 1.2rem); max-width: 560px; margin-bottom: 40px; }
+        .cta-group { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+        .cta-pink { background: var(--grad-pink); color: white; padding: 16px 36px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1rem; box-shadow: 0 10px 25px rgba(255,107,157,0.3); transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
+        .cta-pink:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(255,107,157,0.4); }
+        .cta-ghost { color: var(--primary); padding: 16px 36px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 1rem; border: 2px solid rgba(93,61,140,0.2); transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
+        .cta-ghost:hover { border-color: var(--primary); background: rgba(93,61,140,0.05); }
+        .hero-badge { margin-top: 48px; font-size: 0.8rem; color: var(--text-secondary); opacity: 0.7; }
+
+        section { padding: 100px 5%; }
+        .section-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 12px; }
+        .section-title { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; color: var(--text-primary); line-height: 1.15; margin-bottom: 16px; }
+        .section-sub { color: var(--text-secondary); font-size: 1.05rem; max-width: 500px; line-height: 1.7; }
+
+        .benefits { background: var(--surface); }
+        .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px; max-width: 1100px; margin: 48px auto 0; }
+        .benefit-card { background: var(--grad-soft); border-radius: 24px; padding: 36px; border: 1px solid rgba(158,123,181,0.12); }
+        .benefit-card .icon { font-size: 2.2rem; margin-bottom: 16px; }
+        .benefit-card h3 { font-size: 1.2rem; font-weight: 700; color: var(--primary); margin-bottom: 10px; }
+        .benefit-card p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; }
+
+        .how { background: var(--grad-soft); }
+        .how-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; max-width: 1000px; }
+        .how-text .section-sub { max-width: 100%; }
+        .trust-list { list-style: none; margin-top: 28px; display: flex; flex-direction: column; gap: 14px; }
+        .trust-list li { display: flex; align-items: flex-start; gap: 12px; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; }
+        .trust-list li span.check { color: var(--primary-vibrant); font-weight: 700; font-size: 1.1rem; flex-shrink: 0; }
+
+        .faq { background: var(--surface); }
+        .faq-list { max-width: 700px; margin: 48px auto 0; display: flex; flex-direction: column; gap: 16px; }
+        .faq-item { background: var(--grad-soft); border-radius: 16px; padding: 28px 32px; border: 1px solid rgba(158,123,181,0.1); }
+        .faq-item h3 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); margin-bottom: 10px; }
+        .faq-item p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; }
+
+        .cta-section { text-align: center; background: radial-gradient(ellipse at center, rgba(147,97,253,0.1) 0%, transparent 70%), var(--background); }
+        .cta-section .section-title { margin-bottom: 16px; }
+        .cta-section .section-sub { margin: 0 auto 40px; text-align: center; }
+        .store-badges { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; }
+        .store-badge { display: inline-block; text-decoration: none; transition: transform 0.2s, opacity 0.2s; position: relative; }
+        .store-badge:hover { transform: translateY(-2px); opacity: 0.88; }
+        .store-badge img { height: 54px; width: auto; display: block; }
+        .store-badge.gplay img { height: 80px; margin: -13px 0; }
+        .store-badge .coming-soon { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(10,10,20,0.55); backdrop-filter: blur(2px); border-radius: 8px; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #fff; pointer-events: none; }
+        .age-notice { font-size: 0.8rem; color: var(--text-secondary); opacity: 0.6; margin-top: 8px; }
+
+        .breadcrumb { padding: 80px 5% 0; font-size: 0.85rem; color: var(--text-secondary); }
+        .breadcrumb a { color: var(--primary-vibrant); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        footer { padding: 50px 5% 36px; background: var(--surface); display: flex; flex-direction: column; align-items: center; gap: 24px; }
+        .footer-links { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; font-weight: 500; padding: 6px 12px; border-radius: 8px; transition: 0.2s; }
+        .footer-links a:hover { color: var(--primary); background: rgba(93,61,140,0.06); }
+        .footer-links span { color: #DDD; line-height: 2; }
+        .footer-copy { color: #BBB; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
+
+        @media (max-width: 768px) { section { padding: 70px 5%; } .benefits-grid { grid-template-columns: 1fr; } .how-inner { grid-template-columns: 1fr; } }
+
+        [data-lang] { display: none; }
+        .lang-fr [data-lang="fr"] { display: block; }
+        .lang-en [data-lang="en"] { display: block; }
+        .lang-fr [data-lang="fr"].inline, .lang-en [data-lang="en"].inline { display: inline; }
+    </style>
+</head>
+<body class="lang-fr">
+
+    <header>
+        <a href="/"><img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" class="logo" alt="Caresse"></a>
+        <div class="lang-toggle">
+            <button class="lang-btn active" onclick="setLang('fr')">FR</button>
+            <button class="lang-btn" onclick="setLang('en')">EN</button>
+        </div>
+    </header>
+
+    <div class="breadcrumb">
+        <a href="/">Caresse</a> <span data-lang="fr" class="inline"> › Nouveaux couples</span><span data-lang="en" class="inline"> › New couples</span>
+    </div>
+
+    <section class="hero">
+        <p class="hero-eyebrow">💫 · Nouveaux couples · Audio guidé · IA</p>
+
+        <h1 data-lang="fr">Explorer ensemble<br>sans <em>pression.</em></h1>
+        <h1 data-lang="en">Explore together<br>without <em>pressure.</em></h1>
+
+        <p data-lang="fr">Avec un nouveau partenaire, l'intimité peut sembler difficile à naviguer. Caresse crée un cadre confortable où vous découvrez vos désirs communs ensemble, guidés par une voix, non par l'inconnu.</p>
+        <p data-lang="en">With a new partner, intimacy can feel tricky to navigate. Caresse creates a comfortable framework where you discover your shared desires together — guided by a voice, not by the unknown.</p>
+
+        <div class="cta-group">
+            <a href="https://play.google.com/store/apps/details?id=com.flareai.caresse" class="cta-pink" target="_blank" rel="noopener">
+                <span data-lang="fr" class="inline">Télécharger gratuitement</span>
+                <span data-lang="en" class="inline">Download for free</span>
+            </a>
+            <a href="/" class="cta-ghost">
+                <span data-lang="fr" class="inline">En savoir plus</span>
+                <span data-lang="en" class="inline">Learn more</span>
+            </a>
+        </div>
+        <p class="hero-badge" data-lang="fr">Disponible sur iOS & Android · Session découverte offerte</p>
+        <p class="hero-badge" data-lang="en">Available on iOS & Android · Free discovery session included</p>
+    </section>
+
+    <section class="benefits">
+        <p class="section-label" data-lang="fr">Pourquoi Caresse pour les débuts ?</p>
+        <p class="section-label" data-lang="en">Why Caresse for new beginnings?</p>
+        <h2 class="section-title" data-lang="fr">Construire la complicité dès le début.</h2>
+        <h2 class="section-title" data-lang="en">Building connection from the start.</h2>
+        <p class="section-sub" data-lang="fr">Les premières semaines d'une relation sont décisives. Caresse vous aide à communiquer vos désirs naturellement, sans les mots difficiles à trouver.</p>
+        <p class="section-sub" data-lang="en">The first weeks of a relationship are decisive. Caresse helps you communicate your desires naturally, without the hard-to-find words.</p>
+
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="icon">🌱</div>
+                <h3 data-lang="fr">Briser la glace en douceur</h3>
+                <h3 data-lang="en">Break the ice gently</h3>
+                <p data-lang="fr">Caresse crée un cadre structuré qui retire la pression de l'initiative. Plus besoin de "proposer", vous configurez ensemble et la voix prend le relais.</p>
+                <p data-lang="en">Caresse creates a structured framework that removes the pressure of initiative. No need to "suggest" — you configure together and the voice takes over.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">💬</div>
+                <h3 data-lang="fr">Communiquer vos désirs</h3>
+                <h3 data-lang="en">Communicate your desires</h3>
+                <p data-lang="fr">La configuration de la session devient une conversation naturelle sur vos préférences et limites, sans jugement, dans un cadre sécurisé.</p>
+                <p data-lang="en">The session setup becomes a natural conversation about your preferences and boundaries — without judgment, in a safe framework.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">🛡️</div>
+                <h3 data-lang="fr">Consentement intégré</h3>
+                <h3 data-lang="en">Built-in consent</h3>
+                <p data-lang="fr">Caresse intègre des rappels naturels de consentement et de bien-être dans chaque session, posant des bases saines pour votre relation dès le départ.</p>
+                <p data-lang="en">Caresse weaves natural consent and comfort reminders into every session — laying healthy foundations for your relationship from the start.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">🎨</div>
+                <h3 data-lang="fr">Explorez à votre rythme</h3>
+                <h3 data-lang="en">Explore at your own pace</h3>
+                <p data-lang="fr">Commencez doux, allez plus loin quand vous vous sentez prêts. Caresse s'adapte à l'intensité que vous choisissez, jamais plus, jamais moins.</p>
+                <p data-lang="en">Start gentle, go further when you feel ready. Caresse adapts to the intensity you choose — never more, never less.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="how">
+        <div class="how-inner">
+            <div class="how-text">
+                <p class="section-label" data-lang="fr">Ce que Caresse apporte</p>
+                <p class="section-label" data-lang="en">What Caresse brings</p>
+                <h2 class="section-title" data-lang="fr">Un cadre de confiance pour mieux se découvrir.</h2>
+                <h2 class="section-title" data-lang="en">A framework of trust to discover each other better.</h2>
+                <p class="section-sub" data-lang="fr">Les nouveaux couples ont souvent du mal à articuler leurs désirs. Caresse transforme cette conversation difficile en une expérience partagée et agréable.</p>
+                <p class="section-sub" data-lang="en">New couples often struggle to articulate their desires. Caresse transforms that difficult conversation into a shared and enjoyable experience.</p>
+
+                <ul class="trust-list" data-lang="fr">
+                    <li><span class="check">✦</span> Pas besoin d'initiative explicite, la voix guide</li>
+                    <li><span class="check">✦</span> Configuration ensemble = conversation naturelle sur les désirs</li>
+                    <li><span class="check">✦</span> Consentement et bien-être intégrés dans chaque session</li>
+                    <li><span class="check">✦</span> Aucun contenu visuel, tout dans l'imagination</li>
+                    <li><span class="check">✦</span> Toutes les orientations et dynamiques bienvenus</li>
+                </ul>
+                <ul class="trust-list" data-lang="en">
+                    <li><span class="check">✦</span> No need for explicit initiative, the voice guides</li>
+                    <li><span class="check">✦</span> Configuring together = natural conversation about desires</li>
+                    <li><span class="check">✦</span> Consent and comfort built into every session</li>
+                    <li><span class="check">✦</span> No visual content, everything in the imagination</li>
+                    <li><span class="check">✦</span> All orientations and dynamics welcome</li>
+                </ul>
+            </div>
+            <div>
+                <div style="background: var(--grad-soft); border-radius: 28px; padding: 40px; border: 1px solid rgba(158,123,181,0.12);">
+                    <div style="font-size: 2rem; margin-bottom: 16px;">💌</div>
+                    <p style="font-size: 1.1rem; font-style: italic; color: var(--text-primary); line-height: 1.7; margin-bottom: 16px;" data-lang="fr">« On ne savait pas trop comment parler de ce qu'on voulait. Caresse a rendu ça naturel, la configuration ensemble était déjà une forme d'intimité. »</p>
+                    <p style="font-size: 1.1rem; font-style: italic; color: var(--text-primary); line-height: 1.7; margin-bottom: 16px;" data-lang="en">"We didn't quite know how to talk about what we wanted. Caresse made it natural — configuring it together was already a form of intimacy."</p>
+                    <p style="font-size: 0.9rem; font-weight: 600; color: var(--primary-vibrant);" data-lang="fr">— Utilisateur Caresse, 3 mois de relation</p>
+                    <p style="font-size: 0.9rem; font-weight: 600; color: var(--primary-vibrant);" data-lang="en">— Caresse user, 3 months into relationship</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <p class="section-label" data-lang="fr">Questions fréquentes</p>
+        <p class="section-label" data-lang="en">Frequently asked questions</p>
+        <h2 class="section-title" data-lang="fr">Ce que vous voulez savoir</h2>
+        <h2 class="section-title" data-lang="en">What you want to know</h2>
+
+        <div class="faq-list">
+            <div class="faq-item">
+                <h3 data-lang="fr">Est-ce que Caresse convient aux relations très récentes ?</h3>
+                <h3 data-lang="en">Is Caresse suitable for very new relationships?</h3>
+                <p data-lang="fr">Oui, Caresse est conçu pour tous les stades d'une relation. Les niveaux d'intensité peuvent démarrer très doucement, du romantique jusqu'au plus explicite. Vous choisissez.</p>
+                <p data-lang="en">Yes — Caresse is designed for all relationship stages. Intensity levels can start very gently, from romantic to more explicit. You choose.</p>
+            </div>
+            <div class="faq-item">
+                <h3 data-lang="fr">Comment Caresse aide-t-il à parler de ses désirs ?</h3>
+                <h3 data-lang="en">How does Caresse help talk about desires?</h3>
+                <p data-lang="fr">La configuration de la session est une liste de préférences à explorer ensemble, ambiance, pratiques, dynamiques. C'est une conversation guidée par des options, pas des mots à trouver seul.</p>
+                <p data-lang="en">The session setup is a list of preferences to explore together — atmosphere, practices, dynamics. It's a conversation guided by options, not words to find alone.</p>
+            </div>
+            <div class="faq-item">
+                <h3 data-lang="fr">Que se passe-t-il si on n'est pas d'accord sur certaines préférences ?</h3>
+                <h3 data-lang="en">What if we disagree on some preferences?</h3>
+                <p data-lang="fr">Vous configurez toujours ce qui convient aux deux partenaires, si une option ne plait pas, il suffit de ne pas la sélectionner. Le consentement est au cœur de l'expérience.</p>
+                <p data-lang="en">You always configure what works for both partners — if an option doesn't appeal, simply don't select it. Consent is at the heart of the experience.</p>
+            </div>
+            <div class="faq-item">
+                <h3 data-lang="fr">Caresse est-il adapté à des orientations et dynamiques variées ?</h3>
+                <h3 data-lang="en">Is Caresse suitable for varied orientations and dynamics?</h3>
+                <p data-lang="fr">Oui, Caresse est conçu pour être inclusif. Toutes les orientations, identités de genre et dynamiques relationnelles sont les bienvenues. La configuration vous permet de définir exactement qui vous êtes et ce qui vous attire.</p>
+                <p data-lang="en">Yes — Caresse is designed to be inclusive. All orientations, gender identities, and relationship dynamics are welcome. The setup lets you define exactly who you are and what draws you in.</p>
+            </div>
+            <div class="faq-item">
+                <h3 data-lang="fr">Est-ce que Caresse peut être utilisé lors d'une première rencontre ?</h3>
+                <h3 data-lang="en">Can Caresse be used on a first date?</h3>
+                <p data-lang="fr">Caresse convient mieux à des personnes qui se connaissent déjà un peu, la configuration ensemble implique de parler de ses préférences. C'est idéal à partir du moment où vous êtes à l'aise pour avoir cette conversation.</p>
+                <p data-lang="en">Caresse is better suited for people who already know each other a bit — configuring together involves talking about preferences. It's ideal from the moment you're comfortable having that conversation.</p>
+            </div>
+            <div class="faq-item">
+                <h3 data-lang="fr">Et si on n'est pas du même avis sur l'intensité ?</h3>
+                <h3 data-lang="en">What if we don't agree on intensity?</h3>
+                <p data-lang="fr">C'est souvent là que Caresse aide le plus. La configuration crée naturellement une conversation sur vos limites respectives, sans pression ni confrontation. Vous choisissez toujours l'option qui convient aux deux.</p>
+                <p data-lang="en">This is often where Caresse helps most. The setup naturally creates a conversation about your respective boundaries — without pressure or confrontation. You always choose the option that works for both.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERNAL LINKS -->
+    <section style="background:var(--surface);padding:60px 5%;">
+        <p class="section-label" data-lang="fr">La relation évolue ? Découvrez aussi</p>
+        <p class="section-label" data-lang="en">As the relationship grows, also discover</p>
+        <h2 class="section-title" data-lang="fr">Caresse accompagne toutes les étapes.</h2>
+        <h2 class="section-title" data-lang="en">Caresse accompanies every stage.</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:900px;margin-top:32px;">
+            <a href="/for-couples/" style="background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='none'">
+                <div style="font-size:1.6rem;margin-bottom:8px;">🔥</div>
+                <p style="font-weight:700;color:var(--primary);font-size:0.95rem;" data-lang="fr">Couples installés</p>
+                <p style="font-weight:700;color:var(--primary);font-size:0.95rem;" data-lang="en">Established couples</p>
+                <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="fr">Raviver la flamme et sortir de la routine</p>
+                <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="en">Rekindle the spark and break the routine</p>
+            </a>
+            <a href="/for-long-term-couples/" style="background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='none'">
+                <div style="font-size:1.6rem;margin-bottom:8px;">🕰️</div>
+                <p style="font-weight:700;color:var(--primary);font-size:0.95rem;" data-lang="fr">Couples de longue date</p>
+                <p style="font-weight:700;color:var(--primary);font-size:0.95rem;" data-lang="en">Long-term couples</p>
+                <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="fr">Raviver la flamme dans la durée</p>
+                <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="en">Keep the flame alive over time</p>
+            </a>
+            <a href="/for-solo-exploration/" style="background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='none'">
+                <div style="font-size:1.6rem;margin-bottom:8px;">🌙</div>
+                <p style="font-weight:700;color:var(--primary);font-size:0.95rem;" data-lang="fr">Exploration solo</p>
+                <p style="font-weight:700;color:var(--primary);font-size:0.95rem;" data-lang="en">Solo exploration</p>
+                <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="fr">Se connaître avant de partager</p>
+                <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="en">Know yourself before sharing</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="cta-section" id="download">
+        <p class="section-label" data-lang="fr">Prêt·e·s à commencer ensemble ?</p>
+        <p class="section-label" data-lang="en">Ready to start together?</p>
+        <h2 class="section-title" data-lang="fr">Votre première expérience<br>partagée vous attend.</h2>
+        <h2 class="section-title" data-lang="en">Your first shared experience<br>is waiting.</h2>
+        <p class="section-sub" data-lang="fr">Téléchargez Caresse gratuitement. Une session de découverte vous est offerte dès la première ouverture, sans inscription, sans engagement.</p>
+        <p class="section-sub" data-lang="en">Download Caresse for free. A discovery session is offered on first launch — no sign-up, no commitment.</p>
+
+        <div class="store-badges">
+            <a href="#" class="store-badge" style="pointer-events:none;">
+                <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
+                <span class="coming-soon">Coming Soon</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.flareai.caresse" class="store-badge gplay" target="_blank" rel="noopener noreferrer">
+                <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+            </a>
+        </div>
+        <p class="age-notice" data-lang="fr">🔞 Réservé aux adultes de 18 ans et plus</p>
+        <p class="age-notice" data-lang="en">🔞 For adults aged 18 and over only</p>
+    </section>
+
+    <footer>
+        <a href="/"><img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" style="height:28px;" alt="Caresse"></a>
+        <div class="footer-links">
+            <a href="/legal/fr/cgu.html" data-lang="fr" rel="nofollow">CGU</a>
+            <a href="/legal/en/cgu.html" data-lang="en" rel="nofollow">Terms of Service</a>
+            <span>·</span>
+            <a href="/legal/fr/privacy.html" data-lang="fr" rel="nofollow">Confidentialité</a>
+            <a href="/legal/en/privacy.html" data-lang="en" rel="nofollow">Privacy Policy</a>
+        </div>
+        <p class="footer-copy" data-lang="fr">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a>, Caresse · 18+ Adultes uniquement</p>
+        <p class="footer-copy" data-lang="en">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a> — Caresse · 18+ Adults only</p>
+    </footer>
+
+    <script>
+        function setLang(lang) {
+            document.body.className = 'lang-' + lang;
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+            });
+            document.documentElement.lang = lang;
+        }
+        const userLang = navigator.language?.startsWith('fr') ? 'fr' : 'en';
+        setLang(userLang);
+    </script>
+</body>
+</html>
