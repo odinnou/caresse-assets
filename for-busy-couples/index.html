@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- ══ SEO PRIMARY ══ -->
     <title>Caresse pour les couples débordés — Retrouvez l'intimité même sans temps | iOS & Android</title>
     <meta name="description" content="Caresse aide les couples débordés à maintenir l'intimité malgré un quotidien chargé. Sessions audio intimes guidées par l'IA, courtes, simples, quand vous avez enfin un moment.">
     <meta name="keywords" content="couple occupé, intimité manque de temps, couple chargé, rituel couple rapide, intimité quotidien chargé, app couple busy, reconnecter couple travail">
@@ -12,22 +13,43 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
     <link rel="canonical" href="https://caresse.app/for-busy-couples/">
+    <meta name="theme-color" content="#5D3D8C">
+    <meta name="format-detection" content="telephone=no">
 
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://caresse.app/sitemap.xml">
+
+    <!-- ══ HREFLANG ══ -->
+    <link rel="alternate" hreflang="fr" href="https://caresse.app/for-busy-couples/">
+    <link rel="alternate" hreflang="en" href="https://caresse.app/for-busy-couples/">
+    <link rel="alternate" hreflang="es" href="https://caresse.app/for-busy-couples/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/for-busy-couples/">
+    <link rel="alternate" hreflang="x-default" href="https://caresse.app/for-busy-couples/">
+
+    <!-- ══ OPEN GRAPH ══ -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://caresse.app/for-busy-couples/">
     <meta property="og:site_name" content="Caresse">
     <meta property="og:title" content="Caresse pour les couples débordés — Retrouvez l'intimité">
     <meta property="og:description" content="Un rituel audio intime guidé par l'IA pour les couples qui manquent de temps. Quand vous avez enfin un moment — rendez-le mémorable.">
     <meta property="og:image" content="https://caresse.app/screens/fr/08_android_fr.png">
+    <meta property="og:image:width" content="1080">
+    <meta property="og:image:height" content="1920">
+    <meta property="og:image:alt" content="Caresse pour les couples débordés — expérience audio intime guidée par l'IA">
     <meta property="og:locale" content="fr_FR">
     <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:locale:alternate" content="pt_PT">
 
+    <!-- ══ TWITTER CARD ══ -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Caresse pour les couples débordés">
     <meta name="twitter:description" content="Pas besoin de planifier des heures. Caresse crée un moment d'intimité quand vous avez enfin le temps.">
     <meta name="twitter:image" content="https://caresse.app/screens/fr/08_android_fr.png">
+    <meta name="twitter:image:alt" content="Caresse pour les couples débordés — expérience audio intime guidée par l'IA">
 
+    <!-- ══ SCHEMA.ORG JSON-LD ══ -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -35,7 +57,10 @@
       "name": "Caresse pour les couples débordés",
       "description": "Expérience audio intime guidée par l'IA pour les couples dont le quotidien est chargé. Retrouvez la connexion et l'intimité même avec peu de temps.",
       "url": "https://caresse.app/for-busy-couples/",
+      "inLanguage": ["fr", "en", "es", "pt"],
       "isPartOf": { "@type": "WebSite", "name": "Caresse", "url": "https://caresse.app/" },
+      "about": { "@type": "MobileApplication", "name": "Caresse", "url": "https://caresse.app/", "operatingSystem": "iOS, Android", "applicationCategory": "LifestyleApplication" },
+      "primaryImageOfPage": { "@type": "ImageObject", "url": "https://caresse.app/screens/fr/08_android_fr.png" },
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
@@ -45,6 +70,11 @@
       }
     }
     </script>
+
+    <link rel="preconnect" href="https://raw.githubusercontent.com">
+    <link rel="dns-prefetch" href="https://developer.apple.com">
+    <link rel="dns-prefetch" href="https://play.google.com">
+    <link rel="dns-prefetch" href="https://mokuton.studio">
 
     <style>
         :root {
@@ -145,10 +175,10 @@
 <body class="lang-fr">
 
     <header>
-        <a href="/"><img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" class="logo" alt="Caresse"></a>
-        <div class="lang-toggle">
-            <button class="lang-btn active" onclick="setLang('fr')">FR</button>
-            <button class="lang-btn" onclick="setLang('en')">EN</button>
+        <a href="/" aria-label="Caresse — accueil"><img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" class="logo" alt="Caresse, Application audio intime guidée par l'IA"></a>
+        <div class="lang-toggle" role="group" aria-label="Choisir la langue">
+            <button class="lang-btn active" onclick="setLang('fr')" aria-label="Français">FR</button>
+            <button class="lang-btn" onclick="setLang('en')" aria-label="English">EN</button>
         </div>
     </header>
 
@@ -341,8 +371,8 @@
         <div style="max-width:700px;margin:48px auto 0;background:var(--grad-soft);border-radius:28px;padding:48px;border-left:4px solid var(--primary-vibrant);">
             <blockquote style="font-size:1.2rem;line-height:1.7;color:var(--text-primary);font-style:italic;margin-bottom:20px;" data-lang="fr">« Entre le boulot et les enfants, l'intimité était devenue une case à cocher, voire un conflit. Caresse a transformé ça en quelque chose qu'on attend vraiment. Dix minutes de configuration, et on se retrouve. »</blockquote>
             <blockquote style="font-size:1.2rem;line-height:1.7;color:var(--text-primary);font-style:italic;margin-bottom:20px;" data-lang="en">"Between work and the kids, intimacy had become a box to tick — or even a source of conflict. Caresse transformed it into something we actually look forward to. Ten minutes of setup, and we reconnect."</blockquote>
-            <p style="font-size:0.9rem;font-weight:600;color:var(--primary-vibrant);" data-lang="fr">— Utilisateurs Caresse, couple avec deux enfants</p>
-            <p style="font-size:0.9rem;font-weight:600;color:var(--primary-vibrant);" data-lang="en">— Caresse users, couple with two children</p>
+            <p style="font-size:0.9rem;font-weight:600;color:var(--primary-vibrant);" data-lang="fr">— Céline & Thomas, utilisateurs Caresse</p>
+            <p style="font-size:0.9rem;font-weight:600;color:var(--primary-vibrant);" data-lang="en">— Sarah & Mark, Caresse users</p>
         </div>
     </section>
 
@@ -360,6 +390,13 @@
                 <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="fr">Ralentissez et reconnectez-vous en profondeur</p>
                 <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="en">Slow down and deeply reconnect</p>
             </a>
+            <a href="/for-new-couples/" style="background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='none'">
+                <div style="font-size:1.6rem;margin-bottom:8px;">💫</div>
+                <p style="font-weight:700;color:var(--primary);font-size:0.95rem;" data-lang="fr">Nouveaux couples</p>
+                <p style="font-weight:700;color:var(--primary);font-size:0.95rem;" data-lang="en">New couples</p>
+                <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="fr">Explorer ensemble sans pression</p>
+                <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="en">Explore together without pressure</p>
+            </a>
             <a href="/for-long-term-couples/" style="background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='none'">
                 <div style="font-size:1.6rem;margin-bottom:8px;">🕰️</div>
                 <p style="font-weight:700;color:var(--primary);font-size:0.95rem;" data-lang="fr">Couples de longue date</p>
@@ -374,6 +411,13 @@
                 <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="fr">Votre espace rien que pour vous</p>
                 <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="en">Your space just for you</p>
             </a>
+            <a href="/for-adventurous-couples/" style="background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='none'">
+                <div style="font-size:1.6rem;margin-bottom:8px;">🔥</div>
+                <p style="font-weight:700;color:var(--primary);font-size:0.95rem;" data-lang="fr">Couples aventuriers</p>
+                <p style="font-weight:700;color:var(--primary);font-size:0.95rem;" data-lang="en">Adventurous couples</p>
+                <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="fr">Oser explorer sans limites</p>
+                <p style="font-size:0.82rem;color:var(--text-secondary);margin-top:4px;" data-lang="en">Dare to explore without limits</p>
+            </a>
         </div>
     </section>
 
@@ -386,11 +430,11 @@
         <p class="section-sub" data-lang="en">Download Caresse for free. A discovery session is offered on first launch — no sign-up, no commitment.</p>
 
         <div class="store-badges">
-            <a href="#" class="store-badge" style="pointer-events:none;">
+            <a href="#" class="store-badge" aria-label="Download on the App Store" style="pointer-events:none;">
                 <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
                 <span class="coming-soon">Coming Soon</span>
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.flareai.caresse" class="store-badge gplay" target="_blank" rel="noopener noreferrer">
+            <a href="https://play.google.com/store/apps/details?id=com.flareai.caresse" class="store-badge gplay" aria-label="Get it on Google Play" target="_blank" rel="noopener noreferrer">
                 <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
             </a>
         </div>
@@ -399,13 +443,19 @@
     </section>
 
     <footer>
-        <a href="/"><img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" style="height:28px;" alt="Caresse"></a>
+        <a href="/" aria-label="Caresse — accueil"><img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" style="height:28px;" alt="Caresse"></a>
         <div class="footer-links">
             <a href="/legal/fr/cgu.html" data-lang="fr" rel="nofollow">CGU</a>
             <a href="/legal/en/cgu.html" data-lang="en" rel="nofollow">Terms of Service</a>
             <span>·</span>
+            <a href="/legal/fr/cgv.html" data-lang="fr" rel="nofollow">CGV</a>
+            <a href="/legal/en/cgv.html" data-lang="en" rel="nofollow">Terms of Sale</a>
+            <span>·</span>
             <a href="/legal/fr/privacy.html" data-lang="fr" rel="nofollow">Confidentialité</a>
             <a href="/legal/en/privacy.html" data-lang="en" rel="nofollow">Privacy Policy</a>
+            <span>·</span>
+            <a href="/legal/fr/legals.html" data-lang="fr" rel="nofollow">Mentions légales</a>
+            <a href="/legal/en/legals.html" data-lang="en" rel="nofollow">Legal Notice</a>
         </div>
         <p class="footer-copy" data-lang="fr">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a>, Caresse · 18+ Adultes uniquement</p>
         <p class="footer-copy" data-lang="en">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a> — Caresse · 18+ Adults only</p>
