@@ -175,10 +175,10 @@
 <body class="lang-fr">
 
     <header>
-        <a href="/"><img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" class="logo" alt="Caresse"></a>
-        <div class="lang-toggle">
-            <button class="lang-btn active" onclick="setLang('fr')">FR</button>
-            <button class="lang-btn" onclick="setLang('en')">EN</button>
+        <a href="/" aria-label="Caresse — accueil"><img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" class="logo" alt="Caresse, Application audio intime guidée par l'IA"></a>
+        <div class="lang-toggle" role="group" aria-label="Choisir la langue">
+            <button class="lang-btn active" onclick="setLang('fr')" aria-label="Français">FR</button>
+            <button class="lang-btn" onclick="setLang('en')" aria-label="English">EN</button>
         </div>
     </header>
 
@@ -430,11 +430,11 @@
         <p class="section-sub" data-lang="en">Download Caresse for free. A discovery session is offered on first launch — no sign-up, no commitment.</p>
 
         <div class="store-badges">
-            <a href="#" class="store-badge" style="pointer-events:none;">
+            <a href="#" class="store-badge" aria-label="Download on the App Store" style="pointer-events:none;">
                 <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
                 <span class="coming-soon">Coming Soon</span>
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.flareai.caresse" class="store-badge gplay" target="_blank" rel="noopener noreferrer">
+            <a href="https://play.google.com/store/apps/details?id=com.flareai.caresse" class="store-badge gplay" aria-label="Get it on Google Play" target="_blank" rel="noopener noreferrer">
                 <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
             </a>
         </div>
@@ -443,13 +443,19 @@
     </section>
 
     <footer>
-        <a href="/"><img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" style="height:28px;" alt="Caresse"></a>
+        <a href="/" aria-label="Caresse — accueil"><img src="https://raw.githubusercontent.com/odinnou/assets/main/caresse-logo.svg" style="height:28px;" alt="Caresse"></a>
         <div class="footer-links">
             <a href="/legal/fr/cgu.html" data-lang="fr" rel="nofollow">CGU</a>
             <a href="/legal/en/cgu.html" data-lang="en" rel="nofollow">Terms of Service</a>
             <span>·</span>
+            <a href="/legal/fr/cgv.html" data-lang="fr" rel="nofollow">CGV</a>
+            <a href="/legal/en/cgv.html" data-lang="en" rel="nofollow">Terms of Sale</a>
+            <span>·</span>
             <a href="/legal/fr/privacy.html" data-lang="fr" rel="nofollow">Confidentialité</a>
             <a href="/legal/en/privacy.html" data-lang="en" rel="nofollow">Privacy Policy</a>
+            <span>·</span>
+            <a href="/legal/fr/legals.html" data-lang="fr" rel="nofollow">Mentions légales</a>
+            <a href="/legal/en/legals.html" data-lang="en" rel="nofollow">Legal Notice</a>
         </div>
         <p class="footer-copy" data-lang="fr">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a>, Caresse · 18+ Adultes uniquement</p>
         <p class="footer-copy" data-lang="en">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a> — Caresse · 18+ Adults only</p>
