@@ -155,6 +155,11 @@
         text-decoration: none; }
 
         .lang-btn.active { background: var(--primary); color: white; }
+        .header-right { display: flex; align-items: center; gap: 16px; }
+        .header-link { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; font-weight: 600; padding: 6px 12px; border-radius: 10px; transition: 0.2s; }
+        .header-link:hover, .header-link.active { color: var(--primary); background: rgba(93,61,140,0.06); }
+        @media (max-width: 768px) { .header-link { display: none; } }
+
 
         /* ── HERO ── */
         .hero {
@@ -600,9 +605,12 @@
     <!-- HEADER -->
     <header>
         <a href="/" aria-label="Caresse — accueil"><img src="/caresse-logo.svg" class="logo" alt="Caresse, Application audio intime guidée par l'IA"></a>
-        <div class="lang-toggle" role="group" aria-label="Choisir la langue">
+        <div class="header-right">
+            <a href="/blog/" class="header-link">Blog</a>
+            <div class="lang-toggle" role="group" aria-label="Choisir la langue">
             <a class="lang-btn active" href="/" hreflang="fr" aria-label="Français" aria-current="page">FR</a>
             <a class="lang-btn" href="/en/" hreflang="en" aria-label="English">EN</a>
+        </div>
         </div>
     </header>
 
@@ -896,6 +904,7 @@
     <footer>
         <a href="/" aria-label="Caresse — accueil"><img src="/caresse-logo.svg" style="height:28px;" alt="Caresse"></a>
         <nav aria-label="Cas d'usage" style="display:flex;gap:6px 16px;flex-wrap:wrap;justify-content:center;max-width:720px;">
+            <a href="/blog/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'">Blog</a>
             <a href="/for-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Pour les couples</span></a>
             <a href="/for-solo-exploration/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Exploration solo</span></a>
             <a href="/for-new-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Nouveaux couples</span></a>
