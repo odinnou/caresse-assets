@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- ══ SEO PRIMARY ══ -->
-    <title>Caresse — Expérience audio intime guidée par l'IA | iOS & Android</title>
-    <meta name="description" content="Caresse : une expérience audio immersive et privée pour éveiller l'intimité. Sessions générées par l'IA, solo ou en couple, sans contenu visuel. Gratuit sur iOS et Android.">
+    <title>Caresse — AI-guided intimate audio experience | iOS & Android</title>
+    <meta name="description" content="Caresse: a private, immersive audio experience to awaken intimacy. AI-generated sessions, solo or as a couple, with no visual content. Free on iOS and Android.">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Studio Mokuton">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
-    <link rel="canonical" href="https://caresse.app/">
+    <link rel="canonical" href="https://caresse.app/en/">
     <meta name="theme-color" content="#5D3D8C">
     <meta name="format-detection" content="telephone=no">
 
@@ -26,23 +26,23 @@
 
     <!-- ══ OPEN GRAPH ══ -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://caresse.app/">
+    <meta property="og:url" content="https://caresse.app/en/">
     <meta property="og:site_name" content="Caresse">
-    <meta property="og:title" content="Caresse — L'intimité guidée par l'IA">
-    <meta property="og:description" content="Expériences audio intimes et sensorielles générées en temps réel par l'IA. Solo ou en couple. Chaque session est unique, rien que pour vous.">
-    <meta property="og:image" content="https://caresse.app/og-image-fr.png">
+    <meta property="og:title" content="Caresse — AI-guided intimacy">
+    <meta property="og:description" content="Intimate, sensorial audio experiences generated in real time by AI. Solo or as a couple. Every session is unique, just for you.">
+    <meta property="og:image" content="https://caresse.app/og-image-en.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Caresse — expérience audio intime guidée par l'IA, sur iOS et Android">
-    <meta property="og:locale" content="fr_FR">
-    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:image:alt" content="Caresse — AI-guided intimate audio experience, on iOS and Android">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
 
     <!-- ══ TWITTER CARD ══ -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Caresse — L'intimité guidée par l'IA">
-    <meta name="twitter:description" content="Expériences audio intimes générées en temps réel par l'IA. Solo ou en couple.">
-    <meta name="twitter:image" content="https://caresse.app/og-image-fr.png">
-    <meta name="twitter:image:alt" content="Caresse — expérience audio intime guidée par l'IA">
+    <meta name="twitter:title" content="Caresse — AI-guided intimacy">
+    <meta name="twitter:description" content="Intimate audio experiences generated in real time by AI. Solo or as a couple.">
+    <meta name="twitter:image" content="https://caresse.app/og-image-en.png">
+    <meta name="twitter:image:alt" content="Caresse — AI-guided intimate audio experience">
 
     <!-- ══ SCHEMA.ORG JSON-LD ══ -->
     <script type="application/ld+json">
@@ -50,8 +50,8 @@
       "@context": "https://schema.org",
       "@type": "MobileApplication",
       "name": "Caresse",
-      "description": "Application audio intime guidée par intelligence artificielle. Expériences sensorielles uniques générées en temps réel, personnalisées pour chaque utilisateur, solo ou en couple.",
-      "url": "https://caresse.app/",
+      "description": "AI-guided intimate audio app. Unique sensorial experiences generated in real time, personalized for each user, solo or as a couple.",
+      "url": "https://caresse.app/en/",
       "applicationCategory": "LifestyleApplication",
       "operatingSystem": "iOS, Android",
       "publisher": {
@@ -73,14 +73,14 @@
         "@type": "Audience",
         "audienceType": "Adults 18+"
       },
-      "inLanguage": ["fr", "en"],
+      "inLanguage": ["en", "fr"],
       "featureList": [
-        "Expériences audio guidées générées par IA",
-        "Personnalisation complète : ambiance, intensité, accessoires",
-        "Mode solo et mode duo",
-        "Design inclusif et ouvert à toutes les identités",
-        "Interface privée et discrète",
-        "Sessions uniques à chaque génération"
+        "AI-guided audio experiences",
+        "Full personalization: ambiance, intensity, accessories",
+        "Solo and duo modes",
+        "Inclusive design open to all identities",
+        "Private, discreet interface",
+        "Unique sessions on every generation"
       ]
     }
     </script>
@@ -151,6 +151,8 @@
             font-weight: 600;
             cursor: pointer;
             color: var(--text-secondary);
+            text-decoration: none;
+            display: inline-block;
             transition: all 0.2s;
         }
 
@@ -592,60 +594,75 @@
 
         /* ── LANG SWITCHING ── */
         [data-lang] { display: none; }
-        </style>
+        .lang-fr [data-lang="fr"] { display: block; }
+        .lang-en [data-lang="en"] { display: block; }
+        .lang-fr [data-lang="fr"].inline,
+        .lang-en [data-lang="en"].inline { display: inline; }
+        .lang-fr [data-lang="fr"].flex,
+        .lang-en [data-lang="en"].flex { display: flex; }
+        .lang-fr [data-lang="fr"].grid,
+        .lang-en [data-lang="en"].grid { display: grid; }
+    </style>
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6b719cf0e70742e8b3a654e48e31eac7"}'></script><!-- End Cloudflare Web Analytics -->
 </head>
-<body class="lang-fr">
+<body class="lang-en">
 
     <!-- HEADER -->
     <header>
-        <a href="/" aria-label="Caresse — accueil"><img src="/caresse-logo.svg" class="logo" alt="Caresse, Application audio intime guidée par l'IA"></a>
-        <div class="lang-toggle" role="group" aria-label="Choisir la langue">
-            <a class="lang-btn active" href="/" hreflang="fr" aria-label="Français" aria-current="page">FR</a>
-            <a class="lang-btn" href="/en/" hreflang="en" aria-label="English">EN</a>
+        <a href="/en/" aria-label="Caresse — home"><img src="/caresse-logo.svg" class="logo" alt="Caresse, AI-guided intimate audio app"></a>
+        <div class="lang-toggle" role="group" aria-label="Choose language">
+            <a class="lang-btn" href="/" hreflang="fr" aria-label="Français">FR</a>
+            <a class="lang-btn active" href="/en/" hreflang="en" aria-label="English" aria-current="page">EN</a>
         </div>
     </header>
 
     <!-- HERO -->
     <section class="hero">
-        <p class="hero-eyebrow">✦ 18+ · Audio guidé · Intelligence artificielle</p>
+        <p class="hero-eyebrow">✦ 18+ · Guided audio · Artificial intelligence</p>
 
-        <h1>Ralentir.<br>Ressentir.<br><em>Se reconnecter.</em></h1>
-        <p>Caresse est une expérience audio immersive et privée conçue pour éveiller en douceur l'intimité, que vous soyez seul·e ou en couple. Une voix vous guide, une ambiance se crée, et chaque session est générée uniquement pour vous.</p>
+        <h1>Slow down.<br>Feel.<br><em>Reconnect.</em></h1>
+
+        <p>Caresse is a private, immersive audio experience designed to gently awaken intimacy — whether you are exploring on your own or sharing the moment with a partner. A voice guides you, an atmosphere unfolds, and every session is generated uniquely for you.</p>
+
         <div class="cta-group">
             <a href="#download" class="cta-pink">
-                <span class="inline">Télécharger gratuitement</span>
-                </a>
+                
+                <span class="inline">Download for free</span>
+            </a>
             <a href="#how" class="cta-ghost">
-                <span class="inline">Découvrir l'app</span>
+                
+                <span class="inline">Discover the app</span>
                 <span>↓</span>
             </a>
         </div>
 
-        <p class="hero-badge">Disponible sur iOS & Android · Expérience démo gratuite à l'ouverture</p>
-        </section>
+        <p class="hero-badge">Available on iOS & Android · Free demo experience on first launch</p>
+    </section>
 
     <!-- PROMISE -->
     <section class="promise" id="how">
         <div class="promise-text">
-            <p class="section-label">La promesse</p>
-            <h2 class="section-title">Une intimité guidée par la voix,<br>pas par l'image.</h2>
-            <p class="section-sub">Caresse vous invite à ralentir, à vous reconnecter à vos sensations et à redécouvrir la puissance de la présence. Chaque session crée un espace intime, respectueux et sécurisé où le confort, l'écoute et le consentement restent essentiels. Aucun contenu visuel explicite, seulement votre imagination et une voix qui vous accompagne.</p>
-            </div>
+            
+            <p class="section-label">The promise</p>
+
+            <h2 class="section-title">Intimacy guided by voice,<br>not by visuals.</h2>
+
+            <p class="section-sub">Caresse invites you to slow down, reconnect with your sensations, and rediscover the power of presence. Each session creates a calm, respectful and intimate space where comfort, consent, and emotional awareness always come first. No explicit visuals — only your imagination and a voice that guides you.</p>
+        </div>
         <div class="promise-mockup">
             <div class="phone-carousel-wrap">
                 <div class="phone-carousel" id="phoneCarousel">
                     <div class="phone-carousel-track" id="carouselTrack">
-                        <div class="phone-carousel-slide active"><img src="screens/fr/01_android_fr.webp" alt="Caresse, écran d'accueil"></div>
-                        <div class="phone-carousel-slide"><img src="screens/fr/02_android_fr.webp" alt="Caresse, configuration de session" loading="lazy"></div>
-                        <div class="phone-carousel-slide"><img src="screens/fr/03_android_fr.webp" alt="Caresse, personnalisation du profil" loading="lazy"></div>
-                        <div class="phone-carousel-slide"><img src="screens/fr/04_android_fr.webp" alt="Caresse, choix du mode" loading="lazy"></div>
-                        <div class="phone-carousel-slide"><img src="screens/fr/05_android_fr.webp" alt="Caresse, participants" loading="lazy"></div>
-                        <div class="phone-carousel-slide"><img src="screens/fr/06_android_fr.webp" alt="Caresse, préférences" loading="lazy"></div>
-                        <div class="phone-carousel-slide"><img src="screens/fr/07_android_fr.webp" alt="Caresse, envies et configuration" loading="lazy"></div>
-                        <div class="phone-carousel-slide"><img src="screens/fr/08_android_fr.webp" alt="Caresse, intensité et ambiance" loading="lazy"></div>
-                        <div class="phone-carousel-slide"><img src="screens/fr/09_android_fr.webp" alt="Caresse, expérience prête" loading="lazy"></div>
-                        <div class="phone-carousel-slide"><img src="screens/fr/10_android_fr.webp" alt="Caresse, session audio" loading="lazy"></div>
+                        <div class="phone-carousel-slide active"><img src="screens/en/01_android_en.webp" alt="Caresse, home screen"></div>
+                        <div class="phone-carousel-slide"><img src="screens/en/02_android_en.webp" alt="Caresse, session setup" loading="lazy"></div>
+                        <div class="phone-carousel-slide"><img src="screens/en/03_android_en.webp" alt="Caresse, profile customization" loading="lazy"></div>
+                        <div class="phone-carousel-slide"><img src="screens/en/04_android_en.webp" alt="Caresse, mode selection" loading="lazy"></div>
+                        <div class="phone-carousel-slide"><img src="screens/en/05_android_en.webp" alt="Caresse, participants" loading="lazy"></div>
+                        <div class="phone-carousel-slide"><img src="screens/en/06_android_en.webp" alt="Caresse, preferences" loading="lazy"></div>
+                        <div class="phone-carousel-slide"><img src="screens/en/07_android_en.webp" alt="Caresse, desires and configuration" loading="lazy"></div>
+                        <div class="phone-carousel-slide"><img src="screens/en/08_android_en.webp" alt="Caresse, intensity and ambiance" loading="lazy"></div>
+                        <div class="phone-carousel-slide"><img src="screens/en/09_android_en.webp" alt="Caresse, experience ready" loading="lazy"></div>
+                        <div class="phone-carousel-slide"><img src="screens/en/10_android_en.webp" alt="Caresse, audio session" loading="lazy"></div>
                     </div>
                 </div>
                 <div class="carousel-dots" id="carouselDots"></div>
@@ -656,111 +673,153 @@
     <!-- STEPS -->
     <section class="steps">
         <div class="steps-header">
-            <p class="section-label">Comment ça marche</p>
-            <h2 class="section-title">Votre expérience audio intime en 4 étapes</h2>
-            <p class="section-sub">Configurez, lancez, et Caresse crée une expérience sur-mesure, entièrement personnalisée. Vous êtes notifié·e dès qu'elle est prête.</p>
-            </div>
+            
+            <p class="section-label">How it works</p>
+
+            <h2 class="section-title">Your intimate audio experience in 4 steps</h2>
+
+            <p class="section-sub">Configure, launch, and Caresse creates a fully tailored experience. You're notified as soon as it's ready.</p>
+        </div>
 
         <div class="steps-grid">
             <div class="step-card">
                 <div class="step-screen">
-                    <img src="screens/fr/05_android_fr.png" loading="lazy" alt="Qui participe, choisissez solo ou duo, personnalisez vos profils">
+                    
+                    <img src="screens/en/05_android_en.png" loading="lazy" alt="Who participates — choose solo or duo, personalize your profiles">
                 </div>
                 <div class="step-body">
-                    <p class="step-num">Étape 01</p>
-                    <h3>Qui participe ?</h3>
-                    <p>Solo ou en duo, choisissez votre mode et personnalisez librement vos profils. Un prénom d'emprunt suffit. Vos vraies données restent les vôtres.</p>
-                    </div>
+                    
+                    <p class="step-num">Step 01</p>
+                    
+                    <h3>Who participates?</h3>
+                    
+                    <p>Solo or with a partner — choose your mode and personalize your profiles freely. An alias is all you need. Your real data stays yours.</p>
+                </div>
             </div>
 
             <div class="step-card">
                 <div class="step-screen">
-                    <img src="screens/fr/07_android_fr.png" loading="lazy" alt="Vos envies, accessoires, pratiques, ambiance, personnalisation complète">
+                    
+                    <img src="screens/en/07_android_en.png" loading="lazy" alt="Your desires — accessories, practices, atmosphere, full customization">
                 </div>
                 <div class="step-body">
-                    <p class="step-num">Étape 02</p>
-                    <h3>Vos envies, vos règles</h3>
-                    <p>Ambiance sonore, ton de la guidance, pratiques, accessoires, dynamiques… Définissez librement ce qui vous attire. Caresse s'adapte à vous, jamais l'inverse.</p>
-                    </div>
+                    
+                    <p class="step-num">Step 02</p>
+                    
+                    <h3>Your desires, your rules</h3>
+                    
+                    <p>Sound ambience, guidance tone, practices, accessories, dynamics… Define freely what draws you in. Caresse adapts to you — never the other way around.</p>
+                </div>
             </div>
 
             <div class="step-card">
                 <div class="step-screen">
-                    <img src="screens/fr/08_android_fr.png" loading="lazy" alt="Intensité et ambiance musicale, romantique, explicite, zen, nature">
+                    
+                    <img src="screens/en/08_android_en.png" loading="lazy" alt="Intensity and music mood — romantic, explicit, zen, nature">
                 </div>
                 <div class="step-body">
-                    <p class="step-num">Étape 03</p>
-                    <h3>Intensité & ambiance</h3>
-                    <p>Romantique ou explicite ? Zen ou nature ? Ajustez le ton et l'intensité de la guidance pour que l'atmosphère vous ressemble exactement.</p>
-                    </div>
+                    
+                    <p class="step-num">Step 03</p>
+                    
+                    <h3>Intensity & mood</h3>
+                    
+                    <p>Romantic or explicit? Zen or nature? Adjust the tone and guidance intensity so the atmosphere fits exactly who you are right now.</p>
+                </div>
             </div>
 
             <div class="step-card">
                 <div class="step-screen">
-                    <img src="screens/fr/09_android_fr.png" loading="lazy" alt="Expérience prête, générée sur mesure par l'IA, notification dès que c'est prêt">
+                    
+                    <img src="screens/en/09_android_en.png" loading="lazy" alt="Experience ready — custom-generated by AI, notified when it's ready">
                 </div>
                 <div class="step-body">
-                    <p class="step-num">Étape 04</p>
-                    <h3>Expérience prête</h3>
-                    <p>Caresse génère votre session en quelques minutes. Vous êtes notifié·e dès que c'est prêt. Unique, inédite, rien que pour vous, et différente à chaque fois.</p>
-                    </div>
+                    
+                    <p class="step-num">Step 04</p>
+                    
+                    <h3>Experience ready</h3>
+                    
+                    <p>Caresse generates your session in moments. You're notified as soon as it's ready. Unique, never heard before, made just for you — and different every time.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- FOR WHO -->
     <section class="forwho">
-        <p class="section-label">Pour qui ?</p>
-        <h2 class="section-title" style="margin-bottom: 48px;">Caresse s'adapte à vous.</h2>
+        
+        <p class="section-label">Who is it for?</p>
+
+        <h2 class="section-title" style="margin-bottom: 48px;">Caresse adapts to you.</h2>
+
         <div class="forwho-inner">
             <div class="forwho-card">
                 <div class="icon">🌙</div>
-                <p class="tagline">Un espace rien que pour vous.</p>
+                
+                <p class="tagline">A space that's entirely yours.</p>
+                
                 <h3>Solo</h3>
-                <p>Un espace intime pour se détendre, explorer son imaginaire et se reconnecter à ses émotions et à son corps, sans pression, sans performance, sans regard extérieur. Juste vous, la voix, et le temps qu'il vous faut.</p>
-                </div>
+                
+                <p>A private and supportive space to explore sensations, imagination, and emotional awareness — without pressure or performance, without anyone watching. Just you, the voice, and all the time you need.</p>
+            </div>
             <div class="forwho-card">
                 <div class="icon">🔥</div>
-                <p class="tagline">Un rituel pour sortir de la routine.</p>
-                <h3>En couple</h3>
-                <p>En couple, Caresse devient un rituel partagé pour ralentir ensemble, raviver la complicité et explorer de nouvelles sensations. Une façon de communiquer autrement, de se redécouvrir, et de créer des moments qui vous appartiennent vraiment.</p>
-                </div>
+                
+                <p class="tagline">A ritual to step outside routine.</p>
+                
+                <h3>As a couple</h3>
+                
+                <p>For couples, Caresse becomes a shared ritual — a way to slow down together, rediscover connection, communicate differently, and step outside everyday routines. Moments that belong to the two of you, and no one else.</p>
+            </div>
         </div>
 
-        <p style="margin-top: 32px; font-size: 0.9rem; color: var(--text-secondary);">✦ Toutes les identités, genres et dynamiques relationnelles sont les bienvenu·e·s.</p>
+        <p style="margin-top: 32px; font-size: 0.9rem; color: var(--text-secondary);">✦ All identities, genders, and relationship dynamics are welcome.</p>
+
         <div style="margin-top: 56px; width: 100%; max-width: 900px;">
-            <p class="section-label" style="margin-bottom: 20px;">Votre situation spécifique</p>
+            
+            <p class="section-label" style="margin-bottom: 20px;">Your specific situation</p>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px;">
-                <a href="/for-solo-exploration/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                <a href="/en/for-solo-exploration/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
                     <div style="font-size: 1.5rem; margin-bottom: 8px;">🌙</div>
-                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">Exploration solo</p>
-                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">Un espace privé, à votre rythme</p>
-                    </a>
-                <a href="/for-couples/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                    
+                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">Solo exploration</p>
+                    
+                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">A private space, at your pace</p>
+                </a>
+                <a href="/en/for-couples/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
                     <div style="font-size: 1.5rem; margin-bottom: 8px;">🔥</div>
-                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">Pour les couples</p>
-                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">Raviver la complicité ensemble</p>
-                    </a>
-                <a href="/for-long-term-couples/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                    
+                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">For couples</p>
+                    
+                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">Reignite connection together</p>
+                </a>
+                <a href="/en/for-long-term-couples/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
                     <div style="font-size: 1.5rem; margin-bottom: 8px;">🕰️</div>
-                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">Couples de longue date</p>
-                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">Redécouvrir quelque chose de nouveau ensemble</p>
-                    </a>
-                <a href="/for-new-couples/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                    
+                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">Long-term couples</p>
+                    
+                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">Rediscover something new together</p>
+                </a>
+                <a href="/en/for-new-couples/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
                     <div style="font-size: 1.5rem; margin-bottom: 8px;">💫</div>
-                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">Nouveaux couples</p>
-                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">Explorer sans pression dès le début</p>
-                    </a>
-                <a href="/for-busy-couples/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                    
+                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">New couples</p>
+                    
+                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">Explore without pressure from the start</p>
+                </a>
+                <a href="/en/for-busy-couples/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
                     <div style="font-size: 1.5rem; margin-bottom: 8px;">⚡</div>
-                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">Couples débordés</p>
-                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">L'intimité même avec peu de temps</p>
-                    </a>
-                <a href="/for-adventurous-couples/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                    
+                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">Busy couples</p>
+                    
+                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">Intimacy even with little time</p>
+                </a>
+                <a href="/en/for-adventurous-couples/" style="background: var(--grad-soft); border-radius: 16px; padding: 20px; text-decoration: none; border: 1px solid rgba(158,123,181,0.12); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(93,61,140,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
                     <div style="font-size: 1.5rem; margin-bottom: 8px;">🔥</div>
-                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">Couples aventuriers</p>
-                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">Explorer sans limites, oser plus loin</p>
-                    </a>
+                    
+                    <p style="font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 4px;">Adventurous couples</p>
+                    
+                    <p style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">Explore without limits, dare further</p>
+                </a>
             </div>
         </div>
     </section>
@@ -768,33 +827,41 @@
     <!-- AUDIO SESSION -->
     <section class="audio-section">
         <div class="audio-text">
-            <p class="section-label">La session audio</p>
-            <h2 class="section-title">Prenez le temps.<br>Écoutez.<br>Ressentez.</h2>
-            <p class="section-sub">Quand votre session est prête, installez-vous. La voix prend le relais, avec douceur, avec intention. Des suggestions portées par la guidance, des rappels naturels autour du consentement. Fermez les yeux. Laissez l'expérience se déployer. Caresse s'éclipse doucement… et vous laisse la suite.</p>
+            
+            <p class="section-label">The audio session</p>
+
+            <h2 class="section-title">Take your time.<br>Listen.<br>Feel.</h2>
+
+            <p class="section-sub">When your session is ready, settle in. The voice takes over — gently, with intention. Suggestions carried through guidance, natural reminders around consent and comfort. Close your eyes. Let the experience unfold. Caresse gently arrives… and gently steps away.</p>
+
             <div class="audio-features">
                 <div class="audio-feature">
                     <div class="audio-feature-icon">🎧</div>
                     <div>
-                        <span>Session audio entièrement générée par l'IA, unique à chaque fois</span>
-                        </div>
+                        
+                        <span>Fully AI-generated audio session — unique every time</span>
+                    </div>
                 </div>
                 <div class="audio-feature">
                     <div class="audio-feature-icon">🔒</div>
                     <div>
-                        <span>Aucun contenu visuel explicite, seulement votre imagination</span>
-                        </div>
+                        
+                        <span>No explicit visual content — only your imagination</span>
+                    </div>
                 </div>
                 <div class="audio-feature">
                     <div class="audio-feature-icon">💬</div>
                     <div>
-                        <span>Rappels naturels de consentement intégrés dans la guidance</span>
-                        </div>
+                        
+                        <span>Natural consent reminders woven into the guidance</span>
+                    </div>
                 </div>
                 <div class="audio-feature">
                     <div class="audio-feature-icon">✦</div>
                     <div>
-                        <span>Disponible en français et en anglais</span>
-                        </div>
+                        
+                        <span>Available in French and English</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -876,9 +943,13 @@
 
     <!-- CTA FINAL -->
     <section class="cta-section" id="download">
-        <p class="section-label">Prêt·e à commencer ?</p>
-        <h2 class="section-title">Votre première expérience<br>vous attend.</h2>
-        <p class="section-sub">Téléchargez Caresse gratuitement. Une session de découverte vous est offerte dès la première ouverture, sans inscription, sans engagement. Prenez le temps. Ressentez. Laissez l'expérience se déployer.</p>
+        
+        <p class="section-label">Ready to begin?</p>
+
+        <h2 class="section-title">Your first experience<br>is waiting.</h2>
+
+        <p class="section-sub">Download Caresse for free. A discovery session is waiting for you on your very first launch — no sign-up, no commitment. Take your time. Feel. Let the experience unfold.</p>
+
         <div class="store-badges">
             <a href="#" class="store-badge" aria-label="Download on the App Store" style="pointer-events:none;">
                 <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
@@ -889,31 +960,36 @@
             </a>
         </div>
 
-        <p class="age-notice">🔞 Réservé aux adultes de 18 ans et plus</p>
-        </section>
+        <p class="age-notice">🔞 For adults aged 18 and over only</p>
+    </section>
 
     <!-- FOOTER -->
     <footer>
-        <a href="/" aria-label="Caresse — accueil"><img src="/caresse-logo.svg" style="height:28px;" alt="Caresse"></a>
-        <nav aria-label="Cas d'usage" style="display:flex;gap:6px 16px;flex-wrap:wrap;justify-content:center;max-width:720px;">
-            <a href="/for-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Pour les couples</span></a>
-            <a href="/for-solo-exploration/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Exploration solo</span></a>
-            <a href="/for-new-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Nouveaux couples</span></a>
-            <a href="/for-long-term-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Couples de longue date</span></a>
-            <a href="/for-busy-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Couples débordés</span></a>
-            <a href="/for-adventurous-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Couples aventuriers</span></a>
+        <a href="/en/" aria-label="Caresse — home"><img src="/caresse-logo.svg" style="height:28px;" alt="Caresse"></a>
+        <nav aria-label="Use cases" style="display:flex;gap:6px 16px;flex-wrap:wrap;justify-content:center;max-width:720px;">
+            <a href="/en/for-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">For couples</span></a>
+            <a href="/en/for-solo-exploration/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Solo exploration</span></a>
+            <a href="/en/for-new-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">New couples</span></a>
+            <a href="/en/for-long-term-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Long-term couples</span></a>
+            <a href="/en/for-busy-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Busy couples</span></a>
+            <a href="/en/for-adventurous-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Adventurous couples</span></a>
         </nav>
         <div class="footer-links">
-            <a href="/legal/fr/cgu.html" rel="nofollow">CGU</a>
+            
+            <a href="/legal/en/cgu.html" rel="nofollow">Terms of Service</a>
             <span>·</span>
-            <a href="/legal/fr/cgv.html" rel="nofollow">CGV</a>
+            
+            <a href="/legal/en/cgv.html" rel="nofollow">Terms of Sale</a>
             <span>·</span>
-            <a href="/legal/fr/privacy.html" rel="nofollow">Confidentialité</a>
+            
+            <a href="/legal/en/privacy.html" rel="nofollow">Privacy Policy</a>
             <span>·</span>
-            <a href="/legal/fr/legals.html" rel="nofollow">Mentions légales</a>
-            </div>
-        <p class="footer-copy">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a>, Caresse · 18+ Adultes uniquement</p>
-        </footer>
+            
+            <a href="/legal/en/legals.html" rel="nofollow">Legal Notice</a>
+        </div>
+        
+        <p class="footer-copy">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a> — Caresse · 18+ Adults only</p>
+    </footer>
 
     <script>
         // Carousel
