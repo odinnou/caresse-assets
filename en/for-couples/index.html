@@ -148,6 +148,11 @@
         .lang-toggle { display: flex; gap: 4px; background: rgba(93,61,140,0.08); border-radius: 20px; padding: 4px; }
         .lang-btn { border: none; background: none; padding: 6px 14px; border-radius: 16px; font-size: 0.85rem; font-weight: 600; cursor: pointer; color: var(--text-secondary); transition: all 0.2s; text-decoration: none; }
         .lang-btn.active { background: var(--primary); color: white; }
+        .header-right { display: flex; align-items: center; gap: 16px; }
+        .header-link { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; font-weight: 600; padding: 6px 12px; border-radius: 10px; transition: 0.2s; }
+        .header-link:hover, .header-link.active { color: var(--primary); background: rgba(93,61,140,0.06); }
+        @media (max-width: 768px) { .header-link { display: none; } }
+
 
         .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 120px 8% 80px; background: radial-gradient(ellipse at 60% 40%, rgba(147,97,253,0.12) 0%, transparent 60%), radial-gradient(ellipse at 20% 80%, rgba(255,107,157,0.10) 0%, transparent 50%), var(--background); }
         .hero-eyebrow { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 20px; opacity: 0.8; }
@@ -225,9 +230,12 @@
 
     <header>
         <a href="/en/" aria-label="Caresse — home"><img src="/caresse-logo.svg" class="logo" alt="Caresse, AI-guided intimate audio app"></a>
-        <div class="lang-toggle" role="group" aria-label="Choose language">
+        <div class="header-right">
+            <a href="/en/blog/" class="header-link">Blog</a>
+            <div class="lang-toggle" role="group" aria-label="Choose language">
             <a class="lang-btn" href="/for-couples/" hreflang="fr" aria-label="Français">FR</a>
             <a class="lang-btn active" href="/en/for-couples/" hreflang="en" aria-label="English" aria-current="page">EN</a>
+        </div>
         </div>
     </header>
 
@@ -469,6 +477,7 @@
     <footer>
         <a href="/en/" aria-label="Caresse — home"><img src="/caresse-logo.svg" style="height:28px;" alt="Caresse"></a>
         <nav aria-label="Use cases" style="display:flex;gap:6px 16px;flex-wrap:wrap;justify-content:center;max-width:720px;">
+            <a href="/en/blog/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'">Blog</a>
             <a href="/en/for-solo-exploration/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Solo exploration</span></a>
             <a href="/en/for-new-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">New couples</span></a>
             <a href="/en/for-long-term-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Long-term couples</span></a>
