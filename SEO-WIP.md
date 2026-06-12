@@ -1,6 +1,6 @@
-# SEO WIP — Chantier "URLs /en/ séparées"
+# SEO WIP — Chantier "URLs /en/ séparées" — TERMINÉ ✅
 
-> **État au 2026-06-10** — Branche `feat/new-seo`. Travail en cours sur le chantier #2 de l'audit SEO (création de pages EN avec URLs propres pour qu'elles soient indexées par Google).
+> **État au 2026-06-12** — Chantier terminé sur branche `feat/seo-3`. Les 7 pages EN sont indexables, les 7 pages FR sont nettoyées, hreflang croisés OK, sitemap à jour, doc CLAUDE.md ajoutée. Voir CLAUDE.md section "Architecture multilingue FR / EN" pour les règles de maintenance.
 
 ## Contexte
 
