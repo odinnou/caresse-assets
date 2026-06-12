@@ -3,65 +3,128 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://caresse.app/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/en/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/"/>
   </url>
   <url>
     <loc>https://caresse.app/for-couples/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-couples/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/for-couples/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-couples/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-couples/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/en/for-couples/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-couples/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-couples/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-couples/"/>
   </url>
   <url>
     <loc>https://caresse.app/for-solo-exploration/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-solo-exploration/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/for-solo-exploration/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-solo-exploration/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-solo-exploration/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/en/for-solo-exploration/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-solo-exploration/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-solo-exploration/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-solo-exploration/"/>
   </url>
   <url>
     <loc>https://caresse.app/for-long-term-couples/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-long-term-couples/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/for-long-term-couples/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-long-term-couples/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-long-term-couples/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/en/for-long-term-couples/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-long-term-couples/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-long-term-couples/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-long-term-couples/"/>
   </url>
   <url>
     <loc>https://caresse.app/for-new-couples/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-new-couples/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/for-new-couples/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-new-couples/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-new-couples/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/en/for-new-couples/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-new-couples/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-new-couples/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-new-couples/"/>
   </url>
   <url>
     <loc>https://caresse.app/for-busy-couples/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-busy-couples/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/for-busy-couples/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-busy-couples/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-busy-couples/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/en/for-busy-couples/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-busy-couples/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-busy-couples/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-busy-couples/"/>
   </url>
   <url>
     <loc>https://caresse.app/for-adventurous-couples/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-adventurous-couples/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/for-adventurous-couples/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-adventurous-couples/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-adventurous-couples/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/en/for-adventurous-couples/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/for-adventurous-couples/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/for-adventurous-couples/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/for-adventurous-couples/"/>
   </url>
 </urlset>
