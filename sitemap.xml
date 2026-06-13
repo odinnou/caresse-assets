@@ -217,4 +217,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/vs-inthemoment/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/vs-inthemoment/"/>
   </url>
+  <url>
+    <loc>https://caresse.app/vs-melt/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/vs-melt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/vs-melt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/vs-melt/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/en/vs-melt/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/vs-melt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/vs-melt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/vs-melt/"/>
+  </url>
 </urlset>

@@ -1,6 +1,6 @@
 # Comparison pages — Chantier "Pages /vs-* + hub /alternatives/" — TERMINÉ + ITÉRATION 2 ✅
 
-> **État au 2026-06-13** — Premier batch livré sur branche `feat/seo-5`. 8 pages (3 vs + 1 hub, FR et EN), sitemap mis à jour, hreflang croisés OK. **Itération 2 (même jour)** : repositionnement offensif autour des 4 piliers (cf [memory/caresse-positioning-pillars.md](~/.claude/projects/-Users-odinnou-dev-assets/memory/caresse-positioning-pillars.md)) — silver bullet « démo sans compte », anonymous-first, FR/EN/ES, hero soft.
+> **État au 2026-06-13** — Premier batch livré sur branche `feat/seo-5`. 8 pages (3 vs + 1 hub, FR et EN), sitemap mis à jour, hreflang croisés OK. **Itération 2 (même jour)** : repositionnement offensif autour des 4 piliers. **Itération 3 (2026-06-13)** : ajout des vrais prix Caresse (2,99 € / 8,49 € / 11,99 € + accès à vie) sur les 6 pages vs existantes ; création de `/vs-melt/` + `/en/vs-melt/` (Melt Stories) ; ajout de Melt dans la matrice et les featured cards des hubs `/alternatives/`.
 
 ## Pages créées
 
@@ -9,7 +9,8 @@
 | `/vs-melba/` | `/en/vs-melba/` | **Melba** | Catalogue francophone pré-enregistré (thérapeutes) vs scénario unique avec prénoms |
 | `/vs-coelle/` | `/en/vs-coelle/` | **Coelle** | Library d'intimité guidée internationale ($49.99/an) vs achat à la session |
 | `/vs-inthemoment/` | `/en/vs-inthemoment/` | **InTheMoment** | Approche AI uniquement (cas d'usage différent) : prompts curatés vs génération ouverte |
-| `/alternatives/` | `/en/alternatives/` | Hub | Panorama : 3 comparaisons mises en avant + Dipsea / Ferly / Bloom Stories en cartes courtes |
+| `/vs-melt/` | `/en/vs-melt/` | **Melt Stories** | Stories intimes pour couples (anglais, compte requis, pricing non communiqué) vs scénario unique avec prénoms |
+| `/alternatives/` | `/en/alternatives/` | Hub | Panorama : 4 comparaisons mises en avant (Melba, Coelle, InTheMoment, Melt) + Dipsea / Ferly / Bloom Stories en cartes courtes |
 
 ## Itération 2 (2026-06-13) — repositionnement offensif
 
@@ -56,20 +57,27 @@ Après livraison initiale, repositionnement des 8 pages autour des **4 piliers C
 8. **Header link "Alternatives"** : ajouté à côté de "Blog" dans le header. **À propager aux pages existantes** (home, `/for-*/`, blog, EN miroirs) lors du prochain passage — non fait dans ce chantier pour rester surgical.
 9. **Footer** : un lien "Alternatives" ajouté dans la nav du footer de chaque page `/vs-*` et `/alternatives/`. Les pages anciennes n'ont pas été touchées.
 
-## Données concurrents (constatées 2026-06-13)
+## Données concurrents (tarifs au premier trimestre 2026, taux 1 EUR = 1,16 USD)
 
 À mettre à jour si les concurrents changent :
 
-| Concurrent | Modèle | Tarif référencé | Langue | Source |
-|---|---|---|---|---|
-| Melba | Abonnement | Non chiffré (vérifier officiel) | FR | melba.app |
-| Coelle | Abonnement annuel | ~49,99 $/an | EN | coelle.app |
-| Dipsea | Abonnement annuel | ~69,99 $/an | EN | mention via coelle/dipsea |
-| InTheMoment | Gratuit + Pro | ~7,99 £/mois | EN + 9 (Pro) | inthemoment.app |
-| Ferly | Abonnement | Non chiffré | EN | - |
-| Bloom Stories | Abonnement | Non chiffré | EN | - |
+| Concurrent | Modèle | Tarif affiché (EUR) | Tarif source | Langue | Source |
+|---|---|---|---|---|---|
+| Melba | Abonnement | Non chiffré (vérifier officiel) | — | FR | melba.app |
+| Coelle | Abonnement annuel | ~43 €/an | $49.99/yr | EN | coelle.app |
+| Dipsea | Abonnement annuel | ~60 €/an | $69.99/yr | EN | mention via coelle/dipsea |
+| InTheMoment | Gratuit + Pro | ~7,99 £/mois (devise originale) | £7.99/mo | EN + 9 (Pro) | inthemoment.app |
+| Ferly | Abonnement | Non chiffré | — | EN | - |
+| Bloom Stories | Abonnement | Non chiffré | — | EN | - |
+| Melt Stories | Non communiqué | Non communiqué publiquement | — | EN | meltstories.com |
 
-Une note `Données tarifaires constatées en juin 2026` est présente sur chaque page (pricing-footnote / footnote) pour assumer la fraîcheur des chiffres.
+**Tarifs Caresse (en vigueur juin 2026)** : 2,99 € / 1 expérience (25–35 min) · 8,49 € / 3 expériences · 11,99 € / 5 expériences. Chaque expérience générée est disponible à vie sur le compte. Ces tarifs sont affichés sur toutes les pages `/vs-*` depuis l'itération 3.
+
+**Choix éditorial** : Coelle et Dipsea convertis en EUR (taux 1.16 fourni par le métier). InTheMoment laissé en £ (devise originale UK, plus précis). La mention `Tarifs au premier trimestre 2026, conversion 1 EUR = 1,16 USD` est présente sur chaque page (pricing-footnote / footnote / FAQ).
+
+## Melba : démos / mode offline
+
+Melba propose un **mode offline avec quelques scénarios gratuits** (constaté Q1 2026). Mention factuelle sans en faire la promo : on dit « Quelques scénarios disponibles en mode offline » (FR) / « A few scenarios available in offline mode » (EN) dans le verdict tableau de `/vs-melba/` et dans la matrice de `/alternatives/`. On ne fait pas plus que mentionner. La page reste positionnée sur la silver bullet Caresse (dizaines de démos sans compte ni inscription).
 
 ## Sitemap
 
