@@ -14,7 +14,7 @@
 
 ## Itération 2 (2026-06-13) — repositionnement offensif
 
-Après livraison initiale, repositionnement des 8 pages autour des **4 piliers Caresse** (cf memory). Objectif explicite : capture SEO offensive sur les recherches « <concurrent> alternative », « <concurrent> vs », « <concurrent> review ». L'utilisateur arrive sur ces pages parce qu'il évalue un concurrent — chaque page doit montrer une silver bullet qui penche clairement vers Caresse.
+Après livraison initiale, repositionnement des 8 pages autour des **4 piliers Caresse** (cf memory). Objectif explicite : capture SEO offensive sur les recherches « <concurrent> alternative », « <concurrent> vs », « <concurrent> review ». L'utilisateur arrive sur ces pages parce qu'il évalue un concurrent, chaque page doit montrer une silver bullet qui penche clairement vers Caresse.
 
 ### Silver bullets martelées
 1. **« Démo audio gratuite sans compte, FR/EN/ES »** — répété en hero, badge, tableau, FAQ, CTA. Différenciateur principal vs Coelle (compte obligatoire), valable vs tous les autres aussi.
