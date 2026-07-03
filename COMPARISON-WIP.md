@@ -59,7 +59,7 @@ Après livraison initiale, repositionnement des 8 pages autour des **4 piliers C
 
 ## Données concurrents (tarifs au premier trimestre 2026, taux 1 EUR = 1,16 USD)
 
-À mettre à jour si les concurrents changent :
+À mettre à jour si les concurrents changent:
 
 | Concurrent | Modèle | Tarif affiché (EUR) | Tarif source | Langue | Source |
 |---|---|---|---|---|---|
