@@ -274,7 +274,7 @@
         <h1>Vous vous connaissez par cœur.<br><em>Redécouvrez-vous quand même.</em></h1>
         <p>Avec le temps, l'intimité ne disparaît pas, elle se répète. Caresse brise ce cycle en générant des expériences audio que vous n'auriez jamais pensé à proposer vous-mêmes, à chaque fois différentes.</p>
         <div class="cta-group">
-            <a href="https://play.google.com/store/apps/details?id=com.flareai.caresse" class="cta-pink" target="_blank" rel="noopener">
+            <a href="https://apps.apple.com/us/app/caresse/id6758887086" id="hero-cta" class="cta-pink" target="_blank" rel="noopener">
                 <span class="inline">Télécharger gratuitement</span>
                 </a>
             <a href="/" class="cta-ghost">
@@ -484,5 +484,13 @@
         </div>
         <p class="footer-copy">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a> — Caresse · 18+ Adultes uniquement</p>
         </footer>
+    <script>
+        (function () {
+            if (/Android/i.test(navigator.userAgent)) {
+                var cta = document.getElementById('hero-cta');
+                if (cta) cta.href = "https://play.google.com/store/apps/details?id=com.flareai.caresse";
+            }
+        })();
+    </script>
 </body>
 </html>

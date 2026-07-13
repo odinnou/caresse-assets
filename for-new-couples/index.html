@@ -265,7 +265,7 @@
         <h1>Explorer ensemble<br>sans <em>pression.</em></h1>
         <p>Avec un nouveau partenaire, l'intimité peut sembler difficile à naviguer. Caresse crée un cadre confortable où vous découvrez vos désirs communs ensemble, guidés par une voix, non par l'inconnu.</p>
         <div class="cta-group">
-            <a href="https://play.google.com/store/apps/details?id=com.flareai.caresse" class="cta-pink" target="_blank" rel="noopener">
+            <a href="https://apps.apple.com/us/app/caresse/id6758887086" id="hero-cta" class="cta-pink" target="_blank" rel="noopener">
                 <span class="inline">Télécharger gratuitement</span>
                 </a>
             <a href="/" class="cta-ghost">
@@ -434,5 +434,13 @@
         </div>
         <p class="footer-copy">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a>, Caresse · 18+ Adultes uniquement</p>
         </footer>
+    <script>
+        (function () {
+            if (/Android/i.test(navigator.userAgent)) {
+                var cta = document.getElementById('hero-cta');
+                if (cta) cta.href = "https://play.google.com/store/apps/details?id=com.flareai.caresse";
+            }
+        })();
+    </script>
 </body>
 </html>

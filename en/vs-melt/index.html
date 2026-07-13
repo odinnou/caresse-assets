@@ -79,7 +79,7 @@
           "name": "How much does Caresse cost compared to Melt?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Caresse displays its prices clearly: €2.99 for 1 experience of 25–35 min, €8.49 for 3 experiences, €11.99 for 5. Each generated experience is then available for life in your account. Melt does not publicly communicate its pricing model — check their site before deciding."
+            "text": "Caresse displays its prices clearly: €1.99 for 1 experience of 25–35 min, €5.49 for 3 experiences, €7.99 for 5. Each generated experience is then available for life in your account. Melt does not publicly communicate its pricing model — check their site before deciding."
           }
         },
         {
@@ -305,7 +305,7 @@
         <h1>Caresse vs Melt:<br>hearing it <em>is not the same as reading it.</em></h1>
         <p>Melt generates personalized erotic text stories — no account needed, AI-driven, genuinely intimate. Caresse does the same thing but in audio: a synthesized voice speaks your names and narrates a 25–35 min scenario built from your profile. Reading an erotic story vs hearing one told for you — same concept, fundamentally different experience.</p>
         <div class="cta-group">
-            <a href="https://play.google.com/store/apps/details?id=com.flareai.caresse" class="cta-pink" target="_blank" rel="noopener">Listen to free demos</a>
+            <a href="https://apps.apple.com/us/app/caresse/id6758887086" id="hero-cta" class="cta-pink" target="_blank" rel="noopener">Listen to free demos</a>
             <a href="#verdict" class="cta-ghost">See the verdict</a>
         </div>
         <p class="hero-badge">Audio in French, English, Spanish · No account, no email · Android (iOS coming soon)</p>
@@ -366,7 +366,7 @@
                     </tr>
                     <tr>
                         <th class="crit">Pricing model</th>
-                        <td class="caresse">Pay per session — €2.99 · €8.49 · €11.99</td>
+                        <td class="caresse">Pay per session — €1.99 · €5.49 · €7.99</td>
                         <td class="other">Not publicly disclosed</td>
                     </tr>
                     <tr>
@@ -407,7 +407,7 @@
                     <li>Precise duration (25–35 min, you choose the time you have)</li>
                     <li>Virtually infinite combinations: genders, practices, accessories, intensity, location, atmosphere</li>
                     <li>Native duo and solo modes</li>
-                    <li>€2.99 / €8.49 / €11.99 — experiences available for life</li>
+                    <li>€1.99 / €5.49 / €7.99 — experiences available for life</li>
                 </ul>
             </div>
             <div class="col-card muted">
@@ -439,18 +439,23 @@
                 <div style="display:flex;flex-direction:column;gap:8px;text-align:left;border-top:1px solid rgba(255,255,255,0.25);padding-top:14px;">
                     <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;">
                         <span>1 experience (25–35 min)</span>
-                        <strong>€2.99</strong>
+                        <strong>€1.99</strong>
                     </div>
                     <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;">
                         <span>3 experiences</span>
-                        <strong>€8.49</strong>
+                        <strong>€5.49</strong>
                     </div>
                     <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;">
                         <span>5 experiences</span>
-                        <strong>€11.99</strong>
+                        <strong>€7.99</strong>
                     </div>
                 </div>
                 <p class="price-note" style="margin-top:12px;font-size:0.82rem;opacity:0.85;">Once generated, each experience is yours forever — available any time on your account and in the app.</p>
+                <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.85rem;margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,0.25);">
+                    <span>Unlimited Exploration (one-time, lifetime)</span>
+                    <strong>€9.99</strong>
+                </div>
+                <p class="price-note" style="margin-top:6px;font-size:0.78rem;opacity:0.8;">Unlocks advanced personalization options + 1 free credit.</p>
             </div>
             <div class="price-card">
                 <h3>Melt Stories</h3>
@@ -475,7 +480,7 @@
                     <li>your names spoken aloud in the narration</li>
                     <li>an eyes-closed, screen-free experience</li>
                     <li>audio content in French or Spanish, not just English</li>
-                    <li>to pay per session with transparent prices (€2.99 / €8.49 / €11.99)</li>
+                    <li>to pay per session with transparent prices (€1.99 / €5.49 / €7.99)</li>
                     <li>each generated session saved for life, no account required</li>
                     <li>audio content in FR, EN and ES in the same app</li>
                 </ul>
@@ -511,7 +516,7 @@
             </div>
             <div class="faq-item">
                 <h3>How much does Caresse cost?</h3>
-                <p>Caresse displays its prices clearly: €2.99 for 1 audio experience of 25–35 min, €8.49 for 3, €11.99 for 5. Each generated experience is available for life. Melt does not publicly communicate its pricing model.</p>
+                <p>Caresse displays its prices clearly: €1.99 for 1 audio experience of 25–35 min, €5.49 for 3, €7.99 for 5. Each generated experience is available for life. Melt does not publicly communicate its pricing model.</p>
             </div>
             <div class="faq-item">
                 <h3>Can you really compare Caresse and Melt?</h3>
@@ -602,5 +607,13 @@
         </div>
         <p class="footer-copy">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a>, Caresse · 18+ Adults only</p>
     </footer>
+    <script>
+        (function () {
+            if (/Android/i.test(navigator.userAgent)) {
+                var cta = document.getElementById('hero-cta');
+                if (cta) cta.href = "https://play.google.com/store/apps/details?id=com.flareai.caresse";
+            }
+        })();
+    </script>
 </body>
 </html>
