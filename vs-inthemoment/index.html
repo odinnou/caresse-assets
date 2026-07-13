@@ -288,7 +288,7 @@
         <h1>Caresse vs InTheMoment :<br>écoutez avant <em>de vous engager.</em></h1>
         <p>InTheMoment est une excellente app de méditation et d'hypnose AI, sur plan mensuel. Caresse adresse un autre besoin (l'audio intime guidé) avec une approche différente : des dizaines de vraies démos jouables tout de suite, en français, anglais et espagnol, sans création de compte. L'app entière fonctionne anonymement, paiement compris.</p>
         <div class="cta-group">
-            <a href="https://play.google.com/store/apps/details?id=com.flareai.caresse" class="cta-pink" target="_blank" rel="noopener">Écouter les démos gratuites</a>
+            <a href="https://apps.apple.com/us/app/caresse/id6758887086" id="hero-cta" class="cta-pink" target="_blank" rel="noopener">Écouter les démos gratuites</a>
             <a href="#verdict" class="cta-ghost">Voir le verdict</a>
         </div>
         <p class="hero-badge">Audio en français, anglais, espagnol · Usage 100 % anonyme · Sans abonnement</p>
@@ -449,18 +449,23 @@
                 <div style="display:flex;flex-direction:column;gap:8px;text-align:left;border-top:1px solid rgba(255,255,255,0.25);padding-top:14px;">
                     <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;">
                         <span>1 expérience (25–35 min)</span>
-                        <strong>2,99 €</strong>
+                        <strong>1,99 €</strong>
                     </div>
                     <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;">
                         <span>3 expériences</span>
-                        <strong>8,49 €</strong>
+                        <strong>5,49 €</strong>
                     </div>
                     <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;">
                         <span>5 expériences</span>
-                        <strong>11,99 €</strong>
+                        <strong>7,99 €</strong>
                     </div>
                 </div>
                 <p class="price-note" style="margin-top:12px;font-size:0.82rem;opacity:0.85;">Une fois générée, chaque expérience est disponible à vie sur votre compte et dans l'app.</p>
+                <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.85rem;margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,0.25);">
+                    <span>Exploration sans limites (achat unique, à vie)</span>
+                    <strong>9,99 €</strong>
+                </div>
+                <p class="price-note" style="margin-top:6px;font-size:0.78rem;opacity:0.8;">Débloque les options de personnalisation avancées + 1 crédit offert.</p>
             </div>
             <div class="price-card">
                 <h3>InTheMoment</h3>
@@ -613,5 +618,13 @@
         </div>
         <p class="footer-copy">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a>, Caresse · 18+ Adultes uniquement</p>
     </footer>
+    <script>
+        (function () {
+            if (/Android/i.test(navigator.userAgent)) {
+                var cta = document.getElementById('hero-cta');
+                if (cta) cta.href = "https://play.google.com/store/apps/details?id=com.flareai.caresse";
+            }
+        })();
+    </script>
 </body>
 </html>
