@@ -21,8 +21,8 @@
   </url>
   <url>
     <loc>https://caresse.app/blog/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/blog/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/"/>
@@ -30,12 +30,66 @@
   </url>
   <url>
     <loc>https://caresse.app/en/blog/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/blog/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/blog/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/blog/raviver-la-flamme-couple/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/blog/raviver-la-flamme-couple/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/rekindle-relationship-spark/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/blog/raviver-la-flamme-couple/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/en/blog/rekindle-relationship-spark/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/blog/raviver-la-flamme-couple/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/rekindle-relationship-spark/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/blog/raviver-la-flamme-couple/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/blog/parler-de-ses-fantasmes/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/blog/parler-de-ses-fantasmes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/talk-about-fantasies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/blog/parler-de-ses-fantasmes/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/en/blog/talk-about-fantasies/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/blog/parler-de-ses-fantasmes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/talk-about-fantasies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/blog/parler-de-ses-fantasmes/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/blog/exploration-solo-deculpabiliser/</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/blog/exploration-solo-deculpabiliser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/solo-exploration-without-guilt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/blog/exploration-solo-deculpabiliser/"/>
+  </url>
+  <url>
+    <loc>https://caresse.app/en/blog/solo-exploration-without-guilt/</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caresse.app/blog/exploration-solo-deculpabiliser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/solo-exploration-without-guilt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caresse.app/blog/exploration-solo-deculpabiliser/"/>
   </url>
   <url>
     <loc>https://caresse.app/for-couples/</loc>
