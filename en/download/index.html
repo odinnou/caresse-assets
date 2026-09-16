@@ -95,6 +95,7 @@
     <!-- Umami Analytics -->
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
     <script defer src="/umami-store-tracking.js"></script>
+    <script defer src="/mobile-store-cta.js"></script>
 </head>
 <body>
     <div class="card">
@@ -114,12 +115,8 @@
             if (BOT.test(ua)) { return; }
 
             var iosUrl = document.getElementById('ios-link').href;
-            var androidUrl = document.getElementById('android-link').href;
-
             if (/iPad|iPhone|iPod/.test(ua)) {
                 window.location.replace(iosUrl);
-            } else if (/android/i.test(ua)) {
-                window.location.replace(androidUrl);
             }
         })();
     </script>
