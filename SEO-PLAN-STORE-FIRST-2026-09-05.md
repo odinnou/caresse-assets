@@ -304,7 +304,7 @@ Vérifier aussi le focus clavier lorsque le flottant est masqué : `aria-hidden`
 
 Employer de façon cohérente « Caresse » accompagné de sa catégorie : application audio intime, solo et couple, disponible sur iOS et Android. Une recherche de marque doit rapidement identifier le bon produit malgré les homonymes.
 
-Les fiches publiques [App Store](https://apps.apple.com/us/app/caresse-intimate-ai-audio/id6758887086) et [Google Play](https://play.google.com/store/apps/details?id=com.flareai.caresse) sont accessibles. Le site doit préparer à ce que l’utilisateur y retrouve : même nom, même identité visuelle, même fonctionnement, même distinction démos gratuites/sessions payantes. Ne pas déduire de leur accessibilité web que l’ouverture native fonctionne sur tous les téléphones.
+Les fiches publiques [App Store](https://apps.apple.com/us/app/caresse-intimate-ai-audio/id6758887086) et [Google Play](https://play.google.com/store/apps/details?id=studio.mokuton.caresse) sont accessibles. Le site doit préparer à ce que l’utilisateur y retrouve : même nom, même identité visuelle, même fonctionnement, même distinction démos gratuites/sessions payantes. Ne pas déduire de leur accessibilité web que l’ouverture native fonctionne sur tous les téléphones.
 
 Sur les captures et les premières lignes de fiche, privilégier la compréhension rapide du produit et la possibilité d’essayer. Vérifier les formulations actuelles avant de promettre un nombre précis de démos : le site parle notamment d’une expérience de découverte et Google Play de cinq démos. Cela peut correspondre à des versions ou formats différents, mais mérite une harmonisation fondée sur l’app réellement distribuée.
 
