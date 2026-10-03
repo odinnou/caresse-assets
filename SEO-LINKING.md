@@ -180,3 +180,36 @@ Décliné à l'identique sur `/en/…` et `/es/…`.
 Suivre dans Search Console, par cluster : impressions de l'article, clics vers la
 landing cible, et position moyenne de la landing. Étendre le modèle au reste du blog
 une fois le signal confirmé.
+
+
+## Lot du 3 octobre 2026 — acquisition et clics stores
+
+Le KPI principal est le **nombre de store_click hors tests**, puis le nombre de visites
+avec au moins un clic store, par source et page d'entrée. Le temps sur le site et le
+nombre de pages vues ne sont pas des objectifs de ce lot.
+
+- Nouvelle intention « prix, gratuité, abonnement » : `/tarifs/`, `/en/pricing/`,
+  `/es/precios/`. Chaque page porte un CTA store direct en hero, après les offres et
+  en fin de page. Elle explique les démos, les crédits et l'achat unique optionnel.
+- Liens entrants vers les tarifs : footer des accueils, des pages Melt, Dipsea et
+  Couples game dans les trois langues. Aucun bouton de téléchargement ne devient
+  un lien vers les tarifs.
+- Liens contextuels sortants des tarifs : Couples game et Alternatives dans la même
+  langue. Les liens de langue, canonical et sitemap sont réciproques.
+- Melt : premier écran raccourci, offre audio et essai gratuit précisés ; libellés de
+  téléchargement et titres SEO conservés. FAQ visible et JSON-LD synchronisés.
+- Dipsea : intention d'alternative en français/espagnol explicitée ; distinction
+  démos gratuites / génération payante visible et reprise dans la FAQ.
+- Couples game : suppression du bouton secondaire vers `#diff` dans le hero ; ajout
+  d'un CTA store direct après le tableau, avec routage Android. Aucun changement du
+  libellé du CTA principal. FAQ essai gratuit et application mobile ajoutée.
+
+Cette section et `SEO-GOLDEN-RULE.md` remplacent les anciens passages de ce registre
+qui décrivent un CTA de comparatif envoyé vers `/demo/` : les CTA restent directs vers
+les stores. Les liens éditoriaux vers les démos restent facultatifs.
+
+Les neuf liens éditoriaux de Couples game, For couples et For solo exploration ne
+pointent plus vers les anciennes ancres du hub, qui n'existent plus. Ils ciblent les
+pages `/demo/couple-romantique/` et `/demo/solo-decouverte-sensuelle/`, avec les préfixes
+`/en/` et `/es/` dans chaque locale. Ils restent des liens texte facultatifs, jamais
+la destination d'un CTA de téléchargement.
