@@ -210,6 +210,24 @@ les stores. Les liens éditoriaux vers les démos restent facultatifs.
 
 Les neuf liens éditoriaux de Couples game, For couples et For solo exploration ne
 pointent plus vers les anciennes ancres du hub, qui n'existent plus. Ils ciblent les
-pages `/demo/couple-romantique/` et `/demo/solo-decouverte-sensuelle/`, avec les préfixes
-`/en/` et `/es/` dans chaque locale. Ils restent des liens texte facultatifs, jamais
-la destination d'un CTA de téléchargement.
+démos dédiées : `/demo/couple-romantique/` et `/demo/solo-decouverte-sensuelle/` en FR,
+`/en/demo/romantic-couple/` et `/en/demo/solo-sensual-discovery/` en EN,
+`/es/demo/pareja-romantica/` et `/es/demo/exploracion-sensual-en-solitario/` en ES.
+Ils restent des liens texte facultatifs, jamais la destination d'un CTA de
+téléchargement.
+
+## Migration ciblée des démos EN/ES — 3 octobre 2026
+
+Les cinq slugs français des démos EN et ES sont localisés. Les dix anciens chemins
+restent accessibles par redirection HTML instantanée. Les six URL FR, le slug
+`solo-sextoys` et les trois hubs sont conservés. Les sélecteurs de langue conservent
+la démo sélectionnée. Le maillage entre démos, les ItemList, hreflang et sitemap
+pointent vers les nouvelles URL, jamais les redirections.
+
+Les 18 démos détaillées portent maintenant un CTA store direct avant le lecteur et
+conservent celui de fin. Les liens des autres scénarios restent éditoriaux. Le KPI
+principal demeure le nombre de `store_click` hors tests, en regroupant chaque
+ancien et nouveau chemin pour les comparaisons.
+
+Mapping, audit, limites d’indexation et vérifications :
+[`SEO-DEMO-MIGRATION-2026-10-03.md`](SEO-DEMO-MIGRATION-2026-10-03.md).

@@ -116,3 +116,25 @@ français. Ce comptage concerne la langue des noms d’URL, pas celle du contenu
 Les six démos détaillées EN réutilisent les slugs FR : cinq sont français et
 `solo-sextoys` est classé commun. Leurs canonicals HTML pointent néanmoins vers
 leurs propres URL `/en/demo/.../`. Aucune URL de démo n’a été renommée.
+
+## Lot suivant autorisé : migration des démos et CTA
+
+La vérification des slugs ci-dessus décrit l’état avant ce nouveau lot. Dix URL
+de démos EN/ES sont maintenant localisées. Les anciens chemins sont conservés
+avec un `meta refresh` instantané et un canonical vers la nouvelle URL. Il ne
+s’agit pas de réponses HTTP 301 : le site est hébergé en statique sur GitHub Pages.
+Les URL françaises et les URL d’acquisition restent inchangées.
+
+Les 18 démos détaillées ont un CTA store avant le lecteur, un rappel démo gratuite /
+crédits payants et un sélecteur de langue vers le même scénario. Le bouton mobile
+fixe se cache uniquement pour un autre lien store visible, pas pour un footer
+générique. Les paramètres de redirection et la source d’acquisition sont préservés
+avec JavaScript et stockage disponible ; leur absence ne bloque pas la navigation.
+
+Les nouveaux canonicals, hreflang, URL structurées, liens et sitemap sont validés.
+Le sitemap reste à 106 URL canoniques et le dépôt contient 135 pages HTML, dont
+dix redirections. Les 119 scénarios JavaScript passent. Aucun gain d’indexation
+n’est prétendu obtenu : aucun blocage local des démos n’a été établi et leur statut
+Google actuel reste à inspecter. Aucun contrôle visuel réel n’a été possible.
+
+Détail et mapping : [`SEO-DEMO-MIGRATION-2026-10-03.md`](SEO-DEMO-MIGRATION-2026-10-03.md).

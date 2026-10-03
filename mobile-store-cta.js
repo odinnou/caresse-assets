@@ -22,6 +22,9 @@
         }
     }
 
+    // Store navigation still works in browsers without visibility observers.
+    if (typeof IntersectionObserver === 'undefined') return;
+
     var style = document.createElement('style');
     style.textContent = [
         '.mobile-store-cta{display:none}',
@@ -44,6 +47,7 @@
     link.href = source.href;
     link.target = source.target || '_blank';
     link.rel = 'noopener';
+    link.tabIndex = -1;
     link.textContent = source.textContent.trim().replace(/\s+/g, ' ');
     link.addEventListener('click', function () {
         link.href = source.href;
@@ -52,36 +56,43 @@
     document.body.appendChild(sticky);
 
     var sourceVisible = true;
-    var footerVisible = false;
-    var visibleInlineLinks = [];
+    var mobileViewport = window.matchMedia('(max-width:768px)');
+    var visibleStoreLinks = [];
     function updateSticky() {
-        var visible = !sourceVisible && !footerVisible && visibleInlineLinks.length === 0;
+        var visible = mobileViewport.matches && !sourceVisible && visibleStoreLinks.length === 0;
         sticky.classList.toggle('is-visible', visible);
         sticky.setAttribute('aria-hidden', visible ? 'false' : 'true');
+        link.tabIndex = visible ? 0 : -1;
     }
 
-    new IntersectionObserver(function (entries) {
-        sourceVisible = entries[0].isIntersecting;
-        updateSticky();
-    }).observe(source);
-
-    Array.prototype.forEach.call(document.querySelectorAll('a[data-cta-position="inline"]'), function (inlineLink) {
-        new IntersectionObserver(function (entries) {
-            var index = visibleInlineLinks.indexOf(inlineLink);
-            if (entries[0].isIntersecting && index === -1) {
-                visibleInlineLinks.push(inlineLink);
-            } else if (!entries[0].isIntersecting && index !== -1) {
-                visibleInlineLinks.splice(index, 1);
+    var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+            if (entry.target === source) {
+                sourceVisible = entry.isIntersecting;
+                return;
             }
-            updateSticky();
-        }).observe(inlineLink);
+            var index = visibleStoreLinks.indexOf(entry.target);
+            if (entry.isIntersecting && index === -1) {
+                visibleStoreLinks.push(entry.target);
+            } else if (!entry.isIntersecting && index !== -1) {
+                visibleStoreLinks.splice(index, 1);
+            }
+        });
+        updateSticky();
+    });
+    observer.observe(source);
+
+    // Hide only for another visible store link, never for a generic footer.
+    Array.prototype.forEach.call(document.querySelectorAll('a[href]'), function (storeLink) {
+        if (storeLink === source || storeLink === link) return;
+        if (/^https:\/\/(apps\.apple\.com|play\.google\.com)\//.test(storeLink.href)) {
+            observer.observe(storeLink);
+        }
     });
 
-    var footer = document.querySelector('footer');
-    if (footer) {
-        new IntersectionObserver(function (entries) {
-            footerVisible = entries[0].isIntersecting;
-            updateSticky();
-        }).observe(footer);
+    if (mobileViewport.addEventListener) {
+        mobileViewport.addEventListener('change', updateSticky);
+    } else if (mobileViewport.addListener) {
+        mobileViewport.addListener(updateSticky);
     }
 })();

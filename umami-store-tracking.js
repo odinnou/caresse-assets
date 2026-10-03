@@ -11,14 +11,32 @@
     var visitTimeoutMs = 30 * 60 * 1000;
     var testParameter = new URLSearchParams(window.location.search).get('analytics_test');
     var isTest = testParameter === '1';
+    var acquisitionReferrer = getRedirectReferrer();
     var acquisitionSource = getAcquisitionSource();
+
+    function getRedirectReferrer() {
+        // An old demo URL must not turn an external acquisition into "direct".
+        try {
+            var raw = sessionStorage.getItem('caresse_redirect_context');
+            if (raw) {
+                sessionStorage.removeItem('caresse_redirect_context');
+                var context = JSON.parse(raw);
+                var age = now - context.created_at;
+                if (context.target_path === window.location.pathname &&
+                    age >= 0 && age <= 30000 && typeof context.referrer === 'string') {
+                    return context.referrer;
+                }
+            }
+        } catch (_) {}
+        return document.referrer;
+    }
 
     function getAcquisitionSource() {
         var params = new URLSearchParams(window.location.search);
         var source = params.get('utm_source');
         var referrerHost = '';
         try {
-            if (document.referrer) referrerHost = new URL(document.referrer).hostname;
+            if (acquisitionReferrer) referrerHost = new URL(acquisitionReferrer).hostname;
         } catch (_) {}
         if (source === 'chatgpt.com' || source === 'openai' || referrerHost === 'chatgpt.com') return 'chatgpt';
         if (source) return source.slice(0, 64);
