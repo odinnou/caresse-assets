@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" data-analytics-variant="pricing-v3">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caresse Pricing: Free Demos, No Subscription</title>
+    <meta name="description" content="Caresse is free to download. See what audio demos include, how session credits work and what the optional personalization unlock does. No subscription.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Studio Mokuton">
+    <meta name="theme-color" content="#5D3D8C">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://caresse.app/en/pricing/">
+    <link rel="alternate" hreflang="fr" href="https://caresse.app/tarifs/">
+    <link rel="alternate" hreflang="en" href="https://caresse.app/en/pricing/">
+    <link rel="alternate" hreflang="es" href="https://caresse.app/es/precios/">
+    <link rel="alternate" hreflang="x-default" href="https://caresse.app/tarifs/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://caresse.app/en/pricing/">
+    <meta property="og:site_name" content="Caresse">
+    <meta property="og:title" content="Caresse Pricing: Free Demos, No Subscription">
+    <meta property="og:description" content="Caresse is free to download. See what audio demos include, how session credits work and what the optional personalization unlock does. No subscription.">
+    <meta property="og:image" content="https://caresse.app/og-image-en.png">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Caresse Pricing: Free Demos, No Subscription">
+    <meta name="twitter:description" content="Caresse is free to download. See what audio demos include, how session credits work and what the optional personalization unlock does. No subscription.">
+    <meta name="twitter:image" content="https://caresse.app/og-image-en.png">
+    <style>
+        /* Design et composants repris des comparatifs Caresse existants. */
+        :root {
+            --primary: #5D3D8C;
+            --secondary: #9E7BB5;
+            --primary-vibrant: #9361FD;
+            --background: #F9F7FD;
+            --surface: #FFFFFF;
+            --text-primary: #1A1A2E;
+            --text-secondary: #5D5D7A;
+            --pink: #FF6B9D;
+            --grad-primary: linear-gradient(135deg, #9361FD, #5D3D8C);
+            --grad-pink: linear-gradient(135deg, #9361FD, #FF6B9D);
+            --grad-soft: linear-gradient(135deg, #F9F7FD 0%, #EDE8F7 100%);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, system-ui, sans-serif; background-color: var(--background); color: var(--text-primary); line-height: 1.6; overflow-x: hidden; }
+
+        header { padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.85); backdrop-filter: blur(12px); position: fixed; width: 100%; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(93,61,140,0.06); }
+        .logo { height: 32px; }
+        .lang-toggle { display: flex; gap: 4px; background: rgba(93,61,140,0.08); border-radius: 20px; padding: 4px; }
+        .lang-btn { border: none; background: none; padding: 6px 14px; border-radius: 16px; font-size: 0.85rem; font-weight: 600; cursor: pointer; color: var(--text-secondary); transition: all 0.2s; text-decoration: none; }
+        .lang-btn.active { background: var(--primary); color: white; }
+        .header-right { display: flex; align-items: center; gap: 16px; }
+        .header-link { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; font-weight: 600; padding: 6px 12px; border-radius: 10px; transition: 0.2s; }
+        .header-link:hover, .header-link.active { color: var(--primary); background: rgba(93,61,140,0.06); }
+        @media (max-width: 768px) { .header-link { display: none; } }
+
+        .hero { min-height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 120px 8% 60px; background: radial-gradient(ellipse at 60% 40%, rgba(147,97,253,0.12) 0%, transparent 60%), radial-gradient(ellipse at 20% 80%, rgba(255,107,157,0.10) 0%, transparent 50%), var(--background); }
+        .hero-eyebrow { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 20px; opacity: 0.8; }
+        h1 { font-size: clamp(2.2rem, 5.5vw, 3.8rem); font-weight: 800; line-height: 1.1; margin-bottom: 24px; background: var(--grad-pink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; max-width: 900px; }
+        .hero p { color: var(--text-secondary); font-size: clamp(1rem, 2vw, 1.2rem); max-width: 640px; margin-bottom: 40px; }
+        .cta-group { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+        .cta-pink { background: var(--grad-pink); color: white; padding: 16px 36px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1rem; box-shadow: 0 10px 25px rgba(255,107,157,0.3); transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
+        .cta-pink:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(255,107,157,0.4); }
+        .cta-ghost { color: var(--primary); padding: 16px 36px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 1rem; border: 2px solid rgba(93,61,140,0.2); transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
+        .cta-ghost:hover { border-color: var(--primary); background: rgba(93,61,140,0.05); }
+        .hero-badge { margin-top: 36px; font-size: 0.8rem; color: var(--text-secondary); opacity: 0.7; }
+
+        section { padding: 80px 5%; }
+        .section-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 12px; text-align: center; }
+        .section-title { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 800; color: var(--text-primary); line-height: 1.15; margin-bottom: 16px; text-align: center; }
+        .section-sub { color: var(--text-secondary); font-size: 1.05rem; max-width: 640px; line-height: 1.7; margin: 0 auto 32px; text-align: center; }
+
+        .columns { background: var(--surface); }
+        .columns-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; max-width: 1100px; margin: 0 auto; }
+        @media (max-width: 768px) { .columns-grid { grid-template-columns: 1fr; } }
+        .col-card { background: var(--grad-soft); border-radius: 24px; padding: 36px; border: 1px solid rgba(158,123,181,0.12); }
+        .col-card.highlight { background: linear-gradient(135deg, rgba(147,97,253,0.10), rgba(255,107,157,0.06)); border-color: rgba(147,97,253,0.25); }
+        .col-card h3 { font-size: 1.4rem; font-weight: 800; color: var(--primary); margin-bottom: 8px; }
+        .col-card .col-sub { font-size: 0.82rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 16px; opacity: 0.85; }
+        .col-card p { color: var(--text-secondary); margin-bottom: 14px; line-height: 1.7; font-size: 0.98rem; }
+        .col-card ul { list-style: none; padding: 0; margin-top: 16px; }
+        .col-card ul li { padding: 8px 0 8px 28px; position: relative; color: var(--text-primary); font-size: 0.96rem; line-height: 1.55; }
+        .col-card ul li::before { content: '✓'; position: absolute; left: 0; top: 8px; color: var(--primary-vibrant); font-weight: 800; }
+        .col-card.muted ul li::before { content: '•'; color: var(--text-secondary); }
+
+        .pricing { background: var(--grad-soft); }
+        .pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; max-width: 900px; margin: 0 auto; }
+        @media (max-width: 768px) { .pricing-grid { grid-template-columns: 1fr; } }
+        .price-card { background: var(--surface); border-radius: 24px; padding: 36px; border: 1px solid rgba(158,123,181,0.14); text-align: center; }
+        .price-card.highlight { background: var(--grad-pink); color: white; border: none; box-shadow: 0 20px 40px rgba(255,107,157,0.25); }
+        .price-card.highlight h3, .price-card.highlight .price-big, .price-card.highlight .price-note { color: white; }
+        .price-card h3 { font-size: 1.3rem; font-weight: 800; color: var(--primary); margin-bottom: 10px; }
+        .price-card .price-big { font-size: 1.8rem; font-weight: 800; color: var(--text-primary); margin-bottom: 12px; }
+        .price-card .price-note { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; }
+        .pricing-footnote { max-width: 760px; margin: 28px auto 0; text-align: center; font-size: 0.85rem; color: var(--text-secondary); opacity: 0.85; }
+
+        .faq { background: var(--grad-soft); }
+        .faq-list { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+        .faq-item { background: var(--surface); border-radius: 16px; padding: 28px 32px; border: 1px solid rgba(158,123,181,0.1); }
+        .faq-item h3 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); margin-bottom: 10px; }
+        .faq-item p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; }
+
+        .cta-section { text-align: center; background: radial-gradient(ellipse at center, rgba(147,97,253,0.1) 0%, transparent 70%), var(--background); }
+        .cta-section .section-sub { margin: 0 auto 40px; }
+        .store-badges { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; }
+        .store-badge { display: inline-block; text-decoration: none; transition: transform 0.2s, opacity 0.2s; position: relative; }
+        .store-badge:hover { transform: translateY(-2px); opacity: 0.88; }
+        .store-badge img { height: 54px; width: auto; display: block; }
+        .store-badge.gplay img { height: 80px; margin: -13px 0; }
+        .age-notice { font-size: 0.8rem; color: var(--text-secondary); opacity: 0.6; margin-top: 8px; }
+
+        .breadcrumb { padding: 100px 5% 0; font-size: 0.85rem; color: var(--text-secondary); }
+        .breadcrumb a { color: var(--primary-vibrant); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        footer { padding: 50px 5% 36px; background: var(--surface); display: flex; flex-direction: column; align-items: center; gap: 24px; }
+        .footer-links { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; font-weight: 500; padding: 6px 12px; border-radius: 8px; transition: 0.2s; }
+        .footer-links a:hover { color: var(--primary); background: rgba(93,61,140,0.06); }
+        .footer-links span { color: #DDD; line-height: 2; }
+                .footer-social {
+            display: flex;
+            gap: 14px;
+            justify-content: center;
+        }
+
+        .footer-social a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: rgba(93,61,140,0.06);
+            color: var(--text-secondary);
+            transition: 0.2s;
+        }
+
+        .footer-social a:hover { color: var(--primary); background: rgba(93,61,140,0.12); }
+        .footer-social svg { width: 18px; height: 18px; fill: currentColor; }
+
+        .footer-copy { color: #BBB; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
+
+        @media (max-width: 768px) { section { padding: 60px 5%; } }
+
+        /* Choix des stores : même principe que le hero de l'accueil. */
+        .hero-adaptive-download { display: none; }
+        .hero-store-options { margin-bottom: 0; }
+        html.store-platform-known .hero-adaptive-download { display: inline-flex; }
+        html.store-platform-known .hero-store-options { display: none; }
+        .hero .hero-eyebrow { font-size: 0.85rem; margin-bottom: 20px; }
+        .hero .hero-badge { font-size: 0.8rem; margin: 24px 0 0; }
+        .price-details { text-align: left; margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(158,123,181,0.2); }
+        .price-details p { color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; margin-bottom: 10px; }
+        .price-details p:last-child { margin-bottom: 0; }
+        .price-card.highlight .price-details { border-top-color: rgba(255,255,255,0.25); }
+        .price-card.highlight .price-details p { color: white; }
+        .options-card { max-width: 900px; margin: 0 auto; }
+        .options-card p:last-child { margin-bottom: 0; }
+        a:focus-visible { outline: 3px solid var(--primary); outline-offset: 5px; }
+        @media (max-width: 768px) {
+            .price-card, .options-card { padding: 28px; }
+            .faq-item { padding: 24px; }
+            .header-right { gap: 8px; }
+            .lang-btn { padding: 6px 10px; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .cta-pink, .store-badge { transition: none; }
+            .cta-pink:hover, .store-badge:hover { transform: none; }
+        }
+    </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Caresse Pricing: Free Demos, No Subscription",
+  "description": "Caresse is free to download. See what audio demos include, how session credits work and what the optional personalization unlock does. No subscription.",
+  "url": "https://caresse.app/en/pricing/",
+  "inLanguage": "en",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Caresse",
+    "url": "https://caresse.app/"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Caresse",
+        "item": "https://caresse.app/en/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Pricing",
+        "item": "https://caresse.app/en/pricing/"
+      }
+    ]
+  }
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Caresse free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Downloading Caresse and listening to audio demos are free. Personalized sessions generated on demand use paid credits. An optional personalization unlock is sold separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a Caresse session cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Individual credit and pack prices are shown in the app in your store’s currency before purchase. One credit is used when you start generating a personalized session."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a subscription or automatic renewal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Buy credits when you want to create sessions. The optional personalization unlock is a one-time purchase, not a subscription."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the unlock include unlimited sessions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It opens additional personalization options. Session generation still uses credits; any credit included in an offer is specified in the app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I buy without a Caresse account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Anonymous mode does not require a Caresse account. Payment through the App Store or Google Play still uses your Apple or Google account and its payment method."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I try it in English, French or Spanish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Caresse offers demos and sessions in English, French and Spanish, for solo or couple use."
+      }
+    }
+  ]
+}
+    </script>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
+    <script defer src="/mobile-store-cta.js"></script>
+    <script defer src="/umami-store-tracking.js"></script>
+</head>
+<body class="lang-en">
+
+    <header>
+        <a href="/en/" aria-label="Caresse — home"><img src="/caresse-logo.svg" class="logo" alt="Caresse, AI-guided intimate audio app" width="250" height="80"></a>
+        <div class="header-right">
+            <a href="/en/blog/" class="header-link">Blog</a>
+            <a href="/en/how-it-works/" class="header-link">How it works</a>
+            <a href="/en/pricing/" class="header-link active">Pricing</a>
+            <a href="/en/alternatives/" class="header-link">Alternatives</a>
+            <div class="lang-toggle" role="group" aria-label="Choose language">
+                <a class="lang-btn" href="/tarifs/" hreflang="fr" aria-label="Français">FR</a>
+                <a class="lang-btn active" href="/en/pricing/" hreflang="en" aria-label="English" aria-current="page">EN</a>
+                <a class="lang-btn" href="/es/precios/" hreflang="es" aria-label="Español">ES</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="pricing-title">
+            <p class="hero-eyebrow">Caresse · Pricing</p>
+            <h1 id="pricing-title">Your audio sessions.<br><em>No subscription.</em></h1>
+            <p>Discover the voice for free. Then create your own sessions with credits, only when you feel like it.</p>
+            <div class="cta-group"><a href="https://apps.apple.com/us/app/caresse/id6758887086" id="hero-cta" class="cta-pink hero-adaptive-download" data-store-auto data-cta-position="hero" target="_blank" rel="noopener">Download the app free</a></div>
+            <div class="store-badges hero-store-options">
+            <a data-cta-position="hero" href="https://apps.apple.com/us/app/caresse/id6758887086" class="store-badge" aria-label="Download on the App Store" target="_blank" rel="noopener noreferrer">
+                <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
+
+            </a>
+            <a data-cta-position="hero" href="https://play.google.com/store/apps/details?id=studio.mokuton.caresse" class="store-badge gplay" aria-label="Get it on Google Play" target="_blank" rel="noopener noreferrer">
+                <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+            </a>
+        </div>
+            <p class="hero-badge">Free demos · No Caresse account · iOS &amp; Android</p>
+        </section>
+
+        <section class="pricing" aria-labelledby="included-title">
+            <p class="section-label">Pricing</p>
+            <h2 id="included-title" class="section-title">Try it free.<br>Create at your own pace.</h2>
+            <p class="section-sub">Demos are free. Create personalized sessions with credits, without a subscription.</p>
+            <div class="pricing-grid">
+                <article class="price-card highlight">
+                    <h3>Audio demos</h3>
+                    <p class="price-big">Free</p>
+                    <p class="price-note">The app and audio demos are free.</p>
+                    <div class="price-details"><p>✓ Discover the voice and format</p><p>✓ Solo or together</p><p>✓ In English, French and Spanish</p></div>
+                    <p class="price-note" style="margin-top:20px;font-size:0.85rem;">Demos are audio examples, not sessions generated from your profile.</p>
+                </article>
+                <article class="price-card">
+                    <h3>Personalized sessions</h3>
+                    <p class="price-big">Pay per session</p>
+                    <p class="price-note">1 credit = 1 generated session</p>
+                    <div class="price-details"><p>Your names or nicknames, your mood, your preferences. A credit starts the creation of your audio session.</p><p>✓ Individual credits or packs</p><p>✓ No automatic renewal</p></div>
+                </article>
+            </div>
+            <p class="pricing-footnote">Credit, pack and unlock prices appear in the app in your store’s currency, before you confirm your purchase.</p>
+            <div class="cta-group" style="margin-top:32px;"><a href="https://apps.apple.com/us/app/caresse/id6758887086" class="cta-pink" data-store-auto data-cta-position="inline" target="_blank" rel="noopener">Download the app free</a></div>
+        </section>
+
+        <section class="columns" aria-labelledby="options-title">
+            <p class="section-label">Personalization</p>
+            <h2 id="options-title" class="section-title">An option, not a subscription.</h2>
+            <article class="col-card options-card">
+                <p class="col-sub">Optional · One-time purchase</p>
+                <h3>More personalization options</h3>
+                <p>A separate unlock extends the available options. Sessions still use credits: this purchase does not include unlimited generation.</p>
+            </article>
+        </section>
+
+        <section class="faq" aria-labelledby="faq-title">
+            <p class="section-label">Frequently asked questions</p>
+            <h2 id="faq-title" class="section-title">Pricing, made clear.</h2>
+            <div class="faq-list">
+                <article class="faq-item"><h3>Is Caresse free?</h3><p>Downloading Caresse and listening to audio demos are free. Personalized sessions generated on demand use paid credits. An optional personalization unlock is sold separately.</p></article>
+                <article class="faq-item"><h3>How much does a Caresse session cost?</h3><p>Individual credit and pack prices are shown in the app in your store’s currency before purchase. One credit is used when you start generating a personalized session.</p></article>
+                <article class="faq-item"><h3>Is there a subscription or automatic renewal?</h3><p>No. Buy credits when you want to create sessions. The optional personalization unlock is a one-time purchase, not a subscription.</p></article>
+                <article class="faq-item"><h3>Does the unlock include unlimited sessions?</h3><p>No. It opens additional personalization options. Session generation still uses credits; any credit included in an offer is specified in the app.</p></article>
+                <article class="faq-item"><h3>Can I buy without a Caresse account?</h3><p>Yes. Anonymous mode does not require a Caresse account. Payment through the App Store or Google Play still uses your Apple or Google account and its payment method.</p></article>
+                <article class="faq-item"><h3>Can I try it in English, French or Spanish?</h3><p>Yes. Caresse offers demos and sessions in English, French and Spanish, for solo or couple use.</p></article>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2 class="section-title">Hear it for yourself.<br>Start with a demo.</h2>
+            <p class="section-sub">Download Caresse for free. Decide afterwards whether you want to create your own session.</p>
+            <div class="cta-group"><a href="https://apps.apple.com/us/app/caresse/id6758887086" class="cta-pink hero-adaptive-download" data-store-auto data-cta-position="inline" target="_blank" rel="noopener">Download the app free</a></div>
+            <div class="store-badges hero-store-options">
+            <a data-cta-position="inline" href="https://apps.apple.com/us/app/caresse/id6758887086" class="store-badge" aria-label="Download on the App Store" target="_blank" rel="noopener noreferrer">
+                <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
+
+            </a>
+            <a data-cta-position="inline" href="https://play.google.com/store/apps/details?id=studio.mokuton.caresse" class="store-badge gplay" aria-label="Get it on Google Play" target="_blank" rel="noopener noreferrer">
+                <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+            </a>
+        </div>
+            <p class="age-notice" style="margin-top:24px;">For adults aged 18 and over only.</p>
+        </section>
+    </main>
+
+    <footer>
+        <a href="/en/" aria-label="Caresse — home"><img src="/caresse-logo.svg" style="height:28px;" alt="Caresse" width="250" height="80"></a>
+        <nav aria-label="Use cases" style="display:flex;gap:6px 16px;flex-wrap:wrap;justify-content:center;max-width:720px;">
+            <a href="/en/pricing/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Pricing</a>
+            <a href="/en/demo/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Audio demo</span></a>
+            <a href="/en/blog/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Blog</a>
+            <a href="/en/how-it-works/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">How it works</a>
+            <a href="/en/couples-game/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Couples game</a>
+            <a href="/en/alternatives/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Alternatives</a>
+            <a href="/en/for-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">For couples</a>
+            <a href="/en/for-solo-exploration/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Solo exploration</a>
+            <a href="/en/for-blind-and-low-vision/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Blind and low vision</a>
+            <a href="/en/for-long-term-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Long-term couples</a>
+            <a href="/en/for-busy-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Busy couples</a>
+            <a href="/en/for-adventurous-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Adventurous couples</a>
+
+            <a href="/en/is-caresse-safe/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'">Privacy & Safety</a>
+        </nav>
+        <div class="footer-links">
+            <a href="/en/download/">Download</a>
+            <span>·</span>
+            <a href="/en/support/">Support</a>
+            <span>·</span>
+            <a href="/legal/en/cgu/" rel="nofollow">Terms</a>
+            <span>·</span>
+            <a href="/legal/en/cgv/" rel="nofollow">Sales terms</a>
+            <span>·</span>
+            <a href="/legal/en/privacy/" rel="nofollow">Privacy</a>
+            <span>·</span>
+            <a href="/legal/en/legals/" rel="nofollow">Legal notice</a>
+        </div>
+                <div class="footer-social">
+            <a href="https://x.com/app_caresse" target="_blank" rel="noopener" aria-label="Caresse sur X"><svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <a href="https://www.instagram.com/caresse.app" target="_blank" rel="noopener" aria-label="Caresse sur Instagram"><svg viewBox="0 0 24 24"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.256 1.216.6 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.05 1.066.06 1.405.06 4.122s-.01 3.056-.06 4.122c-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.05-1.405.06-4.122.06s-3.056-.01-4.122-.06c-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.01 15.056 2 14.717 2 12s.01-3.056.06-4.122c.05-1.065.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.363-.415 2.428-.465C8.944 2.01 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.25a3.25 3.25 0 1 1 0-6.5 3.25 3.25 0 0 1 0 6.5zm5.25-8.5a1.15 1.15 0 1 0 0-2.3 1.15 1.15 0 0 0 0 2.3z"/></svg></a>
+            <a href="https://www.youtube.com/@app.caresse" target="_blank" rel="noopener" aria-label="Caresse sur YouTube"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.376.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.376-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12z"/></svg></a>
+            <a href="https://www.tiktok.com/@caresse.app" target="_blank" rel="noopener" aria-label="Caresse sur TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"/></svg></a>
+        </div>
+        <p class="footer-copy">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a>, Caresse · 18+ Adults only</p>
+    </footer>
+</body>
+</html>
