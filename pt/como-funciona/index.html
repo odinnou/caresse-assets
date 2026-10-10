@@ -275,6 +275,26 @@
         .lang-en [data-lang="en"] { display: block; }
         .lang-fr [data-lang="fr"].inline, .lang-en [data-lang="en"].inline { display: inline; }
             @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
+        /* Compact mobile language links, using the existing segmented control. */
+        @media (max-width: 768px) {
+            header { gap: 12px; }
+            header .logo { width: auto; }
+            header .header-right { gap: 8px; }
+            header .lang-toggle { display: flex; gap: 2px; padding: 3px; flex: 0 0 auto; }
+            header .lang-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 30px;
+                min-width: 30px;
+                min-height: 32px;
+                padding: 0;
+                border-radius: 12px;
+                font-size: 0.75rem;
+                line-height: 1;
+            }
+            header .lang-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        }
     </style>
     <script src="/mobile-store-cta.js" defer></script>
     <!-- Umami Analytics -->
