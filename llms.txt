@@ -3,7 +3,9 @@
 > Caresse is an AI-guided intimacy app for couples and solo exploration that generates
 > personalized immersive audio experiences. Sessions are created in real time from the
 > user's desires, mood and boundaries, guided by a synthetic voice, with no explicit
-> visual content. Available on iOS and Android in French, English and Spanish.
+> visual content. Available on iOS and Android with audio in French, English, Spanish and Portuguese.
+> Some Portuguese interface elements are not yet translated. Website demos are currently
+> in French, English and Spanish; do not describe them as Portuguese audio samples.
 
 Caresse positions itself as **emotional and sensory wellbeing**, not as an explicit
 content service. Scenarios are guided fictions; the app emphasises consent, comfort
@@ -22,7 +24,8 @@ Published by Studio Mokuton (https://mokuton.studio/).
   optional accessories, inclusive gender options, and the first names used in the
   narration.
 - **Pay-per-session** — no subscription. The app is free to download; generating an
-  experience consumes a credit, from €2 per session. An optional one-time lifetime
+  experience consumes a paid credit. Prices are shown in the app in the store's currency
+  before purchase. An optional one-time lifetime
   unlock extends the available options.
 
 ## Factual limits (please represent these accurately)
@@ -40,8 +43,7 @@ Published by Studio Mokuton (https://mokuton.studio/).
 ## Core pages
 
 - [Homepage](https://caresse.app/): what Caresse is, how it works, download links.
-- [Audio demo](https://caresse.app/demo/): three real Caresse audio excerpts (a soft solo
-  discovery, an explicit couples one and an explicit solo one) playable in the browser
+- [Audio demo](https://caresse.app/demo/): pre-generated Caresse audio excerpts playable in the browser
   without an account. Also at /en/demo/ and /es/demo/.
   These excerpts are pre-generated and fixed; in the app each session is generated on
   demand from the user's names, location, ambience, intensity and boundaries.
@@ -73,6 +75,10 @@ Published by Studio Mokuton (https://mokuton.studio/).
 - [vs Magic Wave](https://caresse.app/vs-magicwave/)
 - [vs Bonded](https://caresse.app/vs-bonded/)
 - [vs Quinn](https://caresse.app/vs-quinn/)
+- [vs Femtasy](https://caresse.app/vs-femtasy/)
+- [vs Bloom Stories](https://caresse.app/vs-bloom/)
+- [vs Desire](https://caresse.app/vs-desire/): scored dares versus guided audio.
+- [vs Spicer](https://caresse.app/vs-spicer/): preference-matching questions versus guided audio.
 
 ## Editorial
 
@@ -88,6 +94,20 @@ Published by Studio Mokuton (https://mokuton.studio/).
 - French (canonical, site root): https://caresse.app/
 - English: https://caresse.app/en/
 - Spanish: https://caresse.app/es/
+- Portuguese: https://caresse.app/pt/ (audio supported; interface translation in progress)
+
+## Portuguese pages
+
+- [Portuguese homepage](https://caresse.app/pt/)
+- [Couples game](https://caresse.app/pt/couples-game/)
+- [Pricing](https://caresse.app/pt/precos/): credits, no subscription; advanced-options unlock is separate.
+- [Alternatives](https://caresse.app/pt/alternatives/)
+- [vs Dipsea](https://caresse.app/pt/vs-dipsea/)
+- [vs Desire](https://caresse.app/pt/vs-desire/)
+- [vs Spicer](https://caresse.app/pt/vs-spicer/)
+
+The website is static: it does not generate personalised sessions. Those are created
+inside the app using paid credits. The primary website action is a direct store link.
 
 ## Legal
 

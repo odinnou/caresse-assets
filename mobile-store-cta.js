@@ -83,9 +83,20 @@
     observer.observe(source);
 
     // Hide only for another visible store link, never for a generic footer.
+    function isCaresseStoreLink(href) {
+        try {
+            var url = new URL(href, window.location.href);
+            if (url.protocol !== 'https:') return false;
+            return (url.hostname === 'apps.apple.com' && /\/id6758887086\/?$/.test(url.pathname)) ||
+                (url.hostname === 'play.google.com' && url.pathname === '/store/apps/details' &&
+                    url.searchParams.get('id') === 'studio.mokuton.caresse');
+        } catch (_) {
+            return false;
+        }
+    }
     Array.prototype.forEach.call(document.querySelectorAll('a[href]'), function (storeLink) {
         if (storeLink === source || storeLink === link) return;
-        if (/^https:\/\/(apps\.apple\.com|play\.google\.com)\//.test(storeLink.href)) {
+        if (isCaresseStoreLink(storeLink.href)) {
             observer.observe(storeLink);
         }
     });

@@ -14,6 +14,7 @@
     <link rel="alternate" hreflang="fr" href="https://caresse.app/tarifs/">
     <link rel="alternate" hreflang="en" href="https://caresse.app/en/pricing/">
     <link rel="alternate" hreflang="es" href="https://caresse.app/es/precios/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/pt/precos/">
     <link rel="alternate" hreflang="x-default" href="https://caresse.app/tarifs/">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://caresse.app/tarifs/">
@@ -22,6 +23,7 @@
     <meta property="og:description" content="Caresse est gratuit à télécharger. Comparez les démos incluses, les crédits pour vos sessions audio et la personnalisation optionnelle, sans abonnement.">
     <meta property="og:image" content="https://caresse.app/og-image-fr.png">
     <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="pt_BR">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tarifs Caresse : démos gratuites, sans abonnement">
     <meta name="twitter:description" content="Caresse est gratuit à télécharger. Comparez les démos incluses, les crédits pour vos sessions audio et la personnalisation optionnelle, sans abonnement.">
@@ -168,6 +170,9 @@
             .cta-pink, .store-badge { transition: none; }
             .cta-pink:hover, .store-badge:hover { transform: none; }
         }
+
+        /* Fourth language: reuse the compact navigation from the pricing page. */
+        @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
     </style>
     <script type="application/ld+json">
 {
@@ -251,7 +256,7 @@
       "name": "Peut-on essayer en français, anglais ou espagnol ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oui. Caresse propose des démos et des sessions en français, anglais et espagnol, pour une utilisation solo ou en couple."
+        "text": "L’app propose des sessions audio en français, anglais, espagnol et portugais. Certaines parties de l’interface portugaise ne sont pas encore traduites. Les démos publiées sur le site sont en français, anglais et espagnol."
       }
     }
   ]
@@ -264,7 +269,7 @@
 <body class="lang-fr">
 
     <header>
-        <a href="/" aria-label="Caresse, accueil"><img src="/caresse-logo.svg" class="logo" alt="Caresse, application audio intime guidée par l'IA" width="250" height="80"></a>
+        <a href="/" aria-label="Caresse, accueil"><img src="/caresse-logo.svg" class="logo" alt="Caresse, application audio intime guidée par l'IA" width="100" height="32"></a>
         <div class="header-right">
             <a href="/blog/" class="header-link">Blog</a>
             <a href="/how-it-works/" class="header-link">Comment ça marche</a>
@@ -274,6 +279,7 @@
                 <a class="lang-btn active" href="/tarifs/" hreflang="fr" aria-label="Français" aria-current="page">FR</a>
                 <a class="lang-btn" href="/en/pricing/" hreflang="en" aria-label="English">EN</a>
                 <a class="lang-btn" href="/es/precios/" hreflang="es" aria-label="Español">ES</a>
+            <a class="lang-btn" href="/pt/precos/" hreflang="pt" aria-label="Português">PT</a>
             </div>
         </div>
     </header>
@@ -338,7 +344,7 @@
                 <article class="faq-item"><h3>Y a-t-il un abonnement ou un renouvellement automatique ?</h3><p>Non. Vous achetez des crédits quand vous souhaitez créer des sessions. Le déverrouillage optionnel des options de personnalisation est un achat unique, pas un abonnement.</p></article>
                 <article class="faq-item"><h3>Le déverrouillage inclut-il des sessions illimitées ?</h3><p>Non. Il ouvre davantage d’options de personnalisation. Les générations de sessions restent liées à des crédits ; tout crédit inclus dans une offre est précisé dans l’app.</p></article>
                 <article class="faq-item"><h3>Peut-on acheter sans compte Caresse ?</h3><p>Oui. Le mode anonyme ne demande pas de compte Caresse. Pour payer, l’App Store ou Google Play utilise toutefois votre compte Apple ou Google et son mode de paiement.</p></article>
-                <article class="faq-item"><h3>Peut-on essayer en français, anglais ou espagnol ?</h3><p>Oui. Caresse propose des démos et des sessions en français, anglais et espagnol, pour une utilisation solo ou en couple.</p></article>
+                <article class="faq-item"><h3>Peut-on essayer en français, anglais ou espagnol ?</h3><p>L’app propose des sessions audio en français, anglais, espagnol et portugais. Certaines parties de l’interface portugaise ne sont pas encore traduites. Les démos publiées sur le site sont en français, anglais et espagnol.</p></article>
             </div>
         </section>
 

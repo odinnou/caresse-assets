@@ -23,6 +23,7 @@
     <link rel="alternate" hreflang="fr" href="https://caresse.app/couples-game/">
     <link rel="alternate" hreflang="en" href="https://caresse.app/en/couples-game/">
     <link rel="alternate" hreflang="es" href="https://caresse.app/es/couples-game/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/pt/couples-game/">
     <link rel="alternate" hreflang="x-default" href="https://caresse.app/couples-game/">
 
     <!-- ══ OPEN GRAPH ══ -->
@@ -36,6 +37,7 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Caresse — AI-generated intimate audio couples game">
     <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="pt_BR">
     <meta property="og:locale:alternate" content="fr_FR">
     <meta property="og:locale:alternate" content="es_ES">
 
@@ -99,34 +101,72 @@
     }
     </script>
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Caresse — Couples game",
-      "description": "Caresse is an AI-generated couples game: set your preferences together, AI creates a surprise audio session unique every time.",
-      "url": "https://caresse.app/en/couples-game/",
-      "inLanguage": ["en", "fr", "es"],
-      "isPartOf": { "@type": "WebSite", "name": "Caresse", "url": "https://caresse.app/" },
-      "about": {
-        "@type": "MobileApplication",
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Caresse — Couples game",
+  "description": "Caresse is an AI-generated couples game: set your preferences together, AI creates a surprise audio session unique every time.",
+  "url": "https://caresse.app/en/couples-game/",
+  "inLanguage": "en",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Caresse",
+    "url": "https://caresse.app/"
+  },
+  "about": {
+    "@type": "MobileApplication",
+    "name": "Caresse",
+    "url": "https://caresse.app/",
+    "operatingSystem": "iOS, Android",
+    "applicationCategory": "LifestyleApplication",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Studio Mokuton",
+      "url": "https://mokuton.studio/"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    },
+    "sameAs": [
+      "https://apps.apple.com/us/app/caresse/id6758887086",
+      "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+      "https://x.com/app_caresse",
+      "https://www.instagram.com/caresse.app",
+      "https://www.youtube.com/@app.caresse",
+      "https://www.tiktok.com/@caresse.app"
+    ],
+    "inLanguage": [
+      "fr",
+      "en",
+      "es",
+      "pt"
+    ]
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://caresse.app/screens/en/06_android_en.webp"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
         "name": "Caresse",
-        "url": "https://caresse.app/",
-        "operatingSystem": "iOS, Android",
-        "applicationCategory": "LifestyleApplication",
-        "publisher": { "@type": "Organization", "name": "Studio Mokuton", "url": "https://mokuton.studio/" },
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" },
-        "sameAs": ["https://apps.apple.com/us/app/caresse/id6758887086", "https://play.google.com/store/apps/details?id=studio.mokuton.caresse", "https://x.com/app_caresse", "https://www.instagram.com/caresse.app", "https://www.youtube.com/@app.caresse", "https://www.tiktok.com/@caresse.app"],
-        "inLanguage": ["fr", "en", "es"]
+        "item": "https://caresse.app/en/"
       },
-      "primaryImageOfPage": { "@type": "ImageObject", "url": "https://caresse.app/screens/en/06_android_en.webp" },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Caresse", "item": "https://caresse.app/en/" },
-          { "@type": "ListItem", "position": 2, "name": "Couples game", "item": "https://caresse.app/en/couples-game/" }
-        ]
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Couples game",
+        "item": "https://caresse.app/en/couples-game/"
       }
-    }
+    ]
+  }
+}
     </script>
 
     <link rel="dns-prefetch" href="https://developer.apple.com">
@@ -246,6 +286,9 @@
         .lang-fr [data-lang="fr"] { display: block; }
         .lang-en [data-lang="en"] { display: block; }
         .lang-fr [data-lang="fr"].inline, .lang-en [data-lang="en"].inline { display: inline; }
+
+        /* Fourth language: reuse the compact navigation from the pricing page. */
+        @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
     </style>
     <script src="/mobile-store-cta.js" defer></script>
     <!-- Umami Analytics -->
@@ -255,7 +298,7 @@
 <body class="lang-en">
 
     <header>
-        <a href="/en/" aria-label="Caresse — home"><img src="/caresse-logo.svg" class="logo" alt="Caresse, AI-guided intimate audio app" width="250" height="80"></a>
+        <a href="/en/" aria-label="Caresse — home"><img src="/caresse-logo.svg" class="logo" alt="Caresse, AI-guided intimate audio app" width="100" height="32"></a>
         <div class="header-right">
             <a href="/en/blog/" class="header-link">Blog</a>
             <a href="/en/how-it-works/" class="header-link">How it works</a>
@@ -264,6 +307,7 @@
             <a class="lang-btn" href="/couples-game/" hreflang="fr" aria-label="Français">FR</a>
             <a class="lang-btn active" href="/en/couples-game/" hreflang="en" aria-label="English" aria-current="page">EN</a>
             <a class="lang-btn" href="/es/couples-game/" hreflang="es" aria-label="Español">ES</a>
+            <a class="lang-btn" href="/pt/couples-game/" hreflang="pt" aria-label="Português">PT</a>
         </div>
         </div>
     </header>

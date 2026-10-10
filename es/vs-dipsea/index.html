@@ -23,6 +23,7 @@
     <link rel="alternate" hreflang="fr" href="https://caresse.app/vs-dipsea/">
     <link rel="alternate" hreflang="en" href="https://caresse.app/en/vs-dipsea/">
     <link rel="alternate" hreflang="es" href="https://caresse.app/es/vs-dipsea/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/pt/vs-dipsea/">
     <link rel="alternate" hreflang="x-default" href="https://caresse.app/vs-dipsea/">
 
     <!-- ══ OPEN GRAPH ══ -->
@@ -36,6 +37,7 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Caresse vs Dipsea, experiencia de audio íntima personalizada por IA">
     <meta property="og:locale" content="es_ES">
+    <meta property="og:locale:alternate" content="pt_BR">
     <meta property="og:locale:alternate" content="fr_FR">
     <meta property="og:locale:alternate" content="en_US">
 
@@ -107,34 +109,72 @@
     }
     </script>
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Caresse vs Dipsea",
-      "description": "Comparativa entre Caresse (audio íntimo personalizado por IA, compra por sesión) y Dipsea (catálogo de historias de audio eróticas pregrabadas, por suscripción).",
-      "url": "https://caresse.app/es/vs-dipsea/",
-      "inLanguage": ["fr", "en", "es"],
-      "isPartOf": { "@type": "WebSite", "name": "Caresse", "url": "https://caresse.app/" },
-      "about": {
-        "@type": "MobileApplication",
-        "name": "Caresse",
-        "url": "https://caresse.app/",
-        "operatingSystem": "iOS, Android",
-        "applicationCategory": "LifestyleApplication",
-        "publisher": { "@type": "Organization", "name": "Studio Mokuton", "url": "https://mokuton.studio/" },
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" },
-        "sameAs": ["https://apps.apple.com/us/app/caresse/id6758887086", "https://play.google.com/store/apps/details?id=studio.mokuton.caresse", "https://x.com/app_caresse", "https://www.instagram.com/caresse.app", "https://www.youtube.com/@app.caresse", "https://www.tiktok.com/@caresse.app"],
-        "inLanguage": ["fr", "en", "es"],
-        "isSimilarTo": { "@type": "SoftwareApplication", "name": "Dipsea" }
-      },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Caresse", "item": "https://caresse.app/" },
-          { "@type": "ListItem", "position": 2, "name": "Caresse vs Dipsea", "item": "https://caresse.app/es/vs-dipsea/" }
-        ]
-      }
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Caresse vs Dipsea",
+  "description": "Comparativa entre Caresse (audio íntimo personalizado por IA, compra por sesión) y Dipsea (catálogo de historias de audio eróticas pregrabadas, por suscripción).",
+  "url": "https://caresse.app/es/vs-dipsea/",
+  "inLanguage": "es",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Caresse",
+    "url": "https://caresse.app/"
+  },
+  "about": {
+    "@type": "MobileApplication",
+    "name": "Caresse",
+    "url": "https://caresse.app/",
+    "operatingSystem": "iOS, Android",
+    "applicationCategory": "LifestyleApplication",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Studio Mokuton",
+      "url": "https://mokuton.studio/"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    },
+    "sameAs": [
+      "https://apps.apple.com/us/app/caresse/id6758887086",
+      "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+      "https://x.com/app_caresse",
+      "https://www.instagram.com/caresse.app",
+      "https://www.youtube.com/@app.caresse",
+      "https://www.tiktok.com/@caresse.app"
+    ],
+    "inLanguage": [
+      "fr",
+      "en",
+      "es",
+      "pt"
+    ],
+    "isSimilarTo": {
+      "@type": "SoftwareApplication",
+      "name": "Dipsea"
     }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Caresse",
+        "item": "https://caresse.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Caresse vs Dipsea",
+        "item": "https://caresse.app/es/vs-dipsea/"
+      }
+    ]
+  }
+}
     </script>
 
     <link rel="dns-prefetch" href="https://developer.apple.com">
@@ -276,6 +316,9 @@
         .footer-copy { color: #BBB; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
 
         @media (max-width: 768px) { section { padding: 60px 5%; } }
+
+        /* Fourth language: reuse the compact navigation from the pricing page. */
+        @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
     </style>
     <!-- Umami Analytics -->
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
@@ -285,12 +328,13 @@
 <body class="lang-es">
 
     <header>
-        <a href="/es/" aria-label="Caresse, inicio"><img src="/caresse-logo.svg" class="logo" alt="Caresse, aplicación de audio íntimo guiada por IA" width="250" height="80"></a>
+        <a href="/es/" aria-label="Caresse, inicio"><img src="/caresse-logo.svg" class="logo" alt="Caresse, aplicación de audio íntimo guiada por IA" width="100" height="32"></a>
         <div class="header-right">
             <div class="lang-toggle" role="group" aria-label="Elegir idioma">
                 <a class="lang-btn" href="/vs-dipsea/" hreflang="fr" aria-label="Français">FR</a>
                 <a class="lang-btn" href="/en/vs-dipsea/" hreflang="en" aria-label="English">EN</a>
                 <a class="lang-btn active" href="/es/vs-dipsea/" hreflang="es" aria-label="Español" aria-current="page">ES</a>
+            <a class="lang-btn" href="/pt/vs-dipsea/" hreflang="pt" aria-label="Português">PT</a>
             </div>
         </div>
     </header>
@@ -301,7 +345,7 @@
 
     <!-- HERO -->
     <section class="hero">
-        <p class="hero-eyebrow">🇫🇷 🇬🇧 🇪🇸 · Caresse vs Dipsea · Audio en 3 idiomas</p>
+        <p class="hero-eyebrow">🇫🇷 🇬🇧 🇪🇸 · Caresse vs Dipsea · Audio en 4 idiomas</p>
         <h1>Una alternativa a Dipsea<br><em>con audio en español.</em></h1>
         <p>¿Buscas una alternativa a Dipsea en español? Caresse crea sesiones de audio personalizadas con tus nombres y preferencias, en español, inglés o francés. Descarga la app en iPhone o Android y escucha las demos gratis, sin cuenta de Caresse. Las sesiones personalizadas utilizan créditos de pago, sin suscripción.</p>
         <div class="cta-group">
