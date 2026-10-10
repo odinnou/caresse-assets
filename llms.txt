@@ -44,7 +44,7 @@ Published by Studio Mokuton (https://mokuton.studio/).
 
 - [Homepage](https://caresse.app/): what Caresse is, how it works, download links.
 - [Audio demo](https://caresse.app/demo/): pre-generated Caresse audio excerpts playable in the browser
-  without an account. Also at /en/demo/ and /es/demo/.
+  without an account. Also at /en/demo/ and /es/demo/. Portuguese text pages at /pt/demo/ use English recordings.
   These excerpts are pre-generated and fixed; in the app each session is generated on
   demand from the user's names, location, ambience, intensity and boundaries.
 - [How it works](https://caresse.app/how-it-works/): the generation flow, step by step.
@@ -91,20 +91,70 @@ Published by Studio Mokuton (https://mokuton.studio/).
 
 ## Languages
 
-- French (canonical, site root): https://caresse.app/
+- French (site root): https://caresse.app/
 - English: https://caresse.app/en/
 - Spanish: https://caresse.app/es/
 - Portuguese: https://caresse.app/pt/ (audio supported; interface translation in progress)
 
 ## Portuguese pages
 
-- [Portuguese homepage](https://caresse.app/pt/)
-- [Couples game](https://caresse.app/pt/couples-game/)
-- [Pricing](https://caresse.app/pt/precos/): credits, no subscription; advanced-options unlock is separate.
-- [Alternatives](https://caresse.app/pt/alternatives/)
-- [vs Dipsea](https://caresse.app/pt/vs-dipsea/)
-- [vs Desire](https://caresse.app/pt/vs-desire/)
-- [vs Spicer](https://caresse.app/pt/vs-spicer/)
+The full website content is available in Brazilian Portuguese. Each Portuguese page
+has a self-referencing canonical and reciprocal language links. Audio generated in
+the app supports Portuguese; some app interface elements remain untranslated.
+The Portuguese demo pages present **English audio**, clearly labelled; translating
+the page does not turn the recording into a Portuguese audio sample.
+
+- [Página inicial](https://caresse.app/pt/)
+- [Como funciona](https://caresse.app/pt/como-funciona/)
+- [Privacidade e IA](https://caresse.app/pt/o-caresse-e-seguro/)
+- [Jogo para casais](https://caresse.app/pt/couples-game/)
+- [Preços](https://caresse.app/pt/precos/)
+- [Suporte](https://caresse.app/pt/support/)
+
+### Use cases (PT)
+
+- [Para casais](https://caresse.app/pt/para-casais/)
+- [Exploração solo](https://caresse.app/pt/exploracao-solo/)
+- [Casais recentes](https://caresse.app/pt/para-casais-recentes/)
+- [Casais de longa data](https://caresse.app/pt/para-casais-de-longa-data/)
+- [Casais com pouco tempo](https://caresse.app/pt/para-casais-com-pouco-tempo/)
+- [Casais aventureiros](https://caresse.app/pt/para-casais-aventureiros/)
+- [Pessoas cegas e com baixa visão](https://caresse.app/pt/para-pessoas-cegas-e-com-baixa-visao/)
+
+### Comparisons (PT)
+
+- [Alternativas](https://caresse.app/pt/alternatives/)
+- [Caresse vs Bloom Stories](https://caresse.app/pt/vs-bloom/)
+- [Caresse vs Bonded](https://caresse.app/pt/vs-bonded/)
+- [Caresse vs Coelle](https://caresse.app/pt/vs-coelle/)
+- [Caresse vs Desire](https://caresse.app/pt/vs-desire/)
+- [Caresse vs Dipsea](https://caresse.app/pt/vs-dipsea/)
+- [Caresse vs Femtasy](https://caresse.app/pt/vs-femtasy/)
+- [Caresse vs InTheMoment](https://caresse.app/pt/vs-inthemoment/)
+- [Caresse vs Magic Wave](https://caresse.app/pt/vs-magicwave/)
+- [Caresse vs Melba](https://caresse.app/pt/vs-melba/)
+- [Caresse vs Melt Stories](https://caresse.app/pt/vs-melt/)
+- [Caresse vs Quinn](https://caresse.app/pt/vs-quinn/)
+- [Caresse vs Spicer](https://caresse.app/pt/vs-spicer/)
+
+### Editorial (PT)
+
+- [Blog](https://caresse.app/pt/blog/)
+- [Intimidade e deficiência visual: o papel do áudio.](https://caresse.app/pt/blog/intimidade-deficiencia-visual-audio/)
+- [Como reacender a conexão em um relacionamento duradouro](https://caresse.app/pt/blog/reacender-conexao-casal/)
+- [Exploração solo: deixar a culpa de lado e reservar um tempo para você](https://caresse.app/pt/blog/exploracao-solo-sem-culpa/)
+- [Panorama da intimidade com IA em 2026.](https://caresse.app/pt/blog/panorama-ia-intimidade-2026/)
+- [Como conversar sobre suas fantasias com seu par sem constrangimento](https://caresse.app/pt/blog/como-conversar-sobre-fantasias/)
+
+### Demo pages (PT text, English recordings)
+
+- [Uma sessão guiada entre dois homens (áudio em inglês)](https://caresse.app/pt/demo/casal-dois-homens/)
+- [Uma sessão guiada entre duas mulheres (áudio em inglês)](https://caresse.app/pt/demo/casal-duas-mulheres/)
+- [Demos: texto em português, áudio em inglês](https://caresse.app/pt/demo/)
+- [Um jogo de controle guiado pela voz (áudio em inglês)](https://caresse.app/pt/demo/casal-intenso/)
+- [Uma noite a dois, guiada desde o primeiro toque (áudio em inglês)](https://caresse.app/pt/demo/casal-romantico/)
+- [Uma descoberta sensorial, solo e sem pressa (áudio em inglês)](https://caresse.app/pt/demo/descoberta-sensorial-solo/)
+- [Uma exploração solo com os sentidos despertos (áudio em inglês)](https://caresse.app/pt/demo/solo-com-brinquedos-eroticos/)
 
 The website is static: it does not generate personalised sessions. Those are created
 inside the app using paid credits. The primary website action is a direct store link.

@@ -87,7 +87,7 @@ sans détourner un humain. Il n'a jamais sa place en CTA visible.
    de page. Sans lui, 100 % des visiteurs Android atterrissent sur l'App Store.
    Si une page a plusieurs CTA store, le script les couvre **tous** (tableau d'ids).
 4. **Les liens store s'ouvrent avec** `target="_blank" rel="noopener"`.
-5. **Les trois locales en même temps** — FR, EN, ES. Une correction de CTA sur une seule
+5. **Les quatre locales en même temps** — FR, EN, ES, PT. Une correction de CTA sur une seule
    locale est une correction non faite.
 
 ## Ce qui ne se change pas sans raison mesurée
@@ -129,7 +129,7 @@ du résultat.
 - [ ] Aucun `.cta-pink` ne pointe vers une page interne
 - [ ] Aucun `.cta-ghost` ne pointe vers `/demo/` sur une page portant un CTA store
 - [ ] Toute page avec `id="hero-cta"` a son script Android, couvrant tous ses ids
-- [ ] Les trois locales sont traitées
+- [ ] Les quatre locales sont traitées (FR, EN, ES, PT)
 - [ ] Aucun libellé de CTA modifié sans décision explicite
 - [ ] Aucun lien sortant vers les alternatives comparées dans `alternatives` / `vs-*`
 - [ ] Aucun lien promotionnel vers une alternative ; les références du blog pointent
