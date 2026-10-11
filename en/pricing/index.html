@@ -14,6 +14,7 @@
     <link rel="alternate" hreflang="fr" href="https://caresse.app/tarifs/">
     <link rel="alternate" hreflang="en" href="https://caresse.app/en/pricing/">
     <link rel="alternate" hreflang="es" href="https://caresse.app/es/precios/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/pt/precos/">
     <link rel="alternate" hreflang="x-default" href="https://caresse.app/tarifs/">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://caresse.app/en/pricing/">
@@ -22,6 +23,7 @@
     <meta property="og:description" content="Caresse is free to download. See what audio demos include, how session credits work and what the optional personalization unlock does. No subscription.">
     <meta property="og:image" content="https://caresse.app/og-image-en.png">
     <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="pt_BR">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Caresse Pricing: Free Demos, No Subscription">
     <meta name="twitter:description" content="Caresse is free to download. See what audio demos include, how session credits work and what the optional personalization unlock does. No subscription.">
@@ -168,6 +170,29 @@
             .cta-pink, .store-badge { transition: none; }
             .cta-pink:hover, .store-badge:hover { transform: none; }
         }
+
+        /* Fourth language: reuse the compact navigation from the pricing page. */
+        @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
+        /* Compact mobile language links, using the existing segmented control. */
+        @media (max-width: 768px) {
+            header { gap: 12px; }
+            header .logo { width: auto; }
+            header .header-right { gap: 8px; }
+            header .lang-toggle { display: flex; gap: 2px; padding: 3px; flex: 0 0 auto; }
+            header .lang-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 30px;
+                min-width: 30px;
+                min-height: 32px;
+                padding: 0;
+                border-radius: 12px;
+                font-size: 0.75rem;
+                line-height: 1;
+            }
+            header .lang-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        }
     </style>
     <script type="application/ld+json">
 {
@@ -251,7 +276,7 @@
       "name": "Can I try it in English, French or Spanish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Caresse offers demos and sessions in English, French and Spanish, for solo or couple use."
+        "text": "The app offers audio sessions in English, French, Spanish and Portuguese. Some parts of the Portuguese interface are not yet translated. Demos published on the website are in English, French and Spanish."
       }
     }
   ]
@@ -264,7 +289,7 @@
 <body class="lang-en">
 
     <header>
-        <a href="/en/" aria-label="Caresse — home"><img src="/caresse-logo.svg" class="logo" alt="Caresse, AI-guided intimate audio app" width="250" height="80"></a>
+        <a href="/en/" aria-label="Caresse — home"><img src="/caresse-logo.svg" class="logo" alt="Caresse, AI-guided intimate audio app" width="100" height="32"></a>
         <div class="header-right">
             <a href="/en/blog/" class="header-link">Blog</a>
             <a href="/en/how-it-works/" class="header-link">How it works</a>
@@ -274,6 +299,7 @@
                 <a class="lang-btn" href="/tarifs/" hreflang="fr" aria-label="Français">FR</a>
                 <a class="lang-btn active" href="/en/pricing/" hreflang="en" aria-label="English" aria-current="page">EN</a>
                 <a class="lang-btn" href="/es/precios/" hreflang="es" aria-label="Español">ES</a>
+            <a class="lang-btn" href="/pt/precos/" hreflang="pt" aria-label="Português">PT</a>
             </div>
         </div>
     </header>
@@ -338,7 +364,7 @@
                 <article class="faq-item"><h3>Is there a subscription or automatic renewal?</h3><p>No. Buy credits when you want to create sessions. The optional personalization unlock is a one-time purchase, not a subscription.</p></article>
                 <article class="faq-item"><h3>Does the unlock include unlimited sessions?</h3><p>No. It opens additional personalization options. Session generation still uses credits; any credit included in an offer is specified in the app.</p></article>
                 <article class="faq-item"><h3>Can I buy without a Caresse account?</h3><p>Yes. Anonymous mode does not require a Caresse account. Payment through the App Store or Google Play still uses your Apple or Google account and its payment method.</p></article>
-                <article class="faq-item"><h3>Can I try it in English, French or Spanish?</h3><p>Yes. Caresse offers demos and sessions in English, French and Spanish, for solo or couple use.</p></article>
+                <article class="faq-item"><h3>Can I try it in English, French or Spanish?</h3><p>The app offers audio sessions in English, French, Spanish and Portuguese. Some parts of the Portuguese interface are not yet translated. Demos published on the website are in English, French and Spanish.</p></article>
             </div>
         </section>
 

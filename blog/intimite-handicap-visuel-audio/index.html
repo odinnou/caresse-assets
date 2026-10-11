@@ -23,6 +23,7 @@
     <link rel="alternate" hreflang="fr" href="https://caresse.app/blog/intimite-handicap-visuel-audio/">
     <link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/intimacy-visual-impairment-audio/">
     <link rel="alternate" hreflang="es" href="https://caresse.app/es/blog/intimidad-discapacidad-visual-audio/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/pt/blog/intimidade-deficiencia-visual-audio/">
     <link rel="alternate" hreflang="x-default" href="https://caresse.app/en/blog/intimacy-visual-impairment-audio/">
 
     <!-- ══ OPEN GRAPH ══ -->
@@ -36,6 +37,7 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Intimité et handicap visuel, la place de l'audio">
     <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="pt_BR">
 
     <!-- ══ TWITTER CARD ══ -->
     <meta name="twitter:card" content="summary_large_image">
@@ -247,6 +249,27 @@
         .skip-link { position: absolute; left: -9999px; top: 0; background: var(--primary); color: #fff; padding: 12px 20px; z-index: 200; border-radius: 0 0 8px 0; font-weight: 700; }
         .skip-link:focus { left: 0; }
         @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+            @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
+        /* Compact mobile language links, using the existing segmented control. */
+        @media (max-width: 768px) {
+            header { gap: 12px; }
+            header .logo { width: auto; }
+            header .header-right { gap: 8px; }
+            header .lang-toggle { display: flex; gap: 2px; padding: 3px; flex: 0 0 auto; }
+            header .lang-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 30px;
+                min-width: 30px;
+                min-height: 32px;
+                padding: 0;
+                border-radius: 12px;
+                font-size: 0.75rem;
+                line-height: 1;
+            }
+            header .lang-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        }
     </style>
     <!-- Umami Analytics -->
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
@@ -267,6 +290,7 @@
                 <a class="lang-btn active" href="/blog/intimite-handicap-visuel-audio/" hreflang="fr" aria-label="Français" aria-current="page">FR</a>
                 <a class="lang-btn" href="/en/blog/intimacy-visual-impairment-audio/" hreflang="en" aria-label="English">EN</a>
                 <a class="lang-btn" href="/es/blog/intimidad-discapacidad-visual-audio/" hreflang="es" aria-label="Español">ES</a>
+                <a class="lang-btn" href="/pt/blog/intimidade-deficiencia-visual-audio/" hreflang="pt" aria-label="Português">PT</a>
             </div>
         </div>
     </header>

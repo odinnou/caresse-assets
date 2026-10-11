@@ -24,6 +24,7 @@
     <link rel="alternate" hreflang="fr" href="https://caresse.app/demo/">
     <link rel="alternate" hreflang="en" href="https://caresse.app/en/demo/">
     <link rel="alternate" hreflang="es" href="https://caresse.app/es/demo/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/pt/demo/">
     <link rel="alternate" hreflang="x-default" href="https://caresse.app/demo/">
 
     <!-- ══ OPEN GRAPH ══ -->
@@ -37,6 +38,7 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Démo audio Caresse, écoute gratuite sans inscription">
     <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="pt_BR">
     <meta property="og:locale:alternate" content="en_US">
     <meta property="og:locale:alternate" content="es_ES">
 
@@ -310,6 +312,27 @@
         .footer-social svg { width: 18px; height: 18px; fill: currentColor; }
         .footer-copy { color: #BBB; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
         @media (max-width: 768px) { section { padding: 60px 5%; } .players { padding: 20px 5% 56px; } .demo-card { padding: 22px 20px; } }
+            @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
+        /* Compact mobile language links, using the existing segmented control. */
+        @media (max-width: 768px) {
+            header { gap: 12px; }
+            header .logo { width: auto; }
+            header .header-right { gap: 8px; }
+            header .lang-toggle { display: flex; gap: 2px; padding: 3px; flex: 0 0 auto; }
+            header .lang-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 30px;
+                min-width: 30px;
+                min-height: 32px;
+                padding: 0;
+                border-radius: 12px;
+                font-size: 0.75rem;
+                line-height: 1;
+            }
+            header .lang-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        }
     </style>
     <!-- Umami Analytics -->
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
@@ -329,6 +352,7 @@
                 <a class="lang-btn active" href="/demo/" hreflang="fr" aria-label="Français" aria-current="page">FR</a>
                 <a class="lang-btn" href="/en/demo/" hreflang="en" aria-label="English">EN</a>
                 <a class="lang-btn" href="/es/demo/" hreflang="es" aria-label="Español">ES</a>
+                <a class="lang-btn" href="/pt/demo/" hreflang="pt" aria-label="Português">PT</a>
             </div>
         </div>
     </header>

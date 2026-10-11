@@ -23,6 +23,7 @@
     <link rel="alternate" hreflang="fr" href="https://caresse.app/couples-game/">
     <link rel="alternate" hreflang="en" href="https://caresse.app/en/couples-game/">
     <link rel="alternate" hreflang="es" href="https://caresse.app/es/couples-game/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/pt/couples-game/">
     <link rel="alternate" hreflang="x-default" href="https://caresse.app/couples-game/">
 
     <!-- ══ OPEN GRAPH ══ -->
@@ -36,6 +37,7 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Caresse, juego de audio íntimo para parejas generado por IA">
     <meta property="og:locale" content="es_ES">
+    <meta property="og:locale:alternate" content="pt_BR">
     <meta property="og:locale:alternate" content="fr_FR">
     <meta property="og:locale:alternate" content="en_US">
 
@@ -99,34 +101,72 @@
     }
     </script>
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Caresse, Juego para parejas",
-      "description": "Caresse es un juego para parejas generado por IA: configuráis vuestros deseos juntos, la IA crea una sesión de audio sorpresa única cada vez.",
-      "url": "https://caresse.app/es/couples-game/",
-      "inLanguage": ["fr", "en", "es"],
-      "isPartOf": { "@type": "WebSite", "name": "Caresse", "url": "https://caresse.app/" },
-      "about": {
-        "@type": "MobileApplication",
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Caresse, Juego para parejas",
+  "description": "Caresse es un juego para parejas generado por IA: configuráis vuestros deseos juntos, la IA crea una sesión de audio sorpresa única cada vez.",
+  "url": "https://caresse.app/es/couples-game/",
+  "inLanguage": "es",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Caresse",
+    "url": "https://caresse.app/"
+  },
+  "about": {
+    "@type": "MobileApplication",
+    "name": "Caresse",
+    "url": "https://caresse.app/",
+    "operatingSystem": "iOS, Android",
+    "applicationCategory": "LifestyleApplication",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Studio Mokuton",
+      "url": "https://mokuton.studio/"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    },
+    "sameAs": [
+      "https://apps.apple.com/us/app/caresse/id6758887086",
+      "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+      "https://x.com/app_caresse",
+      "https://www.instagram.com/caresse.app",
+      "https://www.youtube.com/@app.caresse",
+      "https://www.tiktok.com/@caresse.app"
+    ],
+    "inLanguage": [
+      "fr",
+      "en",
+      "es",
+      "pt"
+    ]
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://caresse.app/screens/en/06_android_en.webp"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
         "name": "Caresse",
-        "url": "https://caresse.app/",
-        "operatingSystem": "iOS, Android",
-        "applicationCategory": "LifestyleApplication",
-        "publisher": { "@type": "Organization", "name": "Studio Mokuton", "url": "https://mokuton.studio/" },
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" },
-        "sameAs": ["https://apps.apple.com/us/app/caresse/id6758887086", "https://play.google.com/store/apps/details?id=studio.mokuton.caresse", "https://x.com/app_caresse", "https://www.instagram.com/caresse.app", "https://www.youtube.com/@app.caresse", "https://www.tiktok.com/@caresse.app"],
-        "inLanguage": ["fr", "en", "es"]
+        "item": "https://caresse.app/es/"
       },
-      "primaryImageOfPage": { "@type": "ImageObject", "url": "https://caresse.app/screens/en/06_android_en.webp" },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Caresse", "item": "https://caresse.app/es/" },
-          { "@type": "ListItem", "position": 2, "name": "Juego para parejas", "item": "https://caresse.app/es/couples-game/" }
-        ]
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Juego para parejas",
+        "item": "https://caresse.app/es/couples-game/"
       }
-    }
+    ]
+  }
+}
     </script>
 
     <link rel="dns-prefetch" href="https://developer.apple.com">
@@ -241,6 +281,29 @@
         .footer-copy { color: #BBB; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
 
         @media (max-width: 768px) { section { padding: 70px 5%; } .benefits-grid, .steps-grid { grid-template-columns: 1fr; } }
+
+        /* Fourth language: reuse the compact navigation from the pricing page. */
+        @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
+        /* Compact mobile language links, using the existing segmented control. */
+        @media (max-width: 768px) {
+            header { gap: 12px; }
+            header .logo { width: auto; }
+            header .header-right { gap: 8px; }
+            header .lang-toggle { display: flex; gap: 2px; padding: 3px; flex: 0 0 auto; }
+            header .lang-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 30px;
+                min-width: 30px;
+                min-height: 32px;
+                padding: 0;
+                border-radius: 12px;
+                font-size: 0.75rem;
+                line-height: 1;
+            }
+            header .lang-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        }
     </style>
     <script src="/mobile-store-cta.js" defer></script>
     <!-- Umami Analytics -->
@@ -250,7 +313,7 @@
 <body class="lang-es">
 
     <header>
-        <a href="/es/" aria-label="Caresse, inicio"><img src="/caresse-logo.svg" class="logo" alt="Caresse, aplicación de audio íntimo guiada por IA" width="250" height="80"></a>
+        <a href="/es/" aria-label="Caresse, inicio"><img src="/caresse-logo.svg" class="logo" alt="Caresse, aplicación de audio íntimo guiada por IA" width="100" height="32"></a>
         <div class="header-right">
             <a href="/es/how-it-works/" class="header-link">Cómo funciona</a>
             <a href="/es/alternatives/" class="header-link">Alternativas</a>
@@ -258,6 +321,7 @@
             <a class="lang-btn" href="/couples-game/" hreflang="fr" aria-label="Français">FR</a>
             <a class="lang-btn" href="/en/couples-game/" hreflang="en" aria-label="English">EN</a>
             <a class="lang-btn active" href="/es/couples-game/" hreflang="es" aria-label="Español" aria-current="page">ES</a>
+            <a class="lang-btn" href="/pt/couples-game/" hreflang="pt" aria-label="Português">PT</a>
         </div>
         </div>
     </header>

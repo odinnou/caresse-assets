@@ -23,6 +23,7 @@
     <link rel="alternate" hreflang="fr" href="https://caresse.app/how-it-works/">
     <link rel="alternate" hreflang="en" href="https://caresse.app/en/how-it-works/">
     <link rel="alternate" hreflang="es" href="https://caresse.app/es/how-it-works/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/pt/como-funciona/">
     <link rel="alternate" hreflang="x-default" href="https://caresse.app/how-it-works/">
 
     <!-- ══ OPEN GRAPH ══ -->
@@ -36,6 +37,7 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Comment fonctionne Caresse, génération audio intime par IA">
     <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="pt_BR">
     <meta property="og:locale:alternate" content="en_US">
     <meta property="og:locale:alternate" content="es_ES">
 
@@ -234,6 +236,27 @@
         .lang-fr [data-lang="fr"] { display: block; }
         .lang-en [data-lang="en"] { display: block; }
         .lang-fr [data-lang="fr"].inline, .lang-en [data-lang="en"].inline { display: inline; }
+            @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
+        /* Compact mobile language links, using the existing segmented control. */
+        @media (max-width: 768px) {
+            header { gap: 12px; }
+            header .logo { width: auto; }
+            header .header-right { gap: 8px; }
+            header .lang-toggle { display: flex; gap: 2px; padding: 3px; flex: 0 0 auto; }
+            header .lang-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 30px;
+                min-width: 30px;
+                min-height: 32px;
+                padding: 0;
+                border-radius: 12px;
+                font-size: 0.75rem;
+                line-height: 1;
+            }
+            header .lang-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        }
     </style>
     <script src="/mobile-store-cta.js" defer></script>
     <!-- Umami Analytics -->
@@ -252,7 +275,8 @@
             <a class="lang-btn active" href="/how-it-works/" hreflang="fr" aria-label="Français" aria-current="page">FR</a>
             <a class="lang-btn" href="/en/how-it-works/" hreflang="en" aria-label="English">EN</a>
             <a class="lang-btn" href="/es/how-it-works/" hreflang="es" aria-label="Español">ES</a>
-        </div>
+                <a class="lang-btn" href="/pt/como-funciona/" hreflang="pt" aria-label="Português">PT</a>
+            </div>
         </div>
     </header>
 

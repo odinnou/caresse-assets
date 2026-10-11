@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ══ SEO PRIMARY ══ -->
+    <title>Blog do Caresse — Relacionamentos, intimidade, exploração e bastidores</title>
+    <meta name="description" content="Artigos sobre relacionamentos, comunicação íntima e exploração solo, além dos bastidores técnicos do Caresse: arquitetura .NET 10 e cadeia de LLM.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Studio Mokuton">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+    <link rel="canonical" href="https://caresse.app/pt/blog/">
+    <meta name="theme-color" content="#5D3D8C">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="sitemap" type="application/xml" title="Mapa do site" href="https://caresse.app/sitemap.xml">
+
+    <!-- ══ HREFLANG ══ -->
+    <link rel="alternate" hreflang="fr" href="https://caresse.app/blog/">
+    <link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/">
+    <link rel="alternate" hreflang="es" href="https://caresse.app/es/blog/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/pt/blog/">
+    <link rel="alternate" hreflang="x-default" href="https://caresse.app/blog/">
+
+    <!-- ══ OPEN GRAPH ══ -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://caresse.app/pt/blog/">
+    <meta property="og:site_name" content="Caresse">
+    <meta property="og:title" content="Blog do Caresse — Relacionamentos, intimidade e exploração">
+    <meta property="og:description" content="Artigos sobre relacionamentos, comunicação íntima e exploração solo, além dos bastidores da criação do Caresse.">
+    <meta property="og:image" content="https://caresse.app/og-image-en.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Blog do Caresse, relacionamentos, intimidade e exploração">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+
+    <!-- ══ TWITTER CARD ══ -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog do Caresse — Relacionamentos, intimidade e exploração">
+    <meta name="twitter:description" content="Artigos sobre relacionamentos, comunicação íntima e exploração solo.">
+    <meta name="twitter:image" content="https://caresse.app/og-image-en.png">
+    <meta name="twitter:image:alt" content="Blog do Caresse, relacionamentos, intimidade e exploração">
+
+    <!-- ══ SCHEMA.ORG JSON-LD ══ -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Blog do Caresse",
+  "description": "Artigos sobre relacionamentos, comunicação íntima e exploração solo, além dos bastidores técnicos da criação do Caresse.",
+  "url": "https://caresse.app/pt/blog/",
+  "inLanguage": "pt",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Studio Mokuton",
+    "url": "https://mokuton.studio/"
+  },
+  "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Intimidade e deficiência visual: o papel do áudio",
+      "description": "Por que tantos serviços digitais de intimidade pressupõem que você consegue ver a tela, o que uma experiência centrada no áudio muda e como distinguir conteúdo em áudio de uma interface acessível para pessoas cegas ou com baixa visão.",
+      "url": "https://caresse.app/pt/blog/intimidade-deficiencia-visual-audio/",
+      "image": "https://caresse.app/og-image-en.png",
+      "datePublished": "2026-08-20",
+      "inLanguage": "pt",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Panorama da intimidade com IA em 2026: relatório sobre IA, áudio e conexão",
+      "description": "Um relatório anual sobre IA, áudio e intimidade: adoção da IA generativa, tendências de áudio imersivo, personalização, privacidade e cansaço dos apps de namoro.",
+      "url": "https://caresse.app/pt/blog/panorama-ia-intimidade-2026/",
+      "image": "https://caresse.app/og-image-en.png",
+      "datePublished": "2026-08-07",
+      "inLanguage": "pt",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Como reacender a conexão em um relacionamento duradouro",
+      "description": "A rotina não precisa ser definitiva. 7 ideias concretas e realistas, sem pressão nem promessa milagrosa, para trazer de volta o desejo e a surpresa em um relacionamento duradouro.",
+      "url": "https://caresse.app/pt/blog/reacender-conexao-casal/",
+      "image": "https://caresse.app/og-image-en.png",
+      "datePublished": "2026-07-20",
+      "inLanguage": "pt",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Como conversar sobre suas fantasias com seu par sem constrangimento",
+      "description": "O medo do julgamento bloqueia mais casais do que a falta de desejo. Um caminho concreto, passo a passo, para conversar sobre fantasias sem constrangimento.",
+      "url": "https://caresse.app/pt/blog/como-conversar-sobre-fantasias/",
+      "image": "https://caresse.app/og-image-en.png",
+      "datePublished": "2026-07-27",
+      "inLanguage": "pt",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Exploração solo: deixar a culpa de lado e reservar um tempo para você",
+      "description": "Reservar um tempo só para você não é egoísmo. Entenda de onde vem a culpa e como abrir esse espaço com tranquilidade.",
+      "url": "https://caresse.app/pt/blog/exploracao-solo-sem-culpa/",
+      "image": "https://caresse.app/og-image-en.png",
+      "datePublished": "2026-08-03",
+      "inLanguage": "pt",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Criando o Caresse #1: arquitetura hexagonal para uma cadeia de IA com múltiplos fornecedores",
+      "description": "Ports, adapters e um registro de fornecedores em .NET 10 que permite trocar serviços de LLM e síntese de voz sem alterar o domínio.",
+      "url": "https://medium.com/@odinnou/building-caresse-1-hexagonal-architecture-for-a-multi-provider-ai-pipeline-f0c1ca4ee471",
+      "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*7ytom68t1spMTMSCI76MFg.png",
+      "inLanguage": "pt",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Criando o Caresse #2: orquestrando uma cadeia de LLM em várias etapas",
+      "description": "Um pedido do usuário, 8 etapas sequenciais, um modelo diferente por etapa e uma fase de autocrítica que melhora o resultado antes da síntese de voz.",
+      "url": "https://medium.com/@odinnou/building-caresse-2-orchestrating-a-multi-phase-llm-pipeline-66f4a29ad236",
+      "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*hr24axQNj_VLDsxjmrdr3Q.png",
+      "inLanguage": "pt",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Criando o Caresse #3: testes de integração de uma API .NET sem acessar a produção",
+      "description": "Testcontainers para PostgreSQL, Azurite para Azure Blob Storage, autenticação de teste no lugar do Firebase e WireMock.Net para RevenueCat, fornecedores de LLM e síntese de voz.",
+      "url": "https://medium.com/@odinnou/building-caresse-3-integration-testing-a-net-api-without-touching-production-1999f2ac35a8",
+      "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*ZiI6Ybzru6qGv8UVaeJVQQ.png",
+      "inLanguage": "pt",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton"
+      }
+    }
+  ]
+}
+    </script>
+
+    <link rel="dns-prefetch" href="https://medium.com">
+    <link rel="dns-prefetch" href="https://miro.medium.com">
+    <link rel="dns-prefetch" href="https://mokuton.studio">
+
+    <style>
+        :root {
+            --primary: #5D3D8C;
+            --secondary: #9E7BB5;
+            --primary-vibrant: #9361FD;
+            --background: #F9F7FD;
+            --surface: #FFFFFF;
+            --text-primary: #1A1A2E;
+            --text-secondary: #5D5D7A;
+            --pink: #FF6B9D;
+            --grad-primary: linear-gradient(135deg, #9361FD, #5D3D8C);
+            --grad-pink: linear-gradient(135deg, #9361FD, #FF6B9D);
+            --grad-soft: linear-gradient(135deg, #F9F7FD 0%, #EDE8F7 100%);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, system-ui, sans-serif; background-color: var(--background); color: var(--text-primary); line-height: 1.6; overflow-x: hidden; }
+
+        header { padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.85); backdrop-filter: blur(12px); position: fixed; width: 100%; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(93,61,140,0.06); }
+        .logo { height: 32px; }
+        .header-right { display: flex; align-items: center; gap: 16px; }
+        .header-link { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; font-weight: 600; padding: 6px 12px; border-radius: 10px; transition: 0.2s; }
+        .header-link:hover, .header-link.active { color: var(--primary); background: rgba(93,61,140,0.06); }
+        .lang-toggle { display: flex; gap: 4px; background: rgba(93,61,140,0.08); border-radius: 20px; padding: 4px; }
+        .lang-btn { border: none; background: none; padding: 6px 14px; border-radius: 16px; font-size: 0.85rem; font-weight: 600; cursor: pointer; color: var(--text-secondary); transition: all 0.2s; text-decoration: none; }
+        .lang-btn.active { background: var(--primary); color: white; }
+
+        .blog-hero { padding: 140px 5% 60px; text-align: center; background: radial-gradient(ellipse at 60% 40%, rgba(147,97,253,0.12) 0%, transparent 60%), radial-gradient(ellipse at 20% 80%, rgba(255,107,157,0.08) 0%, transparent 50%), var(--background); }
+        .blog-hero .eyebrow { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 16px; }
+        .blog-hero h1 { font-size: clamp(2rem, 5vw, 3.4rem); font-weight: 800; line-height: 1.15; margin-bottom: 18px; background: var(--grad-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; max-width: 760px; margin-left: auto; margin-right: auto; }
+        .blog-hero p { color: var(--text-secondary); font-size: clamp(1rem, 2vw, 1.15rem); max-width: 620px; margin: 0 auto; }
+        .cta-pink { background: var(--grad-pink); color: white; padding: 16px 40px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.02rem; box-shadow: 0 12px 28px rgba(255,107,157,0.32); transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
+        .cta-pink:hover { transform: translateY(-3px); box-shadow: 0 16px 34px rgba(255,107,157,0.42); }
+
+        .breadcrumb { padding: 24px 5% 0; font-size: 0.85rem; color: var(--text-secondary); max-width: 1100px; margin: 0 auto; }
+        .breadcrumb a { color: var(--primary-vibrant); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        .posts { padding: 60px 5% 100px; max-width: 1100px; margin: 0 auto; }
+        .posts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; }
+        .post-card { background: var(--surface); border-radius: 24px; overflow: hidden; border: 1px solid rgba(158,123,181,0.12); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.25s, box-shadow 0.25s; }
+        .post-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(93,61,140,0.12); }
+        .post-card-img { aspect-ratio: 16 / 10; overflow: hidden; background: var(--grad-soft); }
+        .post-card-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s; }
+        .post-card:hover .post-card-img img { transform: scale(1.04); }
+        .post-card-body { padding: 28px 28px 30px; display: flex; flex-direction: column; flex: 1; gap: 12px; }
+        .post-meta { display: flex; align-items: center; gap: 10px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--primary-vibrant); }
+        .post-meta .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text-secondary); opacity: 0.5; }
+        .post-meta .lang-tag { color: var(--text-secondary); }
+        .post-card h2 { font-size: 1.15rem; font-weight: 700; color: var(--text-primary); line-height: 1.35; }
+        .post-card p { color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; flex: 1; }
+        .post-cta { display: inline-flex; align-items: center; gap: 6px; color: var(--primary); font-size: 0.88rem; font-weight: 700; margin-top: 4px; }
+        .post-cta::after { content: "→"; transition: transform 0.2s; }
+        .post-card:hover .post-cta::after { transform: translateX(4px); }
+
+        footer { padding: 50px 5% 36px; background: var(--surface); display: flex; flex-direction: column; align-items: center; gap: 24px; }
+        .footer-nav { display: flex; gap: 6px 16px; flex-wrap: wrap; justify-content: center; max-width: 720px; }
+        .footer-nav a { color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; padding: 4px 8px; border-radius: 6px; transition: 0.2s; }
+        .footer-nav a:hover { color: var(--primary); background: rgba(93,61,140,0.06); }
+        .footer-links { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; font-weight: 500; padding: 6px 12px; border-radius: 8px; transition: 0.2s; }
+        .footer-links a:hover { color: var(--primary); background: rgba(93,61,140,0.06); }
+        .footer-links span { color: #DDD; line-height: 2; }
+                .footer-social {
+            display: flex;
+            gap: 14px;
+            justify-content: center;
+        }
+
+        .footer-social a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: rgba(93,61,140,0.06);
+            color: var(--text-secondary);
+            transition: 0.2s;
+        }
+
+        .footer-social a:hover { color: var(--primary); background: rgba(93,61,140,0.12); }
+        .footer-social svg { width: 18px; height: 18px; fill: currentColor; }
+
+        .footer-copy { color: #BBB; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
+
+        @media (max-width: 768px) {
+            .header-link { display: none; }
+            .blog-hero { padding-top: 110px; }
+            .posts-grid { grid-template-columns: 1fr; }
+        }
+            @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
+        /* Compact mobile language links, using the existing segmented control. */
+        @media (max-width: 768px) {
+            header { gap: 12px; }
+            header .logo { width: auto; }
+            header .header-right { gap: 8px; }
+            header .lang-toggle { display: flex; gap: 2px; padding: 3px; flex: 0 0 auto; }
+            header .lang-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 30px;
+                min-width: 30px;
+                min-height: 32px;
+                padding: 0;
+                border-radius: 12px;
+                font-size: 0.75rem;
+                line-height: 1;
+            }
+            header .lang-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        }
+    </style>
+    <!-- Umami Analytics -->
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
+    <script defer src="/umami-store-tracking.js"></script>
+    <script defer src="/mobile-store-cta.js"></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Caresse",
+      "item": "https://caresse.app/pt/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://caresse.app/pt/blog/"
+    }
+  ]
+}
+    </script>
+</head>
+<body>
+
+    <header>
+        <a href="/pt/" aria-label="Caresse — início"><img src="/caresse-logo.svg" class="logo" alt="Caresse, app de áudio íntimo guiado por IA" width="250" height="80"></a>
+        <div class="header-right">
+            <a href="/pt/blog/" class="header-link active" aria-current="page">Blog</a>
+            <a href="/pt/alternatives/" class="header-link">Alternativas</a>
+            <div class="lang-toggle" role="group" aria-label="Escolher idioma">
+                <a class="lang-btn" href="/blog/" hreflang="fr" aria-label="Français">FR</a>
+                <a class="lang-btn" href="/en/blog/" hreflang="en" aria-label="English">EN</a>
+                <a class="lang-btn" href="/es/blog/" hreflang="es" aria-label="Español">ES</a>
+                <a class="lang-btn active" href="/pt/blog/" hreflang="pt" aria-label="Português" aria-current="page">PT</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="breadcrumb" style="padding-top:90px;">
+        <a href="/pt/">Caresse</a> › Blog
+    </div>
+
+    <section class="blog-hero">
+        <p class="eyebrow">O blog do Caresse</p>
+        <h1>Relacionamentos, intimidade, exploração.</h1>
+        <p>Artigos para ajudar você a se comunicar melhor, se reconectar com seu par ou simplesmente reservar um tempo para si. Mais abaixo, os bastidores técnicos da criação do Caresse.</p>
+        <div style="display:flex;justify-content:center;margin-top:24px;"><a href="https://apps.apple.com/us/app/caresse/id6758887086" id="hero-cta" class="cta-pink" data-store-auto data-cta-position="hero" target="_blank" rel="noopener">Baixar grátis</a></div>
+    </section>
+
+    <section class="posts">
+        <div class="posts-grid">
+
+            <a href="/pt/blog/intimidade-deficiencia-visual-audio/" class="post-card">
+                <div class="post-card-img" style="background:var(--grad-pink);display:flex;align-items:center;justify-content:center;">
+                    <span style="font-size:3rem;">🎧</span>
+                </div>
+                <div class="post-card-body">
+                    <div class="post-meta">
+                        <span>Acessibilidade · 8 min de leitura</span>
+                    </div>
+                    <h2>Intimidade e deficiência visual: o papel do áudio</h2>
+                    <p>Por que tantos serviços de intimidade pressupõem que você consegue ver a tela, o que uma experiência centrada no áudio muda e como distinguir conteúdo em áudio de uma interface acessível.</p>
+                    <span class="post-cta">Ler o artigo</span>
+                </div>
+            </a>
+
+            <a href="/pt/blog/panorama-ia-intimidade-2026/" class="post-card">
+                <div class="post-card-img" style="background:var(--grad-primary);display:flex;align-items:center;justify-content:center;">
+                    <span style="font-size:3rem;">📊</span>
+                </div>
+                <div class="post-card-body">
+                    <div class="post-meta">
+                        <span>Relatório anual · 22 min de leitura</span>
+                    </div>
+                    <h2>Panorama da intimidade com IA em 2026</h2>
+                    <p>Um relatório sobre IA, áudio imersivo, personalização e privacidade, com mais de 20 fontes públicas citadas, de Pew Research a Cisco e McKinsey.</p>
+                    <span class="post-cta">Ler o relatório</span>
+                </div>
+            </a>
+
+            <a href="/pt/blog/reacender-conexao-casal/" class="post-card">
+                <div class="post-card-img" style="background:var(--grad-primary);display:flex;align-items:center;justify-content:center;">
+                    <span style="font-size:3rem;">🕰️</span>
+                </div>
+                <div class="post-card-body">
+                    <div class="post-meta">
+                        <span>Relacionamentos · 8 min de leitura</span>
+                    </div>
+                    <h2>Como reacender a conexão em um relacionamento duradouro</h2>
+                    <p>7 ideias concretas e realistas, sem pressão nem promessa milagrosa, para trazer de volta o desejo e a surpresa em um relacionamento duradouro.</p>
+                    <span class="post-cta">Ler o artigo</span>
+                </div>
+            </a>
+
+            <a href="/pt/blog/como-conversar-sobre-fantasias/" class="post-card">
+                <div class="post-card-img" style="background:var(--grad-pink);display:flex;align-items:center;justify-content:center;">
+                    <span style="font-size:3rem;">💬</span>
+                </div>
+                <div class="post-card-body">
+                    <div class="post-meta">
+                        <span>Comunicação · 7 min de leitura</span>
+                    </div>
+                    <h2>Como conversar sobre suas fantasias sem constrangimento</h2>
+                    <p>O medo do julgamento bloqueia mais casais do que a falta de desejo. Um caminho concreto para abordar o assunto sem constrangimento.</p>
+                    <span class="post-cta">Ler o artigo</span>
+                </div>
+            </a>
+
+            <a href="/pt/blog/exploracao-solo-sem-culpa/" class="post-card">
+                <div class="post-card-img" style="background:var(--grad-soft);display:flex;align-items:center;justify-content:center;">
+                    <span style="font-size:3rem;">🌙</span>
+                </div>
+                <div class="post-card-body">
+                    <div class="post-meta">
+                        <span>Solo · 6 min de leitura</span>
+                    </div>
+                    <h2>Exploração solo: deixar a culpa de lado</h2>
+                    <p>Reservar um tempo só para você não é egoísmo. De onde vem a culpa e como deixá-la de lado.</p>
+                    <span class="post-cta">Ler o artigo</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section class="posts" style="padding-top:0;">
+        <p class="section-label" style="font-size:0.8rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--primary-vibrant);margin-bottom:12px;">Criando o Caresse</p>
+        <h2 style="font-size:1.6rem;font-weight:800;margin-bottom:32px;">Os bastidores técnicos.</h2>
+        <div class="posts-grid">
+
+            <a href="https://medium.com/@odinnou/building-caresse-1-hexagonal-architecture-for-a-multi-provider-ai-pipeline-f0c1ca4ee471" target="_blank" rel="noopener" class="post-card">
+                <div class="post-card-img">
+                    <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*7ytom68t1spMTMSCI76MFg.png" alt="Criando o Caresse #1 — Arquitetura hexagonal" loading="lazy">
+                </div>
+                <div class="post-card-body">
+                    <div class="post-meta">
+                        <span>#1 · 9 min de leitura</span>
+                        <span class="dot"></span>
+                        <span class="lang-tag">Medium</span>
+                    </div>
+                    <h2>Arquitetura hexagonal para uma cadeia de IA com múltiplos fornecedores</h2>
+                    <p>Ports, adapters e um registro de fornecedores em .NET 10 que permite trocar serviços de LLM e síntese de voz sem alterar o domínio.</p>
+                    <span class="post-cta">Ler no Medium (em inglês)</span>
+                </div>
+            </a>
+
+            <a href="https://medium.com/@odinnou/building-caresse-2-orchestrating-a-multi-phase-llm-pipeline-66f4a29ad236" target="_blank" rel="noopener" class="post-card">
+                <div class="post-card-img">
+                    <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*hr24axQNj_VLDsxjmrdr3Q.png" alt="Criando o Caresse #2 — Orquestrando uma cadeia de LLM em várias etapas" loading="lazy">
+                </div>
+                <div class="post-card-body">
+                    <div class="post-meta">
+                        <span>#2 · 9 min de leitura</span>
+                        <span class="dot"></span>
+                        <span class="lang-tag">Medium</span>
+                    </div>
+                    <h2>Orquestrando uma cadeia de LLM em várias etapas</h2>
+                    <p>Um pedido do usuário, 8 etapas sequenciais, um modelo diferente por etapa e uma fase de autocrítica que melhora o resultado antes da síntese de voz.</p>
+                    <span class="post-cta">Ler no Medium (em inglês)</span>
+                </div>
+            </a>
+
+            <a href="https://medium.com/@odinnou/building-caresse-3-integration-testing-a-net-api-without-touching-production-1999f2ac35a8" target="_blank" rel="noopener" class="post-card">
+                <div class="post-card-img">
+                    <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*ZiI6Ybzru6qGv8UVaeJVQQ.png" alt="Criando o Caresse #3 — Testes de integração de uma API .NET" loading="lazy">
+                </div>
+                <div class="post-card-body">
+                    <div class="post-meta">
+                        <span>#3 · 12 min de leitura</span>
+                        <span class="dot"></span>
+                        <span class="lang-tag">Medium</span>
+                    </div>
+                    <h2>Testes de integração de uma API .NET sem acessar a produção</h2>
+                    <p>Testcontainers para PostgreSQL, Azurite para Azure Blob, autenticação de teste no lugar do Firebase e WireMock.Net para RevenueCat, fornecedores de LLM e síntese de voz: tudo em uma suíte xUnit que roda na integração contínua sem dependências externas.</p>
+                    <span class="post-cta">Ler no Medium (em inglês)</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <footer>
+        <a href="/pt/" aria-label="Caresse — início"><img src="/caresse-logo.svg" style="height:28px;" alt="Caresse" width="250" height="80"></a>
+        <nav aria-label="Usos do app" class="footer-nav">
+            <a href="/pt/demo/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Demonstração em áudio</span></a>
+            <a href="/pt/como-funciona/">Como funciona</a>
+            <a href="/pt/couples-game/">Jogo para casais</a>
+            <a href="/pt/exploracao-solo/">Exploração solo</a>
+            <a href="/pt/para-pessoas-cegas-e-com-baixa-visao/">Pessoas cegas e com baixa visão</a>
+            <a href="/pt/para-casais-recentes/">Casais recentes</a>
+            <a href="/pt/para-casais-de-longa-data/">Casais de longa data</a>
+            <a href="/pt/para-casais-com-pouco-tempo/">Casais com pouco tempo</a>
+            <a href="/pt/para-casais-aventureiros/">Casais que querem explorar mais</a>
+
+            <a href="/pt/o-caresse-e-seguro/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'">Privacidade e segurança</a>
+        </nav>
+        <div class="footer-links">
+            <a href="/pt/baixar/">Baixar</a>
+            <span>·</span>
+            <a href="/pt/support/">Suporte</a>
+            <span>·</span>
+            <a href="/legal/pt/cgu/" rel="nofollow">Termos de uso</a>
+            <span>·</span>
+            <a href="/legal/pt/cgv/" rel="nofollow">Termos de venda</a>
+            <span>·</span>
+            <a href="/legal/pt/privacy/" rel="nofollow">Política de privacidade</a>
+            <span>·</span>
+            <a href="/legal/pt/legals/" rel="nofollow">Aviso legal</a>
+        </div>
+                <div class="footer-social">
+            <a href="https://x.com/app_caresse" target="_blank" rel="noopener" aria-label="Caresse no X"><svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <a href="https://www.instagram.com/caresse.app" target="_blank" rel="noopener" aria-label="Caresse no Instagram"><svg viewBox="0 0 24 24"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.256 1.216.6 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.05 1.066.06 1.405.06 4.122s-.01 3.056-.06 4.122c-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.05-1.405.06-4.122.06s-3.056-.01-4.122-.06c-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.01 15.056 2 14.717 2 12s.01-3.056.06-4.122c.05-1.065.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.363-.415 2.428-.465C8.944 2.01 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.25a3.25 3.25 0 1 1 0-6.5 3.25 3.25 0 0 1 0 6.5zm5.25-8.5a1.15 1.15 0 1 0 0-2.3 1.15 1.15 0 0 0 0 2.3z"/></svg></a>
+            <a href="https://www.youtube.com/@app.caresse" target="_blank" rel="noopener" aria-label="Caresse no YouTube"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.376.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.376-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12z"/></svg></a>
+            <a href="https://www.tiktok.com/@caresse.app" target="_blank" rel="noopener" aria-label="Caresse no TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"/></svg></a>
+        </div>
+        <p class="footer-copy">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a> — Caresse · Apenas para maiores de 18 anos</p>
+    </footer>
+
+    <script>
+        (function () {
+            if (/Android/i.test(navigator.userAgent)) {
+                var cta = document.getElementById('hero-cta');
+                if (cta) cta.href = "https://play.google.com/store/apps/details?id=studio.mokuton.caresse";
+            }
+        })();
+    </script>
+</body>
+</html>

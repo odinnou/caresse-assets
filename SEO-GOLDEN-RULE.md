@@ -52,6 +52,28 @@ sans détourner un humain. Il n'a jamais sa place en CTA visible.
   d'écoute, et en pied de page.
 - Le lien interne vers `/demo/` reste autorisé en lien texte discret, footer ou nav.
 
+### Ne pas faire la promotion des alternatives à Caresse
+
+- Dans les pages `alternatives` et `vs-*`, aucun lien cliquable vers le site, le
+  support, les tarifs, les réseaux sociaux ou la fiche App Store / Google Play des
+  alternatives comparées, y compris dans les sources décrivant leurs offres.
+- Sur le reste du site non plus, aucun CTA ni lien commercial pour découvrir,
+  acheter ou télécharger une alternative à Caresse.
+- `nofollow`, `noopener` ou l’ouverture dans un nouvel onglet ne constituent pas une
+  exception : ils n’autorisent pas ces liens promotionnels.
+- Les comparatifs peuvent citer les marques et leurs offres. Les attributions de
+  sources sur les offres comparées restent en texte simple : éditeur, document ou
+  fiche consultée, date, sans URL externe de concurrent.
+- Les liens vers nos propres pages de comparaison (`/vs-*/`, `/en/vs-*/`, etc.)
+  restent autorisés : ils pointent vers Caresse, pas vers les concurrents.
+- Les références éditoriales du blog sont distinctes des liens promotionnels : un
+  lien d’attribution vers une enquête ou un dossier statistique cité reste autorisé.
+  Tawkify et Connected Couples sont utilisés ici comme références, pas comme
+  alternatives à recommander. Seuls les liens vers les documents cités sont
+  conservés, sans lien vers leurs offres commerciales ou leurs stores.
+- La règle s’applique à toutes les langues. Les liens légaux et institutionnels
+  restent autorisés.
+
 ## Les invariants techniques
 
 À vérifier avant tout commit touchant un CTA :
@@ -65,7 +87,7 @@ sans détourner un humain. Il n'a jamais sa place en CTA visible.
    de page. Sans lui, 100 % des visiteurs Android atterrissent sur l'App Store.
    Si une page a plusieurs CTA store, le script les couvre **tous** (tableau d'ids).
 4. **Les liens store s'ouvrent avec** `target="_blank" rel="noopener"`.
-5. **Les trois locales en même temps** — FR, EN, ES. Une correction de CTA sur une seule
+5. **Les quatre locales en même temps** — FR, EN, ES, PT. Une correction de CTA sur une seule
    locale est une correction non faite.
 
 ## Ce qui ne se change pas sans raison mesurée
@@ -107,5 +129,9 @@ du résultat.
 - [ ] Aucun `.cta-pink` ne pointe vers une page interne
 - [ ] Aucun `.cta-ghost` ne pointe vers `/demo/` sur une page portant un CTA store
 - [ ] Toute page avec `id="hero-cta"` a son script Android, couvrant tous ses ids
-- [ ] Les trois locales sont traitées
+- [ ] Les quatre locales sont traitées (FR, EN, ES, PT)
 - [ ] Aucun libellé de CTA modifié sans décision explicite
+- [ ] Aucun lien sortant vers les alternatives comparées dans `alternatives` / `vs-*`
+- [ ] Aucun lien promotionnel vers une alternative ; les références du blog pointent
+      uniquement vers les documents cités
+- [ ] Tous les liens vers des fiches App Store / Google Play ciblent Caresse

@@ -23,6 +23,7 @@
     <link rel="alternate" hreflang="fr" href="https://caresse.app/blog/">
     <link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/">
     <link rel="alternate" hreflang="es" href="https://caresse.app/es/blog/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/pt/blog/">
     <link rel="alternate" hreflang="x-default" href="https://caresse.app/blog/">
 
     <!-- ══ OPEN GRAPH ══ -->
@@ -36,6 +37,7 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Blog Caresse, couple, intimité, exploration">
     <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="pt_BR">
     <meta property="og:locale:alternate" content="en_US">
 
     <!-- ══ TWITTER CARD ══ -->
@@ -171,6 +173,8 @@
         .blog-hero .eyebrow { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 16px; }
         .blog-hero h1 { font-size: clamp(2rem, 5vw, 3.4rem); font-weight: 800; line-height: 1.15; margin-bottom: 18px; background: var(--grad-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; max-width: 760px; margin-left: auto; margin-right: auto; }
         .blog-hero p { color: var(--text-secondary); font-size: clamp(1rem, 2vw, 1.15rem); max-width: 620px; margin: 0 auto; }
+        .cta-pink { background: var(--grad-pink); color: white; padding: 16px 40px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.02rem; box-shadow: 0 12px 28px rgba(255,107,157,0.32); transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
+        .cta-pink:hover { transform: translateY(-3px); box-shadow: 0 16px 34px rgba(255,107,157,0.42); }
 
         .breadcrumb { padding: 24px 5% 0; font-size: 0.85rem; color: var(--text-secondary); max-width: 1100px; margin: 0 auto; }
         .breadcrumb a { color: var(--primary-vibrant); text-decoration: none; }
@@ -229,10 +233,32 @@
             .blog-hero { padding-top: 110px; }
             .posts-grid { grid-template-columns: 1fr; }
         }
+            @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
+        /* Compact mobile language links, using the existing segmented control. */
+        @media (max-width: 768px) {
+            header { gap: 12px; }
+            header .logo { width: auto; }
+            header .header-right { gap: 8px; }
+            header .lang-toggle { display: flex; gap: 2px; padding: 3px; flex: 0 0 auto; }
+            header .lang-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 30px;
+                min-width: 30px;
+                min-height: 32px;
+                padding: 0;
+                border-radius: 12px;
+                font-size: 0.75rem;
+                line-height: 1;
+            }
+            header .lang-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        }
     </style>
     <!-- Umami Analytics -->
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
     <script defer src="/umami-store-tracking.js"></script>
+    <script defer src="/mobile-store-cta.js"></script>
     <script type="application/ld+json">
 {
     "@context": "https://schema.org",
@@ -265,6 +291,7 @@
                 <a class="lang-btn active" href="/blog/" hreflang="fr" aria-label="Français" aria-current="page">FR</a>
                 <a class="lang-btn" href="/en/blog/" hreflang="en" aria-label="English">EN</a>
                 <a class="lang-btn" href="/es/blog/" hreflang="es" aria-label="Español">ES</a>
+                <a class="lang-btn" href="/pt/blog/" hreflang="pt" aria-label="Português">PT</a>
             </div>
         </div>
     </header>
@@ -277,6 +304,7 @@
         <p class="eyebrow">Le blog Caresse</p>
         <h1>Couple, intimité, exploration.</h1>
         <p>Des articles pour mieux communiquer, se reconnecter à son ou sa partenaire, ou simplement prendre du temps pour soi. Et, plus bas, les coulisses techniques de la construction de Caresse.</p>
+        <div style="display:flex;justify-content:center;margin-top:24px;"><a href="https://apps.apple.com/us/app/caresse/id6758887086" id="hero-cta" class="cta-pink" data-store-auto data-cta-position="hero" target="_blank" rel="noopener">Télécharger gratuitement</a></div>
     </section>
 
     <section class="posts">
@@ -448,5 +476,13 @@
         <p class="footer-copy">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a>, Caresse · 18+ Adultes uniquement</p>
     </footer>
 
+    <script>
+        (function () {
+            if (/Android/i.test(navigator.userAgent)) {
+                var cta = document.getElementById('hero-cta');
+                if (cta) cta.href = "https://play.google.com/store/apps/details?id=studio.mokuton.caresse";
+            }
+        })();
+    </script>
 </body>
 </html>

@@ -81,8 +81,15 @@
     saveVisit();
 
     function getStore(url) {
-        if (url.hostname === 'apps.apple.com') return 'app_store';
-        if (url.hostname === 'play.google.com') return 'google_play';
+        // Competitor store links are editorial sources, not Caresse conversions.
+        if (url.protocol !== 'https:') return null;
+        if (url.hostname === 'apps.apple.com' && /\/id6758887086\/?$/.test(url.pathname)) {
+            return 'app_store';
+        }
+        if (url.hostname === 'play.google.com' && url.pathname === '/store/apps/details' &&
+            url.searchParams.get('id') === 'studio.mokuton.caresse') {
+            return 'google_play';
+        }
         return null;
     }
 
@@ -133,6 +140,7 @@
                 acquisition_source: acquisitionSource,
                 client_visit_started_at: new Date(visitStartedAt).toISOString(),
                 visit_definition: 'client-30min-v2',
+                store_click_definition: 'caresse-only-v1',
                 variant: document.documentElement.dataset.analyticsVariant || 'store-first-v1',
                 test: isTest
             });

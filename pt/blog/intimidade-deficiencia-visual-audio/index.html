@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ══ SEO PRIMARY ══ -->
+    <title>Intimidade e deficiência visual: o papel do áudio</title>
+    <meta name="description" content="Por que tantos serviços digitais de intimidade pressupõem que você consegue ver a tela, o que uma experiência centrada no áudio muda e como distinguir conteúdo em áudio de uma interface acessível para pessoas cegas ou com baixa visão.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Studio Mokuton">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+    <link rel="canonical" href="https://caresse.app/pt/blog/intimidade-deficiencia-visual-audio/">
+    <meta name="theme-color" content="#5D3D8C">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="sitemap" type="application/xml" title="Mapa do site" href="https://caresse.app/sitemap.xml">
+
+    <!-- ══ HREFLANG ══ -->
+    <link rel="alternate" hreflang="fr" href="https://caresse.app/blog/intimite-handicap-visuel-audio/">
+    <link rel="alternate" hreflang="en" href="https://caresse.app/en/blog/intimacy-visual-impairment-audio/">
+    <link rel="alternate" hreflang="es" href="https://caresse.app/es/blog/intimidad-discapacidad-visual-audio/">
+    <link rel="alternate" hreflang="pt" href="https://caresse.app/pt/blog/intimidade-deficiencia-visual-audio/">
+    <link rel="alternate" hreflang="x-default" href="https://caresse.app/en/blog/intimacy-visual-impairment-audio/">
+
+    <!-- ══ OPEN GRAPH ══ -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://caresse.app/pt/blog/intimidade-deficiencia-visual-audio/">
+    <meta property="og:site_name" content="Caresse">
+    <meta property="og:title" content="Intimidade e deficiência visual: o papel do áudio">
+    <meta property="og:description" content="O que uma experiência centrada no áudio muda quando você enxerga pouco ou nada, e por que &quot;conteúdo em áudio&quot; não significa &quot;interface acessível&quot;.">
+    <meta property="og:image" content="https://caresse.app/og-image-en.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Intimidade e deficiência visual: o papel do áudio">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+    <meta property="og:locale:alternate" content="es_ES">
+
+    <!-- ══ TWITTER CARD ══ -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Intimidade e deficiência visual: o papel do áudio">
+    <meta name="twitter:description" content="O que uma experiência centrada no áudio muda quando você enxerga pouco ou nada, e por que &quot;conteúdo em áudio&quot; não significa &quot;interface acessível&quot;.">
+    <meta name="twitter:image" content="https://caresse.app/og-image-en.png">
+    <meta name="twitter:image:alt" content="Intimidade e deficiência visual: o papel do áudio">
+
+    <!-- ══ SCHEMA.ORG JSON-LD ══ -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Intimidade e deficiência visual: o papel do áudio",
+  "description": "Por que tantos serviços digitais de intimidade pressupõem que você consegue ver a tela, o que uma experiência centrada no áudio muda e como distinguir conteúdo em áudio de uma interface acessível para pessoas cegas ou com baixa visão.",
+  "url": "https://caresse.app/pt/blog/intimidade-deficiencia-visual-audio/",
+  "datePublished": "2026-08-20",
+  "dateModified": "2026-10-10",
+  "inLanguage": "pt",
+  "image": "https://caresse.app/og-image-en.png",
+  "author": {
+    "@type": "Organization",
+    "name": "Studio Mokuton",
+    "url": "https://mokuton.studio/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Studio Mokuton",
+    "url": "https://mokuton.studio/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://caresse.app/pt/blog/intimidade-deficiencia-visual-audio/"
+  }
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Qual é a diferença entre conteúdo em áudio e uma interface acessível?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Conteúdo em áudio é o que você ouve: uma voz, uma história, orientações faladas. Uma interface acessível permite chegar a esse conteúdo e controlá-lo: botões identificados, navegação por leitor de tela e campos com rótulos. São coisas independentes. Um app pode ter um catálogo inteiramente em áudio e uma interface impossível de navegar com VoiceOver ou TalkBack, e o contrário também é possível."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quantas pessoas têm deficiência visual?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Segundo a Organização Mundial da Saúde, pelo menos 2,2 bilhões de pessoas no mundo têm alguma deficiência na visão de perto ou de longe. Na França, a Fédération des Aveugles et Amblyopes de France contabiliza cerca de 207 mil pessoas cegas ou com baixa visão profunda, e 932 mil com baixa visão moderada."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Os apps são realmente acessíveis hoje?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Os dados disponíveis pedem cautela. A análise WebAIM Million 2026, que testa automaticamente a página inicial de um milhão dos sites mais visitados, detecta falhas nas diretrizes WCAG em 95,9% deles, com uma média de 56,1 erros por página. Os problemas mais comuns são texto com pouco contraste, imagens sem texto alternativo e campos sem rótulos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como avaliar um app de intimidade quando você enxerga pouco ou nada?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Algumas perguntas ajudam: dá para testar sem criar uma conta? Quantas etapas na tela separam a abertura do app do primeiro áudio? A experiência continua com a tela desligada? O responsável informa claramente que a compatibilidade com leitores de tela foi testada ou usa termos vagos? Dizer o que ainda não foi verificado é mais transparente do que exibir um selo de acessibilidade sem explicar seu alcance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "É melhor dizer pessoa cega, com baixa visão ou com deficiência visual?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pessoas cegas e pessoas com baixa visão são termos usados pelas próprias pessoas e por organizações de defesa de seus direitos. Deficiência visual é um termo abrangente, comum em contextos médicos, administrativos e nas buscas. Essas expressões cobrem realidades muito diferentes: alguém sem percepção de luz e alguém que lê com grande ampliação podem ter necessidades bastante distintas."
+      }
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Caresse",
+      "item": "https://caresse.app/pt/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://caresse.app/pt/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Intimidade e deficiência visual",
+      "item": "https://caresse.app/pt/blog/intimidade-deficiencia-visual-audio/"
+    }
+  ]
+}
+    </script>
+
+    <link rel="dns-prefetch" href="https://mokuton.studio">
+
+    <style>
+        :root {
+            --primary: #5D3D8C;
+            --secondary: #9E7BB5;
+            --primary-vibrant: #9361FD;
+            --background: #F9F7FD;
+            --surface: #FFFFFF;
+            --text-primary: #1A1A2E;
+            --text-secondary: #5D5D7A;
+            --pink: #FF6B9D;
+            --grad-primary: linear-gradient(135deg, #9361FD, #5D3D8C);
+            --grad-pink: linear-gradient(135deg, #9361FD, #FF6B9D);
+            --grad-soft: linear-gradient(135deg, #F9F7FD 0%, #EDE8F7 100%);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, system-ui, sans-serif; background-color: var(--background); color: var(--text-primary); line-height: 1.6; overflow-x: hidden; }
+
+        header { padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.85); backdrop-filter: blur(12px); position: fixed; width: 100%; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(93,61,140,0.06); }
+        .logo { height: 32px; }
+        .lang-toggle { display: flex; gap: 4px; background: rgba(93,61,140,0.08); border-radius: 20px; padding: 4px; }
+        .lang-btn { border: none; background: none; padding: 6px 14px; border-radius: 16px; font-size: 0.85rem; font-weight: 600; cursor: pointer; color: var(--text-secondary); transition: all 0.2s; text-decoration: none; }
+        .lang-btn.active { background: var(--primary); color: white; }
+        .header-right { display: flex; align-items: center; gap: 16px; }
+        .header-link { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; font-weight: 600; padding: 6px 12px; border-radius: 10px; transition: 0.2s; }
+        .header-link:hover, .header-link.active { color: var(--primary); background: rgba(93,61,140,0.06); }
+        @media (max-width: 768px) { .header-link { display: none; } }
+
+        .breadcrumb { padding: 100px 5% 0; font-size: 0.85rem; color: var(--text-secondary); max-width: 1000px; margin: 0 auto; }
+        .breadcrumb a { color: var(--primary-vibrant); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        .report-hero { padding: 36px 8% 56px; max-width: 1000px; margin: 0 auto; text-align: center; background: radial-gradient(ellipse at 70% 20%, rgba(147,97,253,0.14) 0%, transparent 55%), radial-gradient(ellipse at 15% 70%, rgba(255,107,157,0.10) 0%, transparent 50%); }
+        .report-badge { display: inline-flex; align-items: center; gap: 8px; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--primary-vibrant); background: rgba(147,97,253,0.08); border: 1px solid rgba(147,97,253,0.2); border-radius: 999px; padding: 8px 18px; margin-bottom: 24px; }
+        .report-hero h1 { font-size: clamp(2.1rem, 5vw, 3.2rem); font-weight: 800; line-height: 1.15; margin-bottom: 22px; background: var(--grad-pink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .report-hero .dek { color: var(--text-secondary); font-size: clamp(1.05rem, 2vw, 1.25rem); max-width: 720px; margin: 0 auto 26px; line-height: 1.7; }
+        .report-meta { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; font-size: 0.85rem; color: var(--text-secondary); font-weight: 600; }
+        .report-meta span { display: flex; align-items: center; gap: 6px; }
+        .report-meta .sep { opacity: 0.4; }
+
+        .report-section { max-width: 900px; margin: 0 auto; padding: 56px 6%; }
+        .report-section .kicker { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 12px; }
+        .report-section h2 { font-size: clamp(1.6rem, 3.6vw, 2.2rem); font-weight: 800; line-height: 1.25; margin-bottom: 20px; color: var(--text-primary); }
+        .report-section h3 { font-size: 1.15rem; font-weight: 700; color: var(--primary); margin: 28px 0 12px; }
+        .report-section p { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.85; margin-bottom: 18px; }
+        .report-section p strong { color: var(--primary); font-weight: 700; }
+        .report-section ul, .report-section ol { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.85; margin: 0 0 18px 22px; }
+        .report-section li { margin-bottom: 10px; }
+        .report-section a { color: var(--primary-vibrant); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+
+        .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 28px 0; }
+        @media (max-width: 768px) { .stat-row { grid-template-columns: 1fr; } }
+        .stat-tile { background: var(--surface); border: 1px solid rgba(158,123,181,0.16); border-radius: 18px; padding: 22px 24px; }
+        .stat-tile .big { font-size: 2rem; font-weight: 800; color: var(--primary); line-height: 1.1; margin-bottom: 8px; }
+        .stat-tile .lbl { font-size: 0.9rem; color: var(--text-primary); font-weight: 600; line-height: 1.4; margin-bottom: 6px; }
+        .stat-tile .src { font-size: 0.75rem; color: var(--text-secondary); opacity: 0.75; }
+
+        .callout { background: var(--grad-soft); border-left: 4px solid var(--primary-vibrant); border-radius: 20px; padding: 26px 30px; margin: 30px 0; }
+        .callout p { margin-bottom: 0; color: var(--text-primary); font-size: 1rem; }
+        .callout p + p { margin-top: 12px; }
+        .callout a { color: var(--primary); font-weight: 700; }
+
+        .compare { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin: 28px 0; }
+        @media (max-width: 768px) { .compare { grid-template-columns: 1fr; } }
+        .compare-card { background: var(--surface); border: 1px solid rgba(158,123,181,0.16); border-radius: 18px; padding: 26px; }
+        .compare-card h3 { margin-top: 0; font-size: 1.05rem; }
+        .compare-card p { font-size: 0.96rem; margin-bottom: 0; }
+
+        .checklist { background: var(--surface); border: 1px solid rgba(158,123,181,0.16); border-radius: 20px; padding: 30px 34px; margin: 28px 0; }
+        .checklist h3 { margin-top: 0; }
+        .checklist ol { margin-left: 20px; }
+        .checklist li strong { color: var(--text-primary); }
+
+        .bg-alt { background: var(--surface); }
+        .bg-soft { background: var(--grad-soft); }
+
+        .sources-list { margin-top: 20px; margin-left: 0; list-style: none; }
+        .sources-list li { font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 14px; line-height: 1.65; }
+
+        .faq { background: var(--grad-soft); padding: 70px 5%; }
+        .faq-inner { max-width: 900px; margin: 0 auto; }
+        .faq .kicker { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 12px; text-align: center; }
+        .faq h2 { font-size: clamp(1.6rem, 3.5vw, 2.2rem); font-weight: 800; color: var(--text-primary); margin-bottom: 36px; text-align: center; }
+        .faq-list { display: flex; flex-direction: column; gap: 16px; }
+        .faq-item { background: var(--surface); border-radius: 20px; padding: 26px 30px; border: 1px solid rgba(158,123,181,0.12); }
+        .faq-item h3 { font-size: 1.02rem; font-weight: 700; color: var(--primary); margin-bottom: 8px; }
+        .faq-item p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; margin-bottom: 0; }
+
+        .cta-section { text-align: center; padding: 90px 5%; background: radial-gradient(ellipse at center, rgba(147,97,253,0.12) 0%, transparent 70%), var(--background); }
+        .cta-section .kicker { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 12px; }
+        .cta-section h2 { font-size: clamp(1.8rem, 4vw, 2.4rem); font-weight: 800; margin-bottom: 16px; max-width: 640px; margin-left: auto; margin-right: auto; background: var(--grad-pink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .cta-section p { color: var(--text-secondary); max-width: 620px; margin: 0 auto 36px; font-size: 1.05rem; line-height: 1.8; }
+        .cta-pink { background: var(--grad-pink); color: white; padding: 16px 40px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.02rem; box-shadow: 0 12px 28px rgba(255,107,157,0.32); transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
+        .cta-pink:hover { transform: translateY(-3px); box-shadow: 0 16px 34px rgba(255,107,157,0.42); }
+        .age-notice { font-size: 0.8rem; color: var(--text-secondary); opacity: 0.6; margin-top: 20px; }
+
+        .related { background: var(--surface); padding: 70px 5%; }
+        .related-inner { max-width: 1100px; margin: 0 auto; }
+        .related .kicker { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 12px; text-align: center; }
+        .related h2 { font-size: clamp(1.5rem, 3.5vw, 2rem); font-weight: 800; text-align: center; margin-bottom: 36px; }
+        .related-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 18px; }
+        .related-card { background: var(--grad-soft); border-radius: 18px; padding: 26px; text-decoration: none; border: 1px solid rgba(158,123,181,0.14); transition: transform 0.25s, box-shadow 0.25s; display: block; }
+        .related-card:hover { transform: translateY(-5px); box-shadow: 0 14px 28px rgba(93,61,140,0.12); }
+        .related-card .icon { font-size: 1.8rem; margin-bottom: 10px; }
+        .related-card .ttl { font-weight: 700; color: var(--primary); font-size: 0.98rem; }
+        .related-card .desc { font-size: 0.85rem; color: var(--text-secondary); margin-top: 6px; line-height: 1.55; }
+
+        footer { padding: 50px 5% 36px; background: var(--surface); display: flex; flex-direction: column; align-items: center; gap: 24px; }
+        .footer-links { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; font-weight: 500; padding: 6px 12px; border-radius: 8px; transition: 0.2s; }
+        .footer-links a:hover { color: var(--primary); background: rgba(93,61,140,0.06); }
+        .footer-links span { color: #DDD; line-height: 2; }
+        .footer-social { display: flex; gap: 14px; justify-content: center; }
+        .footer-social a { display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 50%; background: rgba(93,61,140,0.06); color: var(--text-secondary); transition: 0.2s; }
+        .footer-social a:hover { color: var(--primary); background: rgba(93,61,140,0.12); }
+        .footer-social svg { width: 18px; height: 18px; fill: currentColor; }
+        .footer-copy { color: #BBB; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
+
+        @media (max-width: 768px) { .report-section { padding: 44px 6%; } }
+
+        /* Accessibility of this page */
+        a:focus-visible, button:focus-visible { outline: 3px solid var(--primary-vibrant); outline-offset: 3px; border-radius: 4px; }
+        .skip-link { position: absolute; left: -9999px; top: 0; background: var(--primary); color: #fff; padding: 12px 20px; z-index: 200; border-radius: 0 0 8px 0; font-weight: 700; }
+        .skip-link:focus { left: 0; }
+        @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+            @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
+        /* Compact mobile language links, using the existing segmented control. */
+        @media (max-width: 768px) {
+            header { gap: 12px; }
+            header .logo { width: auto; }
+            header .header-right { gap: 8px; }
+            header .lang-toggle { display: flex; gap: 2px; padding: 3px; flex: 0 0 auto; }
+            header .lang-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 30px;
+                min-width: 30px;
+                min-height: 32px;
+                padding: 0;
+                border-radius: 12px;
+                font-size: 0.75rem;
+                line-height: 1;
+            }
+            header .lang-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        }
+    </style>
+    <!-- Umami Analytics -->
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
+    <script defer src="/umami-store-tracking.js"></script>
+    <script src="/mobile-store-cta.js" defer></script>
+</head>
+<body>
+
+    <a href="#main" class="skip-link">Ir para o conteúdo principal</a>
+
+    <header>
+        <a href="/pt/" aria-label="Caresse, início"><img src="/caresse-logo.svg" class="logo" alt="Caresse, app de áudio íntimo guiado por IA" width="250" height="80"></a>
+        <div class="header-right">
+            <a href="/pt/blog/" class="header-link active" aria-current="page">Blog</a>
+            <a href="/pt/como-funciona/" class="header-link">Como funciona</a>
+            <a href="/pt/alternatives/" class="header-link">Alternativas</a>
+            <div class="lang-toggle" role="group" aria-label="Escolher idioma">
+                <a class="lang-btn" href="/blog/intimite-handicap-visuel-audio/" hreflang="fr" aria-label="Français">FR</a>
+                <a class="lang-btn" href="/en/blog/intimacy-visual-impairment-audio/" hreflang="en" aria-label="English">EN</a>
+                <a class="lang-btn" href="/es/blog/intimidad-discapacidad-visual-audio/" hreflang="es" aria-label="Español">ES</a>
+                <a class="lang-btn active" href="/pt/blog/intimidade-deficiencia-visual-audio/" hreflang="pt" aria-label="Português" aria-current="page">PT</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="breadcrumb">
+        <a href="/pt/">Caresse</a> › <a href="/pt/blog/">Blog</a> › Intimidade e deficiência visual
+    </div>
+
+    <!-- HERO -->
+    <section class="report-hero">
+        <span class="report-badge">🎧 Acessibilidade · Áudio · Intimidade</span>
+        <h1>Intimidade e deficiência visual: o papel do áudio.</h1>
+        <p class="dek">Muitos serviços digitais de intimidade pressupõem, sem dizer, que você está olhando para uma tela. Veja o que muda quando uma experiência é criada para ser ouvida, por que conteúdo em áudio e interface acessível são coisas diferentes e quais critérios ajudam a avaliar um app quando você enxerga pouco ou nada.</p>
+        <div class="report-meta">
+            <span>📅 Publicado em 20 de agosto de 2026</span>
+            <span class="sep">·</span>
+            <span>⏱️ 8 min de leitura</span>
+            <span class="sep">·</span>
+            <span>🔗 5 fontes citadas</span>
+        </div>
+    </section>
+
+    <main id="main">
+
+    <!-- 1. THE PROBLEM -->
+    <section class="report-section">
+        <p class="kicker">Ponto de partida</p>
+        <h2>Quase tudo na intimidade digital pressupõe que você consegue ver.</h2>
+        <p>Pense no percurso típico de um app de intimidade ou bem-estar sexual. Você baixa, cria uma conta, confirma o e-mail, navega por miniaturas, lê um resumo, escolhe um título e dá play. Dessas sete etapas, seis dependem da visão. Só a sétima produz som.</p>
+        <p>Isso não é exclusivo dessa categoria: é o padrão em muitos aplicativos. A análise <strong>WebAIM Million</strong> , que testa automaticamente, todos os anos, a página inicial de um milhão dos sites mais visitados do mundo, detectou falhas de acessibilidade WCAG em <strong>95,9% das páginas</strong> em 2026, com uma média de 56,1 erros detectados por página. Os defeitos mais frequentes são simples: texto com pouco contraste (83,9% das páginas), imagens sem texto alternativo (53,1%), campos sem rótulos (51%) e links vazios (46,3%).</p>
+        <p>Os três últimos têm algo em comum: quase não incomodam quem enxerga, mas podem impedir o uso com leitor de tela. Um botão sem rótulo ainda é visível e pode ser tocado; para o VoiceOver ou o TalkBack, pode não dizer nada.</p>
+
+        <div class="stat-row">
+            <div class="stat-tile">
+                <p class="big">2,2 bilhões</p>
+                <p class="lbl">de pessoas no mundo têm deficiência na visão de perto ou de longe</p>
+                <p class="src">Organização Mundial da Saúde</p>
+            </div>
+            <div class="stat-tile">
+                <p class="big">207,000</p>
+                <p class="lbl">pessoas na França são cegas ou têm baixa visão profunda, além de 932 mil com baixa visão moderada</p>
+                <p class="src">Fédération des Aveugles et Amblyopes de France</p>
+            </div>
+            <div class="stat-tile">
+                <p class="big">95.9%</p>
+                <p class="lbl">das páginas iniciais mais visitadas apresentam falhas WCAG detectáveis</p>
+                <p class="src">WebAIM Million, 2026</p>
+            </div>
+        </div>
+
+        <p>Outro dado torna esse panorama mais complexo: a deficiência visual não é uma condição uniforme. O <strong>estudo Homère</strong>, a maior pesquisa nacional francesa sobre o tema, ouviu 1.895 participantes por meio de uma parceria entre organizações e as universidades Lyon 2 e Paris 8. Entre os participantes, 46% eram cegos, 24% tinham baixa visão grave e 30%, baixa visão moderada. Entre alguém sem percepção de luz e alguém que lê com grande ampliação, as necessidades podem ser muito diferentes. Tratar todas essas pessoas como uma única categoria já limita o projeto desde o início.</p>
+        <p>O estudo também registra uma diferença geracional: menos de uma em cada duas pessoas com 65 anos ou mais usa a internet. A distância aumenta entre quem perdeu a visão mais tarde e não cresceu usando ferramentas de adaptação. A cegueira congênita e a baixa visão adquirida aos 70 anos não produzem os mesmos hábitos digitais.</p>
+    </section>
+
+    <!-- 2. WHAT AUDIO-FIRST CHANGES -->
+    <section class="report-section bg-alt">
+        <p class="kicker">A mudança de perspectiva</p>
+        <h2>O que muda quando a experiência é criada para ser ouvida.</h2>
+        <p>Há uma diferença entre um app que <em>oferece</em> áudio e um app em que o áudio <em>é</em> o produto. No primeiro caso, o som é um formato entre outros, no fim de um percurso visual. No segundo, a tela é apenas a entrada: depois dela, tudo acontece pela escuta.</p>
+        <p>Essa distinção tem consequências concretas. Quando o áudio é o produto, <strong>o tempo necessário diante da tela diminui</strong>. Dois minutos de configuração seguidos de trinta minutos de escuta representam uma proporção de um para quinze entre a parte que pode criar dificuldades e a parte que não exige leitura. Quando o áudio é apenas um formato, você volta à tela a cada título, capítulo ou escolha.</p>
+        <p>A segunda consequência é a <strong>continuidade</strong>. Uma experiência realmente centrada no áudio continua com a tela desligada e o celular apoiado ou no bolso. Não é preciso tocar no instante certo nem acertar uma área específica para avançar. É a diferença entre ouvir algo e precisar acompanhar a tela.</p>
+        <p>Um terceiro ponto, menos técnico, mas igualmente importante, é a <strong>própria intimidade</strong>. Um conteúdo que exige olhar para o celular impõe uma postura: segurar o aparelho e ficar de frente para ele. Um conteúdo que pede apenas escuta deixa o corpo livre e a atenção disponível. Em um tema em que a postura importa, isso não é um detalhe.</p>
+
+        <div class="callout">
+            <p><strong>O que o áudio não resolve.</strong> Um formato sonoro não compensa uma interface inacessível. Se o app exige criar uma conta em um formulário cujos campos não têm rótulos adequados, a qualidade do áudio não importa: você nem consegue chegar até ele. Uma experiência centrada no áudio desloca o problema para a entrada, mas não o elimina.</p>
+        </div>
+    </section>
+
+    <!-- 3. AUDIO CONTENT VS ACCESSIBLE INTERFACE -->
+    <section class="report-section">
+        <p class="kicker">A distinção que importa</p>
+        <h2>Conteúdo em áudio não significa interface acessível.</h2>
+        <p>Essa é a confusão mais comum, reforçada por certos discursos de marketing. Um app pode anunciar milhares de horas de áudio e continuar impossível de usar com leitor de tela. Outro pode ter uma interface exemplar e oferecer apenas texto. São qualidades independentes, que precisam ser avaliadas separadamente.</p>
+
+        <div class="compare">
+            <div class="compare-card">
+                <h3>Conteúdo em áudio</h3>
+                <p>É o que você ouve: uma voz, uma história, orientações faladas. A qualidade é avaliada pela escuta: naturalidade da voz, ritmo, idioma e duração. Isso não diz se você consegue chegar ao conteúdo.</p>
+            </div>
+            <div class="compare-card">
+                <h3>Uma interface acessível</h3>
+                <p>É o que permite chegar ao conteúdo e controlá-lo: botões identificados, ordem coerente de navegação, campos com rótulos e compatibilidade testada com VoiceOver e TalkBack. Isso não diz qual será a qualidade do que você vai ouvir.</p>
+            </div>
+        </div>
+
+        <p>A compatibilidade com leitores de tela não pode ser presumida: precisa ser testada. Só é correto anunciá-la depois de navegar pelo app com o VoiceOver ou o TalkBack ativado, de preferência junto a pessoas que dependem desses recursos. É um trabalho específico; por isso, afirmações vagas merecem cautela.</p>
+        <p>O contexto regulatório segue nessa direção. <strong>A Diretiva Europeia 2019/882</strong>, conhecida como European Accessibility Act, amplia requisitos de acessibilidade para determinados produtos e serviços digitais do setor privado, como comércio eletrônico, telefonia, livros digitais, computadores e sistemas operacionais. Há exceções, inclusive para microempresas, e a aplicação depende de cada país. A existência de uma obrigação legal não garante, por si só, que um app específico seja utilizável.</p>
+
+        <div class="callout">
+            <p><strong>Nossa posição, com transparência.</strong> O Caresse oferece uma experiência em áudio: a sessão é vivida pela escuta, sem leitura nem toques para avançar. Ainda não realizamos testes formais de compatibilidade com VoiceOver ou TalkBack, por isso não afirmamos ter esse suporte validado. A configuração da sessão ainda passa pela tela.</p>
+            <p>Preferimos dizer isso claramente a deixar alguém presumir um suporte não verificado. É justamente o tipo de afirmação que este artigo convida você a avaliar, inclusive quando se trata de nós. Mais detalhes estão na página <a href="/pt/para-pessoas-cegas-e-com-baixa-visao/">Caresse para pessoas cegas e com baixa visão</a>.</p>
+        </div>
+    </section>
+
+    <!-- 4. CONCRETE CRITERIA -->
+    <section class="report-section bg-soft">
+        <p class="kicker">Na prática</p>
+        <h2>Seis perguntas antes de instalar um app de intimidade.</h2>
+        <p>Nenhuma dessas perguntas exige conhecimento técnico. A maioria pode ser respondida em poucos minutos, muitas vezes antes de baixar o app, e ajuda a evitar surpresas desagradáveis.</p>
+
+        <div class="checklist">
+            <ol>
+                <li><strong>Dá para testar sem criar uma conta?</strong> Cada formulário é um ponto de dificuldade: um e-mail para digitar, uma senha para confirmar, um código para buscar. Um app que permite testar de imediato elimina uma etapa especialmente delicada.</li>
+                <li><strong>Quantas etapas separam a abertura do app do primeiro áudio?</strong> Conte essas etapas. Duas ou três escolhas são uma entrada. Quinze telas de catálogo formam um percurso visual, mesmo que o app se apresente como uma experiência em áudio.</li>
+                <li><strong>A experiência continua com a tela desligada?</strong> Esse é um teste importante. Se o app exige ficar na tela, confirmar uma etapa no meio da experiência ou rolar um texto, ele não é inteiramente centrado no áudio.</li>
+                <li><strong>O responsável afirma claramente que a compatibilidade foi testada?</strong> Procure as palavras VoiceOver, TalkBack ou leitor de tela no site ou na ficha da loja. Uma informação específica diz mais do que um selo genérico de acessibilidade. É importante que o responsável explique o que ainda não verificou.</li>
+                <li><strong>Qual idioma a voz realmente fala?</strong> Muitos apps traduzem a interface, mas mantêm o áudio apenas em inglês. Em um conteúdo íntimo, ouvir no seu próprio idioma pode fazer uma grande diferença.</li>
+                <li><strong>O que acontece com as informações que você compartilha?</strong> Nomes, preferências e orientação são informações sensíveis. Confira a seção de privacidade da ficha da loja, que lista as categorias coletadas, e veja se é possível usar o app no modo convidado.</li>
+            </ol>
+        </div>
+
+        <p>Um último hábito útil: testar gratuitamente ainda é a melhor maneira de avaliar. Um app que permite experimentar sem criar uma conta deixa você conferir esses pontos em poucos minutos, sem preencher um cadastro. Por isso, não exigir uma conta também pode reduzir barreiras de acesso, além de ser uma questão de privacidade.</p>
+    </section>
+
+    <!-- 5. VOCABULARY -->
+    <section class="report-section">
+        <p class="kicker">Uma nota sobre os termos</p>
+        <h2>Pessoa cega, com baixa visão ou com deficiência visual?</h2>
+        <p>Em inglês, blind e low vision são termos muito usados pelas pessoas envolvidas e por organizações de defesa de seus direitos. Visually impaired aparece em textos médicos, administrativos e estatísticos e nas buscas, embora parte da comunidade o considere ultrapassado. Em português, usamos pessoa cega ou pessoa com baixa visão quando falamos dessas situações específicas.</p>
+        <p>Usamos esses termos sem deixar de reconhecer que deficiência visual também é uma expressão abrangente presente nas buscas. O ponto principal não é apenas terminológico: essas palavras cobrem situações muito diferentes. Um produto criado para um perfil genérico pode acabar não atendendo bem às necessidades de ninguém.</p>
+    </section>
+
+    <!-- SOURCES -->
+    <section class="report-section bg-alt">
+        <p class="kicker">Apêndice</p>
+        <h2>Fontes.</h2>
+        <p>Os dados citados vêm das publicações abaixo, consultadas em 20 de agosto de 2026. Não há dados internos do Caresse neste artigo, nem afirmações de efeito médico do app.</p>
+        <ul class="sources-list">
+            <li><strong>Organização Mundial da Saúde</strong>, ficha informativa Blindness and vision impairment: pelo menos 2,2 bilhões de pessoas afetadas no mundo.</li>
+            <li><strong>Fédération des Aveugles et Amblyopes de France</strong>, Quelques chiffres sur la déficience visuelle: 207 mil pessoas cegas ou com baixa visão profunda e 932 mil com baixa visão moderada na França.</li>
+            <li><strong>estudo Homère</strong>, pesquisa nacional sobre deficiência visual conduzida por organizações e pelas universidades Lyon 2 e Paris 8, com relatório publicado em 2023: 1.895 participantes e dados sobre perfis e uso de recursos digitais.</li>
+            <li><strong>WebAIM Million 2026</strong>, Institute for Disability Research, Policy &amp; Practice, Utah State University: análise automatizada das páginas iniciais de um milhão dos sites mais visitados, com falhas WCAG detectadas em 95,9% delas.</li>
+            <li><strong>Diretiva (UE) 2019/882</strong> sobre requisitos de acessibilidade para produtos e serviços, conhecida como European Accessibility Act: serviços digitais abrangidos e regras de exceção.</li>
+        </ul>
+    </section>
+
+    </main>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="faq-inner">
+            <p class="kicker">Perguntas frequentes</p>
+            <h2>Intimidade e deficiência visual: suas perguntas.</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>Qual é a diferença entre conteúdo em áudio e uma interface acessível?</h3>
+                    <p>Conteúdo em áudio é o que você ouve: uma voz, uma história, orientações faladas. Uma interface acessível permite chegar a esse conteúdo e controlá-lo: botões identificados, navegação por leitor de tela e campos com rótulos. São coisas independentes. Um app pode ter um catálogo inteiramente em áudio e uma interface impossível de navegar com VoiceOver ou TalkBack, e o contrário também é possível.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Quantas pessoas têm deficiência visual?</h3>
+                    <p>Segundo a Organização Mundial da Saúde, pelo menos 2,2 bilhões de pessoas no mundo têm alguma deficiência na visão de perto ou de longe. Na França, a Fédération des Aveugles et Amblyopes de France contabiliza cerca de 207 mil pessoas cegas ou com baixa visão profunda, e 932 mil com baixa visão moderada.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Os apps são realmente acessíveis hoje?</h3>
+                    <p>Os dados disponíveis pedem cautela. A análise WebAIM Million 2026, que testa automaticamente a página inicial de um milhão dos sites mais visitados, detecta falhas nas diretrizes WCAG em 95,9% deles, com uma média de 56,1 erros por página. Os problemas mais comuns são texto com pouco contraste, imagens sem texto alternativo e campos sem rótulos.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Como avaliar um app de intimidade quando você enxerga pouco ou nada?</h3>
+                    <p>Algumas perguntas ajudam: dá para testar sem criar uma conta? Quantas etapas na tela separam a abertura do app do primeiro áudio? A experiência continua com a tela desligada? O responsável informa claramente que a compatibilidade com leitores de tela foi testada ou usa termos vagos? Dizer o que ainda não foi verificado é mais transparente do que exibir um selo de acessibilidade sem explicar seu alcance.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>É melhor dizer pessoa cega, com baixa visão ou com deficiência visual?</h3>
+                    <p>Pessoas cegas e pessoas com baixa visão são termos usados pelas próprias pessoas e por organizações de defesa de seus direitos. Deficiência visual é um termo abrangente, comum em contextos médicos, administrativos e nas buscas. Essas expressões cobrem realidades muito diferentes: alguém sem percepção de luz e alguém que lê com grande ampliação podem ter necessidades bastante distintas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" id="download">
+        <p class="kicker">Na prática</p>
+        <h2>Uma sessão para viver pela escuta.</h2>
+        <p>O Caresse cria uma experiência personalizada em áudio, sem leitura nem imagens durante a sessão, em português, francês, inglês ou espanhol. Algumas telas do app ainda não estão traduzidas para português. O modo convidado dispensa uma conta Caresse e as demos pré-geradas são gratuitas; a criação de sessões usa créditos pagos.</p>
+        <a href="https://apps.apple.com/us/app/caresse/id6758887086" id="hero-cta" class="cta-pink" target="_blank" rel="noopener">Conhecer o Caresse</a>
+        <p class="secondary-link" style="margin-top:14px;font-size:0.92rem;"><a href="/pt/para-pessoas-cegas-e-com-baixa-visao/" style="color:var(--text-secondary);text-decoration:underline;text-underline-offset:3px;">Ver a página sobre acessibilidade</a></p>
+        <p class="age-notice">🔞 Apenas para maiores de 18 anos</p>
+    </section>
+
+    <!-- RELATED -->
+    <section class="related">
+        <div class="related-inner">
+            <p class="kicker">Para saber mais</p>
+            <h2>Leia também.</h2>
+            <div class="related-grid">
+                <a href="/pt/para-pessoas-cegas-e-com-baixa-visao/" class="related-card">
+                    <div class="icon">🎧</div>
+                    <p class="ttl">Caresse para pessoas cegas e com baixa visão</p>
+                    <p class="desc">O que o formato em áudio muda e o que ainda não prometemos.</p>
+                </a>
+                <a href="/pt/como-funciona/" class="related-card">
+                    <div class="icon">⚙️</div>
+                    <p class="ttl">Como o Caresse funciona</p>
+                    <p class="desc">Da configuração à sessão personalizada em áudio.</p>
+                </a>
+                <a href="/pt/o-caresse-e-seguro/" class="related-card">
+                    <div class="icon">🔒</div>
+                    <p class="ttl">O Caresse é seguro?</p>
+                    <p class="desc">Privacidade, dados e IA: o que é coletado e o que não é.</p>
+                </a>
+                <a href="/pt/exploracao-solo/" class="related-card">
+                    <div class="icon">🌙</div>
+                    <p class="ttl">Exploração solo</p>
+                    <p class="desc">Ouvir só para você, no seu ritmo.</p>
+                </a>
+                <a href="/pt/blog/" class="related-card">
+                    <div class="icon">📝</div>
+                    <p class="ttl">Todos os artigos</p>
+                    <p class="desc">O blog do Caresse: relacionamentos, intimidade e exploração.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="/pt/" aria-label="Caresse, início"><img src="/caresse-logo.svg" style="height:28px;" alt="Caresse" width="250" height="80"></a>
+        <nav aria-label="Usos do app" style="display:flex;gap:6px 16px;flex-wrap:wrap;justify-content:center;max-width:720px;">
+            <a href="/pt/demo/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'" onmouseout="this.style.color='var(--text-secondary)';this.style.background='transparent'"><span class="inline">Demonstração em áudio</span></a>
+            <a href="/pt/blog/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Blog</a>
+            <a href="/pt/como-funciona/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Como funciona</a>
+            <a href="/pt/couples-game/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Jogo para casais</a>
+            <a href="/pt/alternatives/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Alternativas</a>
+            <a href="/pt/para-casais/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Para casais</a>
+            <a href="/pt/exploracao-solo/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Exploração solo</a>
+            <a href="/pt/para-pessoas-cegas-e-com-baixa-visao/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Pessoas cegas e com baixa visão</a>
+            <a href="/pt/para-casais-de-longa-data/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Casais de longa data</a>
+            <a href="/pt/para-casais-com-pouco-tempo/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Casais com pouco tempo</a>
+            <a href="/pt/para-casais-aventureiros/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Casais que querem explorar mais</a>
+        </nav>
+        <div class="footer-links">
+            <a href="/pt/baixar/">Baixar</a>
+            <span>·</span>
+            <a href="/pt/support/">Suporte</a>
+            <span>·</span>
+            <a href="/legal/pt/cgu/" rel="nofollow">Termos de uso</a>
+            <span>·</span>
+            <a href="/legal/pt/cgv/" rel="nofollow">Termos de venda</a>
+            <span>·</span>
+            <a href="/legal/pt/privacy/" rel="nofollow">Privacidade</a>
+            <span>·</span>
+            <a href="/legal/pt/legals/" rel="nofollow">Aviso legal</a>
+        </div>
+        <div class="footer-social">
+            <a href="https://x.com/app_caresse" target="_blank" rel="noopener" aria-label="Caresse no X"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <a href="https://www.instagram.com/caresse.app" target="_blank" rel="noopener" aria-label="Caresse no Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.256 1.216.6 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.05 1.066.06 1.405.06 4.122s-.01 3.056-.06 4.122c-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.05-1.405.06-4.122.06s-3.056-.01-4.122-.06c-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.01 15.056 2 14.717 2 12s.01-3.056.06-4.122c.05-1.065.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.363-.415 2.428-.465C8.944 2.01 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.25a3.25 3.25 0 1 1 0-6.5 3.25 3.25 0 0 1 0 6.5zm5.25-8.5a1.15 1.15 0 1 0 0-2.3 1.15 1.15 0 0 0 0 2.3z"/></svg></a>
+            <a href="https://www.youtube.com/@app.caresse" target="_blank" rel="noopener" aria-label="Caresse no YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.376.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.376-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12z"/></svg></a>
+            <a href="https://www.tiktok.com/@caresse.app" target="_blank" rel="noopener" aria-label="Caresse no TikTok"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"/></svg></a>
+        </div>
+        <p class="footer-copy">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a>, Caresse · Apenas para maiores de 18 anos</p>
+    </footer>
+    <script>
+        (function () {
+            if (/Android/i.test(navigator.userAgent)) {
+                var cta = document.getElementById('hero-cta');
+                if (cta) cta.href = "https://play.google.com/store/apps/details?id=studio.mokuton.caresse";
+            }
+        })();
+    </script>
+</body>
+</html>
