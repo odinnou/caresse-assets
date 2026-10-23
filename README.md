@@ -14,6 +14,7 @@ Caresse est une application mobile (iOS/Android) proposant des expériences audi
 - `blog/`, `alternatives/`, `support/`, `legal/` — contenu éditorial et légal
 - `screens/` — captures d'écran de l'app par langue
 - `sitemap.xml`, `robots.txt`, `CNAME` — configuration SEO et domaine custom
+- `download-store-router.js` — routage iOS/Android des pages de téléchargement de secours, avec choix manuel sur ordinateur
 
 ## Architecture multilingue FR / EN
 
