@@ -4,6 +4,8 @@ Site statique (HTML/CSS/JS vanilla, sans build) servant [caresse.app](https://ca
 
 Caresse est une application mobile (iOS/Android) proposant des expériences audio immersives générées par IA, à visée intime et sensorielle, solo ou en couple.
 
+**Priorité du travail sur ce dépôt : optimiser le SEO et la visibilité de Caresse sur l’App Store et Google Play pour obtenir davantage d’installations.** Lire [SEO-GOLDEN-RULE.md](SEO-GOLDEN-RULE.md) avant toute intervention.
+
 ## Structure
 
 - `index.html` — page d'accueil (FR)

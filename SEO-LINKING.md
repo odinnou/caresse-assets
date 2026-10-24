@@ -1,5 +1,29 @@
 # Maillage interne — registre des cibles SEO
 
+## Lot du 24 octobre 2026 — quatre nouvelles intentions, quatre langues
+
+Trois pages d’expérience et un guide sont ajoutés en FR, EN, ES et PT. Chacune de ces 16 pages porte un seul gros bouton de téléchargement en haut, visible sur toutes les plateformes et lié directement aux fiches Caresse, avec routage Android et bouton fixe mobile partagés. Les badges des deux stores sont uniquement en bas. Les liens décrits ici restent des liens éditoriaux.
+
+| Intention | FR | EN | ES | PT |
+|---|---|---|---|---|
+| Massage sensuel en couple | `/massage-sensuel-couple/` | `/en/sensual-couples-massage/` | `/es/masaje-sensual-pareja/` | `/pt/massagem-sensual-casal/` |
+| Audio intime personnalisé | `/audio-intime-personnalise/` | `/en/personalized-intimate-audio/` | `/es/audio-intimo-personalizado/` | `/pt/audio-intimo-personalizado/` |
+| Soirée romantique à la maison | `/soiree-romantique-maison/` | `/en/romantic-date-night-at-home/` | `/es/noche-romantica-en-casa/` | `/pt/noite-romantica-em-casa/` |
+| Première expérience audio à deux | `/blog/premiere-experience-audio-intime-couple/` | `/en/blog/first-intimate-audio-experience-together/` | `/es/blog/primera-experiencia-audio-intimo-pareja/` | `/pt/blog/primeira-experiencia-audio-intimo-casal/` |
+
+Le guide de première écoute a pour **cible principale la soirée romantique à la maison**, et pour **cible secondaire l’audio personnalisé**. Il porte deux liens contextuels maximum vers chaque cible, un dans le corps et un en fin d’article. Ces deux pages lui renvoient un lien éditorial de lecture. La page massage propose également le guide pour préparer une première écoute ; le guide conserve ces deux cibles dans son corps.
+
+Liens entrants depuis les pages existantes, dans chaque langue :
+
+- **Massage** : Pour les couples et Couples aventuriers.
+- **Audio personnalisé** : Pour les couples, Comment ça marche, Exploration solo, Melt et Dipsea.
+- **Soirée à la maison** : Pour les couples, Jeu pour couple, Couples de longue date et Couples débordés.
+- **Guide de première écoute** : Nouveaux couples et index du blog, complétés par les liens depuis les nouvelles pages.
+
+Les quatre index du blog présentent le guide dans leur contenu visible et leur liste `blogPost`. Les sélecteurs de langue conservent le sujet courant. Le sitemap contient les 16 nouvelles URL avec leurs correspondances réciproques, sans modification des slugs existants.
+
+Les informations produit distinguent les démos fixes gratuites des générations personnalisées payantes. L’interface portugaise est annoncée comme disponible sur Android, avec mise à jour iOS en attente de validation, conformément à la précision du propriétaire. Les captures anglaises sur ES/PT sont présentées comme illustrations en anglais.
+
 Ce fichier est le registre des relations **article ⇄ landing**. Le site étant du HTML
 statique sans générateur, il n'existe pas de couche « propriété » : ce document tient
 lieu de `primarySeoTarget` déclaratif. Toute modification du maillage se répercute ici.
