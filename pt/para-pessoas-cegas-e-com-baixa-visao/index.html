@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" data-analytics-variant="seo-consistency-oct23-v1">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,7 +91,7 @@
       "name": "Em quais idiomas o áudio está disponível?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O app cria áudio em português, francês, inglês e espanhol. Algumas telas ainda não estão traduzidas para português. Os arquivos das demos do site existem em francês, inglês e espanhol; esta versão usa os áudios em inglês."
+        "text": "O app cria áudio em português, francês, inglês e espanhol. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. Os arquivos das demos do site existem em francês, inglês e espanhol; esta versão usa os áudios em inglês."
       }
     }
   ]
@@ -106,7 +106,7 @@
   "description": "Uma experiência íntima guiada por voz, sem leitura durante a sessão. Para pessoas cegas ou com baixa visão: áudio em português no app, com configuração pela tela.",
   "url": "https://caresse.app/pt/para-pessoas-cegas-e-com-baixa-visao/",
   "inLanguage": "pt",
-  "dateModified": "2026-10-10",
+  "dateModified": "2026-10-24",
   "isPartOf": {
     "@type": "WebSite",
     "name": "Caresse",
@@ -341,6 +341,55 @@
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
     <script defer src="/umami-store-tracking.js"></script>
     <script src="/mobile-store-cta.js" defer></script>
+<style data-component="store-badges">
+/* Match the visible artwork, accounting for Google's transparent canvas.
+   EN: 168px tall, with 41px side insets. PT-BR: 192px tall, no side insets.
+   Both official PNG canvases are 250px high. Keep the original images intact. */
+.store-badges {
+    --store-badge-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.store-badges .store-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    height: var(--store-badge-height);
+    line-height: 0;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.store-badges .store-badge img {
+    display: block;
+    flex: none;
+    height: var(--store-badge-height);
+    width: auto;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+}
+
+.store-badges .store-badge.gplay img {
+    height: calc(var(--store-badge-height) * 250 / 168);
+    margin: 0 calc(var(--store-badge-height) * -41 / 168);
+}
+
+.store-badges .store-badge.gplay img[src*="pt-br_badge_web_generic.png"] {
+    height: calc(var(--store-badge-height) * 250 / 192);
+    margin: 0;
+}
+
+.store-controls .cta-group {
+    display: flex;
+    justify-content: center;
+}
+</style>
 </head>
 <body>
     <a class="skip-link" href="#main">Ir para o conteúdo principal</a>
@@ -372,14 +421,14 @@
         <p>O Caresse oferece uma experiência íntima vivida pela escuta. Depois que a sessão começa, não há texto para acompanhar nem imagens para observar: uma voz cria a atmosfera e guia a progressão. Esse é o formato principal do produto, não uma adaptação. Isso não significa, porém, que a interface tenha compatibilidade validada com leitores de tela.</p>
         <div class="cta-group">
             <a href="https://apps.apple.com/us/app/caresse/id6758887086" id="hero-cta" class="cta-pink" target="_blank" rel="noopener">Baixar grátis</a>
-            <a href="/pt/" class="cta-ghost">Saiba mais</a>
         </div>
         <p class="hero-badge">Disponível para iOS e Android · Demos pré-geradas gratuitas</p>
     </section>
 
     <div class="stat-row">
         <div class="stat-item">
-            <div class="stat-num">25–35 min</div>
+            <div class="stat-num">≈ 25–35 min</div>
+            <p class="stat-label">duração aproximada</p>
             <p class="stat-label">de sessão guiada por voz</p>
         </div>
         <div class="stat-item">
@@ -408,7 +457,7 @@
                 </div>
                 <div class="listen-card">
                     <h3>Uma configuração com escolhas diretas</h3>
-                    <p>Você prepara a sessão escolhendo ambiente, intensidade e nomes. Essa etapa ainda exige navegar pela tela. Depois, a experiência em áudio geralmente dura de 25 a 35 minutos. Algumas telas do app ainda não estão traduzidas para português.</p>
+                    <p>Você prepara a sessão escolhendo ambiente, intensidade e nomes. Essa etapa ainda exige navegar pela tela. Depois, a experiência em áudio geralmente dura de 25 a 35 minutos. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação.</p>
                 </div>
             </div>
             <p class="listen-outro">Esta página se dirige a pessoas cegas ou com baixa visão, situações específicas dentro do termo mais amplo deficiência visual. Se você procura uma experiência compartilhada, <a href="/pt/para-casais/">Caresse para casais</a> apresenta o modo a dois. Para ouvir individualmente, veja <a href="/pt/exploracao-solo/">exploração solo</a>.</p>
@@ -446,7 +495,7 @@
             </div>
             <div class="faq-item">
                 <h3>Em quais idiomas o áudio está disponível?</h3>
-                <p>O app cria áudio em português, francês, inglês e espanhol. Algumas telas ainda não estão traduzidas para português. Os arquivos das demos do site existem em francês, inglês e espanhol; esta versão usa os áudios em inglês.</p>
+                <p>O app cria áudio em português, francês, inglês e espanhol. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. Os arquivos das demos do site existem em francês, inglês e espanhol; esta versão usa os áudios em inglês.</p>
             </div>
         </div>
     </section>

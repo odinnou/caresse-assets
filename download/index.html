@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-analytics-variant="download-router-oct23-v1">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -97,29 +97,15 @@
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
     <script defer src="/umami-store-tracking.js"></script>
     <script defer src="/mobile-store-cta.js"></script>
+    <script defer src="/download-store-router.js"></script>
 </head>
 <body>
     <div class="card">
         <h1>Télécharger Caresse</h1>
         <p>Redirection automatique en cours… si rien ne se passe, choisissez votre plateforme :</p>
-        <a class="store-link" id="ios-link" href="https://apps.apple.com/us/app/caresse/id6758887086">Télécharger sur l'App Store</a>
-        <a class="store-link secondary" id="android-link" href="https://play.google.com/store/apps/details?id=studio.mokuton.caresse">Télécharger sur Google Play</a>
+        <a class="store-link" id="ios-link" href="https://apps.apple.com/us/app/caresse/id6758887086" target="_blank" rel="noopener" data-cta-position="download">Télécharger sur l'App Store</a>
+        <a class="store-link secondary" id="android-link" href="https://play.google.com/store/apps/details?id=studio.mokuton.caresse" target="_blank" rel="noopener" data-cta-position="download">Télécharger sur Google Play</a>
     </div>
 
-    <script>
-        (function () {
-            var ua = navigator.userAgent || navigator.vendor || '';
-
-            // Ne jamais rediriger les robots d'indexation : Googlebot smartphone
-            // s'identifie comme Android et hériterait du title du Play Store.
-            var BOT = /bot|crawl|spider|slurp|bingpreview|google-inspectiontool|duckduckbot|baiduspider|yandex|facebookexternalhit|embedly|quora link preview|showyoubot|outbrain|pinterest|slackbot|vkshare|w3c_validator|whatsapp|telegrambot|twitterbot|applebot|petalbot|ahrefsbot|semrushbot|mj12bot|dotbot|headlesschrome|lighthouse/i;
-            if (BOT.test(ua)) { return; }
-
-            var iosUrl = document.getElementById('ios-link').href;
-            if (/iPad|iPhone|iPod/.test(ua)) {
-                window.location.replace(iosUrl);
-            }
-        })();
-    </script>
 </body>
 </html>

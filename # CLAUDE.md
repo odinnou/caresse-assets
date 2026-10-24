@@ -12,6 +12,10 @@ L’application se positionne comme une solution de **bien-être émotionnel et 
 
 ## 🥇 Règle d'or du site — à lire avant toute modif SEO ou CTA
 
+**Priorité absolue, rappelée par le propriétaire le 24 octobre 2026 : optimiser le
+SEO et améliorer la visibilité de Caresse sur l’App Store et Google Play pour
+générer davantage d’installations. À conserver d’une session à l’autre.**
+
 Le site existe **uniquement** pour le reach SEO et les obligations légales des stores.
 Son objectif est d'obtenir des **installations d'app**. Le mouvement optimal : l'utilisateur
 arrive par une requête, et le **premier lien qu'il clique l'amène au store**.

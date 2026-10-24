@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es" data-analytics-variant="personalized-acquisition-oct24-v1">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audio íntimo personalizado con tus nombres | Caresse</title>
+<meta name="description" content="Crea una sesión de audio íntimo con tus nombres, ambiente y preferencias, en solitario o en pareja. Demos gratis y créditos de pago sin suscripción.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Studio Mokuton">
+<meta name="theme-color" content="#5D3D8C">
+<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="sitemap" type="application/xml" href="https://caresse.app/sitemap.xml">
+<link rel="canonical" href="https://caresse.app/es/audio-intimo-personalizado/">
+<link rel="alternate" hreflang="fr" href="https://caresse.app/audio-intime-personnalise/">
+<link rel="alternate" hreflang="en" href="https://caresse.app/en/personalized-intimate-audio/">
+<link rel="alternate" hreflang="es" href="https://caresse.app/es/audio-intimo-personalizado/">
+<link rel="alternate" hreflang="pt" href="https://caresse.app/pt/audio-intimo-personalizado/">
+<link rel="alternate" hreflang="x-default" href="https://caresse.app/audio-intime-personnalise/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://caresse.app/es/audio-intimo-personalizado/">
+<meta property="og:site_name" content="Caresse">
+<meta property="og:title" content="Audio íntimo personalizado con tus nombres | Caresse">
+<meta property="og:description" content="Crea una sesión de audio íntimo con tus nombres, ambiente y preferencias, en solitario o en pareja. Demos gratis y créditos de pago sin suscripción.">
+<meta property="og:image" content="https://caresse.app/og-image-en.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Caresse">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Audio íntimo personalizado con tus nombres | Caresse">
+<meta name="twitter:description" content="Crea una sesión de audio íntimo con tus nombres, ambiente y preferencias, en solitario o en pareja. Demos gratis y créditos de pago sin suscripción.">
+<meta name="twitter:image" content="https://caresse.app/og-image-en.png">
+<meta name="twitter:image:alt" content="Caresse">
+<style>
+        :root {
+            --primary: #5D3D8C;
+            --secondary: #9E7BB5;
+            --primary-vibrant: #9361FD;
+            --background: #F9F7FD;
+            --surface: #FFFFFF;
+            --text-primary: #1A1A2E;
+            --text-secondary: #5D5D7A;
+            --pink: #FF6B9D;
+            --grad-primary: linear-gradient(135deg, #9361FD, #5D3D8C);
+            --grad-pink: linear-gradient(135deg, #9361FD, #FF6B9D);
+            --grad-soft: linear-gradient(135deg, #F9F7FD 0%, #EDE8F7 100%);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, system-ui, sans-serif; background-color: var(--background); color: var(--text-primary); line-height: 1.6; overflow-x: hidden; }
+
+        header { padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.85); backdrop-filter: blur(12px); position: fixed; width: 100%; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(93,61,140,0.06); }
+        .logo { height: 32px; }
+        .lang-toggle { display: flex; gap: 4px; background: rgba(93,61,140,0.08); border-radius: 20px; padding: 4px; }
+        .lang-btn { border: none; background: none; padding: 6px 14px; border-radius: 16px; font-size: 0.85rem; font-weight: 600; cursor: pointer; color: var(--text-secondary); transition: all 0.2s; text-decoration: none; }
+        .lang-btn.active { background: var(--primary); color: white; }
+        .header-right { display: flex; align-items: center; gap: 16px; }
+        .header-link { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; font-weight: 600; padding: 6px 12px; border-radius: 10px; transition: 0.2s; }
+        .header-link:hover, .header-link.active { color: var(--primary); background: rgba(93,61,140,0.06); }
+        @media (max-width: 768px) { .header-link { display: none; } }
+
+        .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 120px 8% 80px; background: radial-gradient(ellipse at 60% 40%, rgba(147,97,253,0.12) 0%, transparent 60%), radial-gradient(ellipse at 20% 80%, rgba(255,107,157,0.10) 0%, transparent 50%), var(--background); }
+        .hero-eyebrow { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 20px; opacity: 0.8; }
+        h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); font-weight: 800; line-height: 1.1; margin-bottom: 24px; background: var(--grad-pink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero p { color: var(--text-secondary); font-size: clamp(1rem, 2vw, 1.2rem); max-width: 560px; margin-bottom: 40px; }
+        .cta-group { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+        .cta-pink { background: var(--grad-pink); color: white; padding: 16px 36px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1rem; box-shadow: 0 10px 25px rgba(255,107,157,0.3); transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
+        .cta-pink:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(255,107,157,0.4); }
+        .cta-ghost { color: var(--primary); padding: 16px 36px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 1rem; border: 2px solid rgba(93,61,140,0.2); transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
+        .cta-ghost:hover { border-color: var(--primary); background: rgba(93,61,140,0.05); }
+        .hero-badge { margin-top: 48px; font-size: 0.8rem; color: var(--text-secondary); opacity: 0.7; }
+
+        section { padding: 100px 5%; }
+        .section-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary-vibrant); margin-bottom: 12px; }
+        .section-title { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; color: var(--text-primary); line-height: 1.15; margin-bottom: 16px; }
+        .section-sub { color: var(--text-secondary); font-size: 1.05rem; max-width: 560px; line-height: 1.7; }
+
+        .intent { background: var(--grad-soft); }
+        .intent-prose { max-width: 760px; margin-top: 24px; }
+        .intent-prose p { color: var(--text-secondary); font-size: 1.02rem; line-height: 1.8; margin-bottom: 18px; }
+        .intent-prose p:last-child { margin-bottom: 0; }
+        .intent-prose strong { color: var(--text-primary); font-weight: 700; }
+
+        .diff { background: var(--surface); }
+        .diff-table-wrap { max-width: 900px; margin: 48px auto 0; overflow-x: auto; }
+        .diff-table { width: 100%; border-collapse: collapse; background: var(--grad-soft); border-radius: 20px; overflow: hidden; }
+        .diff-table th, .diff-table td { padding: 18px 20px; text-align: left; font-size: 0.92rem; }
+        .diff-table th { background: var(--grad-pink); color: white; font-weight: 700; }
+        .diff-table th:first-child { background: var(--grad-soft); }
+        .diff-table td { border-bottom: 1px solid rgba(158,123,181,0.15); color: var(--text-secondary); }
+        .diff-table tr:last-child td { border-bottom: none; }
+        .diff-table td:first-child { font-weight: 700; color: var(--text-primary); }
+        .diff-table .highlight { color: var(--primary); font-weight: 600; }
+
+        .how { background: var(--grad-soft); text-align: center; }
+        .steps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; max-width: 900px; margin: 48px auto 0; }
+        .step-item { background: var(--surface); border-radius: 20px; padding: 32px 28px; border: 1px solid rgba(158,123,181,0.1); }
+        .step-item .num { font-size: 2.4rem; font-weight: 800; background: var(--grad-pink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 12px; }
+        .step-item h3 { font-size: 1.1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 8px; }
+        .step-item p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.65; }
+        .demo-note { max-width: 620px; margin: 32px auto 0; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.7; }
+        .demo-note a { color: var(--primary-vibrant); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+
+        .benefits { background: var(--surface); }
+        .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px; max-width: 1100px; margin: 48px auto 0; }
+        .benefit-card { background: var(--grad-soft); border-radius: 24px; padding: 36px; border: 1px solid rgba(158,123,181,0.12); }
+        .benefit-card .icon { font-size: 2.2rem; margin-bottom: 16px; }
+        .benefit-card h3 { font-size: 1.2rem; font-weight: 700; color: var(--primary); margin-bottom: 10px; }
+        .benefit-card p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; }
+
+        .faq { background: var(--grad-soft); }
+        .faq-list { max-width: 700px; margin: 48px auto 0; display: flex; flex-direction: column; gap: 16px; }
+        .faq-item { background: var(--surface); border-radius: 16px; padding: 28px 32px; border: 1px solid rgba(158,123,181,0.1); }
+        .faq-item h3 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); margin-bottom: 10px; }
+        .faq-item p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; }
+
+        .cta-section { text-align: center; background: radial-gradient(ellipse at center, rgba(147,97,253,0.1) 0%, transparent 70%), var(--background); }
+        .cta-section .section-title { margin-bottom: 16px; }
+        .cta-section .section-sub { margin: 0 auto 40px; text-align: center; }
+        .store-badges { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; }
+        .store-badge { display: inline-block; text-decoration: none; transition: transform 0.2s, opacity 0.2s; position: relative; }
+        .store-badge:hover { transform: translateY(-2px); opacity: 0.88; }
+        .store-badge img { height: 54px; width: auto; display: block; }
+        .store-badge.gplay img { height: 80px; margin: -13px 0; }
+        .age-notice { font-size: 0.8rem; color: var(--text-secondary); opacity: 0.6; margin-top: 8px; }
+
+        .breadcrumb { padding: 80px 5% 0; font-size: 0.85rem; color: var(--text-secondary); }
+        .breadcrumb a { color: var(--primary-vibrant); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        footer { padding: 50px 5% 36px; background: var(--surface); display: flex; flex-direction: column; align-items: center; gap: 24px; }
+        .footer-links { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; font-weight: 500; padding: 6px 12px; border-radius: 8px; transition: 0.2s; }
+        .footer-links a:hover { color: var(--primary); background: rgba(93,61,140,0.06); }
+        .footer-links span { color: #DDD; line-height: 2; }
+        .footer-social { display: flex; gap: 14px; justify-content: center; }
+        .footer-social a { display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 50%; background: rgba(93,61,140,0.06); color: var(--text-secondary); transition: 0.2s; }
+        .footer-social a:hover { color: var(--primary); background: rgba(93,61,140,0.12); }
+        .footer-social svg { width: 18px; height: 18px; fill: currentColor; }
+        .footer-copy { color: #BBB; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
+
+        @media (max-width: 768px) { section { padding: 70px 5%; } .benefits-grid, .steps-grid { grid-template-columns: 1fr; } }
+
+        /* Fourth language: reuse the compact navigation from the pricing page. */
+        @media (max-width: 480px) { .header-right { gap: 8px; } .lang-btn { padding: 6px 10px; } }
+        /* Compact mobile language links, using the existing segmented control. */
+        @media (max-width: 768px) {
+            header { gap: 12px; }
+            header .logo { width: auto; }
+            header .header-right { gap: 8px; }
+            header .lang-toggle { display: flex; gap: 2px; padding: 3px; flex: 0 0 auto; }
+            header .lang-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 30px;
+                min-width: 30px;
+                min-height: 32px;
+                padding: 0;
+                border-radius: 12px;
+                font-size: 0.75rem;
+                line-height: 1;
+            }
+            header .lang-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        }
+        .skip-link { position:absolute;top:-100px;left:16px;z-index:200;background:var(--surface);color:var(--primary);padding:12px 20px; }
+        .skip-link:focus { top:12px; }
+    </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://caresse.app/es/audio-intimo-personalizado/#webpage",
+  "name": "Audio íntimo personalizado con tus nombres | Caresse",
+  "description": "Crea una sesión de audio íntimo con tus nombres, ambiente y preferencias, en solitario o en pareja. Demos gratis y créditos de pago sin suscripción.",
+  "url": "https://caresse.app/es/audio-intimo-personalizado/",
+  "inLanguage": "es",
+  "datePublished": "2026-10-24",
+  "dateModified": "2026-10-24",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Caresse",
+    "url": "https://caresse.app/es/"
+  },
+  "about": {
+    "@id": "https://caresse.app/#app"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Caresse",
+      "item": "https://caresse.app/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Audio personalizado",
+      "item": "https://caresse.app/es/audio-intimo-personalizado/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Es un nombre añadido a una grabación?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La sesión se genera a partir de la configuración y se narra con una voz sintética. No es simplemente una demo fija en la que se inserta un nombre. El resultado depende de las elecciones indicadas y puede variar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo crear una sesión en solitario?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. El modo solo utiliza un perfil y el nombre o seudónimo elegido. El modo dúo permite configurar dos participantes. Selecciona las opciones adecuadas a tu situación."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo pedir una duración exacta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. La duración depende del contenido generado y varía de una sesión a otra. La app no permite fijarla al minuto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Necesito una cuenta de Caresse para comprar créditos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. El modo anónimo permite usar Caresse sin crear una cuenta de Caresse. Las compras sí requieren tu cuenta de Apple o Google y su método de pago en la tienda que utilices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué idiomas de audio hay disponibles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Caresse genera sesiones de audio en francés, inglés, español y portugués. Las demos están en francés, inglés y español. La interfaz en portugués está disponible en Android; la actualización para iOS está pendiente de aprobación."
+      }
+    }
+  ]
+}
+</script>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app">
+</script>
+<script defer src="/mobile-store-cta.js">
+</script>
+<script defer src="/umami-store-tracking.js">
+</script>
+<style data-component="store-badges">
+/* Match the visible artwork, accounting for Google's transparent canvas.
+   EN: 168px tall, with 41px side insets. PT-BR: 192px tall, no side insets.
+   Both official PNG canvases are 250px high. Keep the original images intact. */
+.store-badges {
+    --store-badge-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.store-badges .store-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    height: var(--store-badge-height);
+    line-height: 0;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.store-badges .store-badge img {
+    display: block;
+    flex: none;
+    height: var(--store-badge-height);
+    width: auto;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+}
+
+.store-badges .store-badge.gplay img {
+    height: calc(var(--store-badge-height) * 250 / 168);
+    margin: 0 calc(var(--store-badge-height) * -41 / 168);
+}
+
+.store-badges .store-badge.gplay img[src*="pt-br_badge_web_generic.png"] {
+    height: calc(var(--store-badge-height) * 250 / 192);
+    margin: 0;
+}
+
+.store-controls .cta-group {
+    display: flex;
+    justify-content: center;
+}
+</style>
+</head>
+<body class="lang-es">
+<a class="skip-link" href="#main">Ir al contenido</a>
+<header>
+<a href="/es/" aria-label="Caresse, inicio">
+<img src="/caresse-logo.svg" class="logo" alt="Caresse, aplicación de audio íntimo guiada por IA" width="100" height="32">
+</a>
+<div class="header-right">
+<a href="/es/how-it-works/" class="header-link">Cómo funciona</a>
+<a href="/es/alternatives/" class="header-link">Alternativas</a>
+<div class="lang-toggle" role="group" aria-label="Elegir idioma">
+<a class="lang-btn" href="/audio-intime-personnalise/" hreflang="fr" aria-label="Français">FR</a>
+<a class="lang-btn" href="/en/personalized-intimate-audio/" hreflang="en" aria-label="English">EN</a>
+<a class="lang-btn active" href="/es/audio-intimo-personalizado/" hreflang="es" aria-label="Español" aria-current="page">ES</a>
+<a class="lang-btn" href="/pt/audio-intimo-personalizado/" hreflang="pt" aria-label="Português">PT</a>
+</div>
+</div>
+</header>
+<div class="breadcrumb" aria-label="Ruta de navegación">
+<a href="/es/">Caresse</a> › <span aria-current="page">Audio personalizado</span>
+</div>
+<main id="main" tabindex="-1">
+<section class="hero" style="min-height:auto; padding-top:60px;">
+<p class="hero-eyebrow">Audio personalizado con IA · Solo o dúo · Mayores de 18 años</p>
+<h1 id="page-title">Tu audio íntimo. <br>
+<em>Tus nombres. Tus preferencias.</em>
+</h1>
+<p class="section-sub">Una historia pregrabada sigue siendo la misma para quien la escucha. Caresse crea una ficción guiada en audio a partir de tu configuración: nombres elegidos, modo solo o dúo, ambiente y preferencias disponibles en la app.</p>
+<div class="store-controls">
+<div class="cta-group">
+<a href="https://apps.apple.com/us/app/caresse/id6758887086" id="hero-cta" class="cta-pink" data-store-auto data-cta-position="hero" target="_blank" rel="noopener">Descargar ahora</a>
+</div>
+</div>
+<p class="hero-badge">Demos gratis · Sin cuenta de Caresse · Sesiones personalizadas con créditos de pago, sin suscripción.</p>
+</section>
+<section class="intent">
+<h2 class="section-title">Qué cambia entre una demo y tu sesión</h2>
+<div class="intent-prose">
+<p>Una demo permite escuchar la voz sintética y descubrir el formato antes de pagar. Sus nombres y elecciones están fijados de antemano: no utiliza tu perfil.</p>
+<p>En una sesión personalizada, tu configuración sirve para crear la narración. La voz puede pronunciar los nombres o seudónimos elegidos, y las sugerencias se orientan según las preferencias seleccionadas. Es un audio guiado para escuchar, sin tener que responder por escrito para avanzar.</p>
+</div>
+</section>
+<section class="diff">
+<h2 class="section-title" id="configuration-title">De tus preferencias a una experiencia en audio</h2>
+<div class="diff-table-wrap">
+<table class="diff-table" aria-labelledby="configuration-title">
+<tbody>
+<tr>
+<td>Nombres elegidos</td>
+<td class="highlight">Álex y Dani</td>
+</tr>
+<tr>
+<td>Modo</td>
+<td class="highlight">Dúo, o solo con un perfil</td>
+</tr>
+<tr>
+<td>Ambiente</td>
+<td class="highlight">Un momento romántico y tranquilo</td>
+</tr>
+<tr>
+<td>Preferencias</td>
+<td class="highlight">Las opciones que habéis acordado juntos</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="intent-prose" style="max-width:900px;margin:32px auto 0;">
+<p>En este ejemplo, la narración se crea para los perfiles de Álex y Dani y el ambiente elegido. Cambiar los nombres, el modo o las preferencias modifica la información utilizada para generar la sesión.</p>
+<p>Este ejemplo de configuración no es la transcripción de una sesión prometida. La IA puede producir variaciones o incoherencias; no garantiza un texto exacto, una duración fija ni la ausencia de repeticiones.</p>
+<figure style="max-width:260px;margin:32px auto 0;text-align:center;">
+<img src="/screens/en/05_android_en.webp" alt="Pantalla de Caresse en inglés para elegir el modo solo o dúo y los nombres de los participantes" width="1179" height="2556" loading="lazy" style="display:block;width:100%;height:auto;border-radius:24px;">
+<figcaption style="margin-top:12px;font-size:0.85rem;color:var(--text-secondary);line-height:1.6;">Captura ilustrativa de la configuración de participantes en inglés. Los nombres mostrados pertenecen a este ejemplo de interfaz.</figcaption>
+</figure>
+</div>
+</section>
+<section class="how">
+<h2 class="section-title">Crea un audio a partir de tus elecciones</h2>
+<div class="steps-grid">
+<div class="step-item">
+<div class="num" aria-hidden="true">01</div>
+<h3>Prueba una demo</h3>
+<p>Descarga Caresse gratis para escuchar el formato. Puedes probarlo sin crear una cuenta de Caresse.</p>
+</div>
+<div class="step-item">
+<div class="num" aria-hidden="true">02</div>
+<h3>Configura los perfiles</h3>
+<p>Usa nombres o seudónimos, elige el modo y selecciona las opciones que te interesan. En dúo, revisad esas elecciones juntos.</p>
+</div>
+<div class="step-item">
+<div class="num" aria-hidden="true">03</div>
+<h3>Inicia la generación</h3>
+<p>Un crédito de pago inicia la creación. Una vez listo el audio, una voz sintética os guía en una sesión creada a partir de vuestra configuración.</p>
+</div>
+</div>
+</section>
+<section class="benefits">
+<h2 class="section-title">Qué significa personalizar la sesión</h2>
+<div class="benefits-grid">
+<div class="benefit-card">
+<h3>Nombres en la narración</h3>
+<p>Tú eliges cómo se nombra a los participantes. Basta con un seudónimo; no necesitas dar tu identidad real para que la voz pronuncie un nombre.</p>
+</div>
+<div class="benefit-card">
+<h3>Ambiente y preferencias</h3>
+<p>La intensidad, el ambiente y las prácticas seleccionadas orientan la sesión. Algunas opciones adicionales pueden requerir un desbloqueo de personalización separado.</p>
+</div>
+<div class="benefit-card">
+<h3>Una experiencia abierta a todas las personas</h3>
+<p>En solitario o en pareja, Caresse acoge a personas adultas de todos los géneros y orientaciones sexuales. En dúo, cada práctica requiere consentimiento libre y mutuo durante toda la experiencia. Ese consentimiento puede retirarse en cualquier momento.</p>
+</div>
+</div>
+</section>
+<section class="faq" aria-labelledby="faq-title">
+<h2 id="faq-title" class="section-title">Respuestas a tus preguntas.</h2>
+<div class="faq-list">
+<div class="faq-item">
+<h3>¿Es un nombre añadido a una grabación?</h3>
+<p>La sesión se genera a partir de la configuración y se narra con una voz sintética. No es simplemente una demo fija en la que se inserta un nombre. El resultado depende de las elecciones indicadas y puede variar.</p>
+</div>
+<div class="faq-item">
+<h3>¿Puedo crear una sesión en solitario?</h3>
+<p>Sí. El modo solo utiliza un perfil y el nombre o seudónimo elegido. El modo dúo permite configurar dos participantes. Selecciona las opciones adecuadas a tu situación.</p>
+</div>
+<div class="faq-item">
+<h3>¿Puedo pedir una duración exacta?</h3>
+<p>No. La duración depende del contenido generado y varía de una sesión a otra. La app no permite fijarla al minuto.</p>
+</div>
+<div class="faq-item">
+<h3>¿Necesito una cuenta de Caresse para comprar créditos?</h3>
+<p>No. El modo anónimo permite usar Caresse sin crear una cuenta de Caresse. Las compras sí requieren tu cuenta de Apple o Google y su método de pago en la tienda que utilices.</p>
+</div>
+<div class="faq-item">
+<h3>¿Qué idiomas de audio hay disponibles?</h3>
+<p>Caresse genera sesiones de audio en francés, inglés, español y portugués. Las demos están en francés, inglés y español. La interfaz en portugués está disponible en Android; la actualización para iOS está pendiente de aprobación.</p>
+</div>
+</div>
+</section>
+<aside class="editorial-links" aria-label="Para profundizar" style="max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;">
+<p>Para profundizar : <a href="/es/blog/primera-experiencia-audio-intimo-pareja/" style="color:var(--primary-vibrant);text-underline-offset:3px;">Una guía para vuestra primera escucha íntima en pareja</a>.</p>
+</aside>
+<section class="cta-section">
+<h2 class="section-title">Escucha la voz antes de crear tu sesión.</h2>
+<p class="section-sub">Descarga Caresse y descubre las demos gratuitas. Las sesiones personalizadas utilizan después créditos de pago, sin suscripción.</p>
+<div class="store-controls">
+<div class="store-badges">
+<a href="https://apps.apple.com/us/app/caresse/id6758887086" class="store-badge" data-cta-position="inline" target="_blank" rel="noopener" aria-label="Descargar en el App Store">
+<img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Descargar en el App Store" width="162" height="54">
+</a>
+<a href="https://play.google.com/store/apps/details?id=studio.mokuton.caresse" class="store-badge gplay" data-cta-position="inline" target="_blank" rel="noopener" aria-label="Disponible en Google Play">
+<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Disponible en Google Play" width="207" height="80">
+</a>
+</div>
+</div>
+<p class="age-notice" style="max-width:760px;margin:24px auto 0;">Los precios de créditos y opciones se muestran en la app, en la moneda de tu tienda, antes de comprar.</p>
+<p class="age-notice">Solo para mayores de 18 años</p>
+</section>
+</main>
+<footer>
+<a href="/es/" aria-label="Caresse, inicio">
+<img src="/caresse-logo.svg" style="height:28px;" alt="Caresse" width="250" height="80">
+</a>
+<nav aria-label="Casos de uso" style="display:flex;gap:6px 16px;flex-wrap:wrap;justify-content:center;max-width:720px;">
+<a href="/es/precios/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Precios</a>
+<a href="/es/demo/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color=&#x27;var(--primary)&#x27;;this.style.background=&#x27;rgba(93,61,140,0.06)&#x27;" onmouseout="this.style.color=&#x27;var(--text-secondary)&#x27;;this.style.background=&#x27;transparent&#x27;">
+<span class="inline">Demo de audio</span>
+</a>
+<a href="/es/how-it-works/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color=&#x27;var(--primary)&#x27;;this.style.background=&#x27;rgba(93,61,140,0.06)&#x27;" onmouseout="this.style.color=&#x27;var(--text-secondary)&#x27;;this.style.background=&#x27;transparent&#x27;">Cómo funciona</a>
+<a href="/es/couples-game/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color=&#x27;var(--primary)&#x27;;this.style.background=&#x27;rgba(93,61,140,0.06)&#x27;" onmouseout="this.style.color=&#x27;var(--text-secondary)&#x27;;this.style.background=&#x27;transparent&#x27;">Juego para parejas</a>
+<a href="/es/for-solo-exploration/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color=&#x27;var(--primary)&#x27;;this.style.background=&#x27;rgba(93,61,140,0.06)&#x27;" onmouseout="this.style.color=&#x27;var(--text-secondary)&#x27;;this.style.background=&#x27;transparent&#x27;">Exploración en solitario</a>
+<a href="/es/for-blind-and-low-vision/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;">Ciegos y baja visión</a>
+<a href="/es/for-new-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color=&#x27;var(--primary)&#x27;;this.style.background=&#x27;rgba(93,61,140,0.06)&#x27;" onmouseout="this.style.color=&#x27;var(--text-secondary)&#x27;;this.style.background=&#x27;transparent&#x27;">Parejas nuevas</a>
+<a href="/es/for-long-term-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color=&#x27;var(--primary)&#x27;;this.style.background=&#x27;rgba(93,61,140,0.06)&#x27;" onmouseout="this.style.color=&#x27;var(--text-secondary)&#x27;;this.style.background=&#x27;transparent&#x27;">Parejas de larga duración</a>
+<a href="/es/for-busy-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color=&#x27;var(--primary)&#x27;;this.style.background=&#x27;rgba(93,61,140,0.06)&#x27;" onmouseout="this.style.color=&#x27;var(--text-secondary)&#x27;;this.style.background=&#x27;transparent&#x27;">Parejas ocupadas</a>
+<a href="/es/for-adventurous-couples/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color=&#x27;var(--primary)&#x27;;this.style.background=&#x27;rgba(93,61,140,0.06)&#x27;" onmouseout="this.style.color=&#x27;var(--text-secondary)&#x27;;this.style.background=&#x27;transparent&#x27;">Parejas aventureras</a>
+<a href="/es/is-caresse-safe/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;" onmouseover="this.style.color=&#x27;var(--primary)&#x27;;this.style.background=&#x27;rgba(93,61,140,0.06)&#x27;" onmouseout="this.style.color=&#x27;var(--text-secondary)&#x27;;this.style.background=&#x27;transparent&#x27;">Privacidad y seguridad</a>
+<a href="/es/masaje-sensual-pareja/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Masaje sensual en pareja</a>
+<a href="/es/noche-romantica-en-casa/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Noche romántica en casa</a>
+<a href="/es/blog/primera-experiencia-audio-intimo-pareja/" style="color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;">Primera escucha en pareja</a>
+</nav>
+<div class="footer-links">
+<a href="/es/download/">Descargar</a>
+<span>·</span>
+<a href="/es/support/">Soporte</a>
+<span>·</span>
+<a href="/legal/es/cgu/" rel="nofollow">Términos de uso</a>
+<span>·</span>
+<a href="/legal/es/cgv/" rel="nofollow">Condiciones de venta</a>
+<span>·</span>
+<a href="/legal/es/privacy/" rel="nofollow">Privacidad</a>
+<span>·</span>
+<a href="/legal/es/legals/" rel="nofollow">Aviso legal</a>
+</div>
+<div class="footer-social">
+<a href="https://x.com/app_caresse" target="_blank" rel="noopener" aria-label="Caresse en X">
+<svg viewbox="0 0 24 24">
+<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+</svg>
+</a>
+<a href="https://www.instagram.com/caresse.app" target="_blank" rel="noopener" aria-label="Caresse en Instagram">
+<svg viewbox="0 0 24 24">
+<path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.256 1.216.6 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.05 1.066.06 1.405.06 4.122s-.01 3.056-.06 4.122c-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.05-1.405.06-4.122.06s-3.056-.01-4.122-.06c-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.01 15.056 2 14.717 2 12s.01-3.056.06-4.122c.05-1.065.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.363-.415 2.428-.465C8.944 2.01 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.25a3.25 3.25 0 1 1 0-6.5 3.25 3.25 0 0 1 0 6.5zm5.25-8.5a1.15 1.15 0 1 0 0-2.3 1.15 1.15 0 0 0 0 2.3z"/>
+</svg>
+</a>
+<a href="https://www.youtube.com/@app.caresse" target="_blank" rel="noopener" aria-label="Caresse en YouTube">
+<svg viewbox="0 0 24 24">
+<path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.376.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.376-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12z"/>
+</svg>
+</a>
+<a href="https://www.tiktok.com/@caresse.app" target="_blank" rel="noopener" aria-label="Caresse en TikTok">
+<svg viewbox="0 0 24 24">
+<path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"/>
+</svg>
+</a>
+</div>
+<p class="footer-copy">© 2026 <a href="https://mokuton.studio/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Studio Mokuton</a>, Caresse · Solo mayores de 18 años</p>
+</footer>
+</body>
+</html>

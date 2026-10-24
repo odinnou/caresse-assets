@@ -46,7 +46,7 @@
   "description": "App de intimidade por áudio em português, individual ou a dois. Baixe grátis para iPhone e Android. Sessões com créditos pagos, sem assinatura.",
   "url": "https://caresse.app/pt/",
   "inLanguage": "pt",
-  "dateModified": "2026-10-10",
+  "dateModified": "2026-10-24",
   "isPartOf": {
     "@type": "WebSite",
     "name": "Caresse",
@@ -89,7 +89,7 @@
       "name": "O Caresse funciona em português?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O app cria áudios em português. Algumas telas ainda não estão traduzidas. As demos disponíveis no site estão em francês, inglês e espanhol."
+        "text": "O app cria áudios em português. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. As demos disponíveis no site estão em francês, inglês e espanhol."
       }
     },
     {
@@ -814,6 +814,55 @@
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
     <script defer src="/umami-store-tracking.js"></script>
     <script defer src="/mobile-store-cta.js"></script>
+<style data-component="store-badges">
+/* Match the visible artwork, accounting for Google's transparent canvas.
+   EN: 168px tall, with 41px side insets. PT-BR: 192px tall, no side insets.
+   Both official PNG canvases are 250px high. Keep the original images intact. */
+.store-badges {
+    --store-badge-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.store-badges .store-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    height: var(--store-badge-height);
+    line-height: 0;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.store-badges .store-badge img {
+    display: block;
+    flex: none;
+    height: var(--store-badge-height);
+    width: auto;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+}
+
+.store-badges .store-badge.gplay img {
+    height: calc(var(--store-badge-height) * 250 / 168);
+    margin: 0 calc(var(--store-badge-height) * -41 / 168);
+}
+
+.store-badges .store-badge.gplay img[src*="pt-br_badge_web_generic.png"] {
+    height: calc(var(--store-badge-height) * 250 / 192);
+    margin: 0;
+}
+
+.store-controls .cta-group {
+    display: flex;
+    justify-content: center;
+}
+</style>
 </head>
 <body class="lang-pt">
     <header>
@@ -834,8 +883,8 @@
     <section class="hero"><p class="hero-eyebrow">✦ 18+ · Áudio guiado · Português</p><h1>Desacelere.<br>Sinta.<br><em>Reconecte-se.</em></h1><p class="hero-category">App de intimidade por áudio para casais e experiências individuais</p><p>Uma voz para guiar seu momento. O Caresse cria ficções em áudio no app, em português, sem conteúdo visual explícito.</p><div class="cta-group"><a href="https://apps.apple.com/us/app/caresse/id6758887086" id="hero-cta" class="cta-pink hero-adaptive-download" data-store-auto data-cta-position="hero" target="_blank" rel="noopener">Baixar grátis</a></div><div class="store-badges hero-store-options">
             <a href="https://apps.apple.com/us/app/caresse/id6758887086" class="store-badge" data-cta-position="hero" aria-label="Baixar na App Store" target="_blank" rel="noopener noreferrer"><img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Baixar na App Store"></a>
             <a href="https://play.google.com/store/apps/details?id=studio.mokuton.caresse" class="store-badge gplay" data-cta-position="hero" aria-label="Disponível no Google Play" target="_blank" rel="noopener noreferrer"><img src="https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png" alt="Disponível no Google Play"></a>
-        </div><p class="hero-badge">Modo convidado · Demos gratuitas · iOS e Android<br>Áudios em português · Algumas telas ainda não traduzidas<br>Sessões criadas no app com créditos pagos, sem assinatura.</p></section>
-<section class="promise" id="how"><div class="promise-text"><p class="section-label">A experiência</p><h2 class="section-title">Uma voz.<br>Um momento de vocês.</h2><p class="section-sub">Em vez de ler cartas ou conversar com um chatbot durante o momento, vocês ouvem uma ficção guiada por voz sintética. No app, escolham o formato individual ou a dois, suas preferências e seus limites. Cada sugestão continua sendo opcional.</p><p class="section-sub">O áudio pode ser criado em português. Algumas telas ainda não estão traduzidas. A captura ao lado mostra a interface em inglês, apenas como ilustração.</p></div><div class="promise-mockup"><div class="phone-carousel-wrap"><div class="phone-carousel"><div class="phone-carousel-track"><div class="phone-carousel-slide active"><img src="/screens/en/10_android_en.webp" alt="Player de áudio do Caresse, captura ilustrativa da interface em inglês" loading="lazy" width="1179" height="2556"></div></div></div></div></div></section>
+        </div><p class="hero-badge">Modo convidado · Demos gratuitas · iOS e Android<br>Áudios em português · Interface em português no Android · Atualização iOS aguardando aprovação<br>Sessões criadas no app com créditos pagos, sem assinatura.</p></section>
+<section class="promise" id="how"><div class="promise-text"><p class="section-label">A experiência</p><h2 class="section-title">Uma voz.<br>Um momento de vocês.</h2><p class="section-sub">Em vez de ler cartas ou conversar com um chatbot durante o momento, vocês ouvem uma ficção guiada por voz sintética. No app, escolham o formato individual ou a dois, suas preferências e seus limites. Cada sugestão continua sendo opcional.</p><p class="section-sub">O áudio pode ser criado em português. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. A captura ao lado mostra a interface em inglês, apenas como ilustração.</p></div><div class="promise-mockup"><div class="phone-carousel-wrap"><div class="phone-carousel"><div class="phone-carousel-track"><div class="phone-carousel-slide active"><img src="/screens/en/10_android_en.webp" alt="Player de áudio do Caresse, captura ilustrativa da interface em inglês" loading="lazy" width="1179" height="2556"></div></div></div></div></div></section>
 <section class="steps"><div class="steps-header"><p class="section-label">Dentro do app</p><h2 class="section-title">Da instalação ao áudio.</h2><p class="section-sub">O site não gera sessões. Tudo acontece no aplicativo para iPhone ou Android.</p></div><div class="steps-grid"><div class="step-card"><div class="step-body"><p class="step-num">01</p><h3>Baixe o Caresse</h3><p>Abra diretamente a App Store ou o Google Play. O download é gratuito e o modo convidado não exige criar uma conta Caresse.</p></div></div><div class="step-card"><div class="step-body"><p class="step-num">02</p><h3>Descubra o formato</h3><p>As demos são exemplos de áudio pré-gerados e gratuitos. Os exemplos publicados no site estão em francês, inglês e espanhol.</p></div></div><div class="step-card"><div class="step-body"><p class="step-num">03</p><h3>Crie uma sessão no app</h3><p>Configure suas preferências no aplicativo. O áudio está disponível em português. Iniciar a criação de uma sessão consome um crédito pago; confira o valor antes de comprar.</p></div></div><div class="step-card"><div class="step-body"><p class="step-num">04</p><h3>Ouça no seu ritmo</h3><p>Uma voz sintética conduz a ficção. Pause, pule uma sugestão ou pare quando quiser. Podem ocorrer incoerências no conteúdo gerado.</p></div></div></div><div class="cta-group" style="margin-top:32px"><a href="https://apps.apple.com/us/app/caresse/id6758887086" class="cta-pink" data-store-auto data-cta-position="inline" target="_blank" rel="noopener">Baixar grátis</a></div></section>
 <section class="forwho"><p class="section-label">Individual ou a dois</p><h2 class="section-title" style="margin-bottom:48px;">Escolha seu momento.</h2><div class="forwho-inner"><div class="forwho-card"><div class="icon" aria-hidden="true">🌙</div><h3>Experiência individual</h3><p>Uma ficção guiada para explorar sensações no seu próprio ritmo. Sem câmera, imagens explícitas ou obrigação de seguir as sugestões.</p></div><div class="forwho-card"><div class="icon" aria-hidden="true">💑</div><h3>Em casal</h3><p>Uma voz conduz o momento compartilhado. Conversem sobre limites e conforto antes de começar; a narração não substitui o consentimento entre vocês.</p><p><a href="/pt/couples-game/">Como funciona o jogo para casais</a></p></div></div></section>
 <section class="compare-section"><div class="compare-header"><p class="section-label">Compare os formatos</p><h2 class="section-title">Áudio, desafios ou perguntas?</h2><p class="section-sub">Não são apps idênticos. Compare o que você quer fazer, os idiomas e o modelo de pagamento.</p></div><div class="compare-grid"><a class="compare-card" href="/pt/vs-dipsea/"><strong>Caresse vs Dipsea</strong><span>Catálogo de histórias ou uma sessão de áudio criada no app.</span></a><a class="compare-card" href="/pt/vs-desire/"><strong>Caresse vs Desire</strong><span>Áudio guiado ou desafios com pontos.</span></a><a class="compare-card" href="/pt/vs-spicer/"><strong>Caresse vs Spicer</strong><span>Uma ficção para ouvir ou perguntas sobre desejos em comum.</span></a></div><a class="compare-all" href="/pt/alternatives/">Ver alternativas</a></section>
@@ -843,14 +892,14 @@
         <p class="section-label">Perguntas frequentes</p><h2 class="section-title">Respostas antes de escolher.</h2>
         <div class="faq-list">
             <div class="faq-item"><h3>O que é o Caresse?</h3><p>O Caresse é um app de ficções guiadas por áudio para adultos, em uso individual ou a dois. Uma voz sintética narra experiências criadas no app. Não é um serviço médico ou terapêutico.</p></div>
-            <div class="faq-item"><h3>O Caresse funciona em português?</h3><p>O app cria áudios em português. Algumas telas ainda não estão traduzidas. As demos disponíveis no site estão em francês, inglês e espanhol.</p></div>
+            <div class="faq-item"><h3>O Caresse funciona em português?</h3><p>O app cria áudios em português. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. As demos disponíveis no site estão em francês, inglês e espanhol.</p></div>
             <div class="faq-item"><h3>O Caresse é gratuito?</h3><p>O download e as demos são gratuitos. Criar uma sessão a partir das suas preferências no app usa um crédito pago, sem assinatura. Um desbloqueio opcional de opções avançadas é vendido separadamente.</p></div>
             <div class="faq-item"><h3>Preciso criar uma conta Caresse?</h3><p>O modo convidado permite usar o Caresse sem criar uma conta Caresse. Compras usam sua conta Apple ou Google e seu método de pagamento: a transação com a loja não é anônima.</p></div>
             <div class="faq-item"><h3>O site cria sessões personalizadas?</h3><p>Não. Este site apresenta o app e leva diretamente à App Store ou ao Google Play. As demos são exemplos pré-gerados; nenhuma sessão personalizada é gerada aqui.</p></div>
             <div class="faq-item"><h3>Posso usar sozinho ou em casal?</h3><p>Sim. O Caresse oferece experiências individuais ou a dois. Toda sugestão é opcional: vocês podem pausar, pular uma proposta ou parar. O app é exclusivo para maiores de 18 anos.</p></div>
         </div>
     </section>
-<section class="cta-section" id="download"><p class="section-label">Quer experimentar?</p><h2 class="section-title">Uma voz para guiar.<br>No ritmo de vocês.</h2><p class="section-sub">Baixe o Caresse grátis para iPhone ou Android. O app cria áudios em português; algumas telas ainda não estão traduzidas. As demos são gratuitas e a criação de sessões usa créditos pagos.</p><div class="store-badges">
+<section class="cta-section" id="download"><p class="section-label">Quer experimentar?</p><h2 class="section-title">Uma voz para guiar.<br>No ritmo de vocês.</h2><p class="section-sub">Baixe o Caresse grátis para iPhone ou Android. O app cria áudios em português; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação. As demos são gratuitas e a criação de sessões usa créditos pagos.</p><div class="store-badges">
             <a href="https://apps.apple.com/us/app/caresse/id6758887086" class="store-badge" data-cta-position="inline" aria-label="Baixar na App Store" target="_blank" rel="noopener noreferrer"><img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Baixar na App Store"></a>
             <a href="https://play.google.com/store/apps/details?id=studio.mokuton.caresse" class="store-badge gplay" data-cta-position="inline" aria-label="Disponível no Google Play" target="_blank" rel="noopener noreferrer"><img src="https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png" alt="Disponível no Google Play"></a>
         </div><p class="age-notice">Somente para maiores de 18 anos.</p></section>

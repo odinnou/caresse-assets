@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt" data-analytics-variant="comparison-cta-v1-femtasy-oct10-v1-pt-full-translation-oct10-v1">
+<html lang="pt" data-analytics-variant="comparison-cta-v1-femtasy-oct10-v1-pt-full-translation-oct10-v1-seo-consistency-oct23-v1">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -75,7 +75,7 @@
       "name": "O Femtasy oferece áudio em francês ou espanhol?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O Femtasy anuncia ofertas em inglês, francês e alemão. As páginas consultadas não anunciam espanhol. O Caresse cria áudios em português, francês, inglês e espanhol; algumas telas PT ainda não estão traduzidas. As demos do site existem em FR, EN e ES."
+        "text": "O Femtasy anuncia ofertas em inglês, francês e alemão. As páginas consultadas não anunciam espanhol. O Caresse cria áudios em português, francês, inglês e espanhol; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação. As demos do site existem em FR, EN e ES."
       }
     },
     {
@@ -144,12 +144,7 @@
       "https://www.youtube.com/@app.caresse",
       "https://www.tiktok.com/@caresse.app"
     ],
-    "inLanguage": [
-      "fr",
-      "en",
-      "es",
-      "pt"
-    ],
+    "inLanguage": ["fr", "en", "es", "pt"],
     "isSimilarTo": {
       "@type": "SoftwareApplication",
       "name": "Femtasy"
@@ -179,7 +174,7 @@
     ]
   },
   "datePublished": "2026-10-10",
-  "dateModified": "2026-10-10"
+  "dateModified": "2026-10-24"
 }
     </script>
 
@@ -348,6 +343,55 @@
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4a1be662-e78b-4d4e-8a5d-c5791756a46a" data-domains="caresse.app"></script>
     <script defer src="/umami-store-tracking.js"></script>
     <script src="/mobile-store-cta.js" defer></script>
+<style data-component="store-badges">
+/* Match the visible artwork, accounting for Google's transparent canvas.
+   EN: 168px tall, with 41px side insets. PT-BR: 192px tall, no side insets.
+   Both official PNG canvases are 250px high. Keep the original images intact. */
+.store-badges {
+    --store-badge-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.store-badges .store-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    height: var(--store-badge-height);
+    line-height: 0;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.store-badges .store-badge img {
+    display: block;
+    flex: none;
+    height: var(--store-badge-height);
+    width: auto;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+}
+
+.store-badges .store-badge.gplay img {
+    height: calc(var(--store-badge-height) * 250 / 168);
+    margin: 0 calc(var(--store-badge-height) * -41 / 168);
+}
+
+.store-badges .store-badge.gplay img[src*="pt-br_badge_web_generic.png"] {
+    height: calc(var(--store-badge-height) * 250 / 192);
+    margin: 0;
+}
+
+.store-controls .cta-group {
+    display: flex;
+    justify-content: center;
+}
+</style>
 </head>
 <body class="lang-pt">
 
@@ -556,7 +600,7 @@
             </div>
             <div class="faq-item">
                 <h3>O Femtasy oferece áudio em francês ou espanhol?</h3>
-                <p>O Femtasy anuncia ofertas em inglês, francês e alemão. As páginas consultadas não anunciam espanhol. O Caresse cria áudios em português, francês, inglês e espanhol; algumas telas PT ainda não estão traduzidas. As demos do site existem em FR, EN e ES.</p>
+                <p>O Femtasy anuncia ofertas em inglês, francês e alemão. As páginas consultadas não anunciam espanhol. O Caresse cria áudios em português, francês, inglês e espanhol; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação. As demos do site existem em FR, EN e ES.</p>
             </div>
             <div class="faq-item">
                 <h3>Femtasy ou Caresse para casais?</h3>
@@ -577,7 +621,7 @@
     <section class="cta-section" id="download">
         <p class="section-label">Quer experimentar?</p>
         <h2 class="section-title">Conheça o formato.<br>Decida depois.</h2>
-        <p class="section-sub">Baixe o Caresse grátis e ouça demos pré-geradas sem cadastro Caresse. Os áudios do site estão em inglês, francês e espanhol. No app, você pode gerar áudio em português com créditos pagos; algumas telas ainda não estão traduzidas.</p>
+        <p class="section-sub">Baixe o Caresse grátis e ouça demos pré-geradas sem cadastro Caresse. Os áudios do site estão em inglês, francês e espanhol. No app, você pode gerar áudio em português com créditos pagos; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação.</p>
         <div class="store-badges">
             <a href="https://apps.apple.com/us/app/caresse/id6758887086" class="store-badge" aria-label="Baixar na App Store" target="_blank" rel="noopener noreferrer">
                 <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Baixar na App Store">

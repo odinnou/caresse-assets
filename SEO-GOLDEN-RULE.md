@@ -4,6 +4,28 @@ Document de référence, prioritaire sur toute autre considération SEO ou édit
 En cas de contradiction avec `SEO-LINKING.md`, `SEO-WIP.md` ou tout autre document,
 **c'est ce fichier qui tranche**.
 
+## Priorité absolue — rappel du propriétaire, 24 octobre 2026
+
+**L’objectif principal de toute intervention est d’optimiser le SEO et d’améliorer
+la visibilité de Caresse sur l’App Store et Google Play, pour obtenir davantage
+d’installations.** Cette priorité doit être conservée d’une session à l’autre.
+
+Les choix de contenu, de nouvelles pages, de langues, de maillage, de présentation
+et de CTA doivent servir cette acquisition : être découvert sur des recherches
+pertinentes, donner envie d’essayer l’app et conduire directement au bon store.
+L’optimisation des fiches stores (ASO), lorsqu’elle entre dans le périmètre du
+travail, poursuit le même objectif de visibilité et de conversion en installations.
+
+Les résultats à suivre sont les impressions et clics organiques pertinents, les
+clics vers chaque store, la visibilité des fiches et les installations lorsqu’elles
+sont mesurables. Le nombre de pages créées ou le temps passé sur le site ne sont
+pas des objectifs en soi.
+
+Les textes s’adressent à des personnes : ton naturel, accueil inclusif des adultes
+de tous genres et orientations, consentement libre et mutuel tout au long de
+l’expérience. Ces messages doivent rester clairs, sans répétitions qui alourdissent
+le parcours de téléchargement.
+
 ## L'énoncé
 
 > Le site existe **uniquement** pour le reach SEO et pour les obligations légales des
