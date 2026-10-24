@@ -1,5 +1,24 @@
 # Maillage interne — registre des cibles SEO
 
+## Renforcement du 24 octobre 2026 après audit des liens
+
+- Les accueils FR, EN, ES et PT portent un paragraphe éditorial vers les trois pages
+  d’expérience de leur langue : massage sensuel en couple, audio intime personnalisé
+  et soirée romantique à la maison. Ces douze pages deviennent accessibles en un clic
+  depuis leur accueil ; les liens restent du texte souligné, sans bouton de conversion.
+- Le hub `/pt/alternatives/` renvoie vers
+  `/pt/blog/panorama-ia-intimidade-2026/`, comme les trois autres langues vers leur
+  dossier. Ses neuf ancres génériques sont remplacées par le nom du comparatif.
+- Le logo et le lien « Inicio » du support espagnol renvoient vers `/es/`.
+- Les quatre dossiers annuels exposent une ancre `#sources`. Les références sur le
+  burnout renvoient aux travaux originaux ; McKinsey et Salesforce sont attribués
+  aux publications de 2021 et 2023. Les FAQ visibles et JSON-LD restent synchronisées.
+- Les liens de téléchargement, leurs libellés et les scripts de routage vers les
+  stores sont conservés. Aucun lien commercial de concurrent n’est ajouté.
+
+Ce renforcement améliore la découverte et la vérifiabilité. Il ne remplace pas la
+mesure de l’indexation, des clics organiques et des installations.
+
 ## Lot du 24 octobre 2026 — quatre nouvelles intentions, quatre langues
 
 Trois pages d’expérience et un guide sont ajoutés en FR, EN, ES et PT. Chacune de ces 16 pages porte un seul gros bouton de téléchargement en haut, visible sur toutes les plateformes et lié directement aux fiches Caresse, avec routage Android et bouton fixe mobile partagés. Les badges des deux stores sont uniquement en bas. Les liens décrits ici restent des liens éditoriaux.
