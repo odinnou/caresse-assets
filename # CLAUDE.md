@@ -78,6 +78,7 @@ fait pour le crawler, jamais en CTA visible qui détourne l'utilisateur final.
 
 ## 💰 Modèle économique
 
+- Démos pré-générées gratuites ; sessions personnalisées payantes. Ne pas promettre de première génération offerte.
 - Achat de crédits (consommables)
 - Déclenchement de génération = consommation de crédit
 - Unlock optionnel :
@@ -89,6 +90,7 @@ fait pour le crawler, jamais en CTA visible qui détourne l'utilisateur final.
 
 ## 🔐 Données & confidentialité
 
+- Anonymat de l’acheteur vis-à-vis de Caresse, confirmé par le propriétaire le 31 octobre 2026 : Caresse ne connaît pas son identité. Le paiement via le compte Apple ou Google ne contredit pas cet anonymat vis-à-vis de Caresse.
 - Authentification via Firebase (OAuth / guest)
 - Stockage d’un UID anonyme
 - Données de scénarios utilisées uniquement pour génération
@@ -189,4 +191,4 @@ Le toggle FR/EN dans le header n'est **pas un bouton JS**, c'est un vrai lien (`
 
 ### Témoignages
 
-Les quotes "Manon & Yannick", "Sophie & James" etc. sur les pages satellites sont **illustratives, pas des vrais avis utilisateurs**. Ne pas ajouter de `Review` / `AggregateRating` schema autour — risque de pénalité Google et trompeur.
+Les témoignages illustratifs des pages satellites ont été retirés le 31 octobre 2026, à la demande du propriétaire, sur les quatre langues (FR, EN, ES, PT). Ne pas les réintroduire. Tout futur témoignage présenté comme un avis utilisateur doit correspondre à un retour réel vérifié. Ne pas ajouter de `Review` / `AggregateRating` schema pour des citations fictives.
