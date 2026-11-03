@@ -1,11 +1,26 @@
-# Visuel des pages saisonnières
+# Visuels des pages saisonnières
 
-Asset utilisé : `evening-ambience.jpg` (1536 × 1024, environ 149 Ko).
+Visuels actifs depuis le 3 novembre 2026 (1536 × 1024 chacun) :
+
+- `valentines-soft-kinky.jpg` — pages Saint-Valentin et cadeau, dans les quatre langues : bandeau de satin, manchettes discrètes, ruban et bougie.
+- `christmas-festive.jpg` — pages Noël dans les quatre langues : sapin, lumières chaudes, cadeaux et bougie.
+
+Le premier visuel `evening-ambience.jpg` (environ 149 Ko) est conservé comme variante d’ambiance.
 
 Créé avec l’outil intégré **imagegen**, puis encodé en JPEG pour le web. Photographie d’ambiance générée par IA ; elle ne représente pas une session ou un témoignage utilisateur. Le visuel est décoratif dans le HTML et n’embarque aucun texte afin de convenir aux quatre langues.
 
 Les styles restent intégrés au HTML. Palette, en-tête, boutons, badges et illustration audio reprennent les éléments existants de Caresse. L’illustration audio provient de la section audio de l’accueil, avec ses animations retirées. Les ondes du hero sont décoratives et ne constituent pas un lecteur.
 
-## Prompt final
+## Prompts actifs — outil imagegen intégré
+
+### Saint-Valentin
+
+Use case: photorealistic-natural. Asset type: wide editorial hero photograph for Caresse, a refined guided-audio app for adult couples. Primary request: a softly kinky Valentine's Day still life, sensual, elegant and suggestive while remaining non-explicit. Horizontal 1536 by 1024 composition, no collage. Keep the LEFT 50 percent mostly empty dark ink plum (#1A1A2E, #2D1B5E) with subtle soft gradients for overlaid website copy. Concentrate the recognizable props in the RIGHT CENTER between 60 and 85 percent of image width, between 30 and 65 percent of image height: a clearly visible black silk blindfold with delicate long ties, a pair of elegant soft padded black wrist cuffs with small rose gold buckles lying open and unattached, and a loosely draped burgundy satin ribbon on a low dark walnut side table. One ivory candle in a plum glass holder further behind, a couple of dark rose petals, blurred plum velvet sofa and mauve silk background. Items are an editorial still life, not being used. Shallow depth of field but the blindfold and cuffs should be recognizable. Premium magazine photography, tactile silk, velvet and leather textures, warm amber candle rim light, restrained plum-purple and muted rose color palette, intimate mood, natural grain. Keep bottom right less busy because a small HTML panel overlays that area. No people, no bodies, no nudity, no sexual acts, no graphic content, no text, no logos, no watermarks, no hearts or cheesy decorations. Tasteful and soft rather than aggressive.
+
+### Noël
+
+Use case: photorealistic-natural. Asset type: wide editorial hero photograph for Caresse, a refined guided-audio app for adult couples. Primary request: a warm festive Christmas evening for two at home, sophisticated, intimate and soft, with a clear Christmas identity. Horizontal 1536 by 1024 composition, no collage. Keep the LEFT 50 percent mostly empty dark ink plum (#1A1A2E, #2D1B5E) and softly blurred for overlaid website copy. On the RIGHT CENTER, between 60 and 85 percent of image width, between 25 and 70 percent of height: a small decorated natural evergreen Christmas tree with warm golden fairy lights and delicate matte champagne and muted plum ornaments; a low walnut side table with one ivory candle in a glass holder, two beautifully wrapped small gifts in deep violet and cream paper with silk ribbons, and a few evergreen sprigs. Behind, a cozy plum velvet sofa and soft mauve throw. Clearly visible festive decorations, luminous golden bokeh, amber candle warmth, deep violet shadows, refined natural colors, tactile textures, shallow depth of field, high quality editorial lifestyle photography, welcoming romantic holiday atmosphere. Keep bottom right relatively uncluttered because an HTML panel overlays it. No people, no bodies, no sexual props, no alcohol focus, no text, no logos, no watermarks, no cartoon decorations, no collage.
+
+## Prompt du premier visuel d’ambiance
 
 Use case: photorealistic-natural. Asset type: atmospheric photographic panel for the Caresse guided intimacy audio website, not a screenshot or mockup. Create one premium editorial still-life photograph of a quiet intimate evening at home, cinematic horizontal 3:2 composition. Right side foreground: a gently burning ivory pillar candle in a subtle dark plum glass holder on a low walnut side table, a casually draped soft mauve silk fabric, the edge of a cozy plum sofa, one closed poetry book. Background right: very soft warm amber bokeh from distant tiny lights, blurred folds of a sheer curtain. Left half is dark soft negative space, deep ink plum #1A1A2E and aubergine #2D1B5E, no identifiable objects, for HTML overlay. Palette is deep violet, soft lavender and muted rose with restrained candle amber. Tangible textures, restrained luxury, natural film grain, shallow depth of field, beautiful soft rim lighting, intimate and inviting, sophisticated editorial photography, no people, no body parts, no text, no watermark, no logos, no phone or UI, no heart-shaped objects, no explicit content, no collage. The candle remains on a stable holder safely away from the fabric.
