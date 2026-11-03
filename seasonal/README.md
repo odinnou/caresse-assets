@@ -3,21 +3,24 @@
 Visuels actifs depuis le 3 novembre 2026 (1536 × 1024 chacun) :
 
 - `valentines-soft-kinky.jpg` — pages Saint-Valentin et cadeau, dans les quatre langues : bandeau de satin, manchettes discrètes, ruban et bougie.
-- `christmas-festive.jpg` — pages Noël dans les quatre langues : sapin, lumières chaudes, cadeaux et bougie.
+- `christmas-soft-kinky.jpg` — pages Noël dans les quatre langues : sapin, lumières chaudes et bandeau de satin dans un cadeau entrouvert.
+- `new-year-soft-kinky.jpg` — pages réveillon du Nouvel An dans les quatre langues : deux coupes, horloge proche de minuit, feux d’artifice, bandeau de satin et ruban.
 
-Le premier visuel `evening-ambience.jpg` (environ 149 Ko) est conservé comme variante d’ambiance.
+Les premiers visuels `evening-ambience.jpg` (environ 149 Ko) et `christmas-festive.jpg` (environ 200 Ko) sont conservés comme variantes. L’image Saint-Valentin reste celle validée par le propriétaire ; les touches kinky de Noël et du Nouvel An sont plus discrètes, sans manchettes.
 
 Créé avec l’outil intégré **imagegen**, puis encodé en JPEG pour le web. Photographie d’ambiance générée par IA ; elle ne représente pas une session ou un témoignage utilisateur. Le visuel est décoratif dans le HTML et n’embarque aucun texte afin de convenir aux quatre langues.
 
 Les styles restent intégrés au HTML. Palette, en-tête, boutons, badges et illustration audio reprennent les éléments existants de Caresse. L’illustration audio provient de la section audio de l’accueil, avec ses animations retirées. Les ondes du hero sont décoratives et ne constituent pas un lecteur.
 
-## Prompts actifs — outil imagegen intégré
+Les nouveaux visuels Noël et Nouvel An ont été créés avec l’outil intégré imagegen : modification du visuel Noël existant, puis nouvelle composition pour le Nouvel An à partir des références de style. Les prompts complets et les références sont conservés dans [holiday-soft-kinky-prompts.json](holiday-soft-kinky-prompts.json).
+
+## Prompts et références — outil imagegen intégré
 
 ### Saint-Valentin
 
 Use case: photorealistic-natural. Asset type: wide editorial hero photograph for Caresse, a refined guided-audio app for adult couples. Primary request: a softly kinky Valentine's Day still life, sensual, elegant and suggestive while remaining non-explicit. Horizontal 1536 by 1024 composition, no collage. Keep the LEFT 50 percent mostly empty dark ink plum (#1A1A2E, #2D1B5E) with subtle soft gradients for overlaid website copy. Concentrate the recognizable props in the RIGHT CENTER between 60 and 85 percent of image width, between 30 and 65 percent of image height: a clearly visible black silk blindfold with delicate long ties, a pair of elegant soft padded black wrist cuffs with small rose gold buckles lying open and unattached, and a loosely draped burgundy satin ribbon on a low dark walnut side table. One ivory candle in a plum glass holder further behind, a couple of dark rose petals, blurred plum velvet sofa and mauve silk background. Items are an editorial still life, not being used. Shallow depth of field but the blindfold and cuffs should be recognizable. Premium magazine photography, tactile silk, velvet and leather textures, warm amber candle rim light, restrained plum-purple and muted rose color palette, intimate mood, natural grain. Keep bottom right less busy because a small HTML panel overlays that area. No people, no bodies, no nudity, no sexual acts, no graphic content, no text, no logos, no watermarks, no hearts or cheesy decorations. Tasteful and soft rather than aggressive.
 
-### Noël
+### Noël — première version festive conservée
 
 Use case: photorealistic-natural. Asset type: wide editorial hero photograph for Caresse, a refined guided-audio app for adult couples. Primary request: a warm festive Christmas evening for two at home, sophisticated, intimate and soft, with a clear Christmas identity. Horizontal 1536 by 1024 composition, no collage. Keep the LEFT 50 percent mostly empty dark ink plum (#1A1A2E, #2D1B5E) and softly blurred for overlaid website copy. On the RIGHT CENTER, between 60 and 85 percent of image width, between 25 and 70 percent of height: a small decorated natural evergreen Christmas tree with warm golden fairy lights and delicate matte champagne and muted plum ornaments; a low walnut side table with one ivory candle in a glass holder, two beautifully wrapped small gifts in deep violet and cream paper with silk ribbons, and a few evergreen sprigs. Behind, a cozy plum velvet sofa and soft mauve throw. Clearly visible festive decorations, luminous golden bokeh, amber candle warmth, deep violet shadows, refined natural colors, tactile textures, shallow depth of field, high quality editorial lifestyle photography, welcoming romantic holiday atmosphere. Keep bottom right relatively uncluttered because an HTML panel overlays it. No people, no bodies, no sexual props, no alcohol focus, no text, no logos, no watermarks, no cartoon decorations, no collage.
 

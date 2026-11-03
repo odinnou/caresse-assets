@@ -1,0 +1,18 @@
+{
+  "tool": "imagegen (outil intégré)",
+  "assets": {
+    "christmas-soft-kinky.jpg": {
+      "mode": "edit",
+      "reference": "christmas-festive.jpg",
+      "prompt": "Use case: precise-object-edit. Asset type: atmospheric hero photograph for the Caresse adult couples audio website. Input image 1 is the EDIT TARGET: preserve its exact horizontal 1536x1024 composition, dark empty left half for website text, plum sofa, Christmas tree, fairy lights, champagne and violet ornaments, candle, wrapping paper, lighting and premium photographic look. Make one restrained change to introduce a discreet soft-kinky suggestion: the small cream gift on the right side of the table is now slightly open, with a beautiful plain black silk blindfold resting naturally on its edge and a long plum satin tie draped loosely beside it. The blindfold is an opaque silk eye covering, not a lace party mask. Place it around 70-85% of image width and 50-65% of height so it remains visible under the existing website crop; keep the tree and wrapped purple present clearly visible. The mood should still read Christmas first, with only a subtle intimate surprise for an adult couple. Keep candle and holder as in the source. Realistic materials and scale, no people, no body parts, no nudity, no sexual activity, no cuffs or ropes or other new kink equipment, no text, no brand marks, no dates, no watermark. Preserve photographic realism, violet palette and warm golden bokeh."
+    },
+    "new-year-soft-kinky.jpg": {
+      "mode": "generate",
+      "style_references": [
+        "christmas-festive.jpg",
+        "valentines-soft-kinky.jpg"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: a NEW dedicated New Year's Eve hero photograph for Caresse, an audio app for adult couples. Input image 1 (Christmas) and image 2 (Valentine's) are STYLE REFERENCES ONLY, not edit targets: match their sophisticated walnut, violet, mauve, velvet and candlelit editorial photography, while composing a distinctly New Year's Eve scene, not a Christmas-tree scene and softer in kink intensity than the Valentine's reference. Horizontal 1536x1024 wide composition. Keep the LEFT 50 percent largely dark empty ink plum (#1A1A2E, #2D1B5E) for HTML copy. Focus the scene on the RIGHT CENTER: a small elegant dark walnut table with two delicate crystal champagne coupes holding pale gold sparkling drinks, a restrained scattering of tiny warm gold star confetti, a black silk blindfold with a loose burgundy satin tie casually set beside the glasses as a discreet hint of intimate time together before or after midnight. No cuffs or chains. Further behind on the right, an elegant small round brass analogue clock with simple dot hour markers (no digits), hands positioned just before midnight, and a soft out-of-focus window showing a few distant celebratory firework glows in the night sky. Plum velvet sofa and a mauve silk throw, one warm candle in a holder. Prioritize a romantic intimate celebration for TWO, unmistakably New Year's Eve rather than generic Christmas; no Christmas tree or presents. Keep recognizable props around 65-90 percent of image width, 25-65 percent of image height, with space in the bottom right for an HTML overlay. Candle amber, pale gold, deep violet and muted rose, tactile textures, shallow depth of field, premium natural editorial photography, not synthetic 3D. No people, no body parts, no nudity, no sexual activity, no printed text, no year numerals, no logos, no watermark, no collage."
+    }
+  }
+}
