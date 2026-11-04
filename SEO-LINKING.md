@@ -1,5 +1,35 @@
 # Maillage interne — registre des cibles SEO
 
+## Renforcement du 4 novembre 2026 — soirées saisonnières (issue #75)
+
+Les quatre pages saisonnières de chaque langue étaient déjà reliées entre elles,
+depuis l’accueil et depuis la page « soirée romantique à la maison ». Les pages
+« Pour les couples » et « Jeu pour couple » ne renvoyaient pas vers ces idées de
+soirée, malgré leur proximité thématique.
+
+Ces deux pages proposent désormais les quatre destinations dans leur bloc
+éditorial existant, soit **32 liens ajoutés sur huit pages** en FR, EN, ES et PT.
+Les ancres décrivent l’occasion et pointent directement vers la page canonique
+de la même langue. Chaque destination passe de **cinq à sept pages sources
+éditoriales dans sa langue**, hors liens du sélecteur de langue et auto-liens.
+
+| Langue | Pages sources ajoutées | Destinations |
+|---|---|---|
+| FR | `/for-couples/`, `/couples-game/` | `/saint-valentin/`, `/cadeau-saint-valentin-couple/`, `/noel-en-couple/`, `/nouvel-an-en-couple/` |
+| EN | `/en/for-couples/`, `/en/couples-game/` | `/en/valentines-day-at-home/`, `/en/valentines-day-experience-gift/`, `/en/christmas-date-nights/`, `/en/new-years-eve-at-home/` |
+| ES | `/es/for-couples/`, `/es/couples-game/` | `/es/san-valentin-en-casa/`, `/es/regalo-san-valentin-pareja/`, `/es/navidad-en-pareja/`, `/es/nochevieja-en-pareja/` |
+| PT | `/pt/para-casais/`, `/pt/couples-game/` | `/pt/dia-dos-namorados-em-casa/`, `/pt/presente-dia-dos-namorados-casal/`, `/pt/natal-a-dois/`, `/pt/ano-novo-a-dois/` |
+
+Les liens retour vers les pages couples et jeu pour couple existent déjà sur les
+pages Saint-Valentin, cadeau et Noël. Les quatre pages Nouvel An complètent leur
+bloc éditorial avec un lien vers la soirée romantique à la maison et un lien vers
+la page couples, soit **huit liens retour supplémentaires**. Le lot ajoute donc
+**40 liens sur douze pages**.
+
+Les ajouts reprennent les liens texte soulignés du bloc éditorial, sans nouveau
+bouton. Les CTA, leurs libellés et le routage vers les stores sont conservés. Le
+sitemap date uniquement les douze pages modifiées.
+
 ## Renforcement du 24 octobre 2026 après audit des liens
 
 - Les accueils FR, EN, ES et PT portent un paragraphe éditorial vers les trois pages
