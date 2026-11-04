@@ -9,10 +9,31 @@
     var firstStoreClicked = false;
     var landingPage = window.location.pathname;
     var visitTimeoutMs = 30 * 60 * 1000;
+    var utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
+    var campaign = getCampaign();
     var testParameter = new URLSearchParams(window.location.search).get('analytics_test');
     var isTest = testParameter === '1';
     var acquisitionReferrer = getRedirectReferrer();
     var acquisitionSource = getAcquisitionSource();
+
+    function normalizeCampaign(values) {
+        var result = {};
+        if (!values || typeof values !== 'object') return result;
+        utmKeys.forEach(function (key) {
+            var value = values[key];
+            if (typeof value === 'string' && value.trim()) {
+                result[key] = value.trim().slice(0, key === 'utm_source' ? 64 : 128);
+            }
+        });
+        return result;
+    }
+
+    function getCampaign() {
+        var params = new URLSearchParams(window.location.search);
+        var values = {};
+        utmKeys.forEach(function (key) { values[key] = params.get(key); });
+        return normalizeCampaign(values);
+    }
 
     function getRedirectReferrer() {
         // An old demo URL must not turn an external acquisition into "direct".
@@ -32,14 +53,14 @@
     }
 
     function getAcquisitionSource() {
-        var params = new URLSearchParams(window.location.search);
-        var source = params.get('utm_source');
+        var source = campaign.utm_source;
         var referrerHost = '';
         try {
             if (acquisitionReferrer) referrerHost = new URL(acquisitionReferrer).hostname;
         } catch (_) {}
-        if (source === 'chatgpt.com' || source === 'openai' || referrerHost === 'chatgpt.com') return 'chatgpt';
-        if (source) return source.slice(0, 64);
+        if (source === 'chatgpt.com' || source === 'openai') return 'chatgpt';
+        if (source) return source;
+        if (referrerHost === 'chatgpt.com') return 'chatgpt';
         if (/(^|\.)corp\.google\.com$/.test(referrerHost)) return referrerHost;
         if (referrerHost === 'google.com' || /(^|\.)google\.[a-z.]+$/.test(referrerHost) ||
             referrerHost === 'com.google.android.googlequicksearchbox') return 'google';
@@ -53,6 +74,7 @@
             sessionStorage.setItem('caresse_last_seen_at', String(lastSeenAt));
             sessionStorage.setItem('caresse_landing_page', landingPage);
             sessionStorage.setItem('caresse_acquisition_source', acquisitionSource);
+            sessionStorage.setItem('caresse_utm', JSON.stringify(campaign));
             sessionStorage.setItem('caresse_analytics_test', isTest ? '1' : '0');
             sessionStorage.setItem('caresse_link_clicked', firstLinkClicked ? '1' : '0');
             sessionStorage.setItem('caresse_store_clicked', firstStoreClicked ? '1' : '0');
@@ -67,12 +89,20 @@
         var continuesVisit = storedVisitStartedAt > 0 && storedVisitStartedAt <= now &&
             storedLastSeenAt > 0 && storedLastSeenAt <= now && now - storedLastSeenAt <= visitTimeoutMs;
 
-        if (continuesVisit) {
+        var storedCampaign = normalizeCampaign(JSON.parse(sessionStorage.getItem('caresse_utm') || '{}'));
+        // A different tagged arrival starts a new attribution context. Reloading
+        // the same campaign or following an untagged internal link keeps it.
+        var newCampaign = Object.keys(campaign).length > 0 && utmKeys.some(function (key) {
+            return campaign[key] !== storedCampaign[key];
+        });
+
+        if (continuesVisit && !newCampaign) {
             visitStartedAt = storedVisitStartedAt;
             firstLinkClicked = sessionStorage.getItem('caresse_link_clicked') === '1';
             firstStoreClicked = sessionStorage.getItem('caresse_store_clicked') === '1';
             landingPage = sessionStorage.getItem('caresse_landing_page') || landingPage;
             acquisitionSource = sessionStorage.getItem('caresse_acquisition_source') || acquisitionSource;
+            campaign = storedCampaign;
             if (testParameter === null) isTest = sessionStorage.getItem('caresse_analytics_test') === '1';
         }
     } catch (_) {
@@ -111,6 +141,7 @@
         if (clickedAt - lastSeenAt > visitTimeoutMs) {
             visitStartedAt = clickedAt;
             landingPage = window.location.pathname;
+            campaign = getCampaign();
             acquisitionSource = getAcquisitionSource();
             firstLinkClicked = false;
             firstStoreClicked = false;
@@ -129,7 +160,7 @@
             saveVisit();
             if (!window.umami || typeof window.umami.track !== 'function') return;
 
-            window.umami.track('store_click', {
+            var data = {
                 store: store,
                 landing_page: landingPage,
                 cta_position: getPosition(link),
@@ -139,11 +170,15 @@
                 first_store_click: isFirstStoreClick,
                 acquisition_source: acquisitionSource,
                 client_visit_started_at: new Date(visitStartedAt).toISOString(),
-                visit_definition: 'client-30min-v2',
+                visit_definition: 'client-30min-v3',
                 store_click_definition: 'caresse-only-v1',
                 variant: document.documentElement.dataset.analyticsVariant || 'store-first-v1',
                 test: isTest
+            };
+            utmKeys.forEach(function (key) {
+                if (campaign[key]) data[key] = campaign[key];
             });
+            window.umami.track('store_click', data);
         } catch (_) {
             // Analytics must never interfere with the store navigation.
         }
