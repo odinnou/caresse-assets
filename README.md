@@ -15,6 +15,7 @@ Caresse est une application mobile (iOS/Android) proposant des expériences audi
 - `vs-*/` — pages de comparaison face à des concurrents
 - `blog/`, `alternatives/`, `support/`, `legal/` — contenu éditorial et légal
 - `saint-valentin/`, `cadeau-saint-valentin-couple/`, `noel-en-couple/`, `nouvel-an-en-couple/` — pages saisonnières, traduites en EN/ES/PT ; styles intégrés, contrôles Caresse, illustration audio de l’accueil et visuel d’ambiance dans `seasonal/`
+- `anniversaire-de-couple/`, `en/relationship-anniversary/`, `es/aniversario-de-pareja/`, `pt/aniversario-de-relacionamento/` — anniversaire de rencontre, union civile ou mariage ; suivi Umami `store_click` filtrable par `variant=anniversary-v1`, `landing_page` et `locale`
 - `screens/` — captures d'écran de l'app par langue
 - `sitemap.xml`, `robots.txt`, `CNAME` — configuration SEO et domaine custom
 - `download-store-router.js` — routage iOS/Android des pages de téléchargement de secours, avec choix manuel sur ordinateur
