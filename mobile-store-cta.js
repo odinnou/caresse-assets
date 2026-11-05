@@ -17,8 +17,6 @@
 
         if (isAndroid || isIOS) {
             document.documentElement.classList.add('store-platform-known');
-        } else if (source.hasAttribute('data-store-auto')) {
-            return;
         }
     }
 
