@@ -1,6 +1,6 @@
 # Caresse — site web
 
-Site statique (HTML/CSS/JS vanilla, sans build) servant [caresse.app](https://caresse.app), déployé via GitHub Pages.
+Site statique (HTML/CSS/JS vanilla, sans build) servant [caresse.app](https://caresse.app), déployé via GitHub Pages
 
 Caresse est une application mobile (iOS/Android) proposant des expériences audio immersives générées par IA, à visée intime et sensorielle, solo ou en couple
 
