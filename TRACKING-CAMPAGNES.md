@@ -103,8 +103,8 @@ Ces événements mesurent les clics sortants vers les stores, pas les installati
 ni un effet de Caresse sur le bien-être.
 
 Après indexation, suivre dans Search Console les impressions, clics, requêtes et
-positions des quatre nouvelles URL. Les expressions « travail et désir »,
-« stress et sexualité » et « entrepreneure vie de couple » sont des pistes
+positions des quatre nouvelles URL. Les expressions « travail et intimité »,
+« stress et désir » et « couple débordé » sont des pistes
 éditoriales ; aucun volume de recherche n’a été mesuré pour cette page.
 Évaluer les visites organiques pertinentes et leur taux de clic vers les stores
 sur une période comparable, sans déduire le trafic des audiences des personnes
