@@ -93,3 +93,19 @@ Les bloqueurs, interruptions réseau ou choix de navigateur peuvent empêcher la
 collecte. La navigation vers le store reste indépendante de l’envoi analytics.
 L’attribution des installations ou achats se traite séparément dans les consoles
 des stores ; ajouter des UTM au site ne suffit pas à la mettre en place.
+
+## Page éditoriale « Travail et désir »
+
+La page `/blog/travail-desir-intimite-couple/` et ses versions EN/ES/PT utilisent
+la variante `work-desire-v1`. Dans Umami, filtrer les événements `store_click`
+par `variant`, puis comparer `locale`, `landing_page`, `store` et `cta_position`.
+Ces événements mesurent les clics sortants vers les stores, pas les installations
+ni un effet de Caresse sur le bien-être.
+
+Après indexation, suivre dans Search Console les impressions, clics, requêtes et
+positions des quatre nouvelles URL. Les expressions « travail et désir »,
+« stress et sexualité » et « entrepreneure vie de couple » sont des pistes
+éditoriales ; aucun volume de recherche n’a été mesuré pour cette page.
+Évaluer les visites organiques pertinentes et leur taux de clic vers les stores
+sur une période comparable, sans déduire le trafic des audiences des personnes
+citées. Les démos restent gratuites et les sessions personnalisées payantes.
