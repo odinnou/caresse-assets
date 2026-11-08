@@ -1,12 +1,25 @@
 # Caresse — site web
 
-Site statique (HTML/CSS/JS vanilla, sans build) servant [caresse.app](https://caresse.app), déployé via GitHub Pages
+Site statique servant [caresse.app](https://caresse.app), construit avec **Astro** dans GitHub Actions et déployé via GitHub Pages. Aucun serveur applicatif en production.
 
 Caresse est une application mobile (iOS/Android) proposant des expériences audio immersives générées par IA, à visée intime et sensorielle, solo ou en couple
 
 **Priorité du travail sur ce dépôt : optimiser le SEO et la visibilité de Caresse sur l’App Store et Google Play pour obtenir davantage d’installations.** Lire [SEO-GOLDEN-RULE.md](SEO-GOLDEN-RULE.md) avant toute intervention.
 
 ## Structure
+
+Le pilote Astro couvre 16 pages (accueil, couples, comparatif Dipsea et article « raviver la flamme », en FR/EN/ES/PT). Les 210 autres pages restent inchangées dans `public/` pendant la migration progressive.
+
+- `src/content/pages/` — données éditables : SEO, blocs, FAQ et références de contenu
+- `src/content/blocks/` — contenus propres aux pages : Markdown et fragments HTML conservés
+- `src/components/`, `src/layouts/` — présentation commune, navigation, footer, CTA, FAQ et grilles
+- `src/data/routes.json` — URL et correspondances entre traductions
+- `src/data/chrome/` — éléments de navigation et de footer partagés
+- `src/data/sitemap/` — inventaire du sitemap généré par Astro
+- `public/` — assets et pages non encore migrées, copiés sans transformation
+- `dist/` — résultat du build, généré et non versionné
+
+Les chemins ci-dessous désignent les **URL publiques** ; leurs fichiers se trouvent dans `public/` pour les pages non migrées et dans `src/` pour le pilote.
 
 - `index.html` — page d'accueil (FR)
 - `en/` — version anglaise du site (même arborescence que la racine)
@@ -28,7 +41,27 @@ Le FR est servi depuis la racine (`/`, `/for-couples/`, ...) et l'EN depuis `/en
 
 ## Déploiement
 
-Aucun build : le contenu de la branche `main` est publié tel quel sur GitHub Pages, à l'adresse `caresse.app` (voir `CNAME`)
+Node 24 est utilisé dans la CI. Installer les dépendances avec `npm ci`, puis :
+
+```sh
+npm run dev          # prévisualisation locale seulement
+npm test             # contenu, création de pages et attribution Umami
+npm run build        # validation des sources puis génération de dist/
+npm run preview      # prévisualisation du résultat statique
+```
+
+Créer une page et sa traduction à partir des blocs existants :
+
+```sh
+npm run page:new -- nouvelle-occasion fr /nouvelle-occasion/ couples.fr
+npm run page:new -- nouvelle-occasion en /en/new-occasion/ couples.en
+```
+
+La commande crée des contenus indépendants et met à jour les traductions et le sitemap. Adapter les textes, titres, métadonnées et données structurées copiés avant publication.
+
+Le workflow `.github/workflows/pages.yml` vérifie les PR. Sur `main_v2`, il publie uniquement `dist/` après les contrôles. La source de GitHub Pages doit être **GitHub Actions**. Le domaine reste `caresse.app` (`public/CNAME`).
+
+Procédure d’édition et protocole avant/après : [docs/ASTRO-MIGRATION.md](docs/ASTRO-MIGRATION.md).
 
 ## Acquisition saisonnière
 

@@ -1,0 +1,19 @@
+---
+import Intro from './Intro.astro';
+import Faq from './Faq.astro';
+import Cards from './Cards.astro';
+const { blocks, locale } = Astro.props;
+const html = import.meta.glob('../content/blocks/**/*.html', { eager: true, query: '?raw', import: 'default' });
+const markdown = import.meta.glob('../content/blocks/**/*.md', { eager: true });
+---
+{blocks.map((block) => {
+  if (block.type === 'html') return <Fragment set:html={html[`../content/blocks/${block.file}.html`]} />;
+  if (block.type === 'markdown') {
+    const { Content } = markdown[`../content/blocks/${block.file}.md`];
+    return <Content />;
+  }
+  if (block.type === 'intro') return <Intro {...block} locale={locale} />;
+  if (block.type === 'faq') return <Faq {...block} />;
+  if (block.type === 'cards') return <Cards {...block} />;
+  throw new Error(`Unknown content block: ${block.type}`);
+})}

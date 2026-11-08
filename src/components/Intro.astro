@@ -1,0 +1,10 @@
+---
+import Element from './Element.astro';
+import StoreLink from './StoreLink.astro';
+const { attrs, children, locale } = Astro.props;
+---
+<section {...attrs}>
+  {children.map((child) => child.links
+    ? <div {...child.attrs}>{child.links.map((link) => <StoreLink {...link} locale={locale} />)}</div>
+    : <Element {...child} />)}
+</section>

@@ -1,0 +1,14 @@
+---
+import SitePage from '../layouts/SitePage.astro';
+
+export function getStaticPaths() {
+  const pages = import.meta.glob('../content/pages/*.json', { eager: true, import: 'default' });
+  return Object.values(pages).map((page) => ({
+    params: { path: page.path === '/' ? undefined : page.path.slice(1, -1) },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+---
+<SitePage page={page} />

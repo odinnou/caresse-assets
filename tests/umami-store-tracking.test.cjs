@@ -4,7 +4,7 @@ const { resolve } = require('node:path');
 const { test } = require('node:test');
 const vm = require('node:vm');
 
-const script = readFileSync(resolve(__dirname, '../umami-store-tracking.js'), 'utf8');
+const script = readFileSync(resolve(__dirname, '../public/umami-store-tracking.js'), 'utf8');
 const iosStore = 'https://apps.apple.com/us/app/caresse/id6758887086';
 const androidStore = 'https://play.google.com/store/apps/details?id=studio.mokuton.caresse';
 const campaign = '?utm_source=instagram&utm_medium=paid_social&utm_campaign=novembre_2026_fr&utm_content=video_a';

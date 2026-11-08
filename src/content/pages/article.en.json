@@ -1,0 +1,358 @@
+{
+  "id": "article.en",
+  "family": "article",
+  "locale": "en",
+  "path": "/en/blog/rekindle-relationship-spark/",
+  "htmlAttrs": {
+    "lang": "en"
+  },
+  "bodyAttrs": {},
+  "title": "How to Rekindle the Spark in a Long-Term Relationship — 7 Concrete Ideas",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Routine isn't a life sentence. 7 concrete, realistic ideas — no pressure, no miracle fix — to bring back desire and surprise in a long-term relationship."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "article"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/en/blog/rekindle-relationship-spark/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "How to Rekindle the Spark in a Long-Term Relationship"
+    },
+    {
+      "property": "og:description",
+      "content": "7 concrete, realistic ideas — no pressure, no miracle fix — to bring back desire and surprise in a long-term relationship."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "How to rekindle the spark in a long-term relationship — Caresse"
+    },
+    {
+      "property": "og:locale",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "How to Rekindle the Spark in a Long-Term Relationship"
+    },
+    {
+      "name": "twitter:description",
+      "content": "7 concrete, no-pressure ideas to bring back desire in a long-term relationship."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "How to rekindle the spark in a long-term relationship — Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "How to Rekindle the Spark in a Long-Term Relationship — 7 Concrete Ideas",
+      "description": "Routine isn't a life sentence. 7 concrete, realistic ideas — no pressure, no miracle fix — to bring back desire and surprise in a long-term relationship.",
+      "url": "https://caresse.app/en/blog/rekindle-relationship-spark/",
+      "datePublished": "2026-07-20",
+      "dateModified": "2026-07-20",
+      "inLanguage": "en",
+      "image": "https://caresse.app/og-image-en.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://caresse.app/en/blog/rekindle-relationship-spark/"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/en/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Rekindle the spark",
+          "item": "https://caresse.app/en/blog/rekindle-relationship-spark/"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "article-146693e5.css"
+  ],
+  "headScripts": [
+    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
+    "<script defer src=\"/umami-store-tracking.js\"></script>",
+    "<script src=\"/mobile-store-cta.js\" defer></script>"
+  ],
+  "blocks": [
+    {
+      "type": "html",
+      "file": "article.en/00"
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "article-hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "eyebrow"
+          },
+          "html": "Relationship · Desire · Communication"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "How to Rekindle the Spark in a Long-Term Relationship"
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "article-meta"
+          },
+          "html": "7 concrete ideas · 8 min read"
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "article-intro"
+          },
+          "html": "Desire fading over time isn't a failure — it's a mechanism. Here are 7 realistic ideas, no pressure and no miracle fix, to bring back surprise and desire in a relationship built to last."
+        }
+      ]
+    },
+    {
+      "type": "markdown",
+      "file": "article.en/01"
+    },
+    {
+      "type": "faq",
+      "prefix": "<section class=\"faq\">\n        <div class=\"faq-inner\">\n            <p class=\"section-label\">Frequently asked questions</p>\n            <h2>Rekindling the spark — your questions.</h2>\n            ",
+      "suffix": "\n        </div>\n    </section>",
+      "attrs": {
+        "class": "faq-list"
+      },
+      "items": [
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Is it normal for desire to fade after years together?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Yes — it's the norm rather than the exception. Spontaneous desire early in a relationship feeds on novelty and uncertainty; once the relationship stabilizes, it gives way to a more responsive kind of desire, one that needs to be triggered rather than appearing on its own. It's not a sign that something's wrong — it's a normal shift in mechanism over time."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "How do you rekindle desire without pressuring your partner?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "By taking initiative out of the power dynamic. Instead of asking directly, offering a neutral frame — a ritual, an activity, a tool that handles the staging — removes the burden of \"whoever has to come up with an idea.\" That alone lifts a good part of the pressure felt on both sides."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Do you have to talk about your fantasies to rekindle the spark?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "No, but it helps. You can reintroduce novelty without explicitly naming your fantasies: changing the setting, the time of day, the pace. That said, even minimal communication about what you're in the mood for multiplies the effect of any of these ideas, because it makes the experience genuinely tailored to both partners instead of generic."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "How long before you see an effect?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "There's no universal timeline. Some couples feel a difference on the first try, simply because breaking the routine already creates novelty. For others, consistency matters more: a ritual repeated over several weeks has more impact than a single one-off gesture."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "file": "article.en/02"
+    }
+  ],
+  "footer": [
+    "footer.en.logo",
+    "footer.en.navigation",
+    "footer.en.links",
+    "footer.en.social",
+    "footer.en.copy"
+  ],
+  "scripts": [
+    "<script>\n        (function () {\n            if (/Android/i.test(navigator.userAgent)) {\n                var cta = document.getElementById('hero-cta');\n                if (cta) cta.href = \"https://play.google.com/store/apps/details?id=studio.mokuton.caresse\";\n            }\n        })();\n    </script>"
+  ],
+  "header": "header.en",
+  "footerAttrs": {}
+}

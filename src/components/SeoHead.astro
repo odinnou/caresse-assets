@@ -1,0 +1,11 @@
+---
+import { compileSchemas } from '../lib/schemas.mjs';
+const { page, alternates } = Astro.props;
+const canonical = new URL(page.path, Astro.site).href;
+---
+{page.meta.map((attrs) => <meta {...attrs} />)}
+<title>{page.title}</title>
+{page.links.map((attrs) => <link {...attrs} />)}
+<link rel="canonical" href={canonical} />
+{Object.entries(alternates).map(([locale, path]) => <link rel="alternate" hreflang={locale} href={new URL(path, Astro.site).href} />)}
+{compileSchemas(page).map((schema) => <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />)}

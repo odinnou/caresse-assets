@@ -1,0 +1,170 @@
+{
+  "home": {
+    "fr": {
+      "path": "/",
+      "alternates": {
+        "fr": "/",
+        "en": "/en/",
+        "es": "/es/",
+        "pt": "/pt/",
+        "x-default": "/"
+      }
+    },
+    "en": {
+      "path": "/en/",
+      "alternates": {
+        "fr": "/",
+        "en": "/en/",
+        "es": "/es/",
+        "pt": "/pt/",
+        "x-default": "/"
+      }
+    },
+    "es": {
+      "path": "/es/",
+      "alternates": {
+        "fr": "/",
+        "en": "/en/",
+        "es": "/es/",
+        "pt": "/pt/",
+        "x-default": "/"
+      }
+    },
+    "pt": {
+      "path": "/pt/",
+      "alternates": {
+        "fr": "/",
+        "en": "/en/",
+        "es": "/es/",
+        "pt": "/pt/",
+        "x-default": "/"
+      }
+    }
+  },
+  "couples": {
+    "fr": {
+      "path": "/for-couples/",
+      "alternates": {
+        "fr": "/for-couples/",
+        "en": "/en/for-couples/",
+        "es": "/es/for-couples/",
+        "pt": "/pt/para-casais/",
+        "x-default": "/for-couples/"
+      }
+    },
+    "en": {
+      "path": "/en/for-couples/",
+      "alternates": {
+        "fr": "/for-couples/",
+        "en": "/en/for-couples/",
+        "es": "/es/for-couples/",
+        "pt": "/pt/para-casais/",
+        "x-default": "/for-couples/"
+      }
+    },
+    "es": {
+      "path": "/es/for-couples/",
+      "alternates": {
+        "fr": "/for-couples/",
+        "en": "/en/for-couples/",
+        "es": "/es/for-couples/",
+        "pt": "/pt/para-casais/",
+        "x-default": "/for-couples/"
+      }
+    },
+    "pt": {
+      "path": "/pt/para-casais/",
+      "alternates": {
+        "fr": "/for-couples/",
+        "en": "/en/for-couples/",
+        "es": "/es/for-couples/",
+        "pt": "/pt/para-casais/",
+        "x-default": "/for-couples/"
+      }
+    }
+  },
+  "comparison": {
+    "fr": {
+      "path": "/vs-dipsea/",
+      "alternates": {
+        "fr": "/vs-dipsea/",
+        "en": "/en/vs-dipsea/",
+        "es": "/es/vs-dipsea/",
+        "pt": "/pt/vs-dipsea/",
+        "x-default": "/vs-dipsea/"
+      }
+    },
+    "en": {
+      "path": "/en/vs-dipsea/",
+      "alternates": {
+        "fr": "/vs-dipsea/",
+        "en": "/en/vs-dipsea/",
+        "es": "/es/vs-dipsea/",
+        "pt": "/pt/vs-dipsea/",
+        "x-default": "/vs-dipsea/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-dipsea/",
+      "alternates": {
+        "fr": "/vs-dipsea/",
+        "en": "/en/vs-dipsea/",
+        "es": "/es/vs-dipsea/",
+        "pt": "/pt/vs-dipsea/",
+        "x-default": "/vs-dipsea/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-dipsea/",
+      "alternates": {
+        "fr": "/vs-dipsea/",
+        "en": "/en/vs-dipsea/",
+        "es": "/es/vs-dipsea/",
+        "pt": "/pt/vs-dipsea/",
+        "x-default": "/vs-dipsea/"
+      }
+    }
+  },
+  "article": {
+    "fr": {
+      "path": "/blog/raviver-la-flamme-couple/",
+      "alternates": {
+        "fr": "/blog/raviver-la-flamme-couple/",
+        "en": "/en/blog/rekindle-relationship-spark/",
+        "es": "/es/blog/reavivar-la-llama-en-pareja/",
+        "pt": "/pt/blog/reacender-conexao-casal/",
+        "x-default": "/blog/raviver-la-flamme-couple/"
+      }
+    },
+    "en": {
+      "path": "/en/blog/rekindle-relationship-spark/",
+      "alternates": {
+        "fr": "/blog/raviver-la-flamme-couple/",
+        "en": "/en/blog/rekindle-relationship-spark/",
+        "es": "/es/blog/reavivar-la-llama-en-pareja/",
+        "pt": "/pt/blog/reacender-conexao-casal/",
+        "x-default": "/blog/raviver-la-flamme-couple/"
+      }
+    },
+    "es": {
+      "path": "/es/blog/reavivar-la-llama-en-pareja/",
+      "alternates": {
+        "fr": "/blog/raviver-la-flamme-couple/",
+        "en": "/en/blog/rekindle-relationship-spark/",
+        "es": "/es/blog/reavivar-la-llama-en-pareja/",
+        "pt": "/pt/blog/reacender-conexao-casal/",
+        "x-default": "/blog/raviver-la-flamme-couple/"
+      }
+    },
+    "pt": {
+      "path": "/pt/blog/reacender-conexao-casal/",
+      "alternates": {
+        "fr": "/blog/raviver-la-flamme-couple/",
+        "en": "/en/blog/rekindle-relationship-spark/",
+        "es": "/es/blog/reavivar-la-llama-en-pareja/",
+        "pt": "/pt/blog/reacender-conexao-casal/",
+        "x-default": "/blog/raviver-la-flamme-couple/"
+      }
+    }
+  }
+}

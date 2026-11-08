@@ -1,0 +1,6 @@
+---
+// HTML fragments are trusted, versioned editorial content, never user input.
+const { tag, attrs = {}, html = '' } = Astro.props;
+const Tag = tag;
+---
+<Tag {...attrs} set:html={html} />

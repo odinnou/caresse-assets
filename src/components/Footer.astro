@@ -1,0 +1,8 @@
+---
+import Element from './Element.astro';
+import chrome from '../lib/chrome';
+const { nodes, attrs } = Astro.props;
+---
+<footer {...attrs}>
+  {nodes.map((key) => <Element {...chrome[key]} />)}
+</footer>

@@ -1,0 +1,6 @@
+---
+import stores from '../data/stores.json';
+const { store = 'ios', locale, attrs = {}, html } = Astro.props;
+const href = store === 'ios' ? stores.ios[locale] : stores.android;
+---
+<a {...attrs} href={href} set:html={html} />

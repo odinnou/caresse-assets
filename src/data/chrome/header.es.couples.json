@@ -1,0 +1,52 @@
+{
+  "attrs": {},
+  "logo": "<a href=\"/es/\" aria-label=\"Caresse, inicio\"><img src=\"/caresse-logo.svg\" class=\"logo\" alt=\"Caresse, aplicación de audio íntimo guiada por IA\" width=\"250\" height=\"80\"></a>",
+  "rightAttrs": {
+    "class": "header-right"
+  },
+  "links": "<a href=\"/es/how-it-works/\" class=\"header-link\">Cómo funciona</a><a href=\"/es/couples-game/\" class=\"header-link\">Juego para parejas</a><a href=\"/es/alternatives/\" class=\"header-link\">Alternativas</a>",
+  "toggleAttrs": {
+    "class": "lang-toggle",
+    "role": "group",
+    "aria-label": "Elegir idioma"
+  },
+  "languages": [
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn",
+        "hreflang": "fr",
+        "aria-label": "Français"
+      },
+      "html": "FR"
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn",
+        "hreflang": "en",
+        "aria-label": "English"
+      },
+      "html": "EN"
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn active",
+        "hreflang": "es",
+        "aria-label": "Español",
+        "aria-current": "page"
+      },
+      "html": "ES"
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn",
+        "hreflang": "pt",
+        "aria-label": "Português"
+      },
+      "html": "PT"
+    }
+  ]
+}

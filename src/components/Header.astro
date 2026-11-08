@@ -1,0 +1,13 @@
+---
+import Element from './Element.astro';
+const { data, alternates } = Astro.props;
+---
+<header {...data.attrs}>
+  <Fragment set:html={data.logo} />
+  <div {...data.rightAttrs}>
+    <Fragment set:html={data.links} />
+    <div {...data.toggleAttrs}>
+      {data.languages.filter((link) => alternates[link.attrs.hreflang]).map((link) => <Element {...link} attrs={{ ...link.attrs, href: alternates[link.attrs.hreflang] }} />)}
+    </div>
+  </div>
+</header>

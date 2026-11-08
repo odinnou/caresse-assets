@@ -1,0 +1,358 @@
+{
+  "id": "article.pt",
+  "family": "article",
+  "locale": "pt",
+  "path": "/pt/blog/reacender-conexao-casal/",
+  "htmlAttrs": {
+    "lang": "pt"
+  },
+  "bodyAttrs": {},
+  "title": "Como reacender a conexão em um relacionamento duradouro — 7 ideias concretas",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "A rotina não precisa ser definitiva. 7 ideias concretas e realistas, sem pressão nem promessa milagrosa, para trazer de volta o desejo e a surpresa em um relacionamento duradouro."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "article"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/blog/reacender-conexao-casal/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Como reacender a conexão em um relacionamento duradouro"
+    },
+    {
+      "property": "og:description",
+      "content": "7 ideias concretas e realistas, sem pressão nem promessa milagrosa, para trazer de volta o desejo e a surpresa em um relacionamento duradouro."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Como reacender a conexão em um relacionamento duradouro — Caresse"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Como reacender a conexão em um relacionamento duradouro"
+    },
+    {
+      "name": "twitter:description",
+      "content": "7 ideias concretas, sem pressão, para abrir espaço para o desejo em um relacionamento duradouro."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Como reacender a conexão em um relacionamento duradouro — Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Mapa do site",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Como reacender a conexão em um relacionamento duradouro — 7 ideias concretas",
+      "description": "A rotina não precisa ser definitiva. 7 ideias concretas e realistas, sem pressão nem promessa milagrosa, para trazer de volta o desejo e a surpresa em um relacionamento duradouro.",
+      "url": "https://caresse.app/pt/blog/reacender-conexao-casal/",
+      "datePublished": "2026-07-20",
+      "dateModified": "2026-10-10",
+      "inLanguage": "pt",
+      "image": "https://caresse.app/og-image-en.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://caresse.app/pt/blog/reacender-conexao-casal/"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/pt/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/pt/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reacender a conexão",
+          "item": "https://caresse.app/pt/blog/reacender-conexao-casal/"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "article-146693e5.css"
+  ],
+  "headScripts": [
+    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
+    "<script defer src=\"/umami-store-tracking.js\"></script>",
+    "<script src=\"/mobile-store-cta.js\" defer></script>"
+  ],
+  "blocks": [
+    {
+      "type": "html",
+      "file": "article.pt/00"
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "article-hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "eyebrow"
+          },
+          "html": "Relacionamento · Desejo · Comunicação"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Como reacender a conexão em um relacionamento duradouro"
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "article-meta"
+          },
+          "html": "7 ideias concretas · 8 min de leitura"
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "article-intro"
+          },
+          "html": "A mudança do desejo ao longo do tempo não é um fracasso. Veja 7 ideias realistas, sem pressão nem promessa milagrosa, para trazer surpresa e conexão a uma relação duradoura."
+        }
+      ]
+    },
+    {
+      "type": "markdown",
+      "file": "article.pt/01"
+    },
+    {
+      "type": "faq",
+      "prefix": "<section class=\"faq\">\n        <div class=\"faq-inner\">\n            <p class=\"section-label\">Perguntas frequentes</p>\n            <h2>Reacender a conexão: suas perguntas.</h2>\n            ",
+      "suffix": "\n        </div>\n    </section>",
+      "attrs": {
+        "class": "faq-list"
+      },
+      "items": [
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "É comum o desejo mudar depois de anos juntos?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Sim, o desejo pode mudar com o tempo. No início, a novidade e a descoberta costumam ter um papel importante. Em uma relação mais estável, o desejo também pode surgir como resposta ao contexto e à conexão, em vez de aparecer espontaneamente. Isso, por si só, não significa que há algo errado com o casal."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Como convidar à intimidade sem pressionar seu par?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Separando o convite da cobrança. Em vez de exigir uma resposta, proponha um contexto compartilhado: um ritual, uma atividade ou um recurso que ajude a preparar o momento. Assim, ninguém precisa assumir sozinho a responsabilidade de ter uma ideia. O convite deve continuar sendo opcional para ambos."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "É preciso falar sobre fantasias para reacender a conexão?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Não necessariamente, embora conversar possa ajudar. É possível trazer novidade mudando o ambiente, o horário ou o ritmo. Ainda assim, falar sobre o que cada pessoa deseja permite que o momento respeite as preferências dos dois, em vez de seguir uma proposta genérica."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Quanto tempo leva para perceber uma diferença?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Não existe um prazo universal. Alguns casais percebem algo diferente ao sair da rotina pela primeira vez. Para outros, a regularidade de um ritual compartilhado é mais importante do que uma iniciativa isolada. Nenhuma atividade garante um resultado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "file": "article.pt/02"
+    }
+  ],
+  "footer": [
+    "footer.pt.logo",
+    "footer.pt.navigation",
+    "footer.pt.links",
+    "footer.pt.social",
+    "footer.pt.copy"
+  ],
+  "scripts": [
+    "<script>\n        (function () {\n            if (/Android/i.test(navigator.userAgent)) {\n                var cta = document.getElementById('hero-cta');\n                if (cta) cta.href = \"https://play.google.com/store/apps/details?id=studio.mokuton.caresse\";\n            }\n        })();\n    </script>"
+  ],
+  "header": "header.pt",
+  "footerAttrs": {}
+}

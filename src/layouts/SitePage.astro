@@ -1,0 +1,25 @@
+---
+import SeoHead from '../components/SeoHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageBlocks from '../components/PageBlocks.astro';
+import chrome from '../lib/chrome';
+import routes from '../data/routes.json';
+const { page } = Astro.props;
+const { alternates } = routes[page.family][page.locale];
+const styles = import.meta.glob('../styles/*.css', { eager: true, query: '?raw', import: 'default' });
+---
+<!DOCTYPE html>
+<html {...page.htmlAttrs}>
+  <head>
+    <SeoHead page={page} alternates={alternates} />
+    {page.styles.map((name) => <style is:inline set:html={styles[`../styles/${name}`]} />)}
+    {page.headScripts.map((script) => <Fragment set:html={script} />)}
+  </head>
+  <body {...page.bodyAttrs}>
+    <Header data={chrome[page.header]} alternates={alternates} />
+    <PageBlocks blocks={page.blocks} locale={page.locale} />
+    <Footer nodes={page.footer} attrs={page.footerAttrs} />
+    {page.scripts.map((script) => <Fragment set:html={script} />)}
+  </body>
+</html>
