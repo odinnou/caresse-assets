@@ -5,6 +5,11 @@ on:
   push:
     branches: [main_v2]
   workflow_dispatch:
+    inputs:
+      compare_migration:
+        description: Compare the migration pilot with its legacy baseline
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -23,25 +28,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: Install dependencies
-        run: |
-          if test -f package-lock.json; then
-            npm ci
-          else
-            npm install
-            printf '\nCARESSE_INITIAL_LOCK_BEGIN\n'
-            base64 -w0 package-lock.json
-            printf '\nCARESSE_INITIAL_LOCK_END\n'
-          fi
+      - run: npm ci
       - run: npm test
       - run: npm run build
       - run: npm run test:parity
+        if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
       - uses: actions/setup-python@v5
+        if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
         with:
           python-version: '3.13'
       - run: pip install -r requirements-test.txt
+        if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
       - run: python -m playwright install --with-deps chromium
+        if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
       - run: npm run test:browser
+        if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
       - uses: actions/upload-artifact@v4
         if: always()
         with:

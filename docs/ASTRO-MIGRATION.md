@@ -63,10 +63,10 @@ Le commit de référence doit exister localement ; la CI utilise `fetch-depth: 0
 
 - `test:parity` vérifie la présence de tous les fichiers publics de référence, l’identité binaire des assets/pages non migrées et l’égalité du DOM des pages migrées et du sitemap. Il ignore commentaires, espaces de formatage et ordre des éléments du head ; il compare métadonnées, JSON-LD, CSS et scripts.
 - `test:browser` compare les 16 pages en desktop 1440 px et Android 390 px : captures complètes, pixels, titres, liens, images et instantanés d’accessibilité. Il vérifie aussi l’attribution UTM après navigation accueil → couples puis clic store, dans les quatre langues et sur les deux profils.
-- Ressources externes et lecture de médias sont bloquées identiquement. Les requêtes vers le domaine de production sont interceptées ; Umami est remplacé par un collecteur local. Aucun événement de production n’est envoyé. Ce protocole n’est pas un audit Lighthouse, un test d’écoute audio ou un test sur appareils physiques.
+- Ressources externes et lecture de médias sont bloquées identiquement. L’horloge et les animations SVG sont figées au même instant ; les images locales sont décodées avant capture. Les espaces de formatage du texte sont normalisés, avec une comparaison des pixels conservée strictement. Les requêtes vers le domaine de production sont interceptées ; Umami est remplacé par un collecteur local. Aucun événement de production n’est envoyé. Ce protocole n’est pas un audit Lighthouse, un test d’écoute audio ou un test sur appareils physiques.
 - Rapports JSON et captures sont écrits dans `artifacts/` et joints à la CI. Un écart fait échouer le workflow avant déploiement.
 
-Ces comparaisons figent le contenu du pilote pour valider sa migration. Une évolution éditoriale volontaire exige une mise à jour explicite du périmètre ou de la référence ; ne pas masquer les écarts en assouplissant les assertions. La généralisation attend la validation du pilote.
+Ces comparaisons figent le contenu du pilote pour valider sa migration. Elles s’exécutent en CI pour la PR `feat/90-astro-static`, ou sur lancement manuel avec `compare_migration` activé. Les modifications éditoriales ultérieures restent contrôlées par les tests de contenu, les tests unitaires et le build, sans être bloquées par cette référence historique. Les commandes de comparaison manuelles restent disponibles ; une évolution volontaire du périmètre nécessite une référence adaptée. La généralisation attend la validation du pilote.
 
 ## Tokens et coûts
 

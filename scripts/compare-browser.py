@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 import subprocess
 import tempfile
+from datetime import datetime, timezone
 from urllib.parse import unquote, urlparse
 
 from PIL import Image, ImageChops
@@ -65,16 +66,27 @@ def context(browser, directory, profile):
 def capture(browser, directory, profile, path, name):
     with context(browser, directory, profile) as ctx:
         page = ctx.new_page()
+        frozen_time = datetime(2026, 11, 8, tzinfo=timezone.utc)
+        page.clock.install(time=frozen_time)
+        page.clock.pause_at(frozen_time)
         errors = []
         page.on("pageerror", lambda error: errors.append(str(error)))
         response = page.goto("https://caresse.app" + path, wait_until="networkidle")
         assert response.status == 200, path
         page.evaluate("document.fonts.ready")
+        page.evaluate("""async () => {
+            for (const image of document.images) image.loading = 'eager';
+            await Promise.all([...document.images].map(image => image.decode().catch(() => {})));
+            for (const svg of document.querySelectorAll('svg')) {
+                svg.pauseAnimations?.();
+                svg.setCurrentTime?.(0);
+            }
+        }""")
         page.add_style_tag(content="*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important}")
         page.screenshot(path=str(OUT / (name + ".png")), full_page=True, animations="disabled")
         state = page.evaluate("""() => ({
-            headings: [...document.querySelectorAll('h1,h2,h3')].map(e => [e.tagName, e.textContent.trim()]),
-            links: [...document.querySelectorAll('a')].map(e => [e.href, e.textContent.trim(), e.target, e.rel]),
+            headings: [...document.querySelectorAll('h1,h2,h3')].map(e => [e.tagName, e.textContent.replace(/\\s+/g, ' ').trim()]),
+            links: [...document.querySelectorAll('a')].map(e => [e.href, e.textContent.replace(/\\s+/g, ' ').trim(), e.target, e.rel]),
             images: [...document.images].map(e => [e.getAttribute('src'), e.alt, e.complete && e.naturalWidth > 0]),
             language: document.documentElement.lang,
             canonical: document.querySelector('link[rel=canonical]')?.href
@@ -120,7 +132,10 @@ def main():
                     try:
                         old, old_errors = capture(browser, before, profile, item["path"], name + ".before")
                         new, new_errors = capture(browser, ROOT / "dist", profile, item["path"], name + ".after")
-                        assert new == old, f"DOM, links, assets or accessibility snapshot differ: {name}"
+                        differing = [key for key in old if old[key] != new[key]]
+                        if differing:
+                            (OUT / (name + '.state-diff.json')).write_text(json.dumps({key: {'before': old[key], 'after': new[key]} for key in differing}, ensure_ascii=False, indent=2))
+                        assert not differing, f"DOM, links, assets or accessibility snapshot differ: {name} ({', '.join(differing)})"
                         assert new_errors == old_errors, f"New browser errors: {new_errors} / baseline {old_errors}"
                         with Image.open(OUT / (name + ".before.png")) as old_image, Image.open(OUT / (name + ".after.png")) as new_image:
                             assert old_image.size == new_image.size, f"Screenshot dimensions differ: {name}"
