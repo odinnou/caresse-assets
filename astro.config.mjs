@@ -5,5 +5,6 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'always',
   compressHTML: false,
+  markdown: { smartypants: false },
   build: { format: 'directory' },
 });

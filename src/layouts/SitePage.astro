@@ -13,10 +13,11 @@ const styles = import.meta.glob('../styles/*.css', { eager: true, query: '?raw',
 <html {...page.htmlAttrs}>
   <head>
     <SeoHead page={page} alternates={alternates} />
-    {page.styles.map((name) => <style is:inline set:html={styles[`../styles/${name}`]} />)}
+    {page.styles.map((name) => <style is:inline {...page.styleAttrs?.[name]} set:html={styles[`../styles/${name}`]} />)}
     {page.headScripts.map((script) => <Fragment set:html={script} />)}
   </head>
   <body {...page.bodyAttrs}>
+    <Fragment set:html={page.beforeHeader ?? ''} />
     <Header data={chrome[page.header]} alternates={alternates} />
     <PageBlocks blocks={page.blocks} locale={page.locale} />
     <Footer nodes={page.footer} attrs={page.footerAttrs} />

@@ -253,5 +253,10 @@
   ],
   "scripts": [],
   "header": "header.pt.comparison",
-  "footerAttrs": {}
+  "footerAttrs": {},
+  "styleAttrs": {
+    "comparison-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  }
 }

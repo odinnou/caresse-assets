@@ -354,5 +354,6 @@
     "<script>\n        (function () {\n            if (/Android/i.test(navigator.userAgent)) {\n                var cta = document.getElementById('hero-cta');\n                if (cta) cta.href = \"https://play.google.com/store/apps/details?id=studio.mokuton.caresse\";\n            }\n        })();\n    </script>"
   ],
   "header": "header.es",
-  "footerAttrs": {}
+  "footerAttrs": {},
+  "beforeHeader": "<a href=\"#main\" class=\"skip-link\">Ir al contenido principal</a>"
 }
