@@ -1,0 +1,358 @@
+{
+  "id": "legal-cgv.fr",
+  "family": "legal-cgv",
+  "locale": "fr",
+  "path": "/legal/fr/cgv/",
+  "kind": "legal",
+  "layout": "composed",
+  "sitemap": false,
+  "htmlAttrs": {
+    "lang": "fr"
+  },
+  "bodyAttrs": {},
+  "title": "CGV - Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "robots",
+      "content": "noindex, nofollow"
+    }
+  ],
+  "links": [],
+  "schemas": [],
+  "styles": [
+    "shared-281a0447b34fccfd.css"
+  ],
+  "styleAttrs": {
+    "shared-281a0447b34fccfd.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "style",
+      "file": "shared-281a0447b34fccfd.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-09deabc0b601d509"
+    },
+    {
+      "type": "element",
+      "tag": "h1",
+      "attrs": {},
+      "html": "💳 Conditions Générales de Vente"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "<strong>Dernière mise à jour :</strong> 15 mai 2026"
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "📋 1. Objet"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Les présentes Conditions Générales de Vente (CGV) régissent l'ensemble des achats réalisés au sein de l'application mobile Caresse, éditée par un éditeur indépendant joignable à l'adresse <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Elles s'appliquent à tout achat de crédits consommables et à tout achat unique (lifetime unlock), effectué depuis les plateformes App Store (Apple) et Google Play Store (Google)."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "L'utilisation de l'application est par ailleurs soumise aux <a href=\"../cgu/\">Conditions Générales d'Utilisation</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "🎁 2. Produits disponibles à l'achat"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Deux types d'achats sont proposés au sein de l'application :"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li><strong>Crédits consommables :</strong> unités d'utilisation permettant de déclencher la génération d'expériences. Chaque génération consomme un nombre de crédits variable selon les options sélectionnées (durée, pratiques, accessoires, etc.).</li>\n        <li><strong>Lifetime unlock :</strong> achat unique et définitif donnant accès à l'ensemble des options de personnalisation avancées (pratiques, accessoires, ambiances). Cet accès est lié au compte de l'utilisateur et non à l'appareil.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "💰 3. Prix et paiement"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Les prix sont affichés en euros toutes taxes comprises (TTC) directement dans l'application, avant tout achat. Ils peuvent varier selon la région en fonction des taxes locales appliquées par Apple ou Google."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Tous les paiements sont traités exclusivement par les plateformes App Store (Apple) et Google Play Store (Google), selon leurs propres conditions générales. L'éditeur de Caresse ne collecte, ne stocke ni ne traite aucune donnée bancaire ou de paiement."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "En cas de litige relatif au paiement, l'utilisateur doit contacter directement Apple ou Google selon la plateforme utilisée."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "🪙 4. Consommation des crédits"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Les crédits sont débités au moment du déclenchement de la génération de l'expérience, indépendamment du résultat produit par l'IA. Le contenu généré étant par nature non déterministe, aucun crédit ne peut être préservé au motif que le résultat ne correspond pas aux attentes subjectives de l'utilisateur."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Les crédits n'ont pas de date d'expiration tant que le compte de l'utilisateur est actif."
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-cgv.fr/0541"
+        },
+        {
+          "type": "text",
+          "html": " En cas d'échec technique avéré imputable au service (erreur serveur, interruption pendant la génération sans livraison de contenu), les crédits consommés sont automatiquement recrédités. L'utilisateur peut également signaler toute anomalie à l'adresse "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "mailto:admin@caresse.app"
+          },
+          "html": "admin@caresse.app"
+        },
+        {
+          "type": "text",
+          "html": ".\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "↩️ 5. Droit de rétractation et absence de remboursement"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-cgv.fr/0542"
+        },
+        {
+          "type": "text",
+          "html": " Conformément à l'article L221-28 13° du Code de la consommation, le droit de rétractation de 14 jours ne s'applique pas aux contenus numériques dont l'exécution a commencé avec l'accord préalable du consommateur, qui a renoncé expressément à son droit de rétractation. En déclenchant une génération, l'utilisateur consent expressément à l'exécution immédiate du service et reconnaît renoncer à son droit de rétractation.\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Par conséquent, aucun remboursement ne sera accordé pour les motifs suivants :"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>L'expérience produite ne correspond pas aux attentes ou préférences subjectives de l'utilisateur.</li>\n        <li>Le style, le ton ou le contenu généré par l'IA ne convient pas à l'utilisateur.</li>\n        <li>L'utilisateur a changé d'avis après le déclenchement de la génération.</li>\n        <li>La suppression volontaire du scénario, de l'expérience ou du compte par l'utilisateur.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Les demandes de remboursement pour motif technique (échec prouvé du service) sont traitées selon les modalités décrites à l'article 4."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Pour tout autre motif de remboursement (achat involontaire, erreur de manipulation), l'utilisateur doit contacter directement Apple ou Google, seuls habilités à traiter les remboursements effectués via leurs plateformes."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "🔓 6. Lifetime unlock, conditions spécifiques"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Le lifetime unlock est un achat non renouvelable et définitif. Il est associé au compte d'achat de la plateforme (App Store ou Google Play) et peut être restauré sur un nouvel appareil ou un nouveau compte Caresse via la fonction <strong>\"Restaurer mes achats\"</strong> disponible dans l'application."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "En cas de suppression du compte, l'accès au lifetime unlock au sein de Caresse est désactivé. Il peut toutefois être récupéré en recréant un compte et en utilisant la fonction de restauration, sous réserve que l'achat soit toujours associé au compte de plateforme (Apple ID ou compte Google) d'origine."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Les crédits consommables, en revanche, sont définitivement perdus en cas de suppression du compte et ne peuvent être ni restaurés ni transférés."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "L'éditeur se réserve le droit de faire évoluer les options accessibles via le lifetime unlock, notamment en ajoutant de nouvelles fonctionnalités sans surcoût. Aucune suppression de fonctionnalité déjà incluse ne pourra être opérée sans information préalable de l'utilisateur."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "🗑️ 7. Suppression du compte et perte des crédits"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "La suppression du compte entraîne la perte définitive et irréversible des crédits non consommés, sans possibilité de remboursement. L'utilisateur est invité à les consommer avant toute suppression."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "L'accès au lifetime unlock est désactivé lors de la suppression du compte, mais peut être restauré ultérieurement via la fonction \"Restaurer mes achats\" (voir article 6)."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "📊 8. Modifications tarifaires"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "L'éditeur se réserve le droit de modifier les prix des crédits et du lifetime unlock à tout moment. Les achats déjà réalisés ne sont pas affectés par les modifications tarifaires ultérieures. Les nouveaux tarifs s'appliquent uniquement aux achats effectués après leur entrée en vigueur."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "⚖️ 9. Droit applicable et litiges"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Les présentes CGV sont soumises au droit français. En cas de litige, une résolution amiable sera recherchée en priorité. À défaut d'accord, les tribunaux français seront seuls compétents."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Conformément au Règlement européen n° 524/2013, l'utilisateur peut également recourir à la plateforme de résolution en ligne des litiges : <a href=\"https://ec.europa.eu/consumers/odr\" target=\"_blank\" rel=\"noopener\">https://ec.europa.eu/consumers/odr</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "📩 10. Contact"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Pour toute question relative aux présentes CGV, contactez l'éditeur à l'adresse <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-712768e0407f78e6"
+      ]
+    }
+  ]
+}

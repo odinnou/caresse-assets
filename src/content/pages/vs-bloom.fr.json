@@ -1,0 +1,1138 @@
+{
+  "id": "vs-bloom.fr",
+  "family": "vs-bloom",
+  "locale": "fr",
+  "path": "/vs-bloom/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "fr",
+    "data-analytics-variant": "comparison-cta-v1-bloom-oct10-v1-seo-consistency-oct23-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-fr"
+  },
+  "title": "Alternative à Bloom Stories sans abonnement | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Bloom Stories ou Caresse ? Comparez histoires et guides audio, voix humaines et synthétiques, langues, compte gratuit et sessions personnalisées."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/vs-bloom/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Alternative à Bloom Stories sans abonnement | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Bloom Stories ou Caresse ? Comparez histoires et guides audio, voix humaines et synthétiques, langues, compte gratuit et sessions personnalisées."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse vs Bloom Stories, expérience audio intime personnalisée par l'IA"
+    },
+    {
+      "property": "og:locale",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Alternative à Bloom Stories sans abonnement | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Bloom Stories ou Caresse ? Comparez histoires et guides audio, voix humaines et synthétiques, langues, compte gratuit et sessions personnalisées."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse vs Bloom Stories, expérience audio intime personnalisée par l'IA"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse vs Bloom Stories",
+      "description": "Bloom Stories ou Caresse ? Comparez histoires et guides audio, voix humaines et synthétiques, langues, compte gratuit et sessions personnalisées.",
+      "url": "https://caresse.app/vs-bloom/",
+      "inLanguage": "fr",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "name": "Téléchargement gratuit"
+        },
+        "sameAs": [
+          "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "isSimilarTo": {
+          "@type": "SoftwareApplication",
+          "name": "Bloom Stories"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternatives",
+            "item": "https://caresse.app/alternatives/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse vs Bloom Stories",
+            "item": "https://caresse.app/vs-bloom/"
+          }
+        ]
+      },
+      "datePublished": "2026-10-10",
+      "dateModified": "2026-10-24"
+    }
+  ],
+  "styles": [
+    "shared-a40e50920932b5d8.css"
+  ],
+  "styleAttrs": {
+    "shared-a40e50920932b5d8.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-a40e50920932b5d8.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-eb1a354b4f3b0e6e"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/alternatives/"
+          },
+          "html": "Alternatives"
+        },
+        {
+          "type": "text",
+          "html": " › Caresse vs Bloom Stories\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "Caresse vs Bloom Stories · Catalogue ou génération"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Une alternative à Bloom Stories,<br><em>créée pour vous.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Bloom propose des histoires et des guides audio, y compris en français et pour les couples. Caresse choisit un autre format : des sessions générées selon vos prénoms et préférences, sans abonnement. Téléchargez l’app et écoutez les démos gratuitement avant de générer une session avec des crédits."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Télécharger l’app gratuitement</a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Mode anonyme · Sans inscription à Caresse · Démos gratuites<br>Sessions personnalisées payantes, sans abonnement."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "tldr"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "En une phrase"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Le résumé honnête."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "tldr-card"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "<strong>Bloom Stories</strong> propose un catalogue créé par des auteurs, des comédiens et des équipes de production, avec des histoires et des guides pour l’écoute solo ou partagée. <strong>Caresse</strong> génère des fictions guidées personnalisées avec une voix de synthèse. Les deux proposent du français et de l’espagnol : le choix porte surtout sur la création humaine ou générative, la personnalisation et le modèle tarifaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "verdict",
+        "id": "verdict"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Pour choisir"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Bloom Stories, 9 critères utiles."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "verdict-table-wrap",
+            "tabindex": "0",
+            "role": "region",
+            "aria-label": "Caresse vs Bloom Stories, 9 critères utiles."
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "verdict-table"
+              },
+              "html": "\n                <thead>\n                    <tr>\n                        <th scope=\"col\" class=\"crit\">Critère</th>\n                        <th scope=\"col\">Caresse</th>\n                        <th scope=\"col\">Bloom Stories</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Découvrir avant de payer</th>\n                        <td class=\"caresse\">Démos gratuites dans l’app, sans compte Caresse</td>\n                        <td class=\"other\">Extraits publics ; sélection gratuite avec compte</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Compte pour utiliser le service</th>\n                        <td class=\"caresse\">Mode invité ; compte Apple ou Google nécessaire pour les achats</td>\n                        <td class=\"other\">Compte pour la sélection gratuite et Premium</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Format</th>\n                        <td class=\"caresse\">Fiction audio guidée, générée à la demande</td>\n                        <td class=\"other\">Histoires, jeux de rôle, guides, audiolivres et détente</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Voix</th>\n                        <td class=\"caresse\">Voix de synthèse</td>\n                        <td class=\"other\">Comédiens humains, selon l’éditeur</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Vos prénoms dans l’audio</th>\n                        <td class=\"caresse\">Dans les sessions personnalisées, pas dans les démos</td>\n                        <td class=\"other\">Génération avec vos prénoms non annoncée</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Personnalisation</th>\n                        <td class=\"caresse\">Prénoms, préférences, intensité et ambiance</td>\n                        <td class=\"other\">Filtres et choix du contenu ; pas de génération annoncée</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Solo ou couple</th>\n                        <td class=\"caresse\">Modes solo et duo</td>\n                        <td class=\"other\">Histoires et guides solo ou couple</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Langues audio</th>\n                        <td class=\"caresse\">Français, anglais, espagnol et portugais (interface PT sur Android ; mise à jour iOS en attente de validation)</td>\n                        <td class=\"other\">Français, anglais, espagnol, allemand ; catalogues variables selon la langue</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Modèle économique</th>\n                        <td class=\"caresse\">Crédits pour générer des sessions ; pas d’abonnement</td>\n                        <td class=\"other\">Compte gratuit limité ; abonnement Premium</td>\n                    </tr>\n                </tbody>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group",
+            "style": "margin-top:32px"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "inline",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "Télécharger l’app gratuitement"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "columns"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Le détail"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Deux façons de vivre l’audio intime."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "columns-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card highlight"
+              },
+              "html": "\n                <p class=\"col-sub\">Caresse · Audio généré</p>\n                <h3>Une session créée pour vous.</h3>\n                <p>Caresse génère des fictions audio guidées pour une personne ou un couple adulte. Vos prénoms, vos préférences, l’intensité et l’ambiance servent à construire la session ; la narration est lue par une voix de synthèse.</p>\n                <p>Le téléchargement et les démos sont gratuits. Elles permettent d’entendre le format avant de générer une session personnalisée avec des crédits. Les démos ne reprennent pas vos prénoms et ne sont pas générées à partir de votre profil.</p>\n                <ul>\n                    <li>Modes solo et duo</li>\n                    <li>Audio généré en français, anglais, espagnol et portugais (interface PT sur Android ; mise à jour iOS en attente de validation)</li>\n                    <li>Prénoms intégrés aux sessions personnalisées</li>\n                    <li>Intensité, pratiques et ambiance selon vos réglages</li>\n                    <li>Mode invité, sans créer de compte Caresse</li>\n                    <li>Crédits pour la génération, sans abonnement</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card muted"
+              },
+              "html": "\n                <p class=\"col-sub\">Bloom Stories · Catalogue éditorial</p>\n                <h3>Des voix humaines et plusieurs formats.</h3>\n                <p>Bloom distingue histoires à plusieurs voix, jeux de rôle audio, guides d’intimité, audiolivres et contenus de détente. Ses guides incluent l’exploration solo et des expériences pour couples : il ne se limite donc pas à l’écoute passive d’une histoire.</p>\n                <p>Des extraits sont proposés sur son site ; un compte gratuit donne accès à une sélection d’audios, et Premium ouvre le catalogue complet. Bloom affirme produire ses histoires sans IA et avoir arrêté Bloom Chat. La génération audio avec vos prénoms n’est pas annoncée dans l’offre consultée.</p>\n                <ul>\n                    <li>Histoires et guides, en solo ou à deux</li>\n                    <li>Écriture, interprétation et production humaines annoncées</li>\n                    <li>Histoires en français, anglais, espagnol et allemand</li>\n                    <li>Sélection gratuite avec compte, catalogue complet sur abonnement</li>\n                </ul>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "pricing"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Tarification"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Crédits ou abonnement ?"
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "pricing-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card highlight"
+              },
+              "html": "\n                <h3>Caresse</h3>\n                <p class=\"price-big\">À la session</p>\n                <p class=\"price-note\">Téléchargement et démos gratuits. Générer une session personnalisée consomme un crédit.</p>\n                <p class=\"price-note\">Déblocage optionnel des réglages avancés par achat unique. Il ne remplace pas les crédits de génération.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card"
+              },
+              "html": "\n                <h3>Bloom Stories</h3>\n                <p class=\"price-big\">Gratuit + Premium</p>\n                <p class=\"price-note\">Un compte gratuit donne accès à une sélection d’audios, sans limite de durée annoncée pour ce compte.</p>\n                <p class=\"price-note\">Le catalogue complet est accessible par abonnement mensuel, trimestriel ou annuel. Vérifiez l’offre et la devise affichées sur le site avant de payer.</p>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "pricing-footnote"
+          },
+          "html": "<a href=\"/tarifs/\">Voir les tarifs Caresse</a>. Comparaison publiée par Caresse à partir des informations publiques des éditeurs, consultées le 10 octobre 2026. Il ne s’agit pas d’un test indépendant. Les offres et tarifs peuvent varier selon le pays ou changer.<br>\n            Bloom Stories, offre et FAQ · Bloom Stories, guides et arrêt de Bloom Chat · Bloom Stories, catalogue espagnol\n        "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "choose"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Selon votre envie"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Quel format vous correspond ?"
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "choose-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card us"
+              },
+              "html": "\n                <h3>Choisissez Caresse si vous voulez…</h3>\n                <ul>\n                    <li>une session audio construite à partir de vos prénoms et préférences</li>\n                    <li>un format guidé, en solo ou à deux</li>\n                    <li>écouter des démos sans ouvrir de compte Caresse</li>\n                    <li>payer des crédits quand vous générez, sans abonnement</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card them"
+              },
+              "html": "\n                <h3>Choisissez Bloom Stories si vous voulez…</h3>\n                <ul>\n                    <li>des histoires écrites et interprétées par des humains</li>\n                    <li>plusieurs formats, dont des guides pour couples</li>\n                    <li>parcourir un catalogue plutôt que générer une session</li>\n                    <li>une sélection gratuite avec compte, puis un abonnement si vous souhaitez tout le catalogue</li>\n                </ul>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Questions fréquentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Bloom Stories, vos questions."
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Bloom Stories propose-t-il de l’audio en français et en espagnol ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Oui. Bloom annonce des histoires en français, anglais, espagnol et allemand. L’étendue du catalogue varie selon la langue ; sa page espagnole précise qu’aucune nouvelle histoire en espagnol n’est actuellement produite. Caresse génère des sessions audio en français, anglais, espagnol et portugais. L’interface portugaise est disponible sur Android ; la mise à jour iOS est en attente de validation. Les démos gratuites sont en français, anglais et espagnol."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Bloom Stories propose-t-il des guides pour couples ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Oui. Les Bloom Guides sont des contenus d’intimité guidée pour l’exploration solo ou en couple. Caresse se distingue par la génération d’une session avec vos prénoms et préférences, pas par une exclusivité du guidage à deux."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Bloom Stories utilise-t-il l’IA comme Caresse ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Bloom annonce des histoires créées par des humains et indique avoir retiré Bloom Chat, son ancienne fonction IA. Caresse utilise l’IA pour générer ses fictions, puis une voix de synthèse pour les lire. Ce sont deux approches différentes, avec des qualités et des limites différentes."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Existe-t-il une alternative gratuite à Bloom Stories ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse propose un téléchargement et des démos gratuits sans compte Caresse ; les sessions personnalisées utilisent des crédits payants. Bloom propose aussi des extraits publics et une sélection gratuite avec compte. Ni l’un ni l’autre ne donne gratuitement accès à toute son offre."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Les sessions personnalisées de Caresse sont-elles gratuites ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Non. Le téléchargement et les démos audio sont gratuits. Générer une session personnalisée utilise des crédits payants. Caresse ne demande pas d’abonnement ; le déblocage optionnel des réglages avancés est un achat séparé."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Faut-il créer un compte pour utiliser Caresse ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Non, vous pouvez utiliser le mode invité sans créer de compte Caresse. Les achats nécessitent votre compte Apple ou Google auprès du store. Le mode invité ne rend pas la transaction anonyme vis-à-vis du store."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Prêt·e·s à essayer ?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Écoutez d'abord.<br>Décidez ensuite."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Téléchargez Caresse gratuitement. Accédez immédiatement aux démos audio en français, anglais et espagnol, sans inscription, sans compte, sans email. Vous payez uniquement si vous voulez une session sur-mesure."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                "class": "store-badge",
+                "aria-label": "Download on the App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Download on the App Store\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Get it on Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Get it on Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Réservé aux adultes de 18 ans et plus"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Autres comparaisons"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "D’autres formats à comparer."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "related-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-femtasy/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Femtasy</p>\n                <p class=\"desc\">Catalogue d’exploration personnelle ou sessions sur mesure.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-dipsea/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Dipsea</p>\n                <p class=\"desc\">Un catalogue d’histoires audio, face à des sessions générées.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-melba/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Melba</p>\n                <p class=\"desc\">Catalogue audio francophone ou session personnalisée.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/alternatives/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🧭</div>\n                <p class=\"ttl\">Toutes les alternatives</p>\n                <p class=\"desc\">Comparez les langues, le format et le modèle tarifaire.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.fr.logo",
+        "footer-fdce6207a608400c",
+        "footer.fr.links",
+        "footer-c18220e05a34e590",
+        "footer.fr.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

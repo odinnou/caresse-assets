@@ -1,0 +1,1431 @@
+{
+  "id": "blog-intimite-handicap-visuel-audio.es",
+  "family": "blog-intimite-handicap-visuel-audio",
+  "locale": "es",
+  "path": "/es/blog/intimidad-discapacidad-visual-audio/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "data-analytics-variant": "seo-consistency-oct31-v1",
+    "lang": "es"
+  },
+  "bodyAttrs": {},
+  "title": "Intimidad y discapacidad visual: el lugar del audio",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Por qué tantos servicios digitales íntimos dan por hecho que ves la pantalla, qué cambia una experiencia audio-first y cómo distinguir un contenido de audio de una interfaz realmente accesible si eres ciego o tienes baja visión."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "article"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/es/blog/intimidad-discapacidad-visual-audio/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Intimidad y discapacidad visual: el lugar del audio"
+    },
+    {
+      "property": "og:description",
+      "content": "Qué cambia una experiencia audio-first cuando ves poco o nada, y por qué «contenido de audio» no significa «interfaz accesible»."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Intimidad y discapacidad visual, el lugar del audio"
+    },
+    {
+      "property": "og:locale",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Intimidad y discapacidad visual: el lugar del audio"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Qué cambia una experiencia audio-first cuando ves poco o nada, y por qué «contenido de audio» no significa «interfaz accesible»."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Intimidad y discapacidad visual, el lugar del audio"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Intimidad y discapacidad visual: el lugar del audio",
+      "description": "Por qué tantos servicios digitales íntimos dan por hecho que ves la pantalla, qué cambia una experiencia audio-first y cómo distinguir un contenido de audio de una interfaz realmente accesible si eres ciego o tienes baja visión.",
+      "url": "https://caresse.app/es/blog/intimidad-discapacidad-visual-audio/",
+      "datePublished": "2026-08-20",
+      "dateModified": "2026-10-31",
+      "inLanguage": "es",
+      "image": "https://caresse.app/og-image-en.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://caresse.app/es/blog/intimidad-discapacidad-visual-audio/"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/es/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/es/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Intimidad y discapacidad visual",
+          "item": "https://caresse.app/es/blog/intimidad-discapacidad-visual-audio/"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "shared-0ef706715871b32c.css"
+  ],
+  "styleAttrs": {
+    "shared-0ef706715871b32c.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "style",
+      "file": "shared-0ef706715871b32c.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "href": "#main",
+        "class": "skip-link"
+      },
+      "html": "Ir al contenido principal"
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "header",
+      "ref": "header-859d51e95acdbc99"
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/es/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/es/blog/"
+          },
+          "html": "Blog"
+        },
+        {
+          "type": "text",
+          "html": " › Intimidad y discapacidad visual\n    "
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "text",
+      "html": "\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-hero"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "blog-intimite-handicap-visuel-audio.es/0307"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "Intimidad y discapacidad visual: el lugar del audio."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dek"
+          },
+          "html": "Buena parte de los servicios digitales ligados a la intimidad da por hecho, sin decirlo nunca, que estás mirando una pantalla. Esto es lo que cambia una experiencia pensada para el oído, por qué «contenido de audio» e «interfaz accesible» son dos cosas distintas, y algunos criterios concretos para valorar una aplicación cuando se ve poco o nada."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "report-meta"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-intimite-handicap-visuel-audio.es/0308"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-intimite-handicap-visuel-audio.es/0309"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-intimite-handicap-visuel-audio.es/0310"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-intimite-handicap-visuel-audio.es/0311"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-intimite-handicap-visuel-audio.es/0312"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "id": "main"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "report-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "kicker"
+              },
+              "html": "El punto de partida"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Casi todo, en la intimidad digital, da por hecho que ves."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Piensa en el recorrido habitual de una aplicación ligada a la vida íntima o al bienestar sexual. Se descarga, se crea una cuenta, se valida un correo, se recorre un catálogo de miniaturas, se lee un resumen, se elige un título, se pulsa reproducir. De esos siete pasos, seis pasan por la vista. Solo el séptimo produce sonido."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "No es algo propio de este sector: es la norma del entorno digital de consumo. El análisis <strong>WebAIM Million</strong>, que cada año prueba automáticamente el millón de páginas de inicio más visitadas del mundo, detecta en 2026 incumplimientos de las reglas de accesibilidad WCAG en el <strong>95,9 % de las páginas</strong>, con una media de 56,1 errores detectados por página. Los fallos más extendidos son de una banalidad llamativa: contraste insuficiente (83,9 % de las páginas), imágenes sin texto alternativo (53,1 %), campos de formulario sin etiqueta (51 %), enlaces vacíos (46,3 %)."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Esos tres últimos fallos tienen algo en común: apenas molestan a una persona que ve, y bloquean por completo a quien navega con un lector de pantalla. Un botón sin etiqueta sigue siendo un botón visible y pulsable a la vista; para VoiceOver o TalkBack es un elemento mudo."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-row"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "stat-tile"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "big"
+                      },
+                      "html": "2.200 M"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "lbl"
+                      },
+                      "html": "de personas viven con una deficiencia de la visión de cerca o de lejos en el mundo"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "src"
+                      },
+                      "html": "Organización Mundial de la Salud"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "stat-tile"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "big"
+                      },
+                      "html": "207.000"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "lbl"
+                      },
+                      "html": "personas ciegas o con baja visión profunda en Francia, y 932.000 con baja visión moderada"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "src"
+                      },
+                      "html": "Fédération des Aveugles et Amblyopes de France"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "stat-tile"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "big"
+                      },
+                      "html": "95,9 %"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "lbl"
+                      },
+                      "html": "de las páginas de inicio más visitadas presentan incumplimientos WCAG detectables"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "src"
+                      },
+                      "html": "WebAIM Million, 2026"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Añadamos un dato que complica el panorama: la discapacidad visual no es un bloque homogéneo. El <strong>estudio Homère</strong>, la mayor encuesta nacional francesa sobre el tema, realizada con 1.895 participantes por un colectivo de asociaciones junto a las universidades Lyon 2 y París 8, distingue un 46 % de personas ciegas, un 24 % con baja visión severa y un 30 % con baja visión moderada. Entre alguien sin percepción de la luz y alguien que lee en pantalla con mucha ampliación, las necesidades casi no tienen nada en común. Diseñar «para ciegos» como categoría única ya es un error de partida."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "El estudio recoge además una brecha generacional clara: menos de una persona de 65 años o más de cada dos usa internet, y la distancia se agranda para quienes perdieron visión tarde, que no crecieron con las herramientas de adaptación. La ceguera de nacimiento y la baja visión adquirida a los 70 no producen los mismos usos digitales."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "report-section bg-alt"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "kicker"
+              },
+              "html": "El desplazamiento"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Qué cambia una experiencia pensada para el oído."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Hay una diferencia de naturaleza entre una aplicación que <em>ofrece</em> audio y una aplicación cuyo audio <em>es</em> el producto. En el primer caso, el sonido es un formato de contenido más, colocado al final de un recorrido visual. En el segundo, la pantalla es solo un vestíbulo: una vez atravesado, todo ocurre en el oído."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Esa distinción tiene consecuencias muy concretas. Cuando el audio es el producto, <strong>el tiempo de exposición a la pantalla se desploma</strong>. Una configuración de dos minutos seguida de treinta minutos de escucha es una proporción de uno a quince entre la parte que puede dar problemas y la que no da ninguno. Cuando el audio es solo un formato, se vuelve a la pantalla en cada título, cada capítulo, cada elección."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Segunda consecuencia: <strong>la continuidad</strong>. Una experiencia realmente audio-first sigue con la pantalla apagada, el teléfono dejado a un lado o guardado. Nada espera una pulsación en el momento justo, ningún paso se desbloquea tocando una zona precisa. Esa es la diferencia entre escuchar algo y tener que vigilar algo."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Tercer punto, menos técnico pero no menos real: <strong>la propia intimidad</strong>. Un contenido que exige mirar el teléfono impone una postura: sostener el aparato, permanecer frente a él. Un contenido que solo pide escuchar deja el cuerpo libre y la atención en otra parte. Para un asunto en el que la postura cuenta, no es un detalle de ergonomía."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "callout"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "<strong>Lo que el audio no resuelve.</strong> Un formato sonoro no compensa una interfaz inaccesible. Si la aplicación exige crear una cuenta mediante un formulario cuyos campos no están correctamente etiquetados, la calidad del audio posterior da igual: no se llega hasta él. El audio-first desplaza el problema hacia arriba, no lo elimina."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "report-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "kicker"
+              },
+              "html": "La distinción que importa"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "«Contenido de audio» no significa «interfaz accesible»."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Es la confusión más frecuente, y cierto marketing la alimenta. Una aplicación puede anunciar «miles de horas de audio» y seguir siendo impracticable con un lector de pantalla. Otra puede tener una interfaz ejemplar y ofrecer solo texto. Ambas cualidades son independientes y hay que evaluarlas por separado."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "compare"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "compare-card"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "El contenido de audio"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Es lo que escuchas: una voz, una historia, una guía. Su calidad se juzga con el oído: la naturalidad de la voz, el ritmo, el idioma, la duración. No dice nada sobre tu capacidad de acceder a él."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "compare-card"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "La interfaz accesible"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Es lo que te lleva hasta ese contenido y te permite manejarlo: botones con nombre, orden de navegación coherente, campos etiquetados, compatibilidad probada con VoiceOver y TalkBack. No dice nada sobre la calidad de lo que vas a oír."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "La compatibilidad con un lector de pantalla, en particular, no se deduce: se prueba. Un editor solo puede afirmarla honestamente si ha recorrido de verdad su aplicación con VoiceOver activado, idealmente junto a personas afectadas. Es un trabajo específico, y por eso conviene desconfiar de las afirmaciones vagas."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "El contexto normativo avanza en esa dirección. La <strong>directiva europea 2019/882</strong>, conocida como European Accessibility Act, extiende exigencias de accesibilidad a una serie de productos y servicios digitales del sector privado: comercio electrónico, servicios de telefonía, libros electrónicos, ordenadores y sistemas operativos. Contempla no obstante exenciones, en particular para las microempresas, y su aplicación corresponde a cada Estado miembro. Dicho de otro modo: la dirección general es clara, pero la existencia de una obligación legal no garantiza por sí sola que una aplicación concreta sea utilizable."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "callout"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "<strong>Nuestra propia posición, para que quede claro.</strong> Caresse es una experiencia enteramente de audio: la sesión se vive con el oído, sin lectura ni pulsaciones por el camino. En cambio, aún no hemos realizado pruebas formales de compatibilidad con VoiceOver o TalkBack, así que no lo reivindicamos. La configuración de una sesión pasa hoy por la pantalla."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Preferimos escribirlo antes que dejar suponer un soporte que no hemos verificado. Es exactamente el tipo de afirmación que este artículo invita a examinar, también cuando nos concierne. El detalle está en nuestra página <a href=\"/es/for-blind-and-low-vision/\">Caresse para personas ciegas o con baja visión</a>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "report-section bg-soft"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "kicker"
+              },
+              "html": "En la práctica"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Seis preguntas antes de instalar una aplicación íntima."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Ninguna de estas preguntas exige conocimientos técnicos. Se responden en unos minutos, a menudo antes incluso de descargar nada, y descartan la mayoría de las malas sorpresas."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "checklist"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "ol",
+                  "attrs": {},
+                  "html": "\n                <li><strong>¿Se puede probar sin crear una cuenta?</strong> Cada formulario es una zona de fricción: un correo que escribir, una contraseña que confirmar, un código que recuperar. Una aplicación que deja probar de inmediato elimina el paso más frágil.</li>\n                <li><strong>¿Cuántos pasos separan la apertura del primer sonido?</strong> Cuéntalos. Dos o tres elecciones son un vestíbulo. Quince pantallas de catálogo son un recorrido visual disfrazado de aplicación de audio.</li>\n                <li><strong>¿La experiencia continúa con la pantalla apagada?</strong> Es la prueba más reveladora. Si la aplicación exige permanecer en pantalla, validar un paso a mitad de camino o desplazar un texto, no es audio-first.</li>\n                <li><strong>¿El editor declara explícitamente una compatibilidad probada?</strong> Busca las palabras «VoiceOver», «TalkBack» o «lector de pantalla» en la web o en la ficha de la tienda. Una mención precisa vale más que un sello de «accesible» sin contexto, y un editor que escribe lo que aún no ha verificado suele ser más fiable que uno que calla.</li>\n                <li><strong>¿En qué idioma habla realmente la voz?</strong> Muchas aplicaciones están traducidas en la interfaz pero siguen siendo anglófonas al escucharlas. Para un contenido íntimo, escuchar en la propia lengua no es una comodidad accesoria.</li>\n                <li><strong>¿Qué ocurre con lo que confías?</strong> Nombres, preferencias, orientación: están entre los datos más sensibles que existen. Mira la sección de privacidad de la ficha de la tienda, que enumera las categorías recogidas, y comprueba si es posible un uso anónimo.</li>\n            "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Un último reflejo, válido para todo lo demás: la demo gratuita sigue siendo el mejor juez. Una aplicación que permite probar sin cuenta te deja verificar estos seis puntos por ti mismo, en unos minutos, sin haber comunicado nada. También por eso la ausencia de registro es un criterio de accesibilidad en sí mismo, y no solo un argumento de confidencialidad."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "report-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "kicker"
+              },
+              "html": "Una nota sobre el lenguaje"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Ciego, baja visión, discapacidad visual: ¿cuál usar?"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "En español, «persona ciega» y «baja visión» son hoy los términos más aceptados por las personas afectadas y por las organizaciones del sector. «Discapacidad visual» y «deficiencia visual» siguen presentes en los textos administrativos, médicos y estadísticos, y dominan las búsquedas en línea."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Usamos «personas ciegas o con baja visión» por defecto, sabiendo que las demás formulaciones siguen siendo muy frecuentes en las búsquedas, razón por la cual aparecen también en este artículo. Lo importante no es terminológico: es que estas palabras recubren situaciones radicalmente distintas, y que un producto diseñado para «las personas con baja visión» en general corre el riesgo de no convenir precisamente a nadie."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "report-section bg-alt"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "kicker"
+              },
+              "html": "Anexo"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Fuentes."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Los datos citados en este artículo proceden de las publicaciones siguientes, consultadas el 20 de agosto de 2026. No figura ningún dato interno de Caresse, y este artículo no contiene ninguna afirmación médica."
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {
+                "class": "sources-list"
+              },
+              "html": "\n            <li><strong>Organización Mundial de la Salud</strong>, nota descriptiva «Ceguera y discapacidad visual»: al menos 2.200 millones de personas afectadas en el mundo.</li>\n            <li><strong>Fédération des Aveugles et Amblyopes de France</strong>, «Quelques chiffres sur la déficience visuelle»: 207.000 personas ciegas o con baja visión profunda y 932.000 con baja visión moderada en Francia.</li>\n            <li><strong>Estudio Homère</strong>, estudio nacional francés sobre la discapacidad visual, impulsado por un colectivo asociativo con las universidades Lyon 2 y París 8, informe publicado en 2023: 1.895 participantes, datos sobre la distribución de perfiles y el uso digital.</li>\n            <li><strong>WebAIM Million 2026</strong>, Institute for Disability Research, Policy &amp; Practice, Utah State University: análisis automatizado del millón de páginas de inicio más visitadas, incumplimientos WCAG detectados en el 95,9 %.</li>\n            <li><strong>Directiva (UE) 2019/882</strong> sobre los requisitos de accesibilidad de los productos y servicios, conocida como European Accessibility Act: alcance de los servicios digitales cubiertos y régimen de exenciones.</li>\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "text",
+      "html": "\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "faq-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "kicker"
+              },
+              "html": "Preguntas frecuentes"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Intimidad y discapacidad visual, tus preguntas."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "¿Cuál es la diferencia entre un contenido de audio y una interfaz accesible?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Un contenido de audio es lo que escuchas: una voz, una historia, una guía sonora. Una interfaz accesible es lo que te permite llegar hasta ese contenido y manejarlo: botones correctamente etiquetados, navegación con lector de pantalla, campos de formulario con nombre. Son cosas independientes. Una aplicación puede ofrecer un catálogo íntegramente en audio y tener una interfaz imposible de recorrer con VoiceOver o TalkBack, y también ocurre lo contrario."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "¿A cuántas personas afecta la discapacidad visual?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Según la Organización Mundial de la Salud, al menos 2.200 millones de personas en el mundo viven con una deficiencia de la visión de cerca o de lejos. En Francia, la Fédération des Aveugles et Amblyopes de France contabiliza unas 207.000 personas ciegas o con baja visión profunda y 932.000 con baja visión moderada."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "¿Son realmente accesibles las aplicaciones hoy en día?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Los datos disponibles invitan a la prudencia. El análisis WebAIM Million 2026, que prueba automáticamente el millón de páginas de inicio más visitadas, detecta incumplimientos de las reglas WCAG en el 95,9 % de ellas, con una media de 56,1 errores por página. Los fallos más frecuentes son el contraste insuficiente, las imágenes sin texto alternativo y los campos de formulario sin etiqueta."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "¿Cómo evaluar una aplicación íntima cuando se ve poco o nada?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Ayudan algunas preguntas concretas: ¿se puede probar sin crear una cuenta? ¿Cuántos pasos en pantalla hay antes del primer sonido? ¿La experiencia continúa con la pantalla apagada? ¿El editor declara explícitamente una compatibilidad probada con los lectores de pantalla o se queda en lo vago? Un editor que escribe con claridad lo que aún no ha verificado suele ser más fiable que otro que exhibe un sello de «accesible» sin precisar nada."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "¿Hay que decir ciego, baja visión o discapacidad visual?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "En español, «persona ciega» y «baja visión» son los términos más aceptados por las personas afectadas y por las organizaciones del sector. «Discapacidad visual» y «deficiencia visual» siguen presentes en los textos administrativos, médicos y en las búsquedas en línea. Designan realidades muy distintas: entre una persona sin percepción de la luz y otra que lee con mucha ampliación, las necesidades casi no tienen nada en común."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "text",
+      "html": "\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "En la práctica"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Una sesión que se vive al oído."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Caresse genera una experiencia de audio personalizada que se desarrolla sin nada que leer ni mirar, en español, francés o inglés. Las demos gratuitas permiten descubrir el formato sin cuenta de Caresse ni correo. Las sesiones personalizadas usan créditos de pago, sin suscripción."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+            "id": "hero-cta",
+            "class": "cta-pink",
+            "target": "_blank",
+            "rel": "noopener"
+          },
+          "html": "Descubrir Caresse"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "secondary-link",
+            "style": "margin-top:14px;font-size:0.92rem;"
+          },
+          "html": "<a href=\"/es/for-blind-and-low-vision/\" style=\"color:var(--text-secondary);text-decoration:underline;text-underline-offset:3px;\">Ver la página dedicada a la accesibilidad</a>"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Solo para adultos mayores de 18 años"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "text",
+      "html": "\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "related-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "kicker"
+              },
+              "html": "Seguir leyendo"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "A continuación."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "related-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/es/for-blind-and-low-vision/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🎧</div>\n                    <p class=\"ttl\">Caresse para personas ciegas o con baja visión</p>\n                    <p class=\"desc\">Qué cambia el formato de audio y qué no prometemos todavía.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/es/how-it-works/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">⚙️</div>\n                    <p class=\"ttl\">Cómo funciona Caresse</p>\n                    <p class=\"desc\">De la configuración a una sesión de audio personalizada.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/es/is-caresse-safe/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🔒</div>\n                    <p class=\"ttl\">¿Es seguro Caresse?</p>\n                    <p class=\"desc\">Privacidad, datos, IA: qué se recoge y qué no.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/es/for-solo-exploration/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🌙</div>\n                    <p class=\"ttl\">Exploración en solitario</p>\n                    <p class=\"desc\">Una escucha para ti, a tu ritmo.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/es/blog/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">📝</div>\n                    <p class=\"ttl\">Todos los artículos</p>\n                    <p class=\"desc\">El blog de Caresse: relaciones, intimidad, exploración.</p>\n                "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.es.logo",
+        "footer-ac7b5bc402df5cdf",
+        "footer.es.links",
+        "footer-90582542ec422c7e",
+        "footer.es.copy"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n    "
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
+    }
+  ]
+}

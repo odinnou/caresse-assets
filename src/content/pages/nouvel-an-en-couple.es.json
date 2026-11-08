@@ -1,0 +1,1053 @@
+{
+  "id": "nouvel-an-en-couple.es",
+  "family": "nouvel-an-en-couple",
+  "locale": "es",
+  "path": "/es/nochevieja-en-pareja/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "es",
+    "data-analytics-variant": "seasonal-new-year-nov26-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-es seasonal-page christmas new-year"
+  },
+  "title": "Nochevieja en pareja en casa: 7 ideas para el 31 | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "name": "description",
+      "content": "Nochevieja en pareja en casa: cena, champán o un refresco, las campanadas y un audio de Caresse antes o después para seguir celebrando juntos."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5d3d8c"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/es/nochevieja-en-pareja/"
+    },
+    {
+      "property": "og:title",
+      "content": "Nochevieja en pareja en casa: 7 ideas para el 31 | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Nochevieja en pareja en casa: cena, champán o un refresco, las campanadas y un audio de Caresse antes o después para seguir celebrando juntos."
+    },
+    {
+      "property": "og:locale",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Nochevieja en pareja en casa: 7 ideas para el 31 | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Nochevieja en pareja en casa: cena, champán o un refresco, las campanadas y un audio de Caresse antes o después para seguir celebrando juntos."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "icon",
+      "href": "../../favicon.ico"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "../../apple-touch-icon.png"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://caresse.app/es/nochevieja-en-pareja/#webpage",
+          "url": "https://caresse.app/es/nochevieja-en-pareja/",
+          "name": "Nochevieja en pareja en casa: 7 ideas para el 31 | Caresse",
+          "description": "Nochevieja en pareja en casa: cena, champán o un refresco, las campanadas y un audio de Caresse antes o después para seguir celebrando juntos.",
+          "inLanguage": "es",
+          "isPartOf": {
+            "@id": "https://caresse.app/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://caresse.app/es/nochevieja-en-pareja/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://caresse.app/es/nochevieja-en-pareja/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Caresse",
+              "item": "https://caresse.app/es/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Nochevieja en pareja. ¿Nos quedamos en casa?",
+              "item": "https://caresse.app/es/nochevieja-en-pareja/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://caresse.app/es/nochevieja-en-pareja/#faq",
+          "inLanguage": "es",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Cómo pasar Nochevieja en pareja con poco presupuesto?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Preparad una cena sencilla, elegid música y sacad un juego que ya tengáis. Las demos de Caresse son gratuitas; generar un audio personalizado utiliza un crédito de pago, sin suscripción."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Podemos organizar Nochevieja a última hora?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí. Elegid algo fácil de preparar o recoger, una bebida para brindar y una actividad que os guste. Comprobad los horarios de las tiendas si necesitáis comprar algo el 31."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo pasar Nochevieja en pareja sin canguro?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Podéis empezar con un rato en familia y guardar un momento para vosotros cuando los niños duerman. Elegid una cena y una actividad que podáis adaptar a cómo vaya la noche."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cuándo empezar Caresse para no perderse las campanadas?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Elegid un momento antes de medianoche si tenéis tiempo suficiente o guardad la experiencia para después de las campanadas y el brindis. El tiempo de generación y la duración de un audio personalizado pueden variar; mejor esperar a después que terminar con prisas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Una Nochevieja en pareja tiene que ser romántica?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Puede ser festiva, tranquila, divertida o íntima, según vuestras ganas. El audio se elige juntos; podéis quedaros con la cena, el juego o la película si lo preferís."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "shared-e3b4fa30c08b7c6f.css",
+    "home-b0af781f.css",
+    "shared-50abc3fe5e51d2e3.css"
+  ],
+  "styleAttrs": {
+    "shared-e3b4fa30c08b7c6f.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    },
+    "shared-50abc3fe5e51d2e3.css": {
+      "data-component": "seasonal-editorial"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "../../mobile-store-cta.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "../../umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-e3b4fa30c08b7c6f.css",
+      "attrs": {}
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-50abc3fe5e51d2e3.css",
+      "attrs": {
+        "data-component": "seasonal-editorial"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "class": "skip-link",
+        "href": "#main"
+      },
+      "html": "Ir al contenido"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "header",
+      "ref": "header-590882b92831d62f"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "id": "main",
+        "tabindex": "-1"
+      },
+      "blocks": [
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero",
+            "aria-labelledby": "page-title"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "attrs": {
+                "class": "hero-image",
+                "src": "../../seasonal/new-year-soft-kinky.jpg",
+                "alt": "",
+                "width": "1536",
+                "height": "1024",
+                "fetchpriority": "high"
+              },
+              "html": ""
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "hero-inner"
+              },
+              "html": "<div class=\"hero-copy\">\n<p class=\"hero-eyebrow\">31 de diciembre · Noche en pareja · 18+</p>\n<h1 id=\"page-title\">Nochevieja en pareja.<em>¿Nos quedamos en casa?</em></h1>\n<p class=\"hero-lead\">Una cena, champán o un refresco y las campanadas de medianoche juntos. Con Caresse, un anticipo para terminar el año por todo lo alto o un momento después de medianoche para empezar el nuevo con buen pie.</p>\n<div class=\"store-controls\"><div class=\"cta-group\"><a class=\"cta-pink\" id=\"hero-cta\" href=\"https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Descargar ahora</a></div></div>\n<p class=\"hero-badge\">Demos gratuitas · Sesiones personalizadas con créditos de pago · Sin suscripción · 18+</p>\n</div><div class=\"hero-note\"><div class=\"waveform\" aria-hidden=\"true\"><i style=\"--bar:7px\"></i><i style=\"--bar:13px\"></i><i style=\"--bar:23px\"></i><i style=\"--bar:16px\"></i><i style=\"--bar:29px\"></i><i style=\"--bar:20px\"></i><i style=\"--bar:10px\"></i><i style=\"--bar:18px\"></i><i style=\"--bar:28px\"></i><i style=\"--bar:15px\"></i><i style=\"--bar:23px\"></i><i style=\"--bar:30px\"></i><i style=\"--bar:19px\"></i><i style=\"--bar:11px\"></i><i style=\"--bar:22px\"></i><i style=\"--bar:15px\"></i><i style=\"--bar:8px\"></i><i style=\"--bar:18px\"></i><i style=\"--bar:27px\"></i><i style=\"--bar:13px\"></i><i style=\"--bar:7px\"></i></div><small>Una experiencia de audio para dos</small><p>Una voz. Vuestros deseos. Vuestro momento.</p></div>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "occasion-strip"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "nouvel-an-en-couple.es/0419"
+            },
+            {
+              "type": "html",
+              "file": "nouvel-an-en-couple.es/0420"
+            },
+            {
+              "type": "html",
+              "file": "nouvel-an-en-couple.es/0421"
+            }
+          ]
+        },
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "intro"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner editorial-split"
+              },
+              "html": "<div><p class=\"section-label\">Una noche en casa</p><h2 class=\"section-title\">¿Qué hacer el 31 de diciembre en pareja en casa?</h2></div><div class=\"intent-prose\"><p>Quizá habéis elegido quedaros en casa o simplemente no tenéis plan para Nochevieja. Podéis celebrar la ocasión con una cena diferente, una playlist y algo que compartir antes de desearos un feliz Año Nuevo.</p>\n<p>Elegid una o dos de estas siete ideas. Preparad una cena de fiesta o pedid algo, vestíos para la ocasión o quedaos cómodos. Lo importante es elegir juntos cómo pasar la noche.</p></div>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "ideas-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "ideas-heading"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Para compartir"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Siete ideas para vuestra Nochevieja juntos"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "ol",
+                  "attrs": {
+                    "class": "ideas-grid"
+                  },
+                  "html": "<li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">01 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><circle cx=\"8\" cy=\"8\" r=\"1.5\"/><path d=\"m21 15-5-5L5 21\"/></svg></div><h3>Empezar con un aperitivo</h3><p>Preparad algo para picar y una bebida que os guste. Un aperitivo en pareja puede ayudar a sentir que ha empezado la celebración, aunque sigáis en vuestro salón.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">02 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 10h8v11H8zM12 10V8M12 8c5-1 2-5 0-7-2 2-5 6 0 7Z\"/></svg></div><h3>Hacer una cena que os guste</h3><p>Cocinad en casa, recoged comida o pedid en vuestro restaurante favorito. Elegid según vuestras ganas y presupuesto. Comprobad los horarios si pedís para el día 31 y acordaos del postre.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">03 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 18V5l12-2v13M9 9l12-2\"/><ellipse cx=\"6\" cy=\"18\" rx=\"3\" ry=\"3\"/><ellipse cx=\"18\" cy=\"16\" rx=\"3\" ry=\"3\"/></svg></div><h3>Elegir música por turnos</h3><p>Una persona pone una canción y la otra elige la siguiente. Podéis hablar, bailar en el salón o dejar la música de fondo durante la cena. Una playlist es suficiente.</p></li><li class=\"idea-card featured\"><div class=\"idea-top\"><span class=\"idea-number\">04 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 14v-3a9 9 0 0 1 18 0v3\"/><rect x=\"2\" y=\"12\" width=\"5\" height=\"9\" rx=\"2\"/><rect x=\"17\" y=\"12\" width=\"5\" height=\"9\" rx=\"2\"/></svg></div><h3>Un anticipo… o la continuación después de medianoche</h3><p>Un audio en pareja antes de la celebración, si tenéis tiempo para disfrutarlo, o después de brindar para continuar la noche. Descubrid la voz con una demo gratuita; una sesión personalizada utiliza un crédito de pago.</p></li><li class=\"idea-card wide\"><div class=\"idea-top\"><span class=\"idea-number\">05 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"3\"/><path d=\"m3 6 9 7 9-7\"/></svg></div><h3>Las doce campanadas, juntos</h3><p>Tened las copas a mano: champán o un refresco a vuestro gusto. A medianoche, toca la cuenta atrás, los buenos deseos y el primer beso del año si a ambos os apetece. Vuestro momento con Caresse puede ser antes o quedar para después.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">06 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12.8A9 9 0 0 1 11.2 3 9 9 0 1 0 21 12.8Z\"/></svg></div><h3>Hacer un juego para dos</h3><p>Sacad las cartas o un juego que ya conozcáis. Si os apetece una actividad íntima guiada por la voz, también podéis descubrir el formato de audio de Caresse. Elegid lo que os guste a ambos.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">07 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m12 3 2.6 6.4L21 12l-6.4 2.6L12 21l-2.6-6.4L3 12l6.4-2.6L12 3ZM21 2v4M19 4h4\"/></svg></div><h3>Preparar una primera mañana tranquila</h3><p>Si no trabajáis al día siguiente, dejad algo para un buen desayuno y disfrutad de la mañana. También podéis pasar vuestra noche al 1 de enero si el 31 ya está ocupado.</p></li>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "practical-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner editorial-split"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Los pequeños detalles"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Antes o después de medianoche: vosotros elegís"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "practical-panel"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "nouvel-an-en-couple.es/0422"
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Organizad la cena y las bebidas antes si podéis y elegid una idea para después. Si tenéis hijos, adaptaos a su hora de acostarse y reservad vuestro momento para cuando tengáis intimidad."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "practical-panel"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "nouvel-an-en-couple.es/0423"
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Para el anticipo, dejad margen suficiente para disfrutar del audio antes de las campanadas. Si se acerca medianoche, brindad primero y guardad Caresse para después de las felicitaciones. El tiempo de generación y la duración de un audio personalizado pueden variar; esperad a que esté listo antes de empezar."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "experience-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner experience-layout"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "experience-art"
+                  },
+                  "blocks": [
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "aria-hidden": "true"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "nouvel-an-en-couple.es/0424"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Una voz. Vuestros deseos. Vuestro momento."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "La experiencia Caresse"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Una voz para acompañar vuestro momento"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-sub"
+                      },
+                      "html": "Caresse crea ficciones de audio guiadas según vuestras preferencias. Empezad con una demo gratuita en la app y decidid juntos si os apetece una sesión personalizada."
+                    },
+                    {
+                      "type": "element",
+                      "tag": "ol",
+                      "attrs": {
+                        "class": "experience-steps"
+                      },
+                      "html": "<li><span>01</span><div><h3>Descubrid la voz</h3><p>Instalad Caresse y escuchad una demo gratuita.</p></div></li><li><span>02</span><div><h3>Elegid juntos</h3><p>Para personalizar, elegid el modo dúo, vuestros nombres y un ambiente que os guste a ambos. La generación utiliza un crédito de pago.</p></div></li><li><span>03</span><div><h3>Dejaos guiar</h3><p>Cuando el audio esté listo, acomodaos con el teléfono o un altavoz. El tiempo de generación y la duración del audio pueden variar.</p></div></li>"
+                    },
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "store-controls"
+                      },
+                      "blocks": [
+                        {
+                          "type": "container",
+                          "tag": "div",
+                          "attrs": {
+                            "class": "cta-group"
+                          },
+                          "blocks": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attrs": {
+                                "class": "cta-pink",
+                                "id": "inline-cta",
+                                "href": "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+                                "data-store-auto": "",
+                                "data-cta-position": "inline",
+                                "target": "_blank",
+                                "rel": "noopener"
+                              },
+                              "html": "Descargar ahora"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "demo-note"
+                      },
+                      "html": "Para parejas adultas de todos los géneros y orientaciones. Cualquier persona puede proponer, rechazar, pausar o parar en todo momento. La sorpresa está en el ambiente; las preferencias y los límites se eligen juntos."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq-section",
+            "id": "faq",
+            "aria-labelledby": "faq-title"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner faq-layout"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Antes de empezar"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title",
+                        "id": "faq-title"
+                      },
+                      "html": "Antes de preparar vuestra noche"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "faq-list"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>¿Cómo pasar Nochevieja en pareja con poco presupuesto?</summary><p>Preparad una cena sencilla, elegid música y sacad un juego que ya tengáis. Las demos de Caresse son gratuitas; generar un audio personalizado utiliza un crédito de pago, sin suscripción.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>¿Podemos organizar Nochevieja a última hora?</summary><p>Sí. Elegid algo fácil de preparar o recoger, una bebida para brindar y una actividad que os guste. Comprobad los horarios de las tiendas si necesitáis comprar algo el 31.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>¿Cómo pasar Nochevieja en pareja sin canguro?</summary><p>Podéis empezar con un rato en familia y guardar un momento para vosotros cuando los niños duerman. Elegid una cena y una actividad que podáis adaptar a cómo vaya la noche.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>¿Cuándo empezar Caresse para no perderse las campanadas?</summary><p>Elegid un momento antes de medianoche si tenéis tiempo suficiente o guardad la experiencia para después de las campanadas y el brindis. El tiempo de generación y la duración de un audio personalizado pueden variar; mejor esperar a después que terminar con prisas.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>¿Una Nochevieja en pareja tiene que ser romántica?</summary><p>Puede ser festiva, tranquila, divertida o íntima, según vuestras ganas. El audio se elige juntos; podéis quedaros con la cena, el juego o la película si lo preferís.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "closing-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Caresse · iOS &amp; Android"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "¿Y si vuestra próxima noche empezara aquí?"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Descubrid la voz con una demo gratuita en Caresse. Si os gusta el formato, elegid juntos vuestras preferencias para una sesión personalizada de pago."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "cta-group"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "class": "cta-pink",
+                        "id": "footer-cta",
+                        "href": "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+                        "data-store-auto": "",
+                        "data-cta-position": "footer",
+                        "target": "_blank",
+                        "rel": "noopener"
+                      },
+                      "html": "Descargar ahora"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "store-badges"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+                        "class": "store-badge",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Descargar en el App Store"
+                      },
+                      "html": "\n<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Descargar en el App Store\" width=\"162\" height=\"54\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                        "class": "store-badge gplay",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Disponible en Google Play"
+                      },
+                      "html": "\n<img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Disponible en Google Play\" width=\"207\" height=\"80\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Demos gratuitas · Sesiones personalizadas con créditos de pago · Sin suscripción · 18+"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "aside",
+          "attrs": {
+            "class": "editorial-links",
+            "aria-label": "Más ideas para vuestras noches juntos",
+            "style": "margin:0 auto;color:var(--text-secondary);line-height:1.8;"
+          },
+          "html": "<p>Más ideas para vuestras noches juntos : <a href=\"/es/navidad-en-pareja/\">Noches entre Navidad y Año Nuevo</a> · <a href=\"/es/san-valentin-en-casa/\">San Valentín en casa</a> · <a href=\"/es/regalo-san-valentin-pareja/\">Regalo de San Valentín en pareja</a> · <a href=\"/es/couples-game/\">Juego para parejas</a> · <a href=\"/es/noche-romantica-en-casa/\">Noche romántica en casa</a> · <a href=\"/es/for-couples/\">Caresse para parejas</a>.</p>"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-64131d751a335791",
+        "footer-2f049030d134434b",
+        "footer-6ee5313e7596630c",
+        "footer-5e020384c04d3c55",
+        "footer.es.copy.comparison"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
+    }
+  ]
+}

@@ -1,0 +1,1356 @@
+{
+  "id": "for-adventurous-couples.pt",
+  "family": "for-adventurous-couples",
+  "locale": "pt",
+  "path": "/pt/para-casais-aventureiros/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "seo-consistency-oct23-v1-seo-consistency-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-pt"
+  },
+  "title": "Caresse para casais que querem explorar mais — No ritmo de vocês",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Áudio íntimo guiado por IA para casais que querem explorar novas possibilidades. Intensidade escolhida, ficções imersivas e respeito ao consentimento."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/para-casais-aventureiros/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse para casais que querem explorar mais — Novas possibilidades"
+    },
+    {
+      "property": "og:description",
+      "content": "Para casais adultos que querem descobrir algo diferente. A IA cria experiências em áudio a partir das preferências escolhidas no app."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse para casais que querem explorar mais — Áudio íntimo guiado por IA"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse para casais que querem explorar mais"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Experiências originais em áudio guiadas por IA, na intensidade que vocês escolhem."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse para casais que querem explorar mais — Áudio íntimo guiado por IA"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Mapa do site",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse para casais que querem explorar mais",
+      "description": "Experiência íntima em áudio guiada por IA para casais adultos que querem explorar novas possibilidades juntos, com intensidade e limites definidos.",
+      "url": "https://caresse.app/pt/para-casais-aventureiros/",
+      "inLanguage": "pt",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://caresse.app/screens/en/05_android_en.webp"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/pt/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Casais que querem explorar mais",
+            "item": "https://caresse.app/pt/para-casais-aventureiros/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-cb98d5fbef276e96.css",
+    "home-b0af781f.css"
+  ],
+  "styleAttrs": {
+    "shared-cb98d5fbef276e96.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-cb98d5fbef276e96.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-e506b25398f5c410"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": "\n\n        "
+        },
+        {
+          "type": "html",
+          "file": "for-adventurous-couples.pt/0737"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🔥 · Casais que querem explorar mais · Áudio guiado · IA"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Vocês querem explorar.<br><em>A voz ajuda a criar o momento.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "O Caresse cria experiências íntimas em áudio guiadas por IA, a partir da intensidade e das preferências escolhidas no app. Uma proposta para casais adultos que querem descobrir novas possibilidades juntos, sem transformar uma sugestão em obrigação."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-cta\" class=\"cta-fire\" target=\"_blank\" rel=\"noopener\">\n\n                <span class=\"inline\">Baixar grátis</span>\n            </a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Disponível para iOS e Android · Demos pré-geradas gratuitas<br>Áudios em português no app; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "manifesto"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Para quem quer conhecer novas possibilidades"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Espaço para a imaginação.<br>Com os limites de vocês."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Muitos casais têm desejos sobre os quais ainda não conversaram. O Caresse propõe uma ficção guiada por voz, na intensidade escolhida, para explorar juntos sem cobrança de desempenho. A conversa e o consentimento continuam essenciais."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "manifesto-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "manifesto-item"
+              },
+              "html": "\n\n                <p class=\"label\">Uma barreira comum</p>\n\n                <p>Alguns desejos ficam apenas na imaginação porque é difícil sugeri-los sem constrangimento ou receio da reação da outra pessoa.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "manifesto-item"
+              },
+              "html": "\n\n                <p class=\"label\">O que o Caresse propõe</p>\n\n                <p>Vocês configuram as preferências juntos no app. A IA cria uma sessão em áudio com ritmo e narrativa a partir dessas escolhas. As opções podem ser um ponto de partida para conversar.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "manifesto-item"
+              },
+              "html": "\n\n                <p class=\"label\">O espaço que isso abre</p>\n\n                <p>Quando a voz guia a ficção, vocês podem concentrar a atenção no momento. Mesmo depois de combinar preferências, continuem atentos ao conforto e ao consentimento um do outro.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "manifesto-item"
+              },
+              "html": "\n\n                <p class=\"label\">O limite que permanece</p>\n\n                <p>Os limites são definidos por vocês, não pelo app. As configurações orientam a geração, mas uma IA pode produzir incoerências. Vocês podem pular qualquer sugestão ou parar a sessão.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "intensity"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Vocês escolhem a intensidade"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Do clima romântico à linguagem mais direta."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Escolham o tom e as opções que fazem sentido para ambos. A IA usa essa configuração para criar a experiência; vocês continuam no controle do que desejam viver."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "intensity-track"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "for-adventurous-couples.pt/0738"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "intensity-labels"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "for-adventurous-couples.pt/0739"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "for-adventurous-couples.pt/0740"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "for-adventurous-couples.pt/0741"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "for-adventurous-couples.pt/0742"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "intensity-cards"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "intensity-card low"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n\n                    "
+                    },
+                    {
+                      "type": "html",
+                      "file": "for-adventurous-couples.pt/0743"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Para criar uma atmosfera"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Sugestões poéticas, toques imaginados e uma progressão tranquila. A descoberta pode começar de forma suave, mesmo para quem já gosta de explorar."
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n                "
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "intensity-card mid"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n\n                    "
+                    },
+                    {
+                      "type": "html",
+                      "file": "for-adventurous-couples.pt/0744"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Para sair do habitual"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Cenários imersivos, dinâmicas de desejo e encenação guiada. A voz cria uma ficção em que vocês podem entrar juntos."
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n                "
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "intensity-card high"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n\n                    "
+                    },
+                    {
+                      "type": "html",
+                      "file": "for-adventurous-couples.pt/0745"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Para escolher uma intensidade mais direta"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Linguagem adulta mais direta, escolhida conscientemente na configuração. Para casais que desejam uma experiência mais intensa, sempre dentro dos próprios limites."
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n                "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "benefits"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "O que o Caresse oferece"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Uma experiência de acordo com as suas escolhas."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Mesmo quando vocês já experimentaram várias possibilidades, uma narrativa criada a partir das preferências do momento pode trazer um contexto diferente."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "benefits-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🎭</div>\n\n                <h3>Encenação sem precisar escrever um roteiro</h3>\n\n                <p>Vocês escolhem a dinâmica disponível, como dominação, submissão, igualdade ou alternância de papéis, e o Caresse cria a narrativa. A voz oferece sugestões; nada exige uma atuação perfeita.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🔥</div>\n\n                <h3>Desejos colocados em palavras</h3>\n\n                <p>Alguns desejos são difíceis de expressar. As opções de configuração podem abrir a conversa e orientar uma experiência em áudio, sem exigir que alguém formule sozinho todo o roteiro.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🌀</div>\n\n                <h3>Uma narrativa criada a cada geração</h3>\n\n                <p>A IA cria o roteiro no momento do pedido no app. Mesmo com as mesmas preferências, o resultado pode mudar. A geração usa créditos pagos.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🛡️</div>\n\n                <h3>Seus limites, seu contexto</h3>\n\n                <p>Explorar não significa deixar os limites de lado. As opções escolhidas orientam a geração. Se uma sugestão não fizer sentido, vocês podem ignorá-la, pausar ou parar.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "how"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Como funciona"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Configure a experiência em quatro passos."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "steps-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "step-item"
+              },
+              "html": "\n                <div class=\"num\">01</div>\n\n                <h3>Definam os limites</h3>\n\n                <p>Escolham juntos intensidade, dinâmica, temas e tipo de conteúdo entre as opções disponíveis. A configuração também pode ser uma conversa sobre o que vocês desejam.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "step-item"
+              },
+              "html": "\n                <div class=\"num\">02</div>\n\n                <h3>A IA cria a sessão</h3>\n\n                <p>Em alguns minutos, o Caresse cria uma experiência em áudio a partir das preferências escolhidas. A criação usa um crédito pago e pode apresentar variações ou incoerências.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "step-item"
+              },
+              "html": "\n                <div class=\"num\">03</div>\n\n                <h3>Apoiem o celular</h3>\n\n                <p>Usem o alto-falante ou uma caixa de som Bluetooth. A voz acompanha o momento e deixa as mãos livres.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "step-item"
+              },
+              "html": "\n                <div class=\"num\">04</div>\n\n                <h3>Vivam a experiência</h3>\n\n                <p>A voz guia e a narrativa se desenvolve. Vocês escolhem como participar, podendo adaptar, pular ou interromper qualquer sugestão.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Perguntas frequentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "O que você quer saber"
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Como funcionam os níveis mais diretos de intensidade?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O app oferece níveis mais diretos de linguagem para adultos. Você escolhe a intensidade na configuração; ela não deve ser uma surpresa. O conteúdo continua sujeito às regras de segurança e deve ser vivido apenas com consentimento."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Podemos explorar dinâmicas de dominação e submissão?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sim. Dinâmicas de dominação e submissão, alternância de papéis e encenação guiada podem ser escolhidas na configuração. Vocês definem os papéis e os limites antes da experiência, e qualquer sugestão pode ser recusada ou interrompida."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Como o Caresse usa nossas preferências?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Na configuração do app, vocês escolhem as opções e os temas disponíveis que desejam explorar. A IA usa essas escolhas para criar a sessão. O app pode apoiar a conversa, mas não substitui um acordo claro entre os dois."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Existem conteúdos que o Caresse não deve gerar?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sim. O app é destinado exclusivamente a adultos e a ficções consensuais, dentro das regras de segurança do serviço. Não é uma ferramenta para solicitar conteúdo ilegal. Como toda geração por IA, o resultado pode conter incoerências: vocês continuam livres para interromper a experiência."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Como parar se alguém ficar desconfortável durante a sessão?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Vocês podem pausar ou parar a sessão a qualquer momento. O consentimento pode mudar durante a experiência, mesmo depois de uma configuração feita juntos. Nenhuma escolha anterior cria uma obrigação."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Nossas preferências e fantasias ficam armazenadas?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O app usa um identificador de usuário e trata as informações necessárias para criar e disponibilizar as sessões. O modo convidado dispensa uma conta Caresse, e um pseudônimo pode ser usado na narração. Consulte a política de privacidade para conhecer o tratamento e a exclusão dos dados."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "background:var(--grad-soft);padding:60px 5%;"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Conheça outros usos"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Diferentes formas de viver o Caresse."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "style": "display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:900px;margin-top:32px;"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/para-casais/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔥</div>\n\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Para casais</p>\n\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Desacelerar e criar rituais a dois</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/para-casais-de-longa-data/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🕰️</div>\n\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Casais de longa data</p>\n\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Redescobrir algo novo juntos</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/para-casais-recentes/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">💫</div>\n\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Casais recentes</p>\n\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Explorar juntos, sem pressão desde o começo</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/exploracao-solo/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🌙</div>\n\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Exploração solo</p>\n\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Um espaço individual para você</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/para-casais-com-pouco-tempo/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">⚡</div>\n\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Casais com pouco tempo</p>\n\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Abrir espaço para a intimidade na rotina</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "aside",
+      "attrs": {
+        "id": "audio-experiences-links",
+        "aria-label": "Para saber mais",
+        "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
+      },
+      "html": "\n        <p>Para preparar o momento de vocês, vejam também: <a href=\"/pt/massagem-sensual-casal/\" style=\"color:var(--primary);text-underline-offset:3px;\">uma experiência de massagem sensual guiada pela voz</a>.</p>\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Querem explorar algo diferente?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Uma experiência para<br>descobrir juntos."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Baixe o Caresse grátis. Demos pré-geradas estão disponíveis sem criar uma conta Caresse. Para criar uma sessão personalizada, use créditos pagos, sem assinatura."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "compare-note"
+          },
+          "html": "Está comparando apps? Veja <a href=\"/pt/alternatives/\">a comparação entre Caresse, Melba, Coelle e Dipsea</a> , com exemplos em áudio pré-gerados e sem cadastro."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                "class": "store-badge",
+                "aria-label": "Baixar na App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Baixar na App Store\">\n\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Baixar no Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png\" alt=\"Baixar no Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Apenas para maiores de 18 anos"
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.pt.logo",
+        "footer-40e854f433179256",
+        "footer.pt.links.couples",
+        "footer-0719760d8779fab2",
+        "footer.pt.copy.couples"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

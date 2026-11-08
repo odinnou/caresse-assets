@@ -1,0 +1,1029 @@
+{
+  "id": "anniversaire-de-couple.pt",
+  "family": "anniversaire-de-couple",
+  "locale": "pt",
+  "path": "/pt/aniversario-de-relacionamento/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "anniversary-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-pt seasonal-page anniversary"
+  },
+  "title": "Aniversário de relacionamento: além do jantar | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "name": "description",
+      "content": "Aniversário de namoro, união estável ou casamento: cinco ideias para celebrar em casa, com uma experiência de áudio Caresse para compartilhar."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5d3d8c"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/aniversario-de-relacionamento/"
+    },
+    {
+      "property": "og:title",
+      "content": "Aniversário de relacionamento: além do jantar | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Aniversário de namoro, união estável ou casamento: cinco ideias para celebrar em casa, com uma experiência de áudio Caresse para compartilhar."
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Aniversário de relacionamento: além do jantar | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Aniversário de namoro, união estável ou casamento: cinco ideias para celebrar em casa, com uma experiência de áudio Caresse para compartilhar."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "icon",
+      "href": "../../favicon.ico"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "../../apple-touch-icon.png"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://caresse.app/pt/aniversario-de-relacionamento/#webpage",
+          "url": "https://caresse.app/pt/aniversario-de-relacionamento/",
+          "name": "Aniversário de relacionamento: além do jantar | Caresse",
+          "description": "Aniversário de namoro, união estável ou casamento: cinco ideias para celebrar em casa, com uma experiência de áudio Caresse para compartilhar.",
+          "inLanguage": "pt",
+          "isPartOf": {
+            "@id": "https://caresse.app/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://caresse.app/pt/aniversario-de-relacionamento/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://caresse.app/pt/aniversario-de-relacionamento/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Caresse",
+              "item": "https://caresse.app/pt/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Aniversário de relacionamento",
+              "item": "https://caresse.app/pt/aniversario-de-relacionamento/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://caresse.app/pt/aniversario-de-relacionamento/#faq",
+          "inLanguage": "pt",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "O que fazer no aniversário de relacionamento sem ir a um restaurante?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Recriem uma lembrança do início, preparem uma refeição simples e troquem cartas. Se ambos quiserem, acrescentem uma experiência de áudio Caresse para um momento íntimo em casa."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "As ideias servem para aniversário de união estável ou casamento?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim. As ideias abrangem aniversários de namoro, união estável e casamento. Escolham uma lembrança e um clima que combinem com sua história, seja no primeiro ano ou em uma data posterior."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Como celebrar com pouco dinheiro ou de última hora?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Uma playlist, uma comida de que vocês gostam e um bilhete à mão já marcam a data. As demos Caresse são gratuitas; as sessões personalizadas usam créditos pagos, sem assinatura."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Posso dar o Caresse como presente de aniversário?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Você pode propor uma experiência para compartilhar no app, escolhendo as preferências juntos. Não é um vale-presente: esta página não oferece cartão-presente nem transferência de créditos para outra pessoa."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "shared-4b217ebdb8fa84e9.css",
+    "home-b0af781f.css",
+    "shared-50abc3fe5e51d2e3.css"
+  ],
+  "styleAttrs": {
+    "shared-4b217ebdb8fa84e9.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    },
+    "shared-50abc3fe5e51d2e3.css": {
+      "data-component": "seasonal-editorial"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "../../mobile-store-cta.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "../../umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-4b217ebdb8fa84e9.css",
+      "attrs": {}
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-50abc3fe5e51d2e3.css",
+      "attrs": {
+        "data-component": "seasonal-editorial"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "class": "skip-link",
+        "href": "#main"
+      },
+      "html": "Ir para o conteúdo"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "header",
+      "ref": "header-69919ac5dcfcc2b6"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "id": "main",
+        "tabindex": "-1"
+      },
+      "blocks": [
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero",
+            "aria-labelledby": "page-title"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "attrs": {
+                "class": "hero-image",
+                "src": "../../seasonal/evening-ambience.jpg",
+                "alt": "",
+                "width": "1536",
+                "height": "1024",
+                "fetchpriority": "high"
+              },
+              "html": ""
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "hero-inner"
+              },
+              "html": "<div class=\"hero-copy\">\n<p class=\"hero-eyebrow\">Namoro · União estável · Casamento · 18+</p>\n<h1 id=\"page-title\">Aniversário de relacionamento.<em>Que tal ir além do jantar?</em></h1>\n<p class=\"hero-lead\">Um ano desde que vocês se conheceram, cinco de união estável ou vinte de casamento: reservem um momento com a cara de vocês. Com o Caresse, compartilhem uma experiência íntima guiada pela voz, em casa, antes ou depois do jantar.</p>\n<div class=\"store-controls\"><div class=\"cta-group\"><a class=\"cta-pink\" id=\"hero-cta\" href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Baixar agora</a></div></div>\n<p class=\"hero-badge\">Demos grátis · Sessões personalizadas com créditos pagos · Sem assinatura · 18+</p>\n</div><div class=\"hero-note\"><div class=\"waveform\" aria-hidden=\"true\"><i style=\"--bar:7px\"></i><i style=\"--bar:13px\"></i><i style=\"--bar:23px\"></i><i style=\"--bar:16px\"></i><i style=\"--bar:29px\"></i><i style=\"--bar:20px\"></i><i style=\"--bar:10px\"></i><i style=\"--bar:18px\"></i><i style=\"--bar:28px\"></i><i style=\"--bar:15px\"></i><i style=\"--bar:23px\"></i><i style=\"--bar:30px\"></i><i style=\"--bar:19px\"></i><i style=\"--bar:11px\"></i><i style=\"--bar:22px\"></i><i style=\"--bar:15px\"></i><i style=\"--bar:8px\"></i><i style=\"--bar:18px\"></i><i style=\"--bar:27px\"></i><i style=\"--bar:13px\"></i><i style=\"--bar:7px\"></i></div><small>Uma experiência em áudio a dois</small><p>Uma voz. Seus desejos. Seu momento.</p></div>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "occasion-strip"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "anniversaire-de-couple.pt/0613"
+            },
+            {
+              "type": "html",
+              "file": "anniversaire-de-couple.pt/0614"
+            },
+            {
+              "type": "html",
+              "file": "anniversaire-de-couple.pt/0615"
+            }
+          ]
+        },
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "intro"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner editorial-split"
+              },
+              "html": "<div><p class=\"section-label\">Aniversário de relacionamento</p><h2 class=\"section-title\">Uma data de vocês, o ano inteiro</h2></div><div class=\"intent-prose\"><p>No começo, vocês contam os meses. Com os anos, talvez acabem reservando sempre a mesma mesa. Comecem este aniversário com uma lembrança concreta: a primeira conversa, o filme a que vocês não prestaram muita atenção naquela noite ou a refeição do dia em que se conheceram.</p><p>Seja aniversário de namoro, união estável ou casamento, uma grande surpresa é opcional. Escolham juntos o que querem celebrar e reservem um tempo só para vocês.</p></div>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "ideas-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "ideas-heading"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Aniversário de relacionamento"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Cinco ideias para celebrar a história de vocês"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "ol",
+                  "attrs": {
+                    "class": "ideas-grid"
+                  },
+                  "html": "<li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">01 / 05</span></div><h3>Recriar o primeiro encontro em casa</h3><p>Preparem o prato daquela noite, coloquem de novo o filme a que vocês não prestaram muita atenção naquela noite ou contem o que pensaram um do outro. Vocês também podem imaginar uma continuação para aquele encontro.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">02 / 05</span></div><h3>Escrever sobre o que amam hoje</h3><p>Troquem algumas linhas: uma lembrança do ano, um gesto que faz diferença e uma vontade para o futuro. Uma carta pessoal pode acompanhar o jantar sem substituir a conversa.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">03 / 05</span></div><h3>Preparar uma surpresa em dupla</h3><p>Uma pessoa escolhe a comida; a outra, a música ou a sobremesa. Combinem o orçamento e o clima juntos, deixando a surpresa para os detalhes.</p></li><li class=\"idea-card featured\"><div class=\"idea-top\"><span class=\"idea-number\">04 / 05</span></div><h3>Compartilhar uma experiência Caresse</h3><p>Depois de relembrar, vivam um momento novo. Experimentem uma demo de áudio gratuita no app e decidam se querem criar uma ficção íntima guiada conforme suas preferências. A personalização usa um crédito pago, sem assinatura.</p></li><li class=\"idea-card wide\"><div class=\"idea-top\"><span class=\"idea-number\">05 / 05</span></div><h3>Marcar o próximo encontro</h3><p>Escolham algo simples para fazer antes do próximo aniversário: uma caminhada, um café da manhã a dois ou uma noite sem notificações. Marquem uma data que funcione para vocês.</p></li>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "practical-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner editorial-split"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Um presente de aniversário para viver a dois"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "practical-panel"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "anniversaire-de-couple.pt/0616"
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Vocês podem preparar a iluminação, a música e um bilhete pessoal. A experiência íntima é uma escolha dos dois: um aniversário não cria expectativas nem obrigações. Qualquer pessoa pode recusar, pausar ou parar."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "practical-panel"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "anniversaire-de-couple.pt/0617"
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Se quiserem usar o Caresse, instalem o app e conheçam a voz primeiro. Escolham suas preferências juntos e esperem o áudio ficar pronto; o tempo de geração e a duração podem variar. É uma experiência compartilhada no app de vocês, não um vale-presente nem uma transferência de créditos."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "experience-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner experience-layout"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "experience-art"
+                  },
+                  "blocks": [
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "aria-hidden": "true"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "anniversaire-de-couple.pt/0618"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Uma voz. Seus desejos. Seu momento."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "A experiência Caresse"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Uma voz para acompanhar o momento"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-sub"
+                      },
+                      "html": "O Caresse cria ficções em áudio guiadas pelas preferências de vocês. Comecem com uma demo grátis no app e decidam juntos se querem uma sessão personalizada."
+                    },
+                    {
+                      "type": "element",
+                      "tag": "ol",
+                      "attrs": {
+                        "class": "experience-steps"
+                      },
+                      "html": "<li><span>01</span><div><h3>Conheçam a voz</h3><p>Instalem o Caresse e ouçam uma demo grátis.</p></div></li><li><span>02</span><div><h3>Escolham juntos</h3><p>Para personalizar, escolham o modo duo, seus nomes e um clima de que os dois gostem. A geração usa um crédito pago.</p></div></li><li><span>03</span><div><h3>Deixem a voz guiar</h3><p>Quando o áudio estiver pronto, acomodem-se com o celular ou uma caixa de som. O tempo de geração e a duração do áudio podem variar.</p></div></li>"
+                    },
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "store-controls"
+                      },
+                      "blocks": [
+                        {
+                          "type": "container",
+                          "tag": "div",
+                          "attrs": {
+                            "class": "cta-group"
+                          },
+                          "blocks": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attrs": {
+                                "class": "cta-pink",
+                                "id": "inline-cta",
+                                "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                                "data-store-auto": "",
+                                "data-cta-position": "inline",
+                                "target": "_blank",
+                                "rel": "noopener"
+                              },
+                              "html": "Baixar agora"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "demo-note"
+                      },
+                      "html": "Os áudios personalizados podem ser gerados em português. As demos disponíveis são em francês, inglês e espanhol; a demo sugerida nas páginas em português é em inglês."
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "demo-note"
+                      },
+                      "html": "Para casais adultos de todos os gêneros e orientações. Cada pessoa pode propor, recusar, pausar ou parar a qualquer momento. Surpreenda no ambiente; escolham juntos as preferências e os limites."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq-section",
+            "id": "faq",
+            "aria-labelledby": "faq-title"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner faq-layout"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title",
+                        "id": "faq-title"
+                      },
+                      "html": "Preparando o aniversário de vocês"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "faq-list"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>O que fazer no aniversário de relacionamento sem ir a um restaurante?</summary><p>Recriem uma lembrança do início, preparem uma refeição simples e troquem cartas. Se ambos quiserem, acrescentem uma experiência de áudio Caresse para um momento íntimo em casa.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>As ideias servem para aniversário de união estável ou casamento?</summary><p>Sim. As ideias abrangem aniversários de namoro, união estável e casamento. Escolham uma lembrança e um clima que combinem com sua história, seja no primeiro ano ou em uma data posterior.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Como celebrar com pouco dinheiro ou de última hora?</summary><p>Uma playlist, uma comida de que vocês gostam e um bilhete à mão já marcam a data. As demos Caresse são gratuitas; as sessões personalizadas usam créditos pagos, sem assinatura.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Posso dar o Caresse como presente de aniversário?</summary><p>Você pode propor uma experiência para compartilhar no app, escolhendo as preferências juntos. Não é um vale-presente: esta página não oferece cartão-presente nem transferência de créditos para outra pessoa.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "closing-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Caresse · iOS &amp; Android"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "E se a próxima noite de vocês começasse aqui?"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Conheçam a voz com uma demo grátis no Caresse. Se gostarem do formato, escolham juntos suas preferências para uma sessão personalizada paga."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "cta-group"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "class": "cta-pink",
+                        "id": "footer-cta",
+                        "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                        "data-store-auto": "",
+                        "data-cta-position": "footer",
+                        "target": "_blank",
+                        "rel": "noopener"
+                      },
+                      "html": "Baixar agora"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "store-badges"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                        "class": "store-badge",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Baixar na App Store"
+                      },
+                      "html": "\n<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Baixar na App Store\" width=\"162\" height=\"54\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                        "class": "store-badge gplay",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Disponível no Google Play"
+                      },
+                      "html": "\n<img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Disponível no Google Play\" width=\"207\" height=\"80\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Demos grátis · Sessões personalizadas com créditos pagos · Sem assinatura · 18+"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "aside",
+          "attrs": {
+            "class": "editorial-links",
+            "aria-label": "Mais ideias para as noites de vocês",
+            "style": "margin:0 auto;color:var(--text-secondary);line-height:1.8;"
+          },
+          "html": "<p>Mais ideias para as noites de vocês : <a href=\"/pt/natal-a-dois/\">Noites entre Natal e Ano-Novo</a> · <a href=\"/pt/dia-dos-namorados-em-casa/\">Dia dos Namorados em casa</a> · <a href=\"/pt/presente-dia-dos-namorados-casal/\">Presente de Dia dos Namorados</a> · <a href=\"/pt/couples-game/\">Jogo para casais</a> · <a href=\"/pt/noite-romantica-em-casa/\">Noite romântica em casa</a> · <a href=\"/pt/para-casais/\">Caresse para casais</a>.</p>"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-5fa2a103df4a0872",
+        "footer-15dcc0238dc3a8f1",
+        "footer-834092b8b55d297b",
+        "footer-f315ca8cf4b4f8d1",
+        "footer.pt.copy.comparison"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
+    }
+  ]
+}

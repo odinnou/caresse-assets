@@ -1,0 +1,13 @@
+
+        :root { --primary: #5D3FD3; --secondary: #7B68EE; --bg-note: #F8F4FF; }
+        body { font-family: -apple-system, sans-serif; line-height: 1.6; color: #333; padding: 20px; max-width: 800px; margin: auto; }
+        header { text-align: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .logo { height: 80px; width: auto; }
+        h1 { color: var(--primary); border-bottom: 2px solid #EEE; padding-bottom: 10px; }
+        h2 { color: var(--secondary); margin-top: 30px; }
+        .highlight { background: var(--bg-note); padding: 15px; border-left: 4px solid var(--primary); margin: 20px 0; border-radius: 0 4px 4px 0; }
+        .info-block { margin-bottom: 15px; }
+        .label { font-weight: bold; color: var(--primary); display: block; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.03em; }
+        .value { font-size: 1em; color: #222; }
+        footer { margin-top: 50px; font-size: 0.8em; color: #777; border-top: 1px solid #EEE; padding-top: 20px; text-align: center;}
+    

@@ -1,0 +1,654 @@
+{
+  "id": "blog.es",
+  "family": "blog",
+  "locale": "es",
+  "path": "/es/blog/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "es"
+  },
+  "bodyAttrs": {},
+  "title": "Caresse Blog, Relaciones, intimidad, exploración",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Artículos sobre relaciones, comunicación íntima y exploración personal, además del informe anual State of AI Romance sobre IA, audio e intimidad moderna."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/es/blog/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse Blog, Relaciones, intimidad, exploración"
+    },
+    {
+      "property": "og:description",
+      "content": "Artículos sobre relaciones, comunicación íntima y exploración personal, además de informes de datos sobre IA e intimidad."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse Blog, relaciones, intimidad, exploración"
+    },
+    {
+      "property": "og:locale",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse Blog, Relaciones, intimidad, exploración"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Artículos sobre relaciones, comunicación íntima y exploración personal."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse Blog, relaciones, intimidad, exploración"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Caresse Blog",
+      "description": "Artículos sobre relaciones, comunicación íntima y exploración personal, además de informes de datos sobre IA e intimidad moderna.",
+      "url": "https://caresse.app/es/blog/",
+      "inLanguage": "es",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "blogPost": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Vuestra primera experiencia de audio íntimo, sin presión.",
+          "description": "Cómo proponer una primera escucha íntima en pareja, acordar preferencias y probar sin presión. Una guía práctica de la demo a la sesión personalizada.",
+          "url": "https://caresse.app/es/blog/primera-experiencia-audio-intimo-pareja/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-10-24",
+          "inLanguage": "es",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Intimidad y discapacidad visual: el lugar del audio",
+          "description": "Por qué tantos servicios digitales íntimos dan por hecho que ves la pantalla, qué cambia una experiencia audio-first y cómo distinguir un contenido de audio de una interfaz realmente accesible.",
+          "url": "https://caresse.app/es/blog/intimidad-discapacidad-visual-audio/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-08-20",
+          "inLanguage": "es",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "State of AI Romance 2026: el informe anual sobre IA, audio e intimidad",
+          "description": "Informe anual de datos sobre IA, audio e intimidad moderna: adopción de la IA generativa, auge del audio inmersivo, personalización, privacidad.",
+          "url": "https://caresse.app/es/blog/state-of-ai-romance-2026/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-08-07",
+          "inLanguage": "es",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Cómo reavivar la llama en una pareja estable, 7 pistas concretas",
+          "description": "La rutina no es una fatalidad. 7 pistas concretas, realistas y sin imposiciones para recrear deseo y sorpresa en una relación larga.",
+          "url": "https://caresse.app/es/blog/reavivar-la-llama-en-pareja/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-07-20",
+          "inLanguage": "es",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Cómo hablar de tus fantasías con tu pareja sin incomodidad",
+          "description": "El miedo al juicio bloquea a más parejas que la falta de ganas. Un método concreto, paso a paso, para abordar tus fantasías sin malestar.",
+          "url": "https://caresse.app/es/blog/hablar-de-tus-fantasias/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-07-27",
+          "inLanguage": "es",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Exploración en solitario: sin culpa y con tiempo para ti",
+          "description": "Dedicarte tiempo a ti, en solitario, no tiene nada de egoísta. Por qué se instala la culpa y cómo darte ese espacio sin segundas lecturas.",
+          "url": "https://caresse.app/es/blog/exploracion-en-solitario-sin-culpa/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-08-03",
+          "inLanguage": "es",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/es/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/es/blog/"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "shared-eaae98dc5214951f.css"
+  ],
+  "styleAttrs": {
+    "shared-eaae98dc5214951f.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "style",
+      "file": "shared-eaae98dc5214951f.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-7de0c60f5b8fcf61"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb",
+        "style": "padding-top:90px;"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/es/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › Blog\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "blog-hero"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "eyebrow"
+          },
+          "html": "El blog de Caresse"
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "Relaciones, intimidad, exploración."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Artículos para comunicarte mejor, reconectar con tu pareja, o simplemente dedicarte tiempo a ti mismo. Y nuestro informe anual de datos sobre IA, audio e intimidad moderna."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "style": "display:flex;justify-content:center;margin-top:24px;"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+                "id": "hero-cta",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "hero",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "Descargar gratis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "posts"
+      },
+      "blocks": [
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "posts-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/es/blog/primera-experiencia-audio-intimo-pareja/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-soft);display:flex;align-items:center;justify-content:center;\"><span style=\"font-size:3rem;\" aria-hidden=\"true\">🎧</span></div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\"><span>Por Studio Mokuton · 24 de octubre de 2026</span></div>\n                    <h2>Vuestra primera experiencia de audio íntimo, sin presión.</h2>\n                    <p>Cómo proponer una primera escucha íntima en pareja, acordar preferencias y probar sin presión. Una guía práctica de la demo a la sesión personalizada.</p>\n                    <span class=\"post-cta\">Leer la guía</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/es/blog/intimidad-discapacidad-visual-audio/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-pink);display:flex;align-items:center;justify-content:center;\">\n                    <span style=\"font-size:3rem;\">🎧</span>\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>Accesibilidad · 8 min de lectura</span>\n                    </div>\n                    <h2>Intimidad y discapacidad visual: el lugar del audio</h2>\n                    <p>Por qué tantos servicios íntimos dan por hecho que ves la pantalla, qué cambia una experiencia audio-first y cómo distinguir un contenido de audio de una interfaz accesible.</p>\n                    <span class=\"post-cta\">Leer el artículo</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/es/blog/state-of-ai-romance-2026/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-primary);display:flex;align-items:center;justify-content:center;\">\n                    <span style=\"font-size:3rem;\">📊</span>\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>Informe anual · 20 min de lectura</span>\n                    </div>\n                    <h2>State of AI Romance 2026</h2>\n                    <p>Un informe de datos sobre IA, audio inmersivo, personalización y privacidad, con más de 20 fuentes públicas citadas.</p>\n                    <span class=\"post-cta\">Leer el informe</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/es/blog/reavivar-la-llama-en-pareja/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-primary);display:flex;align-items:center;justify-content:center;\">\n                    <span style=\"font-size:3rem;\">🕰️</span>\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>Pareja · 8 min de lectura</span>\n                    </div>\n                    <h2>Cómo reavivar la llama en una pareja estable</h2>\n                    <p>7 pistas concretas, realistas y sin imposiciones para recrear deseo y sorpresa en una relación larga.</p>\n                    <span class=\"post-cta\">Leer el artículo</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/es/blog/hablar-de-tus-fantasias/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-pink);display:flex;align-items:center;justify-content:center;\">\n                    <span style=\"font-size:3rem;\">💬</span>\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>Comunicación · 7 min de lectura</span>\n                    </div>\n                    <h2>Cómo hablar de tus fantasías sin incomodidad</h2>\n                    <p>El miedo al juicio bloquea a más parejas que la falta de ganas. Un método concreto para abordar el tema sin malestar.</p>\n                    <span class=\"post-cta\">Leer el artículo</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/es/blog/exploracion-en-solitario-sin-culpa/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-soft);display:flex;align-items:center;justify-content:center;\">\n                    <span style=\"font-size:3rem;\">🌙</span>\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>En solitario · 6 min de lectura</span>\n                    </div>\n                    <h2>Exploración en solitario: sin culpa</h2>\n                    <p>Dedicarte tiempo a ti, en solitario, no tiene nada de egoísta. Por qué se instala la culpa y cómo librarte de ella.</p>\n                    <span class=\"post-cta\">Leer el artículo</span>\n                </div>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.es.logo",
+        "footer-c1e725a8e42bcbe6",
+        "footer.es.links",
+        "footer-e145c01106d76846",
+        "footer-1bed42aed5435611"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

@@ -1,0 +1,1110 @@
+{
+  "id": "for-new-couples.en",
+  "family": "for-new-couples",
+  "locale": "en",
+  "path": "/en/for-new-couples/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "en",
+    "data-analytics-variant": "seo-consistency-oct23-v1-seo-consistency-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-en"
+  },
+  "title": "Caresse for new couples — Explore together without pressure | iOS & Android",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Caresse helps new couples explore intimacy together, AI-guided. Break the ice, share your desires and build genuine closeness from the start."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/en/for-new-couples/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse for new couples — Explore without pressure"
+    },
+    {
+      "property": "og:description",
+      "content": "Break the ice and explore intimacy together, guided by an AI voice. Perfect for new couples."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse for new couples — AI-guided intimate audio experience"
+    },
+    {
+      "property": "og:locale",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse for new couples"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Explore intimacy together without pressure. AI-guided, designed for early-relationship moments."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse for new couples — AI-guided intimate audio experience"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse for new couples",
+      "description": "AI-guided intimate audio experience for new couples. Break the ice, share your desires and build closeness from the start.",
+      "url": "https://caresse.app/en/for-new-couples/",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://caresse.app/screens/en/03_android_en.webp"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "New couples",
+            "item": "https://caresse.app/en/for-new-couples/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-bf57593ed2d4ad8d.css"
+  ],
+  "styleAttrs": {
+    "shared-bf57593ed2d4ad8d.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-bf57593ed2d4ad8d.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-ea1fb38988bf1e92"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/en/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " "
+        },
+        {
+          "type": "html",
+          "file": "for-new-couples.en/0239"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "💫 · New couples · Guided audio · AI"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Explore together<br>without <em>pressure.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "With a new partner, intimacy can feel tricky to navigate. Caresse creates a comfortable framework where you discover your shared desires together — guided by a voice, not by the unknown."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" target=\"_blank\" rel=\"noopener\">\n                \n                <span class=\"inline\">Download for free</span>\n            </a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Available on iOS & Android · Free demos · Paid personalized sessions"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "benefits"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Why Caresse for new beginnings?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Building connection from the start."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "The first weeks of a relationship are decisive. Caresse helps you communicate your desires naturally, without the hard-to-find words."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "benefits-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🌱</div>\n                \n                <h3>Break the ice gently</h3>\n                \n                <p>Caresse creates a structured framework that removes the pressure of initiative. No need to \"suggest\" — you configure together and the voice takes over.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">💬</div>\n                \n                <h3>Communicate your desires</h3>\n                \n                <p>The session setup becomes a natural conversation about your preferences and boundaries — without judgment, in a safe framework.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🛡️</div>\n                \n                <h3>Built-in consent</h3>\n                \n                <p>Caresse weaves natural consent and comfort reminders into every session — laying healthy foundations for your relationship from the start.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🎨</div>\n                \n                <h3>Explore at your own pace</h3>\n                \n                <p>Start gentle, go further when you feel ready. Caresse adapts to the intensity you choose — never more, never less.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "how"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "how-inner"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "how-text"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "section-label"
+                  },
+                  "html": "What Caresse brings"
+                },
+                {
+                  "type": "element",
+                  "tag": "h2",
+                  "attrs": {
+                    "class": "section-title"
+                  },
+                  "html": "A framework of trust to discover each other better."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "section-sub"
+                  },
+                  "html": "New couples often struggle to articulate their desires. Caresse transforms that difficult conversation into a shared and enjoyable experience."
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "trust-list"
+                  },
+                  "html": "\n                    <li><span class=\"check\">✦</span> No need for explicit initiative, the voice guides</li>\n                    <li><span class=\"check\">✦</span> Configuring together = natural conversation about desires</li>\n                    <li><span class=\"check\">✦</span> Consent and comfort built into every session</li>\n                    <li><span class=\"check\">✦</span> No visual content, everything in the imagination</li>\n                    <li><span class=\"check\">✦</span> All orientations and dynamics welcome</li>\n                "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Frequently asked questions"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "What you want to know"
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Is Caresse suitable for very new relationships?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Yes — Caresse is designed for all relationship stages. Intensity levels can start very gently, from romantic to more explicit. You choose."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "How does Caresse help talk about desires?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "The session setup is a list of preferences to explore together — atmosphere, practices, dynamics. It's a conversation guided by options, not words to find alone."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "What if we disagree on some preferences?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "You always configure what works for both partners — if an option doesn't appeal, simply don't select it. Consent is at the heart of the experience."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Is Caresse suitable for varied orientations and dynamics?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Yes — Caresse is designed to be inclusive. All orientations, gender identities, and relationship dynamics are welcome. The setup lets you define exactly who you are and what draws you in."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Can Caresse be used on a first date?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse is better suited for people who already know each other a bit — configuring together involves talking about preferences. It's ideal from the moment you're comfortable having that conversation."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "What if we don't agree on intensity?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "This is often where Caresse helps most. The setup naturally creates a conversation about your respective boundaries — without pressure or confrontation. You always choose the option that works for both."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "background:var(--surface);padding:60px 5%;"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "As the relationship grows, also discover"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse accompanies every stage."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "style": "display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:900px;margin-top:32px;"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/en/for-couples/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔥</div>\n                \n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Established couples</p>\n                \n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Rekindle the spark and break the routine</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/en/for-long-term-couples/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🕰️</div>\n                \n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Long-term couples</p>\n                \n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Keep the flame alive over time</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/en/for-busy-couples/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">⚡</div>\n                \n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Busy couples</p>\n                \n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Intimacy even with little time</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/en/for-solo-exploration/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🌙</div>\n                \n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Solo exploration</p>\n                \n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Know yourself before sharing</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/en/for-adventurous-couples/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔥</div>\n                \n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Adventurous couples</p>\n                \n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">When you're ready to go further</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "padding:60px 5%;"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Go further"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "How to talk about your fantasies without awkwardness"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub",
+            "style": "max-width:760px;"
+          },
+          "html": "Early in a relationship, saying what you want is often the most intimidating part. Our in-depth piece covers how to approach the conversation about fantasies without awkwardness, at a stage where you do not yet know how the other person will react."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/en/blog/talk-about-fantasies/",
+            "style": "display:inline-block;margin-top:24px;background:var(--surface);border-radius:16px;padding:24px 28px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);max-width:620px;"
+          },
+          "html": "\n            <p style=\"font-weight:700;color:var(--primary);font-size:1rem;\">How to talk about your fantasies without awkwardness</p>\n            <p style=\"font-size:0.85rem;color:var(--text-secondary);margin-top:6px;\">Read the article &rarr;</p>\n        "
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "aside",
+      "attrs": {
+        "id": "audio-experiences-links",
+        "aria-label": "Further reading",
+        "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
+      },
+      "html": "\n        <p>To prepare your experience, you can also read about: <a href=\"/en/blog/first-intimate-audio-experience-together/\" style=\"color:var(--primary);text-underline-offset:3px;\">a guide to trying intimate audio together</a>.</p>\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Ready to start together?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Your first shared experience<br>is waiting."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Download Caresse for free and listen to the demos without a Caresse account. Personalized sessions use paid credits, without a subscription."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "compare-note"
+          },
+          "html": "Weighing up several apps? See <a href=\"/en/alternatives/\">how Caresse compares to Melba, Coelle and Dipsea</a> — with no-account audio demos to back it up."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "class": "store-badge",
+                "aria-label": "Download on the App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Download on the App Store\">\n                \n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Get it on Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Get it on Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 For adults aged 18 and over only"
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo",
+        "footer-4e6673f9b7a829ba",
+        "footer.en.links.couples",
+        "footer-c18220e05a34e590",
+        "footer.en.copy.couples"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "attrs": {},
+  "logo": "<a href=\"/en/\" aria-label=\"Caresse — home\"><img src=\"/caresse-logo.svg\" class=\"logo\" alt=\"Caresse, AI-guided intimate audio app\" width=\"250\" height=\"80\"></a>",
+  "rightAttrs": {
+    "class": "header-right"
+  },
+  "links": "<a href=\"/en/blog/\" class=\"header-link active\" aria-current=\"page\">Blog</a><a href=\"/en/alternatives/\" class=\"header-link\">Alternatives</a>",
+  "toggleAttrs": {
+    "class": "lang-toggle",
+    "role": "group",
+    "aria-label": "Choose language"
+  },
+  "languages": [
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn",
+        "hreflang": "fr",
+        "aria-label": "Français"
+      },
+      "html": "FR"
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn active",
+        "hreflang": "en",
+        "aria-label": "English",
+        "aria-current": "page"
+      },
+      "html": "EN"
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn",
+        "hreflang": "es",
+        "aria-label": "Español"
+      },
+      "html": "ES"
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn",
+        "hreflang": "pt",
+        "aria-label": "Português"
+      },
+      "html": "PT"
+    }
+  ]
+}

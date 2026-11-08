@@ -1,0 +1,887 @@
+{
+  "id": "tarifs.pt",
+  "family": "tarifs",
+  "locale": "pt",
+  "path": "/pt/precos/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "pricing-pt-reach-oct10-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-pt"
+  },
+  "title": "Preços do Caresse: créditos para áudio, sem assinatura",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Download e demos grátis. Sessões de áudio com créditos pagos, sem assinatura. Consulte preços no app e entenda o desbloqueio opcional de opções avançadas."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/precos/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Preços do Caresse: créditos para áudio, sem assinatura"
+    },
+    {
+      "property": "og:description",
+      "content": "Download e demos grátis. Sessões de áudio com créditos pagos, sem assinatura. Consulte preços no app e entenda o desbloqueio opcional de opções avançadas."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Preços do Caresse: créditos para áudio, sem assinatura"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Download e demos grátis. Sessões de áudio com créditos pagos, sem assinatura. Consulte preços no app e entenda o desbloqueio opcional de opções avançadas."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Preços do Caresse: créditos para áudio, sem assinatura",
+      "description": "Download e demos grátis. Sessões de áudio com créditos pagos, sem assinatura. Consulte preços no app e entenda o desbloqueio opcional de opções avançadas.",
+      "url": "https://caresse.app/pt/precos/",
+      "inLanguage": "pt",
+      "dateModified": "2026-10-24",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    }
+  ],
+  "styles": [
+    "shared-ce2d06a4f19a47b9.css",
+    "home-b0af781f.css"
+  ],
+  "styleAttrs": {
+    "shared-ce2d06a4f19a47b9.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-ce2d06a4f19a47b9.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      }
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-3e117b7bb4c17dde"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {},
+      "blocks": [
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero",
+            "aria-labelledby": "pricing-title"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-eyebrow"
+              },
+              "html": "Caresse · Preços"
+            },
+            {
+              "tag": "h1",
+              "attrs": {
+                "id": "pricing-title"
+              },
+              "html": "Suas sessões de áudio.<br><em>Sem assinatura.</em>"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Baixe grátis. Conheça o formato com demos e crie suas sessões no app com créditos, quando quiser."
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group"
+              },
+              "html": "<a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-cta\" class=\"cta-pink hero-adaptive-download\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Baixar grátis</a>"
+            },
+            {
+              "attrs": {
+                "class": "store-badges hero-store-options"
+              },
+              "links": [
+                {
+                  "store": "ios",
+                  "attrs": {
+                    "class": "store-badge",
+                    "data-cta-position": "hero",
+                    "aria-label": "Baixar na App Store",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Baixar na App Store\">"
+                },
+                {
+                  "store": "android",
+                  "attrs": {
+                    "class": "store-badge gplay",
+                    "data-cta-position": "hero",
+                    "aria-label": "Disponível no Google Play",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png\" alt=\"Disponível no Google Play\">"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-badge"
+              },
+              "html": "Modo convidado · Demos gratuitas · iOS e Android<br>Áudios em português · Interface em português no Android · Atualização iOS aguardando aprovação<br>Sessões criadas no app com créditos pagos, sem assinatura."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "pricing",
+            "aria-labelledby": "included-title"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Preços"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "id": "included-title",
+                "class": "section-title"
+              },
+              "html": "Download grátis.<br>Créditos para criar."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "As demos são gratuitas. A criação de sessões no aplicativo usa créditos pagos, sem assinatura."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "pricing-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "article",
+                  "attrs": {
+                    "class": "price-card highlight"
+                  },
+                  "html": "<h3>Demos de áudio</h3><p class=\"price-big\">Grátis</p><p class=\"price-note\">O aplicativo e as demos são gratuitos.</p><div class=\"price-details\"><p>✓ Conheça a voz e o formato</p><p>✓ Exemplos individuais ou a dois</p><p>✓ Demos publicadas em francês, inglês e espanhol</p></div><p class=\"price-note\" style=\"margin-top:20px;font-size:0.85rem;\">As demos são exemplos pré-gerados, não sessões criadas conforme seu perfil nem uma demonstração em português.</p>"
+                },
+                {
+                  "tag": "article",
+                  "attrs": {
+                    "class": "price-card"
+                  },
+                  "html": "<h3>Sessões criadas no app</h3><p class=\"price-big\">Por sessão</p><p class=\"price-note\">1 crédito = 1 sessão gerada</p><div class=\"price-details\"><p>Configure suas preferências no aplicativo. O áudio está disponível em português. Um crédito inicia a criação da sessão por IA.</p><p>✓ Créditos individuais ou pacotes</p><p>✓ Sem renovação automática</p></div>"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "pricing-footnote"
+              },
+              "html": "Os preços de créditos, pacotes e desbloqueio aparecem no aplicativo, na moeda da sua loja, antes da confirmação da compra."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group",
+                "style": "margin-top:32px"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                    "class": "cta-pink",
+                    "data-store-auto": "",
+                    "data-cta-position": "inline",
+                    "target": "_blank",
+                    "rel": "noopener"
+                  },
+                  "html": "Baixar grátis"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "columns",
+            "aria-labelledby": "options-title"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Opções avançadas"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "id": "options-title",
+                "class": "section-title"
+              },
+              "html": "Uma opção, não uma assinatura."
+            },
+            {
+              "type": "container",
+              "tag": "article",
+              "attrs": {
+                "class": "col-card options-card"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "col-sub"
+                  },
+                  "html": "Opcional · Compra única"
+                },
+                {
+                  "type": "element",
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Mais opções de configuração"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Um desbloqueio separado amplia as opções disponíveis. As sessões continuam usando créditos: essa compra não inclui geração ilimitada."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Perguntas frequentes"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Preços, sem confusão."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "O Caresse é gratuito?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "O download e as demos são gratuitos. Criar uma sessão no app usa um crédito pago. O desbloqueio opcional de opções avançadas é vendido separadamente."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Quanto custa uma sessão?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Os preços de créditos e pacotes aparecem no app, na moeda da sua loja, antes da compra. Um crédito é consumido quando você inicia a criação de uma sessão. Não anunciamos um preço fixo em reais ou euros para todos os países."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Existe assinatura ou renovação automática?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Não. Os créditos são comprados quando você quiser criar sessões. O desbloqueio opcional de opções avançadas é uma compra única, não uma assinatura."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "O desbloqueio inclui sessões ilimitadas?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Não. Ele abre opções adicionais de configuração. A criação de sessões continua usando créditos; qualquer crédito incluído em uma oferta é indicado no app."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Posso comprar sem criar uma conta Caresse?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "O modo convidado permite usar o Caresse sem criar uma conta Caresse. Compras usam sua conta Apple ou Google e seu método de pagamento: a transação com a loja não é anônima."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "O app oferece áudio em português?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "O app cria áudios em português. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. As demos disponíveis no site estão em francês, inglês e espanhol."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section",
+            "id": "download"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Quer experimentar?"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Uma voz para guiar.<br>No ritmo de vocês."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Baixe o Caresse grátis para iPhone ou Android. O app cria áudios em português; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação. As demos são gratuitas e a criação de sessões usa créditos pagos."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-badges"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                    "class": "store-badge",
+                    "data-cta-position": "inline",
+                    "aria-label": "Baixar na App Store",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Baixar na App Store\">"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                    "class": "store-badge gplay",
+                    "data-cta-position": "inline",
+                    "aria-label": "Disponível no Google Play",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png\" alt=\"Disponível no Google Play\">"
+                },
+                {
+                  "type": "text",
+                  "html": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Somente para maiores de 18 anos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.pt.logo.comparison",
+        "footer.pt.navigation.comparison",
+        "footer.pt.links.comparison",
+        "footer-29c248ef72d1fe25",
+        "footer.pt.copy.comparison"
+      ]
+    }
+  ]
+}

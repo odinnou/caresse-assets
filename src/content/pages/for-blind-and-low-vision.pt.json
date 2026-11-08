@@ -1,0 +1,1098 @@
+{
+  "id": "for-blind-and-low-vision.pt",
+  "family": "for-blind-and-low-vision",
+  "locale": "pt",
+  "path": "/pt/para-pessoas-cegas-e-com-baixa-visao/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "seo-consistency-oct23-v1"
+  },
+  "bodyAttrs": {},
+  "title": "Caresse para pessoas cegas e com baixa visão — Uma experiência em áudio",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Uma experiência íntima guiada por voz, sem leitura durante a sessão. Para pessoas cegas ou com baixa visão: áudio em português no app, com configuração pela tela."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/para-pessoas-cegas-e-com-baixa-visao/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse: uma experiência íntima vivida pela escuta"
+    },
+    {
+      "property": "og:description",
+      "content": "A voz acompanha a sessão. Sem leitura nem imagens durante a experiência, com modo convidado sem conta Caresse."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse: uma experiência íntima vivida pela escuta"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse: uma experiência íntima para ouvir"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Durante a sessão, a voz guia o momento. A configuração ainda passa pela tela."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse: uma experiência íntima vivida pela escuta"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Mapa do site",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse: uma experiência íntima vivida pela escuta",
+      "description": "Uma experiência íntima guiada por voz, sem leitura durante a sessão. Para pessoas cegas ou com baixa visão: áudio em português no app, com configuração pela tela.",
+      "url": "https://caresse.app/pt/para-pessoas-cegas-e-com-baixa-visao/",
+      "inLanguage": "pt",
+      "dateModified": "2026-10-24",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/pt/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Pessoas cegas e com baixa visão",
+            "item": "https://caresse.app/pt/para-pessoas-cegas-e-com-baixa-visao/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-e8851f2d148f548d.css",
+    "home-b0af781f.css"
+  ],
+  "styleAttrs": {
+    "shared-e8851f2d148f548d.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "style",
+      "file": "shared-e8851f2d148f548d.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "\n    "
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "class": "skip-link",
+        "href": "#main"
+      },
+      "html": "Ir para o conteúdo principal"
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "header",
+      "ref": "header-2ab60a7ecad22a56"
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " "
+        },
+        {
+          "type": "html",
+          "file": "for-blind-and-low-vision.pt/0756"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "id": "main"
+      },
+      "blocks": [
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-eyebrow"
+              },
+              "html": "🎧 · Pessoas cegas e com baixa visão · Áudio guiado · IA"
+            },
+            {
+              "tag": "h1",
+              "attrs": {},
+              "html": "A experiência começa pela escuta.<br><em>A voz acompanha o momento.</em>"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "O Caresse oferece uma experiência íntima vivida pela escuta. Depois que a sessão começa, não há texto para acompanhar nem imagens para observar: uma voz cria a atmosfera e guia a progressão. Esse é o formato principal do produto, não uma adaptação. Isso não significa, porém, que a interface tenha compatibilidade validada com leitores de tela."
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group"
+              },
+              "html": "\n            <a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-cta\" class=\"cta-pink\" target=\"_blank\" rel=\"noopener\">Baixar grátis</a>\n        "
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-badge"
+              },
+              "html": "Disponível para iOS e Android · Demos pré-geradas gratuitas"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-row"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-blind-and-low-vision.pt/0757"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "stat-label"
+                  },
+                  "html": "duração aproximada"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "stat-label"
+                  },
+                  "html": "de sessão guiada por voz"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-blind-and-low-vision.pt/0758"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "stat-label"
+                  },
+                  "html": "texto para ler durante a sessão"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-blind-and-low-vision.pt/0759"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "stat-label"
+                  },
+                  "html": "idiomas de áudio no app: português, francês, inglês e espanhol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "listen"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "listen-inner"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "section-label"
+                  },
+                  "html": "O que o formato oferece a pessoas cegas ou com baixa visão"
+                },
+                {
+                  "type": "element",
+                  "tag": "h2",
+                  "attrs": {
+                    "class": "section-title"
+                  },
+                  "html": "Ouvir não é uma versão reduzida.<br>É o formato da experiência."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "section-sub listen-lede"
+                  },
+                  "html": "Muitos apps de intimidade dependem de leitura: navegar por um catálogo, escolher uma história e acompanhar texto na tela. O Caresse parte de outra proposta: o roteiro é criado e narrado por uma voz. A tela serve para preparar a sessão. A experiência é pensada para a escuta, mas a acessibilidade da configuração precisa ser avaliada separadamente."
+                },
+                {
+                  "type": "cards",
+                  "attrs": {
+                    "class": "listen-grid"
+                  },
+                  "prefix": "",
+                  "suffix": "",
+                  "items": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "listen-card"
+                      },
+                      "html": "\n                    <h3>A sessão não exige olhar para a tela</h3>\n                    <p>Depois de preparar e iniciar a sessão, você pode apoiar o celular e desligar a tela. A voz acompanha a experiência, sem texto para seguir nem confirmação de etapas. Você continua podendo usar os controles para pausar ou parar.</p>\n                "
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "listen-card"
+                      },
+                      "html": "\n                    <h3>Modo convidado, sem conta Caresse</h3>\n                    <p>Não é preciso informar e-mail nem criar uma senha Caresse para ouvir uma demo. Isso reduz campos a preencher. O app ainda usa um identificador de usuário; compras dependem da sua conta Apple ou Google e não são anônimas perante a loja.</p>\n                "
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "listen-card"
+                      },
+                      "html": "\n                    <h3>Uma configuração com escolhas diretas</h3>\n                    <p>Você prepara a sessão escolhendo ambiente, intensidade e nomes. Essa etapa ainda exige navegar pela tela. Depois, a experiência em áudio geralmente dura de 25 a 35 minutos. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação.</p>\n                "
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "listen-outro"
+                  },
+                  "html": "Esta página se dirige a pessoas cegas ou com baixa visão, situações específicas dentro do termo mais amplo deficiência visual. Se você procura uma experiência compartilhada, <a href=\"/pt/para-casais/\">Caresse para casais</a> apresenta o modo a dois. Para ouvir individualmente, veja <a href=\"/pt/exploracao-solo/\">exploração solo</a>."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "listen-outro",
+                    "style": "margin-top:16px;"
+                  },
+                  "html": "Publicamos também um artigo mais completo: <a href=\"/pt/blog/intimidade-deficiencia-visual-audio/\">Intimidade e deficiência visual: o papel do áudio</a>. Ele explica por que tantos serviços digitais pressupõem que você consegue ver a tela, o que uma experiência em áudio muda e como distinguir conteúdo em áudio de uma interface realmente acessível. Essa distinção também vale para nós."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "style": "background:var(--surface);"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "honest"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "h2",
+                  "attrs": {},
+                  "html": "O que ainda não prometemos"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Esta página descreve a experiência em áudio do Caresse. Não afirmamos ter compatibilidade testada com VoiceOver ou TalkBack, nem certificação de acessibilidade para a interface de configuração."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Em resumo: a <em>sessão</em> é vivida pela escuta, mas a <em>configuração</em> ainda passa pela tela. Preferimos dizer isso claramente a sugerir um suporte não verificado. As demos pré-geradas são gratuitas e não exigem conta Caresse, para que você avalie o formato. Os extratos do site estão em inglês, francês e espanhol."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Perguntas frequentes"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "O que você quer saber"
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "É preciso ler alguma coisa durante a sessão?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Não. Depois que a sessão começa, a voz acompanha o ambiente, o ritmo e a progressão. Você pode desligar a tela ou apoiar o celular. A experiência não exige ler textos nem tocar em botões para avançar."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Preciso de uma conta para experimentar?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Não é necessário criar uma conta Caresse para ouvir as demos ou usar o modo convidado. Compras passam pela App Store ou pelo Google Play e exigem a conta da loja e seu meio de pagamento; a transação não é anônima."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "O Caresse funciona com VoiceOver ou TalkBack?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Ainda não realizamos testes formais de compatibilidade com leitores de tela e não afirmamos ter esse suporte validado. A sessão é inteiramente em áudio, mas a configuração ainda passa pela tela."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Quanto dura uma sessão?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Geralmente, entre 25 e 35 minutos. A duração não é uma opção fixa de configuração. Você pode interromper a sessão a qualquer momento e voltar ao conteúdo gerado depois."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Em quais idiomas o áudio está disponível?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "O app cria áudio em português, francês, inglês e espanhol. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. Os arquivos das demos do site existem em francês, inglês e espanhol; esta versão usa os áudios em inglês."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "style": "background:var(--surface);"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Veja também"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Diferentes formas de usar o Caresse."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "style": "display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;max-width:900px;margin:32px auto 0;"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/pt/para-casais/",
+                    "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);display:block;"
+                  },
+                  "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\" aria-hidden=\"true\">🔥</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Para casais</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Desacelerar e se reconectar a dois</p>\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/pt/exploracao-solo/",
+                    "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);display:block;"
+                  },
+                  "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\" aria-hidden=\"true\">🌙</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Exploração solo</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Um espaço individual para você</p>\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/pt/como-funciona/",
+                    "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);display:block;"
+                  },
+                  "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\" aria-hidden=\"true\">⚙️</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Como funciona</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Uma sessão, passo a passo</p>\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/pt/blog/intimidade-deficiencia-visual-audio/",
+                    "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);display:block;"
+                  },
+                  "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\" aria-hidden=\"true\">📝</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Intimidade e deficiência visual</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Nosso artigo sobre o papel do áudio</p>\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n        "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section",
+            "id": "download"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Quando fizer sentido para você"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Conheça a experiência."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Baixe o Caresse grátis e conheça as demos pré-geradas sem cadastro Caresse. A criação de uma sessão personalizada usa créditos pagos, sem assinatura."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-badges"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                    "class": "store-badge",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Baixar na App Store\">\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                    "class": "store-badge gplay",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "\n                <img src=\"https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png\" alt=\"Baixar no Google Play\">\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "🔞 Apenas para maiores de 18 anos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-d4166fe034c1a329",
+        "footer-dc8d839c0b7934b4",
+        "footer-eb535c2c1b689b14",
+        "footer-9509ef93c7978098"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
+    }
+  ]
+}

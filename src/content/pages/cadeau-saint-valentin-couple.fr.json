@@ -1,0 +1,1136 @@
+{
+  "id": "cadeau-saint-valentin-couple.fr",
+  "family": "cadeau-saint-valentin-couple",
+  "locale": "fr",
+  "path": "/cadeau-saint-valentin-couple/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "fr",
+    "data-analytics-variant": "seasonal-gift-nov26-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-fr seasonal-page gift"
+  },
+  "title": "Cadeau Saint-Valentin en couple : organisez une soirée chez vous | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "name": "description",
+      "content": "Pour la Saint-Valentin, prenez en charge la soirée : dîner à la maison, sans réservation de restaurant, puis une découverte audio à deux avec Caresse."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5d3d8c"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/cadeau-saint-valentin-couple/"
+    },
+    {
+      "property": "og:title",
+      "content": "Cadeau Saint-Valentin en couple : organisez une soirée chez vous | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Pour la Saint-Valentin, prenez en charge la soirée : dîner à la maison, sans réservation de restaurant, puis une découverte audio à deux avec Caresse."
+    },
+    {
+      "property": "og:locale",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Cadeau Saint-Valentin en couple : organisez une soirée chez vous | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Pour la Saint-Valentin, prenez en charge la soirée : dîner à la maison, sans réservation de restaurant, puis une découverte audio à deux avec Caresse."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "icon",
+      "href": "../favicon.ico"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "../apple-touch-icon.png"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://caresse.app/cadeau-saint-valentin-couple/#webpage",
+          "url": "https://caresse.app/cadeau-saint-valentin-couple/",
+          "name": "Cadeau Saint-Valentin en couple : organisez une soirée chez vous | Caresse",
+          "description": "Pour la Saint-Valentin, prenez en charge la soirée : dîner à la maison, sans réservation de restaurant, puis une découverte audio à deux avec Caresse.",
+          "inLanguage": "fr",
+          "isPartOf": {
+            "@id": "https://caresse.app/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://caresse.app/cadeau-saint-valentin-couple/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://caresse.app/cadeau-saint-valentin-couple/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Caresse",
+              "item": "https://caresse.app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Cette Saint-Valentin, j’organise la soirée.",
+              "item": "https://caresse.app/cadeau-saint-valentin-couple/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://caresse.app/cadeau-saint-valentin-couple/#faq",
+          "inLanguage": "fr",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Est-ce une carte cadeau Caresse ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Non. L’idée est d’organiser une soirée pour votre partenaire et de découvrir l’app ensemble. Cette page ne vend pas de carte cadeau ni de crédits à transférer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Dois-je acheter un audio avant la soirée ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Non. Vous pouvez d’abord écouter une démo gratuite ensemble. Si vous voulez ensuite créer une session personnalisée, choisissez vos préférences à deux et achetez un crédit dans l’app."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Comment garder une surprise sans tout décider à la place de l’autre ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vous pouvez préparer le repas ou le dessert en surprise. Pour l’audio, proposez le format avant et choisissez ensemble ce qui vous convient."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Et si mon ou ma partenaire n’a pas envie d’audio ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Gardez le dîner et changez la suite. Vous pouvez passer la soirée à discuter, regarder un film ou choisir une autre activité ensemble."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quel cadeau de Saint-Valentin de dernière minute sans livraison ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Proposez de vous occuper du dîner chez vous : courses ou commande, dessert et une coupe de champagne ou un soft. Pour la suite, vous pouvez découvrir une démo Caresse à deux, sans achat préalable. Si vous souhaitez créer votre propre audio, la génération utilise un crédit payant."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "shared-4b217ebdb8fa84e9.css",
+    "home-b0af781f.css",
+    "shared-50abc3fe5e51d2e3.css"
+  ],
+  "styleAttrs": {
+    "shared-4b217ebdb8fa84e9.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    },
+    "shared-50abc3fe5e51d2e3.css": {
+      "data-component": "seasonal-editorial"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "../mobile-store-cta.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "../umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-4b217ebdb8fa84e9.css",
+      "attrs": {}
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-50abc3fe5e51d2e3.css",
+      "attrs": {
+        "data-component": "seasonal-editorial"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "class": "skip-link",
+        "href": "#main"
+      },
+      "html": "Aller au contenu"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "header",
+      "ref": "header-01d31e323e903745"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "id": "main",
+        "tabindex": "-1"
+      },
+      "blocks": [
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero",
+            "aria-labelledby": "page-title"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "attrs": {
+                "class": "hero-image",
+                "src": "../seasonal/valentines-soft-kinky.jpg",
+                "alt": "",
+                "width": "1536",
+                "height": "1024",
+                "fetchpriority": "high"
+              },
+              "html": ""
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "hero-inner"
+              },
+              "html": "<div class=\"hero-copy\">\n<p class=\"hero-eyebrow\">Saint-Valentin · Cadeau immatériel · 18+</p>\n<h1 id=\"page-title\">Cette Saint-Valentin,<em>j’organise la soirée.</em></h1>\n<p class=\"hero-lead\">Cette année, proposez de rester à la maison. Vous vous occupez du dîner et des préparatifs ; après, vous pouvez découvrir Caresse à deux. Une idée de cadeau à partager, sans chercher une table au restaurant.</p>\n<div class=\"store-controls\"><div class=\"cta-group\"><a class=\"cta-pink\" id=\"hero-cta\" href=\"https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Télécharger maintenant</a></div></div>\n<p class=\"hero-badge\">Démos gratuites · Sessions personnalisées avec crédits payants · Sans abonnement · 18+</p>\n</div><div class=\"hero-note\"><div class=\"waveform\" aria-hidden=\"true\"><i style=\"--bar:7px\"></i><i style=\"--bar:13px\"></i><i style=\"--bar:23px\"></i><i style=\"--bar:16px\"></i><i style=\"--bar:29px\"></i><i style=\"--bar:20px\"></i><i style=\"--bar:10px\"></i><i style=\"--bar:18px\"></i><i style=\"--bar:28px\"></i><i style=\"--bar:15px\"></i><i style=\"--bar:23px\"></i><i style=\"--bar:30px\"></i><i style=\"--bar:19px\"></i><i style=\"--bar:11px\"></i><i style=\"--bar:22px\"></i><i style=\"--bar:15px\"></i><i style=\"--bar:8px\"></i><i style=\"--bar:18px\"></i><i style=\"--bar:27px\"></i><i style=\"--bar:13px\"></i><i style=\"--bar:7px\"></i></div><small>Une expérience audio à deux</small><p>Une voix. Vos envies. Votre moment.</p></div>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "occasion-strip"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "cadeau-saint-valentin-couple.fr/0080"
+            },
+            {
+              "type": "html",
+              "file": "cadeau-saint-valentin-couple.fr/0081"
+            },
+            {
+              "type": "html",
+              "file": "cadeau-saint-valentin-couple.fr/0082"
+            }
+          ]
+        },
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "intro"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner editorial-split"
+              },
+              "html": "<div><p class=\"section-label\">La soirée chez vous</p><h2 class=\"section-title\">Votre cadeau : une soirée dont vous vous occupez</h2></div><div class=\"intent-prose\"><p>Si vous cherchez quoi offrir pour la Saint-Valentin, vous pouvez proposer de prendre en charge la soirée. Le repas, les courses ou la commande : votre partenaire n’a rien à organiser.</p>\n<p>Pour l’après-dîner, proposez de découvrir Caresse ensemble. Vous pouvez commencer par une démo gratuite, puis décider si vous avez envie de créer une session personnalisée avec un crédit payant.</p></div>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "invitation-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner invitation-layout"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "On reste à la maison ?"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Un message tout simple"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-sub"
+                      },
+                      "html": "Un SMS suffit pour proposer l’idée. Dites ce que vous avez prévu pour le repas et parlez de l’audio avant la soirée : vous saurez si ça vous tente tous les deux."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "invitation-card"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "invitation-kicker"
+                      },
+                      "html": "On reste à la maison ?"
+                    },
+                    {
+                      "type": "html",
+                      "file": "cadeau-saint-valentin-couple.fr/0083"
+                    },
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "invitation-seal"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "cadeau-saint-valentin-couple.fr/0084"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "ideas-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "ideas-heading"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "À vivre ensemble"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Cinq choses à prévoir pour votre soirée"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "ol",
+                  "attrs": {
+                    "class": "ideas-grid"
+                  },
+                  "html": "<li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">01 / 05</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"3\"/><path d=\"m3 6 9 7 9-7\"/></svg></div><h3>Proposer le plan</h3><p>Demandez à votre partenaire si une soirée à la maison lui ferait plaisir. Un message suffit ; pas besoin d’une invitation officielle. Vérifiez surtout que vous êtes disponibles et que vous avez envie de la même chose.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">02 / 05</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z\"/></svg></div><h3>Choisir un repas qui lui plaît</h3><p>Préparez son plat préféré ou commandez dans un endroit que vous connaissez. Si vous offrez de vous occuper du dîner, gérez aussi les courses, la commande et le rangement. Pour trinquer, prévoyez une coupe de champagne ou un soft de votre choix.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">03 / 05</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m12 3 2.6 6.4L21 12l-6.4 2.6L12 21l-2.6-6.4L3 12l6.4-2.6L12 3ZM21 2v4M19 4h4\"/></svg></div><h3>Préparer le salon</h3><p>Rangez ce qui traîne, trouvez une lumière agréable et assurez-vous que vous pourrez être tranquilles. Si vous voulez écouter un audio, chargez le téléphone et essayez l’enceinte à l’avance.</p></li><li class=\"idea-card featured\"><div class=\"idea-top\"><span class=\"idea-number\">04 / 05</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 14v-3a9 9 0 0 1 18 0v3\"/><rect x=\"2\" y=\"12\" width=\"5\" height=\"9\" rx=\"2\"/><rect x=\"17\" y=\"12\" width=\"5\" height=\"9\" rx=\"2\"/></svg></div><h3>Proposer Caresse pour la suite</h3><p>Écoutez une démo gratuite ensemble pour découvrir la voix. Pour une session personnalisée, choisissez vos préférences à deux et utilisez un crédit payant. Vous pourrez voir si le format vous plaît avant d’acheter.</p></li><li class=\"idea-card wide\"><div class=\"idea-top\"><span class=\"idea-number\">05 / 05</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><circle cx=\"8\" cy=\"8\" r=\"1.5\"/><path d=\"m21 15-5-5L5 21\"/></svg></div><h3>Garder la suite ouverte</h3><p>Vous aurez peut-être envie de prolonger le dîner, de vous installer sur le canapé ou d’essayer l’audio. Vous n’avez pas besoin d’enchaîner les activités : voyez comment se passe la soirée.</p></li>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "practical-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner editorial-split"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Les petits détails"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Un cadeau qui se prépare sans livraison"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "practical-panel"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "cadeau-saint-valentin-couple.fr/0085"
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "La veille ou le jour même, occupez-vous de ce qui peut l’être : courses, repas, dessert et coin tranquille. Si le 14 février ne vous arrange pas, fixez une autre date ensemble."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "practical-panel"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "cadeau-saint-valentin-couple.fr/0086"
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Pour la partie audio, vous n’avez pas besoin d’acheter avant d’en parler. Les démos Caresse sont gratuites. La génération d’une session personnalisée se fait avec un crédit payant ; les prix sont indiqués dans l’app et le store."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "experience-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner experience-layout"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "experience-art"
+                  },
+                  "blocks": [
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "aria-hidden": "true"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "cadeau-saint-valentin-couple.fr/0087"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Une voix. Vos envies. Votre moment."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "L’expérience Caresse"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Une voix pour accompagner votre moment"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-sub"
+                      },
+                      "html": "Caresse crée des fictions audio guidées selon vos préférences. Vous pouvez commencer par une démo gratuite dans l’app, puis décider ensemble si une session personnalisée vous tente."
+                    },
+                    {
+                      "type": "element",
+                      "tag": "ol",
+                      "attrs": {
+                        "class": "experience-steps"
+                      },
+                      "html": "<li><span>01</span><div><h3>Découvrez la voix</h3><p>Installez Caresse et découvrez une démo gratuite.</p></div></li><li><span>02</span><div><h3>Choisissez ensemble</h3><p>Pour personnaliser, choisissez le mode duo, vos noms et une ambiance qui vous plaît à tous les deux. La génération utilise un crédit payant.</p></div></li><li><span>03</span><div><h3>Laissez-vous guider</h3><p>Quand l’audio est prêt, installez-vous avec le téléphone ou une enceinte. Le temps de génération et la durée de l’audio peuvent varier.</p></div></li>"
+                    },
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "store-controls"
+                      },
+                      "blocks": [
+                        {
+                          "type": "container",
+                          "tag": "div",
+                          "attrs": {
+                            "class": "cta-group"
+                          },
+                          "blocks": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attrs": {
+                                "class": "cta-pink",
+                                "id": "inline-cta",
+                                "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                                "data-store-auto": "",
+                                "data-cta-position": "inline",
+                                "target": "_blank",
+                                "rel": "noopener"
+                              },
+                              "html": "Télécharger maintenant"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "demo-note"
+                      },
+                      "html": "Pour tous les couples adultes, quels que soient les genres et orientations. Chacun·e peut proposer, refuser, faire une pause ou arrêter à tout moment. Une surprise porte sur l’ambiance ; les envies et les limites se choisissent ensemble."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq-section",
+            "id": "faq",
+            "aria-labelledby": "faq-title"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner faq-layout"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Tout simplement"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title",
+                        "id": "faq-title"
+                      },
+                      "html": "Avant de préparer votre soirée"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "faq-list"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Est-ce une carte cadeau Caresse ?</summary><p>Non. L’idée est d’organiser une soirée pour votre partenaire et de découvrir l’app ensemble. Cette page ne vend pas de carte cadeau ni de crédits à transférer.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Dois-je acheter un audio avant la soirée ?</summary><p>Non. Vous pouvez d’abord écouter une démo gratuite ensemble. Si vous voulez ensuite créer une session personnalisée, choisissez vos préférences à deux et achetez un crédit dans l’app.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Comment garder une surprise sans tout décider à la place de l’autre ?</summary><p>Vous pouvez préparer le repas ou le dessert en surprise. Pour l’audio, proposez le format avant et choisissez ensemble ce qui vous convient.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Et si mon ou ma partenaire n’a pas envie d’audio ?</summary><p>Gardez le dîner et changez la suite. Vous pouvez passer la soirée à discuter, regarder un film ou choisir une autre activité ensemble.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Quel cadeau de Saint-Valentin de dernière minute sans livraison ?</summary><p>Proposez de vous occuper du dîner chez vous : courses ou commande, dessert et une coupe de champagne ou un soft. Pour la suite, vous pouvez découvrir une démo Caresse à deux, sans achat préalable. Si vous souhaitez créer votre propre audio, la génération utilise un crédit payant.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "closing-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Caresse · iOS &amp; Android"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Et si votre prochaine soirée commençait ici ?"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Découvrez la voix avec une démo gratuite dans Caresse. Si le format vous plaît, choisissez ensemble vos préférences pour une session personnalisée payante."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "cta-group"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "class": "cta-pink",
+                        "id": "footer-cta",
+                        "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                        "data-store-auto": "",
+                        "data-cta-position": "footer",
+                        "target": "_blank",
+                        "rel": "noopener"
+                      },
+                      "html": "Télécharger maintenant"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "store-badges"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                        "class": "store-badge",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Télécharger dans l’App Store"
+                      },
+                      "html": "\n<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Télécharger dans l’App Store\" width=\"162\" height=\"54\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                        "class": "store-badge gplay",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Disponible sur Google Play"
+                      },
+                      "html": "\n<img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Disponible sur Google Play\" width=\"207\" height=\"80\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Démos gratuites · Sessions personnalisées avec crédits payants · Sans abonnement · 18+"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "aside",
+          "attrs": {
+            "class": "editorial-links",
+            "aria-label": "D’autres idées pour vos moments à deux",
+            "style": "margin:0 auto;color:var(--text-secondary);line-height:1.8;"
+          },
+          "html": "<p>D’autres idées pour vos moments à deux : <a href=\"/saint-valentin/\">Saint-Valentin à la maison</a> · <a href=\"/noel-en-couple/\">Sept soirées de Noël en couple</a> · <a href=\"/soiree-romantique-maison/\">Soirée romantique à la maison</a> · <a href=\"/for-couples/\">Caresse en couple</a> · <a href=\"/nouvel-an-en-couple/\">Nouvel An en couple à la maison</a>.</p>"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-f0c69fe9d935eaeb",
+        "footer-ee3ce3cb5a30710f",
+        "footer-4850d4697fba660e",
+        "footer-b7998d652f849e41",
+        "footer.fr.copy"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
+    }
+  ]
+}

@@ -1,0 +1,976 @@
+{
+  "id": "blog-exploration-solo-deculpabiliser.fr",
+  "family": "blog-exploration-solo-deculpabiliser",
+  "locale": "fr",
+  "path": "/blog/exploration-solo-deculpabiliser/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "fr"
+  },
+  "bodyAttrs": {},
+  "title": "Exploration solo : se déculpabiliser et prendre du temps pour soi",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Prendre du temps pour soi, seul·e, n'a rien d'égoïste. Comprendre pourquoi la culpabilité s'installe et comment s'accorder cet espace sans arrière-pensée."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "article"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/blog/exploration-solo-deculpabiliser/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Exploration solo : se déculpabiliser et prendre du temps pour soi"
+    },
+    {
+      "property": "og:description",
+      "content": "Prendre du temps pour soi, seul·e, n'a rien d'égoïste. Comprendre pourquoi la culpabilité s'installe et comment s'accorder cet espace sans arrière-pensée."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Exploration solo, se déculpabiliser, Caresse"
+    },
+    {
+      "property": "og:locale",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Exploration solo : se déculpabiliser"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Pourquoi la culpabilité s'installe et comment s'accorder du temps pour soi sans arrière-pensée."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Exploration solo, se déculpabiliser, Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Exploration solo : se déculpabiliser et prendre du temps pour soi",
+      "description": "Prendre du temps pour soi, seul·e, n'a rien d'égoïste. Comprendre pourquoi la culpabilité s'installe et comment s'accorder cet espace sans arrière-pensée.",
+      "url": "https://caresse.app/blog/exploration-solo-deculpabiliser/",
+      "datePublished": "2026-08-03",
+      "dateModified": "2026-08-03",
+      "inLanguage": "fr",
+      "image": "https://caresse.app/og-image-fr.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://caresse.app/blog/exploration-solo-deculpabiliser/"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Exploration solo, se déculpabiliser",
+          "item": "https://caresse.app/blog/exploration-solo-deculpabiliser/"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "article-146693e5.css"
+  ],
+  "styleAttrs": {
+    "article-146693e5.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "article-146693e5.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-6a408359eb74a7f2"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/blog/"
+          },
+          "html": "Blog"
+        },
+        {
+          "type": "text",
+          "html": " › Exploration solo, se déculpabiliser\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "article-hero"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "eyebrow"
+          },
+          "html": "Solo · Bien-être · Anonymat"
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "Exploration solo : se déculpabiliser et prendre du temps pour soi"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "article-meta"
+          },
+          "html": "Comprendre et agir · 6 min de lecture"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "article-intro"
+          },
+          "html": "S'accorder du temps pour soi, seul·e, déclenche souvent une gêne diffuse, comme si c'était un luxe à justifier. Voici pourquoi cette culpabilité s'installe, et comment s'en défaire pour de bon."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "article",
+      "attrs": {},
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Beaucoup de personnes ressentent une pointe de culpabilité dès qu'elles s'accordent un moment rien que pour elles, en particulier quand ce moment touche à l'intimité. Ce n'est pas un trait de caractère individuel : c'est un réflexe largement construit par l'idée, très répandue, que le temps disponible devrait toujours être mis au service de quelqu'un d'autre. Comprendre d'où vient cette culpabilité est souvent le premier pas pour s'en défaire."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.fr/0011"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "D'où vient cette culpabilité"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Le temps pour soi est souvent perçu comme secondaire par rapport aux obligations envers les autres, que ce soit le travail, la famille ou une relation. Cette hiérarchie n'est pas une nécessité logique, c'est une habitude culturelle profondément ancrée, en particulier chez les personnes habituées à être disponibles pour tout le monde sauf elles-mêmes. Y renoncer demande un vrai effort conscient, pas juste une décision ponctuelle."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.fr/0012"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Le temps pour soi n'est pas retiré aux autres"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "L'idée que s'occuper de soi prive automatiquement les autres de quelque chose est rarement vraie dans les faits. À l'inverse, un moment de détente ou de connexion à soi améliore souvent la disponibilité émotionnelle qu'on peut ensuite offrir à ses proches ou à son ou sa partenaire. Le voir comme un investissement plutôt qu'une dépense change la façon dont on l'aborde."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.fr/0013"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "L'exploration solo n'est pas un pis-aller"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Même en couple, l'exploration solo garde une valeur propre. Mieux se connaître seul·e, comprendre ce qui plaît, ce qui apaise, ce qui intrigue, nourrit ensuite la communication à deux. Ce n'est pas un remplacement de l'intimité partagée, c'est un espace différent qui coexiste avec elle sans la concurrencer."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.fr/0014"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "L'anonymat comme condition, pas comme option"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Le sentiment d'être observé ou jugé, même à tort, suffit à couper court à toute détente. C'est particulièrement vrai pour l'exploration solo, où la moindre trace laissée (un compte, un email, un historique) peut suffire à réintroduire l'auto-censure qu'on cherche justement à éviter. Choisir un cadre réellement anonyme n'est pas un détail technique secondaire, c'est une condition de base pour se sentir libre d'explorer."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "callout"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Caresse fonctionne entièrement sans compte, y compris pour les sessions payantes. Aucune inscription, aucun email requis : juste un espace privé, configuré selon vos envies du moment. Voir <a href=\"/for-solo-exploration/\">Caresse pour l'exploration solo</a>\n            <a href=\"/for-blind-and-low-vision/\">Aveugles et malvoyants</a>."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.fr/0015"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Ne pas savoir ce qu'on veut n'est pas un problème"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Beaucoup de personnes hésitent à se lancer dans l'exploration solo simplement parce qu'elles n'ont pas d'idée précise de ce qu'elles cherchent. C'est normal : sans injonction extérieure ni comparaison, la plupart des gens n'ont jamais eu l'occasion de vraiment se poser la question. Un cadre guidé, qui propose des options plutôt que d'exiger une idée déjà formée, aide à découvrir ses préférences progressivement, sans pression de performance."
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "S'accorder ce moment, sans justification"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "La dernière étape est souvent la plus simple à comprendre et la plus difficile à appliquer : s'autoriser ce temps sans avoir besoin de le justifier, ni à soi-même ni à personne d'autre. Ce n'est pas un luxe exceptionnel réservé aux jours où tout va bien, c'est un espace qui peut exister régulièrement, au même titre que n'importe quel autre moment de bien-être."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "faq-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Questions fréquentes"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Exploration solo, vos questions."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Pourquoi je me sens coupable de prendre du temps pour moi ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Souvent parce que le temps pour soi est perçu comme un luxe plutôt qu'un besoin, surtout quand l'emploi du temps est déjà chargé par le travail, la famille ou une relation. Cette hiérarchie n'est pas une vérité, c'est une habitude culturelle. Le temps pour soi n'est pas retiré aux autres, il conditionne souvent la qualité de ce qu'on peut leur donner ensuite."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "L'exploration solo a-t-elle un intérêt même en couple ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Oui, et c'est même complémentaire. Mieux se connaître seul·e permet ensuite de mieux communiquer ses envies à deux. Ce n'est pas un substitut à l'intimité de couple, c'est un espace différent, qui ne retire rien à la relation."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Comment se créer un espace privé sans se sentir observé·e ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "En choisissant des outils réellement anonymes plutôt que des services qui demandent un compte, un email ou un historique lié à une identité. Le sentiment d'être observé, même à tort, suffit à couper l'accès à la détente recherchée. L'anonymat n'est pas un détail technique, c'est une condition du lâcher-prise."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Est-ce normal de ne pas savoir ce qu'on veut explorer ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Complètement normal. Beaucoup de personnes n'ont jamais eu l'occasion de se poser la question sans pression ni comparaison. Un cadre guidé, qui propose des options plutôt que d'exiger une idée précise dès le départ, aide justement à découvrir ses préférences progressivement."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Passer à l'action"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Un espace rien que pour vous, ce soir."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Caresse configure une session solo en quelques questions, entièrement anonyme, sans compte ni email. Démos gratuites, sans engagement."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+            "id": "hero-cta",
+            "class": "cta-pink",
+            "target": "_blank",
+            "rel": "noopener"
+          },
+          "html": "Découvrir Caresse"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Réservé aux adultes de 18 ans et plus"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "related-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Pour aller plus loin"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Explorez d'autres ressources."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "related-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/for-solo-exploration/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🌙</div>\n                    <p class=\"ttl\">Caresse pour l'exploration solo</p>\n                    <p class=\"desc\">Un espace privé, guidé par l'IA, rien que pour vous.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/blog/parler-de-ses-fantasmes/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">💬</div>\n                    <p class=\"ttl\">Parler de ses fantasmes</p>\n                    <p class=\"desc\">Une méthode pour aborder le sujet sans gêne.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/blog/raviver-la-flamme-couple/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🕰️</div>\n                    <p class=\"ttl\">Raviver la flamme en couple</p>\n                    <p class=\"desc\">7 pistes concrètes pour recréer du désir.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/blog/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">📝</div>\n                    <p class=\"ttl\">Tous les articles</p>\n                    <p class=\"desc\">Le blog Caresse : couple, intimité, exploration.</p>\n                "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.fr.logo",
+        "footer-e3970a856426b847",
+        "footer.fr.links",
+        "footer-c18220e05a34e590",
+        "footer.fr.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

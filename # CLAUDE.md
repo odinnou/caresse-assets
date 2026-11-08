@@ -172,7 +172,7 @@ Le site sert le **FR depuis la racine** (`/`, `/for-couples/`, etc.) et l'**EN d
 
 ### ⚠️ Propagation FR → EN obligatoire
 
-**Quand tu modifies une page FR, propage le change à la page EN équivalente** (et inversement). Il n'y a pas de build script : les deux versions sont des fichiers HTML maintenus manuellement en parallèle.
+**Quand tu modifies une page FR, propage le change à la page EN équivalente** (et inversement). Les 226 pages historiques sont construites avec Astro en CI, sans serveur applicatif en production. Éditer `src/content/pages/` et `src/content/blocks/` ; `public/` contient les assets et les fichiers de configuration publics. Ne pas modifier `dist/`. Traiter aussi les traductions ES/PT disponibles. Voir `docs/ASTRO-MIGRATION.md` et `src/data/routes.json` pour les correspondances actuelles.
 
 Points à synchroniser systématiquement :
 

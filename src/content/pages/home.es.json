@@ -1,0 +1,464 @@
+{
+  "id": "home.es",
+  "family": "home",
+  "locale": "es",
+  "path": "/es/",
+  "htmlAttrs": {
+    "lang": "es",
+    "data-analytics-variant": "home-direct-v1-anonymous-feature-v1-offer-clarity-oct05-v1-home-snippet-oct17-v1-seo-consistency-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-es"
+  },
+  "title": "Caresse, App de intimidad con IA, parejas y solo | Audio guiado",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Audio íntimo personalizado con IA, en pareja o a solas. Demos gratis sin cuenta de Caresse. Sesiones con créditos de pago, sin suscripción. iOS y Android."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/es/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse, App de intimidad con IA, parejas y solo"
+    },
+    {
+      "property": "og:description",
+      "content": "Audio íntimo personalizado con IA, en pareja o a solas. Demos gratis sin cuenta de Caresse. Sesiones con créditos de pago, sin suscripción. iOS y Android."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse, experiencia de audio íntima guiada por IA, en iOS y Android"
+    },
+    {
+      "property": "og:locale",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse, App de intimidad con IA, parejas y solo"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Audio íntimo personalizado con IA, en pareja o a solas. Demos gratis sin cuenta de Caresse. Sesiones con créditos de pago, sin suscripción. iOS y Android."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse, experiencia de audio íntima guiada por IA"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://i.ytimg.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "@id": "https://caresse.app/#app",
+      "name": "Caresse",
+      "description": "Caresse es una app de intimidad guiada por IA, para parejas y exploración en solitario, que genera experiencias de audio inmersivas personalizadas. Descarga gratuita con demos incluidas, sin necesidad de crear cuenta. Cada sesión se genera en tiempo real según tus deseos, tu estado de ánimo y tus límites, sin contenido visual explícito. Compras integradas desde 2€ por sesión.",
+      "url": "https://caresse.app/es/",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS, Android",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "downloadUrl": "https://caresse.app/es/download/",
+      "contentRating": "Adults Only 18+",
+      "sameAs": [
+        "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+        "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+        "https://x.com/app_caresse",
+        "https://www.instagram.com/caresse.app",
+        "https://www.youtube.com/@app.caresse",
+        "https://www.tiktok.com/@caresse.app"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Adults 18+"
+      },
+      "inLanguage": [
+        "fr",
+        "en",
+        "es",
+        "pt"
+      ],
+      "keywords": "IA íntima, audio romántico, parejas, experiencias guiadas, estilo de vida",
+      "featureList": [
+        "Experiencias de audio guiadas generadas por IA",
+        "Personalización completa: ambiente, intensidad, accesorios",
+        "Modo solo y modo dúo",
+        "Diseño inclusivo y abierto a todas las identidades",
+        "Interfaz privada y discreta",
+        "Sesiones únicas en cada generación"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "@id": "https://caresse.app/#video",
+      "name": "Descubre Caresse: experiencias de audio personalizadas con IA, para parejas y en solitario",
+      "description": "Presentación de Caresse, la app de intimidad guiada por IA. Cada sesión se genera en tiempo real según tus preferencias, tu dinámica de relación, la intensidad elegida y tus límites. En solitario o en pareja, sin contenido visual explícito.",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/hLcwrOdqChY/maxresdefault.jpg"
+      ],
+      "uploadDate": "2026-07-12T06:47:42-07:00",
+      "duration": "PT2M41S",
+      "contentUrl": "https://www.youtube.com/watch?v=hLcwrOdqChY",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hLcwrOdqChY",
+      "inLanguage": "en",
+      "isFamilyFriendly": false,
+      "about": {
+        "@id": "https://caresse.app/#app"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://caresse.app/es/#webpage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://caresse.app/es/#webpage",
+      "url": "https://caresse.app/es/",
+      "name": "Caresse, App de intimidad con IA, parejas y solo | Audio guiado",
+      "inLanguage": "es",
+      "about": {
+        "@id": "https://caresse.app/#app"
+      },
+      "primaryImageOfPage": "https://caresse.app/og-image-en.png",
+      "video": {
+        "@id": "https://caresse.app/#video"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    }
+  ],
+  "styles": [
+    "home-d6d87761.css"
+  ],
+  "headScripts": [
+    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
+    "<script defer src=\"/umami-store-tracking.js\"></script>",
+    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  ],
+  "blocks": [
+    {
+      "type": "html",
+      "file": "home.es/00"
+    },
+    {
+      "type": "cards",
+      "prefix": "<section class=\"steps\">\n        <div class=\"steps-header\">\n            <p class=\"section-label\">Cómo funciona</p>\n            <h2 class=\"section-title\">Tu experiencia de audio íntima en 4 pasos</h2>\n            <p class=\"section-sub\">Configura, inicia, y Caresse crea una experiencia a medida, totalmente personalizada. Recibes una notificación en cuanto está lista.</p>\n            </div>\n\n        ",
+      "suffix": "\n    </section>",
+      "attrs": {
+        "class": "steps-grid"
+      },
+      "items": [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "html": "\n                <div class=\"step-screen\">\n                    <img src=\"/screens/en/05_android_en.webp\" loading=\"lazy\" alt=\"Quién participa, elige solo o dúo, personaliza tus perfiles\" width=\"1179\" height=\"2556\">\n                </div>\n                <div class=\"step-body\">\n                    <p class=\"step-num\">Paso 01</p>\n                    <h3>¿Quién participa?</h3>\n                    <p>Solo o en dúo, elige tu modo y personaliza libremente tus perfiles. Basta con un alias. Tus datos reales siguen siendo tuyos.</p>\n                    </div>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "html": "\n                <div class=\"step-screen\">\n                    <img src=\"/screens/en/07_android_en.webp\" loading=\"lazy\" alt=\"Tus deseos, accesorios, prácticas, ambiente, personalización completa\" width=\"1179\" height=\"2556\">\n                </div>\n                <div class=\"step-body\">\n                    <p class=\"step-num\">Paso 02</p>\n                    <h3>Tus deseos, tus reglas</h3>\n                    <p>Ambiente sonoro, tono de la narración, prácticas, accesorios, dinámicas… Define libremente lo que te atrae. Caresse se adapta a ti, nunca al revés.</p>\n                    </div>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "html": "\n                <div class=\"step-screen\">\n                    <img src=\"/screens/en/08_android_en.webp\" loading=\"lazy\" alt=\"Intensidad y ambiente musical, romántico, explícito, zen, naturaleza\" width=\"1179\" height=\"2556\">\n                </div>\n                <div class=\"step-body\">\n                    <p class=\"step-num\">Paso 03</p>\n                    <h3>Intensidad y ambiente</h3>\n                    <p>¿Romántico o explícito? ¿Zen o naturaleza? Ajusta el tono y la intensidad de la narración para que el ambiente se parezca exactamente a ti.</p>\n                    </div>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "html": "\n                <div class=\"step-screen\">\n                    <img src=\"/screens/en/09_android_en.webp\" loading=\"lazy\" alt=\"Experiencia lista, generada a medida por la IA, notificación en cuanto está lista\" width=\"1179\" height=\"2556\">\n                </div>\n                <div class=\"step-body\">\n                    <p class=\"step-num\">Paso 04</p>\n                    <h3>Experiencia lista</h3>\n                    <p>Caresse genera tu sesión en pocos minutos. Recibes una notificación en cuanto está lista. Única, inédita, solo para ti, y diferente cada vez.</p>\n                    </div>\n            "
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "file": "home.es/01"
+    },
+    {
+      "type": "faq",
+      "prefix": "<section class=\"faq\" id=\"faq\">\n        <p class=\"section-label\">Preguntas frecuentes</p>\n        <h2 class=\"section-title\">Todo lo que quieres saber</h2>\n        ",
+      "suffix": "\n    </section>",
+      "attrs": {
+        "class": "faq-list"
+      },
+      "items": [
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "¿Puedo comprar sesiones en modo anónimo?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Sí. El modo anónimo permite usar Caresse y comprar sesiones sin crear una cuenta de Caresse. Las compras se realizan a través del App Store o Google Play y requieren una cuenta de Apple o Google en la tienda utilizada, con su método de pago. El modo anónimo se aplica al uso de Caresse, no a la transacción con la tienda."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "¿Qué es Caresse?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Caresse es una app de intimidad guiada por IA, para parejas y exploración en solitario. Genera en tiempo real experiencias de audio inmersivas, personalizadas según tus deseos, tu estado de ánimo y tus límites. No hay contenido visual explícito: todo se basa en una voz que te guía y en tu imaginación."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "¿Hace falta crear una cuenta para probarla?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "No. Hay una experiencia de demostración disponible al abrir la aplicación por primera vez, sin registro. Si quieres ir más lejos, basta con un identificador anónimo: un nombre o seudónimo de tu elección, sin identidad real."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "¿Cuánto cuesta Caresse?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "La descarga es gratuita e incluye demos. Después pagas por sesión, desde 2 €: no hay suscripción. Un desbloqueo opcional de pago único da acceso a más opciones de personalización."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "¿En qué se diferencia de un catálogo de audio?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Un catálogo reproduce grabaciones ya existentes. Caresse escribe y genera cada sesión en el momento en que la inicias: dos sesiones con la misma configuración nunca serán idénticas. A cambio, al ser contenido generativo, siguen siendo posibles pequeñas incoherencias."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "¿En qué idiomas está disponible Caresse?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "La app ofrece sesiones de audio en español, francés, inglés y portugués. La interfaz en portugués está disponible en Android; la actualización para iOS está pendiente de aprobación. Las demos publicadas en el sitio están en español, francés e inglés."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "¿Se puede usar en solitario y en pareja?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Ambas cosas. Hay modo solo y modo dúo, y la personalización se adapta al modo elegido, incluidos los nombres que se usan en la narración. Caresse es solo para mayores de edad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "file": "home.es/02"
+    }
+  ],
+  "footer": [
+    "footer.es.logo",
+    "footer.es.navigation.home",
+    "footer.es.links.couples",
+    "footer.es.social",
+    "footer.es.copy"
+  ],
+  "scripts": [
+    "<script>\n        // Carousel\n        const slides = document.querySelectorAll('.phone-carousel-slide');\n        const dotsContainer = document.getElementById('carouselDots');\n        const carousel = document.getElementById('phoneCarousel');\n        let current = 0;\n        let timer;\n\n        slides.forEach((_, i) => {\n            const dot = document.createElement('button');\n            dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');\n            dot.setAttribute('aria-label', 'Screen ' + (i + 1));\n            dot.addEventListener('click', () => { goTo(i); resetTimer(); });\n            dotsContainer.appendChild(dot);\n        });\n\n        carousel.addEventListener('click', () => { next(); resetTimer(); });\n\n        function goTo(index) {\n            slides[current].classList.remove('active');\n            dotsContainer.children[current].classList.remove('active');\n            current = index;\n            slides[current].classList.add('active');\n            dotsContainer.children[current].classList.add('active');\n        }\n\n        function next() { goTo((current + 1) % slides.length); }\n\n        function resetTimer() {\n            clearInterval(timer);\n            timer = setInterval(next, 3000);\n        }\n\n        resetTimer();\n    </script>",
+    "<script>\n        document.querySelectorAll('.video-facade').forEach(function (facade) {\n            facade.addEventListener('click', function () {\n                var id = facade.dataset.videoId;\n                var iframe = document.createElement('iframe');\n                iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';\n                iframe.title = facade.dataset.videoTitle;\n                iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';\n                iframe.allowFullscreen = true;\n                facade.replaceWith(iframe);\n            });\n        });\n    </script>"
+  ],
+  "header": "header.es.home",
+  "footerAttrs": {}
+}

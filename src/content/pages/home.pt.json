@@ -1,0 +1,262 @@
+{
+  "id": "home.pt",
+  "family": "home",
+  "locale": "pt",
+  "path": "/pt/",
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "home-pt-reach-oct10-v1-home-snippet-oct17-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-pt"
+  },
+  "title": "Áudio íntimo em português para casais e solo | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Áudio íntimo em português, para casais ou solo. Demos grátis; sessões com créditos pagos, sem assinatura. iOS e Android, com tradução parcial da interface."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Áudio íntimo em português para casais e solo | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Áudio íntimo em português, para casais ou solo. Demos grátis; sessões com créditos pagos, sem assinatura. iOS e Android, com tradução parcial da interface."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Áudio íntimo em português para casais e solo | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Áudio íntimo em português, para casais ou solo. Demos grátis; sessões com créditos pagos, sem assinatura. iOS e Android, com tradução parcial da interface."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Áudio íntimo em português para casais e solo | Caresse",
+      "description": "App de intimidade por áudio em português, individual ou a dois. Baixe grátis para iPhone e Android. Sessões com créditos pagos, sem assinatura.",
+      "url": "https://caresse.app/pt/",
+      "inLanguage": "pt",
+      "dateModified": "2026-10-24",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é o Caresse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Caresse é um app de ficções guiadas por áudio para adultos, em uso individual ou a dois. Uma voz sintética narra experiências criadas no app. Não é um serviço médico ou terapêutico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Caresse funciona em português?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O app cria áudios em português. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. As demos disponíveis no site estão em francês, inglês e espanhol."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Caresse é gratuito?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O download e as demos são gratuitos. Criar uma sessão a partir das suas preferências no app usa um crédito pago, sem assinatura. Um desbloqueio opcional de opções avançadas é vendido separadamente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso criar uma conta Caresse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O modo convidado permite usar o Caresse sem criar uma conta Caresse. Compras usam sua conta Apple ou Google e seu método de pagamento: a transação com a loja não é anônima."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O site cria sessões personalizadas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Este site apresenta o app e leva diretamente à App Store ou ao Google Play. As demos são exemplos pré-gerados; nenhuma sessão personalizada é gerada aqui."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso usar sozinho ou em casal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O Caresse oferece experiências individuais ou a dois. Toda sugestão é opcional: vocês podem pausar, pular uma proposta ou parar. O app é exclusivo para maiores de 18 anos."
+          }
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "home-fa92676e.css",
+    "home-b0af781f.css"
+  ],
+  "headScripts": [
+    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
+    "<script defer src=\"/umami-store-tracking.js\"></script>",
+    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  ],
+  "blocks": [
+    {
+      "type": "html",
+      "file": "home.pt/00"
+    }
+  ],
+  "footer": [
+    "footer.pt.logo.comparison",
+    "footer.pt.navigation.comparison",
+    "footer.pt.links.comparison",
+    "footer.pt.social.comparison",
+    "footer.pt.copy.comparison"
+  ],
+  "scripts": [],
+  "header": "header.pt.comparison",
+  "footerAttrs": {},
+  "styleAttrs": {
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  }
+}

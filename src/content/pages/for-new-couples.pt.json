@@ -1,0 +1,1121 @@
+{
+  "id": "for-new-couples.pt",
+  "family": "for-new-couples",
+  "locale": "pt",
+  "path": "/pt/para-casais-recentes/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "seo-consistency-oct23-v1-seo-consistency-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-pt"
+  },
+  "title": "Caresse para casais recentes — Explorem juntos sem pressão | iOS e Android",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Áudio íntimo guiado por IA para casais recentes. Conversem sobre preferências e descubram uma experiência a dois, no ritmo de ambos."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/para-casais-recentes/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse para casais recentes — Explorem sem pressão"
+    },
+    {
+      "property": "og:description",
+      "content": "Uma experiência em áudio guiada por voz sintética para casais que querem descobrir preferências juntos, sem cobrança."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse para casais recentes — Experiência íntima em áudio guiada por IA"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse para casais recentes"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Um convite para explorar a intimidade juntos, com os limites de vocês e sem pressão."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse para casais recentes — Experiência íntima em áudio guiada por IA"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Mapa do site",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse para casais recentes",
+      "description": "Experiência íntima em áudio guiada por IA para casais recentes. Um convite para conversar sobre desejos e explorar juntos, sem pressão.",
+      "url": "https://caresse.app/pt/para-casais-recentes/",
+      "inLanguage": "pt",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://caresse.app/screens/en/03_android_en.webp"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/pt/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Casais recentes",
+            "item": "https://caresse.app/pt/para-casais-recentes/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-bf57593ed2d4ad8d.css",
+    "home-b0af781f.css"
+  ],
+  "styleAttrs": {
+    "shared-bf57593ed2d4ad8d.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-bf57593ed2d4ad8d.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-e506b25398f5c410"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " "
+        },
+        {
+          "type": "html",
+          "file": "for-new-couples.pt/0755"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "💫 · Casais recentes · Áudio guiado · IA"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Explorem juntos<br>sem <em>pressão.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "No começo de uma relação, pode ser difícil falar sobre intimidade. O Caresse oferece um contexto guiado por voz para descobrir preferências compartilhadas, com espaço para conversar e respeitar os limites de ambos."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-cta\" class=\"cta-pink\" target=\"_blank\" rel=\"noopener\">\n\n                <span class=\"inline\">Baixar grátis</span>\n            </a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Disponível para iOS e Android · Demos pré-geradas gratuitas<br>Áudios em português no app; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "benefits"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Por que Caresse no começo da relação?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Abrir espaço para a conexão."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "As primeiras semanas podem trazer descobertas e inseguranças. As opções do app podem ajudar a conversar sobre desejos, sem exigir um roteiro ou palavras perfeitas."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "benefits-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🌱</div>\n\n                <h3>Comecem com tranquilidade</h3>\n\n                <p>Vocês escolhem a configuração juntos e a voz oferece uma narrativa. Ninguém precisa preparar sozinho todo o momento, nem participar de algo que não queira.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">💬</div>\n\n                <h3>Conversem sobre o que desejam</h3>\n\n                <p>A configuração pode abrir uma conversa sobre preferências e limites. Escolham apenas o que fizer sentido para ambos e continuem atentos ao conforto durante a sessão.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🛡️</div>\n\n                <h3>Consentimento ao longo da experiência</h3>\n\n                <p>Consentimento e conforto fazem parte da proposta do Caresse. Qualquer sugestão pode ser recusada, adaptada ou interrompida, mesmo que tenha sido escolhida antes.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🎨</div>\n\n                <h3>Explorem no seu ritmo</h3>\n\n                <p>Comecem de forma suave e mudem a intensidade apenas quando ambos quiserem. As opções orientam a geração, mas vocês continuam no controle do que desejam viver.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "how"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "how-inner"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "how-text"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "section-label"
+                  },
+                  "html": "O que o Caresse oferece"
+                },
+                {
+                  "type": "element",
+                  "tag": "h2",
+                  "attrs": {
+                    "class": "section-title"
+                  },
+                  "html": "Um contexto compartilhado para se conhecer melhor."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "section-sub"
+                  },
+                  "html": "Nem sempre é simples colocar desejos em palavras no início de uma relação. Uma proposta guiada pode ajudar a começar a conversa, sem substituí-la."
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "trust-list"
+                  },
+                  "html": "\n                    <li><span class=\"check\">✦</span> A voz orienta o momento, sem exigir um roteiro de vocês</li>\n                    <li><span class=\"check\">✦</span> Escolher juntos pode abrir uma conversa sobre desejos</li>\n                    <li><span class=\"check\">✦</span> Consentimento e conforto continuam essenciais</li>\n                    <li><span class=\"check\">✦</span> Sem imagens explícitas: áudio e imaginação</li>\n                    <li><span class=\"check\">✦</span> Diferentes orientações e dinâmicas são bem-vindas</li>\n                "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Perguntas frequentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "O que você quer saber"
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Caresse é adequado para um relacionamento recente?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Pode ser, desde que ambos sejam adultos e queiram participar. Vocês podem escolher uma intensidade suave e conhecer uma demo antes de criar uma sessão. Não é preciso avançar além do que for confortável para os dois."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Como o Caresse pode ajudar a conversar sobre desejos?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "A configuração apresenta opções de ambiente, sugestões e dinâmica para escolher juntos. Elas podem abrir uma conversa sobre preferências e limites, sem exigir que alguém encontre sozinho todas as palavras."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "E se discordarmos sobre uma preferência?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Escolham apenas o que faz sentido para ambos. Se uma opção não agradar a uma pessoa, deixem de selecioná-la. O consentimento continua necessário durante toda a experiência, não apenas na configuração."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O app aceita diferentes orientações e dinâmicas?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sim. O Caresse propõe experiências inclusivas, com opções para diferentes identidades, orientações e dinâmicas. Escolham a configuração disponível que represente vocês e respeite o que ambos desejam."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Caresse serve para um primeiro encontro?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Configurar uma sessão juntos envolve falar sobre preferências e limites. Por isso, faz mais sentido quando vocês já se sentem confortáveis com essa conversa. Não há obrigação de usar o app em uma etapa específica da relação."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "E se não concordarmos com a intensidade?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Escolham o nível confortável para os dois, sem pressão para avançar. As opções podem ajudar a conversar sobre limites, mas não devem ser usadas para convencer a outra pessoa. É válido adiar ou não participar."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "background:var(--surface);padding:60px 5%;"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Ao longo da relação, veja também"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Diferentes momentos para o Caresse."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "style": "display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:900px;margin-top:32px;"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/para-casais/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔥</div>\n\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Casais que já se conhecem</p>\n\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Abrir espaço para a conexão e sair do habitual</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/para-casais-de-longa-data/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🕰️</div>\n\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Casais de longa data</p>\n\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Descobrir algo novo ao longo do tempo</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/para-casais-com-pouco-tempo/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">⚡</div>\n\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Casais com pouco tempo</p>\n\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Abrir espaço para a intimidade na rotina</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/exploracao-solo/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🌙</div>\n\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Exploração solo</p>\n\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Conhecer suas preferências individualmente</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/para-casais-aventureiros/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔥</div>\n\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Casais que querem explorar mais</p>\n\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Quando ambos quiserem explorar mais</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "padding:60px 5%;"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Para saber mais"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Como conversar sobre suas fantasias sem constrangimento"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub",
+            "style": "max-width:760px;"
+          },
+          "html": "No começo de uma relação, dizer o que você deseja pode ser a parte mais difícil. Nosso artigo apresenta um caminho para conversar sobre fantasias com respeito, sem exigir uma resposta imediata nem transformar o assunto em uma cobrança."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/blog/como-conversar-sobre-fantasias/",
+            "style": "display:inline-block;margin-top:24px;background:var(--surface);border-radius:16px;padding:24px 28px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);max-width:620px;"
+          },
+          "html": "\n            <p style=\"font-weight:700;color:var(--primary);font-size:1rem;\">Como conversar sobre suas fantasias sem constrangimento</p>\n            <p style=\"font-size:0.85rem;color:var(--text-secondary);margin-top:6px;\">Ler o artigo &rarr;</p>\n        "
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "aside",
+      "attrs": {
+        "id": "audio-experiences-links",
+        "aria-label": "Para saber mais",
+        "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
+      },
+      "html": "\n        <p>Para preparar o momento de vocês, vejam também: <a href=\"/pt/blog/primeira-experiencia-audio-intimo-casal/\" style=\"color:var(--primary);text-underline-offset:3px;\">um guia para experimentar áudio íntimo em casal</a>.</p>\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Querem começar juntos?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Uma primeira experiência compartilhada<br>para descobrir."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Baixe o Caresse grátis e conheça as demos pré-geradas sem criar uma conta Caresse. Sessões personalizadas usam créditos pagos, sem assinatura."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "compare-note"
+          },
+          "html": "Está comparando apps? Veja <a href=\"/pt/alternatives/\">a comparação entre Caresse, Melba, Coelle e Dipsea</a> , com exemplos em áudio pré-gerados e sem cadastro."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                "class": "store-badge",
+                "aria-label": "Baixar na App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Baixar na App Store\">\n\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Baixar no Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png\" alt=\"Baixar no Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Apenas para maiores de 18 anos"
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.pt.logo",
+        "footer-76992d3400e926e2",
+        "footer.pt.links.couples",
+        "footer-0719760d8779fab2",
+        "footer.pt.copy.couples"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

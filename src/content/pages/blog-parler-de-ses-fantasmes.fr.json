@@ -1,0 +1,982 @@
+{
+  "id": "blog-parler-de-ses-fantasmes.fr",
+  "family": "blog-parler-de-ses-fantasmes",
+  "locale": "fr",
+  "path": "/blog/parler-de-ses-fantasmes/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "fr"
+  },
+  "bodyAttrs": {},
+  "title": "Comment parler de ses fantasmes à son ou sa partenaire sans gêne",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "La peur du jugement bloque plus de couples que le manque d'envie. Une méthode concrète, étape par étape, pour aborder ses fantasmes sans malaise."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "article"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/blog/parler-de-ses-fantasmes/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Comment parler de ses fantasmes à son ou sa partenaire sans gêne"
+    },
+    {
+      "property": "og:description",
+      "content": "La peur du jugement bloque plus de couples que le manque d'envie. Une méthode concrète, étape par étape, pour aborder ses fantasmes sans malaise."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Comment parler de ses fantasmes à son ou sa partenaire, Caresse"
+    },
+    {
+      "property": "og:locale",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Comment parler de ses fantasmes sans gêne"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Une méthode concrète pour aborder ses fantasmes avec son ou sa partenaire, sans malaise."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Comment parler de ses fantasmes à son ou sa partenaire, Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Comment parler de ses fantasmes à son ou sa partenaire sans gêne",
+      "description": "La peur du jugement bloque plus de couples que le manque d'envie. Une méthode concrète, étape par étape, pour aborder ses fantasmes sans malaise.",
+      "url": "https://caresse.app/blog/parler-de-ses-fantasmes/",
+      "datePublished": "2026-07-27",
+      "dateModified": "2026-07-27",
+      "inLanguage": "fr",
+      "image": "https://caresse.app/og-image-fr.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://caresse.app/blog/parler-de-ses-fantasmes/"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Parler de ses fantasmes",
+          "item": "https://caresse.app/blog/parler-de-ses-fantasmes/"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "article-146693e5.css"
+  ],
+  "styleAttrs": {
+    "article-146693e5.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "article-146693e5.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-6a408359eb74a7f2"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/blog/"
+          },
+          "html": "Blog"
+        },
+        {
+          "type": "text",
+          "html": " › Parler de ses fantasmes\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "article-hero"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "eyebrow"
+          },
+          "html": "Communication · Fantasmes · Couple"
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "Comment parler de ses fantasmes à son ou sa partenaire sans gêne"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "article-meta"
+          },
+          "html": "Méthode en 5 étapes · 7 min de lecture"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "article-intro"
+          },
+          "html": "Ce n'est presque jamais le fantasme lui-même qui bloque, c'est la peur de la réaction de l'autre. Voici une méthode concrète pour ouvrir la conversation sans malaise, même si vous n'en avez jamais parlé."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "article",
+      "attrs": {},
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "La plupart des gens gardent un fantasme pour eux non pas parce qu'il est extrême, mais parce qu'ils imaginent le pire scénario possible : le jugement, la déception, la gêne qui s'installe durablement. Ce que montre l'expérience de beaucoup de couples, c'est que cette peur est presque toujours plus grande que la réalité. Le fantasme lui-même est rarement le problème. C'est la façon de l'amener qui fait toute la différence."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Voici une méthode en cinq étapes pour ouvrir cette conversation, même si vous ne l'avez jamais fait."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-parler-de-ses-fantasmes.fr/0022"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Choisir le bon moment, pas le bon discours"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Le contenu de ce que vous allez dire compte moins que le moment où vous le dites. Éviter les moments de tension, de fatigue ou juste avant un rapport intime : la charge émotionnelle rend tout plus difficile à entendre. Un moment neutre, détendu, en dehors de la chambre, fonctionne presque toujours mieux qu'un aveu improvisé sur le vif."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-parler-de-ses-fantasmes.fr/0023"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Commencer petit, pas par le fantasme le plus intense"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Il n'est pas nécessaire de tout révéler d'un coup. Commencer par une envie simple, peu risquée, permet de tester la réaction de l'autre sans se mettre en danger émotionnellement. Chaque échange réussi construit un peu plus de confiance pour le suivant. C'est une progression, pas un aveu unique."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-parler-de-ses-fantasmes.fr/0024"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Parler de soi, pas de l'autre"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "La différence entre \"j'aimerais essayer ça\" et \"tu ne voudrais jamais faire ça\" change complètement la façon dont le message est reçu. Formuler en \"je\" retire toute accusation implicite et évite que l'autre se sente jugé ou testé avant même d'avoir répondu."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-parler-de-ses-fantasmes.fr/0025"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Séparer l'écoute de la décision"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Face au fantasme de l'autre, la réaction à chaud n'a pas besoin d'être une réponse définitive. Il est possible d'écouter, de poser des questions, puis de prendre le temps d'y réfléchir avant de dire oui, non, ou peut-être. La pire réaction reste le jugement immédiat, même non verbal : un silence gêné ou une grimace suffisent à fermer la porte pour longtemps."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-parler-de-ses-fantasmes.fr/0026"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Utiliser un support neutre pour lancer la conversation"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Quand les mots ne viennent pas naturellement, un support externe (un article, une liste de pratiques, une application) peut servir de déclencheur. Cocher une option sur un écran est souvent plus facile que de la formuler à voix haute. Ce n'est pas une esquive, c'est un moyen légitime d'entrer dans le sujet."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "callout"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Configurer une session Caresse à deux revient exactement à ça : répondre ensemble à des questions concrètes (pratiques, intensité, ambiance) plutôt que de devoir tout formuler soi-même en premier. L'app sert de terrain neutre pour la conversation. Voir <a href=\"/for-couples/\">Caresse pour les couples</a>."
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Ce qui change une fois la glace brisée"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "La première conversation est toujours la plus difficile. Une fois qu'un couple a établi qu'aucun sujet n'entraîne de jugement, la suite devient beaucoup plus fluide. C'est aussi pour ça que l'anonymat compte : pouvoir explorer une idée, une pratique ou une intensité sans avoir à créer de compte ni laisser de trace ailleurs facilite le premier pas. C'est le principe derrière <a href=\"/\">Caresse</a>, qui fonctionne entièrement sans compte, y compris pour les sessions payantes."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "faq-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Questions fréquentes"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Parler de ses fantasmes, vos questions."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Pourquoi est-ce si difficile de parler de ses fantasmes à son ou sa partenaire ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Principalement par peur du jugement : peur que le fantasme soit mal interprété, qu'il révèle quelque chose de gênant, ou qu'il déçoive ou choque l'autre. Cette peur est presque toujours disproportionnée par rapport à la réaction réelle du ou de la partenaire, mais elle reste le principal frein tant qu'elle n'a pas été testée."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Faut-il tout dire d'un coup ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Non. Commencer petit fonctionne mieux : une envie simple, peu risquée, avant d'aborder quelque chose de plus intime. Chaque échange réussi construit la confiance nécessaire pour le suivant. Vouloir tout dire en une seule conversation augmente la pression et le risque de malaise."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Comment réagir si le fantasme de l'autre me surprend ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "En séparant l'accueil de la décision. Écouter sans réagir à chaud, poser des questions si besoin, et se laisser le temps d'y réfléchir avant de dire oui, non, ou peut-être. La pire réaction est le jugement immédiat, même non verbal : un sourcil levé peut suffire à fermer la porte pour longtemps."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Un outil comme Caresse peut-il vraiment aider à cette étape ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Oui, en fournissant un cadre neutre. Configurer une session ensemble revient à répondre à des questions concrètes (intensité, pratiques, ambiance) plutôt qu'à formuler un aveu à voix haute. C'est souvent plus facile de cocher une option que de la dire en face, et cela ouvre la conversation sans forcer personne à se dévoiler en premier."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Passer à l'action"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Un terrain neutre pour en parler, ce soir."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Caresse configure une session à deux en quelques questions concrètes, sans qu'aucun des deux partenaires n'ait à tout formuler seul. Démos gratuites, sans compte."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+            "id": "hero-cta",
+            "class": "cta-pink",
+            "target": "_blank",
+            "rel": "noopener"
+          },
+          "html": "Découvrir Caresse"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Réservé aux adultes de 18 ans et plus"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "related-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Pour aller plus loin"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Explorez d'autres ressources."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "related-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/for-couples/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">💞</div>\n                    <p class=\"ttl\">Caresse pour les couples</p>\n                    <p class=\"desc\">Ralentir et créer des rituels partagés.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/blog/raviver-la-flamme-couple/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🕰️</div>\n                    <p class=\"ttl\">Raviver la flamme en couple</p>\n                    <p class=\"desc\">7 pistes concrètes pour recréer du désir.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/blog/exploration-solo-deculpabiliser/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🌙</div>\n                    <p class=\"ttl\">Exploration solo, se déculpabiliser</p>\n                    <p class=\"desc\">Prendre du temps pour soi, sans arrière-pensée.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/blog/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">📝</div>\n                    <p class=\"ttl\">Tous les articles</p>\n                    <p class=\"desc\">Le blog Caresse : couple, intimité, exploration.</p>\n                "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.fr.logo",
+        "footer-1908c9d33a4bfa5c",
+        "footer.fr.links",
+        "footer-c18220e05a34e590",
+        "footer.fr.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

@@ -1,0 +1,1043 @@
+{
+  "id": "blog-exploration-solo-deculpabiliser.es",
+  "family": "blog-exploration-solo-deculpabiliser",
+  "locale": "es",
+  "path": "/es/blog/exploracion-en-solitario-sin-culpa/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "es"
+  },
+  "bodyAttrs": {},
+  "title": "Exploración en solitario: sin culpa y con tiempo para ti",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Dedicarte tiempo a ti, en solitario, no tiene nada de egoísta. Por qué se instala la culpa y cómo darte ese espacio sin segundas lecturas."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "article"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/es/blog/exploracion-en-solitario-sin-culpa/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Exploración en solitario: sin culpa y con tiempo para ti"
+    },
+    {
+      "property": "og:description",
+      "content": "Dedicarte tiempo a ti, en solitario, no tiene nada de egoísta. Por qué se instala la culpa y cómo darte ese espacio sin segundas lecturas."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Exploración en solitario, sin culpa, Caresse"
+    },
+    {
+      "property": "og:locale",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Exploración en solitario: sin culpa"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Por qué se instala la culpa y cómo darte tiempo a ti sin segundas lecturas."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Exploración en solitario, sin culpa, Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Exploración en solitario: sin culpa y con tiempo para ti",
+      "description": "Dedicarte tiempo a ti, en solitario, no tiene nada de egoísta. Por qué se instala la culpa y cómo darte ese espacio sin segundas lecturas.",
+      "url": "https://caresse.app/es/blog/exploracion-en-solitario-sin-culpa/",
+      "datePublished": "2026-08-03",
+      "dateModified": "2026-08-03",
+      "inLanguage": "es",
+      "image": "https://caresse.app/og-image-en.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://caresse.app/es/blog/exploracion-en-solitario-sin-culpa/"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/es/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/es/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Exploración en solitario, sin culpa",
+          "item": "https://caresse.app/es/blog/exploracion-en-solitario-sin-culpa/"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "article-0fe9a0f5.css"
+  ],
+  "styleAttrs": {
+    "article-0fe9a0f5.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "article-0fe9a0f5.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "href": "#main",
+        "class": "skip-link"
+      },
+      "html": "Ir al contenido principal"
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "header",
+      "ref": "header-859d51e95acdbc99"
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/es/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/es/blog/"
+          },
+          "html": "Blog"
+        },
+        {
+          "type": "text",
+          "html": " › Exploración en solitario, sin culpa\n    "
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "article-hero"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "eyebrow"
+          },
+          "html": "Solitario · Bienestar · Anonimato"
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "Exploración en solitario: sin culpa y con tiempo para ti"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "article-meta"
+          },
+          "html": "Entender y actuar · 6 min de lectura"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "article-intro"
+          },
+          "html": "Dedicarte tiempo a ti, a solas, suele despertar una incomodidad difusa, como si fuera un lujo que hay que justificar. Aquí tienes por qué se instala esa culpa y cómo librarte de ella de una vez."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "container",
+      "tag": "article",
+      "attrs": {
+        "id": "main"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Mucha gente siente una punzada de culpa en cuanto se concede un rato solo para sí, sobre todo cuando ese rato toca la intimidad. No es un rasgo de carácter individual: es un reflejo construido en gran parte por la idea, muy extendida, de que el tiempo disponible debería estar siempre al servicio de otra persona. Entender de dónde viene esa culpa suele ser el primer paso para deshacerse de ella."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.es/0297"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "De dónde viene esa culpa"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "El tiempo para uno mismo se percibe a menudo como secundario frente a las obligaciones con los demás, ya sea el trabajo, la familia o una relación. Esa jerarquía no es una necesidad lógica, es una costumbre cultural profundamente arraigada, sobre todo en quienes están habituados a estar disponibles para todo el mundo menos para sí mismos. Renunciar a ella exige un esfuerzo consciente real, no solo una decisión puntual."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.es/0298"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "El tiempo para ti no se le quita a nadie"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "La idea de que cuidarte priva automáticamente a los demás de algo rara vez se sostiene en los hechos. Al contrario: un momento de relajación o de conexión contigo mismo suele mejorar la disponibilidad emocional que puedes ofrecer después a tus seres queridos o a tu pareja. Verlo como una inversión y no como un gasto cambia la forma de abordarlo."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.es/0299"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "La exploración en solitario no es un mal menor"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Incluso en pareja, la exploración en solitario conserva un valor propio. Conocerte mejor a solas, entender qué te gusta, qué te calma, qué te intriga, alimenta después la comunicación entre dos. No sustituye la intimidad compartida: es un espacio distinto que convive con ella sin competir."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.es/0300"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "El anonimato como condición, no como opción"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "La sensación de ser observado o juzgado, aunque sea infundada, basta para cortar de raíz cualquier relajación. Es especialmente cierto en la exploración en solitario, donde el menor rastro dejado (una cuenta, un correo, un historial) puede bastar para reintroducir la autocensura que precisamente se busca evitar. Elegir un marco realmente anónimo no es un detalle técnico secundario, es una condición básica para sentirte libre de explorar."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "callout"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Caresse funciona por completo sin cuenta, también en las sesiones de pago. Sin registro, sin correo: solo un espacio privado, configurado según tus ganas del momento. Ver <a href=\"/es/for-solo-exploration/\">Caresse para la exploración en solitario</a>, o la página <a href=\"/es/for-blind-and-low-vision/\">para personas ciegas o con baja visión</a>."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.es/0301"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "No saber qué quieres no es un problema"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Mucha gente duda antes de lanzarse a la exploración en solitario simplemente porque no tiene una idea precisa de lo que busca. Es normal: sin imposiciones externas ni comparaciones, la mayoría nunca ha tenido ocasión de plantearse la pregunta de verdad. Un marco guiado, que propone opciones en lugar de exigir una idea ya formada, ayuda a descubrir tus preferencias poco a poco, sin presión de rendimiento."
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Concederte ese momento, sin justificarlo"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "El último paso suele ser el más fácil de entender y el más difícil de aplicar: permitirte ese tiempo sin necesidad de justificarlo, ni ante ti ni ante nadie. No es un lujo excepcional reservado a los días en que todo va bien, es un espacio que puede existir de forma regular, igual que cualquier otro momento de bienestar."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "text",
+      "html": "\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "faq-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Preguntas frecuentes"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Exploración en solitario, tus preguntas."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "¿Por qué me siento culpable por dedicarme tiempo a mí?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "A menudo porque el tiempo para uno mismo se percibe como un lujo y no como una necesidad, sobre todo cuando la agenda ya está cargada por el trabajo, la familia o una relación. Esa jerarquía no es una verdad, es una costumbre cultural. El tiempo para ti no se le quita a nadie: suele condicionar la calidad de lo que puedes dar después."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "¿Tiene sentido la exploración en solitario incluso estando en pareja?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Sí, y además es complementario. Conocerte mejor a solas te permite después comunicar mejor tus ganas en pareja. No es un sustituto de la intimidad compartida, es un espacio distinto que no le resta nada a la relación."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "¿Cómo crear un espacio privado sin sentirte observado?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Eligiendo herramientas realmente anónimas en lugar de servicios que piden una cuenta, un correo o un historial ligado a una identidad. La sensación de ser observado, aunque sea infundada, basta para cortar el acceso a la relajación que buscas. El anonimato no es un detalle técnico, es una condición para soltarse."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "¿Es normal no saber qué quieres explorar?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Completamente normal. Mucha gente nunca ha tenido ocasión de plantearse la pregunta sin presión ni comparación. Un marco guiado, que propone opciones en lugar de exigir una idea concreta desde el principio, ayuda precisamente a descubrir tus preferencias poco a poco."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "text",
+      "html": "\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Pasar a la acción"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Un espacio solo para ti, esta noche."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Caresse configura una sesión en solitario con unas pocas preguntas, totalmente anónima, sin cuenta ni correo. Demos gratuitas, sin compromiso."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+            "id": "hero-cta",
+            "class": "cta-pink",
+            "target": "_blank",
+            "rel": "noopener"
+          },
+          "html": "Descubrir Caresse"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Solo para adultos mayores de 18 años"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "text",
+      "html": "\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "related-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Para seguir"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Explora otros recursos."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "related-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/es/for-solo-exploration/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🌙</div>\n                    <p class=\"ttl\">Caresse para la exploración en solitario</p>\n                    <p class=\"desc\">Un espacio privado, guiado por IA, solo para ti.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/es/blog/hablar-de-tus-fantasias/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">💬</div>\n                    <p class=\"ttl\">Hablar de tus fantasías</p>\n                    <p class=\"desc\">Un método para abordar el tema sin incomodidad.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/es/blog/reavivar-la-llama-en-pareja/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🕰️</div>\n                    <p class=\"ttl\">Reavivar la llama en pareja</p>\n                    <p class=\"desc\">7 pistas concretas para recrear deseo.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/es/blog/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">📝</div>\n                    <p class=\"ttl\">Todos los artículos</p>\n                    <p class=\"desc\">El blog de Caresse: relaciones, intimidad, exploración.</p>\n                "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.es.logo",
+        "footer.es.navigation",
+        "footer.es.links",
+        "footer-e145c01106d76846",
+        "footer.es.copy"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n    "
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
+    }
+  ]
+}

@@ -1,0 +1,1223 @@
+{
+  "id": "vs-bonded.fr",
+  "family": "vs-bonded",
+  "locale": "fr",
+  "path": "/vs-bonded/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "fr",
+    "data-analytics-variant": "bonded-direct-v1-comparison-cta-v1-seo-consistency-oct23-v1-seo-consistency-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-fr"
+  },
+  "title": "Alternative à Bonded (2026) : Caresse vs Bonded",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Bonded prépare une scène par écrit, mais il faut lui répondre à chaque étape. Caresse vous accompagne aussi pendant : audio qui se déroule seul, sans compte."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/vs-bonded/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Alternative à Bonded (2026) : Caresse vs Bonded"
+    },
+    {
+      "property": "og:description",
+      "content": "Bonded prépare une scène par écrit, mais il faut lui répondre à chaque étape. Caresse vous accompagne aussi pendant : audio qui se déroule seul, sans compte."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse vs Bonded, audio généré sans compte vs chat texte sur abonnement"
+    },
+    {
+      "property": "og:locale",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse vs Bonded, Audio sans compte vs chat texte"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Démos audio sans email. FR · EN · ES. Paiement à la session, sans abonnement."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse vs Bonded, audio généré sans compte vs chat texte sur abonnement"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse vs Bonded",
+      "description": "Comparaison entre Caresse (audio intime généré par IA, qui se déroule seul, paiement à la session, sans compte) et Bonded (chat érotique guidé par IA, utile en préparation mais qui exige une réponse à chaque étape, sur abonnement avec email requis).",
+      "url": "https://caresse.app/vs-bonded/",
+      "inLanguage": "fr",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "isSimilarTo": {
+          "@type": "SoftwareApplication",
+          "name": "Bonded: Intimacy & Education",
+          "operatingSystem": "iOS, Android",
+          "applicationCategory": "HealthApplication"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternatives",
+            "item": "https://caresse.app/alternatives/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse vs Bonded",
+            "item": "https://caresse.app/vs-bonded/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-0e3a7cb2688df4bd.css"
+  ],
+  "styleAttrs": {
+    "shared-0e3a7cb2688df4bd.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-0e3a7cb2688df4bd.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-eb1a354b4f3b0e6e"
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "nav",
+          "attrs": {
+            "class": "breadcrumb",
+            "aria-label": "Fil d'Ariane"
+          },
+          "html": "\n            <a href=\"/\">Caresse</a> › <a href=\"/alternatives/\">Alternatives</a> › <span>vs Bonded</span>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "✦ Comparatif · 18+ · Mis à jour en août 2026"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Caresse vs Bonded :<br><em>avant, ou pendant ?</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-sub"
+          },
+          "html": "Bonded sert à préparer une scène par écrit. Mais il faut lui répondre à chaque étape pour qu'elle avance, ce qui le rend peu praticable dans le feu de l'action. Caresse couvre les deux temps : la préparation, puis la session qui se déroule seule, à vos prénoms, sans jamais toucher l'écran."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR\" id=\"hero-cta\" class=\"cta-pink hero-adaptive-download\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Télécharger l’app gratuitement</a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge",
+            "style": "margin-top:20px;font-size:.85rem;color:var(--text-secondary);opacity:.8"
+          },
+          "html": "Démos gratuites dans l’app, sans inscription. Sessions personnalisées payantes, sans abonnement."
+        },
+        {
+          "attrs": {
+            "class": "store-badges hero-store-options",
+            "aria-label": "Télécharger Caresse"
+          },
+          "links": [
+            {
+              "store": "ios",
+              "attrs": {
+                "class": "store-badge",
+                "data-cta-position": "hero",
+                "aria-label": "Télécharger dans l’App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Télécharger dans l’App Store\">\n            "
+            },
+            {
+              "store": "android",
+              "attrs": {
+                "class": "store-badge gplay",
+                "data-cta-position": "hero",
+                "aria-label": "Disponible sur Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Disponible sur Google Play\">\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "tldr"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Réponse rapide · Mis à jour en août 2026"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Le résumé honnête."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "tldr-card"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "style": "margin-bottom:18px;"
+              },
+              "html": "<strong>Choisissez Bonded si</strong> vous cherchez surtout à préparer une scène par écrit : échanger sur vos envies, obtenir des idées explicites, poser des questions précises.<br><strong>Choisissez Caresse si</strong> vous voulez aussi être accompagné·e pendant : une voix qui déroule la session du début à la fin, sans que personne n'ait à répondre ni à tenir le téléphone."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "<strong>Bonded</strong> fonctionne comme un chat IA spécialisé dans l'érotisme kinky : Aria tient compte de vos accessoires et de la dynamique du couple, attribue les rôles et propose des scènes explicites. Cela marche bien pour préparer. Le problème apparaît au moment de passer à l'acte : chaque étape attend votre réponse écrite pour délivrer la suivante. <strong>Caresse</strong> couvre les deux temps. En amont, vous configurez votre profil : prénoms, genres, pratiques, intensité, ambiance. Puis la session se lance et se déroule seule avec une durée variable selon la génération. Plus rien à lire, plus rien à taper, plus rien à valider : vous êtes tous les deux dans le moment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "verdict",
+        "id": "verdict"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Le verdict en un coup d'œil"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Bonded, avant la scène, et pendant."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "verdict-table-wrap"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "verdict-table"
+              },
+              "html": "\n                <thead>\n                    <tr><th class=\"crit\">Critère</th><th>Caresse</th><th>Bonded</th></tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Essai sans email</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, démos audio dès l'ouverture, sans rien fournir</td>\n                        <td class=\"other\"><span class=\"no\">Non</span>, adresse email requise avant le premier échange</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Format du contenu</th>\n                        <td class=\"caresse\">Audio écrit pour être dit, durée variable, une voix qui raconte</td>\n                        <td class=\"other\">Texte à lire en chat ; lecture vocale possible via un bouton</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Préparer la scène en amont</th>\n                        <td class=\"caresse\">Configuration du profil avant de lancer</td>\n                        <td class=\"other\">Dialogue libre : idées et questions précises</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Dans le feu de l'action</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span> : rien à répondre, la session se déroule seule</td>\n                        <td class=\"other\"><span class=\"no\">Non</span> : il faut répondre pour obtenir l'étape suivante</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personnalisation du récit</th>\n                        <td class=\"caresse\"><span class=\"yes\">Poussée</span>, et la voix prononce vos prénoms</td>\n                        <td class=\"other\"><span class=\"yes\">Poussée</span> également, en texte</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Niveau d'intensité</th>\n                        <td class=\"caresse\">Paliers réglables, du romantique au très explicite</td>\n                        <td class=\"other\">Très explicite, avec un vocabulaire cru assumé</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Langues</th>\n                        <td class=\"caresse\"><span class=\"yes\">Français, anglais, espagnol</span></td>\n                        <td class=\"other\">Interface en anglais ; l'IA répond dans votre langue</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modèle tarifaire</th>\n                        <td class=\"caresse\">À la session : 1,99 € · 5,49 € · 7,99 €, sans abonnement</td>\n                        <td class=\"other\">Abonnement de 5,99 € à 129,99 €, selon la formule</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Contenu visuel</th>\n                        <td class=\"caresse\"><span class=\"no\">Aucun</span> : audio et imagination uniquement</td>\n                        <td class=\"other\">Packs d'images en supplément, de 2,99 € à 9,99 €</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Données collectées</th>\n                        <td class=\"caresse\">Identifiant anonyme et prénom de votre choix</td>\n                        <td class=\"other\">Nom et numéro de téléphone déclarés sur l'App Store</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Usage à deux</th>\n                        <td class=\"caresse\">Mode duo, une même voix pour les deux dans la pièce</td>\n                        <td class=\"other\">Appariement de profils ; une personne lit et relaie les consignes</td>\n                    </tr>\n                </tbody>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group",
+            "style": "margin-top:32px"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "inline",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "Télécharger l’app gratuitement"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "table-note"
+          },
+          "html": "Informations relevées en août 2026 sur les fiches App Store et Google Play de Bonded ainsi que sur bonded.me. Les tarifs et fonctionnalités peuvent évoluer."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "columns"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Le détail"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Utile avant. Peu praticable pendant."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Les deux s'adaptent à vos réponses. Ce qui les sépare, c'est le moment où elles servent : Bonded attend une réponse à chaque étape, Caresse n'en demande aucune une fois la session lancée."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "columns-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card highlight"
+              },
+              "html": "\n                <p class=\"col-sub\">Caresse</p>\n                <h3>De l'envie jusqu'au bout de la scène.</h3>\n                <p>Dès la première ouverture, les démos audio sont jouables en français, en anglais et en espagnol. Pas d'inscription, pas d'email, pas de compte : vous entendez immédiatement le grain de voix, l'ambiance et les niveaux d'intensité avant toute décision.</p>\n                <p>Quand vous lancez une session sur mesure, Caresse écrit un scénario à partir de votre profil, qui participe, quels prénoms, quelles envies ce soir, combien de temps, quelle intensité, quelle ambiance. La voix vous nomme. Surtout, le texte est composé pour être prononcé : rythme, silences, respiration. Vous fermez les yeux, vous n'avez rien à lire ni à taper, et vos mains restent libres.</p>\n                <p>Personne n'a besoin de tenir le téléphone : la session se déroule seule, ce qui laisse les deux partenaires disponibles, ou permet de la vivre entièrement en solo. Le paiement se fait à la session, sans abonnement, et reste anonyme.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card"
+              },
+              "html": "\n                <p class=\"col-sub\">Bonded</p>\n                <h3>Un chat écrit, à préparer en amont.</h3>\n                <p>Bonded s'articule autour d'Aria, une IA présentée comme experte des pratiques BDSM. Elle interroge vos envies, prend en compte les accessoires que vous possédez, attribue les rôles et déroule la scène instruction par instruction, en attendant que vous confirmiez avant d'enchaîner. S'y ajoutent un quiz d'archétypes, un profil d'intimité, un appariement de partenaires et des modules d'apprentissage.</p>\n                <p>La limite se révèle au moment de passer à l'acte : il faut répondre pour que la scène avance. « Dis-moi ce que tu ressens », « dis-moi quand c'est en place », chaque étape attend une saisie. Et il faut le faire les mains prises, souvent pleines de lubrifiant : attraper le téléphone, déverrouiller, taper. Le rythme tombe. Avec un bandeau sur les yeux, même seul·e, il faut carrément l'enlever pour lire la suite. L'IA propose un contournement en s'adressant au partenaire, qui lit les consignes et garde le téléphone ; la scène continue, mais l'un des deux reste opérateur. En solo, la question ne se pose même pas : c'est à vous de vous interrompre à chaque étape.</p>\n                <p>Les onze premiers échanges sont offerts, mais une adresse email est demandée avant de commencer. Le modèle est l'abonnement et les packs d'images se paient à part. L'interface est en anglais, mais comme il s'agit d'une IA conversationnelle, elle répond sans difficulté en français ou dans une autre langue.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "pricing"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Tarification"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "À la session, ou par abonnement."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Deux modèles opposés : vous payez ce que vous consommez, ou vous payez tant que vous restez abonné·e."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "pricing-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card highlight"
+              },
+              "html": "\n                <h3>Caresse</h3>\n                <p class=\"price-big\">À la session</p>\n                <p class=\"price-note\" style=\"margin-bottom:14px;\">Téléchargement gratuit. Démos accessibles sans email. Aucun abonnement.</p>\n                <p class=\"price-note\" style=\"margin-top:16px;font-size:0.85rem;\">Montants en euros donnés à titre indicatif. Les prix peuvent varier selon le pays et le store ; vérifiez le montant affiché dans l’app avant achat.</p>\n                <div style=\"display:flex;flex-direction:column;gap:8px;text-align:left;border-top:1px solid rgba(255,255,255,0.25);padding-top:14px;\">\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\"><span>1 expérience</span><strong>1,99 €</strong></div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\"><span>3 expériences</span><strong>5,49 €</strong></div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\"><span>5 expériences</span><strong>7,99 €</strong></div>\n                </div>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card"
+              },
+              "html": "\n                <h3>Bonded</h3>\n                <p class=\"price-big\">Abonnement</p>\n                <p class=\"price-note\" style=\"margin-bottom:14px;\">Téléchargement gratuit, 11 échanges offerts, email requis pour commencer.</p>\n                <div style=\"display:flex;flex-direction:column;gap:8px;text-align:left;border-top:1px solid rgba(93,61,140,0.15);padding-top:14px;\">\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\"><span>Abonnements listés</span><strong>5,99 € – 129,99 €</strong></div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\"><span>Packs d'images</span><strong>2,99 € – 9,99 €</strong></div>\n                </div>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "table-note"
+          },
+          "html": "Tarifs relevés sur la fiche App Store française de Bonded en août 2026."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "choose"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Comment choisir"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Honnêtement, qui devrait choisir quoi ?"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "La vraie question n'est pas laquelle est la meilleure, mais à quel moment vous en avez besoin."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "choose-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card us"
+              },
+              "html": "\n                <h3>Choisissez Caresse si vous préférez…</h3>\n                <ul>\n                    <li>être accompagné·e pendant la scène, pas seulement avant</li>\n                    <li>essayer tout de suite, sans donner d'adresse email</li>\n                    <li>que vos prénoms soient prononcés à voix haute</li>\n                    <li>n'avoir strictement rien à répondre une fois lancé·e</li>\n                    <li>une application entièrement en français ou en espagnol, interface comprise</li>\n                    <li>payer à la session (1,99 € / 5,49 € / 7,99 €) sans abonnement</li>\n                    <li>zéro contenu visuel, tout repose sur l'imagination</li>\n                    <li>rester anonyme, y compris au moment de payer</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card them"
+              },
+              "html": "\n                <h3>Choisissez Bonded si vous préférez…</h3>\n                <ul>\n                    <li>préparer une scène en discutant, par écrit</li>\n                    <li>poser des questions précises et obtenir des réponses détaillées</li>\n                    <li>disposer aussi de modules d'apprentissage et de fiches pratiques</li>\n                    <li>passer un quiz d'archétypes et comparer votre profil</li>\n                    <li>une interface en anglais, quitte à écrire dans votre langue</li>\n                    <li>un abonnement plutôt qu'un paiement à l'usage</li>\n                </ul>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Questions fréquentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Bonded, vos questions."
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Puis-je essayer Caresse sans donner mon email ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Oui. Caresse propose des démos audio jouables dès la première ouverture de l'application, sans inscription, sans email et sans compte. Bonded, lui, demande une adresse email avant de pouvoir démarrer la conversation avec son IA, même pour les 11 premiers échanges offerts."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Quelle est la différence principale entre Caresse et Bonded ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Le moment où chacune sert. Bonded fonctionne bien en amont : on discute avec Aria, on affine une idée, on obtient des suggestions explicites adaptées à vos accessoires. Mais son guidage attend une réponse écrite à chaque étape, ce qui devient peu praticable une fois la scène lancée. Caresse couvre les deux temps : vous configurez en amont, puis la session audio se déroule seule de bout en bout, sans que personne n'ait à répondre."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Peut-on utiliser Bonded en pleine scène ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Difficilement, et c'est sa limite principale. Chaque étape attend votre réponse pour délivrer la suivante : il faut reprendre le téléphone, les mains souvent occupées ou pleines de lubrifiant, et taper. Avec un bandeau sur les yeux, même en solo, il faut l'enlever pour lire la suite. À deux, l'IA propose un contournement en s'adressant au partenaire, qui lit les consignes et garde le téléphone, mais l'un des deux devient alors opérateur. Caresse a été pensé pour ce moment : une fois lancée, la session ne demande plus rien."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Bonded fonctionne-t-il en français ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "En partie. L'interface de l'application est en anglais, mais Aria étant une IA conversationnelle, elle répond sans problème en français si vous lui écrivez en français. La fiche App Store, elle, ne déclare que l'anglais. Caresse génère des sessions audio en français, anglais, espagnol et portugais. L’interface portugaise est disponible sur Android ; la mise à jour iOS est en attente de validation. Les démos gratuites sont en français, anglais et espagnol."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Combien coûte Bonded par rapport à Caresse ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Bonded fonctionne par abonnement : les achats intégrés listés sur l'App Store vont de 5,99 € à 129,99 €, auxquels s'ajoutent des packs d'images de 2,99 € à 9,99 €. Caresse fonctionne à la session, sans abonnement : 1,99 € pour une expérience, 5,49 € pour trois, 7,99 € pour cinq."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Caresse contient-il des images comme Bonded ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Non. Caresse est une expérience exclusivement audio, sans aucun contenu visuel explicite : tout repose sur la voix et votre imagination. Bonded propose des packs d'images payants avec son IA, en supplément de l'abonnement."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Bonded et Caresse peuvent-ils être utilisés ensemble ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Oui. Bonded sert en amont, pour explorer des idées et poser des questions. Caresse prend le relais au moment de la vivre, quand plus personne ne veut lire ni répondre."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Mes échanges sont-ils anonymes sur Caresse ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Oui. Caresse fonctionne avec un identifiant anonyme et le prénom ou pseudonyme de votre choix ; aucun email n'est requis, y compris pour payer. Bonded annonce un chat « 100 % privé », mais sa fiche App Store indique une collecte de nom et de numéro de téléphone."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Prêt·e·s à essayer ?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Écoutez d'abord.<br>Décidez ensuite."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Téléchargez Caresse gratuitement. Les démos audio en français, anglais et espagnol sont accessibles immédiatement, sans inscription, sans compte, sans email."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                "class": "store-badge",
+                "aria-label": "Download on the App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Download on the App Store\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Get it on Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Get it on Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Réservé aux adultes de 18 ans et plus"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Autres comparaisons"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Explorez le paysage des alternatives."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "related-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-melba/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse vs Melba</p><p class=\"desc\">Catalogue francophone pré-enregistré vs scénario unique avec prénoms.</p>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-coelle/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse vs Coelle</p><p class=\"desc\">Library guidée internationale vs scénario unique avec prénoms.</p>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-dipsea/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse vs Dipsea</p><p class=\"desc\">Catalogue de stories en anglais vs scénario généré, multilingue.</p>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-melt/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse vs Melt Stories</p><p class=\"desc\">Texte érotique à lire vs scénario audio raconté pour vous.</p>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-inthemoment/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse vs InTheMoment</p><p class=\"desc\">Méditation et hypnose vs audio intime généré.</p>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/alternatives/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🧭</div><p class=\"ttl\">Toutes les alternatives</p><p class=\"desc\">Le paysage complet : Melba, Coelle, Melt, Dipsea, Bonded et les autres.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.fr.logo",
+        "footer-1908c9d33a4bfa5c",
+        "footer.fr.links",
+        "footer-c18220e05a34e590",
+        "footer.fr.copy"
+      ]
+    }
+  ]
+}

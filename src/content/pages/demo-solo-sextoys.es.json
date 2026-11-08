@@ -1,0 +1,646 @@
+{
+  "id": "demo-solo-sextoys.es",
+  "family": "demo-solo-sextoys",
+  "locale": "es",
+  "path": "/es/demo/solo-sextoys/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "es",
+    "data-analytics-variant": "demo-seo-oct03-v1"
+  },
+  "bodyAttrs": {},
+  "title": "Demo de audio en solitario: una sesión guiada, sentidos despiertos",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Escucha gratis la primera fase de una sesión guiada en solitario, centrada en la respiración y la atención al cuerpo. Sin cuenta, sin correo."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "name": "rating",
+      "content": "adult"
+    },
+    {
+      "property": "og:type",
+      "content": "article"
+    },
+    {
+      "property": "og:title",
+      "content": "Demo de audio en solitario: una sesión guiada, sentidos despiertos"
+    },
+    {
+      "property": "og:description",
+      "content": "Escucha gratis la primera fase de una sesión guiada en solitario, centrada en la respiración y la atención al cuerpo. Sin cuenta, sin correo."
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/es/demo/solo-sextoys/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AudioObject",
+          "name": "Una exploración en solitario, con los sentidos despiertos",
+          "description": "Escucha gratis la primera fase de una sesión guiada en solitario, centrada en la respiración y la atención al cuerpo. Sin cuenta, sin correo.",
+          "contentUrl": "https://caresse.app/demos/caresse-demo-solo-sextoys-es-nuria.mp3",
+          "encodingFormat": "audio/mpeg",
+          "inLanguage": "es",
+          "isFamilyFriendly": false,
+          "isAccessibleForFree": true,
+          "url": "https://caresse.app/es/demo/solo-sextoys/",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Caresse",
+            "url": "https://caresse.app/"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Inicio",
+              "item": "https://caresse.app/es/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Demos de audio",
+              "item": "https://caresse.app/es/demo/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Una exploración en solitario, con los sentidos despiertos",
+              "item": "https://caresse.app/es/demo/solo-sextoys/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "shared-3f9917bb9c05e6c2.css"
+  ],
+  "styleAttrs": {
+    "shared-3f9917bb9c05e6c2.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-3f9917bb9c05e6c2.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-75aff9f993c28503"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "class": "dpage"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "crumb"
+          },
+          "html": "<a href=\"/es/\">Inicio</a> › <a href=\"/es/demo/\">Demos de audio</a> › Nuria"
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "Una exploración en solitario, con los sentidos despiertos"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dpitch"
+          },
+          "html": "En la calma de su habitación, Nuria sigue una voz que susurra. Con un antifaz, sin referencias visuales, dirige toda su atención a la respiración y a las sensaciones. Esta primera fase recoge esa instalación: el momento en que la vista se apaga y la escucha toma el relevo."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "margin:0 0 12px;"
+          },
+          "html": "<a href=\"https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES\" id=\"hero-store-cta\" class=\"hero-store-cta\" style=\"margin-top:0;\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener noreferrer\">Descargar la app gratis</a>"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dnote",
+            "style": "text-align:left;margin-bottom:22px;"
+          },
+          "html": "Esta demo es gratuita. Las sesiones personalizadas en la app utilizan créditos de pago, sin suscripción."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dplayer"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "lbl"
+              },
+              "html": "Escuchar la primera fase · Nuria"
+            },
+            {
+              "type": "element",
+              "tag": "audio",
+              "attrs": {
+                "controls": "",
+                "preload": "none",
+                "src": "/demos/caresse-demo-solo-sextoys-es-nuria.mp3"
+              },
+              "html": "\n                Tu navegador no puede reproducir este audio. <a href=\"/demos/caresse-demo-solo-sextoys-es-nuria.mp3\">Descargar el MP3</a>.\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dnote"
+          },
+          "html": "🎧 Con auriculares, en un lugar tranquilo"
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dmeta"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-solo-sextoys.es/0384"
+                },
+                {
+                  "type": "text",
+                  "html": "Sesión en solitario guiada"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-solo-sextoys.es/0385"
+                },
+                {
+                  "type": "text",
+                  "html": "Accesorios vibrantes, antifaz"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-solo-sextoys.es/0386"
+                },
+                {
+                  "type": "text",
+                  "html": "Zen"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-solo-sextoys.es/0387"
+                },
+                {
+                  "type": "text",
+                  "html": "Explícita (18+)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "dsec"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Cuando la vista se apaga, la voz ocupa todo el espacio"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "El antifaz cambia la naturaleza de la escucha. Sin referencias visuales, la atención se desplaza por completo hacia la voz y hacia el cuerpo — que es el principio mismo del formato de audio, llevado hasta el final. Esta primera fase pertenece a la más intensa de las dos sesiones en solitario: mientras la sesión de descubrimiento instala un clima, esta inicia una subida más directa."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "dsec"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Lo que viene después de esta primera fase"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Este audio no es un montaje: es la primera fase completa de una sesión. Las fases siguientes continúan en la aplicación. Esta demo es fija, con nombres, lugar e intensidad predefinidos; en la app, la sesión se genera bajo demanda con vuestros nombres y ninguna se desarrolla exactamente igual."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "dcta"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+            "id": "demo-store-cta",
+            "data-store-auto": "",
+            "data-cta-position": "end",
+            "class": "hero-store-cta",
+            "style": "display:inline-block;margin-top:0;",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          "html": "Vive la sesión completa en la app"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age"
+          },
+          "html": "🔞 Solo para adultos mayores de 18 años"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "dpage",
+        "style": "padding-top:0;"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dlinks"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Para ir más lejos"
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "html": "\n                <li><a href=\"/es/for-solo-exploration/\">Explorar en solitario</a></li>\n                <li><a href=\"/es/for-adventurous-couples/\">Para parejas aventureras</a></li>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dlinks"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Las otras demos"
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "html": "\n                <li><a href=\"/es/demo/exploracion-sensual-en-solitario/\">Un descubrimiento sensual, en solitario y sin prisa</a></li>\n                <li><a href=\"/es/demo/pareja-romantica/\">Una noche para dos, guiada desde el primer gesto</a></li>\n                <li><a href=\"/es/demo/pareja-apasionada/\">Un juego de control, conducido por la voz</a></li>\n                <li><a href=\"/es/demo/pareja-dos-mujeres/\">Una sesión guiada entre dos mujeres</a></li>\n                <li><a href=\"/es/demo/pareja-dos-hombres/\">Una sesión guiada entre dos hombres</a></li>\n            "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "style": "margin-top:12px;"
+              },
+              "html": "<a href=\"/es/demo/\">Ver las seis demos →</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.es.logo",
+        "footer-0714918d2d87988a",
+        "footer-c38087b8263d08c1",
+        "footer-e145c01106d76846",
+        "footer.es.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-e86488cf4c9bedce.js"
+    }
+  ]
+}

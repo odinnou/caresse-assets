@@ -1,0 +1,1233 @@
+{
+  "id": "vs-coelle.pt",
+  "family": "vs-coelle",
+  "locale": "pt",
+  "path": "/pt/vs-coelle/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "comparison-cta-v1-pt-full-translation-oct10-v1-seo-consistency-oct23-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-pt"
+  },
+  "title": "Caresse vs Coelle — Demos gratuitas, modo convidado e créditos por sessão",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Compare Caresse e Coelle: demos sem conta Caresse, geração de áudio em português no app e créditos pagos sem assinatura. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/vs-coelle/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse vs Coelle — Demos, modo convidado e sem assinatura"
+    },
+    {
+      "property": "og:description",
+      "content": "Demos pré-geradas sem cadastro Caresse. Uma alternativa de áudio criado por IA, com créditos pagos."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse vs Coelle — Experiência íntima em áudio criada por IA"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse vs Coelle — Demos gratuitas, sem conta Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Demos sem cadastro e sessões com créditos pagos, sem assinatura."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse vs Coelle — Experiência íntima em áudio criada por IA"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Mapa do site",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse vs Coelle",
+      "description": "Compare Caresse, com áudio íntimo criado por IA e créditos por geração, e Coelle, com biblioteca de experiências guiadas e assinatura anual.",
+      "url": "https://caresse.app/pt/vs-coelle/",
+      "inLanguage": "pt",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "isSimilarTo": {
+          "@type": "SoftwareApplication",
+          "name": "Coelle"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/pt/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternativas",
+            "item": "https://caresse.app/pt/alternatives/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse vs Coelle",
+            "item": "https://caresse.app/pt/vs-coelle/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-0071102d4dea083f.css",
+    "home-b0af781f.css"
+  ],
+  "styleAttrs": {
+    "shared-0071102d4dea083f.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-0071102d4dea083f.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-4b3d35d8a4180675"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/alternatives/"
+          },
+          "html": "Alternativas"
+        },
+        {
+          "type": "text",
+          "html": " › Caresse vs Coelle\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🇧🇷 🇫🇷 🇬🇧 🇪🇸 · Caresse vs Coelle · Áudio em 4 idiomas no app"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Caresse vs Coelle:<br>conheça o formato <em>sem cadastro Caresse.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "O Coelle propõe um catálogo guiado com cadastro e assinatura anual. O Caresse oferece demos pré-geradas sem e-mail nem conta Caresse para conhecer a voz e o formato. Se você quiser criar uma sessão com seus nomes e preferências, usa créditos pagos, sem assinatura. A compra passa pela conta Apple ou Google."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Baixar o app grátis</a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Demos gratuitas no app, sem cadastro Caresse. Sessões personalizadas com créditos pagos, sem assinatura."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "tldr"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Em uma frase"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Um resumo direto."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "tldr-card"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "<strong>Coelle</strong> é uma plataforma de experiências guiadas com biblioteca, cadastro e assinatura anual, segundo a oferta consultada. <strong>Caresse</strong> propõe três diferenças: demos sem cadastro Caresse; modo convidado, com compras pela conta da loja; e criação de narrativas a partir das preferências, usando créditos pagos. No Coelle, você escolhe uma experiência do catálogo. No Caresse, configura uma geração no app."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "verdict",
+        "id": "verdict"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Resumo da comparação"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Coelle — 8 critérios para comparar."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "verdict-table-wrap"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "verdict-table"
+              },
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critério</th>\n                        <th>Caresse</th>\n                        <th>Coelle</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Demos em áudio sem conta Caresse</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — exemplos pré-gerados disponíveis para escuta</td>\n                        <td class=\"other\"><span class=\"no\">Não</span> — cadastro para conhecer a oferta consultada</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Conta exigida</th>\n                        <td class=\"caresse\"><span class=\"no\">Não no modo convidado</span> — compras exigem conta Apple ou Google</td>\n                        <td class=\"other\"><span class=\"yes\">Sim</span> — cadastro obrigatório</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Tipo de conteúdo</th>\n                        <td class=\"caresse\">Narrativa criada por IA a cada geração</td>\n                        <td class=\"other\">Biblioteca de experiências guiadas previamente criadas</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Seus nomes no áudio</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — a voz usa seus nomes ou pseudônimos</td>\n                        <td class=\"other\"><span class=\"no\">Não</span> — narração não adaptada aos nomes</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personalização do roteiro</th>\n                        <td class=\"caresse\">Identidades, nomes, sugestões, acessórios, intensidade, linguagem, local e ambiente</td>\n                        <td class=\"other\">Escolha de categoria, como preparação ou solo</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Duração</th>\n                        <td class=\"caresse\">Variável, geralmente de 25 a 35 minutos; não é uma opção fixa</td>\n                        <td class=\"other\">Definida para cada experiência escolhida</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Variedade</th>\n                        <td class=\"caresse\">Diferentes combinações de configuração e geração</td>\n                        <td class=\"other\">Novas experiências adicionadas ao catálogo</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modelo de pagamento</th>\n                        <td class=\"caresse\">Créditos por geração, sem assinatura</td>\n                        <td class=\"other\">Assinatura anual, referência de US$ 49,99 por ano</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Idiomas do áudio</th>\n                        <td class=\"caresse\">Português, francês, inglês e espanhol</td>\n                        <td class=\"other\">English</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modo solo e modo a dois</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — ambos disponíveis</td>\n                        <td class=\"other\"><span class=\"yes\">Sim</span> — categorias de preparação e solo</td>\n                    </tr>\n                </tbody>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group",
+            "style": "margin-top:32px"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "inline",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "Baixar o app grátis"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "columns"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Em detalhe"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Biblioteca editorial ou roteiro criado por IA."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Coelle e Caresse propõem orientação em vez de cobrança de desempenho, mas usam formatos diferentes."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "columns-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card highlight"
+              },
+              "html": "\n                <p class=\"col-sub\">Caresse</p>\n                <h3>Conheça o formato antes de pagar.</h3>\n                <p>As demos pré-geradas em francês, inglês e espanhol permitem ouvir a voz, o ambiente e a intensidade sem cadastro Caresse. Elas usam nomes e configurações fixos, mas mostram o formato da experiência.</p>\n                <p>Na criação personalizada, a IA usa nomes, identidades, preferências, intensidade e ambiente para criar o roteiro. A duração depende do conteúdo gerado. O modo convidado dispensa uma conta Caresse, mas o app trata os dados necessários ao serviço e compras passam pela conta da loja.</p>\n                <ul>\n                    <li>Demos pré-geradas sem cadastro Caresse, em FR, EN e ES</li>\n                    <li>Modo convidado sem conta Caresse; compras pela conta da loja</li>\n                    <li>Nomes ou pseudônimos usados na narração</li>\n                    <li>Duração variável, geralmente de 25 a 35 minutos</li>\n                    <li>Diferentes combinações de preferências</li>\n                    <li>Créditos por geração, sem assinatura anual</li>\n                    <li>Áudio em PT, FR, EN e ES no app; interface em português no Android; atualização para iOS aguardando aprovação</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card muted"
+              },
+              "html": "\n                <p class=\"col-sub\">Coelle</p>\n                <h3>Uma biblioteca de intimidade guiada para escolher.</h3>\n                <p>O Coelle anuncia uma plataforma com experiências guiadas para os parceiros acompanharem juntos, em categorias como preparação, solo e casal. A biblioteca recebe novos conteúdos e também há artigos e histórias.</p>\n                <p>O formato se concentra em escolher e repetir experiências prontas, com cadastro e assinatura anual. A proposta difere da geração personalizada com nomes e do pagamento por créditos do Caresse.</p>\n                <ul>\n                    <li>Biblioteca de experiências guiadas previamente criadas</li>\n                    <li>Categorias de preparação, solo e casal</li>\n                    <li>Artigos e histórias gratuitos com cadastro, segundo a oferta consultada</li>\n                    <li>Assinatura anual de referência de US$ 49,99, com cadastro</li>\n                    <li>Sem geração sob demanda com nomes anunciada</li>\n                </ul>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "pricing"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Preços"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Créditos por geração ou assinatura anual."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "A oferta consultada do Coelle anuncia US$ 49,99 por ano para a biblioteca. O Caresse não tem cobrança recorrente de assinatura."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "pricing-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card highlight"
+              },
+              "html": "\n                <h3>Caresse</h3>\n                <p class=\"price-big\">Por sessão</p>\n                <p class=\"price-note\" style=\"margin-bottom:14px;\">Download gratuito e demos pré-geradas. Para criar uma sessão personalizada, use créditos pagos, sem assinatura nem renovação mensal.</p>\n                <p class=\"price-note\" style=\"margin-top:16px;font-size:0.85rem;\">Os valores em euros são apenas uma referência. Os preços podem variar por país e loja; confira o valor no app antes de comprar.</p>\n                <div style=\"display:flex;flex-direction:column;gap:8px;text-align:left;border-top:1px solid rgba(255,255,255,0.25);padding-top:14px;\">\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>1 experiência</span>\n                        <strong>€1.99</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>3 experiências</span>\n                        <strong>€5.49</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>5 experiências</span>\n                        <strong>€7.99</strong>\n                    </div>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:12px;font-size:0.82rem;opacity:0.85;\">As experiências geradas ficam disponíveis no histórico do app enquanto os dados associados forem mantidos. A exclusão da conta remove as sessões, conforme a política de privacidade.</p>\n                <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.85rem;margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,0.25);\">\n                    <span>Opções avançadas, desbloqueio único opcional</span>\n                    <strong>€9.99</strong>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:6px;font-size:0.78rem;opacity:0.8;\">Desbloqueia opções adicionais de configuração. Os créditos de geração continuam separados.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card"
+              },
+              "html": "\n                <h3>Coelle</h3>\n                <p class=\"price-big\">US$ 49,99 por ano</p>\n                <p class=\"price-note\">Assinatura anual para a biblioteca; artigos e histórias descritos como gratuitos. Valor registrado em 17 de agosto de 2026 na oferta do Coelle. Confira as condições atuais antes de comprar.</p>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "pricing-footnote"
+          },
+          "html": "Valores de referência registrados em 17 de agosto de 2026 nas fichas americanas e nos sites oficiais. Não são preços em reais; valores e ofertas podem mudar."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "choose"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Como comparar"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Qual proposta combina com você?"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Compare os formatos sem confundir catálogo e geração."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "choose-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card us"
+              },
+              "html": "\n                <h3>O Caresse propõe…</h3>\n                <ul>\n                    <li>ouvir demos antes de pagar, sem conta Caresse</li>\n                    <li>usar o modo convidado, sem cadastro Caresse</li>\n                    <li>ouvir seu nome e o do seu par na narração</li>\n                    <li>uma narrativa criada a partir das preferências do momento</li>\n                    <li>escolher intensidade, sugestões, linguagem, local e ambiente</li>\n                    <li>usar créditos em vez de renovar uma assinatura anual</li>\n                    <li>criar áudios em português, francês, inglês ou espanhol no mesmo app</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card them"
+              },
+              "html": "\n                <h3>O Coelle se concentra em…</h3>\n                <ul>\n                    <li>uma biblioteca de experiências para escolher</li>\n                    <li>encontrar e repetir experiências do catálogo</li>\n                    <li>assinatura anual com conteúdo editorial gratuito</li>\n                    <li>artigos e histórias relacionados às experiências</li>\n                    <li>uma proposta voltada ao público de língua inglesa</li>\n                </ul>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub",
+            "style": "margin-top:24px;"
+          },
+          "html": "Quer comparar um catálogo gravado em francês? Nossa página sobre <a href=\"/pt/vs-melba/\">Melba</a> pode ajudar. Para outra abordagem de geração com IA, veja <a href=\"/pt/vs-inthemoment/\">Caresse vs InTheMoment</a>."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Perguntas frequentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Coelle: suas perguntas."
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Posso ouvir o Caresse antes de pagar, sem criar uma conta?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sim. O Caresse oferece demos pré-geradas em francês, inglês e espanhol, sem cadastro nem e-mail, para conhecer a voz, o ambiente e a intensidade. No app, a criação personalizada também pode produzir áudio em português com créditos pagos. A oferta do Coelle consultada exige cadastro para conhecer o serviço."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Caresse exige cadastro como o Coelle?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O modo convidado dispensa uma conta Caresse para usar o app. Compras de créditos ainda dependem da conta Apple ou Google da loja e não são anônimas perante ela. A oferta do Coelle consultada exige cadastro."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Qual é a principal diferença entre Caresse e Coelle?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O Coelle oferece uma biblioteca de experiências guiadas, previamente criadas, com assinatura anual e cadastro. O Caresse cria uma narrativa em áudio no app a partir dos nomes, intensidade, sugestões e ambiente escolhidos, com créditos pagos, sem assinatura. As demos pré-geradas dispensam conta Caresse."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Coelle tem assinatura anual. E o Caresse?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "A oferta do Coelle consultada em 17 de agosto de 2026 anunciava US$ 49,99 por ano. O Caresse usa créditos para criar sessões, sem pagamento recorrente. As demos gratuitas permitem conhecer o formato antes de comprar. Preços e moedas podem variar por país."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Caresse oferece modo solo como o Coelle?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sim. O modo solo cria uma experiência para uma pessoa, com nome ou pseudônimo e escolhas de sugestões, intensidade, tom e ambiente. A criação usa um crédito pago."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Como a geração do Caresse difere da biblioteca do Coelle?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O Coelle apresenta experiências previamente criadas em categorias. O Caresse usa as opções escolhidas para criar o roteiro no momento do pedido. Os resultados podem variar, mas a IA também pode produzir semelhanças e incoerências; não há garantia absoluta de originalidade."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Caresse está disponível em português?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O app cria áudio em português, francês, inglês e espanhol. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. As demos do site existem em FR, EN e ES. A oferta do Coelle consultada é em inglês."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Quer experimentar?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Conheça o formato.<br>Decida depois."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Baixe o Caresse grátis e ouça demos pré-geradas sem cadastro Caresse. Os áudios do site estão em inglês, francês e espanhol. No app, você pode gerar áudio em português com créditos pagos; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                "class": "store-badge",
+                "aria-label": "Baixar na App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Baixar na App Store\">\n\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Baixar no Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png\" alt=\"Baixar no Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Apenas para maiores de 18 anos"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Mais comparações"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Conheça outras alternativas."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "related-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-dipsea/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Dipsea</p>\n                <p class=\"desc\">Catálogo de histórias em inglês ou narrativa criada em vários idiomas.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-melba/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Melba</p>\n                <p class=\"desc\">Catálogo gravado em francês ou narrativa criada com os nomes escolhidos.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-melt/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Melt</p>\n                <p class=\"desc\">Áudio com seus nomes ou texto criado por IA para ler.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-inthemoment/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs InTheMoment</p>\n                <p class=\"desc\">Abordagens de IA: instruções editoriais e geração a partir de descrição.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/alternatives/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🧭</div>\n                <p class=\"ttl\">Todas as alternativas</p>\n                <p class=\"desc\">O panorama: Melba, Coelle, Dipsea, Ferly e Bloom Stories.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/para-casais/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">💞</div>\n                <p class=\"ttl\">Caresse para casais</p>\n                <p class=\"desc\">A proposta do Caresse para desacelerar e viver um momento a dois.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/o-caresse-e-seguro/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🔒</div>\n                <p class=\"ttl\">O Caresse é seguro?</p>\n                <p class=\"desc\">Privacidade, dados e IA, explicados com clareza.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-magicwave/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs MagicWave</p>\n                <p class=\"desc\">Audiolivros românticos em inglês ou narrativa gerada em vários idiomas.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-bonded/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse vs Bonded</p><p class=\"desc\">Conversa escrita que espera respostas ou sessão contínua em áudio.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.pt.logo",
+        "footer-1e43e42e68a1234e",
+        "footer.pt.links",
+        "footer-0719760d8779fab2",
+        "footer.pt.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+---
+import Element from './Element.astro';
+const { prefix, suffix, attrs, items } = Astro.props;
+---
+<Fragment set:html={prefix} />
+<div {...attrs}>
+  {items.map((item) => <div {...item.attrs}>{item.children.map((child) => <Element {...child} />)}</div>)}
+</div>
+<Fragment set:html={suffix} />

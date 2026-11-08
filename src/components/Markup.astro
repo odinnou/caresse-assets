@@ -1,0 +1,13 @@
+---
+// Preserve each navigation variant while resolving translated links centrally.
+const { nodes, alternates = {} } = Astro.props;
+---
+{nodes.map((node) => {
+  if (node.language && !alternates[node.language]) return null;
+  if (!node.tag) return <Fragment set:html={node.html} />;
+  const Tag = node.tag;
+  const attrs = node.language ? { ...node.attrs, href: alternates[node.language] } : node.attrs;
+  return node.children
+    ? <Tag {...attrs}><Astro.self nodes={node.children} alternates={alternates} /></Tag>
+    : <Tag {...attrs} set:html={node.html} />;
+})}

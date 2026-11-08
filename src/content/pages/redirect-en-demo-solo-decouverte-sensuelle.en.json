@@ -1,0 +1,69 @@
+{
+  "id": "redirect-en-demo-solo-decouverte-sensuelle.en",
+  "family": "redirect-en-demo-solo-decouverte-sensuelle",
+  "locale": "en",
+  "path": "/en/demo/solo-decouverte-sensuelle/",
+  "kind": "redirect",
+  "layout": "composed",
+  "sitemap": false,
+  "htmlAttrs": {
+    "lang": "en"
+  },
+  "bodyAttrs": {},
+  "title": "Audio demo moved — Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "http-equiv": "refresh",
+      "content": "0; url=https://caresse.app/en/demo/solo-sensual-discovery/"
+    }
+  ],
+  "links": [],
+  "schemas": [],
+  "styles": [],
+  "styleAttrs": {},
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-048835e965deea29.js"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "<a href=\"https://caresse.app/en/demo/solo-sensual-discovery/\">Open the audio demo</a>"
+    }
+  ]
+}

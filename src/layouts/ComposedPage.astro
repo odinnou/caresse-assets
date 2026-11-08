@@ -1,0 +1,12 @@
+---
+import HeadElements from '../components/HeadElements.astro';
+import PageBlocks from '../components/PageBlocks.astro';
+import routes from '../data/routes.json';
+const { page } = Astro.props;
+const route = routes[page.family][page.locale];
+---
+<!DOCTYPE html>
+<html {...page.htmlAttrs}>
+  <head><HeadElements page={page} route={route} /></head>
+  <body {...page.bodyAttrs}><PageBlocks blocks={page.blocks} locale={page.locale} alternates={route.alternates} /></body>
+</html>

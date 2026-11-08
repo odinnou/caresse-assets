@@ -1,0 +1,18 @@
+---
+import Script from './Script.astro';
+import { compileSchemas } from '../lib/schemas.mjs';
+const { page, route } = Astro.props;
+const schemas = compileSchemas(page);
+const styles = import.meta.glob('../styles/*.css', { eager: true, query: '?raw', import: 'default' });
+---
+{page.headOrder.map((item) => {
+  if (item.type === 'meta') return <meta {...page.meta[item.index]} />;
+  if (item.type === 'title') return <title>{page.title}</title>;
+  if (item.type === 'link') return <link {...page.links[item.index]} />;
+  if (item.type === 'canonical') return <link {...item.attrs} href={new URL(route.canonical ?? page.path, Astro.site).href} />;
+  if (item.type === 'alternate') return <link {...item.attrs} href={new URL(route.alternates[item.locale], Astro.site).href} />;
+  if (item.type === 'schema') return <script is:inline {...item.attrs} set:html={JSON.stringify(schemas[item.index]).replace(/</g, '\\u003c')} />;
+  if (item.type === 'style') return <style is:inline {...item.attrs} set:html={styles[`../styles/${item.file}`]} />;
+  if (item.type === 'script') return <Script {...item} />;
+  throw new Error(`Unknown head element: ${item.type}`);
+})}

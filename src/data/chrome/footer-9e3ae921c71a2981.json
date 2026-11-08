@@ -1,0 +1,8 @@
+{
+  "tag": "nav",
+  "attrs": {
+    "aria-label": "Usos do app",
+    "class": "footer-nav"
+  },
+  "html": "\n            <a href=\"/pt/demo/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;\" onmouseover=\"this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'\" onmouseout=\"this.style.color='var(--text-secondary)';this.style.background='transparent'\"><span class=\"inline\">Demonstração em áudio</span></a>\n            <a href=\"/pt/como-funciona/\">Como funciona</a>\n            <a href=\"/pt/couples-game/\">Jogo para casais</a>\n            <a href=\"/pt/exploracao-solo/\">Exploração solo</a>\n            <a href=\"/pt/para-pessoas-cegas-e-com-baixa-visao/\">Pessoas cegas e com baixa visão</a>\n            <a href=\"/pt/para-casais-recentes/\">Casais recentes</a>\n            <a href=\"/pt/para-casais-de-longa-data/\">Casais de longa data</a>\n            <a href=\"/pt/para-casais-com-pouco-tempo/\">Casais com pouco tempo</a>\n            <a href=\"/pt/para-casais-aventureiros/\">Casais que querem explorar mais</a>\n\n            <a href=\"/pt/o-caresse-e-seguro/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;\" onmouseover=\"this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'\" onmouseout=\"this.style.color='var(--text-secondary)';this.style.background='transparent'\">Privacidade e segurança</a>\n        "
+}
