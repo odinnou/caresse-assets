@@ -122,7 +122,13 @@ def main():
             archive.stdout.close()
             assert archive.wait() == 0
         with sync_playwright() as playwright:
-            options = {"headless": True}
+            # Raster scheduling/caches can vary rounded-edge antialiasing even
+            # between captures of the unchanged baseline. Apply identical
+            # deterministic raster settings while keeping pixel equality strict.
+            options = {"headless": True, "args": [
+                "--num-raster-threads=1", "--disable-partial-raster",
+                "--disable-skia-runtime-opts", "--run-all-compositor-stages-before-draw",
+            ]}
             if os.environ.get("CHROMIUM_EXECUTABLE"):
                 options["executable_path"] = os.environ["CHROMIUM_EXECUTABLE"]
             browser = playwright.chromium.launch(**options)

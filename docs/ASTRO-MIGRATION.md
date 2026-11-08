@@ -61,9 +61,20 @@ npm run test:browser
 
 Le commit de référence doit exister localement ; la CI utilise `fetch-depth: 0`. `BASELINE_REF` sélectionne une autre référence. `BASELINE_DIR` fournit éventuellement un checkout déjà extrait. `CHROMIUM_EXECUTABLE` permet d’utiliser un Chromium installé localement.
 
+Dans un environnement où le dossier personnel n’est pas accessible en écriture, utiliser un cache npm temporaire et désactiver la télémétrie de l’outil Astro pour éviter ses écritures de configuration :
+
+```sh
+npm_config_cache=/tmp/caresse-npm-cache npm ci
+npm test
+ASTRO_TELEMETRY_DISABLED=1 npm run build
+```
+
+Ces réglages ne modifient ni le verrouillage des dépendances ni les scripts analytics du site. Le registre `registry.npmjs.org` doit être autorisé pour les métadonnées et les archives des paquets.
+
 - `test:parity` vérifie la présence de tous les fichiers publics de référence, l’identité binaire des assets/pages non migrées et l’égalité du DOM des pages migrées et du sitemap. Il ignore commentaires, espaces de formatage et ordre des éléments du head ; il compare métadonnées, JSON-LD, CSS et scripts.
 - `test:browser` compare les 16 pages en desktop 1440 px et Android 390 px : captures complètes, pixels, titres, liens, images et instantanés d’accessibilité. Il vérifie aussi l’attribution UTM après navigation accueil → couples puis clic store, dans les quatre langues et sur les deux profils.
 - Ressources externes et lecture de médias sont bloquées identiquement. L’horloge et les animations SVG sont figées au même instant ; les images locales sont décodées avant capture. Les espaces de formatage du texte sont normalisés, avec une comparaison des pixels conservée strictement. Les requêtes vers le domaine de production sont interceptées ; Umami est remplacé par un collecteur local. Aucun événement de production n’est envoyé. Ce protocole n’est pas un audit Lighthouse, un test d’écoute audio ou un test sur appareils physiques.
+- Chromium utilise les mêmes réglages de rastérisation pour les deux versions : un seul worker, sans cache partiel ni optimisations CPU Skia, et traitement de toutes les étapes de composition avant capture. Sans ces réglages, Chromium 155 peut produire un anticrénelage différent sur les bords arrondis du sélecteur de langue, y compris entre deux captures du même site historique. Aucun pixel n’est masqué et aucune tolérance de différence n’est ajoutée.
 - Rapports JSON et captures sont écrits dans `artifacts/` et joints à la CI. Un écart fait échouer le workflow avant déploiement.
 
 Ces comparaisons figent le contenu du pilote pour valider sa migration. Elles s’exécutent en CI pour la PR `feat/90-astro-static`, ou sur lancement manuel avec `compare_migration` activé. Les modifications éditoriales ultérieures restent contrôlées par les tests de contenu, les tests unitaires et le build, sans être bloquées par cette référence historique. Les commandes de comparaison manuelles restent disponibles ; une évolution volontaire du périmètre nécessite une référence adaptée. La généralisation attend la validation du pilote.
