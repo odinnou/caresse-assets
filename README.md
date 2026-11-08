@@ -8,18 +8,19 @@ Caresse est une application mobile (iOS/Android) proposant des expériences audi
 
 ## Structure
 
-Le pilote Astro couvre 16 pages (accueil, couples, comparatif Dipsea et article « raviver la flamme », en FR/EN/ES/PT). Les 210 autres pages restent inchangées dans `public/` pendant la migration progressive.
+Astro génère les 226 pages historiques en FR/EN/ES/PT : pages éditoriales, comparatifs, démos, pages saisonnières, support, téléchargement, documents légaux et anciennes URL de démos. Les assets restent dans `public/`.
 
 - `src/content/pages/` — données éditables : SEO, blocs, FAQ et références de contenu
 - `src/content/blocks/` — contenus propres aux pages : Markdown et fragments HTML conservés
-- `src/components/`, `src/layouts/` — présentation commune, navigation, footer, CTA, FAQ et grilles
+- `src/content/scripts/` — scripts historiques partagés, injectés sans transformation
+- `src/components/`, `src/layouts/` — présentation commune, navigation, footer, CTA, FAQ, grilles et blocs imbriqués
 - `src/data/routes.json` — URL et correspondances entre traductions
 - `src/data/chrome/` — éléments de navigation et de footer partagés
 - `src/data/sitemap/` — inventaire du sitemap généré par Astro
-- `public/` — assets et pages non encore migrées, copiés sans transformation
+- `public/` — assets et fichiers de configuration publics, copiés sans transformation
 - `dist/` — résultat du build, généré et non versionné
 
-Les chemins ci-dessous désignent les **URL publiques** ; leurs fichiers se trouvent dans `public/` pour les pages non migrées et dans `src/` pour le pilote.
+Les chemins ci-dessous désignent les **URL publiques** ; les pages sont composées depuis `src/` et les assets sont conservés dans `public/`.
 
 - `index.html` — page d'accueil (FR)
 - `en/` — version anglaise du site (même arborescence que la racine)

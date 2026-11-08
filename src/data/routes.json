@@ -166,5 +166,2279 @@
         "x-default": "/blog/raviver-la-flamme-couple/"
       }
     }
+  },
+  "alternatives": {
+    "fr": {
+      "path": "/alternatives/",
+      "canonical": "/alternatives/",
+      "alternates": {
+        "fr": "/alternatives/",
+        "en": "/en/alternatives/",
+        "es": "/es/alternatives/",
+        "pt": "/pt/alternatives/",
+        "x-default": "/alternatives/"
+      }
+    },
+    "en": {
+      "path": "/en/alternatives/",
+      "canonical": "/en/alternatives/",
+      "alternates": {
+        "fr": "/alternatives/",
+        "en": "/en/alternatives/",
+        "es": "/es/alternatives/",
+        "pt": "/pt/alternatives/",
+        "x-default": "/alternatives/"
+      }
+    },
+    "es": {
+      "path": "/es/alternatives/",
+      "canonical": "/es/alternatives/",
+      "alternates": {
+        "fr": "/alternatives/",
+        "en": "/en/alternatives/",
+        "es": "/es/alternatives/",
+        "pt": "/pt/alternatives/",
+        "x-default": "/alternatives/"
+      }
+    },
+    "pt": {
+      "path": "/pt/alternatives/",
+      "canonical": "/pt/alternatives/",
+      "alternates": {
+        "fr": "/alternatives/",
+        "en": "/en/alternatives/",
+        "es": "/es/alternatives/",
+        "pt": "/pt/alternatives/",
+        "x-default": "/alternatives/"
+      }
+    }
+  },
+  "anniversaire-de-couple": {
+    "fr": {
+      "path": "/anniversaire-de-couple/",
+      "canonical": "/anniversaire-de-couple/",
+      "alternates": {
+        "fr": "/anniversaire-de-couple/",
+        "en": "/en/relationship-anniversary/",
+        "es": "/es/aniversario-de-pareja/",
+        "pt": "/pt/aniversario-de-relacionamento/",
+        "x-default": "/anniversaire-de-couple/"
+      }
+    },
+    "en": {
+      "path": "/en/relationship-anniversary/",
+      "canonical": "/en/relationship-anniversary/",
+      "alternates": {
+        "fr": "/anniversaire-de-couple/",
+        "en": "/en/relationship-anniversary/",
+        "es": "/es/aniversario-de-pareja/",
+        "pt": "/pt/aniversario-de-relacionamento/",
+        "x-default": "/anniversaire-de-couple/"
+      }
+    },
+    "es": {
+      "path": "/es/aniversario-de-pareja/",
+      "canonical": "/es/aniversario-de-pareja/",
+      "alternates": {
+        "fr": "/anniversaire-de-couple/",
+        "en": "/en/relationship-anniversary/",
+        "es": "/es/aniversario-de-pareja/",
+        "pt": "/pt/aniversario-de-relacionamento/",
+        "x-default": "/anniversaire-de-couple/"
+      }
+    },
+    "pt": {
+      "path": "/pt/aniversario-de-relacionamento/",
+      "canonical": "/pt/aniversario-de-relacionamento/",
+      "alternates": {
+        "fr": "/anniversaire-de-couple/",
+        "en": "/en/relationship-anniversary/",
+        "es": "/es/aniversario-de-pareja/",
+        "pt": "/pt/aniversario-de-relacionamento/",
+        "x-default": "/anniversaire-de-couple/"
+      }
+    }
+  },
+  "audio-intime-personnalise": {
+    "fr": {
+      "path": "/audio-intime-personnalise/",
+      "canonical": "/audio-intime-personnalise/",
+      "alternates": {
+        "fr": "/audio-intime-personnalise/",
+        "en": "/en/personalized-intimate-audio/",
+        "es": "/es/audio-intimo-personalizado/",
+        "pt": "/pt/audio-intimo-personalizado/",
+        "x-default": "/audio-intime-personnalise/"
+      }
+    },
+    "en": {
+      "path": "/en/personalized-intimate-audio/",
+      "canonical": "/en/personalized-intimate-audio/",
+      "alternates": {
+        "fr": "/audio-intime-personnalise/",
+        "en": "/en/personalized-intimate-audio/",
+        "es": "/es/audio-intimo-personalizado/",
+        "pt": "/pt/audio-intimo-personalizado/",
+        "x-default": "/audio-intime-personnalise/"
+      }
+    },
+    "es": {
+      "path": "/es/audio-intimo-personalizado/",
+      "canonical": "/es/audio-intimo-personalizado/",
+      "alternates": {
+        "fr": "/audio-intime-personnalise/",
+        "en": "/en/personalized-intimate-audio/",
+        "es": "/es/audio-intimo-personalizado/",
+        "pt": "/pt/audio-intimo-personalizado/",
+        "x-default": "/audio-intime-personnalise/"
+      }
+    },
+    "pt": {
+      "path": "/pt/audio-intimo-personalizado/",
+      "canonical": "/pt/audio-intimo-personalizado/",
+      "alternates": {
+        "fr": "/audio-intime-personnalise/",
+        "en": "/en/personalized-intimate-audio/",
+        "es": "/es/audio-intimo-personalizado/",
+        "pt": "/pt/audio-intimo-personalizado/",
+        "x-default": "/audio-intime-personnalise/"
+      }
+    }
+  },
+  "blog-exploration-solo-deculpabiliser": {
+    "fr": {
+      "path": "/blog/exploration-solo-deculpabiliser/",
+      "canonical": "/blog/exploration-solo-deculpabiliser/",
+      "alternates": {
+        "fr": "/blog/exploration-solo-deculpabiliser/",
+        "en": "/en/blog/solo-exploration-without-guilt/",
+        "es": "/es/blog/exploracion-en-solitario-sin-culpa/",
+        "pt": "/pt/blog/exploracao-solo-sem-culpa/",
+        "x-default": "/blog/exploration-solo-deculpabiliser/"
+      }
+    },
+    "en": {
+      "path": "/en/blog/solo-exploration-without-guilt/",
+      "canonical": "/en/blog/solo-exploration-without-guilt/",
+      "alternates": {
+        "fr": "/blog/exploration-solo-deculpabiliser/",
+        "en": "/en/blog/solo-exploration-without-guilt/",
+        "es": "/es/blog/exploracion-en-solitario-sin-culpa/",
+        "pt": "/pt/blog/exploracao-solo-sem-culpa/",
+        "x-default": "/blog/exploration-solo-deculpabiliser/"
+      }
+    },
+    "es": {
+      "path": "/es/blog/exploracion-en-solitario-sin-culpa/",
+      "canonical": "/es/blog/exploracion-en-solitario-sin-culpa/",
+      "alternates": {
+        "fr": "/blog/exploration-solo-deculpabiliser/",
+        "en": "/en/blog/solo-exploration-without-guilt/",
+        "es": "/es/blog/exploracion-en-solitario-sin-culpa/",
+        "pt": "/pt/blog/exploracao-solo-sem-culpa/",
+        "x-default": "/blog/exploration-solo-deculpabiliser/"
+      }
+    },
+    "pt": {
+      "path": "/pt/blog/exploracao-solo-sem-culpa/",
+      "canonical": "/pt/blog/exploracao-solo-sem-culpa/",
+      "alternates": {
+        "fr": "/blog/exploration-solo-deculpabiliser/",
+        "en": "/en/blog/solo-exploration-without-guilt/",
+        "es": "/es/blog/exploracion-en-solitario-sin-culpa/",
+        "pt": "/pt/blog/exploracao-solo-sem-culpa/",
+        "x-default": "/blog/exploration-solo-deculpabiliser/"
+      }
+    }
+  },
+  "blog": {
+    "fr": {
+      "path": "/blog/",
+      "canonical": "/blog/",
+      "alternates": {
+        "fr": "/blog/",
+        "en": "/en/blog/",
+        "es": "/es/blog/",
+        "pt": "/pt/blog/",
+        "x-default": "/blog/"
+      }
+    },
+    "en": {
+      "path": "/en/blog/",
+      "canonical": "/en/blog/",
+      "alternates": {
+        "fr": "/blog/",
+        "en": "/en/blog/",
+        "es": "/es/blog/",
+        "pt": "/pt/blog/",
+        "x-default": "/blog/"
+      }
+    },
+    "es": {
+      "path": "/es/blog/",
+      "canonical": "/es/blog/",
+      "alternates": {
+        "fr": "/blog/",
+        "en": "/en/blog/",
+        "es": "/es/blog/",
+        "pt": "/pt/blog/",
+        "x-default": "/blog/"
+      }
+    },
+    "pt": {
+      "path": "/pt/blog/",
+      "canonical": "/pt/blog/",
+      "alternates": {
+        "fr": "/blog/",
+        "en": "/en/blog/",
+        "es": "/es/blog/",
+        "pt": "/pt/blog/",
+        "x-default": "/blog/"
+      }
+    }
+  },
+  "blog-intimite-handicap-visuel-audio": {
+    "fr": {
+      "path": "/blog/intimite-handicap-visuel-audio/",
+      "canonical": "/blog/intimite-handicap-visuel-audio/",
+      "alternates": {
+        "fr": "/blog/intimite-handicap-visuel-audio/",
+        "en": "/en/blog/intimacy-visual-impairment-audio/",
+        "es": "/es/blog/intimidad-discapacidad-visual-audio/",
+        "pt": "/pt/blog/intimidade-deficiencia-visual-audio/",
+        "x-default": "/en/blog/intimacy-visual-impairment-audio/"
+      }
+    },
+    "en": {
+      "path": "/en/blog/intimacy-visual-impairment-audio/",
+      "canonical": "/en/blog/intimacy-visual-impairment-audio/",
+      "alternates": {
+        "fr": "/blog/intimite-handicap-visuel-audio/",
+        "en": "/en/blog/intimacy-visual-impairment-audio/",
+        "es": "/es/blog/intimidad-discapacidad-visual-audio/",
+        "pt": "/pt/blog/intimidade-deficiencia-visual-audio/",
+        "x-default": "/en/blog/intimacy-visual-impairment-audio/"
+      }
+    },
+    "es": {
+      "path": "/es/blog/intimidad-discapacidad-visual-audio/",
+      "canonical": "/es/blog/intimidad-discapacidad-visual-audio/",
+      "alternates": {
+        "fr": "/blog/intimite-handicap-visuel-audio/",
+        "en": "/en/blog/intimacy-visual-impairment-audio/",
+        "es": "/es/blog/intimidad-discapacidad-visual-audio/",
+        "pt": "/pt/blog/intimidade-deficiencia-visual-audio/",
+        "x-default": "/en/blog/intimacy-visual-impairment-audio/"
+      }
+    },
+    "pt": {
+      "path": "/pt/blog/intimidade-deficiencia-visual-audio/",
+      "canonical": "/pt/blog/intimidade-deficiencia-visual-audio/",
+      "alternates": {
+        "fr": "/blog/intimite-handicap-visuel-audio/",
+        "en": "/en/blog/intimacy-visual-impairment-audio/",
+        "es": "/es/blog/intimidad-discapacidad-visual-audio/",
+        "pt": "/pt/blog/intimidade-deficiencia-visual-audio/",
+        "x-default": "/en/blog/intimacy-visual-impairment-audio/"
+      }
+    }
+  },
+  "blog-parler-de-ses-fantasmes": {
+    "fr": {
+      "path": "/blog/parler-de-ses-fantasmes/",
+      "canonical": "/blog/parler-de-ses-fantasmes/",
+      "alternates": {
+        "fr": "/blog/parler-de-ses-fantasmes/",
+        "en": "/en/blog/talk-about-fantasies/",
+        "es": "/es/blog/hablar-de-tus-fantasias/",
+        "pt": "/pt/blog/como-conversar-sobre-fantasias/",
+        "x-default": "/blog/parler-de-ses-fantasmes/"
+      }
+    },
+    "en": {
+      "path": "/en/blog/talk-about-fantasies/",
+      "canonical": "/en/blog/talk-about-fantasies/",
+      "alternates": {
+        "fr": "/blog/parler-de-ses-fantasmes/",
+        "en": "/en/blog/talk-about-fantasies/",
+        "es": "/es/blog/hablar-de-tus-fantasias/",
+        "pt": "/pt/blog/como-conversar-sobre-fantasias/",
+        "x-default": "/blog/parler-de-ses-fantasmes/"
+      }
+    },
+    "es": {
+      "path": "/es/blog/hablar-de-tus-fantasias/",
+      "canonical": "/es/blog/hablar-de-tus-fantasias/",
+      "alternates": {
+        "fr": "/blog/parler-de-ses-fantasmes/",
+        "en": "/en/blog/talk-about-fantasies/",
+        "es": "/es/blog/hablar-de-tus-fantasias/",
+        "pt": "/pt/blog/como-conversar-sobre-fantasias/",
+        "x-default": "/blog/parler-de-ses-fantasmes/"
+      }
+    },
+    "pt": {
+      "path": "/pt/blog/como-conversar-sobre-fantasias/",
+      "canonical": "/pt/blog/como-conversar-sobre-fantasias/",
+      "alternates": {
+        "fr": "/blog/parler-de-ses-fantasmes/",
+        "en": "/en/blog/talk-about-fantasies/",
+        "es": "/es/blog/hablar-de-tus-fantasias/",
+        "pt": "/pt/blog/como-conversar-sobre-fantasias/",
+        "x-default": "/blog/parler-de-ses-fantasmes/"
+      }
+    }
+  },
+  "blog-premiere-experience-audio-intime-couple": {
+    "fr": {
+      "path": "/blog/premiere-experience-audio-intime-couple/",
+      "canonical": "/blog/premiere-experience-audio-intime-couple/",
+      "alternates": {
+        "fr": "/blog/premiere-experience-audio-intime-couple/",
+        "en": "/en/blog/first-intimate-audio-experience-together/",
+        "es": "/es/blog/primera-experiencia-audio-intimo-pareja/",
+        "pt": "/pt/blog/primeira-experiencia-audio-intimo-casal/",
+        "x-default": "/blog/premiere-experience-audio-intime-couple/"
+      }
+    },
+    "en": {
+      "path": "/en/blog/first-intimate-audio-experience-together/",
+      "canonical": "/en/blog/first-intimate-audio-experience-together/",
+      "alternates": {
+        "fr": "/blog/premiere-experience-audio-intime-couple/",
+        "en": "/en/blog/first-intimate-audio-experience-together/",
+        "es": "/es/blog/primera-experiencia-audio-intimo-pareja/",
+        "pt": "/pt/blog/primeira-experiencia-audio-intimo-casal/",
+        "x-default": "/blog/premiere-experience-audio-intime-couple/"
+      }
+    },
+    "es": {
+      "path": "/es/blog/primera-experiencia-audio-intimo-pareja/",
+      "canonical": "/es/blog/primera-experiencia-audio-intimo-pareja/",
+      "alternates": {
+        "fr": "/blog/premiere-experience-audio-intime-couple/",
+        "en": "/en/blog/first-intimate-audio-experience-together/",
+        "es": "/es/blog/primera-experiencia-audio-intimo-pareja/",
+        "pt": "/pt/blog/primeira-experiencia-audio-intimo-casal/",
+        "x-default": "/blog/premiere-experience-audio-intime-couple/"
+      }
+    },
+    "pt": {
+      "path": "/pt/blog/primeira-experiencia-audio-intimo-casal/",
+      "canonical": "/pt/blog/primeira-experiencia-audio-intimo-casal/",
+      "alternates": {
+        "fr": "/blog/premiere-experience-audio-intime-couple/",
+        "en": "/en/blog/first-intimate-audio-experience-together/",
+        "es": "/es/blog/primera-experiencia-audio-intimo-pareja/",
+        "pt": "/pt/blog/primeira-experiencia-audio-intimo-casal/",
+        "x-default": "/blog/premiere-experience-audio-intime-couple/"
+      }
+    }
+  },
+  "blog-state-of-ai-romance-2026": {
+    "fr": {
+      "path": "/blog/state-of-ai-romance-2026/",
+      "canonical": "/blog/state-of-ai-romance-2026/",
+      "alternates": {
+        "fr": "/blog/state-of-ai-romance-2026/",
+        "en": "/en/blog/state-of-ai-romance-2026/",
+        "es": "/es/blog/state-of-ai-romance-2026/",
+        "pt": "/pt/blog/panorama-ia-intimidade-2026/",
+        "x-default": "/en/blog/state-of-ai-romance-2026/"
+      }
+    },
+    "en": {
+      "path": "/en/blog/state-of-ai-romance-2026/",
+      "canonical": "/en/blog/state-of-ai-romance-2026/",
+      "alternates": {
+        "fr": "/blog/state-of-ai-romance-2026/",
+        "en": "/en/blog/state-of-ai-romance-2026/",
+        "es": "/es/blog/state-of-ai-romance-2026/",
+        "pt": "/pt/blog/panorama-ia-intimidade-2026/",
+        "x-default": "/en/blog/state-of-ai-romance-2026/"
+      }
+    },
+    "es": {
+      "path": "/es/blog/state-of-ai-romance-2026/",
+      "canonical": "/es/blog/state-of-ai-romance-2026/",
+      "alternates": {
+        "fr": "/blog/state-of-ai-romance-2026/",
+        "en": "/en/blog/state-of-ai-romance-2026/",
+        "es": "/es/blog/state-of-ai-romance-2026/",
+        "pt": "/pt/blog/panorama-ia-intimidade-2026/",
+        "x-default": "/en/blog/state-of-ai-romance-2026/"
+      }
+    },
+    "pt": {
+      "path": "/pt/blog/panorama-ia-intimidade-2026/",
+      "canonical": "/pt/blog/panorama-ia-intimidade-2026/",
+      "alternates": {
+        "fr": "/blog/state-of-ai-romance-2026/",
+        "en": "/en/blog/state-of-ai-romance-2026/",
+        "es": "/es/blog/state-of-ai-romance-2026/",
+        "pt": "/pt/blog/panorama-ia-intimidade-2026/",
+        "x-default": "/en/blog/state-of-ai-romance-2026/"
+      }
+    }
+  },
+  "cadeau-saint-valentin-couple": {
+    "fr": {
+      "path": "/cadeau-saint-valentin-couple/",
+      "canonical": "/cadeau-saint-valentin-couple/",
+      "alternates": {
+        "fr": "/cadeau-saint-valentin-couple/",
+        "en": "/en/valentines-day-experience-gift/",
+        "es": "/es/regalo-san-valentin-pareja/",
+        "pt": "/pt/presente-dia-dos-namorados-casal/",
+        "x-default": "/cadeau-saint-valentin-couple/"
+      }
+    },
+    "en": {
+      "path": "/en/valentines-day-experience-gift/",
+      "canonical": "/en/valentines-day-experience-gift/",
+      "alternates": {
+        "fr": "/cadeau-saint-valentin-couple/",
+        "en": "/en/valentines-day-experience-gift/",
+        "es": "/es/regalo-san-valentin-pareja/",
+        "pt": "/pt/presente-dia-dos-namorados-casal/",
+        "x-default": "/cadeau-saint-valentin-couple/"
+      }
+    },
+    "es": {
+      "path": "/es/regalo-san-valentin-pareja/",
+      "canonical": "/es/regalo-san-valentin-pareja/",
+      "alternates": {
+        "fr": "/cadeau-saint-valentin-couple/",
+        "en": "/en/valentines-day-experience-gift/",
+        "es": "/es/regalo-san-valentin-pareja/",
+        "pt": "/pt/presente-dia-dos-namorados-casal/",
+        "x-default": "/cadeau-saint-valentin-couple/"
+      }
+    },
+    "pt": {
+      "path": "/pt/presente-dia-dos-namorados-casal/",
+      "canonical": "/pt/presente-dia-dos-namorados-casal/",
+      "alternates": {
+        "fr": "/cadeau-saint-valentin-couple/",
+        "en": "/en/valentines-day-experience-gift/",
+        "es": "/es/regalo-san-valentin-pareja/",
+        "pt": "/pt/presente-dia-dos-namorados-casal/",
+        "x-default": "/cadeau-saint-valentin-couple/"
+      }
+    }
+  },
+  "couples-game": {
+    "fr": {
+      "path": "/couples-game/",
+      "canonical": "/couples-game/",
+      "alternates": {
+        "fr": "/couples-game/",
+        "en": "/en/couples-game/",
+        "es": "/es/couples-game/",
+        "pt": "/pt/couples-game/",
+        "x-default": "/couples-game/"
+      }
+    },
+    "en": {
+      "path": "/en/couples-game/",
+      "canonical": "/en/couples-game/",
+      "alternates": {
+        "fr": "/couples-game/",
+        "en": "/en/couples-game/",
+        "es": "/es/couples-game/",
+        "pt": "/pt/couples-game/",
+        "x-default": "/couples-game/"
+      }
+    },
+    "es": {
+      "path": "/es/couples-game/",
+      "canonical": "/es/couples-game/",
+      "alternates": {
+        "fr": "/couples-game/",
+        "en": "/en/couples-game/",
+        "es": "/es/couples-game/",
+        "pt": "/pt/couples-game/",
+        "x-default": "/couples-game/"
+      }
+    },
+    "pt": {
+      "path": "/pt/couples-game/",
+      "canonical": "/pt/couples-game/",
+      "alternates": {
+        "fr": "/couples-game/",
+        "en": "/en/couples-game/",
+        "es": "/es/couples-game/",
+        "pt": "/pt/couples-game/",
+        "x-default": "/couples-game/"
+      }
+    }
+  },
+  "demo-couple-deux-femmes": {
+    "fr": {
+      "path": "/demo/couple-deux-femmes/",
+      "canonical": "/demo/couple-deux-femmes/",
+      "alternates": {
+        "fr": "/demo/couple-deux-femmes/",
+        "en": "/en/demo/couple-two-women/",
+        "es": "/es/demo/pareja-dos-mujeres/",
+        "pt": "/pt/demo/casal-duas-mulheres/",
+        "x-default": "/demo/couple-deux-femmes/"
+      }
+    },
+    "en": {
+      "path": "/en/demo/couple-two-women/",
+      "canonical": "/en/demo/couple-two-women/",
+      "alternates": {
+        "fr": "/demo/couple-deux-femmes/",
+        "en": "/en/demo/couple-two-women/",
+        "es": "/es/demo/pareja-dos-mujeres/",
+        "pt": "/pt/demo/casal-duas-mulheres/",
+        "x-default": "/demo/couple-deux-femmes/"
+      }
+    },
+    "es": {
+      "path": "/es/demo/pareja-dos-mujeres/",
+      "canonical": "/es/demo/pareja-dos-mujeres/",
+      "alternates": {
+        "fr": "/demo/couple-deux-femmes/",
+        "en": "/en/demo/couple-two-women/",
+        "es": "/es/demo/pareja-dos-mujeres/",
+        "pt": "/pt/demo/casal-duas-mulheres/",
+        "x-default": "/demo/couple-deux-femmes/"
+      }
+    },
+    "pt": {
+      "path": "/pt/demo/casal-duas-mulheres/",
+      "canonical": "/pt/demo/casal-duas-mulheres/",
+      "alternates": {
+        "fr": "/demo/couple-deux-femmes/",
+        "en": "/en/demo/couple-two-women/",
+        "es": "/es/demo/pareja-dos-mujeres/",
+        "pt": "/pt/demo/casal-duas-mulheres/",
+        "x-default": "/demo/couple-deux-femmes/"
+      }
+    }
+  },
+  "demo-couple-deux-hommes": {
+    "fr": {
+      "path": "/demo/couple-deux-hommes/",
+      "canonical": "/demo/couple-deux-hommes/",
+      "alternates": {
+        "fr": "/demo/couple-deux-hommes/",
+        "en": "/en/demo/couple-two-men/",
+        "es": "/es/demo/pareja-dos-hombres/",
+        "pt": "/pt/demo/casal-dois-homens/",
+        "x-default": "/demo/couple-deux-hommes/"
+      }
+    },
+    "en": {
+      "path": "/en/demo/couple-two-men/",
+      "canonical": "/en/demo/couple-two-men/",
+      "alternates": {
+        "fr": "/demo/couple-deux-hommes/",
+        "en": "/en/demo/couple-two-men/",
+        "es": "/es/demo/pareja-dos-hombres/",
+        "pt": "/pt/demo/casal-dois-homens/",
+        "x-default": "/demo/couple-deux-hommes/"
+      }
+    },
+    "es": {
+      "path": "/es/demo/pareja-dos-hombres/",
+      "canonical": "/es/demo/pareja-dos-hombres/",
+      "alternates": {
+        "fr": "/demo/couple-deux-hommes/",
+        "en": "/en/demo/couple-two-men/",
+        "es": "/es/demo/pareja-dos-hombres/",
+        "pt": "/pt/demo/casal-dois-homens/",
+        "x-default": "/demo/couple-deux-hommes/"
+      }
+    },
+    "pt": {
+      "path": "/pt/demo/casal-dois-homens/",
+      "canonical": "/pt/demo/casal-dois-homens/",
+      "alternates": {
+        "fr": "/demo/couple-deux-hommes/",
+        "en": "/en/demo/couple-two-men/",
+        "es": "/es/demo/pareja-dos-hombres/",
+        "pt": "/pt/demo/casal-dois-homens/",
+        "x-default": "/demo/couple-deux-hommes/"
+      }
+    }
+  },
+  "demo-couple-romantique": {
+    "fr": {
+      "path": "/demo/couple-romantique/",
+      "canonical": "/demo/couple-romantique/",
+      "alternates": {
+        "fr": "/demo/couple-romantique/",
+        "en": "/en/demo/romantic-couple/",
+        "es": "/es/demo/pareja-romantica/",
+        "pt": "/pt/demo/casal-romantico/",
+        "x-default": "/demo/couple-romantique/"
+      }
+    },
+    "en": {
+      "path": "/en/demo/romantic-couple/",
+      "canonical": "/en/demo/romantic-couple/",
+      "alternates": {
+        "fr": "/demo/couple-romantique/",
+        "en": "/en/demo/romantic-couple/",
+        "es": "/es/demo/pareja-romantica/",
+        "pt": "/pt/demo/casal-romantico/",
+        "x-default": "/demo/couple-romantique/"
+      }
+    },
+    "es": {
+      "path": "/es/demo/pareja-romantica/",
+      "canonical": "/es/demo/pareja-romantica/",
+      "alternates": {
+        "fr": "/demo/couple-romantique/",
+        "en": "/en/demo/romantic-couple/",
+        "es": "/es/demo/pareja-romantica/",
+        "pt": "/pt/demo/casal-romantico/",
+        "x-default": "/demo/couple-romantique/"
+      }
+    },
+    "pt": {
+      "path": "/pt/demo/casal-romantico/",
+      "canonical": "/pt/demo/casal-romantico/",
+      "alternates": {
+        "fr": "/demo/couple-romantique/",
+        "en": "/en/demo/romantic-couple/",
+        "es": "/es/demo/pareja-romantica/",
+        "pt": "/pt/demo/casal-romantico/",
+        "x-default": "/demo/couple-romantique/"
+      }
+    }
+  },
+  "demo-couple-torride": {
+    "fr": {
+      "path": "/demo/couple-torride/",
+      "canonical": "/demo/couple-torride/",
+      "alternates": {
+        "fr": "/demo/couple-torride/",
+        "en": "/en/demo/passionate-couple/",
+        "es": "/es/demo/pareja-apasionada/",
+        "pt": "/pt/demo/casal-intenso/",
+        "x-default": "/demo/couple-torride/"
+      }
+    },
+    "en": {
+      "path": "/en/demo/passionate-couple/",
+      "canonical": "/en/demo/passionate-couple/",
+      "alternates": {
+        "fr": "/demo/couple-torride/",
+        "en": "/en/demo/passionate-couple/",
+        "es": "/es/demo/pareja-apasionada/",
+        "pt": "/pt/demo/casal-intenso/",
+        "x-default": "/demo/couple-torride/"
+      }
+    },
+    "es": {
+      "path": "/es/demo/pareja-apasionada/",
+      "canonical": "/es/demo/pareja-apasionada/",
+      "alternates": {
+        "fr": "/demo/couple-torride/",
+        "en": "/en/demo/passionate-couple/",
+        "es": "/es/demo/pareja-apasionada/",
+        "pt": "/pt/demo/casal-intenso/",
+        "x-default": "/demo/couple-torride/"
+      }
+    },
+    "pt": {
+      "path": "/pt/demo/casal-intenso/",
+      "canonical": "/pt/demo/casal-intenso/",
+      "alternates": {
+        "fr": "/demo/couple-torride/",
+        "en": "/en/demo/passionate-couple/",
+        "es": "/es/demo/pareja-apasionada/",
+        "pt": "/pt/demo/casal-intenso/",
+        "x-default": "/demo/couple-torride/"
+      }
+    }
+  },
+  "demo": {
+    "fr": {
+      "path": "/demo/",
+      "canonical": "/demo/",
+      "alternates": {
+        "fr": "/demo/",
+        "en": "/en/demo/",
+        "es": "/es/demo/",
+        "pt": "/pt/demo/",
+        "x-default": "/demo/"
+      }
+    },
+    "en": {
+      "path": "/en/demo/",
+      "canonical": "/en/demo/",
+      "alternates": {
+        "fr": "/demo/",
+        "en": "/en/demo/",
+        "es": "/es/demo/",
+        "pt": "/pt/demo/",
+        "x-default": "/demo/"
+      }
+    },
+    "es": {
+      "path": "/es/demo/",
+      "canonical": "/es/demo/",
+      "alternates": {
+        "fr": "/demo/",
+        "en": "/en/demo/",
+        "es": "/es/demo/",
+        "pt": "/pt/demo/",
+        "x-default": "/demo/"
+      }
+    },
+    "pt": {
+      "path": "/pt/demo/",
+      "canonical": "/pt/demo/",
+      "alternates": {
+        "fr": "/demo/",
+        "en": "/en/demo/",
+        "es": "/es/demo/",
+        "pt": "/pt/demo/",
+        "x-default": "/demo/"
+      }
+    }
+  },
+  "demo-solo-decouverte-sensuelle": {
+    "fr": {
+      "path": "/demo/solo-decouverte-sensuelle/",
+      "canonical": "/demo/solo-decouverte-sensuelle/",
+      "alternates": {
+        "fr": "/demo/solo-decouverte-sensuelle/",
+        "en": "/en/demo/solo-sensual-discovery/",
+        "es": "/es/demo/exploracion-sensual-en-solitario/",
+        "pt": "/pt/demo/descoberta-sensorial-solo/",
+        "x-default": "/demo/solo-decouverte-sensuelle/"
+      }
+    },
+    "en": {
+      "path": "/en/demo/solo-sensual-discovery/",
+      "canonical": "/en/demo/solo-sensual-discovery/",
+      "alternates": {
+        "fr": "/demo/solo-decouverte-sensuelle/",
+        "en": "/en/demo/solo-sensual-discovery/",
+        "es": "/es/demo/exploracion-sensual-en-solitario/",
+        "pt": "/pt/demo/descoberta-sensorial-solo/",
+        "x-default": "/demo/solo-decouverte-sensuelle/"
+      }
+    },
+    "es": {
+      "path": "/es/demo/exploracion-sensual-en-solitario/",
+      "canonical": "/es/demo/exploracion-sensual-en-solitario/",
+      "alternates": {
+        "fr": "/demo/solo-decouverte-sensuelle/",
+        "en": "/en/demo/solo-sensual-discovery/",
+        "es": "/es/demo/exploracion-sensual-en-solitario/",
+        "pt": "/pt/demo/descoberta-sensorial-solo/",
+        "x-default": "/demo/solo-decouverte-sensuelle/"
+      }
+    },
+    "pt": {
+      "path": "/pt/demo/descoberta-sensorial-solo/",
+      "canonical": "/pt/demo/descoberta-sensorial-solo/",
+      "alternates": {
+        "fr": "/demo/solo-decouverte-sensuelle/",
+        "en": "/en/demo/solo-sensual-discovery/",
+        "es": "/es/demo/exploracion-sensual-en-solitario/",
+        "pt": "/pt/demo/descoberta-sensorial-solo/",
+        "x-default": "/demo/solo-decouverte-sensuelle/"
+      }
+    }
+  },
+  "demo-solo-sextoys": {
+    "fr": {
+      "path": "/demo/solo-sextoys/",
+      "canonical": "/demo/solo-sextoys/",
+      "alternates": {
+        "fr": "/demo/solo-sextoys/",
+        "en": "/en/demo/solo-sextoys/",
+        "es": "/es/demo/solo-sextoys/",
+        "pt": "/pt/demo/solo-com-brinquedos-eroticos/",
+        "x-default": "/demo/solo-sextoys/"
+      }
+    },
+    "en": {
+      "path": "/en/demo/solo-sextoys/",
+      "canonical": "/en/demo/solo-sextoys/",
+      "alternates": {
+        "fr": "/demo/solo-sextoys/",
+        "en": "/en/demo/solo-sextoys/",
+        "es": "/es/demo/solo-sextoys/",
+        "pt": "/pt/demo/solo-com-brinquedos-eroticos/",
+        "x-default": "/demo/solo-sextoys/"
+      }
+    },
+    "es": {
+      "path": "/es/demo/solo-sextoys/",
+      "canonical": "/es/demo/solo-sextoys/",
+      "alternates": {
+        "fr": "/demo/solo-sextoys/",
+        "en": "/en/demo/solo-sextoys/",
+        "es": "/es/demo/solo-sextoys/",
+        "pt": "/pt/demo/solo-com-brinquedos-eroticos/",
+        "x-default": "/demo/solo-sextoys/"
+      }
+    },
+    "pt": {
+      "path": "/pt/demo/solo-com-brinquedos-eroticos/",
+      "canonical": "/pt/demo/solo-com-brinquedos-eroticos/",
+      "alternates": {
+        "fr": "/demo/solo-sextoys/",
+        "en": "/en/demo/solo-sextoys/",
+        "es": "/es/demo/solo-sextoys/",
+        "pt": "/pt/demo/solo-com-brinquedos-eroticos/",
+        "x-default": "/demo/solo-sextoys/"
+      }
+    }
+  },
+  "download": {
+    "fr": {
+      "path": "/download/",
+      "canonical": "/download/",
+      "alternates": {
+        "fr": "/download/",
+        "en": "/en/download/",
+        "es": "/es/download/",
+        "pt": "/pt/baixar/",
+        "x-default": "/download/"
+      }
+    },
+    "en": {
+      "path": "/en/download/",
+      "canonical": "/en/download/",
+      "alternates": {
+        "fr": "/download/",
+        "en": "/en/download/",
+        "es": "/es/download/",
+        "pt": "/pt/baixar/",
+        "x-default": "/download/"
+      }
+    },
+    "es": {
+      "path": "/es/download/",
+      "canonical": "/es/download/",
+      "alternates": {
+        "fr": "/download/",
+        "en": "/en/download/",
+        "es": "/es/download/",
+        "pt": "/pt/baixar/",
+        "x-default": "/download/"
+      }
+    },
+    "pt": {
+      "path": "/pt/baixar/",
+      "canonical": "/pt/baixar/",
+      "alternates": {
+        "fr": "/download/",
+        "en": "/en/download/",
+        "es": "/es/download/",
+        "pt": "/pt/baixar/",
+        "x-default": "/download/"
+      }
+    }
+  },
+  "noel-en-couple": {
+    "en": {
+      "path": "/en/christmas-date-nights/",
+      "canonical": "/en/christmas-date-nights/",
+      "alternates": {
+        "fr": "/noel-en-couple/",
+        "en": "/en/christmas-date-nights/",
+        "es": "/es/navidad-en-pareja/",
+        "pt": "/pt/natal-a-dois/",
+        "x-default": "/noel-en-couple/"
+      }
+    },
+    "es": {
+      "path": "/es/navidad-en-pareja/",
+      "canonical": "/es/navidad-en-pareja/",
+      "alternates": {
+        "fr": "/noel-en-couple/",
+        "en": "/en/christmas-date-nights/",
+        "es": "/es/navidad-en-pareja/",
+        "pt": "/pt/natal-a-dois/",
+        "x-default": "/noel-en-couple/"
+      }
+    },
+    "fr": {
+      "path": "/noel-en-couple/",
+      "canonical": "/noel-en-couple/",
+      "alternates": {
+        "fr": "/noel-en-couple/",
+        "en": "/en/christmas-date-nights/",
+        "es": "/es/navidad-en-pareja/",
+        "pt": "/pt/natal-a-dois/",
+        "x-default": "/noel-en-couple/"
+      }
+    },
+    "pt": {
+      "path": "/pt/natal-a-dois/",
+      "canonical": "/pt/natal-a-dois/",
+      "alternates": {
+        "fr": "/noel-en-couple/",
+        "en": "/en/christmas-date-nights/",
+        "es": "/es/navidad-en-pareja/",
+        "pt": "/pt/natal-a-dois/",
+        "x-default": "/noel-en-couple/"
+      }
+    }
+  },
+  "redirect-en-demo-couple-deux-femmes": {
+    "en": {
+      "path": "/en/demo/couple-deux-femmes/",
+      "canonical": "/en/demo/couple-two-women/",
+      "alternates": {}
+    }
+  },
+  "redirect-en-demo-couple-deux-hommes": {
+    "en": {
+      "path": "/en/demo/couple-deux-hommes/",
+      "canonical": "/en/demo/couple-two-men/",
+      "alternates": {}
+    }
+  },
+  "redirect-en-demo-couple-romantique": {
+    "en": {
+      "path": "/en/demo/couple-romantique/",
+      "canonical": "/en/demo/romantic-couple/",
+      "alternates": {}
+    }
+  },
+  "redirect-en-demo-couple-torride": {
+    "en": {
+      "path": "/en/demo/couple-torride/",
+      "canonical": "/en/demo/passionate-couple/",
+      "alternates": {}
+    }
+  },
+  "redirect-en-demo-solo-decouverte-sensuelle": {
+    "en": {
+      "path": "/en/demo/solo-decouverte-sensuelle/",
+      "canonical": "/en/demo/solo-sensual-discovery/",
+      "alternates": {}
+    }
+  },
+  "for-adventurous-couples": {
+    "en": {
+      "path": "/en/for-adventurous-couples/",
+      "canonical": "/en/for-adventurous-couples/",
+      "alternates": {
+        "fr": "/for-adventurous-couples/",
+        "en": "/en/for-adventurous-couples/",
+        "es": "/es/for-adventurous-couples/",
+        "pt": "/pt/para-casais-aventureiros/",
+        "x-default": "/for-adventurous-couples/"
+      }
+    },
+    "es": {
+      "path": "/es/for-adventurous-couples/",
+      "canonical": "/es/for-adventurous-couples/",
+      "alternates": {
+        "fr": "/for-adventurous-couples/",
+        "en": "/en/for-adventurous-couples/",
+        "es": "/es/for-adventurous-couples/",
+        "pt": "/pt/para-casais-aventureiros/",
+        "x-default": "/for-adventurous-couples/"
+      }
+    },
+    "fr": {
+      "path": "/for-adventurous-couples/",
+      "canonical": "/for-adventurous-couples/",
+      "alternates": {
+        "fr": "/for-adventurous-couples/",
+        "en": "/en/for-adventurous-couples/",
+        "es": "/es/for-adventurous-couples/",
+        "pt": "/pt/para-casais-aventureiros/",
+        "x-default": "/for-adventurous-couples/"
+      }
+    },
+    "pt": {
+      "path": "/pt/para-casais-aventureiros/",
+      "canonical": "/pt/para-casais-aventureiros/",
+      "alternates": {
+        "fr": "/for-adventurous-couples/",
+        "en": "/en/for-adventurous-couples/",
+        "es": "/es/for-adventurous-couples/",
+        "pt": "/pt/para-casais-aventureiros/",
+        "x-default": "/for-adventurous-couples/"
+      }
+    }
+  },
+  "for-blind-and-low-vision": {
+    "en": {
+      "path": "/en/for-blind-and-low-vision/",
+      "canonical": "/en/for-blind-and-low-vision/",
+      "alternates": {
+        "fr": "/for-blind-and-low-vision/",
+        "en": "/en/for-blind-and-low-vision/",
+        "es": "/es/for-blind-and-low-vision/",
+        "pt": "/pt/para-pessoas-cegas-e-com-baixa-visao/",
+        "x-default": "/for-blind-and-low-vision/"
+      }
+    },
+    "es": {
+      "path": "/es/for-blind-and-low-vision/",
+      "canonical": "/es/for-blind-and-low-vision/",
+      "alternates": {
+        "fr": "/for-blind-and-low-vision/",
+        "en": "/en/for-blind-and-low-vision/",
+        "es": "/es/for-blind-and-low-vision/",
+        "pt": "/pt/para-pessoas-cegas-e-com-baixa-visao/",
+        "x-default": "/for-blind-and-low-vision/"
+      }
+    },
+    "fr": {
+      "path": "/for-blind-and-low-vision/",
+      "canonical": "/for-blind-and-low-vision/",
+      "alternates": {
+        "fr": "/for-blind-and-low-vision/",
+        "en": "/en/for-blind-and-low-vision/",
+        "es": "/es/for-blind-and-low-vision/",
+        "pt": "/pt/para-pessoas-cegas-e-com-baixa-visao/",
+        "x-default": "/for-blind-and-low-vision/"
+      }
+    },
+    "pt": {
+      "path": "/pt/para-pessoas-cegas-e-com-baixa-visao/",
+      "canonical": "/pt/para-pessoas-cegas-e-com-baixa-visao/",
+      "alternates": {
+        "fr": "/for-blind-and-low-vision/",
+        "en": "/en/for-blind-and-low-vision/",
+        "es": "/es/for-blind-and-low-vision/",
+        "pt": "/pt/para-pessoas-cegas-e-com-baixa-visao/",
+        "x-default": "/for-blind-and-low-vision/"
+      }
+    }
+  },
+  "for-busy-couples": {
+    "en": {
+      "path": "/en/for-busy-couples/",
+      "canonical": "/en/for-busy-couples/",
+      "alternates": {
+        "fr": "/for-busy-couples/",
+        "en": "/en/for-busy-couples/",
+        "es": "/es/for-busy-couples/",
+        "pt": "/pt/para-casais-com-pouco-tempo/",
+        "x-default": "/for-busy-couples/"
+      }
+    },
+    "es": {
+      "path": "/es/for-busy-couples/",
+      "canonical": "/es/for-busy-couples/",
+      "alternates": {
+        "fr": "/for-busy-couples/",
+        "en": "/en/for-busy-couples/",
+        "es": "/es/for-busy-couples/",
+        "pt": "/pt/para-casais-com-pouco-tempo/",
+        "x-default": "/for-busy-couples/"
+      }
+    },
+    "fr": {
+      "path": "/for-busy-couples/",
+      "canonical": "/for-busy-couples/",
+      "alternates": {
+        "fr": "/for-busy-couples/",
+        "en": "/en/for-busy-couples/",
+        "es": "/es/for-busy-couples/",
+        "pt": "/pt/para-casais-com-pouco-tempo/",
+        "x-default": "/for-busy-couples/"
+      }
+    },
+    "pt": {
+      "path": "/pt/para-casais-com-pouco-tempo/",
+      "canonical": "/pt/para-casais-com-pouco-tempo/",
+      "alternates": {
+        "fr": "/for-busy-couples/",
+        "en": "/en/for-busy-couples/",
+        "es": "/es/for-busy-couples/",
+        "pt": "/pt/para-casais-com-pouco-tempo/",
+        "x-default": "/for-busy-couples/"
+      }
+    }
+  },
+  "for-long-term-couples": {
+    "en": {
+      "path": "/en/for-long-term-couples/",
+      "canonical": "/en/for-long-term-couples/",
+      "alternates": {
+        "fr": "/for-long-term-couples/",
+        "en": "/en/for-long-term-couples/",
+        "es": "/es/for-long-term-couples/",
+        "pt": "/pt/para-casais-de-longa-data/",
+        "x-default": "/for-long-term-couples/"
+      }
+    },
+    "es": {
+      "path": "/es/for-long-term-couples/",
+      "canonical": "/es/for-long-term-couples/",
+      "alternates": {
+        "fr": "/for-long-term-couples/",
+        "en": "/en/for-long-term-couples/",
+        "es": "/es/for-long-term-couples/",
+        "pt": "/pt/para-casais-de-longa-data/",
+        "x-default": "/for-long-term-couples/"
+      }
+    },
+    "fr": {
+      "path": "/for-long-term-couples/",
+      "canonical": "/for-long-term-couples/",
+      "alternates": {
+        "fr": "/for-long-term-couples/",
+        "en": "/en/for-long-term-couples/",
+        "es": "/es/for-long-term-couples/",
+        "pt": "/pt/para-casais-de-longa-data/",
+        "x-default": "/for-long-term-couples/"
+      }
+    },
+    "pt": {
+      "path": "/pt/para-casais-de-longa-data/",
+      "canonical": "/pt/para-casais-de-longa-data/",
+      "alternates": {
+        "fr": "/for-long-term-couples/",
+        "en": "/en/for-long-term-couples/",
+        "es": "/es/for-long-term-couples/",
+        "pt": "/pt/para-casais-de-longa-data/",
+        "x-default": "/for-long-term-couples/"
+      }
+    }
+  },
+  "for-new-couples": {
+    "en": {
+      "path": "/en/for-new-couples/",
+      "canonical": "/en/for-new-couples/",
+      "alternates": {
+        "fr": "/for-new-couples/",
+        "en": "/en/for-new-couples/",
+        "es": "/es/for-new-couples/",
+        "pt": "/pt/para-casais-recentes/",
+        "x-default": "/for-new-couples/"
+      }
+    },
+    "es": {
+      "path": "/es/for-new-couples/",
+      "canonical": "/es/for-new-couples/",
+      "alternates": {
+        "fr": "/for-new-couples/",
+        "en": "/en/for-new-couples/",
+        "es": "/es/for-new-couples/",
+        "pt": "/pt/para-casais-recentes/",
+        "x-default": "/for-new-couples/"
+      }
+    },
+    "fr": {
+      "path": "/for-new-couples/",
+      "canonical": "/for-new-couples/",
+      "alternates": {
+        "fr": "/for-new-couples/",
+        "en": "/en/for-new-couples/",
+        "es": "/es/for-new-couples/",
+        "pt": "/pt/para-casais-recentes/",
+        "x-default": "/for-new-couples/"
+      }
+    },
+    "pt": {
+      "path": "/pt/para-casais-recentes/",
+      "canonical": "/pt/para-casais-recentes/",
+      "alternates": {
+        "fr": "/for-new-couples/",
+        "en": "/en/for-new-couples/",
+        "es": "/es/for-new-couples/",
+        "pt": "/pt/para-casais-recentes/",
+        "x-default": "/for-new-couples/"
+      }
+    }
+  },
+  "for-solo-exploration": {
+    "en": {
+      "path": "/en/for-solo-exploration/",
+      "canonical": "/en/for-solo-exploration/",
+      "alternates": {
+        "fr": "/for-solo-exploration/",
+        "en": "/en/for-solo-exploration/",
+        "es": "/es/for-solo-exploration/",
+        "pt": "/pt/exploracao-solo/",
+        "x-default": "/for-solo-exploration/"
+      }
+    },
+    "es": {
+      "path": "/es/for-solo-exploration/",
+      "canonical": "/es/for-solo-exploration/",
+      "alternates": {
+        "fr": "/for-solo-exploration/",
+        "en": "/en/for-solo-exploration/",
+        "es": "/es/for-solo-exploration/",
+        "pt": "/pt/exploracao-solo/",
+        "x-default": "/for-solo-exploration/"
+      }
+    },
+    "fr": {
+      "path": "/for-solo-exploration/",
+      "canonical": "/for-solo-exploration/",
+      "alternates": {
+        "fr": "/for-solo-exploration/",
+        "en": "/en/for-solo-exploration/",
+        "es": "/es/for-solo-exploration/",
+        "pt": "/pt/exploracao-solo/",
+        "x-default": "/for-solo-exploration/"
+      }
+    },
+    "pt": {
+      "path": "/pt/exploracao-solo/",
+      "canonical": "/pt/exploracao-solo/",
+      "alternates": {
+        "fr": "/for-solo-exploration/",
+        "en": "/en/for-solo-exploration/",
+        "es": "/es/for-solo-exploration/",
+        "pt": "/pt/exploracao-solo/",
+        "x-default": "/for-solo-exploration/"
+      }
+    }
+  },
+  "how-it-works": {
+    "en": {
+      "path": "/en/how-it-works/",
+      "canonical": "/en/how-it-works/",
+      "alternates": {
+        "fr": "/how-it-works/",
+        "en": "/en/how-it-works/",
+        "es": "/es/how-it-works/",
+        "pt": "/pt/como-funciona/",
+        "x-default": "/how-it-works/"
+      }
+    },
+    "es": {
+      "path": "/es/how-it-works/",
+      "canonical": "/es/how-it-works/",
+      "alternates": {
+        "fr": "/how-it-works/",
+        "en": "/en/how-it-works/",
+        "es": "/es/how-it-works/",
+        "pt": "/pt/como-funciona/",
+        "x-default": "/how-it-works/"
+      }
+    },
+    "fr": {
+      "path": "/how-it-works/",
+      "canonical": "/how-it-works/",
+      "alternates": {
+        "fr": "/how-it-works/",
+        "en": "/en/how-it-works/",
+        "es": "/es/how-it-works/",
+        "pt": "/pt/como-funciona/",
+        "x-default": "/how-it-works/"
+      }
+    },
+    "pt": {
+      "path": "/pt/como-funciona/",
+      "canonical": "/pt/como-funciona/",
+      "alternates": {
+        "fr": "/how-it-works/",
+        "en": "/en/how-it-works/",
+        "es": "/es/how-it-works/",
+        "pt": "/pt/como-funciona/",
+        "x-default": "/how-it-works/"
+      }
+    }
+  },
+  "is-caresse-safe": {
+    "en": {
+      "path": "/en/is-caresse-safe/",
+      "canonical": "/en/is-caresse-safe/",
+      "alternates": {
+        "fr": "/is-caresse-safe/",
+        "en": "/en/is-caresse-safe/",
+        "es": "/es/is-caresse-safe/",
+        "pt": "/pt/o-caresse-e-seguro/",
+        "x-default": "/is-caresse-safe/"
+      }
+    },
+    "es": {
+      "path": "/es/is-caresse-safe/",
+      "canonical": "/es/is-caresse-safe/",
+      "alternates": {
+        "fr": "/is-caresse-safe/",
+        "en": "/en/is-caresse-safe/",
+        "es": "/es/is-caresse-safe/",
+        "pt": "/pt/o-caresse-e-seguro/",
+        "x-default": "/is-caresse-safe/"
+      }
+    },
+    "fr": {
+      "path": "/is-caresse-safe/",
+      "canonical": "/is-caresse-safe/",
+      "alternates": {
+        "fr": "/is-caresse-safe/",
+        "en": "/en/is-caresse-safe/",
+        "es": "/es/is-caresse-safe/",
+        "pt": "/pt/o-caresse-e-seguro/",
+        "x-default": "/is-caresse-safe/"
+      }
+    },
+    "pt": {
+      "path": "/pt/o-caresse-e-seguro/",
+      "canonical": "/pt/o-caresse-e-seguro/",
+      "alternates": {
+        "fr": "/is-caresse-safe/",
+        "en": "/en/is-caresse-safe/",
+        "es": "/es/is-caresse-safe/",
+        "pt": "/pt/o-caresse-e-seguro/",
+        "x-default": "/is-caresse-safe/"
+      }
+    }
+  },
+  "nouvel-an-en-couple": {
+    "en": {
+      "path": "/en/new-years-eve-at-home/",
+      "canonical": "/en/new-years-eve-at-home/",
+      "alternates": {
+        "fr": "/nouvel-an-en-couple/",
+        "en": "/en/new-years-eve-at-home/",
+        "es": "/es/nochevieja-en-pareja/",
+        "pt": "/pt/ano-novo-a-dois/",
+        "x-default": "/nouvel-an-en-couple/"
+      }
+    },
+    "es": {
+      "path": "/es/nochevieja-en-pareja/",
+      "canonical": "/es/nochevieja-en-pareja/",
+      "alternates": {
+        "fr": "/nouvel-an-en-couple/",
+        "en": "/en/new-years-eve-at-home/",
+        "es": "/es/nochevieja-en-pareja/",
+        "pt": "/pt/ano-novo-a-dois/",
+        "x-default": "/nouvel-an-en-couple/"
+      }
+    },
+    "fr": {
+      "path": "/nouvel-an-en-couple/",
+      "canonical": "/nouvel-an-en-couple/",
+      "alternates": {
+        "fr": "/nouvel-an-en-couple/",
+        "en": "/en/new-years-eve-at-home/",
+        "es": "/es/nochevieja-en-pareja/",
+        "pt": "/pt/ano-novo-a-dois/",
+        "x-default": "/nouvel-an-en-couple/"
+      }
+    },
+    "pt": {
+      "path": "/pt/ano-novo-a-dois/",
+      "canonical": "/pt/ano-novo-a-dois/",
+      "alternates": {
+        "fr": "/nouvel-an-en-couple/",
+        "en": "/en/new-years-eve-at-home/",
+        "es": "/es/nochevieja-en-pareja/",
+        "pt": "/pt/ano-novo-a-dois/",
+        "x-default": "/nouvel-an-en-couple/"
+      }
+    }
+  },
+  "tarifs": {
+    "en": {
+      "path": "/en/pricing/",
+      "canonical": "/en/pricing/",
+      "alternates": {
+        "fr": "/tarifs/",
+        "en": "/en/pricing/",
+        "es": "/es/precios/",
+        "pt": "/pt/precos/",
+        "x-default": "/tarifs/"
+      }
+    },
+    "es": {
+      "path": "/es/precios/",
+      "canonical": "/es/precios/",
+      "alternates": {
+        "fr": "/tarifs/",
+        "en": "/en/pricing/",
+        "es": "/es/precios/",
+        "pt": "/pt/precos/",
+        "x-default": "/tarifs/"
+      }
+    },
+    "pt": {
+      "path": "/pt/precos/",
+      "canonical": "/pt/precos/",
+      "alternates": {
+        "fr": "/tarifs/",
+        "en": "/en/pricing/",
+        "es": "/es/precios/",
+        "pt": "/pt/precos/",
+        "x-default": "/tarifs/"
+      }
+    },
+    "fr": {
+      "path": "/tarifs/",
+      "canonical": "/tarifs/",
+      "alternates": {
+        "fr": "/tarifs/",
+        "en": "/en/pricing/",
+        "es": "/es/precios/",
+        "pt": "/pt/precos/",
+        "x-default": "/tarifs/"
+      }
+    }
+  },
+  "soiree-romantique-maison": {
+    "en": {
+      "path": "/en/romantic-date-night-at-home/",
+      "canonical": "/en/romantic-date-night-at-home/",
+      "alternates": {
+        "fr": "/soiree-romantique-maison/",
+        "en": "/en/romantic-date-night-at-home/",
+        "es": "/es/noche-romantica-en-casa/",
+        "pt": "/pt/noite-romantica-em-casa/",
+        "x-default": "/soiree-romantique-maison/"
+      }
+    },
+    "es": {
+      "path": "/es/noche-romantica-en-casa/",
+      "canonical": "/es/noche-romantica-en-casa/",
+      "alternates": {
+        "fr": "/soiree-romantique-maison/",
+        "en": "/en/romantic-date-night-at-home/",
+        "es": "/es/noche-romantica-en-casa/",
+        "pt": "/pt/noite-romantica-em-casa/",
+        "x-default": "/soiree-romantique-maison/"
+      }
+    },
+    "pt": {
+      "path": "/pt/noite-romantica-em-casa/",
+      "canonical": "/pt/noite-romantica-em-casa/",
+      "alternates": {
+        "fr": "/soiree-romantique-maison/",
+        "en": "/en/romantic-date-night-at-home/",
+        "es": "/es/noche-romantica-en-casa/",
+        "pt": "/pt/noite-romantica-em-casa/",
+        "x-default": "/soiree-romantique-maison/"
+      }
+    },
+    "fr": {
+      "path": "/soiree-romantique-maison/",
+      "canonical": "/soiree-romantique-maison/",
+      "alternates": {
+        "fr": "/soiree-romantique-maison/",
+        "en": "/en/romantic-date-night-at-home/",
+        "es": "/es/noche-romantica-en-casa/",
+        "pt": "/pt/noite-romantica-em-casa/",
+        "x-default": "/soiree-romantique-maison/"
+      }
+    }
+  },
+  "massage-sensuel-couple": {
+    "en": {
+      "path": "/en/sensual-couples-massage/",
+      "canonical": "/en/sensual-couples-massage/",
+      "alternates": {
+        "fr": "/massage-sensuel-couple/",
+        "en": "/en/sensual-couples-massage/",
+        "es": "/es/masaje-sensual-pareja/",
+        "pt": "/pt/massagem-sensual-casal/",
+        "x-default": "/massage-sensuel-couple/"
+      }
+    },
+    "es": {
+      "path": "/es/masaje-sensual-pareja/",
+      "canonical": "/es/masaje-sensual-pareja/",
+      "alternates": {
+        "fr": "/massage-sensuel-couple/",
+        "en": "/en/sensual-couples-massage/",
+        "es": "/es/masaje-sensual-pareja/",
+        "pt": "/pt/massagem-sensual-casal/",
+        "x-default": "/massage-sensuel-couple/"
+      }
+    },
+    "fr": {
+      "path": "/massage-sensuel-couple/",
+      "canonical": "/massage-sensuel-couple/",
+      "alternates": {
+        "fr": "/massage-sensuel-couple/",
+        "en": "/en/sensual-couples-massage/",
+        "es": "/es/masaje-sensual-pareja/",
+        "pt": "/pt/massagem-sensual-casal/",
+        "x-default": "/massage-sensuel-couple/"
+      }
+    },
+    "pt": {
+      "path": "/pt/massagem-sensual-casal/",
+      "canonical": "/pt/massagem-sensual-casal/",
+      "alternates": {
+        "fr": "/massage-sensuel-couple/",
+        "en": "/en/sensual-couples-massage/",
+        "es": "/es/masaje-sensual-pareja/",
+        "pt": "/pt/massagem-sensual-casal/",
+        "x-default": "/massage-sensuel-couple/"
+      }
+    }
+  },
+  "support": {
+    "en": {
+      "path": "/en/support/",
+      "canonical": "/en/support/",
+      "alternates": {
+        "fr": "/support/",
+        "en": "/en/support/",
+        "es": "/es/support/",
+        "pt": "/pt/support/",
+        "x-default": "/support/"
+      }
+    },
+    "es": {
+      "path": "/es/support/",
+      "canonical": "/es/support/",
+      "alternates": {
+        "fr": "/support/",
+        "en": "/en/support/",
+        "es": "/es/support/",
+        "pt": "/pt/support/",
+        "x-default": "/support/"
+      }
+    },
+    "pt": {
+      "path": "/pt/support/",
+      "canonical": "/pt/support/",
+      "alternates": {
+        "fr": "/support/",
+        "en": "/en/support/",
+        "es": "/es/support/",
+        "pt": "/pt/support/",
+        "x-default": "/support/"
+      }
+    },
+    "fr": {
+      "path": "/support/",
+      "canonical": "/support/",
+      "alternates": {
+        "fr": "/support/",
+        "en": "/en/support/",
+        "es": "/es/support/",
+        "pt": "/pt/support/",
+        "x-default": "/support/"
+      }
+    }
+  },
+  "saint-valentin": {
+    "en": {
+      "path": "/en/valentines-day-at-home/",
+      "canonical": "/en/valentines-day-at-home/",
+      "alternates": {
+        "fr": "/saint-valentin/",
+        "en": "/en/valentines-day-at-home/",
+        "es": "/es/san-valentin-en-casa/",
+        "pt": "/pt/dia-dos-namorados-em-casa/",
+        "x-default": "/saint-valentin/"
+      }
+    },
+    "es": {
+      "path": "/es/san-valentin-en-casa/",
+      "canonical": "/es/san-valentin-en-casa/",
+      "alternates": {
+        "fr": "/saint-valentin/",
+        "en": "/en/valentines-day-at-home/",
+        "es": "/es/san-valentin-en-casa/",
+        "pt": "/pt/dia-dos-namorados-em-casa/",
+        "x-default": "/saint-valentin/"
+      }
+    },
+    "pt": {
+      "path": "/pt/dia-dos-namorados-em-casa/",
+      "canonical": "/pt/dia-dos-namorados-em-casa/",
+      "alternates": {
+        "fr": "/saint-valentin/",
+        "en": "/en/valentines-day-at-home/",
+        "es": "/es/san-valentin-en-casa/",
+        "pt": "/pt/dia-dos-namorados-em-casa/",
+        "x-default": "/saint-valentin/"
+      }
+    },
+    "fr": {
+      "path": "/saint-valentin/",
+      "canonical": "/saint-valentin/",
+      "alternates": {
+        "fr": "/saint-valentin/",
+        "en": "/en/valentines-day-at-home/",
+        "es": "/es/san-valentin-en-casa/",
+        "pt": "/pt/dia-dos-namorados-em-casa/",
+        "x-default": "/saint-valentin/"
+      }
+    }
+  },
+  "vs-bloom": {
+    "en": {
+      "path": "/en/vs-bloom/",
+      "canonical": "/en/vs-bloom/",
+      "alternates": {
+        "fr": "/vs-bloom/",
+        "en": "/en/vs-bloom/",
+        "es": "/es/vs-bloom/",
+        "pt": "/pt/vs-bloom/",
+        "x-default": "/vs-bloom/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-bloom/",
+      "canonical": "/es/vs-bloom/",
+      "alternates": {
+        "fr": "/vs-bloom/",
+        "en": "/en/vs-bloom/",
+        "es": "/es/vs-bloom/",
+        "pt": "/pt/vs-bloom/",
+        "x-default": "/vs-bloom/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-bloom/",
+      "canonical": "/pt/vs-bloom/",
+      "alternates": {
+        "fr": "/vs-bloom/",
+        "en": "/en/vs-bloom/",
+        "es": "/es/vs-bloom/",
+        "pt": "/pt/vs-bloom/",
+        "x-default": "/vs-bloom/"
+      }
+    },
+    "fr": {
+      "path": "/vs-bloom/",
+      "canonical": "/vs-bloom/",
+      "alternates": {
+        "fr": "/vs-bloom/",
+        "en": "/en/vs-bloom/",
+        "es": "/es/vs-bloom/",
+        "pt": "/pt/vs-bloom/",
+        "x-default": "/vs-bloom/"
+      }
+    }
+  },
+  "vs-bonded": {
+    "en": {
+      "path": "/en/vs-bonded/",
+      "canonical": "/en/vs-bonded/",
+      "alternates": {
+        "fr": "/vs-bonded/",
+        "en": "/en/vs-bonded/",
+        "es": "/es/vs-bonded/",
+        "pt": "/pt/vs-bonded/",
+        "x-default": "/vs-bonded/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-bonded/",
+      "canonical": "/es/vs-bonded/",
+      "alternates": {
+        "fr": "/vs-bonded/",
+        "en": "/en/vs-bonded/",
+        "es": "/es/vs-bonded/",
+        "pt": "/pt/vs-bonded/",
+        "x-default": "/vs-bonded/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-bonded/",
+      "canonical": "/pt/vs-bonded/",
+      "alternates": {
+        "fr": "/vs-bonded/",
+        "en": "/en/vs-bonded/",
+        "es": "/es/vs-bonded/",
+        "pt": "/pt/vs-bonded/",
+        "x-default": "/vs-bonded/"
+      }
+    },
+    "fr": {
+      "path": "/vs-bonded/",
+      "canonical": "/vs-bonded/",
+      "alternates": {
+        "fr": "/vs-bonded/",
+        "en": "/en/vs-bonded/",
+        "es": "/es/vs-bonded/",
+        "pt": "/pt/vs-bonded/",
+        "x-default": "/vs-bonded/"
+      }
+    }
+  },
+  "vs-coelle": {
+    "en": {
+      "path": "/en/vs-coelle/",
+      "canonical": "/en/vs-coelle/",
+      "alternates": {
+        "fr": "/vs-coelle/",
+        "en": "/en/vs-coelle/",
+        "es": "/es/vs-coelle/",
+        "pt": "/pt/vs-coelle/",
+        "x-default": "/vs-coelle/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-coelle/",
+      "canonical": "/es/vs-coelle/",
+      "alternates": {
+        "fr": "/vs-coelle/",
+        "en": "/en/vs-coelle/",
+        "es": "/es/vs-coelle/",
+        "pt": "/pt/vs-coelle/",
+        "x-default": "/vs-coelle/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-coelle/",
+      "canonical": "/pt/vs-coelle/",
+      "alternates": {
+        "fr": "/vs-coelle/",
+        "en": "/en/vs-coelle/",
+        "es": "/es/vs-coelle/",
+        "pt": "/pt/vs-coelle/",
+        "x-default": "/vs-coelle/"
+      }
+    },
+    "fr": {
+      "path": "/vs-coelle/",
+      "canonical": "/vs-coelle/",
+      "alternates": {
+        "fr": "/vs-coelle/",
+        "en": "/en/vs-coelle/",
+        "es": "/es/vs-coelle/",
+        "pt": "/pt/vs-coelle/",
+        "x-default": "/vs-coelle/"
+      }
+    }
+  },
+  "vs-desire": {
+    "en": {
+      "path": "/en/vs-desire/",
+      "canonical": "/en/vs-desire/",
+      "alternates": {
+        "fr": "/vs-desire/",
+        "en": "/en/vs-desire/",
+        "es": "/es/vs-desire/",
+        "pt": "/pt/vs-desire/",
+        "x-default": "/vs-desire/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-desire/",
+      "canonical": "/es/vs-desire/",
+      "alternates": {
+        "fr": "/vs-desire/",
+        "en": "/en/vs-desire/",
+        "es": "/es/vs-desire/",
+        "pt": "/pt/vs-desire/",
+        "x-default": "/vs-desire/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-desire/",
+      "canonical": "/pt/vs-desire/",
+      "alternates": {
+        "fr": "/vs-desire/",
+        "en": "/en/vs-desire/",
+        "es": "/es/vs-desire/",
+        "pt": "/pt/vs-desire/",
+        "x-default": "/vs-desire/"
+      }
+    },
+    "fr": {
+      "path": "/vs-desire/",
+      "canonical": "/vs-desire/",
+      "alternates": {
+        "fr": "/vs-desire/",
+        "en": "/en/vs-desire/",
+        "es": "/es/vs-desire/",
+        "pt": "/pt/vs-desire/",
+        "x-default": "/vs-desire/"
+      }
+    }
+  },
+  "vs-femtasy": {
+    "en": {
+      "path": "/en/vs-femtasy/",
+      "canonical": "/en/vs-femtasy/",
+      "alternates": {
+        "fr": "/vs-femtasy/",
+        "en": "/en/vs-femtasy/",
+        "es": "/es/vs-femtasy/",
+        "pt": "/pt/vs-femtasy/",
+        "x-default": "/vs-femtasy/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-femtasy/",
+      "canonical": "/es/vs-femtasy/",
+      "alternates": {
+        "fr": "/vs-femtasy/",
+        "en": "/en/vs-femtasy/",
+        "es": "/es/vs-femtasy/",
+        "pt": "/pt/vs-femtasy/",
+        "x-default": "/vs-femtasy/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-femtasy/",
+      "canonical": "/pt/vs-femtasy/",
+      "alternates": {
+        "fr": "/vs-femtasy/",
+        "en": "/en/vs-femtasy/",
+        "es": "/es/vs-femtasy/",
+        "pt": "/pt/vs-femtasy/",
+        "x-default": "/vs-femtasy/"
+      }
+    },
+    "fr": {
+      "path": "/vs-femtasy/",
+      "canonical": "/vs-femtasy/",
+      "alternates": {
+        "fr": "/vs-femtasy/",
+        "en": "/en/vs-femtasy/",
+        "es": "/es/vs-femtasy/",
+        "pt": "/pt/vs-femtasy/",
+        "x-default": "/vs-femtasy/"
+      }
+    }
+  },
+  "vs-inthemoment": {
+    "en": {
+      "path": "/en/vs-inthemoment/",
+      "canonical": "/en/vs-inthemoment/",
+      "alternates": {
+        "fr": "/vs-inthemoment/",
+        "en": "/en/vs-inthemoment/",
+        "es": "/es/vs-inthemoment/",
+        "pt": "/pt/vs-inthemoment/",
+        "x-default": "/vs-inthemoment/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-inthemoment/",
+      "canonical": "/es/vs-inthemoment/",
+      "alternates": {
+        "fr": "/vs-inthemoment/",
+        "en": "/en/vs-inthemoment/",
+        "es": "/es/vs-inthemoment/",
+        "pt": "/pt/vs-inthemoment/",
+        "x-default": "/vs-inthemoment/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-inthemoment/",
+      "canonical": "/pt/vs-inthemoment/",
+      "alternates": {
+        "fr": "/vs-inthemoment/",
+        "en": "/en/vs-inthemoment/",
+        "es": "/es/vs-inthemoment/",
+        "pt": "/pt/vs-inthemoment/",
+        "x-default": "/vs-inthemoment/"
+      }
+    },
+    "fr": {
+      "path": "/vs-inthemoment/",
+      "canonical": "/vs-inthemoment/",
+      "alternates": {
+        "fr": "/vs-inthemoment/",
+        "en": "/en/vs-inthemoment/",
+        "es": "/es/vs-inthemoment/",
+        "pt": "/pt/vs-inthemoment/",
+        "x-default": "/vs-inthemoment/"
+      }
+    }
+  },
+  "vs-magicwave": {
+    "en": {
+      "path": "/en/vs-magicwave/",
+      "canonical": "/en/vs-magicwave/",
+      "alternates": {
+        "fr": "/vs-magicwave/",
+        "en": "/en/vs-magicwave/",
+        "es": "/es/vs-magicwave/",
+        "pt": "/pt/vs-magicwave/",
+        "x-default": "/vs-magicwave/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-magicwave/",
+      "canonical": "/es/vs-magicwave/",
+      "alternates": {
+        "fr": "/vs-magicwave/",
+        "en": "/en/vs-magicwave/",
+        "es": "/es/vs-magicwave/",
+        "pt": "/pt/vs-magicwave/",
+        "x-default": "/vs-magicwave/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-magicwave/",
+      "canonical": "/pt/vs-magicwave/",
+      "alternates": {
+        "fr": "/vs-magicwave/",
+        "en": "/en/vs-magicwave/",
+        "es": "/es/vs-magicwave/",
+        "pt": "/pt/vs-magicwave/",
+        "x-default": "/vs-magicwave/"
+      }
+    },
+    "fr": {
+      "path": "/vs-magicwave/",
+      "canonical": "/vs-magicwave/",
+      "alternates": {
+        "fr": "/vs-magicwave/",
+        "en": "/en/vs-magicwave/",
+        "es": "/es/vs-magicwave/",
+        "pt": "/pt/vs-magicwave/",
+        "x-default": "/vs-magicwave/"
+      }
+    }
+  },
+  "vs-melba": {
+    "en": {
+      "path": "/en/vs-melba/",
+      "canonical": "/en/vs-melba/",
+      "alternates": {
+        "fr": "/vs-melba/",
+        "en": "/en/vs-melba/",
+        "es": "/es/vs-melba/",
+        "pt": "/pt/vs-melba/",
+        "x-default": "/vs-melba/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-melba/",
+      "canonical": "/es/vs-melba/",
+      "alternates": {
+        "fr": "/vs-melba/",
+        "en": "/en/vs-melba/",
+        "es": "/es/vs-melba/",
+        "pt": "/pt/vs-melba/",
+        "x-default": "/vs-melba/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-melba/",
+      "canonical": "/pt/vs-melba/",
+      "alternates": {
+        "fr": "/vs-melba/",
+        "en": "/en/vs-melba/",
+        "es": "/es/vs-melba/",
+        "pt": "/pt/vs-melba/",
+        "x-default": "/vs-melba/"
+      }
+    },
+    "fr": {
+      "path": "/vs-melba/",
+      "canonical": "/vs-melba/",
+      "alternates": {
+        "fr": "/vs-melba/",
+        "en": "/en/vs-melba/",
+        "es": "/es/vs-melba/",
+        "pt": "/pt/vs-melba/",
+        "x-default": "/vs-melba/"
+      }
+    }
+  },
+  "vs-melt": {
+    "en": {
+      "path": "/en/vs-melt/",
+      "canonical": "/en/vs-melt/",
+      "alternates": {
+        "fr": "/vs-melt/",
+        "en": "/en/vs-melt/",
+        "es": "/es/vs-melt/",
+        "pt": "/pt/vs-melt/",
+        "x-default": "/vs-melt/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-melt/",
+      "canonical": "/es/vs-melt/",
+      "alternates": {
+        "fr": "/vs-melt/",
+        "en": "/en/vs-melt/",
+        "es": "/es/vs-melt/",
+        "pt": "/pt/vs-melt/",
+        "x-default": "/vs-melt/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-melt/",
+      "canonical": "/pt/vs-melt/",
+      "alternates": {
+        "fr": "/vs-melt/",
+        "en": "/en/vs-melt/",
+        "es": "/es/vs-melt/",
+        "pt": "/pt/vs-melt/",
+        "x-default": "/vs-melt/"
+      }
+    },
+    "fr": {
+      "path": "/vs-melt/",
+      "canonical": "/vs-melt/",
+      "alternates": {
+        "fr": "/vs-melt/",
+        "en": "/en/vs-melt/",
+        "es": "/es/vs-melt/",
+        "pt": "/pt/vs-melt/",
+        "x-default": "/vs-melt/"
+      }
+    }
+  },
+  "vs-pura-sensa": {
+    "en": {
+      "path": "/en/vs-pura-sensa/",
+      "canonical": "/en/vs-pura-sensa/",
+      "alternates": {
+        "fr": "/vs-pura-sensa/",
+        "en": "/en/vs-pura-sensa/",
+        "es": "/es/vs-pura-sensa/",
+        "pt": "/pt/vs-pura-sensa/",
+        "x-default": "/vs-pura-sensa/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-pura-sensa/",
+      "canonical": "/es/vs-pura-sensa/",
+      "alternates": {
+        "fr": "/vs-pura-sensa/",
+        "en": "/en/vs-pura-sensa/",
+        "es": "/es/vs-pura-sensa/",
+        "pt": "/pt/vs-pura-sensa/",
+        "x-default": "/vs-pura-sensa/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-pura-sensa/",
+      "canonical": "/pt/vs-pura-sensa/",
+      "alternates": {
+        "fr": "/vs-pura-sensa/",
+        "en": "/en/vs-pura-sensa/",
+        "es": "/es/vs-pura-sensa/",
+        "pt": "/pt/vs-pura-sensa/",
+        "x-default": "/vs-pura-sensa/"
+      }
+    },
+    "fr": {
+      "path": "/vs-pura-sensa/",
+      "canonical": "/vs-pura-sensa/",
+      "alternates": {
+        "fr": "/vs-pura-sensa/",
+        "en": "/en/vs-pura-sensa/",
+        "es": "/es/vs-pura-sensa/",
+        "pt": "/pt/vs-pura-sensa/",
+        "x-default": "/vs-pura-sensa/"
+      }
+    }
+  },
+  "vs-quinn": {
+    "en": {
+      "path": "/en/vs-quinn/",
+      "canonical": "/en/vs-quinn/",
+      "alternates": {
+        "fr": "/vs-quinn/",
+        "en": "/en/vs-quinn/",
+        "es": "/es/vs-quinn/",
+        "pt": "/pt/vs-quinn/",
+        "x-default": "/vs-quinn/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-quinn/",
+      "canonical": "/es/vs-quinn/",
+      "alternates": {
+        "fr": "/vs-quinn/",
+        "en": "/en/vs-quinn/",
+        "es": "/es/vs-quinn/",
+        "pt": "/pt/vs-quinn/",
+        "x-default": "/vs-quinn/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-quinn/",
+      "canonical": "/pt/vs-quinn/",
+      "alternates": {
+        "fr": "/vs-quinn/",
+        "en": "/en/vs-quinn/",
+        "es": "/es/vs-quinn/",
+        "pt": "/pt/vs-quinn/",
+        "x-default": "/vs-quinn/"
+      }
+    },
+    "fr": {
+      "path": "/vs-quinn/",
+      "canonical": "/vs-quinn/",
+      "alternates": {
+        "fr": "/vs-quinn/",
+        "en": "/en/vs-quinn/",
+        "es": "/es/vs-quinn/",
+        "pt": "/pt/vs-quinn/",
+        "x-default": "/vs-quinn/"
+      }
+    }
+  },
+  "vs-spicer": {
+    "en": {
+      "path": "/en/vs-spicer/",
+      "canonical": "/en/vs-spicer/",
+      "alternates": {
+        "fr": "/vs-spicer/",
+        "en": "/en/vs-spicer/",
+        "es": "/es/vs-spicer/",
+        "pt": "/pt/vs-spicer/",
+        "x-default": "/vs-spicer/"
+      }
+    },
+    "es": {
+      "path": "/es/vs-spicer/",
+      "canonical": "/es/vs-spicer/",
+      "alternates": {
+        "fr": "/vs-spicer/",
+        "en": "/en/vs-spicer/",
+        "es": "/es/vs-spicer/",
+        "pt": "/pt/vs-spicer/",
+        "x-default": "/vs-spicer/"
+      }
+    },
+    "pt": {
+      "path": "/pt/vs-spicer/",
+      "canonical": "/pt/vs-spicer/",
+      "alternates": {
+        "fr": "/vs-spicer/",
+        "en": "/en/vs-spicer/",
+        "es": "/es/vs-spicer/",
+        "pt": "/pt/vs-spicer/",
+        "x-default": "/vs-spicer/"
+      }
+    },
+    "fr": {
+      "path": "/vs-spicer/",
+      "canonical": "/vs-spicer/",
+      "alternates": {
+        "fr": "/vs-spicer/",
+        "en": "/en/vs-spicer/",
+        "es": "/es/vs-spicer/",
+        "pt": "/pt/vs-spicer/",
+        "x-default": "/vs-spicer/"
+      }
+    }
+  },
+  "redirect-es-demo-couple-deux-femmes": {
+    "es": {
+      "path": "/es/demo/couple-deux-femmes/",
+      "canonical": "/es/demo/pareja-dos-mujeres/",
+      "alternates": {}
+    }
+  },
+  "redirect-es-demo-couple-deux-hommes": {
+    "es": {
+      "path": "/es/demo/couple-deux-hommes/",
+      "canonical": "/es/demo/pareja-dos-hombres/",
+      "alternates": {}
+    }
+  },
+  "redirect-es-demo-couple-romantique": {
+    "es": {
+      "path": "/es/demo/couple-romantique/",
+      "canonical": "/es/demo/pareja-romantica/",
+      "alternates": {}
+    }
+  },
+  "redirect-es-demo-couple-torride": {
+    "es": {
+      "path": "/es/demo/couple-torride/",
+      "canonical": "/es/demo/pareja-apasionada/",
+      "alternates": {}
+    }
+  },
+  "redirect-es-demo-solo-decouverte-sensuelle": {
+    "es": {
+      "path": "/es/demo/solo-decouverte-sensuelle/",
+      "canonical": "/es/demo/exploracion-sensual-en-solitario/",
+      "alternates": {}
+    }
+  },
+  "legal-cgu": {
+    "en": {
+      "path": "/legal/en/cgu/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "es": {
+      "path": "/legal/es/cgu/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "fr": {
+      "path": "/legal/fr/cgu/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "pt": {
+      "path": "/legal/pt/cgu/",
+      "canonical": null,
+      "alternates": {}
+    }
+  },
+  "legal-cgv": {
+    "en": {
+      "path": "/legal/en/cgv/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "es": {
+      "path": "/legal/es/cgv/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "fr": {
+      "path": "/legal/fr/cgv/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "pt": {
+      "path": "/legal/pt/cgv/",
+      "canonical": null,
+      "alternates": {}
+    }
+  },
+  "legal-legals": {
+    "en": {
+      "path": "/legal/en/legals/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "es": {
+      "path": "/legal/es/legals/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "fr": {
+      "path": "/legal/fr/legals/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "pt": {
+      "path": "/legal/pt/legals/",
+      "canonical": null,
+      "alternates": {}
+    }
+  },
+  "legal-privacy": {
+    "en": {
+      "path": "/legal/en/privacy/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "es": {
+      "path": "/legal/es/privacy/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "fr": {
+      "path": "/legal/fr/privacy/",
+      "canonical": null,
+      "alternates": {}
+    },
+    "pt": {
+      "path": "/legal/pt/privacy/",
+      "canonical": null,
+      "alternates": {}
+    }
   }
 }

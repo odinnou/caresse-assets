@@ -1,0 +1,1182 @@
+{
+  "id": "alternatives.pt",
+  "family": "alternatives",
+  "locale": "pt",
+  "path": "/pt/alternatives/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "alternatives-pt-reach-oct10-v1-seo-consistency-oct23-v1-pura-sensa-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-pt"
+  },
+  "title": "Apps para casais: alternativas a Dipsea, Desire e Spicer",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Compare apps de áudio, perguntas e desafios para casais. Alternativas a Dipsea, Desire e Spicer, com áudio em português no Caresse. iPhone e Android."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/alternatives/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Apps para casais: alternativas a Dipsea, Desire e Spicer"
+    },
+    {
+      "property": "og:description",
+      "content": "Compare apps de áudio, perguntas e desafios para casais. Alternativas a Dipsea, Desire e Spicer, com áudio em português no Caresse. iPhone e Android."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Apps para casais: alternativas a Dipsea, Desire e Spicer"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Compare apps de áudio, perguntas e desafios para casais. Alternativas a Dipsea, Desire e Spicer, com áudio em português no Caresse. iPhone e Android."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Apps para casais: alternativas a Dipsea, Desire e Spicer",
+      "description": "Compare apps de áudio, perguntas e desafios para casais. Alternativas a Dipsea, Desire e Spicer, com áudio em português no Caresse. iPhone e Android.",
+      "url": "https://caresse.app/pt/alternatives/",
+      "inLanguage": "pt",
+      "dateModified": "2026-10-31",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual app para casais devo escolher?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende do formato. Desire é voltado a desafios com pontos; Spicer usa perguntas e matches de preferências; Dipsea oferece um catálogo de áudio. O Caresse cria ficções guiadas por voz sintética no app, individualmente ou a dois."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual alternativa oferece áudio em português?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O app cria áudios em português. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. As demos disponíveis no site estão em francês, inglês e espanhol."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Desire e Spicer também usam IA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Desire anuncia IA para desafios e sugestões. Spicer AI propõe atividades a partir dos matches do casal. O Caresse usa IA para criar sessões de áudio no aplicativo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Caresse substitui as perguntas e matches do Spicer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O Caresse é uma experiência narrada, não um sistema de matches ou chat de casal. Se vocês querem comparar respostas sobre preferências, o Spicer é um formato diferente e relevante."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Caresse exige uma assinatura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Download e demos são gratuitos. Criar sessões no app usa créditos pagos. Um desbloqueio opcional de opções avançadas é vendido separadamente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Esta comparação é independente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. É uma comparação publicada pelo Caresse, baseada em informações públicas dos editores consultadas em 10 de outubro de 2026; Pura Sensa consultado em 31 de outubro de 2026. Não é um teste independente nem uma lista completa do mercado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual alternativa ao Pura Sensa cria áudio personalizado sem assinatura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Caresse gera uma ficção em áudio com seus nomes e preferências, individualmente ou a dois. As demos são gratuitas; a geração usa créditos pagos, sem assinatura. O Pura Sensa apresenta uma biblioteca de sessões e Premium."
+          }
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "shared-8bcade16d5bd8cd6.css",
+    "home-b0af781f.css"
+  ],
+  "styleAttrs": {
+    "shared-8bcade16d5bd8cd6.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-8bcade16d5bd8cd6.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      }
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-8840f878155ae0f9"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {},
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "breadcrumb"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/"
+              },
+              "html": "Caresse"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "html",
+              "file": "alternatives.pt/0612"
+            }
+          ]
+        },
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-eyebrow"
+              },
+              "html": "Apps para casais · Formatos e idiomas"
+            },
+            {
+              "tag": "h1",
+              "attrs": {},
+              "html": "Áudio, desafios ou perguntas?<br><em>Encontre seu formato.</em>"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Compare alternativas a Dipsea, Desire, Spicer, Bloom Stories e outros apps. O Caresse oferece ficções guiadas por áudio em português, para uso individual ou a dois."
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group"
+              },
+              "html": "<a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Baixar grátis</a>"
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-badge"
+              },
+              "html": "Modo convidado · Demos gratuitas · iOS e Android<br>Áudios em português · Interface em português no Android · Atualização iOS aguardando aprovação<br>Sessões criadas no app com créditos pagos, sem assinatura."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "featured"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Comparativos detalhados"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Comparar formatos antes de escolher."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Escolha pelo que você quer fazer, não só pelo nome do app. Os comparativos mostram limites e diferenças de cada formato."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "featured-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "featured-card"
+                  },
+                  "html": "<p class=\"badge\">Áudio guiado individual e a dois</p><h3>Caresse vs Pura Sensa</h3><p class=\"hook\">O Pura Sensa oferece uma biblioteca de áudio, Explore e assinaturas Premium. O Caresse gera sessões com seus nomes e preferências, usando créditos sem assinatura.</p><div class=\"meta\"><span>Sessões guiadas</span><span>Explore + Premium</span></div><a href=\"/pt/vs-pura-sensa/\" class=\"cta\">Comparar Caresse e Pura Sensa →</a>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "featured-card"
+                  },
+                  "html": "<p class=\"badge\">Desafios com pontos</p><h3>Caresse vs Desire</h3><p class=\"hook\">O Desire propõe desafios e quiz com pontos, além de IA. O Caresse coloca uma voz no centro de uma sessão, sem placar.</p><div class=\"meta\"><span>💑 Casais</span><span>🎲 Pontos</span></div><a href=\"/pt/vs-desire/\" class=\"cta\">Comparar Caresse e Desire →</a>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "featured-card"
+                  },
+                  "html": "<p class=\"badge\">Perguntas e matches</p><h3>Caresse vs Spicer</h3><p class=\"hook\">O Spicer mostra preferências em comum pelas respostas do casal. O Caresse cria uma ficção para ouvir; não substitui o sistema de matches.</p><div class=\"meta\"><span>💑 Casais</span><span>💬 Perguntas</span></div><a href=\"/pt/vs-spicer/\" class=\"cta\">Comparar Caresse e Spicer →</a>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "featured-card"
+                  },
+                  "html": "<p class=\"badge\">Catálogo de áudio</p><h3>Caresse vs Dipsea</h3><p class=\"hook\">Histórias de um catálogo ou sessões criadas no app? Compare o formato de áudio e o idioma. A FAQ de idiomas do Dipsea é antiga; confirme a oferta atual.</p><div class=\"meta\"><span>🎧 Catálogo</span><span>💳 Assinatura</span></div><a href=\"/pt/vs-dipsea/\" class=\"cta\">Comparar Caresse e Dipsea →</a>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "matrix"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Visão geral"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Compare o que importa."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "As opções podem mudar. Consulte a oferta e o idioma de cada app antes de comprar."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "matrix-wrap",
+                "tabindex": "0",
+                "role": "region",
+                "aria-label": "Comparação de aplicativos para casais"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "matrix-table"
+                  },
+                  "html": "<thead><tr><th scope=\"col\">App</th><th scope=\"col\">Formato</th><th scope=\"col\">Português</th><th scope=\"col\">Pagamento</th></tr></thead><tbody><tr><th scope=\"row\">Caresse</th><td>Ficção guiada por voz sintética, individual ou a dois</td><td>Áudios disponíveis; interface em português no Android; atualização iOS aguardando aprovação</td><td>Demos grátis; créditos pagos, sem assinatura</td></tr><tr><th scope=\"row\">Desire</th><td>Desafios, quizzes e pontos; Desire AI</td><td>Site em português; confirme os idiomas do app na loja</td><td>Download grátis; compras e Platinum opcional</td></tr><tr><th scope=\"row\">Spicer</th><td>Perguntas, matches e desafios; Spicer AI</td><td>Perguntas e desafios em português anunciados</td><td>Base gratuita; packs e opções avançadas pagos</td></tr><tr><th scope=\"row\">Dipsea</th><td>Catálogo de áudio com produção humana</td><td>FAQ consultada informa inglês; artigo de 2021</td><td>Assinatura; confira a oferta atual</td></tr><tr><th scope=\"row\"><a href=\"/pt/vs-pura-sensa/\">Pura Sensa</a></th><td>Biblioteca de áudio guiado, com som ambiente e binaural opcional</td><td>Áudio em português não confirmado nas páginas consultadas</td><td>Explore grátis + assinatura Premium</td></tr>\n</tbody>"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group",
+                "style": "margin-top:32px"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                    "class": "cta-pink",
+                    "data-store-auto": "",
+                    "data-cta-position": "inline",
+                    "target": "_blank",
+                    "rel": "noopener"
+                  },
+                  "html": "Baixar grátis"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "sources-list"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Fontes e data de consulta"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Publicado pelo Caresse, não é um teste independente. Informações consultadas em 10 de outubro de 2026; Pura Sensa consultado em 31 de outubro de 2026."
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "html": "<li>Pura Sensa, páginas Sessions, Pricing e FAQ, consultadas em 31 de outubro de 2026</li><li>Site oficial Desire e App Store</li><li>Site e FAQ oficiais Spicer em português</li><li>Site oficial Dipsea e FAQ de idiomas (2021)</li>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "more"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Mais comparativos em português"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Outros formatos para comparar."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Compare o Caresse com outros apps de áudio e de conexão para casais. As páginas detalham diferenças, limites e fontes, sem links comerciais para os concorrentes."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "more-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "more-card"
+                  },
+                  "html": "<p class=\"meta\">Formatos, idiomas e pagamento</p><h3>Caresse vs Bloom Stories</h3><p>Histórias e guias de um catálogo ou sessões criadas a partir das suas escolhas. <a href=\"/pt/vs-bloom/\">Comparar Caresse e Bloom Stories →</a></p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "more-card"
+                  },
+                  "html": "<p class=\"meta\">Formatos, idiomas e pagamento</p><h3>Caresse vs Quinn</h3><p>Histórias com vozes humanas ou ficções geradas com voz sintética. <a href=\"/pt/vs-quinn/\">Comparar Caresse e Quinn →</a></p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "more-card"
+                  },
+                  "html": "<p class=\"meta\">Formatos, idiomas e pagamento</p><h3>Caresse vs Femtasy</h3><p>Seleção de histórias em áudio ou criação de uma sessão no app. <a href=\"/pt/vs-femtasy/\">Comparar Caresse e Femtasy →</a></p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "more-card"
+                  },
+                  "html": "<p class=\"meta\">Formatos, idiomas e pagamento</p><h3>Caresse vs Melt Stories</h3><p>Biblioteca de histórias ou experiências geradas conforme suas preferências. <a href=\"/pt/vs-melt/\">Comparar Caresse e Melt Stories →</a></p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "more-card"
+                  },
+                  "html": "<p class=\"meta\">Formatos, idiomas e pagamento</p><h3>Caresse vs Melba</h3><p>Conteúdo de um catálogo para casais ou ficção criada no aplicativo. <a href=\"/pt/vs-melba/\">Comparar Caresse e Melba →</a></p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "more-card"
+                  },
+                  "html": "<p class=\"meta\">Formatos, idiomas e pagamento</p><h3>Caresse vs Coelle</h3><p>Áudios gravados para casais ou uma sessão criada para vocês. <a href=\"/pt/vs-coelle/\">Comparar Caresse e Coelle →</a></p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "more-card"
+                  },
+                  "html": "<p class=\"meta\">Formatos, idiomas e pagamento</p><h3>Caresse vs Magic Wave</h3><p>Roteiros em áudio gravados ou sessões criadas a partir das suas escolhas. <a href=\"/pt/vs-magicwave/\">Comparar Caresse e Magic Wave →</a></p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "more-card"
+                  },
+                  "html": "<p class=\"meta\">Formatos, idiomas e pagamento</p><h3>Caresse vs InTheMoment</h3><p>Áudios guiados de um catálogo ou experiências geradas no app. <a href=\"/pt/vs-inthemoment/\">Comparar Caresse e InTheMoment →</a></p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "more-card"
+                  },
+                  "html": "<p class=\"meta\">Formatos, idiomas e pagamento</p><h3>Caresse vs Bonded</h3><p>Perguntas e conversa para casais ou uma ficção guiada por voz. <a href=\"/pt/vs-bonded/\">Comparar Caresse e Bonded →</a></p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "who"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Conforme sua necessidade"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Qual formato procurar?"
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "who-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "who-card"
+                  },
+                  "html": "<p class=\"question\">Se você quer</p><h3>Ouvir uma sessão em português</h3><p>O Caresse cria ficções guiadas por áudio no app. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação.</p><p class=\"answer\">→ Caresse</p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "who-card"
+                  },
+                  "html": "<p class=\"question\">Se você quer</p><h3>Trocar desafios e acompanhar pontos</h3><p>O Desire é um jogo para enviar missões ao parceiro e acompanhar o placar.</p><p class=\"answer\">→ Desire</p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "who-card"
+                  },
+                  "html": "<p class=\"question\">Se você quer</p><h3>Descobrir desejos em comum</h3><p>O Spicer compara respostas do casal e oferece perguntas e desafios em português.</p><p class=\"answer\">→ Spicer</p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "who-card"
+                  },
+                  "html": "<p class=\"question\">Se você quer</p><h3>Escolher histórias de um catálogo</h3><p>O Dipsea é uma opção com produção humana. Verifique os idiomas atuais: sua FAQ consultada é de 2021.</p><p class=\"answer\">→ Dipsea</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "matrix"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Pesquisas e contexto"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "O que dizem as pesquisas?"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Consulte o <a href=\"/pt/blog/panorama-ia-intimidade-2026/\">panorama de 2026 sobre IA, áudio e intimidade</a> para conhecer as fontes, os públicos estudados e os limites dos dados. É uma síntese publicada pelo editor do Caresse, não um teste independente dos aplicativos."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Perguntas frequentes"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Respostas antes de escolher."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Qual alternativa ao Pura Sensa cria áudio personalizado sem assinatura?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "O Caresse gera uma ficção em áudio com seus nomes e preferências, individualmente ou a dois. As demos são gratuitas; a geração usa créditos pagos, sem assinatura. O Pura Sensa apresenta uma biblioteca de sessões e Premium."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Qual app para casais devo escolher?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Depende do formato. Desire é voltado a desafios com pontos; Spicer usa perguntas e matches de preferências; Dipsea oferece um catálogo de áudio. O Caresse cria ficções guiadas por voz sintética no app, individualmente ou a dois."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Qual alternativa oferece áudio em português?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "O app cria áudios em português. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. As demos disponíveis no site estão em francês, inglês e espanhol."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Desire e Spicer também usam IA?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Sim. Desire anuncia IA para desafios e sugestões. Spicer AI propõe atividades a partir dos matches do casal. O Caresse usa IA para criar sessões de áudio no aplicativo."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "O Caresse substitui as perguntas e matches do Spicer?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Não. O Caresse é uma experiência narrada, não um sistema de matches ou chat de casal. Se vocês querem comparar respostas sobre preferências, o Spicer é um formato diferente e relevante."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "O Caresse exige uma assinatura?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Não. Download e demos são gratuitos. Criar sessões no app usa créditos pagos. Um desbloqueio opcional de opções avançadas é vendido separadamente."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Esta comparação é independente?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Não. É uma comparação publicada pelo Caresse, baseada em informações públicas dos editores consultadas em 10 de outubro de 2026; Pura Sensa consultado em 31 de outubro de 2026. Não é um teste independente nem uma lista completa do mercado."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section",
+            "id": "download"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Quer experimentar?"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Uma voz para guiar.<br>No ritmo de vocês."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Baixe o Caresse grátis para iPhone ou Android. O app cria áudios em português; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação. As demos são gratuitas e a criação de sessões usa créditos pagos."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-badges"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                    "class": "store-badge",
+                    "data-cta-position": "inline",
+                    "aria-label": "Baixar na App Store",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Baixar na App Store\">"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                    "class": "store-badge gplay",
+                    "data-cta-position": "inline",
+                    "aria-label": "Disponível no Google Play",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png\" alt=\"Disponível no Google Play\">"
+                },
+                {
+                  "type": "text",
+                  "html": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Somente para maiores de 18 anos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.pt.logo.comparison",
+        "footer.pt.navigation.comparison",
+        "footer.pt.links.comparison",
+        "footer-29c248ef72d1fe25",
+        "footer.pt.copy.comparison"
+      ]
+    }
+  ]
+}

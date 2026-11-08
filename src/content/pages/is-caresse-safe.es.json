@@ -1,0 +1,1176 @@
+{
+  "id": "is-caresse-safe.es",
+  "family": "is-caresse-safe",
+  "locale": "es",
+  "path": "/es/is-caresse-safe/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "data-analytics-variant": "seo-consistency-oct31-v1",
+    "lang": "es"
+  },
+  "bodyAttrs": {},
+  "title": "¿Es Caresse seguro? Privacidad, datos e IA explicados | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "¿Es Caresse fiable y privado? Descubre qué recopila realmente la app, cómo se protegen tus datos, y por qué la privacidad es prioritaria en su diseño."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/es/is-caresse-safe/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "¿Es Caresse seguro? Privacidad, datos e IA"
+    },
+    {
+      "property": "og:description",
+      "content": "Qué recopila realmente Caresse, cómo se protegen tus datos, y por qué la privacidad es una prioridad de diseño."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse, privacidad y seguridad de la app de audio íntimo guiada por IA"
+    },
+    {
+      "property": "og:locale",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "¿Es Caresse seguro? Privacidad y datos explicados"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Qué recopila realmente Caresse y cómo se protegen tus datos."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse, privacidad y seguridad de la app de audio íntimo guiada por IA"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "¿Es Caresse seguro?",
+      "description": "Qué recopila realmente Caresse, cómo se protegen los datos, y por qué la privacidad es una prioridad de diseño en esta app de audio íntimo guiada por IA.",
+      "url": "https://caresse.app/es/is-caresse-safe/",
+      "inLanguage": "es",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/es/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "¿Es Caresse seguro?",
+            "item": "https://caresse.app/es/is-caresse-safe/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-14f4f2822b1b2024.css"
+  ],
+  "styleAttrs": {
+    "shared-14f4f2822b1b2024.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-14f4f2822b1b2024.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-9b0eb489dc074266"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/es/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › ¿Es Caresse seguro?\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🔒 · Privacidad · Datos · IA"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "¿Es Caresse <em>seguro</em>?"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Una app íntima que usa IA plantea preguntas legítimas. Aquí tienes, sin rodeos, lo que Caresse recopila, lo que no recopila, y cómo se protegen tus datos."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES\" id=\"hero-cta\" class=\"cta-pink\" target=\"_blank\" rel=\"noopener\">Descargar gratis</a>\n            <a href=\"/legal/es/privacy/\" class=\"cta-ghost\">Leer la política completa</a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Alojado en Europa · Sin reventa de datos · Elimina tu cuenta cuando quieras"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "pillars"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Nuestro enfoque"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "La privacidad como prioridad de diseño."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "No es un argumento de marketing añadido después. Estos principios han guiado cómo se construyó Caresse desde el principio."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "pillars-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "pillar-card"
+              },
+              "html": "\n                <div class=\"icon\">🔒</div>\n                <h3>Experiencias privadas</h3>\n                <p>Cada sesión generada permanece accesible únicamente desde tu cuenta. Nada se publica ni se comparte entre usuarios.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "pillar-card"
+              },
+              "html": "\n                <div class=\"icon\">🎭</div>\n                <h3>Identificador anónimo</h3>\n                <p>No se requiere correo ni teléfono. Usas la app con un identificador anónimo y el nombre que elijas.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "pillar-card"
+              },
+              "html": "\n                <div class=\"icon\">🇪🇺</div>\n                <h3>Alojado en Europa</h3>\n                <p>Tus datos y archivos de audio se alojan en servidores de Microsoft Azure ubicados en Europa, con intercambios cifrados en HTTPS/TLS.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "pillar-card"
+              },
+              "html": "\n                <div class=\"icon\">🗑️</div>\n                <h3>Eliminación definitiva</h3>\n                <p>Puedes eliminar tu cuenta y todos tus datos en cualquier momento. La eliminación es irreversible e inmediata.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "data"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Transparencia"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Qué recopila Caresse, y por qué."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Lo estrictamente necesario para que el servicio funcione. Nada más."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "data-table-wrap"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "data-table"
+              },
+              "html": "\n                <thead>\n                    <tr><th>Dato</th><th>Por qué</th></tr>\n                </thead>\n                <tbody>\n                    <tr><td class=\"what\">Identificador anónimo</td><td class=\"why\">Autenticación y persistencia de tu cuenta, sin correo ni teléfono.</td></tr>\n                    <tr><td class=\"what\">Nombre o alias</td><td class=\"why\">Pronunciado por la voz IA para personalizar tus experiencias.</td></tr>\n                    <tr><td class=\"what\">Parámetros de sesión</td><td class=\"why\">Prácticas, ambiente, duración, preferencias: necesarios para generar tu experiencia.</td></tr>\n                    <tr><td class=\"what\">Historial de experiencias</td><td class=\"why\">Acceder a tus experiencias pasadas desde la app.</td></tr>\n                    <tr><td class=\"what\">Datos de compra</td><td class=\"why\">Gestión de tus créditos y tu acceso ilimitado.</td></tr>\n                </tbody>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "data-not-collected"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "<strong>Caresse no recopila:</strong> correo electrónico (salvo contacto voluntario), número de teléfono, ubicación GPS, contactos, datos biométricos, ni ninguna información que pueda identificarte fuera de la app."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "control"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "control-inner"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "control-text"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "section-label"
+                  },
+                  "html": "Bajo tu control"
+                },
+                {
+                  "type": "element",
+                  "tag": "h2",
+                  "attrs": {
+                    "class": "section-title",
+                    "style": "text-align:left;"
+                  },
+                  "html": "La IA genera, tú decides."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "section-sub"
+                  },
+                  "html": "Cada experiencia se genera bajo demanda a partir de tus elecciones. Los parámetros de sesión se transmiten de forma seudonimizada a proveedores de IA y de síntesis de voz. <strong><u>Ningún</u></strong> dato que pueda identificarte directamente se comparte con estos proveedores."
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "trust-list"
+                  },
+                  "html": "\n                    <li><span class=\"check\">✦</span> Sin reventa de datos a anunciantes</li>\n                    <li><span class=\"check\">✦</span> Sin cookies publicitarias ni rastreadores de seguimiento</li>\n                    <li><span class=\"check\">✦</span> Derecho de acceso, rectificación y supresión (RGPD)</li>\n                    <li><span class=\"check\">✦</span> Comunicaciones cifradas HTTPS/TLS</li>\n                "
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "style": "background: var(--grad-soft); border-radius: 28px; padding: 40px; border: 1px solid rgba(158,123,181,0.12);"
+                  },
+                  "blocks": [
+                    {
+                      "type": "html",
+                      "file": "is-caresse-safe.es/0410"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "style": "font-size: 1.05rem; color: var(--text-primary); line-height: 1.7; margin-bottom: 16px;"
+                      },
+                      "html": "Caresse es una aplicación íntima. Proteger tu privacidad no es solo una obligación legal, es una prioridad fundamental."
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "style": "font-size: 0.85rem; color: var(--text-secondary);"
+                      },
+                      "html": "Extracto de nuestra <a href=\"/legal/es/privacy/\" style=\"color: var(--primary-vibrant); font-weight: 600;\">política de privacidad</a>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "adults"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Diseñado para adultos"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Consentimiento en cada paso."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "adults-card"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Caresse está reservado a personas de 18 años o más. Cada sesión la configuras tú, con recordatorios naturales de consentimiento y prácticas seguras integrados en la experiencia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Preguntas frecuentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Lo que quieres saber"
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Caresse graba mi voz?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "No. Caresse no capta ni graba tu voz. Las voces que escuchas se generan mediante síntesis de voz (TTS) a partir del texto del escenario, no de una grabación tuya."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Mis experiencias son públicas o se comparten?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "No. Cada experiencia generada es privada y solo es accesible desde tu cuenta. Nada se publica, se comparte entre usuarios ni se hace visible a terceros."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Necesito una cuenta identificable para usar Caresse?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "No. Caresse funciona con un identificador anónimo y un nombre o alias de tu elección. No se requiere correo electrónico ni número de teléfono para usar la app o realizar una compra."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Qué hace Caresse con mis datos cuando genero una experiencia?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Los parámetros de sesión se transmiten de forma seudonimizada a proveedores de IA y de síntesis de voz para generar el audio. Ningún dato que pueda identificarte directamente se comparte con estos proveedores."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Puedo eliminar mis datos de forma definitiva?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sí. Puedes solicitar la eliminación completa de tu cuenta en cualquier momento. Esto borra definitivamente tus experiencias, archivos de audio y ajustes de perfil, conforme a tu derecho al olvido (RGPD)."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Dónde se alojan mis datos?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "En servidores de Microsoft Azure ubicados en Europa, con comunicaciones cifradas mediante HTTPS/TLS entre la app y los servidores."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Caresse vende mis datos a anunciantes?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "No. Ningún dato personal se vende a terceros con fines publicitarios o comerciales. Caresse no utiliza cookies publicitarias ni rastreadores de seguimiento."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Caresse está reservado a adultos?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sí. Caresse está reservado a personas de 18 años o más, y se basa en el consentimiento de los participantes en cada paso de la configuración de una sesión."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "background:var(--grad-soft);padding:60px 5%;"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Para ir más lejos"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Sigue descubriendo Caresse."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "style": "display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:900px;margin:32px auto 0;"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/es/how-it-works/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">⚙️</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Cómo funciona</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">El proceso de generación paso a paso</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/es/alternatives/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔍</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Alternativas</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Compara Caresse con otras apps del mercado</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/legal/es/privacy/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">📄</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Política de privacidad</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">El documento legal completo</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/es/for-new-couples/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">💫</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Parejas nuevas</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Explorar juntos sin presión</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "¿Lista para probarlo con confianza?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Descarga Caresse gratis."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Escucha las demos gratuitas sin cuenta de Caresse. Las sesiones personalizadas usan créditos de pago, sin suscripción."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+                "class": "store-badge",
+                "aria-label": "Download on the App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Download on the App Store\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Get it on Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Get it on Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Reservado a adultos de 18 años o más"
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.es.logo",
+        "footer-e86e55d54b3e8ee0",
+        "footer.es.links.comparison",
+        "footer-e145c01106d76846",
+        "footer.es.copy.comparison"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

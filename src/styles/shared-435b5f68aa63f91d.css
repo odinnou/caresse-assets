@@ -1,0 +1,18 @@
+
+        :root { --primary: #5D3FD3; --secondary: #7B68EE; --bg-note: #F8F4FF; }
+        body { font-family: -apple-system, sans-serif; line-height: 1.6; color: #333; padding: 20px; max-width: 800px; margin: auto; }
+        header { text-align: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .logo { height: 80px; width: auto; }
+        h1 { color: var(--primary); border-bottom: 2px solid #EEE; padding-bottom: 10px; }
+        h2 { color: var(--secondary); margin-top: 30px; }
+        .highlight { background: var(--bg-note); padding: 18px 20px; border-left: 4px solid var(--primary); margin: 20px 0; border-radius: 0 6px 6px 0; }
+        .contact-btn { display: inline-block; background: var(--primary); color: #fff; text-decoration: none; padding: 14px 28px; border-radius: 10px; font-weight: 600; margin-top: 8px; }
+        .contact-btn:hover { background: var(--secondary); }
+        .email { font-weight: 600; color: var(--primary); }
+        details { margin: 12px 0; border: 1px solid #EEE; border-radius: 8px; padding: 4px 16px; }
+        summary { font-weight: 600; cursor: pointer; padding: 12px 0; color: #222; }
+        details[open] summary { color: var(--primary); }
+        details p { margin-top: 0; }
+        a { color: var(--primary); }
+        footer { margin-top: 50px; font-size: 0.8em; color: #777; border-top: 1px solid #EEE; padding-top: 20px; text-align: center; }
+    

@@ -1,0 +1,1053 @@
+{
+  "id": "saint-valentin.en",
+  "family": "saint-valentin",
+  "locale": "en",
+  "path": "/en/valentines-day-at-home/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "en",
+    "data-analytics-variant": "seasonal-valentine-nov26-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-en seasonal-page valentine"
+  },
+  "title": "Valentine’s Day at home: skip the crowded restaurant | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "name": "description",
+      "content": "Want to skip the crowded restaurant this Valentine’s Day? Plan dinner at home and try guided audio together with five simple date night ideas from Caresse."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5d3d8c"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/en/valentines-day-at-home/"
+    },
+    {
+      "property": "og:title",
+      "content": "Valentine’s Day at home: skip the crowded restaurant | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Want to skip the crowded restaurant this Valentine’s Day? Plan dinner at home and try guided audio together with five simple date night ideas from Caresse."
+    },
+    {
+      "property": "og:locale",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Valentine’s Day at home: skip the crowded restaurant | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Want to skip the crowded restaurant this Valentine’s Day? Plan dinner at home and try guided audio together with five simple date night ideas from Caresse."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "icon",
+      "href": "../../favicon.ico"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "../../apple-touch-icon.png"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://caresse.app/en/valentines-day-at-home/#webpage",
+          "url": "https://caresse.app/en/valentines-day-at-home/",
+          "name": "Valentine’s Day at home: skip the crowded restaurant | Caresse",
+          "description": "Want to skip the crowded restaurant this Valentine’s Day? Plan dinner at home and try guided audio together with five simple date night ideas from Caresse.",
+          "inLanguage": "en",
+          "isPartOf": {
+            "@id": "https://caresse.app/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://caresse.app/en/valentines-day-at-home/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://caresse.app/en/valentines-day-at-home/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Caresse",
+              "item": "https://caresse.app/en/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Valentine’s Day. Shall we stay in?",
+              "item": "https://caresse.app/en/valentines-day-at-home/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://caresse.app/en/valentines-day-at-home/#faq",
+          "inLanguage": "en",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What can we do for Valentine’s Day without going to a restaurant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Cook or order dinner, have dessert ready and choose something to do at home: an audio demo together, a massage or a chance to talk. Pick what appeals to both of you."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can we keep the evening affordable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Choose a meal within your budget and start with a free Caresse demo. Generating a personalized session uses a paid credit, with no subscription."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What can we do for Valentine’s Day at the last minute?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pick food that is easy to prepare or collect and one idea for afterwards. You do not need every detail planned to enjoy an evening at home."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do we have to do this on February 14?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. If you work late or have other commitments, choose another evening. These ideas work on a weekend before or after Valentine’s Day too."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can we celebrate Valentine’s Day with children and no babysitter?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Plan a simple dinner for once the children are asleep and an activity to share somewhere private. Install Caresse and discover a demo beforehand, then decide together whether you would enjoy a paid personalized session."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "shared-4b217ebdb8fa84e9.css",
+    "home-b0af781f.css",
+    "shared-50abc3fe5e51d2e3.css"
+  ],
+  "styleAttrs": {
+    "shared-4b217ebdb8fa84e9.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    },
+    "shared-50abc3fe5e51d2e3.css": {
+      "data-component": "seasonal-editorial"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "../../mobile-store-cta.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "../../umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-4b217ebdb8fa84e9.css",
+      "attrs": {}
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-50abc3fe5e51d2e3.css",
+      "attrs": {
+        "data-component": "seasonal-editorial"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "class": "skip-link",
+        "href": "#main"
+      },
+      "html": "Skip to content"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "header",
+      "ref": "header-d59eef285faa30ca"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "id": "main",
+        "tabindex": "-1"
+      },
+      "blocks": [
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero",
+            "aria-labelledby": "page-title"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "attrs": {
+                "class": "hero-image",
+                "src": "../../seasonal/valentines-soft-kinky.jpg",
+                "alt": "",
+                "width": "1536",
+                "height": "1024",
+                "fetchpriority": "high"
+              },
+              "html": ""
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "hero-inner"
+              },
+              "html": "<div class=\"hero-copy\">\n<p class=\"hero-eyebrow\">Valentine’s Day · Date night · 18+</p>\n<h1 id=\"page-title\">Valentine’s Day.<em>Shall we stay in?</em></h1>\n<p class=\"hero-lead\">Not keen on finding a table for February 14? Have a good dinner at home, skip the reservation and try something together afterwards: a guided audio experience in Caresse.</p>\n<div class=\"store-controls\"><div class=\"cta-group\"><a class=\"cta-pink\" id=\"hero-cta\" href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Download now</a></div></div>\n<p class=\"hero-badge\">Free demos · Personalized sessions with paid credits · No subscription · 18+</p>\n</div><div class=\"hero-note\"><div class=\"waveform\" aria-hidden=\"true\"><i style=\"--bar:7px\"></i><i style=\"--bar:13px\"></i><i style=\"--bar:23px\"></i><i style=\"--bar:16px\"></i><i style=\"--bar:29px\"></i><i style=\"--bar:20px\"></i><i style=\"--bar:10px\"></i><i style=\"--bar:18px\"></i><i style=\"--bar:28px\"></i><i style=\"--bar:15px\"></i><i style=\"--bar:23px\"></i><i style=\"--bar:30px\"></i><i style=\"--bar:19px\"></i><i style=\"--bar:11px\"></i><i style=\"--bar:22px\"></i><i style=\"--bar:15px\"></i><i style=\"--bar:8px\"></i><i style=\"--bar:18px\"></i><i style=\"--bar:27px\"></i><i style=\"--bar:13px\"></i><i style=\"--bar:7px\"></i></div><small>An audio experience for two</small><p>One voice. Your desires. Your moment.</p></div>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "occasion-strip"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "saint-valentin.en/0258"
+            },
+            {
+              "type": "html",
+              "file": "saint-valentin.en/0259"
+            },
+            {
+              "type": "html",
+              "file": "saint-valentin.en/0260"
+            }
+          ]
+        },
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "intro"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner editorial-split"
+              },
+              "html": "<div><p class=\"section-label\">A night at home</p><h2 class=\"section-title\">Valentine’s Day at home, without a reservation</h2></div><div class=\"intent-prose\"><p>If a quiet evening sounds better than going out, stay in. You choose what to eat, when to sit down and how you want to spend the rest of the night.</p>\n<p>You do not need to cook for hours or redecorate the living room. A meal you like, somewhere comfortable and an activity you both want to try are enough. Here are five ideas to start with.</p></div>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "ideas-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "ideas-heading"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Made for sharing"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Five ideas for your February 14 evening"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "ol",
+                  "attrs": {
+                    "class": "ideas-grid"
+                  },
+                  "html": "<li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">01 / 05</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 10h8v11H8zM12 10V8M12 8c5-1 2-5 0-7-2 2-5 6 0 7Z\"/></svg></div><h3>Order your favorite food</h3><p>If you do not feel like cooking, arrange takeout. Check opening times or order ahead if possible. Use plates, sit at the table and leave the washing up for later. For a toast, have a glass of champagne or an alcohol-free drink of your choice.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">02 / 05</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 18V5l12-2v13M9 9l12-2\"/><ellipse cx=\"6\" cy=\"18\" rx=\"3\" ry=\"3\"/><ellipse cx=\"18\" cy=\"16\" rx=\"3\" ry=\"3\"/></svg></div><h3>Put some music on</h3><p>Choose a playlist you both enjoy, lower the lights a little and silence notifications. You do not need entertainment planned: dinner can simply be a chance to catch up.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">03 / 05</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 11.5a8.4 8.4 0 0 1-.9 3.8A8.5 8.5 0 0 1 12.5 20a8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5Z\"/></svg></div><h3>Have dessert ready</h3><p>Pick something you both like: pastries, ice cream or a homemade dessert. Save it for later if you want; there is no next seating to make room for.</p></li><li class=\"idea-card featured\"><div class=\"idea-top\"><span class=\"idea-number\">04 / 05</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 14v-3a9 9 0 0 1 18 0v3\"/><rect x=\"2\" y=\"12\" width=\"5\" height=\"9\" rx=\"2\"/><rect x=\"17\" y=\"12\" width=\"5\" height=\"9\" rx=\"2\"/></svg></div><h3>Try audio together after dinner</h3><p>Install Caresse and play a free demo to see whether you enjoy the voice and format. If you want your own session, choose your preferences together. Generating it uses a paid credit.</p></li><li class=\"idea-card wide\"><div class=\"idea-top\"><span class=\"idea-number\">05 / 05</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z\"/></svg></div><h3>Offer a massage</h3><p>A back, shoulder or hand massage can be part of the evening if you both want one. Ask what feels good. You can leave it there or choose another activity.</p></li>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "practical-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner editorial-split"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "The little details"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "What should you prepare beforehand?"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "practical-panel"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "saint-valentin.en/0261"
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Agree on dinner and an evening when you can have some quiet time. If you have children, plan for after bedtime or choose another night if that is easier."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "practical-panel"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "saint-valentin.en/0262"
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "To try Caresse, install the app before dinner and check the phone or speaker volume. If you generate personalized audio, wait until it is ready before you settle in: generation time and audio length can vary."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "experience-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner experience-layout"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "experience-art"
+                  },
+                  "blocks": [
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "aria-hidden": "true"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "saint-valentin.en/0263"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "One voice. Your desires. Your moment."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "The Caresse experience"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "A voice to guide your time together"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-sub"
+                      },
+                      "html": "Caresse creates guided audio fiction based on your preferences. Start with a free demo in the app, then decide together whether you would enjoy a personalized session."
+                    },
+                    {
+                      "type": "element",
+                      "tag": "ol",
+                      "attrs": {
+                        "class": "experience-steps"
+                      },
+                      "html": "<li><span>01</span><div><h3>Discover the voice</h3><p>Install Caresse and listen to a free demo.</p></div></li><li><span>02</span><div><h3>Choose together</h3><p>To personalize, select duo mode, your names and a mood you both enjoy. Generating a session uses a paid credit.</p></div></li><li><span>03</span><div><h3>Let the voice guide you</h3><p>Once the audio is ready, settle in with your phone or a speaker. Generation time and audio length can vary.</p></div></li>"
+                    },
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "store-controls"
+                      },
+                      "blocks": [
+                        {
+                          "type": "container",
+                          "tag": "div",
+                          "attrs": {
+                            "class": "cta-group"
+                          },
+                          "blocks": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attrs": {
+                                "class": "cta-pink",
+                                "id": "inline-cta",
+                                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                                "data-store-auto": "",
+                                "data-cta-position": "inline",
+                                "target": "_blank",
+                                "rel": "noopener"
+                              },
+                              "html": "Download now"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "demo-note"
+                      },
+                      "html": "For adult couples of all genders and orientations. Either person can suggest, decline, pause or stop at any time. Surprise each other with the setting; choose preferences and boundaries together."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq-section",
+            "id": "faq",
+            "aria-labelledby": "faq-title"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner faq-layout"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Good to know"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title",
+                        "id": "faq-title"
+                      },
+                      "html": "Before you plan your evening"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "faq-list"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>What can we do for Valentine’s Day without going to a restaurant?</summary><p>Cook or order dinner, have dessert ready and choose something to do at home: an audio demo together, a massage or a chance to talk. Pick what appeals to both of you.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Can we keep the evening affordable?</summary><p>Yes. Choose a meal within your budget and start with a free Caresse demo. Generating a personalized session uses a paid credit, with no subscription.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>What can we do for Valentine’s Day at the last minute?</summary><p>Pick food that is easy to prepare or collect and one idea for afterwards. You do not need every detail planned to enjoy an evening at home.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Do we have to do this on February 14?</summary><p>No. If you work late or have other commitments, choose another evening. These ideas work on a weekend before or after Valentine’s Day too.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>How can we celebrate Valentine’s Day with children and no babysitter?</summary><p>Plan a simple dinner for once the children are asleep and an activity to share somewhere private. Install Caresse and discover a demo beforehand, then decide together whether you would enjoy a paid personalized session.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "closing-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Caresse · iOS &amp; Android"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "What if your next evening started here?"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Discover the voice with a free demo in Caresse. If you enjoy the format, choose your preferences together for a paid personalized session."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "cta-group"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "class": "cta-pink",
+                        "id": "footer-cta",
+                        "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                        "data-store-auto": "",
+                        "data-cta-position": "footer",
+                        "target": "_blank",
+                        "rel": "noopener"
+                      },
+                      "html": "Download now"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "store-badges"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                        "class": "store-badge",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Download on the App Store"
+                      },
+                      "html": "\n<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Download on the App Store\" width=\"162\" height=\"54\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                        "class": "store-badge gplay",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Get it on Google Play"
+                      },
+                      "html": "\n<img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Get it on Google Play\" width=\"207\" height=\"80\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Free demos · Personalized sessions with paid credits · No subscription · 18+"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "aside",
+          "attrs": {
+            "class": "editorial-links",
+            "aria-label": "More ideas for time together",
+            "style": "margin:0 auto;color:var(--text-secondary);line-height:1.8;"
+          },
+          "html": "<p>More ideas for time together : <a href=\"/en/valentines-day-experience-gift/\">A Valentine’s experience gift</a> · <a href=\"/en/christmas-date-nights/\">Seven Christmas date nights</a> · <a href=\"/en/romantic-date-night-at-home/\">Romantic date night at home</a> · <a href=\"/en/for-couples/\">Caresse for couples</a> · <a href=\"/en/new-years-eve-at-home/\">New Year’s Eve at home</a>.</p>"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-4b39c3f864fb7265",
+        "footer-a00caa389e50aa7f",
+        "footer-8bdd2932f00085ec",
+        "footer-4363bc4c7a962fbb",
+        "footer.en.copy"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "id": "demo-couple-deux-femmes.en",
+  "family": "demo-couple-deux-femmes",
+  "locale": "en",
+  "path": "/en/demo/couple-two-women/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "en",
+    "data-analytics-variant": "demo-seo-oct03-v1"
+  },
+  "bodyAttrs": {},
+  "title": "Audio demo for two women: a guided couples session",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Listen free to the first phase of a guided session for two women, in English. No account, no email, right in your browser."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "name": "rating",
+      "content": "adult"
+    },
+    {
+      "property": "og:type",
+      "content": "article"
+    },
+    {
+      "property": "og:title",
+      "content": "Audio demo for two women: a guided couples session"
+    },
+    {
+      "property": "og:description",
+      "content": "Listen free to the first phase of a guided session for two women, in English. No account, no email, right in your browser."
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/en/demo/couple-two-women/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AudioObject",
+          "name": "A guided session between two women",
+          "description": "Listen free to the first phase of a guided session for two women, in English. No account, no email, right in your browser.",
+          "contentUrl": "https://caresse.app/demos/caresse-demo-couple-femmes-en-emily-hannah.mp3",
+          "encodingFormat": "audio/mpeg",
+          "inLanguage": "en",
+          "isFamilyFriendly": false,
+          "isAccessibleForFree": true,
+          "url": "https://caresse.app/en/demo/couple-two-women/",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Caresse",
+            "url": "https://caresse.app/"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://caresse.app/en/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Audio demos",
+              "item": "https://caresse.app/en/demo/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "A guided session between two women",
+              "item": "https://caresse.app/en/demo/couple-two-women/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "shared-8492103cef7d4a55.css"
+  ],
+  "styleAttrs": {
+    "shared-8492103cef7d4a55.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-8492103cef7d4a55.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-46c3245406f81633"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "class": "dpage"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "crumb"
+          },
+          "html": "<a href=\"/en/\">Home</a> › <a href=\"/en/demo/\">Audio demos</a> › Emily & Hannah"
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "A guided session between two women"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dpitch"
+          },
+          "html": "In a hushed bedroom, Emily and Hannah follow a voice that sets the tempo. Warm oil, slow gestures, anticipation held: the session is written for two women from beginning to end. This complete first phase establishes the rhythm."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "margin:0 0 12px;"
+          },
+          "html": "<a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-store-cta\" class=\"hero-store-cta\" style=\"margin-top:0;\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener noreferrer\">Download the app for free</a>"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dnote",
+            "style": "text-align:left;margin-bottom:22px;"
+          },
+          "html": "This demo is free. Personalised sessions in the app use paid credits, with no subscription."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dplayer"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "lbl"
+              },
+              "html": "Listen to the first phase · Emily & Hannah"
+            },
+            {
+              "type": "element",
+              "tag": "audio",
+              "attrs": {
+                "controls": "",
+                "preload": "none",
+                "src": "/demos/caresse-demo-couple-femmes-en-emily-hannah.mp3"
+              },
+              "html": "\n                Your browser cannot play this audio. <a href=\"/demos/caresse-demo-couple-femmes-en-emily-hannah.mp3\">Download the MP3</a>.\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dnote"
+          },
+          "html": "🎧 Headphones on, somewhere quiet"
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dmeta"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-couple-deux-femmes.en/0197"
+                },
+                {
+                  "type": "text",
+                  "html": "Guided couples session, two women"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-couple-deux-femmes.en/0198"
+                },
+                {
+                  "type": "text",
+                  "html": "Massage oil, vibrating accessory"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-couple-deux-femmes.en/0199"
+                },
+                {
+                  "type": "text",
+                  "html": "Nature"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-couple-deux-femmes.en/0200"
+                },
+                {
+                  "type": "text",
+                  "html": "Explicit (18+)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "dsec"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "A session written for two women from the start"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Most audio catalogues write one straight scenario and swap the names around. Here the session is built for two women from the start: the gestures, the pacing and the way roles are shared all follow from that. You can hear it within the first minutes, and it is exactly what is missing elsewhere."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "dsec"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "What comes after this first phase"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "This audio is not a montage: it is the complete first phase of a session. The following phases continue in the app. This demo is fixed, with preset names, setting and intensity; in the app, the session is generated on demand with your own names, and no two sessions play out identically."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "dcta"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+            "id": "demo-store-cta",
+            "data-store-auto": "",
+            "data-cta-position": "end",
+            "class": "hero-store-cta",
+            "style": "display:inline-block;margin-top:0;",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          "html": "Experience the full session in the app"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age"
+          },
+          "html": "🔞 For adults 18 and over only"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "dpage",
+        "style": "padding-top:0;"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dlinks"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Going further"
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "html": "\n                <li><a href=\"/en/for-couples/\">Sessions for couples</a></li>\n                <li><a href=\"/en/for-adventurous-couples/\">For adventurous couples</a></li>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dlinks"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "The other demos"
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "html": "\n                <li><a href=\"/en/demo/solo-sensual-discovery/\">A sensual discovery, solo and unhurried</a></li>\n                <li><a href=\"/en/demo/romantic-couple/\">An evening for two, guided from the first touch</a></li>\n                <li><a href=\"/en/demo/solo-sextoys/\">A solo exploration, senses wide awake</a></li>\n                <li><a href=\"/en/demo/passionate-couple/\">A control game, led by the voice</a></li>\n                <li><a href=\"/en/demo/couple-two-men/\">A guided session between two men</a></li>\n            "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "style": "margin-top:12px;"
+              },
+              "html": "<a href=\"/en/demo/\">See all six demos →</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-5dac14696b65a7da",
+        "footer-3dc47714870eacdd",
+        "footer.en.links",
+        "footer-efe3c9ecc082c623",
+        "footer.en.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-e86488cf4c9bedce.js"
+    }
+  ]
+}

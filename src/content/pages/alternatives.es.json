@@ -1,0 +1,1406 @@
+{
+  "id": "alternatives.es",
+  "family": "alternatives",
+  "locale": "es",
+  "path": "/es/alternatives/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "es",
+    "data-analytics-variant": "comparison-cta-v1-new-comparisons-oct10-v1-games-pt-oct10-v1-seo-consistency-oct23-v1-pura-sensa-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-es"
+  },
+  "title": "Alternativas a Dipsea, Melba y Coelle en español | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Compara audio, retos y preguntas de Melba, Coelle, Dipsea, Desire y Spicer con Caresse. Demos gratuitas; sesiones con créditos de pago, sin suscripción."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/es/alternatives/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Alternativas a Dipsea, Melba y Coelle en español | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Audio en ES, EN, FR y PT (interfaz PT en Android; actualización iOS pendiente de aprobación). Demos gratis; generación con créditos de pago, sin suscripción."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Alternativas a Caresse, apps de audio íntimo"
+    },
+    {
+      "property": "og:locale",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Alternativas a Dipsea, Melba y Coelle en español | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Audio en ES, EN, FR y PT (interfaz PT en Android; actualización iOS pendiente de aprobación). Demos gratis; generación con créditos de pago, sin suscripción."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Alternativas a Caresse, apps de audio íntimo"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Puedo comprar sesiones en modo anónimo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El modo anónimo permite usar Caresse y comprar sesiones sin crear una cuenta de Caresse. Las compras se realizan a través del App Store o Google Play y requieren una cuenta de Apple o Google en la tienda utilizada, con su método de pago. El modo anónimo se aplica al uso de Caresse, no a la transacción con la tienda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué alternativa a Melba, Coelle o Dipsea ofrece demos reales sin cuenta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Caresse ofrece demos de audio gratuitas en español, inglés y francés sin crear una cuenta Caresse. La generación personalizada utiliza créditos de pago. Otros servicios también ofrecen muestras: Bloom presenta muestras públicas y una selección gratuita con cuenta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué hace único a Caresse entre estas alternativas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Caresse combina demos gratuitas sin cuenta Caresse, sesiones generadas según tus nombres y preferencias, una voz sintética y créditos sin suscripción. Femtasy y Bloom ofrecen catálogos para explorar; Bloom también anuncia guías para parejas y producción humana. Elige según el formato que buscas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es Caresse más barato que las suscripciones de la competencia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de la frecuencia de uso, los créditos que compres y las ofertas disponibles. Caresse utiliza créditos para las sesiones personalizadas, sin suscripción; los ajustes avanzados tienen un desbloqueo opcional. Un catálogo por suscripción puede encajar con una escucha frecuente. Compara los precios y las condiciones de tu país."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué alternativa elegir si busco contenido en francés o en español?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bloom Stories anuncia historias de audio en español y francés. Femtasy y Melba también presentan ofertas en francés. Caresse ofrece demos y generación de audio personalizado en español, inglés y francés, según tus nombres y preferencias. Elige por idioma, pero también por catálogo o generación y suscripción o créditos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Existe una alternativa a Caresse con compra por sesión?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Caresse utiliza créditos para generar sesiones, sin suscripción obligatoria. Los catálogos como Femtasy y Bloom ofrecen suscripciones y distintas formas de probar el contenido. Esta página no cubre todo el mercado ni afirma que Caresse sea el único servicio con compras puntuales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Existe una alternativa a Femtasy sin suscripción?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Caresse no exige una suscripción: las demos son gratuitas y las sesiones personalizadas utilizan créditos. Puede encajar con un uso ocasional, pero no significa que todas las sesiones sean gratuitas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Bloom Stories ofrece guías para parejas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Bloom Guides incluye intimidad guiada para la exploración individual o en pareja. Caresse se diferencia por generar sesiones según tus nombres y preferencias, no por tener el único formato guiado para parejas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué diferencia hay entre un juego como Desire o Spicer y Caresse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Desire usa retos con puntos y cuestionarios; Spicer compara respuestas para mostrar preferencias comunes. Caresse ofrece ficciones guiadas por audio. Desire y Spicer también anuncian IA: la diferencia es el formato, no solo la presencia de IA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Caresse ofrece audios en portugués?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, la app crea audios en portugués. La interfaz en portugués está disponible en Android; la actualización para iOS está pendiente de aprobación. Las demos publicadas en el sitio están en francés, inglés y español, no son una demostración en portugués."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué alternativa a Pura Sensa crea audio personalizado sin suscripción?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Caresse genera una ficción de audio con tus nombres y preferencias, a solas o en pareja. Las demos son gratuitas; la generación usa créditos de pago, sin suscripción. Pura Sensa presenta una biblioteca de sesiones y Premium."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Alternativas a Caresse",
+      "description": "Comparativa documentada de las alternativas a Caresse en el segmento del audio íntimo guiado: precios, idiomas, creación de cuenta y modelo de negocio, verificados en las fichas de la App Store y los sitios oficiales de cada editor.",
+      "url": "https://caresse.app/es/alternatives/",
+      "inLanguage": "es",
+      "dateModified": "2026-10-31",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternativas",
+            "item": "https://caresse.app/es/alternatives/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-64c8d7b29bbc4a8e.css"
+  ],
+  "styleAttrs": {
+    "shared-64c8d7b29bbc4a8e.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-64c8d7b29bbc4a8e.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-8b4d9fc00a5cfa48"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/es/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › Alternativas\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🇫🇷 🇬🇧 🇪🇸 · Alternativa a Melba, Coelle, Dipsea, InTheMoment"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "¿Buscas una alternativa?<br>Escucha antes <em>de abrir una cuenta.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Si estás valorando Melba, Coelle, Dipsea o InTheMoment, Caresse merece un vistazo. Caresse ofrece demos de audio disponibles al instante, sin inscripción, sin email, en francés, inglés y español. Y entre las aplicaciones comparadas aquí, es la única que funciona 100 % de forma anónima, con compras a través de tu cuenta de Apple o Google."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Descargar la app gratis</a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge",
+            "style": "margin-top:20px;font-size:.85rem;color:var(--text-secondary);opacity:.8"
+          },
+          "html": "Modo anónimo · Sin registro en Caresse · Demos gratis<br>Sesiones personalizadas de pago, sin suscripción."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "featured"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Comparativas detalladas"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Las comparativas que vale la pena mirar."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Trece competidores con formatos y modelos de pago diferentes. Cada comparación tiene su propia página."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "featured-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "<p class=\"badge\">Audio guiado individual y en pareja</p><h3>Caresse vs Pura Sensa</h3><p class=\"hook\">Pura Sensa ofrece una biblioteca de audio, Explore y suscripciones Premium. Caresse genera sesiones con vuestros nombres y preferencias, con créditos sin suscripción.</p><div class=\"meta\"><span>Sesiones guiadas</span><span>Explore + Premium</span></div><a href=\"/es/vs-pura-sensa/\" class=\"cta\">Comparar Caresse y Pura Sensa →</a>"
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "\n                <p class=\"badge\">vs Catálogo francófono</p>\n                <h3>Caresse vs Melba</h3>\n                <p class=\"hook\">Melba es un catálogo de experiencias en francés e inglés presentadas como validadas por terapeutas, detrás de una cuenta y una configuración de preferencias íntimas. Caresse genera un guion único con vuestros nombres, sin cuenta, sin configuración previa.</p>\n                <div class=\"meta\">\n                    <span>🇫🇷 Francófono</span>\n                    <span>📚 Catálogo</span>\n                    <span>💳 89,99 €/año</span>\n                </div>\n                <a href=\"/es/vs-melba/\" class=\"cta\">Comparar Caresse y Melba →</a>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "\n                <p class=\"badge\">vs Biblioteca guiada internacional</p>\n                <h3>Caresse vs Coelle</h3>\n                <p class=\"hook\">Coelle ofrece una plataforma de «intimidad guiada» por suscripción anual (59,99 €) con una biblioteca organizada en varias categorías. Caresse genera una sesión única bajo demanda, con nombres y duración variable según la generación, por sesión.</p>\n                <div class=\"meta\">\n                    <span>🇬🇧 Anglófono</span>\n                    <span>📚 Biblioteca</span>\n                    <span>💳 59,99 €/año</span>\n                </div>\n                <a href=\"/es/vs-coelle/\" class=\"cta\">Comparar Caresse y Coelle →</a>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "\n                <p class=\"badge\">vs Enfoque IA abierto</p>\n                <h3>Caresse vs InTheMoment</h3>\n                <p class=\"hook\">InTheMoment es una app de meditación/hipnosis con IA: generación abierta a partir de tu propia descripción. Caresse aplica la misma filosofía de IA al terreno íntimo, pero con prompts curados de antemano por el equipo.</p>\n                <div class=\"meta\">\n                    <span>🌍 9 idiomas (Pro)</span>\n                    <span>🧘 Meditación</span>\n                    <span>💳 8,99 €/mes</span>\n                </div>\n                <a href=\"/es/vs-inthemoment/\" class=\"cta\">Comparar Caresse y InTheMoment →</a>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "\n                <p class=\"badge\">vs Relatos íntimos para parejas</p>\n                <h3>Caresse vs Melt Stories</h3>\n                <p class=\"hook\">Melt genera historias eróticas en texto, personalizadas, sin cuenta obligatoria y en cinco idiomas (entre ellos el francés y el español). Caresse hace lo mismo en audio: una voz pronuncia vuestros nombres y os narra un guion cuya duración varía según la generación. Mismo concepto, medio radicalmente distinto.</p>\n                <div class=\"meta\">\n                    <span>🌍 5 idiomas (texto)</span>\n                    <span>💑 Parejas</span>\n                    <span>💳 Tarifa no publicada</span>\n                </div>\n                <a href=\"/es/vs-melt/\" class=\"cta\">Comparar Caresse y Melt Stories →</a>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "\n                <p class=\"badge\">vs Historias de audio eróticas</p>\n                <h3>Caresse vs Dipsea</h3>\n                <p class=\"hook\">Dipsea es una biblioteca estadounidense de historias de audio eróticas: un catálogo amplio pregrabado, solo en inglés, por suscripción. Caresse genera un guion único con vuestros nombres, en francés, inglés y español, sin cuenta.</p>\n                <div class=\"meta\">\n                    <span>🇬🇧 Anglófono</span>\n                    <span>📚 Catálogo</span>\n                    <span>💳 77,99 €/año</span>\n                </div>\n                <a href=\"/es/vs-dipsea/\" class=\"cta\">Comparar Caresse y Dipsea →</a>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "\n                <p class=\"badge\">vs Audiolibros románticos</p>\n                <h3>Caresse vs MagicWave</h3>\n                <p class=\"hook\">MagicWave ofrece una library de audiolibros románticos con reparto completo, solo en inglés, pensada para una escucha individual. Caresse genera un guion único con vuestros nombres, en francés, inglés y español, usable en solitario o en pareja, sin cuenta.</p>\n                <div class=\"meta\">\n                    <span>🇬🇧 Anglófono</span>\n                    <span>🎧 Solo</span>\n                    <span>💳 44,99 €/año · Shells</span>\n                </div>\n                <a href=\"/es/vs-magicwave/\" class=\"cta\">Comparar Caresse y MagicWave →</a>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "\n                <p class=\"badge\">vs Audio erótico de creadores</p>\n                <h3>Caresse vs Quinn</h3>\n                <p class=\"hook\">Quinn ofrece un catálogo en inglés de audios eróticos pregrabados por creadores. Caresse genera una sesión única con vuestros nombres, en español, inglés o francés, sin cuenta ni suscripción.</p>\n                <div class=\"meta\"><span>🇬🇧 Anglófono</span><span>🎙️ Creadores</span><span>💳 7,99 $/mes</span></div>\n                <a href=\"/es/vs-quinn/\" class=\"cta\">Comparar Caresse y Quinn →</a>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "\n                <p class=\"badge\">vs Chat de IA kinky</p>\n                <h3>Caresse vs Bonded</h3>\n                <p class=\"hook\">Bonded es un chat de IA muy explícito: prepara bien una escena, pero hay que responderle en cada paso para que avance. Caresse reproduce la sesión en audio, sin pedir nada una vez lanzada.</p>\n                <div class=\"meta\">\n                    <span>💬 Chat escrito</span>\n                    <span>📧 Email obligatorio</span>\n                    <span>💳 Suscripción</span>\n                </div>\n                <a href=\"/es/vs-bonded/\" class=\"cta\">Comparar Caresse y Bonded →</a>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "\n                <p class=\"badge\">vs Catálogo de audio</p>\n                <h3>Caresse vs Femtasy</h3>\n                <p class=\"hook\">Femtasy ofrece historias, sonidos y exploración personal por suscripción, con ofertas anunciadas en EN, FR y DE. Caresse genera sesiones guiadas también en español, según tus nombres y preferencias, a solas o en pareja y sin suscripción.</p>\n                <div class=\"meta\"><span>🎧 Catálogo de audio</span><span>🌍 EN · FR · DE</span><span>💳 Suscripción</span></div>\n                <a href=\"/es/vs-femtasy/\" class=\"cta\">Comparar Caresse y Femtasy →</a>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "\n                <p class=\"badge\">vs Historias y guías de audio</p>\n                <h3>Caresse vs Bloom Stories</h3>\n                <p class=\"hook\">Bloom Stories ofrece un catálogo creado por personas, con historias y guías individuales o para parejas en ES, EN, FR y DE. Caresse genera sesiones personalizadas con tus nombres, narradas por una voz sintética, sin suscripción.</p>\n                <div class=\"meta\"><span>🎙️ Voces humanas</span><span>🌍 ES · EN · FR · DE</span><span>💳 Gratis + Premium</span></div>\n                <a href=\"/es/vs-bloom/\" class=\"cta\">Comparar Caresse y Bloom Stories →</a>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "<p class=\"badge\">vs Retos con puntos para parejas</p><h3>Caresse vs Desire</h3><p class=\"hook\">Desire ofrece retos, cuestionarios y chat privado, con sugerencias por IA y puntuación. Caresse propone una ficción guiada por audio para escuchar en pareja, sin puntos ni cartas que leer durante la sesión.</p><div class=\"meta\"><span>🎲 Retos y puntos</span><span>🤖 Desire AI</span><span>💳 Gratis + Platinum</span></div><a href=\"/es/vs-desire/\" class=\"cta\">Comparar Caresse y Desire →</a>"
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "featured-card"
+              },
+              "html": "<p class=\"badge\">vs Preguntas y deseos compartidos</p><h3>Caresse vs Spicer</h3><p class=\"hook\">Spicer compara las respuestas de la pareja para mostrar preferencias compartidas, con preguntas, retos y Spicer AI. Caresse es una ficción guiada por audio; no sustituye un sistema de matches.</p><div class=\"meta\"><span>💬 Preguntas y matches</span><span>🌍 Español disponible</span><span>💳 Base gratuita</span></div><a href=\"/es/vs-spicer/\" class=\"cta\">Comparar Caresse y Spicer →</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "matrix",
+        "id": "matrix"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Vista de conjunto"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "La matriz, Caresse y las alternativas."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Una sola tabla para verlas todas, con la fuente de cada dato."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "verified-banner"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "alternatives.es/0286"
+            },
+            {
+              "type": "text",
+              "html": " a partir de las fichas de la App Store y de los sitios oficiales de cada editor (fuentes listadas debajo de la tabla). Las tarifas se han recogido en la ficha francesa de la App Store, en la divisa de la tienda, sin conversión. Los precios de las tiendas varían según el país y el periodo promocional: comprueba siempre tu propia ficha antes de comprar. Cuando un editor no publica un dato, se marca como "
+            },
+            {
+              "type": "html",
+              "file": "alternatives.es/0287"
+            },
+            {
+              "type": "text",
+              "html": " en lugar de suponerlo. "
+            },
+            {
+              "type": "html",
+              "file": "alternatives.es/0288"
+            },
+            {
+              "type": "text",
+              "html": " a partir de sus webs oficiales. El precio de Femtasy indicado abajo corresponde a su web francesa, no a una oferta española.\n         "
+            },
+            {
+              "type": "html",
+              "file": "alternatives.es/0289"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "matrix-wrap",
+            "tabindex": "0",
+            "role": "region",
+            "aria-label": "Tabla comparativa de aplicaciones"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "matrix-table"
+              },
+              "html": "\n                <thead>\n                    <tr>\n                        <th>App</th>\n                        <th>Demo sin cuenta</th>\n                        <th>Uso anónimo</th>\n                        <th>Tipo</th>\n                        <th>Nombres</th>\n                        <th>Idiomas de audio</th>\n                        <th>Modelo</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr class=\"us-row\">\n                        <td class=\"app-name us\">Caresse</td>\n                        <td class=\"yes\">Sí · demos</td>\n                        <td class=\"yes\">Modo invitado; cuenta de Apple o Google necesaria para las compras</td>\n                        <td>Guion generado único</td>\n                        <td class=\"yes\">Sí</td>\n                        <td>ES, EN, FR, PT (interfaz PT en Android; actualización iOS pendiente de aprobación)</td>\n                        <td>Por sesión</td>\n                    </tr>\n                    <tr>\n                        <td class=\"app-name\">Melba</td>\n                        <td class=\"no\">Cuenta requerida desde el inicio</td>\n                        <td class=\"no\">Cuenta requerida</td>\n                        <td>Catálogo pregrabado</td>\n                        <td class=\"no\">No</td>\n                        <td>FR, EN<span class=\"src\">App Store: «English, French»</span></td>\n                        <td>Premium 9,99 €/mes · 89,99 €/año<span class=\"src\">Compras integradas App Store</span></td>\n                    </tr>\n                    <tr>\n                        <td class=\"app-name\">Coelle</td>\n                        <td class=\"no\">No, se requiere inscripción</td>\n                        <td class=\"no\">Cuenta requerida <span class=\"src\">Store: recoge email y nombre</span></td>\n                        <td>Biblioteca guiada</td>\n                        <td class=\"no\">No</td>\n                        <td>EN<span class=\"src\">App Store: «English»</span></td>\n                        <td>59,99 €/año (prueba 7 días)<span class=\"src\">Sitio del editor</span></td>\n                    </tr>\n                    <tr>\n                        <td class=\"app-name\">Dipsea</td>\n                        <td>Vistas previas parciales</td>\n                        <td class=\"no\">Cuenta requerida</td>\n                        <td>Audio erótico / historias</td>\n                        <td class=\"no\">No</td>\n                        <td>EN<span class=\"src\">App Store: «English»</span></td>\n                        <td>77,99 €/año · 14,49 €/mes<span class=\"src\">Compras integradas App Store</span></td>\n                    </tr>\n                    <tr>\n                        <td class=\"app-name\"><a href=\"/es/vs-quinn/\">Quinn</a></td>\n                        <td>Muestras disponibles</td>\n                        <td class=\"no\">Cuenta y suscripción obligatorias para acceso ilimitado</td>\n                        <td>Audio erótico de creadores</td>\n                        <td class=\"no\">No</td>\n                        <td>EN<span class=\"src\">Sitio oficial de Quinn</span></td>\n                        <td>7,99 $/mes · 59,99 $/año<span class=\"src\">Sitio oficial, verificado el 28 de agosto de 2026</span></td>\n                    </tr>\n                    <tr>\n                        <td class=\"app-name\">InTheMoment</td>\n                        <td>Inscripción requerida</td>\n                        <td class=\"no\">Cuenta requerida</td>\n                        <td>IA meditación/hipnosis</td>\n                        <td class=\"no\">No documentado</td>\n                        <td>9 idiomas en Pro (EN + 8)<span class=\"src\">Sitio del editor: EN, DE, FR, IT, PT-BR, ES-LA, AR, PL, NL</span></td>\n                        <td>Pro 8,99–9,99 €/mes · 59,99 €/año<span class=\"src\">Sitio del editor + compras integradas</span></td>\n                    </tr>\n                    <tr>\n                        <td class=\"app-name\">Ferly</td>\n                        <td>Vistas previas parciales</td>\n                        <td class=\"no\">Cuenta requerida</td>\n                        <td>Audio guiado de bienestar sexual</td>\n                        <td class=\"no\">No</td>\n                        <td>EN<span class=\"src\">App Store: «English»</span></td>\n                        <td>Premium 12,99–18,99 €/mes · 35,99–79,99 €/año<span class=\"src\">Compras integradas App Store</span></td>\n                    </tr>\n                    <tr>\n                        <td class=\"app-name\"><a href=\"/es/vs-femtasy/\">Femtasy</a></td>\n                        <td>Audio gratuito vía newsletter; prueba con suscripción</td>\n                        <td>Registro para la suscripción</td>\n                        <td>Catálogo de historias, sonidos y exploración personal</td>\n                        <td>Generación con tus nombres no anunciada</td>\n                        <td>EN, FR, DE anunciados<span class=\"src\">Web oficial · 2026-10-10</span></td>\n                        <td>104,99 €/año en la web francesa · prueba de 1 mes<span class=\"src\">Web oficial · 2026-10-10</span></td>\n                    </tr>\n                    <tr>\n                        <td class=\"app-name\"><a href=\"/es/vs-bloom/\">Bloom Stories</a></td>\n                        <td>Muestras públicas; selección gratuita con cuenta</td>\n                        <td>Cuenta para la selección gratuita y Premium</td>\n                        <td>Historias, juegos de rol y guías individuales o para parejas</td>\n                        <td>Generación con tus nombres no anunciada</td>\n                        <td>ES, EN, FR, DE<span class=\"src\">Web oficial · 2026-10-10</span></td>\n                        <td>Cuenta gratuita limitada · suscripción Premium<span class=\"src\">Web oficial · 2026-10-10</span></td>\n                    </tr>\n                    <tr>\n                        <td class=\"app-name\">Melt Stories</td>\n                        <td class=\"yes\">Sí, sin cuenta<span class=\"src\">Sitio del editor: «No account needed to start»</span></td>\n                        <td class=\"no\">No documentado</td>\n                        <td>Historias eróticas generadas en texto</td>\n                        <td class=\"no\">No</td>\n                        <td>EN, FR, DE, ES, PT-BR <em>(texto)</em><span class=\"src\">Sitio del editor</span></td>\n                        <td>Suscripción, <span class=\"unverified\">tarifa no publicada</span><span class=\"src\">Sin tarifa pública</span></td>\n                    </tr>\n                    <tr>\n                        <td class=\"app-name\">MagicWave</td>\n                        <td>Vistas previas limitadas</td>\n                        <td class=\"no\">Cuenta requerida</td>\n                        <td>Audiolibros románticos con reparto completo</td>\n                        <td class=\"no\">No</td>\n                        <td>EN<span class=\"src\">App Store: «English»</span></td>\n                        <td>4,99–6,99 €/mes · 44,99 €/año · Shells 0,99–79,99 €<span class=\"src\">Compras integradas App Store</span></td>\n                    </tr>\n                    <tr>\n                        <td class=\"app-name\">Bonded</td>\n                        <td class=\"no\">No, email requerido antes del primer intercambio</td>\n                        <td class=\"no\">Recoge nombre y número de teléfono<span class=\"src\">Sección privacidad App Store</span></td>\n                        <td>Chat de IA erótico en texto</td>\n                        <td class=\"yes\">Sí, se escribe en texto libre</td>\n                        <td class=\"no\">Sin audio nativo · lectura TTS con un botón</td>\n                        <td>Suscripción 5,99–129,99 € · packs 2,99–9,99 €<span class=\"src\">Compras integradas App Store</span></td>\n                    </tr>\n                <tr><td class=\"app-name\">Desire</td><td>Descarga gratis; compras en la app</td><td>Pareja invitada; chat privado</td><td>Retos, cuestionarios y puntos; Desire AI</td><td>No anunciados para narración de audio</td><td>Guía por audio no anunciada</td><td>Gratis + suscripción Platinum opcional</td></tr>\n                    <tr><td class=\"app-name\">Spicer</td><td>Base gratuita</td><td>Conexión por código; uso anónimo anunciado</td><td>Preguntas, matches y retos; Spicer AI</td><td>No anunciados para narración de audio</td><td>Preguntas y retos en ES, EN, FR, PT y otros idiomas</td><td>Base gratuita; packs avanzados y opciones de pago</td></tr>\n                <tr><td class=\"app-name\"><a href=\"/es/vs-pura-sensa/\">Pura Sensa</a></td><td>Oferta Explore gratuita anunciada</td><td>Gratis sin cuenta; Premium con cuenta</td><td>Audio guiado, ambiente y binaural opcional</td><td>Generación con tus nombres no anunciada</td><td>Idiomas de audio distintos del inglés no confirmados</td><td>Explore + suscripción Premium</td></tr>\n</tbody>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group",
+            "style": "margin-top:32px"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "inline",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "Descargar la app gratis"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "sources-list"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h3",
+              "attrs": {},
+              "html": "Fuentes y fechas de verificación"
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "html": "<li>Pura Sensa, páginas Sessions, Pricing y FAQ, consultadas el 31 de octubre de 2026</li>\n                <li>Melba, ficha App Store</li>\n                <li>Coelle, sitio oficial y ficha App Store</li>\n                <li>Dipsea, ficha App Store</li>\n                <li>InTheMoment, sitio oficial y ficha App Store</li>\n                <li>Ferly, ficha App Store</li>\n                <li>Femtasy, oferta y precios publicados en Francia, consultados el 10 de octubre de 2026</li>\n                <li>Bloom Stories, web oficial y asistencia, consultadas el 10 de octubre de 2026</li>\n                <li>Melt Stories, sitio oficial</li>\n                <li>MagicWave, ficha App Store</li>\n                <li>Bonded, ficha App Store</li>\n            <li>Desire · Spicer — Desire y Spicer, sitios oficiales y fichas del App Store, consultados el 10 de octubre de 2026</li>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "more"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Otras alternativas"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Las apps que también te encontrarás."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Competidores que no nos hemos parado a comparar en una página dedicada: bien porque están al margen de nuestro segmento, bien porque los ángulos útiles ya están cubiertos por las comparativas principales."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "more-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "more-card"
+              },
+              "html": "\n                <p class=\"meta\">Audio guiado de bienestar sexual</p>\n                <h3>Ferly</h3>\n                <p>App anglófona que combina audios guiados, meditaciones y contenido pedagógico sobre bienestar sexual. Enfoque muy educativo e inclusivo, orientado más bien al individuo. Catálogo de experiencias pregrabadas, modelo de suscripción. Ángulo cercano a nuestra comparativa con <a href=\"/es/vs-inthemoment/\">InTheMoment</a>.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "who"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Según tu necesidad"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "¿A quién elegir para qué?"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Una guía rápida según lo que más te importa."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "who-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "who-card"
+              },
+              "html": "\n                <p class=\"question\">Si quieres</p>\n                <h3>Escuchar demos reales antes de pagar, sin crear una cuenta</h3>\n                <p>Caresse ofrece demos de audio gratuitas en ES, EN y FR sin cuenta Caresse. Bloom también presenta muestras públicas; su cuenta gratuita da acceso a una selección de audios. <a href=\"/es/demo/\">Escuchar dos extractos de demo →</a></p>\n                <p class=\"answer\">→ Caresse</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "who-card"
+              },
+              "html": "\n                <p class=\"question\">Si quieres</p>\n                <h3>Modo invitado, sin crear una cuenta Caresse</h3>\n                <p>El modo invitado permite usar Caresse sin crear una cuenta Caresse. Las compras requieren tu cuenta de Apple o Google en la tienda correspondiente.</p>\n                <p class=\"answer\">→ Caresse</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "who-card"
+              },
+              "html": "\n                <p class=\"question\">Si quieres</p>\n                <h3>Que la voz os llame a los dos por vuestros nombres</h3>\n                <p>Caresse integra tus nombres en las sesiones personalizadas. Femtasy y Bloom ofrecen contenido de catálogo, sin anunciar generación con tus nombres.</p>\n                <p class=\"answer\">→ Caresse</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "who-card"
+              },
+              "html": "\n                <p class=\"question\">Si quieres</p>\n                <h3>Contenido francófono validado por terapeutas</h3>\n                <p>Melba reivindica un aval profesional (FR + EN), detrás de una cuenta y un onboarding detallado. Caresse cubre FR, EN y ES sin cuenta ni configuración previa.</p>\n                <p class=\"answer\">→ Melba (o Caresse)</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "who-card"
+              },
+              "html": "\n                <p class=\"question\">Si quieres</p>\n                <h3>Contenido de audio en español</h3>\n                <p>Bloom Stories anuncia un catálogo de audio en español. Caresse también ofrece demos y sesiones generadas en español, según tus nombres y preferencias.</p>\n                <p class=\"answer\">→ Caresse / Bloom Stories</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "who-card"
+              },
+              "html": "\n                <p class=\"question\">Si quieres</p>\n                <h3>Una biblioteca de historias de audio para explorar en solitario</h3>\n                <p>Dipsea, Bloom Stories y Femtasy ofrecen catálogos de audio para explorar. Bloom también tiene guías de intimidad individuales o para parejas.</p>\n                <p class=\"answer\">→ Dipsea / Bloom Stories / Femtasy</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "who-card"
+              },
+              "html": "\n                <p class=\"question\">Si quieres</p>\n                <h3>Pagar por uso en lugar de una suscripción anual</h3>\n                <p>Caresse utiliza créditos para generar una sesión, sin suscripción. Femtasy y Bloom ofrecen acceso al catálogo por suscripción.</p>\n                <p class=\"answer\">→ Caresse</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "who-card"
+              },
+              "html": "\n                <p class=\"question\">Si quieres</p>\n                <h3>Meditación o hipnosis con IA, no contenido íntimo</h3>\n                <p>InTheMoment cubre esta necesidad con un enfoque de IA moderno y 9 idiomas en el plan Pro.</p>\n                <p class=\"answer\">→ InTheMoment</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "who-card"
+              },
+              "html": "\n                <p class=\"question\">Si quieres</p>\n                <h3>Un guion único configurado con precisión en cada sesión</h3>\n                <p>Un catálogo pregrabado no puede cubrir todas las combinaciones: harían falta millones de grabaciones. Caresse genera bajo demanda.</p>\n                <p class=\"answer\">→ Caresse</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Preguntas frecuentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Tus preguntas sobre el panorama."
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Qué alternativa a Pura Sensa crea audio personalizado sin suscripción?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse genera una ficción de audio con tus nombres y preferencias, a solas o en pareja. Las demos son gratuitas; la generación usa créditos de pago, sin suscripción. Pura Sensa presenta una biblioteca de sesiones y Premium."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Puedo comprar sesiones en modo anónimo?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sí. El modo anónimo permite usar Caresse y comprar sesiones sin crear una cuenta de Caresse. Las compras se realizan a través del App Store o Google Play y requieren una cuenta de Apple o Google en la tienda utilizada, con su método de pago. El modo anónimo se aplica al uso de Caresse, no a la transacción con la tienda."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Qué alternativa a Melba, Coelle o Dipsea ofrece demos reales sin cuenta?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse ofrece demos de audio gratuitas en español, inglés y francés sin crear una cuenta Caresse. La generación personalizada utiliza créditos de pago. Otros servicios también ofrecen muestras: Bloom presenta muestras públicas y una selección gratuita con cuenta."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Qué hace único a Caresse entre estas alternativas?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse combina demos gratuitas sin cuenta Caresse, sesiones generadas según tus nombres y preferencias, una voz sintética y créditos sin suscripción. Femtasy y Bloom ofrecen catálogos para explorar; Bloom también anuncia guías para parejas y producción humana. Elige según el formato que buscas."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Es Caresse más barato que las suscripciones de la competencia?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Depende de la frecuencia de uso, los créditos que compres y las ofertas disponibles. Caresse utiliza créditos para las sesiones personalizadas, sin suscripción; los ajustes avanzados tienen un desbloqueo opcional. Un catálogo por suscripción puede encajar con una escucha frecuente. Compara los precios y las condiciones de tu país."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Qué alternativa elegir si busco contenido en francés o en español?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Bloom Stories anuncia historias de audio en español y francés. Femtasy y Melba también presentan ofertas en francés. Caresse ofrece demos y generación de audio personalizado en español, inglés y francés, según tus nombres y preferencias. Elige por idioma, pero también por catálogo o generación y suscripción o créditos."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Existe una alternativa a Caresse con compra por sesión?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse utiliza créditos para generar sesiones, sin suscripción obligatoria. Los catálogos como Femtasy y Bloom ofrecen suscripciones y distintas formas de probar el contenido. Esta página no cubre todo el mercado ni afirma que Caresse sea el único servicio con compras puntuales."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Existe una alternativa a Femtasy sin suscripción?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse no exige una suscripción: las demos son gratuitas y las sesiones personalizadas utilizan créditos. Puede encajar con un uso ocasional, pero no significa que todas las sesiones sean gratuitas."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Bloom Stories ofrece guías para parejas?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sí. Bloom Guides incluye intimidad guiada para la exploración individual o en pareja. Caresse se diferencia por generar sesiones según tus nombres y preferencias, no por tener el único formato guiado para parejas."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Qué diferencia hay entre un juego como Desire o Spicer y Caresse?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Desire usa retos con puntos y cuestionarios; Spicer compara respuestas para mostrar preferencias comunes. Caresse ofrece ficciones guiadas por audio. Desire y Spicer también anuncian IA: la diferencia es el formato, no solo la presencia de IA."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Caresse ofrece audios en portugués?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sí, la app crea audios en portugués. La interfaz en portugués está disponible en Android; la actualización para iOS está pendiente de aprobación. Las demos publicadas en el sitio están en francés, inglés y español, no son una demostración en portugués."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "padding:56px 5%;text-align:center;"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "max-width:640px;margin:0 auto;font-size:0.95rem;line-height:1.7;color:var(--text-secondary);"
+          },
+          "html": "Hemos recopilado las cifras del mercado de la intimidad asistida por IA — adopción, usos y expectativas — en un estudio de fondo: <a href=\"/es/blog/state-of-ai-romance-2026/\" style=\"color:var(--primary-vibrant);font-weight:600;text-decoration:underline;text-underline-offset:2px;\">State of AI Romance 2026, la IA y la intimidad en cifras</a>."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "¿Listos para probar?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Escucha primero.<br>Decide después."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Descarga Caresse gratis. Accede de inmediato a las demos de audio en francés, inglés y español, sin inscripción, sin cuenta, sin email. Solo pagas si quieres una sesión a medida."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+                "class": "store-badge",
+                "aria-label": "Download on the App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Download on the App Store\">\n\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Get it on Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Get it on Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Solo para adultos mayores de 18 años"
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.es.logo",
+        "footer-f8137aee2466e770",
+        "footer.es.links.comparison",
+        "footer-e145c01106d76846",
+        "footer.es.copy.comparison"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

@@ -1,0 +1,1213 @@
+{
+  "id": "vs-melba.fr",
+  "family": "vs-melba",
+  "locale": "fr",
+  "path": "/vs-melba/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "fr",
+    "data-analytics-variant": "comparison-cta-v1-offer-clarity-oct05-v1-seo-consistency-oct23-v1-seo-consistency-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-fr"
+  },
+  "title": "Caresse vs Melba, Démo audio gratuite, sans compte",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Comparaison Caresse vs Melba : écoutez de vraies démos audio sans créer de compte. Sessions personnalisées à votre nom, sans abonnement."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/vs-melba/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse vs Melba, Démo audio gratuite, sans compte"
+    },
+    {
+      "property": "og:description",
+      "content": "Vraies démos audio jouables sans inscription. FR, EN, ES. Sessions personnalisées à votre nom, sans abonnement."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse vs Melba, expérience audio intime personnalisée par l'IA"
+    },
+    {
+      "property": "og:locale",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse vs Melba, Démo audio gratuite, sans compte"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Vraies démos sans inscription. FR · EN · ES. Sans abonnement."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse vs Melba, expérience audio intime personnalisée par l'IA"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse vs Melba",
+      "description": "Comparaison entre Caresse (audio intime personnalisé par l'IA, achat à la session) et Melba (catalogue d'expériences audio pré-enregistrées).",
+      "url": "https://caresse.app/vs-melba/",
+      "inLanguage": "fr",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "isSimilarTo": {
+          "@type": "SoftwareApplication",
+          "name": "Melba"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternatives",
+            "item": "https://caresse.app/alternatives/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse vs Melba",
+            "item": "https://caresse.app/vs-melba/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-96507040e5da65b2.css"
+  ],
+  "styleAttrs": {
+    "shared-96507040e5da65b2.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-96507040e5da65b2.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-eb1a354b4f3b0e6e"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/alternatives/"
+          },
+          "html": "Alternatives"
+        },
+        {
+          "type": "text",
+          "html": " › Caresse vs Melba\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🇫🇷 🇬🇧 🇪🇸 🇧🇷 · Caresse vs Melba · Audio en 4 langues"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Caresse vs Melba :<br>écoutez avant <em>de vous décider.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Melba propose un catalogue d'expériences audio pré-enregistrées en français et en anglais, présentées comme validées par des thérapeutes du couple. L'app demande la création d'un compte et un setup initial détaillé avant d'accéder au contenu. Caresse prend une approche différente : des démos audio jouables tout de suite, sans inscription, sans compte, sans email, pour entendre la qualité, le grain de voix et l'ambiance avant la moindre décision. Puis un rituel sur-mesure, qui s'adresse à vous par votre prénom."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Télécharger l’app gratuitement</a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Démos gratuites dans l’app, sans inscription. Sessions personnalisées payantes, sans abonnement."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "tldr"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "En une phrase"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Le résumé honnête."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "tldr-card"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "<strong>Melba</strong> est une bibliothèque d'expériences audio guidées en français et en anglais, pré-enregistrées et présentées comme validées par des thérapeutes. L'app exige un compte et un setup initial où vous renseignez vos préférences intimes avant d'accéder au catalogue. <strong>Caresse</strong> est différent à deux endroits : (1) vous écoutez de vraies démos avant de payer, sans créer de compte, en français, anglais ou espagnol : vous savez exactement à quoi vous attendre ; (2) chaque session payée est générée à la demande à partir de votre profil (prénoms, genres, pratiques, intensité, lieu), et vous pouvez l'utiliser totalement anonymement. Vous ne réécoutez jamais la même chose."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "verdict",
+        "id": "verdict"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Le verdict en un coup d'œil"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Melba, 8 critères qui comptent."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "verdict-table-wrap"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "verdict-table"
+              },
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critère</th>\n                        <th>Caresse</th>\n                        <th>Melba</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Démo audio sans compte</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, des démos jouables tout de suite</td>\n                        <td class=\"other\"><span class=\"no\">Non</span>, compte requis dès le démarrage</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Création de compte requise</th>\n                        <td class=\"caresse\"><span class=\"no\">Pas de compte Caresse</span> ; compte Apple ou Google pour les achats</td>\n                        <td class=\"other\">Compte requis pour utiliser l'app</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Type de contenu</th>\n                        <td class=\"caresse\">Scénario généré, unique à chaque session</td>\n                        <td class=\"other\">Catalogue d'expériences pré-enregistrées</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Vos prénoms dans l'audio</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, la voix vous appelle par votre prénom</td>\n                        <td class=\"other\"><span class=\"no\">Non</span>, narration générique</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personnalisation du scénario</th>\n                        <td class=\"caresse\">Genres, pratiques, accessoires, intensité, niveau de dirty-talk, lieu, ambiance</td>\n                        <td class=\"other\">Choix d'une expérience dans le catalogue</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Durée</th>\n                        <td class=\"caresse\">Variable selon la génération, pas de durée exacte à régler</td>\n                        <td class=\"other\">Fixée par expérience (≈15–30 min)</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Renouvellement</th>\n                        <td class=\"caresse\">Combinatoire quasi-infinie</td>\n                        <td class=\"other\">Catalogue mis à jour mensuellement</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modèle économique</th>\n                        <td class=\"caresse\">Achat à la session, sans abonnement</td>\n                        <td class=\"other\">Abonnement</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Langues audio</th>\n                        <td class=\"caresse\">Français, anglais, espagnol et portugais (interface PT sur Android ; mise à jour iOS en attente de validation)</td>\n                        <td class=\"other\">FR, EN</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Mode solo + mode duo</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, les deux modes natifs</td>\n                        <td class=\"other\">Orienté duo</td>\n                    </tr>\n                </tbody>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group",
+            "style": "margin-top:32px"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "inline",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "Télécharger l’app gratuitement"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "columns"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Le détail"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Deux approches, deux philosophies."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Melba choisit la curation. Caresse choisit la génération. Ce n'est pas la même promesse."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "columns-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card highlight"
+              },
+              "html": "\n                <p class=\"col-sub\">Caresse</p>\n                <h3>Écoutez d'abord. Décidez ensuite.</h3>\n                <p>Avant tout achat, vous avez accès à des démos audio pré-générées, en français, en anglais et en espagnol. Pas d'inscription, pas de compte, pas d'email : vous entendez tout de suite la qualité sonore, le grain de voix, l'ambiance et les niveaux d'intensité. Les démos ne portent pas votre prénom et n'utilisent pas votre profil, mais elles donnent une image fidèle de ce que vous allez vivre.</p>\n                <p>Quand vous lancez une session sur-mesure, Caresse construit un scénario à partir de votre profil : qui vous êtes, comment vous vous appelez, ce qui vous attire ce soir, le niveau d'intensité, l'ambiance. La voix vous nomme. Le scénario ne ressemble à aucun autre, parce qu'il n'a été écrit que pour cette session-là. Le mode anonyme ne demande pas de compte Caresse. Les achats passent par votre compte Apple ou Google.</p>\n                <ul>\n                    <li>Des démos audio jouables sans compte (FR · EN · ES)</li>\n                    <li>Mode anonyme, sans création de compte Caresse</li>\n                    <li>Prénoms prononcés dans la narration</li>\n                    <li>Durée variable selon la session générée</li>\n                    <li>Combinatoire quasi-infinie : genres, pratiques, accessoires, intensité, lieu, ambiance</li>\n                    <li>Modes duo et solo natifs</li>\n                    <li>Pas d'abonnement : vous payez à la session</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card muted"
+              },
+              "html": "\n                <p class=\"col-sub\">Melba</p>\n                <h3>Une bibliothèque francophone curée par des thérapeutes.</h3>\n                <p>Melba propose des dizaines d'expériences audio pré-enregistrées en français et en anglais, conçues avec des thérapeutes du couple. Avant d'accéder au catalogue, l'app vous demande de créer un compte et de renseigner un setup de préférences intimes assez détaillé. L'audio est ensuite joué tel quel pour tous les utilisateurs.</p>\n                <p>C'est un bon choix si vous cherchez un cadre rassurant et une caution professionnelle. C'est moins le bon choix si vous préférez découvrir sans créer de compte, sans renseigner vos préférences intimes au préalable, ou si vous voulez que la voix vous nomme personnellement.</p>\n                <ul>\n                    <li>Catalogue d'expériences pré-enregistrées</li>\n                    <li>Contenu validé par des thérapeutes du couple</li>\n                    <li>Programmes de découverte et articles éditoriaux</li>\n                    <li>Disponible en français et en anglais</li>\n                    <li>Modèle d'abonnement, compte requis</li>\n                </ul>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "pricing"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Tarification"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Achat à la session vs abonnement."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Caresse ne vous demande pas de payer un mois où vous n'utilisez pas l'app. Melba propose 7 jours d'essai gratuit, puis 9,99 €/mois ou 89,99 €/an."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "pricing-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card highlight"
+              },
+              "html": "\n                <h3>Caresse</h3>\n                <p class=\"price-big\">À la session</p>\n                <p class=\"price-note\" style=\"margin-bottom:14px;\">Téléchargement et démos audio gratuits. Les sessions personnalisées utilisent des crédits, sans abonnement mensuel.</p>\n                <p class=\"price-note\" style=\"margin-top:16px;font-size:0.85rem;\">Montants en euros donnés à titre indicatif. Les prix peuvent varier selon le pays et le store ; vérifiez le montant affiché dans l’app avant achat.</p>\n                <div style=\"display:flex;flex-direction:column;gap:8px;text-align:left;border-top:1px solid rgba(255,255,255,0.25);padding-top:14px;\">\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>1 expérience</span>\n                        <strong>1,99 €</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>3 expériences</span>\n                        <strong>5,49 €</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>5 expériences</span>\n                        <strong>7,99 €</strong>\n                    </div>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:12px;font-size:0.82rem;opacity:0.85;\">Une fois générée, chaque expérience est disponible à vie sur votre compte et dans l'app.</p>\n                <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.85rem;margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,0.25);\">\n                    <span>Exploration sans limites (achat unique, à vie)</span>\n                    <strong>9,99 €</strong>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:6px;font-size:0.78rem;opacity:0.8;\">Débloque les options de personnalisation avancées + 1 crédit offert.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card"
+              },
+              "html": "\n                <h3>Melba</h3>\n                <p class=\"price-big\">Abonnement</p>\n                <p class=\"price-note\">7 jours d'essai gratuit, puis 9,99 €/mois ou 89,99 €/an pour accéder au catalogue.</p>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "pricing-footnote"
+          },
+          "html": "Tarifs Melba constatés en juin 2026."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "choose"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Comment choisir"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Honnêtement, qui devrait choisir quoi ?"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Pas de marketing déguisé. Voici à qui chaque app s'adresse le mieux."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "choose-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card us"
+              },
+              "html": "\n                <h3>Choisissez Caresse si vous voulez…</h3>\n                <ul>\n                    <li>écouter de vraies démos audio avant de payer, sans créer de compte</li>\n                    <li>utiliser le mode anonyme sans créer de compte Caresse</li>\n                    <li>que la voix vous appelle, vous et votre partenaire, par vos prénoms</li>\n                    <li>une expérience qui ne ressemble à aucune autre, à chaque session</li>\n                    <li>configurer précisément l'intensité, les pratiques et l'ambiance</li>\n                    <li>payer ce que vous écoutez, sans abonnement qui tourne en fond</li>\n                    <li>un mode solo natif aussi soigné que le mode duo</li>\n                    <li>Audio généré en FR, EN, ES et PT (interface PT sur Android ; mise à jour iOS en attente de validation)</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card them"
+              },
+              "html": "\n                <h3>Choisissez Melba si vous voulez…</h3>\n                <ul>\n                    <li>une bibliothèque curée en français et anglais, à parcourir comme un catalogue</li>\n                    <li>la caution rassurante d'un contenu validé par des thérapeutes</li>\n                    <li>des programmes éditoriaux et des articles autour du couple</li>\n                    <li>un format d'abonnement classique, sans surprise</li>\n                    <li>écouter des expériences pré-enregistrées sans configuration à chaque session</li>\n                </ul>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub",
+            "style": "margin-top:24px;"
+          },
+          "html": "Vous hésitez plutôt avec une bibliothèque anglophone ? Voyez notre comparaison avec <a href=\"/vs-dipsea/\">Dipsea</a>. Vous cherchez une autre approche de l'IA générative ? Comparez avec <a href=\"/vs-inthemoment/\">InTheMoment</a>."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Questions fréquentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Melba, vos questions."
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Puis-je écouter Caresse avant de payer, sans créer de compte ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Oui. Caresse propose des démos audio pré-générées, en français, en anglais et en espagnol, jouables immédiatement sans inscription, sans email, sans compte. Vous entendez la qualité sonore, le grain de voix, l'ambiance et les niveaux d'intensité avant la moindre décision. Les démos n'utilisent pas votre prénom ni votre profil, mais elles reflètent fidèlement l'expérience."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Caresse exige-t-il une création de compte comme la plupart des concurrents ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Non. Le mode anonyme permet d’utiliser l’app sans créer de compte Caresse. Les achats passent par l’App Store ou Google Play et nécessitent un compte Apple ou Google sur le store utilisé. C'est une différence structurelle avec la quasi-totalité des concurrents, où l'inscription est un préalable à tout."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Quelle est la différence principale entre Caresse et Melba ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Melba propose un catalogue d'expériences audio pré-enregistrées en français et en anglais, conçues par des thérapeutes. L'app demande un compte et un setup de préférences intimes avant d'accéder au contenu. Caresse génère un scénario unique pour vous deux à chaque session : vos prénoms sont prononcés dans l'audio, l'intensité, les pratiques et l'ambiance sont configurées. Le mode anonyme est disponible sans compte Caresse ; les achats passent par votre compte Apple ou Google."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Caresse fonctionne-t-il avec abonnement ou achat à la session ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse fonctionne à la session, sans abonnement mensuel obligatoire. Vous payez quand vous voulez une nouvelle expérience, vous ne payez pas pour ne pas l'utiliser. Avant tout achat, vous accédez aux démos audio gratuites pour vous décider."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Est-ce que Caresse propose des contenus aussi soignés que Melba ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Oui. Chaque session Caresse passe par un pipeline en plusieurs phases (mise en place, immersion, premières caresses, exploration, montée en intensité, polissage) dont les prompts sont écrits et affinés par l'équipe éditoriale Caresse. La voix est ensuite synthétisée par des moteurs TTS premium. Le résultat est une narration cohérente, rythmée, jamais générique. Les démos audio vous permettent d'en juger vous-même avant de payer."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Combien de scénarios différents Caresse peut-il générer ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "La combinatoire est quasi-infinie. Chaque profil intime combine genres des participants, prénoms, pratiques, accessoires, niveau d'intensité, niveau de dirty-talk, lieu et ambiance. Là où Melba propose un catalogue fixe (avec un setup de compte obligatoire), Caresse vous génère une nouvelle expérience unique à chaque demande, sans friction."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Prêt·e·s à essayer ?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Écoutez d'abord.<br>Décidez ensuite."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Téléchargez Caresse gratuitement. Accédez immédiatement aux démos audio en français, anglais et espagnol, sans inscription, sans compte, sans email. Vous payez uniquement si vous voulez une session sur-mesure."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                "class": "store-badge",
+                "aria-label": "Download on the App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Download on the App Store\">\n                \n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Get it on Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Get it on Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Réservé aux adultes de 18 ans et plus"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Autres comparaisons"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Explorez le paysage des alternatives."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "related-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-dipsea/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Dipsea</p>\n                <p class=\"desc\">Catalogue de stories en anglais vs scénario généré, multilingue.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-coelle/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Coelle</p>\n                <p class=\"desc\">Library guidée internationale vs scénario unique avec prénoms.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-melt/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Melt</p>\n                <p class=\"desc\">Audio personnalisé avec prénoms vs générateur de texte érotique.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-inthemoment/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs InTheMoment</p>\n                <p class=\"desc\">Comparaison d'approche AI : prompts curatés vs génération brute.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-quinn/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse vs Quinn</p><p class=\"desc\">Audio érotique anglophone vs expérience générée en trois langues.</p>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/alternatives/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🧭</div>\n                <p class=\"ttl\">Toutes les alternatives</p>\n                <p class=\"desc\">Le paysage complet : Melba, Coelle, Dipsea, Ferly, Bloom Stories.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/for-couples/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">💞</div>\n                <p class=\"ttl\">Caresse pour les couples</p>\n                <p class=\"desc\">Comment Caresse aide les couples à ralentir et se reconnecter.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/is-caresse-safe/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🔒</div>\n                <p class=\"ttl\">Caresse est-il sûr ?</p>\n                <p class=\"desc\">Confidentialité, données, IA : tout est expliqué clairement.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-magicwave/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs MagicWave</p>\n                <p class=\"desc\">Audiobooks à casting complet, anglais uniquement vs scénario généré, multilingue.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-bonded/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse vs Bonded</p><p class=\"desc\">Chat écrit qui attend vos réponses, vs audio qui se déroule seul.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.fr.logo",
+        "footer-1908c9d33a4bfa5c",
+        "footer.fr.links",
+        "footer-c18220e05a34e590",
+        "footer.fr.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<svg width="280" height="280" viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" stop-color="#2D1B5E" stop-opacity="0.6"/>
+                            <stop offset="100%" stop-color="#1A1A2E" stop-opacity="0"/>
+                        </radialGradient>
+                        <radialGradient id="ringGrad" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" stop-color="#9361FD" stop-opacity="0.6"/>
+                            <stop offset="100%" stop-color="#9361FD" stop-opacity="0"/>
+                        </radialGradient>
+                        <filter id="glow">
+                            <feGaussianBlur stdDeviation="3" result="blur"/>
+                            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                        </filter>
+                    </defs>
+
+                    <!-- Fond radial -->
+                    <circle cx="140" cy="140" r="140" fill="url(#bgGrad)"/>
+
+                    <!-- Ondes concentriques animées -->
+                    <circle cx="140" cy="140" r="110" stroke="#9361FD" stroke-width="1" stroke-opacity="0.12">
+                        
+                        
+                    </circle>
+                    <circle cx="140" cy="140" r="90" stroke="#9361FD" stroke-width="1" stroke-opacity="0.18">
+                        
+                        
+                    </circle>
+                    <circle cx="140" cy="140" r="70" stroke="#9361FD" stroke-width="1.5" stroke-opacity="0.25">
+                        
+                        
+                    </circle>
+
+                    <!-- Cercle central -->
+                    <circle cx="140" cy="140" r="44" fill="#2D1B5E" stroke="#9361FD" stroke-width="1.5" stroke-opacity="0.5" filter="url(#glow)"/>
+
+                    <!-- Icône casque audio -->
+                    <g transform="translate(140,140)" stroke="#9361FD" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)">
+                        <!-- Arc du casque -->
+                        <path d="M-16,-8 A16,16 0 0,1 16,-8" stroke-width="2.5"/>
+                        <!-- Oreillette gauche -->
+                        <rect x="-22" y="-8" width="8" height="14" rx="4" stroke-width="2" fill="#9361FD" fill-opacity="0.25"/>
+                        <!-- Oreillette droite -->
+                        <rect x="14" y="-8" width="8" height="14" rx="4" stroke-width="2" fill="#9361FD" fill-opacity="0.25"/>
+                    </g>
+
+                    <!-- Petites barres d'égaliseur en bas -->
+                    <g transform="translate(140,198)" fill="#9361FD">
+                        <rect x="-24" y="0" width="5" height="12" rx="2.5" opacity="0.5">
+                            
+                            
+                        </rect>
+                        <rect x="-13" y="0" width="5" height="20" rx="2.5" opacity="0.7">
+                            
+                            
+                        </rect>
+                        <rect x="-2" y="0" width="5" height="16" rx="2.5" opacity="0.9">
+                            
+                            
+                        </rect>
+                        <rect x="9" y="0" width="5" height="20" rx="2.5" opacity="0.7">
+                            
+                            
+                        </rect>
+                        <rect x="20" y="0" width="5" height="12" rx="2.5" opacity="0.5">
+                            
+                            
+                        </rect>
+                    </g>
+                </svg>

@@ -1,0 +1,69 @@
+
+        :root {
+            --primary: #5D3D8C;
+            --secondary: #9E7BB5;
+            --primary-vibrant: #9361FD;
+            --background: #F9F7FD;
+            --surface: #FFFFFF;
+            --text-primary: #1A1A2E;
+            --text-secondary: #5D5D7A;
+            --grad-primary: linear-gradient(135deg, #9361FD, #5D3D8C);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, system-ui, sans-serif;
+            background-color: var(--background);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+
+        .card {
+            background: var(--surface);
+            border-radius: 24px;
+            padding: 48px 32px;
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(93,61,140,0.12);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+        }
+
+        .store-link {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            border-radius: 14px;
+            background: var(--grad-primary);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 14px;
+            transition: transform 0.15s ease;
+        }
+
+        .store-link:active {
+            transform: scale(0.97);
+        }
+
+        .store-link.secondary {
+            background: var(--surface);
+            color: var(--primary);
+            border: 2px solid var(--secondary);
+        }
+    

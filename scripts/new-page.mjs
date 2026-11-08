@@ -18,6 +18,7 @@ export function createPage({ root = process.cwd(), family, locale, path, from })
   const routes = read(routesFile);
   const inventory = readInventory(root);
   if (page.locale !== locale) throw new Error('Choose a template in the same language as the new page.');
+  if (['legal', 'redirect'].includes(page.kind) || page.sitemap === false) throw new Error('Choose an indexed content page as the template, not a legal page, redirect or download fallback.');
   if (existsSync(destination) || existsSync(join(root, 'public', path, 'index.html')) ||
     Object.values(routes).some((locales) => Object.values(locales).some((route) => route.path === path))) throw new Error(`Page/URL already exists: ${id} ${path}`);
   const oldUrl = 'https://caresse.app' + page.path;
@@ -32,14 +33,17 @@ export function createPage({ root = process.cwd(), family, locale, path, from })
   Object.assign(next, { id, family, locale, path });
   next.htmlAttrs['data-analytics-variant'] = `${family}-v1`;
   const copies = [];
-  for (const [index, block] of next.blocks.entries()) {
+  let copiedBlocks = 0;
+  const copyBlocks = (blocks) => { for (const block of blocks) {
+    if (block.blocks) copyBlocks(block.blocks);
     if (!['html', 'markdown'].includes(block.type)) continue;
     const extension = block.type === 'html' ? '.html' : '.md';
     const original = join(root, 'src/content/blocks', block.file + extension);
     if (!existsSync(original)) throw new Error(`Missing template content ${original}`);
-    block.file = `${id}/${String(index).padStart(2, '0')}`;
+    block.file = `${id}/${String(copiedBlocks++).padStart(2, '0')}`;
     copies.push([original, join(root, 'src/content/blocks', block.file + extension)]);
-  }
+  } };
+  copyBlocks(next.blocks);
   routes[family] ??= {};
   routes[family][locale] = { path, alternates: {} };
   const alternates = Object.fromEntries(Object.entries(routes[family]).map(([language, route]) => [language, route.path]));

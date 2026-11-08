@@ -4,9 +4,15 @@ const textContent = (node) => node.nodeName === '#text' ? node.value : (node.chi
 const plainText = (html) => textContent(parseFragment(html)).trim();
 
 export function compileSchemas(page) {
+  const findFaq = (blocks) => {
+    for (const block of blocks) {
+      if (block.type === 'faq') return block;
+      if (block.blocks) { const nested = findFaq(block.blocks); if (nested) return nested; }
+    }
+  };
   return page.schemas.map((schema) => {
     if (schema['@type'] !== 'FAQPage' || schema.mainEntity?.block !== 'faq') return schema;
-    const faq = page.blocks.find((block) => block.type === 'faq');
+    const faq = findFaq(page.blocks);
     if (!faq) throw new Error(`${page.id}: FAQ schema has no visible FAQ block`);
     return {
       ...schema,

@@ -1,0 +1,654 @@
+{
+  "id": "demo-couple-torride.pt",
+  "family": "demo-couple-torride",
+  "locale": "pt",
+  "path": "/pt/demo/casal-intenso/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "demo-seo-oct03-v1-pt-full-translation-oct10-v1"
+  },
+  "bodyAttrs": {},
+  "title": "Demo em inglês para casais: um jogo de papéis guiado",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Ouça grátis a primeira fase completa de uma sessão guiada a dois, com áudio em inglês, em que a voz apresenta os papéis. Sem cadastro nem e-mail."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "name": "rating",
+      "content": "adult"
+    },
+    {
+      "property": "og:type",
+      "content": "article"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:title",
+      "content": "Demo em inglês para casais: um jogo de papéis guiado"
+    },
+    {
+      "property": "og:description",
+      "content": "Ouça grátis a primeira fase completa de uma sessão guiada a dois, com áudio em inglês, em que a voz apresenta os papéis. Sem cadastro nem e-mail."
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/demo/casal-intenso/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Mapa do site",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AudioObject",
+          "name": "Um jogo de controle guiado pela voz",
+          "description": "Ouça grátis a primeira fase completa de uma sessão guiada a dois, com áudio em inglês, em que a voz apresenta os papéis. Sem cadastro nem e-mail.",
+          "contentUrl": "https://caresse.app/demos/caresse-demo-couple-torride-en-daniel-amber.mp3",
+          "encodingFormat": "audio/mpeg",
+          "inLanguage": "en",
+          "isFamilyFriendly": false,
+          "isAccessibleForFree": true,
+          "url": "https://caresse.app/pt/demo/casal-intenso/",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Caresse",
+            "url": "https://caresse.app/pt/"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Início",
+              "item": "https://caresse.app/pt/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Demos em áudio",
+              "item": "https://caresse.app/pt/demo/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Um jogo de controle guiado pela voz",
+              "item": "https://caresse.app/pt/demo/casal-intenso/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "styles": [
+    "shared-8492103cef7d4a55.css"
+  ],
+  "styleAttrs": {
+    "shared-8492103cef7d4a55.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-8492103cef7d4a55.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-b6a49740f6c8de15"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "class": "dpage"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "crumb"
+          },
+          "html": "<a href=\"/pt/\">Início</a> › <a href=\"/pt/demo/\">Demos em áudio</a> › Daniel &amp; Amber"
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "Um jogo de controle guiado pela voz"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dpitch"
+          },
+          "html": "No quarto, Amber e Daniel se ajoelham frente a frente enquanto uma voz serena marca o ritmo. A ficção segue uma dinâmica: uma pessoa recebe as orientações e a outra acompanha, com alternância dos papéis mais adiante. Esta primeira fase apresenta o jogo. O áudio está em inglês; as sugestões são sempre opcionais e dependem do consentimento dos dois."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "margin:0 0 12px;"
+          },
+          "html": "<a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-store-cta\" class=\"hero-store-cta\" style=\"margin-top:0;\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener noreferrer\">Baixar o app grátis</a>"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dnote",
+            "style": "text-align:left;margin-bottom:22px;"
+          },
+          "html": "Esta demo pré-gerada é gratuita e o áudio está em inglês. As sessões personalizadas no app usam créditos pagos, sem assinatura. O app cria áudios em português. A interface em português já está disponível no Android e a atualização para iOS aguarda aprovação."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dplayer"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "lbl"
+              },
+              "html": "Ouvir a primeira fase em inglês · Daniel &amp; Amber"
+            },
+            {
+              "type": "element",
+              "tag": "audio",
+              "attrs": {
+                "controls": "",
+                "preload": "none",
+                "src": "/demos/caresse-demo-couple-torride-en-daniel-amber.mp3"
+              },
+              "html": "\n                Seu navegador não consegue reproduzir este áudio. <a href=\"/demos/caresse-demo-couple-torride-en-daniel-amber.mp3\">Baixar o MP3 em inglês</a>.\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dnote"
+          },
+          "html": "🎧 Use fones em um lugar tranquilo · Áudio em inglês"
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dmeta"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-couple-torride.pt/0705"
+                },
+                {
+                  "type": "text",
+                  "html": "Sessão guiada a dois"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-couple-torride.pt/0706"
+                },
+                {
+                  "type": "text",
+                  "html": "Venda e acessório para os pulsos"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-couple-torride.pt/0707"
+                },
+                {
+                  "type": "text",
+                  "html": "Intenso"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-couple-torride.pt/0708"
+                },
+                {
+                  "type": "text",
+                  "html": "Explícito (18+)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "dsec"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Um contexto para conversar sobre o que nem sempre é dito"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Alternar papéis, deixar-se guiar e combinar limites: muitos casais pensam nisso sem saber como abrir o assunto. A voz oferece uma ficção compartilhada, anuncia o que vem a seguir e deixa espaço para pausar ou parar. A orientação não substitui o consentimento: qualquer proposta pode ser recusada."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "dsec"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "O que vem depois desta primeira fase"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Este áudio não é uma montagem: é a primeira fase completa de uma sessão pré-gerada. As experiências completas são vividas no app. A demo usa nomes, ambiente e intensidade fixos; no app, a geração personalizada usa créditos pagos e pode criar áudio em português. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. Duas gerações com as mesmas opções podem ter resultados diferentes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "dcta"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+            "id": "demo-store-cta",
+            "data-store-auto": "",
+            "data-cta-position": "end",
+            "class": "hero-store-cta",
+            "style": "display:inline-block;margin-top:0;",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          "html": "Viver a experiência no app"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age"
+          },
+          "html": "🔞 Apenas para maiores de 18 anos"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "dpage",
+        "style": "padding-top:0;"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dlinks"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Para saber mais"
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "html": "\n                <li><a href=\"/pt/para-casais-aventureiros/\">Para casais que querem explorar mais</a></li>\n                <li><a href=\"/pt/para-casais/\">Sessões para casais</a></li>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dlinks"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Outras demos"
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "html": "\n                <li><a href=\"/pt/demo/descoberta-sensorial-solo/\">Uma descoberta sensorial, solo e sem pressa</a></li>\n                <li><a href=\"/pt/demo/casal-romantico/\">Uma noite a dois, guiada desde o primeiro toque</a></li>\n                <li><a href=\"/pt/demo/solo-com-brinquedos-eroticos/\">Uma exploração solo com os sentidos despertos</a></li>\n                <li><a href=\"/pt/demo/casal-duas-mulheres/\">Uma sessão guiada entre duas mulheres</a></li>\n                <li><a href=\"/pt/demo/casal-dois-homens/\">Uma sessão guiada entre dois homens</a></li>\n            "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "style": "margin-top:12px;"
+              },
+              "html": "<a href=\"/pt/demo/\">Ver as seis demos →</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-ef08471ebc9c2b3c",
+        "footer-c50c7cb439c48124",
+        "footer.pt.links",
+        "footer-0719760d8779fab2",
+        "footer.pt.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-e86488cf4c9bedce.js"
+    }
+  ]
+}

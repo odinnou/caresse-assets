@@ -5,21 +5,44 @@ import { join } from 'node:path';
 import test from 'node:test';
 import { validateContent } from '../scripts/validate-content.mjs';
 
-function editFixture(t, edit) {
+function editFixture(t, edit, id = 'couples.fr') {
   const fixture = mkdtempSync(join(tmpdir(), 'caresse-content-'));
   cpSync('src', join(fixture, 'src'), { recursive: true });
   symlinkSync(join(process.cwd(), 'public'), join(fixture, 'public'), 'dir');
   t.after(() => rmSync(fixture, { recursive: true, force: true }));
-  const file = join(fixture, 'src/content/pages/couples.fr.json');
+  const file = join(fixture, `src/content/pages/${id}.json`);
   const page = JSON.parse(readFileSync(file));
   edit(page);
   writeFileSync(file, JSON.stringify(page));
   return fixture;
 }
 
-test('all 16 pages and their translations reference existing content and public routes', () => {
+test('all pages and their translations reference existing content and public routes', () => {
   const registry = JSON.parse(readFileSync('src/data/routes.json'));
   assert.equal(validateContent().length, Object.values(registry).reduce((count, locales) => count + Object.keys(locales).length, 0));
+});
+
+test('validates scripts nested in composed content and ordered head references', (t) => {
+  const root = editFixture(t, (page) => { page.blocks = [{ type: 'container', tag: 'main', blocks: [{ type: 'script', file: 'missing.js' }] }]; });
+  assert.throws(() => validateContent(root), /missing\/invalid reference/);
+  const other = editFixture(t, (page) => { page.headOrder = [{ type: 'meta', index: 9999 }]; });
+  assert.throws(() => validateContent(other), /invalid head reference/);
+});
+
+test('legal pages retain noindex and redirects require a real target and refresh', (t) => {
+  const legal = editFixture(t, (page) => { page.meta = page.meta.filter((meta) => meta.name !== 'robots'); }, 'legal-cgu.fr');
+  assert.throws(() => validateContent(legal), /preserve noindex/);
+  const redirect = editFixture(t, (page) => { page.meta = page.meta.filter((meta) => !meta['http-equiv']); }, 'redirect-en-demo-couple-deux-femmes.en');
+  assert.throws(() => validateContent(redirect), /redirect target or refresh/);
+});
+
+test('the migration comparison manifest includes every original and migrated page', () => {
+  const migration = JSON.parse(readFileSync('src/data/migration.json'));
+  const pages = validateContent();
+  assert.equal(new Set(migration.comparisonIds).size, migration.comparisonIds.length);
+  for (const id of migration.pilotIds) assert.ok(migration.comparisonIds.includes(id));
+  for (const id of migration.comparisonIds) assert.ok(pages.some((page) => page.id === id), id);
+  assert.equal(migration.comparisonIds.length, 226);
 });
 test('fails before building when an editorial block was deleted', (t) => {
   const root = editFixture(t, (page) => { page.blocks = [{ type: 'markdown', file: 'missing' }]; });

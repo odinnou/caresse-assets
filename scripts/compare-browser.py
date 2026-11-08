@@ -4,12 +4,13 @@ No production traffic or analytics events leave the browser. External resources
 and media playback are blocked identically for both versions.
 """
 import json
+from concurrent.futures import ProcessPoolExecutor
 import mimetypes
 import os
 from pathlib import Path
 import subprocess
 import tempfile
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from urllib.parse import unquote, urlparse
 
 from PIL import Image, ImageChops
@@ -19,7 +20,8 @@ ROOT = Path.cwd()
 OUT = ROOT / "artifacts/browser"
 OUT.mkdir(parents=True, exist_ok=True)
 MIGRATION = json.loads((ROOT / "src/data/migration.json").read_text())
-PAGES = [json.loads(path.read_text()) for path in sorted((ROOT / "src/content/pages").glob("*.json")) if path.stem in MIGRATION["pilotIds"]]
+COMPARISON_IDS = MIGRATION.get("comparisonIds", MIGRATION["pilotIds"])
+PAGES = [json.loads(path.read_text()) for path in sorted((ROOT / "src/content/pages").glob("*.json")) if path.stem in COMPARISON_IDS]
 REF = os.environ.get("BASELINE_REF") or MIGRATION["baseline"]
 PROFILES = {
     "desktop": {"viewport": {"width": 1440, "height": 1000}},
@@ -41,6 +43,10 @@ def local_files(directory):
     def handle(route):
         request = route.request
         url = urlparse(request.url)
+        if url.hostname in {"apps.apple.com", "play.google.com"} and request.is_navigation_request():
+            # Exercise automatic download routing without contacting a store.
+            route.fulfill(status=200, content_type="text/html", body="<!doctype html><title>Store destination intercepted</title><p>Store destination intercepted</p>")
+            return
         if url.hostname != "caresse.app" or request.resource_type == "media":
             route.abort()
             return
@@ -67,7 +73,9 @@ def capture(browser, directory, profile, path, name):
     with context(browser, directory, profile) as ctx:
         page = ctx.new_page()
         frozen_time = datetime(2026, 11, 8, tzinfo=timezone.utc)
-        page.clock.install(time=frozen_time)
+        # Start before the pause target so setup under load cannot make it past.
+        # No site document or timer has loaded at this point.
+        page.clock.install(time=frozen_time - timedelta(minutes=1))
         page.clock.pause_at(frozen_time)
         errors = []
         page.on("pageerror", lambda error: errors.append(str(error)))
@@ -89,6 +97,7 @@ def capture(browser, directory, profile, path, name):
             links: [...document.querySelectorAll('a')].map(e => [e.href, e.textContent.replace(/\\s+/g, ' ').trim(), e.target, e.rel]),
             images: [...document.images].map(e => [e.getAttribute('src'), e.alt, e.complete && e.naturalWidth > 0]),
             language: document.documentElement.lang,
+            url: location.href,
             canonical: document.querySelector('link[rel=canonical]')?.href
         })""")
         state["accessibility"] = page.locator("body").aria_snapshot()
@@ -112,8 +121,59 @@ def attribution(browser, directory, profile, locale):
         return {key: event[key] for key in ["store", "locale", "utm_source", "utm_campaign", "landing_page", "test"]}
 
 
+def chromium_options():
+    # Apply the same raster settings to both versions; pixel equality is strict.
+    options = {"headless": True, "args": [
+        "--num-raster-threads=1", "--disable-partial-raster",
+        "--disable-skia-runtime-opts", "--run-all-compositor-stages-before-draw",
+    ]}
+    if os.environ.get("CHROMIUM_EXECUTABLE"):
+        options["executable_path"] = os.environ["CHROMIUM_EXECUTABLE"]
+    return options
+
+
+def compare_group(task):
+    worker, before_path, items = task
+    before = Path(before_path)
+    result = {"pages": [], "errors": []}
+    with sync_playwright() as playwright:
+        browser = playwright.chromium.launch(**chromium_options())
+        for item, profile_name in items:
+            profile = PROFILES[profile_name]
+            name = item["id"] + "." + profile_name
+            try:
+                old, old_errors = capture(browser, before, profile, item["path"], name + ".before")
+                new, new_errors = capture(browser, ROOT / "dist", profile, item["path"], name + ".after")
+                differing = [key for key in old if old[key] != new[key]]
+                if differing:
+                    (OUT / (name + '.state-diff.json')).write_text(json.dumps({key: {'before': old[key], 'after': new[key]} for key in differing}, ensure_ascii=False, indent=2))
+                assert not differing, f"DOM, links, assets or accessibility snapshot differ: {name} ({', '.join(differing)})"
+                assert new_errors == old_errors, f"New browser errors: {new_errors} / baseline {old_errors}"
+                with Image.open(OUT / (name + ".before.png")) as old_image, Image.open(OUT / (name + ".after.png")) as new_image:
+                    assert old_image.size == new_image.size, f"Screenshot dimensions differ: {name}"
+                    diff = ImageChops.difference(old_image.convert("RGB"), new_image.convert("RGB"))
+                    changed = diff.getbbox()
+                    if changed:
+                        diff.save(OUT / (name + ".diff.png"))
+                    assert changed is None, f"Pixel difference: {name}, rectangle {changed}"
+                result["pages"].append({"page": item["path"], "profile": profile_name, "pixelDifference": 0, "destination": new["url"], "baselineBrowserErrors": old_errors})
+            except Exception as error:
+                result["errors"].append({"page": item["path"], "profile": profile_name, "error": str(error)})
+            (OUT / f"worker-{worker}.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+        browser.close()
+    return result
+
+
+def redirect_state(browser, directory, profile, item):
+    with context(browser, directory, profile) as ctx:
+        page = ctx.new_page()
+        page.goto("https://caresse.app" + item["path"] + "?utm_source=instagram&utm_campaign=astro_redirect&analytics_test=1#sample", wait_until="networkidle")
+        return {"url": page.url, "context": page.evaluate("sessionStorage.getItem('caresse_redirect_context')") if urlparse(page.url).hostname == "caresse.app" else None}
+
+
 def main():
-    report = {"baseline": REF, "conditions": "Chromium; identical blocked external resources/media; deterministic animations; 1440px desktop / 390px Android", "pages": [], "attribution": [], "errors": []}
+    workers = max(1, min(4, int(os.environ.get("BROWSER_WORKERS", "4"))))
+    report = {"baseline": REF, "conditions": "Chromium; identical blocked external resources/media; store navigation intercepted; deterministic animations; strict pixels; 1440px desktop / 390px Android", "workers": workers, "pages": [], "attribution": [], "redirects": [], "errors": []}
     with tempfile.TemporaryDirectory(prefix="caresse-baseline-") as temporary:
         before = Path(os.environ.get("BASELINE_DIR", temporary))
         if "BASELINE_DIR" not in os.environ:
@@ -121,38 +181,16 @@ def main():
             subprocess.run(["tar", "-x", "-C", str(before)], stdin=archive.stdout, check=True)
             archive.stdout.close()
             assert archive.wait() == 0
+        items = [(item, profile_name) for profile_name in PROFILES for item in PAGES]
+        tasks = [(worker, str(before), items[worker::workers]) for worker in range(workers)]
+        with ProcessPoolExecutor(max_workers=workers) as pool:
+            for result in pool.map(compare_group, tasks):
+                report["pages"].extend(result["pages"])
+                report["errors"].extend(result["errors"])
+                print(f"Compared {len(report['pages']) + len(report['errors'])}/{len(items)} pages/profiles", flush=True)
         with sync_playwright() as playwright:
-            # Raster scheduling/caches can vary rounded-edge antialiasing even
-            # between captures of the unchanged baseline. Apply identical
-            # deterministic raster settings while keeping pixel equality strict.
-            options = {"headless": True, "args": [
-                "--num-raster-threads=1", "--disable-partial-raster",
-                "--disable-skia-runtime-opts", "--run-all-compositor-stages-before-draw",
-            ]}
-            if os.environ.get("CHROMIUM_EXECUTABLE"):
-                options["executable_path"] = os.environ["CHROMIUM_EXECUTABLE"]
-            browser = playwright.chromium.launch(**options)
+            browser = playwright.chromium.launch(**chromium_options())
             for profile_name, profile in PROFILES.items():
-                for item in PAGES:
-                    name = item["id"] + "." + profile_name
-                    try:
-                        old, old_errors = capture(browser, before, profile, item["path"], name + ".before")
-                        new, new_errors = capture(browser, ROOT / "dist", profile, item["path"], name + ".after")
-                        differing = [key for key in old if old[key] != new[key]]
-                        if differing:
-                            (OUT / (name + '.state-diff.json')).write_text(json.dumps({key: {'before': old[key], 'after': new[key]} for key in differing}, ensure_ascii=False, indent=2))
-                        assert not differing, f"DOM, links, assets or accessibility snapshot differ: {name} ({', '.join(differing)})"
-                        assert new_errors == old_errors, f"New browser errors: {new_errors} / baseline {old_errors}"
-                        with Image.open(OUT / (name + ".before.png")) as old_image, Image.open(OUT / (name + ".after.png")) as new_image:
-                            assert old_image.size == new_image.size, f"Screenshot dimensions differ: {name}"
-                            diff = ImageChops.difference(old_image.convert("RGB"), new_image.convert("RGB"))
-                            changed = diff.getbbox()
-                            if changed:
-                                diff.save(OUT / (name + ".diff.png"))
-                            assert changed is None, f"Pixel difference: {name}, rectangle {changed}"
-                        report["pages"].append({"page": item["path"], "profile": profile_name, "pixelDifference": 0, "baselineBrowserErrors": old_errors})
-                    except Exception as error:
-                        report["errors"].append({"page": item["path"], "profile": profile_name, "error": str(error)})
                 for locale in ["fr", "en", "es", "pt"]:
                     try:
                         old = attribution(browser, before, profile, locale)
@@ -161,9 +199,25 @@ def main():
                         report["attribution"].append({"profile": profile_name, **new})
                     except Exception as error:
                         report["errors"].append({"locale": locale, "profile": profile_name, "error": "Attribution: " + str(error)})
+                for item in [page for page in PAGES if page.get("kind") == "redirect" or page["family"] == "download"]:
+                    try:
+                        old = redirect_state(browser, before, profile, item)
+                        new = redirect_state(browser, ROOT / "dist", profile, item)
+                        # creation timestamps legitimately differ between visits.
+                        for state in [old, new]:
+                            if state["context"]:
+                                state["context"] = json.loads(state["context"])
+                                state["context"].pop("created_at", None)
+                        assert old == new, f"Redirect differs: {old} / {new}"
+                        if item.get("kind") == "redirect":
+                            assert "utm_campaign=astro_redirect" in new["url"] and new["url"].endswith("#sample"), new
+                        report["redirects"].append({"page": item["path"], "profile": profile_name, **new})
+                    except Exception as error:
+                        report["errors"].append({"page": item["path"], "profile": profile_name, "error": "Redirect: " + str(error)})
             browser.close()
+    assert len(report["pages"]) + sum("page" in error and not error["error"].startswith("Redirect:") for error in report["errors"]) == len(PAGES) * len(PROFILES), "Incomplete visual coverage"
     (OUT / "report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
-    print(json.dumps({"pagesPassed": len(report["pages"]), "attributionPassed": len(report["attribution"]), "errors": report["errors"]}, ensure_ascii=False, indent=2))
+    print(json.dumps({"pagesPassed": len(report["pages"]), "attributionPassed": len(report["attribution"]), "redirectsPassed": len(report["redirects"]), "errors": report["errors"]}, ensure_ascii=False, indent=2))
     if report["errors"]:
         raise SystemExit(1)
 

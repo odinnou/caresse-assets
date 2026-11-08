@@ -6,11 +6,11 @@ import { join } from 'node:path';
 import { parse } from 'parse5';
 
 const root = process.cwd();
-const { baseline, pilotIds } = JSON.parse(readFileSync('src/data/migration.json'));
+const { baseline, pilotIds, comparisonIds = pilotIds } = JSON.parse(readFileSync('src/data/migration.json'));
 const ref = process.env.BASELINE_REF || baseline;
 const pages = readdirSync('src/content/pages').filter((file) => file.endsWith('.json'))
   .map((file) => JSON.parse(readFileSync(join('src/content/pages', file))))
-  .filter((page) => pilotIds.includes(page.id));
+  .filter((page) => comparisonIds.includes(page.id));
 const migrated = new Set(pages.map((page) => page.path.slice(1) + 'index.html'));
 const hash = (data) => createHash('sha256').update(data).digest('hex');
 const stable = (value) => Array.isArray(value) ? value.map(stable) : value && typeof value === 'object'

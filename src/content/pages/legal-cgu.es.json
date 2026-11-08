@@ -1,0 +1,364 @@
+{
+  "id": "legal-cgu.es",
+  "family": "legal-cgu",
+  "locale": "es",
+  "path": "/legal/es/cgu/",
+  "kind": "legal",
+  "layout": "composed",
+  "sitemap": false,
+  "htmlAttrs": {
+    "lang": "es"
+  },
+  "bodyAttrs": {},
+  "title": "Condiciones de Uso - Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "robots",
+      "content": "noindex, nofollow"
+    }
+  ],
+  "links": [],
+  "schemas": [],
+  "styles": [
+    "shared-281a0447b34fccfd.css"
+  ],
+  "styleAttrs": {
+    "shared-281a0447b34fccfd.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "style",
+      "file": "shared-281a0447b34fccfd.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-09deabc0b601d509"
+    },
+    {
+      "type": "element",
+      "tag": "h1",
+      "attrs": {},
+      "html": "📜 Condiciones Generales de Uso"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "<strong>Última actualización:</strong> 15 de mayo de 2026"
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "1. Presentación del servicio"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Caresse es una aplicación móvil que ofrece experiencias de audio y texto inmersivas, generadas en tiempo real por una Inteligencia Artificial. Estas experiencias están diseñadas para favorecer la relajación, la conexión con uno mismo y/o con la pareja, en un marco de bienestar emocional y sensorial."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "El servicio es publicado por un desarrollador independiente contactable en <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-cgu.es/0509"
+        },
+        {
+          "type": "text",
+          "html": " Al utilizar la aplicación, declara bajo su responsabilidad haber alcanzado la mayoría de edad legal en su país de residencia.\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "2. Aceptación de las condiciones"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "El uso de la aplicación Caresse implica la aceptación plena e incondicional de las presentes Condiciones Generales de Uso. Si no acepta estas condiciones, debe dejar de utilizar el servicio de inmediato."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Estas condiciones pueden modificarse en cualquier momento. En caso de cambio sustancial, el usuario será informado a través de la aplicación. Continuar usando el servicio tras la notificación implica la aceptación de las nuevas condiciones."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "3. Naturaleza del contenido generado por IA"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Las experiencias producidas por Caresse son generadas en tiempo real por una Inteligencia Artificial. Este contenido presenta las siguientes características:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li><strong>No determinista:</strong> dos generaciones con los mismos parámetros pueden producir resultados distintos.</li>\n        <li><strong>Ficticio:</strong> las experiencias son obras de ficción narrativa de carácter sensorial. No constituyen en ningún caso instrucciones, recomendaciones médicas, psicológicas ni conductuales reales.</li>\n        <li><strong>Imperfecto:</strong> la IA puede producir incoherencias narrativas, repeticiones o formulaciones inesperadas. El editor no garantiza una calidad uniforme en cada generación.</li>\n        <li><strong>Seudoanonimizado:</strong> los parámetros de generación (incluido el nombre o seudónimo proporcionado) se transmiten a servicios de IA de terceros sin ningún dato que identifique directamente al usuario (sin nombre completo, correo electrónico ni identificador de cuenta).</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "El editor no es el autor de los contenidos generados en el sentido del derecho de autor. La IA actúa como herramienta automatizada de sugerencia narrativa."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "4. Obligaciones y responsabilidades del usuario"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Al usar Caresse, usted se compromete a:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>Utilizar la aplicación exclusivamente para fines personales y legales.</li>\n        <li>No intentar eludir los filtros de seguridad de la IA mediante ninguna técnica de manipulación o jailbreak.</li>\n        <li>No reproducir, distribuir ni explotar comercialmente los contenidos generados sin la autorización expresa del editor.</li>\n        <li>Ser el único responsable de sus acciones y comportamientos en el mundo real, que en ningún caso podrán imputarse a la aplicación o a sus experiencias.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "El usuario reconoce que las experiencias ofrecidas son ficciones guiadas. Ninguna sugerencia narrativa debe interpretarse como una obligación, invitación o recomendación real de actuar de ninguna manera."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "5. Cláusula ética y seguridad"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Caresse se basa en principios de consentimiento, respeto y cuidado. Por ello:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>Cualquier contenido que involucre menores, violencia no consentida o cualquier forma de explotación está estrictamente prohibido y se filtra sistemáticamente.</li>\n        <li>El consentimiento se refuerza dentro de las experiencias como valor fundamental.</li>\n        <li>El editor se reserva el derecho de suspender o cancelar el acceso de cualquier usuario que intente hacer un uso indebido del servicio contrario a su finalidad ética.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "6. Limitación de responsabilidad"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "En la medida permitida por la ley aplicable, el editor no será responsable de:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>Los contenidos generados por la IA, que son por naturaleza imprevisibles y no revisados por una persona antes de mostrarse.</li>\n        <li>El uso que el usuario haga de las experiencias en su vida real.</li>\n        <li>Interrupciones del servicio, errores o indisponibilidades temporales.</li>\n        <li>Daños indirectos derivados del uso o de la imposibilidad de usar la aplicación.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "El editor se compromete, no obstante, a emplear todos los medios razonables para garantizar la continuidad y seguridad del servicio."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "7. Propiedad intelectual"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Todos los elementos de la aplicación (interfaz, diseño, logotipo, arquitectura, código fuente) están protegidos por la legislación de propiedad intelectual y son propiedad exclusiva del editor."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "En cuanto a los contenidos generados por la IA, el usuario recibe una licencia de uso personal y no comercial. Cualquier otro uso está prohibido sin autorización previa."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "8. Modelo económico y compras"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "El servicio funciona mediante un sistema de créditos consumibles. Cada generación de experiencia consume uno o más créditos según las opciones elegidas."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "El acceso ampliado a las opciones de personalización (prácticas, accesorios, ambientes) puede desbloquearse mediante una compra única de por vida (lifetime unlock)."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Las condiciones detalladas de venta, pago y reembolso se establecen en las <a href=\"../cgv/\">Condiciones Generales de Venta</a>."
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-cgu.es/0510"
+        },
+        {
+          "type": "text",
+          "html": " Debido a la naturaleza generativa e impredecible del contenido, no se realizarán reembolsos alegando que la experiencia producida no cumplió las expectativas subjetivas del usuario. Al iniciar una generación, el usuario reconoce la variabilidad inherente del contenido generado por IA y renuncia expresamente a cualquier derecho de reembolso por ese motivo, de conformidad con la normativa aplicable sobre contenidos digitales.\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "9. Datos personales"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "El editor solo recoge los datos necesarios para el funcionamiento del servicio (identificador anónimo, parámetros de sesión). Para permitir la personalización de audio de las experiencias, se invita al usuario a introducir un nombre, o un seudónimo de su elección. No es necesario proporcionar el nombre real. Ningún dato personal se vende a terceros."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "El usuario tiene derecho a la supresión completa de sus datos (derecho al olvido), ejercitable en cualquier momento contactando directamente al editor."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Para más detalles, consulte nuestra <a href=\"../privacy/\">Política de privacidad</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "10. Legislación aplicable y jurisdicción competente"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Las presentes condiciones se rigen por la legislación francesa. En caso de litigio, se buscará en primer lugar una solución amistosa. A falta de acuerdo, los tribunales franceses serán los únicos competentes."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "De conformidad con el Reglamento UE n.º 524/2013, el usuario también puede recurrir a la plataforma europea de resolución de litigios en línea en: <a href=\"https://ec.europa.eu/consumers/odr\" target=\"_blank\" rel=\"noopener\">https://ec.europa.eu/consumers/odr</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "11. Contacto"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Para cualquier consulta sobre estas condiciones, puede contactar al editor en <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-2b55a93bffb9595f"
+      ]
+    }
+  ]
+}

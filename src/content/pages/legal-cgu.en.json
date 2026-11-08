@@ -1,0 +1,364 @@
+{
+  "id": "legal-cgu.en",
+  "family": "legal-cgu",
+  "locale": "en",
+  "path": "/legal/en/cgu/",
+  "kind": "legal",
+  "layout": "composed",
+  "sitemap": false,
+  "htmlAttrs": {
+    "lang": "en"
+  },
+  "bodyAttrs": {},
+  "title": "Terms of Service - Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "robots",
+      "content": "noindex, nofollow"
+    }
+  ],
+  "links": [],
+  "schemas": [],
+  "styles": [
+    "shared-281a0447b34fccfd.css"
+  ],
+  "styleAttrs": {
+    "shared-281a0447b34fccfd.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "style",
+      "file": "shared-281a0447b34fccfd.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-4c88699509e1bb98"
+    },
+    {
+      "type": "element",
+      "tag": "h1",
+      "attrs": {},
+      "html": "📜 Terms of Service"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "<strong>Last updated:</strong> May 15, 2026"
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "1. About the Service"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Caresse is a mobile application that provides immersive audio and text experiences, generated in real time by Artificial Intelligence. These experiences are designed to encourage relaxation, self-connection, and/or connection with a partner, within a framework of emotional and sensory well-being."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "The service is published by an independent developer reachable at <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-cgu.en/0479"
+        },
+        {
+          "type": "text",
+          "html": " By using the app, you declare under your own responsibility that you have reached the legal age of majority in your country of residence.\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "2. Acceptance of Terms"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Using the Caresse application constitutes full and unconditional acceptance of these Terms of Service. If you do not agree to these terms, you must immediately stop using the service."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "These Terms may be updated at any time. In the event of a material change, users will be notified within the app. Continued use of the service after notification constitutes acceptance of the updated terms."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "3. Nature of AI-Generated Content"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Experiences produced by Caresse are generated in real time by Artificial Intelligence. This content has the following characteristics:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li><strong>Non-deterministic:</strong> two generations using the same parameters may produce different results.</li>\n        <li><strong>Fictional:</strong> experiences are works of sensory narrative fiction. They do not constitute actual instructions, or medical, psychological, or behavioral recommendations of any kind.</li>\n        <li><strong>Imperfect:</strong> the AI may produce narrative inconsistencies, repetitions, or unexpected phrasing. The publisher does not guarantee uniform quality across every generation.</li>\n        <li><strong>Pseudonymized:</strong> generation parameters (including the first name or alias provided) are transmitted to third-party AI services without any data that directly identifies the user (no full legal name, email address, or account identifier).</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "The publisher is not the author of the generated content within the meaning of copyright law. The AI acts as an automated narrative suggestion tool."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "4. User Obligations and Responsibilities"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "By using Caresse, you agree to:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>Use the application solely for personal, lawful purposes.</li>\n        <li>Not attempt to bypass the AI's safety filters through any manipulation technique or jailbreak.</li>\n        <li>Not reproduce, distribute, or commercially exploit generated content without the publisher's prior written consent.</li>\n        <li>Remain solely responsible for your real-world actions and behavior, which cannot under any circumstances be attributed to the application or its experiences.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "You acknowledge that the experiences provided are guided fiction. No narrative suggestion should be interpreted as an obligation, invitation, or actual recommendation to act in any way."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "5. Ethics and Safety"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Caresse is built on principles of consent, respect, and care. Accordingly:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>Any content involving minors, non-consensual violence, or any form of exploitation is strictly prohibited and systematically filtered.</li>\n        <li>Consent is reinforced within experiences as a core value.</li>\n        <li>The publisher reserves the right to suspend or terminate access for any user seeking to misuse the service in a manner inconsistent with its ethical purpose.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "6. Limitation of Liability"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "To the fullest extent permitted by applicable law, the publisher shall not be liable for:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>AI-generated content, which is inherently unpredictable and not reviewed by a human before display.</li>\n        <li>How users apply experiences in their real lives.</li>\n        <li>Service interruptions, bugs, or temporary unavailability.</li>\n        <li>Indirect damages resulting from use of, or inability to use, the application.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "The publisher nonetheless undertakes to use all reasonable efforts to ensure the continuity and security of the service."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "7. Intellectual Property"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "All elements of the application (interface, design, logo, architecture, source code) are protected by intellectual property law and remain the exclusive property of the publisher."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Regarding AI-generated content, users are granted a personal, non-commercial license. Any other use is prohibited without prior authorization."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "8. Purchases and Business Model"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "The service is based on a consumable credit system. Each experience generation consumes one or more credits depending on the selected options."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Extended access to customization options (practices, accessories, atmospheres) can be unlocked via a one-time lifetime purchase."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Detailed terms of sale, payment, and refunds are set out in the <a href=\"../cgv/\">Terms of Sale</a>."
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-cgu.en/0480"
+        },
+        {
+          "type": "text",
+          "html": " Due to the generative and unpredictable nature of the content, no refund will be issued on the grounds that the generated experience did not meet the user's subjective expectations. By initiating a generation, you acknowledge the inherent variability of AI-generated content and expressly waive any right to a refund on that basis, in accordance with applicable digital content regulations.\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "9. Personal Data"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "The publisher collects only the data necessary for the service to function (anonymous identifier, session parameters). To enable audio personalization of experiences, users are invited to provide a first name — or an alias of their choice. Providing your real name is not required. No personal data is sold to third parties."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Users have the right to complete erasure of their data (right to be forgotten), exercisable at any time by contacting the publisher directly."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "For full details, please read our <a href=\"../privacy/\">Privacy Policy</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "10. Governing Law and Jurisdiction"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "These Terms are governed by French law. In the event of a dispute, an amicable resolution will be sought first. Failing agreement, the competent French courts shall have exclusive jurisdiction."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "In accordance with EU Regulation No 524/2013, users may also submit disputes to the European Online Dispute Resolution platform at: <a href=\"https://ec.europa.eu/consumers/odr\" target=\"_blank\" rel=\"noopener\">https://ec.europa.eu/consumers/odr</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "11. Contact"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "For any questions regarding these Terms of Service, please contact the publisher at <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-ca93feaad6ae74bb"
+      ]
+    }
+  ]
+}

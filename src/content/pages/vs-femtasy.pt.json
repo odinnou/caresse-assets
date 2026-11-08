@@ -1,0 +1,1149 @@
+{
+  "id": "vs-femtasy.pt",
+  "family": "vs-femtasy",
+  "locale": "pt",
+  "path": "/pt/vs-femtasy/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "comparison-cta-v1-femtasy-oct10-v1-pt-full-translation-oct10-v1-seo-consistency-oct23-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-pt"
+  },
+  "title": "Alternativa ao Femtasy sem assinatura | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Femtasy ou Caresse? Compare catálogo em áudio e sessões personalizadas, testes e demos gratuitas, idiomas e modelos de pagamento. Solo ou a dois."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/vs-femtasy/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Alternativa ao Femtasy sem assinatura | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Femtasy ou Caresse? Compare catálogo em áudio e sessões personalizadas, testes e demos gratuitas, idiomas e modelos de pagamento. Solo ou a dois."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse vs Femtasy — Experiência íntima em áudio criada por IA"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Alternativa ao Femtasy sem assinatura | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Femtasy ou Caresse? Compare catálogo em áudio e sessões personalizadas, testes e demos gratuitas, idiomas e modelos de pagamento. Solo ou a dois."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse vs Femtasy — Experiência íntima em áudio criada por IA"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Mapa do site",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse vs Femtasy",
+      "description": "Femtasy ou Caresse? Compare catálogo em áudio e sessões personalizadas, testes e demos gratuitas, idiomas e modelos de pagamento. Solo ou a dois.",
+      "url": "https://caresse.app/pt/vs-femtasy/",
+      "inLanguage": "pt",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "name": "Download gratuito"
+        },
+        "sameAs": [
+          "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "isSimilarTo": {
+          "@type": "SoftwareApplication",
+          "name": "Femtasy"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/pt/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternativas",
+            "item": "https://caresse.app/pt/alternatives/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse vs Femtasy",
+            "item": "https://caresse.app/pt/vs-femtasy/"
+          }
+        ]
+      },
+      "datePublished": "2026-10-10",
+      "dateModified": "2026-10-24"
+    }
+  ],
+  "styles": [
+    "shared-a40e50920932b5d8.css",
+    "home-b0af781f.css"
+  ],
+  "styleAttrs": {
+    "shared-a40e50920932b5d8.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-a40e50920932b5d8.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-4b3d35d8a4180675"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/alternatives/"
+          },
+          "html": "Alternativas"
+        },
+        {
+          "type": "text",
+          "html": " › Caresse vs Femtasy\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "Caresse vs Femtasy · Catálogo ou áudio personalizado"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Uma alternativa ao Femtasy,<br><em>sem assinatura.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Femtasy e Caresse oferecem áudio íntimo. A diferença está na escolha: navegar por um catálogo ou criar uma sessão guiada a partir dos seus nomes e preferências. Baixe o Caresse grátis e conheça as demos; as sessões personalizadas usam créditos pagos."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Baixar o app grátis</a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Modo convidado · Sem cadastro Caresse · Demos gratuitas<br>Sessões personalizadas com créditos pagos, sem assinatura."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "tldr"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Em uma frase"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Um resumo direto."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "tldr-card"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "<strong>Femtasy</strong> se dirige principalmente a mulheres, com um catálogo de histórias, sons e conteúdos de exploração individual. <strong>Caresse</strong> cria sessões guiadas em áudio para uso individual ou em casal, sem assinatura. O formato difere da escolha de uma voz e uma gravação pronta: você configura uma geração com suas preferências."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "verdict",
+        "id": "verdict"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Visão geral"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Femtasy: 9 critérios úteis."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "verdict-table-wrap",
+            "tabindex": "0",
+            "role": "region",
+            "aria-label": "Caresse vs Femtasy: 9 critérios úteis."
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "verdict-table"
+              },
+              "html": "\n                <thead>\n                    <tr>\n                        <th scope=\"col\" class=\"crit\">Critério</th>\n                        <th scope=\"col\">Caresse</th>\n                        <th scope=\"col\">Femtasy</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Experimentar antes de pagar</th>\n                        <td class=\"caresse\">Demos gratuitas no app, sem conta Caresse</td>\n                        <td class=\"other\">Áudio gratuito por newsletter e teste ligado à assinatura anual</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Exigência de conta</th>\n                        <td class=\"caresse\">Modo convidado; conta Apple ou Google para compras</td>\n                        <td class=\"other\">Cadastro para a assinatura</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Formato</th>\n                        <td class=\"caresse\">Ficção guiada em áudio, criada sob demanda</td>\n                        <td class=\"other\">Catálogo de histórias, sons e outros áudios</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Vozes</th>\n                        <td class=\"caresse\">Voz sintética</td>\n                        <td class=\"other\">Vozes disponíveis no catálogo</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Seus nomes no áudio</th>\n                        <td class=\"caresse\">Nas sessões personalizadas, não nas demos</td>\n                        <td class=\"other\">Geração com seus nomes não anunciada</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Personalização</th>\n                        <td class=\"caresse\">Nomes, preferências, intensidade e ambiente</td>\n                        <td class=\"other\">Escolha de conteúdo e voz, sem geração personalizada anunciada</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Solo ou casal</th>\n                        <td class=\"caresse\">Modos solo e a dois</td>\n                        <td class=\"other\">Foco principal em mulheres e uso solo</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Idiomas do áudio</th>\n                        <td class=\"caresse\">Português, francês, inglês e espanhol</td>\n                        <td class=\"other\">Inglês, francês e alemão anunciados; espanhol não anunciado nas páginas consultadas</td>\n                    </tr>\n                    <tr>\n                        <th scope=\"row\" class=\"crit\">Modelo de pagamento</th>\n                        <td class=\"caresse\">Créditos para criar sessões, sem assinatura</td>\n                        <td class=\"other\">Assinatura, com teste vinculado à oferta anual</td>\n                    </tr>\n                </tbody>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group",
+            "style": "margin-top:32px"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "inline",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "Baixar o app grátis"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "columns"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Em detalhe"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Duas formas de viver o áudio íntimo."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "columns-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card highlight"
+              },
+              "html": "\n                <p class=\"col-sub\">Caresse · Áudio criado por IA</p>\n                <h3>Uma sessão criada a partir das suas escolhas.</h3>\n                <p>O Caresse cria ficções guiadas em áudio para uma pessoa adulta ou um casal adulto. Nomes, preferências, intensidade e ambiente orientam a sessão, narrada por voz sintética.</p>\n                <p>O download e as demos são gratuitos, para conhecer o formato antes de usar créditos pagos na geração de uma sessão personalizada. As demos têm configurações fixas: não usam seus nomes nem são criadas a partir do seu perfil.</p>\n                <ul>\n                    <li>Modos solo e a dois</li>\n                    <li>Áudio em português, francês, inglês e espanhol no app; demos do site em FR, EN e ES</li>\n                    <li>Seus nomes nas sessões personalizadas</li>\n                    <li>Intensidade, sugestões e ambiente a partir das escolhas</li>\n                    <li>Modo convidado, sem criar uma conta Caresse</li>\n                    <li>Créditos para gerar, sem assinatura</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card muted"
+              },
+              "html": "\n                <p class=\"col-sub\">Femtasy · Plataforma de áudio</p>\n                <h3>Um catálogo para explorar no seu ritmo.</h3>\n                <p>O Femtasy apresenta histórias, sons, afirmações e outros formatos para exploração individual. Você escolhe uma gravação e uma voz do catálogo, em vez de pedir uma sessão criada a partir de uma configuração.</p>\n                <p>A oferta americana inclui um mês de teste no plano anual. O site também anuncia um áudio gratuito por newsletter, o que não corresponde a um catálogo completo gratuito para sempre. As demos do Caresse são gratuitas, mas a geração personalizada também é paga.</p>\n                <ul>\n                    <li>Histórias, sons e exploração individual</li>\n                    <li>Escolha de vozes e categorias do catálogo</li>\n                    <li>Ofertas em inglês, francês e alemão anunciadas</li>\n                    <li>Acesso ao catálogo por assinatura</li>\n                </ul>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "pricing"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Preços"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Créditos ou assinatura?"
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "pricing-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card highlight"
+              },
+              "html": "\n                <h3>Caresse</h3>\n                <p class=\"price-big\">Pagamento por sessão</p>\n                <p class=\"price-note\">Download e demos gratuitos. Criar uma sessão personalizada usa um crédito pago.</p>\n                <p class=\"price-note\">Há um desbloqueio opcional e único de opções avançadas. Ele não substitui os créditos de geração.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card"
+              },
+              "html": "\n                <h3>Femtasy</h3>\n                <p class=\"price-big\">Assinatura</p>\n                <p class=\"price-note\">A oferta americana consultada lista US$ 109,99 por ano, com um mês de teste gratuito.</p>\n                <p class=\"price-note\">Esse é um valor do site americano, não um preço universal nem uma tarifa em reais. Confira as condições do teste e a oferta do seu país antes de pagar.</p>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "pricing-footnote"
+          },
+          "html": "<a href=\"/pt/precos/\">Ver os preços do Caresse</a>. Comparação publicada pelo Caresse a partir de informações públicas dos fornecedores, consultadas em 10 de outubro de 2026. Não é uma avaliação independente de uso. Ofertas e preços podem mudar ou variar por país.<br>\n            Femtasy, oferta em inglês · Femtasy, preços nos EUA · Femtasy, oferta em francês\n        "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "choose"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Sua preferência"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Qual formato faz sentido para você?"
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "choose-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card us"
+              },
+              "html": "\n                <h3>O Caresse propõe…</h3>\n                <ul>\n                    <li>uma sessão em áudio criada a partir dos seus nomes e preferências</li>\n                    <li>um formato guiado, solo ou a dois</li>\n                    <li>demos sem criar uma conta Caresse</li>\n                    <li>créditos ao gerar uma sessão, em vez de assinatura</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card them"
+              },
+              "html": "\n                <h3>O Femtasy se concentra em…</h3>\n                <ul>\n                    <li>catálogo voltado à exploração individual</li>\n                    <li>escolha de vozes e categorias</li>\n                    <li>escuta de gravações prontas, sem configurar uma geração</li>\n                    <li>acesso ao catálogo por assinatura</li>\n                </ul>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Perguntas frequentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Femtasy: suas perguntas."
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Existe uma alternativa ao Femtasy sem assinatura?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O Caresse não exige assinatura: as demos pré-geradas são gratuitas e a criação personalizada usa créditos pagos. Esse modelo pode fazer sentido para uso ocasional, mas não significa que todas as sessões sejam gratuitas."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Femtasy é gratuito?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O site anuncia um áudio gratuito por newsletter e um mês de teste no plano anual. A oferta americana consultada em 10 de outubro de 2026 lista US$ 109,99 por ano. Um teste gratuito não equivale a acesso gratuito permanente."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Femtasy oferece áudio em francês ou espanhol?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O Femtasy anuncia ofertas em inglês, francês e alemão. As páginas consultadas não anunciam espanhol. O Caresse cria áudios em português, francês, inglês e espanhol; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação. As demos do site existem em FR, EN e ES."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Femtasy ou Caresse para casais?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O Femtasy se apresenta principalmente como uma plataforma de exploração individual para mulheres. O Caresse inclui modo a dois, com nomes e preferências na sessão criada. A diferença é escolher um catálogo ou configurar uma ficção guiada personalizada."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "As sessões personalizadas do Caresse são gratuitas?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Não. O download e as demos pré-geradas são gratuitos. Criar uma sessão personalizada usa créditos pagos, sem assinatura. O desbloqueio opcional de opções avançadas é uma compra separada."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Preciso criar uma conta Caresse?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Não. O modo convidado dispensa uma conta Caresse. Compras exigem sua conta Apple ou Google na loja correspondente. O modo convidado não torna a transação anônima perante a loja."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Quer experimentar?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Conheça o formato.<br>Decida depois."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Baixe o Caresse grátis e ouça demos pré-geradas sem cadastro Caresse. Os áudios do site estão em inglês, francês e espanhol. No app, você pode gerar áudio em português com créditos pagos; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                "class": "store-badge",
+                "aria-label": "Baixar na App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Baixar na App Store\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Baixar no Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png\" alt=\"Baixar no Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Apenas para maiores de 18 anos"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Outras comparações"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Mais formatos para comparar."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "related-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-bloom/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Bloom Stories</p>\n                <p class=\"desc\">Vozes humanas e catálogo ou geração personalizada.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-dipsea/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Dipsea</p>\n                <p class=\"desc\">Biblioteca de histórias em áudio ou sessões geradas.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-melba/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Melba</p>\n                <p class=\"desc\">Catálogo em áudio em francês ou sessão personalizada.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/alternatives/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🧭</div>\n                <p class=\"ttl\">Todas as alternativas</p>\n                <p class=\"desc\">Compare idiomas, formatos e modelos de pagamento.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.pt.logo",
+        "footer-5709031ed49386e6",
+        "footer.pt.links",
+        "footer-0719760d8779fab2",
+        "footer.pt.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

@@ -1,0 +1,1326 @@
+{
+  "id": "demo.fr",
+  "family": "demo",
+  "locale": "fr",
+  "path": "/demo/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "fr",
+    "data-analytics-variant": "demo-hub-seo-oct03-v1-offer-clarity-oct05-v1-seo-consistency-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-fr"
+  },
+  "title": "Démo audio Caresse : écoutez une expérience gratuitement",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Explorez six démos audio Caresse en français : solo, couple, deux femmes ou deux hommes, du plus doux au plus direct. Choisissez la session à écouter."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "name": "rating",
+      "content": "adult"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/demo/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Démo audio Caresse : écoutez avant de télécharger"
+    },
+    {
+      "property": "og:description",
+      "content": "Six démos audio Caresse à explorer : solo ou en couple, du plus doux au plus direct. Chaque écoute possède sa page dédiée."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Démo audio Caresse, écoute gratuite sans inscription"
+    },
+    {
+      "property": "og:locale",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Démo audio Caresse : écoutez avant de télécharger"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Six démos audio Caresse, chacune sur sa page d’écoute dédiée."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Démo audio Caresse, écoute gratuite sans inscription"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://caresse.app/demo/#webpage",
+      "url": "https://caresse.app/demo/",
+      "name": "Démo audio Caresse : écoutez une expérience gratuitement",
+      "description": "Hub de six démos audio Caresse en français : solo, couple hétéro, deux femmes et deux hommes, avec une page d’écoute dédiée pour chaque première phase.",
+      "inLanguage": "fr",
+      "isFamilyFriendly": false,
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@id": "https://caresse.app/demo/#app"
+      },
+      "primaryImageOfPage": "https://caresse.app/og-image-fr.png",
+      "dateModified": "2026-10-31",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Démo audio",
+            "item": "https://caresse.app/demo/"
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "@id": "https://caresse.app/demo/#app",
+      "name": "Caresse",
+      "url": "https://caresse.app/",
+      "operatingSystem": "iOS, Android",
+      "applicationCategory": "LifestyleApplication",
+      "description": "Application d'intimité guidée par l'IA. Chaque session audio est générée à la demande selon les prénoms, le lieu, l'ambiance, l'intensité et les limites choisies. Solo ou en couple, sans contenu visuel explicite.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+      },
+      "inLanguage": [
+        "fr",
+        "en",
+        "es",
+        "pt"
+      ],
+      "sameAs": [
+        "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+        "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+        "https://x.com/app_caresse",
+        "https://www.instagram.com/caresse.app",
+        "https://www.youtube.com/@app.caresse",
+        "https://www.tiktok.com/@caresse.app"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Démos audio Caresse en français",
+      "numberOfItems": 6,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Une découverte sensuelle, sans hâte",
+          "url": "https://caresse.app/demo/solo-decouverte-sensuelle/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Une soirée à deux, guidée dès le premier geste",
+          "url": "https://caresse.app/demo/couple-romantique/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Une exploration, les sens en éveil",
+          "url": "https://caresse.app/demo/solo-sextoys/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Un jeu de contrôle mené par la voix",
+          "url": "https://caresse.app/demo/couple-torride/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Une session écrite pour deux femmes",
+          "url": "https://caresse.app/demo/couple-deux-femmes/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Une session écrite pour deux hommes",
+          "url": "https://caresse.app/demo/couple-deux-hommes/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    }
+  ],
+  "styles": [
+    "shared-ebb9fc7a71836fc2.css"
+  ],
+  "styleAttrs": {
+    "shared-ebb9fc7a71836fc2.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "meta",
+      "index": 25
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 3,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-ebb9fc7a71836fc2.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-deb20df160b1b3b7"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › Démo audio\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🎧 Écoute immédiate · Sans compte · 18+"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Écoutez Caresse avant <em>de télécharger Caresse.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-lede"
+          },
+          "html": "Pas de compte. Pas d'email. <strong>Choisissez la démo qui vous ressemble.</strong>"
+        },
+        {
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+            "id": "hero-store-cta",
+            "data-store-auto": "",
+            "data-cta-position": "hero",
+            "class": "hero-store-cta",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          "html": "Télécharger l'app gratuitement"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "players",
+        "id": "choisir"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Choisissez votre première phase"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Six sessions, six portes d’entrée."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Chaque scénario possède sa propre page d’écoute. Choisissez celui qui vous ressemble, écoutez sa première phase complète, puis vivez une session générée pour vous dans l’app."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "players-wrap"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "class": "demo-card",
+                "href": "/demo/solo-decouverte-sensuelle/"
+              },
+              "html": "<p class='kicker'>Solo · Douce</p><h2>Une découverte sensuelle, sans hâte</h2><p class='what'>Pour découvrir le format avec une voix basse, des silences et une progression lente.</p>"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "class": "demo-card",
+                "href": "/demo/couple-romantique/"
+              },
+              "html": "<p class='kicker'>Couple · Romantique</p><h2>Une soirée à deux, guidée dès le premier geste</h2><p class='what'>Une voix distribue les rôles et accompagne le couple sans précipiter le rythme.</p>"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "class": "demo-card",
+                "href": "/demo/solo-sextoys/"
+              },
+              "html": "<p class='kicker'>Solo · Directe</p><h2>Une exploration, les sens en éveil</h2><p class='what'>Une première phase centrée sur la respiration, l’écoute et les sensations.</p>"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "class": "demo-card",
+                "href": "/demo/couple-torride/"
+              },
+              "html": "<p class='kicker'>Couple · Torride</p><h2>Un jeu de contrôle mené par la voix</h2><p class='what'>Pour explorer le lâcher-prise et l’alternance des rôles dans un cadre guidé.</p>"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "class": "demo-card",
+                "href": "/demo/couple-deux-femmes/"
+              },
+              "html": "<p class='kicker'>Couple · Deux femmes</p><h2>Une session écrite pour deux femmes</h2><p class='what'>Une guidance pensée dès le départ pour deux femmes.</p>"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "class": "demo-card",
+                "href": "/demo/couple-deux-hommes/"
+              },
+              "html": "<p class='kicker'>Couple · Deux hommes</p><h2>Une session écrite pour deux hommes</h2><p class='what'>Une progression annoncée qui laisse à chacun le temps de suivre les étapes.</p>"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "padding:52px 5% 40px;text-align:center;"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title",
+            "style": "margin-bottom:12px;"
+          },
+          "html": "Votre session, vos prénoms, votre rythme."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub",
+            "style": "margin:0 auto 24px;"
+          },
+          "html": "Dans l’application, chaque session est générée pour vous. Sans compte, sans email et sans abonnement."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+            "id": "post-listen-store-cta",
+            "data-store-auto": "",
+            "data-cta-position": "post_listen",
+            "class": "hero-store-cta",
+            "style": "margin-top:0;",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          "html": "Vivre une session complète dans l’app"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "margin-top:14px;font-size:0.85rem;color:var(--text-secondary);"
+          },
+          "html": "🔞 Réservé aux adultes de 18 ans et plus"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "difference",
+        "id": "difference"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Important"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "La différence avec une vraie session."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Caresse n'est pas un catalogue de fichiers audio. Les premières phases proposées sur les pages dédiées sont des enregistrements figés ; dans l'application, l'expérience est fabriquée pour vous au moment où vous la demandez."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "diff-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "diff-card demo"
+              },
+              "html": "\n                <p class=\"badge\">Pages d’écoute</p>\n                <h3>La démo</h3>\n                <ul>\n                    <li>Pré-générée une fois, servie à l'identique à tout le monde</li>\n                    <li>Prénoms imposés, choisis pour la démo</li>\n                    <li>Première phase complète et figée, d’un peu plus de quatre minutes</li>\n                    <li>Un seul lieu, une seule ambiance, un seul niveau d'intensité</li>\n                    <li>Sert à entendre la voix, le ton et la mécanique</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "diff-card real"
+              },
+              "html": "\n                <p class=\"badge\">Dans l'application</p>\n                <h3>Votre session</h3>\n                <ul>\n                    <li>Générée à la demande, à chaque fois différente</li>\n                    <li>Vos prénoms, prononcés dans la narration</li>\n                    <li>Une expérience entière, en général 25 à 35 minutes selon la génération</li>\n                    <li>Lieu, ambiance sonore, ton, pratiques et accessoires configurés par vous</li>\n                    <li>Niveau d'intensité réglé, et limites respectées</li>\n                    <li>Solo ou duo, avec la dynamique du couple prise en compte</li>\n                </ul>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "diff-foot"
+          },
+          "html": "<strong>Concrètement :</strong> deux personnes qui configurent le même lieu, la même ambiance et la même intensité n'obtiennent pas la même session. Le texte, le déroulé et les transitions sont écrits à la volée par l'IA. C'est pour cette raison qu'un catalogue pré-enregistré ne peut pas produire le même résultat : il faudrait enregistrer chaque combinaison de prénoms, de lieux, de pratiques et d'intensités."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "video-section",
+        "id": "video"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "La vidéo"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Voir comment on configure une session."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Les pages dédiées font entendre le résultat. Cette vidéo de deux minutes montre l'autre moitié : les écrans où l'on choisit le mode, les prénoms, le lieu, l'ambiance et l'intensité avant la génération."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "video-frame"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "button",
+              "attrs": {
+                "type": "button",
+                "class": "video-facade",
+                "data-video-id": "hLcwrOdqChY",
+                "data-video-title": "Découvrir Caresse : des expériences audio personnalisées par IA, pour les couples et en solo",
+                "aria-label": "Lire la vidéo de présentation de Caresse"
+              },
+              "html": "\n                <img src=\"https://i.ytimg.com/vi/hLcwrOdqChY/maxresdefault.jpg\" alt=\"\" loading=\"lazy\" width=\"1280\" height=\"720\">\n                <span class=\"video-play\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "steps"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Après la démo"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Comment se passe une vraie session."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Quatre étapes pour créer une session, sans inscription à Caresse. Les achats de crédits passent par votre compte Apple ou Google."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "steps-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "step-card"
+              },
+              "html": "\n                <p class=\"num\">01</p>\n                <h3>Vous choisissez</h3>\n                <p>Solo ou à deux, les prénoms (ou des prénoms d'emprunt), le lieu et l'ambiance sonore.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "step-card"
+              },
+              "html": "\n                <p class=\"num\">02</p>\n                <h3>Vous réglez l'intensité</h3>\n                <p>Du registre romantique et suggéré jusqu'au langage le plus direct, avec les pratiques et accessoires que vous acceptez, et rien d'autre.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "step-card"
+              },
+              "html": "\n                <p class=\"num\">03</p>\n                <h3>Caresse génère</h3>\n                <p>Quelques minutes de fabrication, puis une notification. Le scénario n'existait pas avant votre demande.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "step-card"
+              },
+              "html": "\n                <p class=\"num\">04</p>\n                <h3>Vous écoutez</h3>\n                <p>Une voix guide la session du début à la fin. Audio uniquement, aucun contenu visuel.</p>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "players-note"
+          },
+          "html": "<a href=\"/how-it-works/\">Voir le détail des quatre étapes →</a>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "next"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Pour aller plus loin"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Vous avez choisi une démo. Et maintenant ?"
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "next-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "class": "next-card",
+                "href": "/for-couples/"
+              },
+              "html": "<strong>Écouter à deux →</strong><span>Comment une session guidée se vit en couple, et ce qu'elle change dans la conversation.</span>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "class": "next-card",
+                "href": "/for-solo-exploration/"
+              },
+              "html": "<strong>Écouter seul·e →</strong><span>Prendre un moment pour soi, sans regard extérieur et sans culpabilité.</span>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "class": "next-card",
+                "href": "/alternatives/"
+              },
+              "html": "<strong>Comparer aux autres apps →</strong><span>Prix, langues, compte obligatoire, catalogue ou génération : le tableau complet.</span>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "class": "next-card",
+                "href": "/is-caresse-safe/"
+              },
+              "html": "<strong>Confidentialité et sécurité →</strong><span>Ce qui est stocké, ce qui ne l'est pas, et comment tout supprimer.</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Questions fréquentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Vos questions sur les démos."
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Faut-il un compte pour écouter une démo Caresse ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Non. Ce hub vous aide à choisir une démo ; chaque première phase s’écoute sur sa page dédiée, sans compte ni email. Dans l’application, le mode anonyme ne demande pas de compte Caresse. Les achats passent par l’App Store ou Google Play et nécessitent un compte Apple ou Google."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Quelle est la différence entre ces démos et une vraie session Caresse ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Ces premières phases sont pré-générés : ils ont été produits une fois et servis à tout le monde à l'identique. Dans l'application, Caresse génère l'expérience pour vous à la demande, à partir de vos prénoms, du mode solo ou duo, du lieu, de l'ambiance sonore, du niveau d'intensité, des pratiques et des accessoires retenus. Deux sessions configurées de la même façon ne donnent pas le même texte ni le même déroulé."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Combien de temps durent les démos, et une vraie expérience ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Les premières phases proposées sur les pages dédiées font un peu plus de quatre minutes : assez pour entendre la voix, l'ambiance et le niveau d'intensité, sans donner une expérience entière. Les expériences dont ils sont tirés durent 26 minutes pour la découverte en douceur, 28 minutes pour le couple et 24 minutes pour le solo. Dans l'application, comptez en général entre 25 et 35 minutes : la durée n'est pas un réglage, elle dépend de ce que Caresse imagine sur le moment."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Les démos existent-elles en anglais et en espagnol ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Oui. Cette page a une <a href=\"/en/demo/\">version anglaise</a> et une <a href=\"/es/demo/\">version espagnole</a>, avec les mêmes scénarios enregistrés dans chaque langue et des prénoms adaptés : Mathieu &amp; Clara en français, James &amp; Emma en anglais, Álvaro &amp; Marta en espagnol."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Ces démos contiennent-elles du contenu explicite ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "La première démo est réglée sur le registre le plus doux de l'application ; les deux suivantes sur son niveau de langage le plus direct. Ce sont des fictions guidées, en audio uniquement, sans aucun contenu visuel. Réservé aux adultes de 18 ans et plus, avec un casque et dans un endroit où vous êtes tranquille."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Puis-je écouter une démo en couple depuis un seul téléphone ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Oui. La démo couple est une narration unique qui s'adresse aux deux partenaires : une enceinte, ou un casque partagé, suffit. Dans l'application, la session nomme les deux prénoms et alterne les moments où elle guide l'un ou l'autre."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Prêt·e à continuer"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Maintenant, à vos prénoms."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Téléchargez Caresse gratuitement et écoutez les démos sans compte Caresse. Pour créer une session avec vos prénoms et vos envies, utilisez des crédits, sans abonnement. Les achats passent par votre compte Apple ou Google."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                "class": "store-badge",
+                "aria-label": "Download on the App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Download on the App Store\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Get it on Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Get it on Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Réservé aux adultes de 18 ans et plus"
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.fr.logo",
+        "footer-d57de4a2971d6b2e",
+        "footer.fr.links",
+        "footer-c18220e05a34e590",
+        "footer.fr.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-bedf066d8e3dd581.js"
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-5c2f74b16650abac.js"
+    }
+  ]
+}

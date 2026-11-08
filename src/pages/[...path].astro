@@ -1,5 +1,6 @@
 ---
 import SitePage from '../layouts/SitePage.astro';
+import ComposedPage from '../layouts/ComposedPage.astro';
 
 export function getStaticPaths() {
   const pages = import.meta.glob('../content/pages/*.json', { eager: true, import: 'default' });
@@ -11,4 +12,4 @@ export function getStaticPaths() {
 
 const { page } = Astro.props;
 ---
-<SitePage page={page} />
+{page.layout === 'composed' ? <ComposedPage page={page} /> : <SitePage page={page} />}

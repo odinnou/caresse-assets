@@ -1,0 +1,69 @@
+{
+  "id": "redirect-es-demo-couple-deux-hommes.es",
+  "family": "redirect-es-demo-couple-deux-hommes",
+  "locale": "es",
+  "path": "/es/demo/couple-deux-hommes/",
+  "kind": "redirect",
+  "layout": "composed",
+  "sitemap": false,
+  "htmlAttrs": {
+    "lang": "es"
+  },
+  "bodyAttrs": {},
+  "title": "Demo de audio trasladada — Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "http-equiv": "refresh",
+      "content": "0; url=https://caresse.app/es/demo/pareja-dos-hombres/"
+    }
+  ],
+  "links": [],
+  "schemas": [],
+  "styles": [],
+  "styleAttrs": {},
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-7aaf6f3a763deb21.js"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "<a href=\"https://caresse.app/es/demo/pareja-dos-hombres/\">Abrir la demo de audio</a>"
+    }
+  ]
+}

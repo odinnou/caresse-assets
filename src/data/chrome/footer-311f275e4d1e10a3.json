@@ -1,0 +1,8 @@
+{
+  "tag": "nav",
+  "attrs": {
+    "aria-label": "Alternativas",
+    "style": "display:flex;gap:6px 16px;flex-wrap:wrap;justify-content:center;max-width:720px;"
+  },
+  "html": "\n            <a href=\"/es/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Inicio</a>\n            <a href=\"/es/couples-game/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Juego para parejas</a>\n            <a href=\"/es/precios/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Precios</a>\n            <a href=\"/es/alternatives/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Alternativas</a>\n            <a href=\"/es/vs-desire/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Caresse vs Desire</a>\n            <a href=\"/es/vs-spicer/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Caresse vs Spicer</a>\n            <a href=\"/es/vs-dipsea/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Caresse vs Dipsea</a>\n        "
+}

@@ -1,0 +1,135 @@
+{
+  "attrs": {},
+  "nodes": [
+    {
+      "html": "\n        "
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "href": "/pt/",
+        "aria-label": "Caresse — início"
+      },
+      "html": "<img src=\"/caresse-logo.svg\" class=\"logo\" alt=\"Caresse, app de áudio íntimo guiado por IA\" width=\"250\" height=\"80\">"
+    },
+    {
+      "html": "\n        "
+    },
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "header-right"
+      },
+      "children": [
+        {
+          "html": "\n            "
+        },
+        {
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/blog/",
+            "class": "header-link"
+          },
+          "html": "Blog"
+        },
+        {
+          "html": "\n            "
+        },
+        {
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/couples-game/",
+            "class": "header-link"
+          },
+          "html": "Jogo para casais"
+        },
+        {
+          "html": "\n            "
+        },
+        {
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/alternatives/",
+            "class": "header-link"
+          },
+          "html": "Alternativas"
+        },
+        {
+          "html": "\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "lang-toggle",
+            "role": "group",
+            "aria-label": "Escolher idioma"
+          },
+          "children": [
+            {
+              "html": "\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "class": "lang-btn",
+                "hreflang": "fr",
+                "aria-label": "Français"
+              },
+              "html": "FR",
+              "language": "fr"
+            },
+            {
+              "html": "\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "class": "lang-btn",
+                "hreflang": "en",
+                "aria-label": "English"
+              },
+              "html": "EN",
+              "language": "en"
+            },
+            {
+              "html": "\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "class": "lang-btn",
+                "hreflang": "es",
+                "aria-label": "Español"
+              },
+              "html": "ES",
+              "language": "es"
+            },
+            {
+              "html": "\n                "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "class": "lang-btn active",
+                "hreflang": "pt",
+                "aria-label": "Português",
+                "aria-current": "page"
+              },
+              "html": "PT",
+              "language": "pt"
+            },
+            {
+              "html": "\n            "
+            }
+          ]
+        },
+        {
+          "html": "\n        "
+        }
+      ]
+    },
+    {
+      "html": "\n    "
+    }
+  ]
+}

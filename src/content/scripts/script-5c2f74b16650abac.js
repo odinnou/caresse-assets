@@ -1,0 +1,1 @@
+(function(){if (/Android/i.test(navigator.userAgent)) { var ids = ['hero-store-cta','post-listen-store-cta']; for (var i = 0; i < ids.length; i++) { var c = document.getElementById(ids[i]); if (c) c.href = 'https://play.google.com/store/apps/details?id=studio.mokuton.caresse'; } }})();

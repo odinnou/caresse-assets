@@ -1,0 +1,1090 @@
+{
+  "id": "vs-desire.fr",
+  "family": "vs-desire",
+  "locale": "fr",
+  "path": "/vs-desire/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "fr",
+    "data-analytics-variant": "comparison-desire-reach-oct10-v1-seo-consistency-oct23-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-fr"
+  },
+  "title": "Alternative à Desire : jeu pour couple en audio | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Caresse ou Desire ? Comparez les défis à points et les séances guidées par audio. iPhone et Android. Démos gratuites, crédits payants sans abonnement."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/vs-desire/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Alternative à Desire : jeu pour couple en audio | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Caresse ou Desire ? Comparez les défis à points et les séances guidées par audio. iPhone et Android. Démos gratuites, crédits payants sans abonnement."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:locale",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Alternative à Desire : jeu pour couple en audio | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Caresse ou Desire ? Comparez les défis à points et les séances guidées par audio. iPhone et Android. Démos gratuites, crédits payants sans abonnement."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Alternative à Desire : jeu pour couple en audio | Caresse",
+      "description": "Caresse ou Desire ? Comparez les défis à points et les séances guidées par audio. iPhone et Android. Démos gratuites, crédits payants sans abonnement.",
+      "url": "https://caresse.app/vs-desire/",
+      "inLanguage": "fr",
+      "dateModified": "2026-10-23",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    }
+  ],
+  "styles": [
+    "comparison-3d782fdb.css"
+  ],
+  "styleAttrs": {
+    "comparison-3d782fdb.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "style",
+      "file": "comparison-3d782fdb.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-9f8704e61247b760"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {},
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "breadcrumb"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/"
+              },
+              "html": "Caresse"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "html",
+              "file": "vs-desire.fr/0789"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/alternatives/"
+              },
+              "html": "Alternatives"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "html",
+              "file": "vs-desire.fr/0790"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "html",
+              "file": "vs-desire.fr/0791"
+            }
+          ]
+        },
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-eyebrow"
+              },
+              "html": "Caresse vs Desire · 18+"
+            },
+            {
+              "tag": "h1",
+              "attrs": {},
+              "html": "Une alternative à Desire.<br><em>Un jeu à écouter à deux.</em>"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Vous préférez une voix qui guide votre moment à des défis échangés sur le téléphone ? Caresse propose des fictions audio pour couple, sans score ni cartes à lire pendant la séance."
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group"
+              },
+              "html": "<a href=\"https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Télécharger gratuitement</a>"
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-badge"
+              },
+              "html": "Mode invité · Démos gratuites · iOS et Android<br>Sessions personnalisées payantes, sans abonnement."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "tldr"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "En bref"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Des défis à points ou un moment guidé ?"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "tldr-card"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Desire combine défis, quiz, points et chat privé pour le couple. Caresse propose une séance guidée par voix synthétique, en solo ou à deux. Les deux utilisent l’IA : la différence utile est le format de votre moment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "verdict",
+            "id": "verdict"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Comparaison"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Caresse vs Desire"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "verdict-table-wrap",
+                "tabindex": "0",
+                "role": "region",
+                "aria-label": "Caresse vs Desire"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "verdict-table"
+                  },
+                  "html": "<thead><tr><th scope=\"col\">Critère</th><th scope=\"col\">Caresse</th><th scope=\"col\">Desire</th></tr></thead><tbody>\n<tr><th scope=\"row\" class=\"crit\">Format</th><td class=\"caresse\">Fiction guidée par audio</td><td class=\"other\">Défis, quiz et missions</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Usage</th><td class=\"caresse\">Solo ou duo</td><td class=\"other\">Couple avec partenaire invité</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Pendant le moment</th><td class=\"caresse\">Écouter, mettre en pause ou arrêter</td><td class=\"other\">Envoyer des défis, répondre, suivre les points</td></tr>\n<tr><th scope=\"row\" class=\"crit\">IA</th><td class=\"caresse\">Création de séances audio dans l’app</td><td class=\"other\">Desire AI pour défis et suggestions</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Audio en français</th><td class=\"caresse\">Disponible</td><td class=\"other\">Guidage audio non annoncé dans les sources consultées</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Tarifs</th><td class=\"caresse\">Démos gratuites ; crédits sans abonnement</td><td class=\"other\">Téléchargement gratuit ; achats et Platinum optionnel</td></tr>\n<tr><th scope=\"row\" class=\"crit\">But du format</th><td class=\"caresse\">Une expérience narrée</td><td class=\"other\">Un jeu de défis avec score</td></tr>\n</tbody>"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group",
+                "style": "margin-top:32px"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                    "class": "cta-pink",
+                    "data-store-auto": "",
+                    "data-cta-position": "inline",
+                    "target": "_blank",
+                    "rel": "noopener"
+                  },
+                  "html": "Télécharger gratuitement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "columns"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Deux formats"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Qu’avez-vous envie de faire ensemble ?"
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "columns-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "col-card highlight"
+                  },
+                  "html": "<p class=\"col-sub\">Caresse</p><h3>L’audio au centre du moment.</h3><p>Caresse crée dans l’app une fiction audio guidée selon vos préférences. Une voix synthétique porte la narration ; vous restez libres de faire une pause, de passer une suggestion ou d’arrêter.</p><p>Le site ne génère aucune session. Les démos sont des exemples pré-générés ; les sessions créées dans l’application sont payantes.</p><ul><li>Écouter une fiction guidée, sans lire de cartes pendant la séance.</li><li>Un format solo ou duo, avec une voix synthétique.</li><li>Acheter des crédits plutôt que souscrire un abonnement.</li></ul>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "col-card muted"
+                  },
+                  "html": "<p class=\"col-sub\">Desire</p><h3>Des défis et un score pour le couple.</h3><p>Desire permet de s’envoyer des défis et de suivre un score. Ce format peut convenir si vous aimez les propositions courtes, les quiz et les messages à deux.</p><p>Desire annonce aussi une IA qui adapte les propositions au couple. Nous ne présentons donc pas la personnalisation par IA comme exclusive à Caresse.</p><ul><li>S’envoyer des défis et gagner des points.</li><li>Répondre à des quiz et discuter dans le chat privé.</li><li>Utiliser les idées proposées par Desire AI.</li></ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "pricing"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Tarifs et accès"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Comparez le modèle, pas seulement le téléchargement."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "pricing-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "price-card highlight"
+                  },
+                  "html": "<h3>Caresse</h3><p class=\"price-big\">Crédits, sans abonnement</p><p class=\"price-note\">Téléchargement et démos gratuits. La création d’une session dans l’app consomme un crédit payant.</p><p class=\"price-note\">Un déblocage optionnel d’options avancées est vendu séparément ; il n’inclut pas de génération illimitée.</p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "price-card"
+                  },
+                  "html": "<h3>Desire</h3><p class=\"price-big\">Gratuit + options payantes</p><p class=\"price-note\">La fiche App Store annonce des achats intégrés et un abonnement Platinum optionnel à renouvellement automatique. Vérifiez les conditions de votre store.</p>"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "pricing-footnote"
+              },
+              "html": "Les prix et offres varient selon le pays et le store. Consultez les conditions affichées avant tout achat. <a href=\"/tarifs/\">Tarifs Caresse</a>."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "pricing-footnote"
+              },
+              "html": "Comparatif publié par Caresse à partir des informations publiques des éditeurs, consultées le 10 octobre 2026. Ce n’est pas un test indépendant. Sources : Site officiel de Desire · Desire sur l’App Store · Desire sur Google Play"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "choose"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Selon vos envies"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Deux façons de commencer."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "choose-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "choose-card us"
+                  },
+                  "html": "<h3>Choisissez Caresse si vous voulez…</h3><ul><li>Écouter une fiction guidée, sans lire de cartes pendant la séance.</li><li>Un format solo ou duo, avec une voix synthétique.</li><li>Acheter des crédits plutôt que souscrire un abonnement.</li></ul>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "choose-card them"
+                  },
+                  "html": "<h3>Choisissez Desire si vous voulez…</h3><ul><li>S’envoyer des défis et gagner des points.</li><li>Répondre à des quiz et discuter dans le chat privé.</li><li>Utiliser les idées proposées par Desire AI.</li></ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Questions fréquentes"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Les réponses avant de choisir."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Quelle différence entre Caresse et Desire ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Desire est un jeu de défis avec points, quiz et chat pour le couple. Caresse propose des fictions guidées par audio, avec une voix synthétique, en solo ou en duo. Il ne remplace pas le score ou le chat de Desire."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Desire utilise-t-il aussi l’intelligence artificielle ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Oui. Desire annonce de l’IA pour les défis et suggestions. Caresse utilise l’IA pour créer des séances narrées dans l’app : le format audio est la différence centrale de ce comparatif."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Existe-t-il une alternative à Desire sans abonnement ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Caresse ne nécessite pas d’abonnement : téléchargement et démos sont gratuits, puis la création de séances utilise des crédits payants. Desire propose un abonnement Platinum optionnel en plus de son expérience gratuite."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Faut-il lire des cartes pendant une séance Caresse ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Non. Après la configuration et la création de la séance dans l’app, une voix synthétique guide la fiction. Vous pouvez mettre en pause, ignorer une suggestion ou arrêter à tout moment."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Les sessions personnalisées de Caresse sont-elles gratuites ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Non. Le téléchargement et les démos sont gratuits. La création d’une session dans l’app utilise un crédit payant, sans abonnement. Le déblocage optionnel d’options avancées est séparé."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Faut-il créer un compte Caresse ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Le mode invité permet d’utiliser Caresse sans créer de compte Caresse. Les achats passent par votre compte Apple ou Google et son moyen de paiement : la transaction avec le store n’est pas anonyme."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section",
+            "id": "download"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Envie d’essayer ?"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Une voix pour vous guider.<br>À votre rythme."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Téléchargez Caresse gratuitement. Les démos sont gratuites ; la création de vos sessions dans l’app utilise des crédits payants."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-badges"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                    "class": "store-badge",
+                    "data-cta-position": "inline",
+                    "aria-label": "Télécharger sur l’App Store",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Télécharger sur l’App Store\">"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                    "class": "store-badge gplay",
+                    "data-cta-position": "inline",
+                    "aria-label": "Disponible sur Google Play",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://play.google.com/intl/fr_fr/badges/static/images/badges/fr_badge_web_generic.png\" alt=\"Disponible sur Google Play\">"
+                },
+                {
+                  "type": "text",
+                  "html": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Réservé aux adultes de 18 ans et plus."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "related"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Pour comparer"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "D’autres formats pour votre couple."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "related-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/vs-spicer/",
+                    "class": "related-card"
+                  },
+                  "html": "<div class=\"icon\" aria-hidden=\"true\">🎲</div><p class=\"ttl\">Caresse vs Spicer</p><p class=\"desc\">Comparaison</p>"
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/vs-dipsea/",
+                    "class": "related-card"
+                  },
+                  "html": "<div class=\"icon\" aria-hidden=\"true\">🎧</div><p class=\"ttl\">Caresse vs Dipsea</p><p class=\"desc\">Comparaison</p>"
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/couples-game/",
+                    "class": "related-card"
+                  },
+                  "html": "<div class=\"icon\" aria-hidden=\"true\">💑</div><p class=\"ttl\">Jeu pour couple</p>"
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/alternatives/",
+                    "class": "related-card"
+                  },
+                  "html": "<div class=\"icon\" aria-hidden=\"true\">↔</div><p class=\"ttl\">Alternatives</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-701fc63af764c635",
+        "footer-67024ca9733c5ac6",
+        "footer-76591d74817c0f3f",
+        "footer-29c248ef72d1fe25",
+        "footer-66bc36baab038877"
+      ]
+    }
+  ]
+}

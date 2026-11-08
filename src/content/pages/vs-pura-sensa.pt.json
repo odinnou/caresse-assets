@@ -1,0 +1,1060 @@
+{
+  "id": "vs-pura-sensa.pt",
+  "family": "vs-pura-sensa",
+  "locale": "pt",
+  "path": "/pt/vs-pura-sensa/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "comparison-pura-sensa-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-pt"
+  },
+  "title": "Alternativa ao Pura Sensa: áudio personalizado | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Pura Sensa ou Caresse? Compare sessões, personalização e assinatura. No Caresse, demos grátis e sessões com créditos pagos, individualmente ou a dois."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/vs-pura-sensa/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Alternativa ao Pura Sensa: áudio personalizado | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Pura Sensa ou Caresse? Compare sessões, personalização e assinatura. No Caresse, demos grátis e sessões com créditos pagos, individualmente ou a dois."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Alternativa ao Pura Sensa: áudio personalizado | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Pura Sensa ou Caresse? Compare sessões, personalização e assinatura. No Caresse, demos grátis e sessões com créditos pagos, individualmente ou a dois."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Alternativa ao Pura Sensa: áudio personalizado | Caresse",
+      "description": "Pura Sensa ou Caresse? Compare sessões, personalização e assinatura. No Caresse, demos grátis e sessões com créditos pagos, individualmente ou a dois.",
+      "url": "https://caresse.app/pt/vs-pura-sensa/",
+      "inLanguage": "pt",
+      "dateModified": "2026-10-31",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/pt/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Todas as alternativas",
+            "item": "https://caresse.app/pt/alternatives/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse vs Pura Sensa",
+            "item": "https://caresse.app/pt/vs-pura-sensa/"
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    }
+  ],
+  "styles": [
+    "comparison-3d782fdb.css",
+    "home-b0af781f.css"
+  ],
+  "styleAttrs": {
+    "comparison-3d782fdb.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "style",
+      "file": "comparison-3d782fdb.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      }
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-6945c135780c97d1"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {},
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "breadcrumb"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/"
+              },
+              "html": "Caresse"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "html",
+              "file": "vs-pura-sensa.pt/0777"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/alternatives/"
+              },
+              "html": "Todas as alternativas"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "html",
+              "file": "vs-pura-sensa.pt/0778"
+            }
+          ]
+        },
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-eyebrow"
+              },
+              "html": "Caresse vs Pura Sensa · 18+"
+            },
+            {
+              "tag": "h1",
+              "attrs": {},
+              "html": "Uma alternativa ao Pura Sensa.<br><em>Sua sessão, suas preferências.</em>"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Quer um áudio íntimo criado para você? O Caresse gera uma ficção guiada por voz sintética, com os nomes ou apelidos escolhidos, individualmente ou a dois. Conheça as demos gratuitas no app e crie sessões com créditos pagos, sem assinatura."
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group"
+              },
+              "html": "<a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Baixar grátis</a>"
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-badge"
+              },
+              "html": "Modo anônimo · Demos gratuitas · iOS e Android<br>Áudios em português · Interface em português no Android · Atualização iOS aguardando aprovação<br>Sessões personalizadas com créditos pagos, sem assinatura."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "tldr"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Duas propostas de áudio íntimo"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Escolher uma sessão ou criar a sua."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "tldr-card"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O Pura Sensa organiza sessões guiadas individuais e a dois, com voz, som ambiente e áudio binaural opcional. O Caresse cria a narração a partir da configuração: participantes, nomes, clima e preferências."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "verdict",
+            "id": "verdict"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Comparação"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Caresse vs Pura Sensa"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "verdict-table-wrap",
+                "tabindex": "0",
+                "role": "region",
+                "aria-label": "Caresse vs Pura Sensa"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "verdict-table"
+                  },
+                  "html": "<thead><tr><th scope=\"col\">Critério</th><th scope=\"col\">Caresse</th><th scope=\"col\">Pura Sensa</th></tr></thead><tbody>\n<tr><th scope=\"row\" class=\"crit\">Formato</th><td class=\"caresse\">Ficção em áudio gerada sob demanda</td><td class=\"other\">Biblioteca de sessões guiadas para escolher</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Personalização</th><td class=\"caresse\">Seus nomes e preferências orientam a geração</td><td class=\"other\">Geração com seus nomes não anunciada nas páginas consultadas</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Para conhecer</th><td class=\"caresse\">Download e demos gratuitos</td><td class=\"other\">Plano Explore gratuito anunciado</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Casais</th><td class=\"caresse\">Modo a dois com créditos, sem assinatura</td><td class=\"other\">Sessões para casais anunciadas no plano anual</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Som</th><td class=\"caresse\">Voz sintética e clima conforme a configuração</td><td class=\"other\">Voz, som ambiente e áudio binaural opcional</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Conta</th><td class=\"caresse\">Modo anônimo, inclusive nas compras junto ao Caresse</td><td class=\"other\">Plano gratuito sem conta; contas Premium citadas na FAQ</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Acesso</th><td class=\"caresse\">App para iOS e Android</td><td class=\"other\">Web, iOS e Android anunciados</td></tr>\n        </tbody>"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group",
+                "style": "margin-top:32px"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                    "class": "cta-pink",
+                    "data-store-auto": "",
+                    "data-cta-position": "inline",
+                    "target": "_blank",
+                    "rel": "noopener"
+                  },
+                  "html": "Baixar grátis"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "columns"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Duas propostas de áudio íntimo"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Como funciona a experiência?"
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "columns-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "col-card highlight"
+                  },
+                  "html": "<p class=\"col-sub\">Caresse</p><h3>Uma ficção criada para o seu momento.</h3><p>Escolha o modo individual ou a dois e as preferências disponíveis no app. Nomes ou apelidos ajudam a personalizar a narração, lida por uma voz sintética. Há geração de áudio em português.</p><p>Uma demo é um exemplo fixo. A sessão personalizada é gerada após a configuração e usa um crédito pago. Duração e conteúdo podem variar. Cada sugestão continua sendo opcional.</p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "col-card muted"
+                  },
+                  "html": "<p class=\"col-sub\">Pura Sensa</p><h3>Sessões organizadas por prática.</h3><p>O Pura Sensa divide a biblioteca entre sessões individuais e para casais. Sua FAQ descreve sessões de dez a quarenta e cinco minutos e acesso offline para Premium.</p><p>As páginas consultadas destacam a escolha de sessões e planos. Elas não documentam uma narração gerada a partir dos nomes e preferências de cada pessoa.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "pricing"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Preços e acesso"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Créditos ou assinatura Premium."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "pricing-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "price-card highlight"
+                  },
+                  "html": "<h3>Caresse</h3><p class=\"price-big\">Por sessão, sem assinatura</p><p class=\"price-note\">O app e as demos são gratuitos. Criar uma sessão usa um crédito pago. Uma compra única opcional libera mais preferências; não inclui gerações ilimitadas.</p>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "price-card"
+                  },
+                  "html": "<h3>Pura Sensa</h3><p class=\"price-big\">Explore grátis + Premium</p><p class=\"price-note\">A página de preços anuncia três sessões gratuitas por mês e Premium por £9,99 mensais ou £89,99 anuais. As sessões para casais e o passe do parceiro estão associados ao plano anual.</p>"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "pricing-footnote"
+              },
+              "html": "Preços do Pura Sensa publicados para a App Store britânica, consultados em 31 de outubro de 2026; as condições podem variar por plataforma. Os preços do Caresse aparecem no app antes da compra. <a href=\"/pt/precos/\">Preços do Caresse</a>."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "pricing-footnote"
+              },
+              "html": "Publicado pelo Caresse, sem teste independente. Fontes: páginas inicial, Sessions, Pricing e FAQ do Pura Sensa, consultadas em 31 de outubro de 2026."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Perguntas frequentes"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Antes de escolher seu áudio."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Qual é a diferença entre Pura Sensa e Caresse?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "O Pura Sensa apresenta uma biblioteca de sessões guiadas em áudio. O Caresse gera uma ficção a partir dos nomes, do modo individual ou a dois e das preferências. Ambos oferecem áudio íntimo; a criação e o pagamento são diferentes."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "O Caresse é uma alternativa ao Pura Sensa sem assinatura?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Sim. O download e as demos do Caresse são gratuitos. As sessões personalizadas usam créditos pagos, sem assinatura. A liberação opcional de preferências avançadas é uma compra separada."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "O Pura Sensa também oferece acesso gratuito?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Sim. Há uma oferta gratuita anunciada e funções adicionais no Premium. O Caresse também oferece demos gratuitas; a geração personalizada é paga."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Posso usar o Caresse individualmente ou a dois?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Sim. Configure um perfil no modo individual ou dois no modo a dois. Cada pessoa escolhe suas preferências livremente e pode recusar uma sugestão ou parar a qualquer momento."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Em quais idiomas o Caresse gera áudio?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Francês, inglês, espanhol e português. As demos publicadas estão em francês, inglês e espanhol. A interface em português está disponível no Android; a atualização para iOS aguarda aprovação."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Quem compra continua anônimo para o Caresse?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Sim. O modo anônimo dispensa uma conta Caresse e o Caresse não conhece a identidade de quem compra. As compras são processadas pela conta Apple ou Google e seu meio de pagamento."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section",
+            "id": "download"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Conheça o Caresse"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Ouça a voz.<br>Depois crie sua sessão."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Baixe o Caresse e conheça as demos gratuitas. Depois use créditos para uma narração criada a partir das suas escolhas, sem assinatura."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-badges"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                    "class": "store-badge",
+                    "data-cta-position": "inline",
+                    "aria-label": "Baixar na App Store",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Baixar na App Store\">"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                    "class": "store-badge gplay",
+                    "data-cta-position": "inline",
+                    "aria-label": "Disponível no Google Play",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png\" alt=\"Disponível no Google Play\">"
+                },
+                {
+                  "type": "text",
+                  "html": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Para pessoas com 18 anos ou mais."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "related"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Compare formatos"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Outras experiências de áudio."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "related-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/pt/vs-melba/",
+                    "class": "related-card"
+                  },
+                  "html": "<p class=\"ttl\">Caresse vs Melba</p>"
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/pt/vs-dipsea/",
+                    "class": "related-card"
+                  },
+                  "html": "<p class=\"ttl\">Caresse vs Dipsea</p>"
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/pt/alternatives/",
+                    "class": "related-card"
+                  },
+                  "html": "<p class=\"ttl\">Todas as alternativas</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.pt.logo.comparison",
+        "footer-ce7dec51f37858b3",
+        "footer.pt.links.comparison",
+        "footer-29c248ef72d1fe25",
+        "footer.pt.copy.comparison"
+      ]
+    }
+  ]
+}

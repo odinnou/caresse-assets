@@ -1,6 +1,7 @@
 ---
 // HTML fragments are trusted, versioned editorial content, never user input.
+import { htmlAttributes } from '../lib/attributes.mjs';
 const { tag, attrs = {}, html = '' } = Astro.props;
 const Tag = tag;
 ---
-<Tag {...attrs} set:html={html} />
+{tag ? <Tag {...htmlAttributes(attrs)} set:html={html} /> : <Fragment set:html={html} />}

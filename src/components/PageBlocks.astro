@@ -2,7 +2,12 @@
 import Intro from './Intro.astro';
 import Faq from './Faq.astro';
 import Cards from './Cards.astro';
-const { blocks, locale } = Astro.props;
+import Element from './Element.astro';
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+import Script from './Script.astro';
+import chrome from '../lib/chrome';
+const { blocks, locale, alternates = {} } = Astro.props;
 const html = import.meta.glob('../content/blocks/**/*.html', { eager: true, query: '?raw', import: 'default' });
 const markdown = import.meta.glob('../content/blocks/**/*.md', { eager: true });
 ---
@@ -15,5 +20,14 @@ const markdown = import.meta.glob('../content/blocks/**/*.md', { eager: true });
   if (block.type === 'intro') return <Intro {...block} locale={locale} />;
   if (block.type === 'faq') return <Faq {...block} />;
   if (block.type === 'cards') return <Cards {...block} />;
+  if (block.type === 'element') return <Element {...block} />;
+  if (block.type === 'text') return <Fragment set:html={block.html} />;
+  if (block.type === 'script') return <Script {...block} />;
+  if (block.type === 'header') return <Header data={chrome[block.ref]} alternates={alternates} />;
+  if (block.type === 'footer') return <Footer nodes={block.nodes} attrs={block.attrs} />;
+  if (block.type === 'container') {
+    const Tag = block.tag;
+    return <Tag {...block.attrs}><Astro.self blocks={block.blocks} locale={locale} alternates={alternates} /></Tag>;
+  }
   throw new Error(`Unknown content block: ${block.type}`);
 })}

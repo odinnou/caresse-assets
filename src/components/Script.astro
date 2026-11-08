@@ -1,0 +1,6 @@
+---
+import { htmlAttributes } from '../lib/attributes.mjs';
+const { attrs = {}, file } = Astro.props;
+const scripts = import.meta.glob('../content/scripts/*.js', { eager: true, query: '?raw', import: 'default' });
+---
+<script is:inline {...htmlAttributes(attrs)} set:html={file ? scripts[`../content/scripts/${file}`] : ''} />

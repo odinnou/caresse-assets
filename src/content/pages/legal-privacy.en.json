@@ -1,0 +1,352 @@
+{
+  "id": "legal-privacy.en",
+  "family": "legal-privacy",
+  "locale": "en",
+  "path": "/legal/en/privacy/",
+  "kind": "legal",
+  "layout": "composed",
+  "sitemap": false,
+  "htmlAttrs": {
+    "lang": "en"
+  },
+  "bodyAttrs": {},
+  "title": "Privacy Policy - Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "robots",
+      "content": "noindex, nofollow"
+    }
+  ],
+  "links": [],
+  "schemas": [],
+  "styles": [
+    "shared-8c53c89e9530107f.css"
+  ],
+  "styleAttrs": {
+    "shared-8c53c89e9530107f.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "style",
+      "file": "shared-8c53c89e9530107f.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-4c88699509e1bb98"
+    },
+    {
+      "type": "element",
+      "tag": "h1",
+      "attrs": {},
+      "html": "🔒 Privacy Policy"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "<strong>Last updated:</strong> September 5, 2026"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-privacy.en/0507"
+        },
+        {
+          "type": "text",
+          "html": " Caresse is an intimate app. Protecting your privacy is not just a legal requirement — it's a core priority. We collect the bare minimum, we never sell your data, and you remain in full control.\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "1. Data controller"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "The data controller is the publisher of the Caresse application, reachable at <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "2. Data we collect"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Caresse collects only the data strictly necessary for the service to function:"
+    },
+    {
+      "type": "element",
+      "tag": "table",
+      "attrs": {},
+      "html": "\n        <tr>\n            <th>Data</th>\n            <th>Purpose</th>\n            <th>Legal basis</th>\n        </tr>\n        <tr>\n            <td>Anonymous identifier (Firebase UID)</td>\n            <td>Authentication and account persistence</td>\n            <td>Contract performance</td>\n        </tr>\n        <tr>\n            <td>First name or alias</td>\n            <td>Audio personalization of experiences (spoken by the AI voice)</td>\n            <td>Explicit consent</td>\n        </tr>\n        <tr>\n            <td>Anatomical characteristics (declared biological sex)</td>\n            <td>Adapting physical suggestions in experiences to participants' anatomy</td>\n            <td>Explicit consent</td>\n        </tr>\n        <tr>\n            <td>Session parameters (practices, accessories, duration, location)</td>\n            <td>Generating the personalized experience</td>\n            <td>Contract performance</td>\n        </tr>\n        <tr>\n            <td>History of generated experiences</td>\n            <td>Access to past experiences within the app</td>\n            <td>Contract performance</td>\n        </tr>\n        <tr>\n            <td>Purchase data (via RevenueCat)</td>\n            <td>Credit and lifetime unlock management</td>\n            <td>Contract performance</td>\n        </tr>\n        <tr>\n            <td>Aggregated, anonymized usage statistics (via Google Analytics)</td>\n            <td>Analysis of in-app user behavior (e.g. drop-off points in the experience creation funnel) to improve the service. No individual tracking.</td>\n            <td>Legitimate interest</td>\n        </tr>\n        <tr>\n            <td>Website navigation data and store clicks (via Umami Cloud)</td>\n            <td>Aggregated measurement of caresse.app traffic and exits to the App Store or Google Play.</td>\n            <td>Legitimate interest</td>\n        </tr>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "We do not collect: email address (unless you contact us), phone number, GPS location, contacts, biometric data, or any data that could identify you outside the app."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "3. Transmission to third-party services"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "To generate experiences, certain parameters are transmitted to third-party AI and text-to-speech (TTS) services. This transmission is pseudonymized: the first name or alias you provided may be included, but no data that directly identifies you (email, account identifier, full legal name) is shared."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Third-party services used include:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li><strong>Firebase (Google)</strong> — authentication and database</li>\n        <li><strong>Microsoft Azure</strong> — server hosting, audio files, and experience data (Europe)</li>\n        <li><strong>AI providers</strong> — experience generation (session parameters are transmitted in pseudonymized form)</li>\n        <li><strong>TTS providers</strong> — voice synthesis (the first name or alias is transmitted for audio personalization)</li>\n        <li><strong>RevenueCat</strong> — purchase and credit management</li>\n        <li><strong>Google Analytics (Firebase Analytics)</strong> — anonymized behavioral analytics (no personally identifiable data transmitted)</li>\n        <li><strong>Umami Cloud</strong> — website audience and store-click measurement, without advertising cookies or user profiles</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Each of these providers has its own privacy policy and is subject to applicable regulations (GDPR for services hosted in Europe)."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "No personal data is sold to third parties for advertising or commercial purposes."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "4. Hosting and security"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Data and audio files are hosted on Microsoft Azure servers located in Europe. All communications between the app and our servers are encrypted via HTTPS/TLS."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Access to data is restricted to what is strictly necessary. No employee or contractor accesses the content of your experiences for personal purposes."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "5. Data retention"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Data is retained for as long as your account is active. Upon account deletion:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>Experiences, audio files, and session parameters are permanently deleted from our servers.</li>\n        <li>The anonymous identifier is erased from our database.</li>\n        <li>Transaction data (purchases) may be retained by Apple, Google, and RevenueCat in accordance with their own legal obligations.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "6. Your rights"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "You have the following rights regarding your personal data:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li><strong>Right of access:</strong> obtain a copy of the data we hold about you.</li>\n        <li><strong>Right of rectification:</strong> correct inaccurate data.</li>\n        <li><strong>Right to erasure</strong> (right to be forgotten): request complete deletion of your data.</li>\n        <li><strong>Right to data portability:</strong> receive your data in a structured, machine-readable format.</li>\n        <li><strong>Right to object:</strong> object to processing based on legitimate interest.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "To exercise these rights, contact the publisher at <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>. All requests will be handled within one month."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "If you are located in the EU/EEA, you may also lodge a complaint with your local data protection authority. EU users may contact the <strong>CNIL</strong> (France): <a href=\"https://www.cnil.fr\" target=\"_blank\" rel=\"noopener\">www.cnil.fr</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "7. Account deletion and right to erasure"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "You may request complete deletion of your account and all associated data at any time by contacting the publisher at <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Deletion results in the permanent and irreversible erasure of all your experiences, audio files, and profile data. This action cannot be undone."
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-privacy.en/0508"
+        },
+        {
+          "type": "text",
+          "html": " Account deletion results in the permanent loss of unused credits. The lifetime unlock can be restored later using the \"Restore purchases\" feature. See the "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "../cgv/"
+          },
+          "html": "Terms of Sale"
+        },
+        {
+          "type": "text",
+          "html": " for details.\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "8. Cookies and trackers"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "The Caresse mobile app does not use advertising cookies or third-party trackers for targeting purposes. The technical identifiers used are those required for the service to function (Firebase session, RevenueCat identifier) as well as Firebase Analytics (Google Analytics), used solely to analyze anonymized user behavior within the experience creation funnel — to identify where users drop off and improve the service. No personally identifiable data is transmitted for this purpose."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "The caresse.app website uses Umami Cloud to measure viewed pages, traffic sources, and store clicks in aggregate. This measurement creates no advertising cookies or user profiles."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "9. Changes to this policy"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "This policy may be updated at any time. In the event of a material change affecting your rights, you will be notified within the app. The current version is always accessible from within the app and this document."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "10. Contact"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "For any questions about the protection of your data, please contact the publisher at <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-ca93feaad6ae74bb"
+      ]
+    }
+  ]
+}

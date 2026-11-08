@@ -1,0 +1,8 @@
+{
+  "tag": "nav",
+  "attrs": {
+    "aria-label": "Alternatives",
+    "style": "display:flex;gap:6px 16px;flex-wrap:wrap;justify-content:center;max-width:720px;"
+  },
+  "html": "\n            <a href=\"/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Accueil</a>\n            <a href=\"/couples-game/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Jeu pour couple</a>\n            <a href=\"/tarifs/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Tarifs</a>\n            <a href=\"/alternatives/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Alternatives</a>\n            <a href=\"/vs-desire/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Caresse vs Desire</a>\n            <a href=\"/vs-pura-sensa/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Caresse vs Pura Sensa</a>\n            <a href=\"/vs-dipsea/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Caresse vs Dipsea</a>\n        "
+}

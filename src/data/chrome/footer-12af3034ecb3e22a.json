@@ -1,0 +1,8 @@
+{
+  "tag": "nav",
+  "attrs": {
+    "aria-label": "Use cases",
+    "class": "footer-nav"
+  },
+  "html": "\n            <a href=\"/en/demo/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;\" onmouseover=\"this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'\" onmouseout=\"this.style.color='var(--text-secondary)';this.style.background='transparent'\"><span class=\"inline\">Audio demo</span></a>\n            <a href=\"/en/how-it-works/\">How it works</a>\n            <a href=\"/en/couples-game/\">Couples game</a>\n            <a href=\"/en/for-solo-exploration/\">Solo exploration</a>\n            <a href=\"/en/for-blind-and-low-vision/\">Blind and low vision</a>\n            <a href=\"/en/for-new-couples/\">New couples</a>\n            <a href=\"/en/for-long-term-couples/\">Long-term couples</a>\n            <a href=\"/en/for-busy-couples/\">Busy couples</a>\n            <a href=\"/en/for-adventurous-couples/\">Adventurous couples</a>\n        \n            <a href=\"/en/is-caresse-safe/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;transition:0.2s;\" onmouseover=\"this.style.color='var(--primary)';this.style.background='rgba(93,61,140,0.06)'\" onmouseout=\"this.style.color='var(--text-secondary)';this.style.background='transparent'\">Privacy & Safety</a>\n        "
+}

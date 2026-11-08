@@ -1,0 +1,1233 @@
+{
+  "id": "vs-quinn.pt",
+  "family": "vs-quinn",
+  "locale": "pt",
+  "path": "/pt/vs-quinn/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "pt",
+    "data-analytics-variant": "comparison-cta-v1-pt-full-translation-oct10-v1-seo-consistency-oct23-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-pt"
+  },
+  "title": "Caresse vs Quinn — Demos gratuitas sem conta Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Compare Caresse e Quinn: demos sem cadastro e sessões com os nomes escolhidos, criadas no app com créditos pagos, sem assinatura."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/pt/vs-quinn/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse vs Quinn — Demos gratuitas sem conta Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Demos pré-geradas FR, EN e ES sem cadastro. Sessões personalizadas com nomes e créditos pagos, sem assinatura."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse vs Quinn — Experiência íntima em áudio criada por IA"
+    },
+    {
+      "property": "og:locale",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse vs Quinn — Demos gratuitas sem conta Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Demos pré-geradas sem cadastro Caresse. Créditos pagos, sem assinatura."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse vs Quinn — Experiência íntima em áudio criada por IA"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Mapa do site",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse vs Quinn",
+      "description": "Compare Caresse, com áudio íntimo personalizado por IA e créditos por geração, e Quinn, com biblioteca de histórias gravadas em áudio por assinatura.",
+      "url": "https://caresse.app/pt/vs-quinn/",
+      "inLanguage": "pt",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/pt/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "isSimilarTo": {
+          "@type": "SoftwareApplication",
+          "name": "Quinn"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/pt/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternativas",
+            "item": "https://caresse.app/pt/alternatives/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse vs Quinn",
+            "item": "https://caresse.app/pt/vs-quinn/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-a40e50920932b5d8.css",
+    "home-b0af781f.css"
+  ],
+  "styleAttrs": {
+    "shared-a40e50920932b5d8.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-a40e50920932b5d8.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-4b3d35d8a4180675"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/pt/alternatives/"
+          },
+          "html": "Alternativas"
+        },
+        {
+          "type": "text",
+          "html": " › Caresse vs Quinn\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🇧🇷 🇫🇷 🇬🇧 🇪🇸 · Caresse vs Quinn · Áudio em 4 idiomas no app"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Caresse vs Quinn:<br>conheça o formato, <em>decida depois.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "O Quinn oferece um catálogo de histórias em áudio em inglês, por assinatura, para escuta individual ou compartilhada. O Caresse propõe demos pré-geradas sem cadastro para conhecer a voz e a atmosfera, além de sessões criadas no app com nomes e preferências, usando créditos pagos."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Baixar o app grátis</a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Demos gratuitas no app, sem cadastro Caresse. Sessões personalizadas com créditos pagos, sem assinatura."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "tldr"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Em uma frase"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Um resumo direto."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "tldr-card"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "<strong>Quinn</strong> é um catálogo de histórias íntimas previamente escritas e gravadas em inglês. A oferta consultada exige conta e assinatura para o catálogo completo. <strong>Caresse</strong> difere em dois pontos: demos pré-geradas gratuitas sem conta Caresse; e sessões personalizadas criadas no app a partir dos nomes, identidades, sugestões, intensidade e local. O modo convidado dispensa cadastro, mas compras exigem conta Apple ou Google. A narrativa é gerada a partir das escolhas, não uma gravação igual para todos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "verdict",
+        "id": "verdict"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Resumo da comparação"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Quinn — 8 critérios para comparar."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "verdict-table-wrap"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "verdict-table"
+              },
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critério</th>\n                        <th>Caresse</th>\n                        <th>Quinn</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Demos em áudio sem conta Caresse</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — exemplos pré-gerados disponíveis para escuta</td>\n                        <td class=\"other\"><span class=\"no\">Não</span> — conta e assinatura para o catálogo</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Conta exigida</th>\n                        <td class=\"caresse\"><span class=\"no\">Não no modo convidado</span> — compras exigem conta Apple ou Google</td>\n                        <td class=\"other\">Cadastro para usar o app</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Tipo de conteúdo</th>\n                        <td class=\"caresse\">Narrativa criada por IA a cada geração</td>\n                        <td class=\"other\">Catálogo de histórias previamente escritas e gravadas</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Seus nomes no áudio</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — a voz usa seus nomes ou pseudônimos</td>\n                        <td class=\"other\"><span class=\"no\">Não</span> — narração de uma história pronta</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personalização do roteiro</th>\n                        <td class=\"caresse\">Identidades, sugestões, acessórios, intensidade, linguagem, local e ambiente</td>\n                        <td class=\"other\">Escolha de uma história do catálogo</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Uso proposto</th>\n                        <td class=\"caresse\">Experiência guiada, solo ou a dois</td>\n                        <td class=\"other\">Foco principal em escuta individual de ficção</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Variedade</th>\n                        <td class=\"caresse\">Criação a partir das preferências a cada geração</td>\n                        <td class=\"other\">Catálogo atualizado conforme o calendário editorial</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modelo de pagamento</th>\n                        <td class=\"caresse\">Créditos por geração, sem assinatura</td>\n                        <td class=\"other\">Referência de assinatura: US$ 7,99 por mês ou US$ 59,99 por ano</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Idiomas do áudio</th>\n                        <td class=\"caresse\">Português, francês, inglês e espanhol</td>\n                        <td class=\"other\"><span class=\"no\">Apenas inglês, segundo a oferta consultada</span></td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modo solo e modo a dois</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — ambos disponíveis</td>\n                        <td class=\"other\">Foco em escuta individual</td>\n                    </tr>\n                </tbody>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group",
+            "style": "margin-top:32px"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "inline",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "Baixar o app grátis"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "columns"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Em detalhe"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Duas abordagens, duas propostas."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "O Quinn oferece ficção editorial; o Caresse, geração personalizada no app. As propostas são diferentes."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "columns-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card highlight"
+              },
+              "html": "\n                <p class=\"col-sub\">Caresse</p>\n                <h3>Conheça o formato. Decida depois.</h3>\n                <p>Antes de comprar créditos, você pode ouvir demos pré-geradas em francês, inglês e espanhol, sem cadastro Caresse. Elas usam nomes e configurações fixos para mostrar a voz, a atmosfera e os níveis de intensidade.</p>\n                <p>Na criação personalizada, o Caresse usa nomes ou pseudônimos, identidades, preferências, intensidade e ambiente. A voz inclui os nomes escolhidos e a duração varia conforme o conteúdo criado. O modo convidado dispensa conta Caresse, mas compras passam pela sua conta Apple ou Google.</p>\n                <ul>\n                    <li>Demos pré-geradas sem cadastro Caresse, em FR, EN e ES</li>\n                    <li>Modo convidado sem conta Caresse; compras pela conta da loja</li>\n                    <li>Nomes ou pseudônimos usados na narração</li>\n                    <li>Duração variável, geralmente de 25 a 35 minutos</li>\n                    <li>Diferentes combinações de identidades, sugestões, acessórios, intensidade, local e ambiente</li>\n                    <li>Modos solo e a dois disponíveis</li>\n                    <li>Sem assinatura: créditos pagos por geração</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card muted"
+              },
+              "html": "\n                <p class=\"col-sub\">Quinn</p>\n                <h3>Uma biblioteca americana de histórias em áudio.</h3>\n                <p>O Quinn oferece histórias íntimas em inglês, escritas por autores e interpretadas por criadores e profissionais de voz. O catálogo é atualizado regularmente e inclui diferentes cenários e tons.</p>\n                <p>O formato se concentra em um catálogo de ficção em inglês. A oferta consultada não inclui francês ou espanhol. Isso difere de pedir uma experiência criada para você e seu par, com os nomes escolhidos, ou de conhecer demos sem cadastro Caresse.</p>\n                <ul>\n                    <li>Catálogo amplo de histórias previamente gravadas</li>\n                    <li>Produção em áudio com criadores e profissionais de voz</li>\n                    <li>Conteúdo em inglês na oferta consultada</li>\n                    <li>Foco em escuta individual de ficção</li>\n                    <li>Referência de assinatura: US$ 7,99 por mês ou US$ 59,99 por ano</li>\n                </ul>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "pricing"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Preços"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Créditos por sessão ou assinatura."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "O Caresse não tem cobrança mensal recorrente. A oferta do Quinn consultada anuncia US$ 7,99 por mês ou US$ 59,99 por ano."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "pricing-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card highlight"
+              },
+              "html": "\n                <h3>Caresse</h3>\n                <p class=\"price-big\">Por sessão</p>\n                <p class=\"price-note\" style=\"margin-bottom:14px;\">Download gratuito e demos pré-geradas. Para criar uma sessão personalizada, use créditos pagos, sem assinatura nem renovação mensal.</p>\n                <p class=\"price-note\" style=\"margin-top:16px;font-size:0.85rem;\">Os valores em euros são apenas uma referência. Os preços podem variar por país e loja; confira o valor no app antes de comprar.</p>\n                <div style=\"display:flex;flex-direction:column;gap:8px;text-align:left;border-top:1px solid rgba(255,255,255,0.25);padding-top:14px;\">\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>1 experiência</span>\n                        <strong>€1.99</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>3 experiências</span>\n                        <strong>€5.49</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>5 experiências</span>\n                        <strong>€7.99</strong>\n                    </div>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:12px;font-size:0.82rem;opacity:0.85;\">As experiências geradas ficam disponíveis no histórico do app enquanto os dados associados forem mantidos. A exclusão da conta remove as sessões, conforme a política de privacidade.</p>\n                <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.85rem;margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,0.25);\">\n                    <span>Opções avançadas, desbloqueio único opcional</span>\n                    <strong>€9.99</strong>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:6px;font-size:0.78rem;opacity:0.8;\">Desbloqueia opções adicionais de configuração. Os créditos de geração continuam separados.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card"
+              },
+              "html": "\n                <h3>Quinn</h3>\n                <p class=\"price-big\">Assinatura</p>\n                <p class=\"price-note\">Referência de US$ 7,99 por mês ou US$ 59,99 por ano para acesso ao catálogo.</p>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "pricing-footnote"
+          },
+          "html": "Valores do Quinn registrados em 28 de agosto de 2026 no site oficial. Não são preços em reais; as ofertas podem mudar."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "choose"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Como comparar"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Qual proposta combina com você?"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Compare os formatos sem confundir catálogo e geração."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "choose-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card us"
+              },
+              "html": "\n                <h3>O Caresse propõe…</h3>\n                <ul>\n                    <li>ouvir demos antes de pagar, sem conta Caresse</li>\n                    <li>usar o modo convidado, sem cadastro Caresse</li>\n                    <li>ouvir seus nomes ou pseudônimos na narração</li>\n                    <li>uma experiência criada a partir das suas escolhas, não apenas uma gravação pronta</li>\n                    <li>escolher intensidade, sugestões e ambiente</li>\n                    <li>usar créditos para cada geração, sem assinatura recorrente</li>\n                    <li>opções próprias para uso solo e em casal</li>\n                    <li>PT, FR, EN e ES no app, com interface em português no Android; a atualização para iOS aguarda aprovação</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card them"
+              },
+              "html": "\n                <h3>O Quinn se concentra em…</h3>\n                <ul>\n                    <li>catálogo amplo de ficção íntima em áudio em inglês</li>\n                    <li>histórias escritas por autores e interpretadas por pessoas</li>\n                    <li>escuta principalmente individual, em formato de audiolivro</li>\n                    <li>assinatura, sem configuração de cada escuta</li>\n                    <li>escolha de catálogo em vez de geração de uma experiência</li>\n                </ul>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub",
+            "style": "margin-top:24px;"
+          },
+          "html": "Para comparar uma biblioteca em francês, veja nossa página sobre <a href=\"/pt/vs-melba/\">Melba</a>. Para um formato em texto em vez de áudio, compare com <a href=\"/pt/vs-melt/\">Caresse vs Melt</a>."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Perguntas frequentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs Quinn: suas perguntas."
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Posso ouvir o Caresse antes de pagar, sem criar uma conta?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sim. As demos pré-geradas do Caresse podem ser ouvidas sem cadastro nem e-mail, em francês, inglês e espanhol. Elas usam nomes e configurações fixos, para mostrar a voz, o ambiente e a intensidade antes da compra de créditos."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Caresse exige cadastro como o Quinn?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O modo convidado dispensa criar uma conta Caresse. Compras de créditos exigem sua conta Apple ou Google e não são anônimas perante a loja. A oferta do Quinn consultada exige cadastro para o catálogo."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Qual é a principal diferença entre Caresse e Quinn?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O Quinn oferece histórias em áudio previamente escritas e gravadas em inglês, por assinatura, para escuta individual ou compartilhada. O Caresse cria uma ficção guiada a partir de nomes, intensidade, sugestões e ambiente, com créditos pagos. A duração depende do conteúdo gerado, geralmente de 25 a 35 minutos."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Caresse tem assinatura ou pagamento por sessão?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O Caresse usa créditos por geração, sem assinatura obrigatória. A oferta do Quinn consultada anuncia US$ 7,99 por mês ou US$ 59,99 por ano, independentemente da frequência de uso. Os valores podem mudar."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Caresse tem um catálogo tão amplo quanto o Quinn?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "São propostas diferentes. O Quinn tem um catálogo de histórias previamente escritas e gravadas, atualizado editorialmente. O Caresse cria as sessões personalizadas no app a partir das preferências. Os resultados podem variar, mas não há garantia absoluta de originalidade. As demos são fixas e pré-geradas."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Quinn oferece outros idiomas além do inglês?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "A oferta do Quinn consultada é em inglês; não encontramos francês ou espanhol nessa oferta. O Caresse cria áudios em português, francês, inglês e espanhol, com interface em português no Android; a atualização para iOS aguarda aprovação. As demos do site são FR, EN e ES."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Quinn ou Caresse para uma experiência compartilhada?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O Quinn se concentra na escuta de histórias, embora algumas possam ser ouvidas em casal. O Caresse tem modo a dois com os nomes escolhidos na narração e sugestões para um momento compartilhado, em vez de apenas ouvir uma ficção pronta."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Quer experimentar?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Conheça o formato.<br>Decida depois."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Baixe o Caresse grátis e ouça demos pré-geradas sem cadastro Caresse. Os áudios do site estão em inglês, francês e espanhol. No app, você pode gerar áudio em português com créditos pagos; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR",
+                "class": "store-badge",
+                "aria-label": "Baixar na App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Baixar na App Store\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Baixar no Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/pt-br/badges/static/images/badges/pt-br_badge_web_generic.png\" alt=\"Baixar no Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Apenas para maiores de 18 anos"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Mais comparações"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Conheça outras alternativas."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "related-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-melba/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Melba</p>\n                <p class=\"desc\">Catálogo apresentado como validado por terapeutas ou narrativa criada com seus nomes.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-coelle/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Coelle</p>\n                <p class=\"desc\">Biblioteca de experiências guiadas ou narrativa criada com seus nomes.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-melt/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Melt</p>\n                <p class=\"desc\">Áudio com seus nomes ou texto criado por IA para ler.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-inthemoment/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs InTheMoment</p>\n                <p class=\"desc\">Abordagens de IA: instruções editoriais e geração a partir de descrição.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/alternatives/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🧭</div>\n                <p class=\"ttl\">Todas as alternativas</p>\n                <p class=\"desc\">O panorama: Melba, Coelle, Quinn, Ferly e Bloom Stories.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/para-casais/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">💞</div>\n                <p class=\"ttl\">Caresse para casais</p>\n                <p class=\"desc\">A proposta do Caresse para desacelerar e viver um momento a dois.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/o-caresse-e-seguro/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🔒</div>\n                <p class=\"ttl\">O Caresse é seguro?</p>\n                <p class=\"desc\">Privacidade, dados e IA, explicados com clareza.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-magicwave/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs MagicWave</p>\n                <p class=\"desc\">Audiolivros românticos em inglês ou narrativa gerada em vários idiomas.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-bonded/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse vs Bonded</p><p class=\"desc\">Conversa escrita que espera respostas ou sessão contínua em áudio.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.pt.logo",
+        "footer-1e43e42e68a1234e",
+        "footer.pt.links",
+        "footer-0719760d8779fab2",
+        "footer.pt.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

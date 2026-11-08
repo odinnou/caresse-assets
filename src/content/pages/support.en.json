@@ -1,0 +1,255 @@
+{
+  "id": "support.en",
+  "family": "support",
+  "locale": "en",
+  "path": "/en/support/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "en"
+  },
+  "bodyAttrs": {},
+  "title": "Support & Help - Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Need help with Caresse? Contact our support team or read the FAQ: credits, subscription, account deletion, audio playback."
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "href": "/favicon.ico",
+      "sizes": "any"
+    }
+  ],
+  "schemas": [],
+  "styles": [
+    "shared-435b5f68aa63f91d.css"
+  ],
+  "styleAttrs": {
+    "shared-435b5f68aa63f91d.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "style",
+      "file": "shared-435b5f68aa63f91d.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-bd28b27b6e01508f"
+    },
+    {
+      "type": "element",
+      "tag": "h1",
+      "attrs": {},
+      "html": "💬 Support &amp; Help"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Have a question, a technical issue, or a request about your account? We're here to help."
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "margin:0 0 6px;"
+          },
+          "html": "<strong>Contact us</strong>"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "margin:0 0 12px;"
+          },
+          "html": "Email us at <a class=\"email\" href=\"mailto:admin@caresse.app\">admin@caresse.app</a>. We usually reply within 48 hours."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "class": "contact-btn",
+            "href": "mailto:admin@caresse.app?subject=Caresse%20Support"
+          },
+          "html": "Email us"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "❓ Frequently asked questions"
+    },
+    {
+      "type": "element",
+      "tag": "details",
+      "attrs": {},
+      "html": "\n        <summary>How do I delete my account?</summary>\n        <p>You can permanently delete your account directly in the app: open <strong>Profile → Delete my account</strong>, then confirm. Your personal data, credits and account are erased immediately — no extra steps and no email required.</p>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "details",
+      "attrs": {},
+      "html": "\n        <summary>How do credits work?</summary>\n        <p>Credits let you generate personalized audio experiences. You can buy them inside the app. If a generation fails for a proven technical reason (server error, interruption with no content delivered), consumed credits are automatically restored. You can also report any issue at <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>.</p>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "details",
+      "attrs": {},
+      "html": "\n        <summary>How do I get a refund?</summary>\n        <p>Caresse only offers one-time purchases (credit packs, feature unlocks) — there are no recurring subscriptions. All purchases are handled by the App Store (iOS) or Google Play (Android), who are the only ones able to process refunds. For any request, contact Apple or Google directly depending on your platform.</p>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "details",
+      "attrs": {},
+      "html": "\n        <summary>Audio won't play / stops in the background</summary>\n        <p>Caresse lets you listen to audio experiences even when the screen is locked or the app is in the background, with lock-screen controls. If playback doesn't start, check your internet connection and volume, then restart the experience. If the issue persists, email us.</p>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "details",
+      "attrs": {},
+      "html": "\n        <summary>A purchase wasn't credited</summary>\n        <p>Close and reopen the app: credits sync automatically. If your balance still isn't updated, contact us at <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a> with the date of the purchase.</p>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "📄 Legal information"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "\n        <a href=\"/legal/en/cgu/\">Terms of Service</a> ·\n        <a href=\"/legal/en/cgv/\">Terms of Sale</a> ·\n        <a href=\"/legal/en/privacy/\">Privacy</a> ·\n        <a href=\"/legal/en/legals/\">Legal notice</a>\n    "
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-341450fb8cac4656",
+        "footer-87ae90b899ba7e1f"
+      ]
+    }
+  ]
+}

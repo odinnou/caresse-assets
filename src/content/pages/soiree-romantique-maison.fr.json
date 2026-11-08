@@ -1,0 +1,966 @@
+{
+  "id": "soiree-romantique-maison.fr",
+  "family": "soiree-romantique-maison",
+  "locale": "fr",
+  "path": "/soiree-romantique-maison/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "fr",
+    "data-analytics-variant": "night-acquisition-oct24-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-fr"
+  },
+  "title": "Soirée romantique à la maison : une expérience audio à deux | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Une idée de soirée romantique à la maison : choisissez une ambiance à deux, découvrez la voix et créez une session audio personnalisée avec Caresse."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/soiree-romantique-maison/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Soirée romantique à la maison : une expérience audio à deux | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Une idée de soirée romantique à la maison : choisissez une ambiance à deux, découvrez la voix et créez une session audio personnalisée avec Caresse."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:locale",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Soirée romantique à la maison : une expérience audio à deux | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Une idée de soirée romantique à la maison : choisissez une ambiance à deux, découvrez la voix et créez une session audio personnalisée avec Caresse."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://caresse.app/soiree-romantique-maison/#webpage",
+      "name": "Soirée romantique à la maison : une expérience audio à deux | Caresse",
+      "description": "Une idée de soirée romantique à la maison : choisissez une ambiance à deux, découvrez la voix et créez une session audio personnalisée avec Caresse.",
+      "url": "https://caresse.app/soiree-romantique-maison/",
+      "inLanguage": "fr",
+      "datePublished": "2026-10-24",
+      "dateModified": "2026-10-24",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@id": "https://caresse.app/#app"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Soirée romantique",
+          "item": "https://caresse.app/soiree-romantique-maison/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    }
+  ],
+  "styles": [
+    "shared-4b217ebdb8fa84e9.css",
+    "home-b0af781f.css"
+  ],
+  "styleAttrs": {
+    "shared-4b217ebdb8fa84e9.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "style",
+      "file": "shared-4b217ebdb8fa84e9.css",
+      "attrs": {}
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "class": "skip-link",
+        "href": "#main"
+      },
+      "html": "Aller au contenu"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "header",
+      "ref": "header-322ec49d669c8b0a"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb",
+        "aria-label": "Fil d’Ariane"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "html",
+          "file": "soiree-romantique-maison.fr/0788"
+        },
+        {
+          "type": "text",
+          "html": "\n"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "id": "main",
+        "tabindex": "-1"
+      },
+      "blocks": [
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero",
+            "style": "min-height:auto; padding-top:60px;"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-eyebrow"
+              },
+              "html": "Une idée de soirée à deux · À la maison · 18+"
+            },
+            {
+              "tag": "h1",
+              "attrs": {
+                "id": "page-title"
+              },
+              "html": "Une soirée romantique à la maison, <br>\n<em>avec une voix pour vous guider.</em>\n"
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Pour votre soirée à deux, choisissez une activité qui laisse de la place à vos envies du moment. Avec Caresse, vous pouvez découvrir une démo gratuite puis, si le format vous plaît, créer une fiction audio guidée selon vos préférences."
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "html": "\n<div class=\"cta-group\">\n<a href=\"https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Télécharger maintenant</a>\n</div>\n"
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-badge"
+              },
+              "html": "Démos gratuites · Sans compte Caresse · Sessions personnalisées avec crédits payants, sans abonnement."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "intent"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Trois moments simples pour votre soirée"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "intent-prose"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Un dîner, une lumière douce, un moment pour discuter : partez de ce qui vous fait plaisir à deux. Une expérience audio peut ensuite apporter une touche de découverte à votre soirée."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Pour une écoute à deux, un téléphone avec une enceinte suffit. Choisissez un endroit confortable où la voix s’entend bien, puis réglez le volume avant de commencer."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "diff"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title",
+                "id": "configuration-title"
+              },
+              "html": "Une proposition de soirée, à adapter ensemble"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "diff-table-wrap"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "diff-table",
+                    "aria-labelledby": "configuration-title"
+                  },
+                  "html": "\n<tbody>\n<tr>\n<td>Avant l’écoute</td>\n<td class=\"highlight\">Un moment pour discuter de vos envies</td>\n</tr>\n<tr>\n<td>Pour découvrir</td>\n<td class=\"highlight\">Une démo gratuite dans l’app</td>\n</tr>\n<tr>\n<td>Pour personnaliser</td>\n<td class=\"highlight\">Mode duo, vos noms et une ambiance romantique</td>\n</tr>\n<tr>\n<td>Pour la suite</td>\n<td class=\"highlight\">Un moment pour échanger sur ce qui vous a plu</td>\n</tr>\n</tbody>\n"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "intent-prose",
+                "style": "max-width:900px;margin:32px auto 0;"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "La démo est gratuite. Pour une session avec vos noms et vos préférences, choisissez le mode duo puis lancez la génération avec un crédit payant, sans abonnement."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Ce déroulé est une idée de soirée, pas un programme minuté de l’application. Le temps de génération et la durée de l’audio peuvent varier : prévoyez un moment où vous n’avez pas besoin de terminer à une heure précise."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "how"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Passer de l’idée au moment partagé"
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "steps-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "step-item"
+                  },
+                  "html": "\n<div class=\"num\" aria-hidden=\"true\">01</div>\n<h3>Partagez l’idée</h3>\n<p>Proposez une expérience guidée par la voix pour votre prochaine soirée. Une démo permet de découvrir ensemble le ton et l’ambiance du format.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "step-item"
+                  },
+                  "html": "\n<div class=\"num\" aria-hidden=\"true\">02</div>\n<h3>Choisissez un point de départ</h3>\n<p>Installez l’app, écoutez la démo et échangez. Pour créer une session, choisissez ensuite le mode duo et les préférences qui vous conviennent à tous les deux.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "step-item"
+                  },
+                  "html": "\n<div class=\"num\" aria-hidden=\"true\">03</div>\n<h3>Installez-vous à deux</h3>\n<p>Quand l’audio est prêt, lancez-le sur votre téléphone ou votre enceinte. La voix accompagne la soirée avec une narration créée à partir de vos choix.</p>\n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "benefits"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Trois façons de garder la soirée à votre image"
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "benefits-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "benefit-card"
+                  },
+                  "html": "\n<h3>Une soirée toute douce</h3>\n<p>Une ambiance calme et romantique peut faire du quotidien un moment à part. Les préférences choisies ensemble donnent le ton de la session.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "benefit-card"
+                  },
+                  "html": "\n<h3>Une place pour la surprise</h3>\n<p>Vous choisissez les grandes lignes de l’expérience sans lire tout le scénario à l’avance. La narration est générée pour votre configuration et varie d’une création à l’autre.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "benefit-card"
+                  },
+                  "html": "\n<h3>Tous les couples, avec le consentement de chacun·e</h3>\n<p>Tous les couples adultes sont les bienvenus, quels que soient le genre ou l’orientation de chaque personne. Chaque pratique demande un accord libre et mutuel, qui reste essentiel tout au long de la soirée. Cet accord peut être retiré à tout moment.</p>\n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq",
+            "aria-labelledby": "faq-title"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "id": "faq-title",
+                "class": "section-title"
+              },
+              "html": "Vos questions, simplement."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Peut-on faire cette soirée sans payer ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Vous pouvez télécharger Caresse et écouter les démos gratuites sans acheter de crédit. Si vous décidez de créer une session personnalisée selon vos profils, cette génération est payante."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Est-ce réservé aux nouveaux couples ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Non. Les couples qui se découvrent comme ceux qui partagent leur vie depuis longtemps peuvent essayer cette activité audio. Le point de départ reste ce que vous avez envie de découvrir ensemble."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Faut-il prévoir exactement trente minutes ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Non. Le temps de génération et la durée de l’audio varient. Prévoyez un créneau souple plutôt qu’un programme minuté."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Faut-il créer un compte Caresse pour acheter des crédits ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Non. Le mode anonyme permet d’utiliser Caresse sans créer de compte Caresse. Les achats nécessitent toutefois votre compte Apple ou Google et son mode de paiement sur le store utilisé."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Dans quelles langues les audios sont-ils disponibles ?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Caresse génère des sessions audio en français, anglais, espagnol et portugais. Les démos sont en français, anglais et espagnol. L’interface portugaise est disponible sur Android ; la mise à jour iOS est en attente de validation."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "aside",
+          "attrs": {
+            "class": "editorial-links",
+            "aria-label": "Pour aller plus loin",
+            "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
+          },
+          "html": "\n<p>Pour aller plus loin : <a href=\"/blog/premiere-experience-audio-intime-couple/\" style=\"color:var(--primary-vibrant);text-underline-offset:3px;\">Un guide pour votre première écoute intime à deux</a>.</p>\n"
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Votre prochaine soirée peut commencer par une écoute."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Téléchargez Caresse gratuitement. Découvrez la voix, puis choisissez ensemble si vous souhaitez créer une session personnalisée."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "store-badges"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                        "class": "store-badge",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Télécharger dans l’App Store"
+                      },
+                      "html": "\n<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Télécharger dans l’App Store\" width=\"162\" height=\"54\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                        "class": "store-badge gplay",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Disponible sur Google Play"
+                      },
+                      "html": "\n<img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Disponible sur Google Play\" width=\"207\" height=\"80\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice",
+                "style": "max-width:760px;margin:24px auto 0;"
+              },
+              "html": "Les prix des crédits et des options sont indiqués dans l’app, dans la devise de votre store, avant l’achat."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Réservé aux adultes de 18 ans et plus"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "seasonal-links",
+            "style": "margin:24px auto;max-width:760px;color:var(--text-secondary);line-height:1.8;"
+          },
+          "html": "Pour une occasion particulière : <a href=\"/saint-valentin/\">Saint-Valentin à la maison</a>, <a href=\"/cadeau-saint-valentin-couple/\">Cadeau de Saint-Valentin à partager</a>, <a href=\"/noel-en-couple/\">Sept soirées de Noël en couple</a> · <a href=\"/nouvel-an-en-couple/\">Nouvel An en couple à la maison</a>."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-fa4590b2e08459c6",
+        "footer-ee3ce3cb5a30710f",
+        "footer-4850d4697fba660e",
+        "footer-b7998d652f849e41",
+        "footer.fr.copy"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
+    }
+  ]
+}

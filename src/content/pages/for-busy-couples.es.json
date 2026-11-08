@@ -1,0 +1,1341 @@
+{
+  "id": "for-busy-couples.es",
+  "family": "for-busy-couples",
+  "locale": "es",
+  "path": "/es/for-busy-couples/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "es",
+    "data-analytics-variant": "seo-consistency-oct23-v1-seo-consistency-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-es"
+  },
+  "title": "¿Sin tiempo para la intimidad? Recuperar la intimidad en pareja cuando falta tiempo",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Falta de tiempo en pareja, hijos, cansancio: cómo recuperar la intimidad sin dedicarle toda la noche. Sesiones de audio guiadas por IA, por lo general de 25 a 35 minutos."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/es/for-busy-couples/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse para parejas ocupadas, Recuperad la intimidad"
+    },
+    {
+      "property": "og:description",
+      "content": "Un ritual de audio íntimo guiado por IA para las parejas a las que les falta tiempo. Cuando por fin tenéis un momento, hacedlo memorable."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse para parejas ocupadas, experiencia de audio íntimo guiada por IA"
+    },
+    {
+      "property": "og:locale",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse para parejas ocupadas"
+    },
+    {
+      "name": "twitter:description",
+      "content": "No necesitáis planificar horas. Caresse crea un momento de intimidad cuando por fin tenéis tiempo."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse para parejas ocupadas, experiencia de audio íntimo guiada por IA"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse para parejas ocupadas",
+      "description": "Cómo recuperar la intimidad en pareja cuando falta tiempo: hijos, trabajo, cansancio y huecos cortos e imprevisibles. Experiencia de audio guiada por IA, por lo general de 25 a 35 minutos.",
+      "url": "https://caresse.app/es/for-busy-couples/",
+      "inLanguage": "es",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://caresse.app/screens/en/08_android_en.webp"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Parejas ocupadas",
+            "item": "https://caresse.app/es/for-busy-couples/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-f813fbbd141db5e0.css"
+  ],
+  "styleAttrs": {
+    "shared-f813fbbd141db5e0.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-f813fbbd141db5e0.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-7386c49d1274aa70"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/es/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " "
+        },
+        {
+          "type": "html",
+          "file": "for-busy-couples.es/0401"
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "⚡ · Parejas ocupadas · Audio guiado · IA"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "¿Sin tiempo?<br><em>Caresse se encarga.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Trabajo, hijos, cansancio, la intimidad suele ser lo primero que dejamos de lado. Caresse crea un ritual sencillo y guiado para las parejas cuyo día a día está cargado: mínimo que configurar, máximo que sentir."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES\" id=\"hero-cta\" class=\"cta-pink\" target=\"_blank\" rel=\"noopener\">\n                <span class=\"inline\">Descargar gratis</span>\n                </a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Disponible en iOS y Android · Demos gratuitas · Sesiones personalizadas de pago"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "stat-row"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-item"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "for-busy-couples.es/0402"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "stat-label"
+              },
+              "html": "para configurar una sesión"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-item"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "for-busy-couples.es/0403"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "stat-label"
+              },
+              "html": "esfuerzo de guion requerido"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-item"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "for-busy-couples.es/0404"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "stat-label"
+              },
+              "html": "sesiones diferentes posibles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "problem"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "problem-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "El tema de fondo"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "¿Sin tiempo para la intimidad?<br>Haced que el momento que sí tenéis cuente."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub problem-lede"
+              },
+              "html": "La falta de tiempo en pareja no borra el deseo, borra la ocasión. Cuando por fin llega el hueco libre, es corto, tardío e imprevisto, y es justo entonces cuando ya no se sabe qué hacer con él. Caresse no os pide despejar una noche entera: convierte los veinte o treinta minutos que realmente tenéis en algo construido."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "problem-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "problem-card"
+                  },
+                  "html": "\n                    <h3>Cuando hay hijos y trabajo</h3>\n                    <p>Entre acostar a los niños, los deberes, los correos de última hora y una puerta que nunca se cierra del todo, la intimidad con hijos se vuelve más un asunto logístico que de ganas. Configurad la sesión durante el día, entre dos reuniones o en el transporte, y lanzadla por la noche cuando la casa esté por fin en calma. Basta con auriculares o un altavoz a bajo volumen: nada que escenificar, nada que explicar, la experiencia ya está lista y os espera.</p>\n                "
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "problem-card"
+                  },
+                  "html": "\n                    <h3>Cuando los dos acabáis agotados</h3>\n                    <p>El cansancio rara vez es falta de ganas, es falta de energía para iniciar. Hay que proponer, encontrar las palabras, sostener el momento, y a las once de la noche nadie quiere ese trabajo. Aquí la iniciativa la toma la voz: crea el ambiente, marca el ritmo y guía de principio a fin. No tenéis que \"rendir\" ni decidir por los dos: tumbarse y escuchar basta para que algo ocurra, incluso las noches en que creíais no tener nada que dar.</p>\n                "
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "problem-card"
+                  },
+                  "html": "\n                    <h3>Cuando vuestros huecos son cortos e imprevisibles</h3>\n                    <p>Una siesta que se alarga, una cena que se cancela, un domingo sin despertador: los momentos de pareja casi nunca llegan cuando se planifican. Una sesión dura por lo general entre 25 y 35 minutos y se detiene cuando vosotros queráis, lo que la hace compatible con un hueco que no habíais visto venir. No hace falta saber de antemano cuándo tendréis tiempo, solo estar listos cuando aparezca.</p>\n                "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "problem-outro"
+              },
+              "html": "Recuperar la intimidad cuando falta tiempo no es una cuestión de voluntad, sino de fricción. Quitad la preparación, la carga mental y el miedo al silencio incómodo, y queda lo que buscabais: un momento a solas, corto, pero que cuenta. Si vuestra dificultad tiene más que ver con la rutina instalada que con la agenda, la página <a href=\"/es/for-long-term-couples/\">Caresse para parejas de larga duración</a> trata ese caso."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "benefits"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "¿Por qué Caresse para las parejas ocupadas?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "La intimidad no pide horas."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "La falta de tiempo no es una fatalidad. Caresse transforma un hueco libre en un momento que cuenta de verdad."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "benefits-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">⚡</div>\n                <h3>Listo en pocos minutos</h3>\n                <p>Configurad una sesión en 5 minutos o menos. Sin planificación elaborada, sin preparación, Caresse hace el trabajo creativo por vosotros.</p>\n                "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🎯</div>\n                <h3>Cero carga mental</h3>\n                <p>No tenéis que buscar ideas, \"poner el ambiente\" ni planificar. Elegís vuestras preferencias y Caresse crea la experiencia por vosotros.</p>\n                "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🌙</div>\n                <h3>Cuando queráis</h3>\n                <p>Final del día, mañana de fin de semana, momento inesperado, Caresse se adapta a vuestra agenda, no al revés. Nada de \"noche romántica\" que organizar.</p>\n                "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🔋</div>\n                <h3>Incluso cansados</h3>\n                <p>No hace falta energía para iniciar. La voz guía, crea el ambiente y lleva la experiencia, solo tenéis que estar ahí y escuchar.</p>\n                "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "timeline"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Así de sencillo"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "De la decisión a la experiencia<br>en menos de 10 minutos."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "timeline-inner"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "timeline-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-busy-couples.es/0405"
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "timeline-content"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Abrid la app"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Sin conexión, sin cargas largas. La app está ahí, lista."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "timeline-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-busy-couples.es/0406"
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "timeline-content"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Configurad rápido"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Unas pocas elecciones: ambiente, intensidad, tono. Cinco minutos como máximo para personalizar vuestra experiencia."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "timeline-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-busy-couples.es/0407"
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "timeline-content"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "La IA genera vuestra sesión"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Caresse crea una experiencia única en pocos minutos. Notificación en cuanto esté lista."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "timeline-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-busy-couples.es/0408"
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "timeline-content"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Poneos cómodos y escuchad"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Activad el altavoz o conectadlo a un altavoz. La voz se encarga de todo, no tenéis que hacer nada más que sentir."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Preguntas frecuentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Lo que queréis saber"
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Cuánto dura una sesión de Caresse?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "La duración de una sesión no es un ajuste: contad generalmente entre 25 y 35 minutos. Podéis detenerla en cualquier momento si lo deseáis."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Hace falta que los dos estéis disponibles al mismo tiempo?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "En modo dúo, sí, pero la configuración puede hacerse con antelación y la sesión lanzarse cuando estéis listos los dos. Caresse también se puede usar en modo solo si solo uno de vosotros está disponible."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Es realmente tan sencillo como se describe?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Las demos gratuitas permiten descubrir la voz y el formato sin cuenta de Caresse. Para crear una sesión según vuestras preferencias, configuradla en la app y usad un crédito de pago, sin suscripción."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Se puede configurar una sesión con antelación para esa misma noche?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sí, podéis configurar vuestra sesión durante el día y lanzarla por la noche cuando por fin tengáis un momento. La sesión se genera en pocos minutos y os espera, lista para lanzarse."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Y si uno de los dos está demasiado cansado por la noche?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "El cansancio es precisamente uno de los casos para los que se pensó Caresse. La voz guía y lleva la experiencia, no tenéis que \"rendir\" ni encontrar energía. Con tumbaros y escuchar basta para que la experiencia se despliegue."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Cómo recuperar la intimidad cuando falta tiempo?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Reduciendo lo que hay que decidir en el momento en que el tiempo se libera. El freno casi nunca es la duración en sí, sino la preparación: dar con la idea, crear el ambiente, atreverse a iniciar. Caresse se encarga de esa parte, lo que convierte un hueco de 20 o 30 minutos en algo realmente aprovechable en lugar de dejarlo pasar."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Se puede mantener la intimidad en pareja con hijos en casa?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Sí, siempre que no dependa de una noche entera ni de una casa vacía. La sesión se configura durante el día y se lanza una vez acostados los niños, con auriculares o un altavoz a bajo volumen. Podéis interrumpirla en cualquier momento sin perder nada de lo ya generado."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "¿Ayuda Caresse realmente a mantener una relación a largo plazo?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "La intimidad regular es uno de los pilares de una relación plena, pero suele ser lo primero que se sacrifica en el día a día. Caresse crea un ritual sencillo y accesible para que esos momentos existan, incluso en las épocas más cargadas."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "background:var(--grad-soft);padding:60px 5%;"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "¿Tenéis más tiempo? Descubrid también"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse para cada momento de la vida."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "style": "display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:900px;margin-top:32px;"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/es/for-couples/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔥</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Para parejas</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Ralentizad y reconectad en profundidad</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/es/for-new-couples/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">💫</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Parejas nuevas</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Explorar juntos sin presión</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/es/for-long-term-couples/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🕰️</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Parejas de larga duración</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Redescubrir algo juntos</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/es/for-solo-exploration/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🌙</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Exploración solo</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Vuestro espacio solo para vosotros</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/es/for-adventurous-couples/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔥</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Parejas aventureras</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Atreveos a explorar sin límites</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "aside",
+      "attrs": {
+        "id": "audio-experiences-links",
+        "aria-label": "Para profundizar",
+        "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
+      },
+      "html": "\n        <p>Para preparar vuestro momento, también podéis leer: <a href=\"/es/noche-romantica-en-casa/\" style=\"color:var(--primary);text-underline-offset:3px;\">una noche romántica en casa</a>.</p>\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "¿Listos cuando lo estéis?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "El momento que esperabais<br>ya está aquí."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Descarga Caresse gratis y escucha las demos sin cuenta de Caresse. Las sesiones personalizadas usan créditos de pago, sin suscripción."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "compare-note"
+          },
+          "html": "¿Estás comparando varias apps? Mira <a href=\"/es/alternatives/\">cómo se sitúa Caresse frente a Melba, Coelle o Dipsea</a>, con demos de audio sin cuenta."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES",
+                "class": "store-badge",
+                "aria-label": "Download on the App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Download on the App Store\">\n\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Get it on Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Get it on Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Solo para adultos mayores de 18 años"
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.es.logo",
+        "footer-43653efc356bd05b",
+        "footer.es.links.couples",
+        "footer-e145c01106d76846",
+        "footer.es.copy.comparison"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

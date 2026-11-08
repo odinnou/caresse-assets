@@ -1,0 +1,1350 @@
+{
+  "id": "vs-inthemoment.fr",
+  "family": "vs-inthemoment",
+  "locale": "fr",
+  "path": "/vs-inthemoment/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "fr",
+    "data-analytics-variant": "comparison-cta-v1-seo-consistency-oct23-v1-seo-consistency-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-fr"
+  },
+  "title": "Caresse vs InTheMoment, Audio intime vs méditation",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Caresse vs InTheMoment : démos audio intimes sans création de compte. Pas le même cas d'usage (méditation/hypnose), mais une vraie alternative IA pour l'intime."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/vs-inthemoment/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse vs InTheMoment, Démos audio sans compte vs abonnement mensuel"
+    },
+    {
+      "property": "og:description",
+      "content": "Deux apps audio AI, deux cas d'usage. Démos Caresse FR · EN · ES sans inscription."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse vs InTheMoment, comparaison d'approche AI audio"
+    },
+    {
+      "property": "og:locale",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse vs InTheMoment, Démos sans compte vs abonnement"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Démos Caresse FR · EN · ES sans inscription. Sans abonnement mensuel."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-fr.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse vs InTheMoment, comparaison d'approche AI audio"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse vs InTheMoment",
+      "description": "Comparaison d'approche AI entre Caresse (audio intime à prompts curatés) et InTheMoment (méditation et hypnose AI à génération ouverte).",
+      "url": "https://caresse.app/vs-inthemoment/",
+      "inLanguage": "fr",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "isSimilarTo": {
+          "@type": "SoftwareApplication",
+          "name": "InTheMoment"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternatives",
+            "item": "https://caresse.app/alternatives/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse vs InTheMoment",
+            "item": "https://caresse.app/vs-inthemoment/"
+          }
+        ]
+      }
+    }
+  ],
+  "styles": [
+    "shared-4fdde3c39bc07570.css"
+  ],
+  "styleAttrs": {
+    "shared-4fdde3c39bc07570.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-4fdde3c39bc07570.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-eb1a354b4f3b0e6e"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/alternatives/"
+          },
+          "html": "Alternatives"
+        },
+        {
+          "type": "text",
+          "html": " › Caresse vs InTheMoment\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🇫🇷 🇬🇧 🇪🇸 🇧🇷 · Caresse vs InTheMoment · Audio en 4 langues"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Caresse vs InTheMoment :<br>écoutez avant <em>de vous engager.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "InTheMoment est une app de méditation et d'hypnose par IA, sur plan mensuel. Caresse adresse un autre besoin (l'audio intime guidé) avec une approche différente : des démos audio jouables tout de suite, en français, anglais et espagnol, sans création de compte. Le mode anonyme ne demande pas de compte Caresse ; les achats passent par votre compte Apple ou Google."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Télécharger l’app gratuitement</a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Démos gratuites dans l’app, sans inscription. Sessions personnalisées payantes, sans abonnement."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "disclaimer"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "disclaimer-card"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "<strong>Note honnête :</strong> InTheMoment est une app de méditation et d'hypnose personnalisées par l'IA. Caresse est une app d'audio intime. Si vous cherchez l'un ou l'autre, vous savez déjà laquelle choisir. Cette page compare uniquement <em>l'approche AI</em> des deux apps, parce que c'est là qu'on a quelque chose à dire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "tldr"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "En une phrase"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Le résumé honnête."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "tldr-card"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "<strong>InTheMoment</strong> illustre bien la promesse AI moderne : décris ta situation, l'IA pioche dans des techniques établies de méditation/hypnose et te génère une session sur mesure. Cas d'usage : bien-être individuel. <strong>Caresse</strong> applique la même philosophie AI à un terrain bien plus délicat (l'intime), mais avec une différence structurelle : ce n'est pas l'utilisateur qui pilote l'AI, c'est l'équipe Caresse qui a écrit, testé et affiné les prompts. Vous ne devez pas savoir comment parler à l'IA. Vous configurez votre profil intime ; l'équipe a déjà fait le reste du travail."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "verdict",
+        "id": "verdict"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Le verdict en un coup d'œil"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs InTheMoment, l'angle AI."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "verdict-table-wrap"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "verdict-table"
+              },
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critère</th>\n                        <th>Caresse</th>\n                        <th>InTheMoment</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Démo audio sans compte</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, des démos jouables tout de suite</td>\n                        <td class=\"other\">Inscription requise pour démarrer</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Création de compte requise</th>\n                        <td class=\"caresse\"><span class=\"no\">Jamais</span> : usage 100 % anonyme, paiement compris</td>\n                        <td class=\"other\">Compte requis</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Cas d'usage</th>\n                        <td class=\"caresse\">Audio intime guidé (couple et solo)</td>\n                        <td class=\"other\">Méditation et hypnose personnalisées</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Approche AI</th>\n                        <td class=\"caresse\">Prompts curatés par l'équipe, pipeline multi-phases</td>\n                        <td class=\"other\">Génération ouverte à partir de la description utilisateur</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Pilotage de la session</th>\n                        <td class=\"caresse\">Configuration de profil intime (genres, prénoms, pratiques, intensité…)</td>\n                        <td class=\"other\">Conversation libre + sélection voix/posture/technique</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Prénoms prononcés</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span></td>\n                        <td class=\"other\">Non documenté</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Durée</th>\n                        <td class=\"caresse\">Variable selon la génération ; ce n’est pas un réglage</td>\n                        <td class=\"other\">Jusqu'à 20 min en gratuit, 45 min en Pro</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modèle économique</th>\n                        <td class=\"caresse\">Achat à la session, sans abonnement</td>\n                        <td class=\"other\">Plan gratuit + Pro à 8,99–9,99 €/mois</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Langues audio</th>\n                        <td class=\"caresse\">Français, anglais, espagnol et portugais (interface PT sur Android ; mise à jour iOS en attente de validation)</td>\n                        <td class=\"other\">Anglais (gratuit), 9 langues (Pro)</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Contenu</th>\n                        <td class=\"caresse\">Intime adulte 18+</td>\n                        <td class=\"other\">Bien-être / mindfulness</td>\n                    </tr>\n                </tbody>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group",
+            "style": "margin-top:32px"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "inline",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "Télécharger l’app gratuitement"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "columns"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Le détail"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Deux philosophies de pilotage de l'AI."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Le générateur, c'est l'IA. Le différenciateur, c'est qui écrit le prompt."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "columns-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card highlight"
+              },
+              "html": "\n                <p class=\"col-sub\">Caresse</p>\n                <h3>Écoutez sans rien donner. L'équipe a déjà fait le travail.</h3>\n                <p>Avant même de songer à payer, vous avez accès à des démos audio pré-générées, en français, anglais et espagnol. Pas d'inscription, pas d'email, pas de compte. Vous entendez tout de suite la qualité sonore, le grain de voix et les niveaux d'intensité.</p>\n                <p>Sur l'approche AI elle-même, Caresse part d'un constat simple : sur un terrain aussi délicat que l'intime, vous n'avez pas envie d'avoir à formuler à l'AI ce que vous voulez. Le travail d'ingénierie de prompt est donc fait en amont par l'équipe Caresse. Chaque phase du pipeline (mise en place, immersion, premières caresses, exploration, montée en intensité, polissage) a son prompt dédié, testé et affiné. Vous, vous configurez juste votre profil, comme on remplit un formulaire confidentiel. Le pipeline fait le reste. Et toute l'app reste anonyme, y compris le paiement.</p>\n                <ul>\n                    <li>Démos audio gratuites, sans aucune inscription (FR · EN · ES)</li>\n                    <li>Usage 100 % anonyme, aucune création de compte, paiement compris</li>\n                    <li>Prompts écrits et affinés par l'équipe éditoriale Caresse</li>\n                    <li>Pipeline multi-phases pour garantir le rythme narratif</li>\n                    <li>Configuration par formulaire (pas de chat à formuler)</li>\n                    <li>La durée varie selon la génération ; ce n’est pas un réglage</li>\n                    <li>Voix synthétisée par TTS premium</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card muted"
+              },
+              "html": "\n                <p class=\"col-sub\">InTheMoment</p>\n                <h3>L'utilisateur décrit, l'AI choisit la technique.</h3>\n                <p>InTheMoment adopte l'approche AI moderne : vous décrivez votre situation à l'IA en quelques mots, elle pioche dans un large catalogue de techniques établies de méditation et d'hypnose, puis génère une session adaptée. Vous pouvez configurer la voix, la longueur, la posture, la technique préférée.</p>\n                <p>C'est efficace, et le garde-fou « pioche dans des techniques établies » évite que l'AI parte en roue libre. C'est conçu pour un cas d'usage différent du nôtre (le bien-être individuel), où la conversation libre fait sens.</p>\n                <ul>\n                    <li>Génération depuis description utilisateur</li>\n                    <li>Catalogue de techniques de méditation/hypnose</li>\n                    <li>Configuration voix, posture, technique</li>\n                    <li>Plan gratuit (2 sessions/jour) + Pro</li>\n                    <li>9 langues sur le plan Pro</li>\n                </ul>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "quality"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Pourquoi ça change tout"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "L'AI sans prompt curaté, c'est correct. Avec, c'est juste."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Sur l'intime, la différence entre « correct » et « juste » c'est tout."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "quality-card"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h3",
+              "attrs": {},
+              "html": "Le pipeline Caresse en 6 phases"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Une session Caresse n'est pas générée d'un seul tenant. Elle passe par six phases successives, chacune avec son prompt dédié, écrit pour son rôle dans l'arc narratif : mettre en place, immerger, ouvrir, explorer, monter en intensité, polir. Chaque prompt est versionné, testé, affiné, avec des variantes spécifiques au mode duo et au mode solo."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Pourquoi ce niveau de soin ? Parce que sur le terrain de l'intime, un prompt générique produit une narration plate, sans rythme, qui sort de la scène au lieu de vous y plonger. L'équipe Caresse a passé des mois à ajuster la chaleur de la voix, la cadence, le moment exact où l'intensité monte. Vous ne voyez rien de cette mécanique : vous vivez juste une session qui sonne juste."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "phases"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "vs-inthemoment.fr/0792"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "vs-inthemoment.fr/0793"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "vs-inthemoment.fr/0794"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "vs-inthemoment.fr/0795"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "vs-inthemoment.fr/0796"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "vs-inthemoment.fr/0797"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "pricing"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Tarification"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "À la session vs plan mensuel."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Deux modèles différents pour deux cas d'usage différents."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "pricing-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card highlight"
+              },
+              "html": "\n                <h3>Caresse</h3>\n                <p class=\"price-big\">À la session</p>\n                <p class=\"price-note\" style=\"margin-bottom:14px;\">Téléchargement et démos gratuits. Les sessions personnalisées utilisent des crédits payants, sans abonnement.</p>\n                <p class=\"price-note\" style=\"margin-top:16px;font-size:0.85rem;\">Montants en euros donnés à titre indicatif. Les prix peuvent varier selon le pays et le store ; vérifiez le montant affiché dans l’app avant achat.</p>\n                <div style=\"display:flex;flex-direction:column;gap:8px;text-align:left;border-top:1px solid rgba(255,255,255,0.25);padding-top:14px;\">\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>1 expérience</span>\n                        <strong>1,99 €</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>3 expériences</span>\n                        <strong>5,49 €</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>5 expériences</span>\n                        <strong>7,99 €</strong>\n                    </div>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:12px;font-size:0.82rem;opacity:0.85;\">Une fois générée, chaque expérience est disponible à vie sur votre compte et dans l'app.</p>\n                <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.85rem;margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,0.25);\">\n                    <span>Exploration sans limites (achat unique, à vie)</span>\n                    <strong>9,99 €</strong>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:6px;font-size:0.78rem;opacity:0.8;\">Débloque les options de personnalisation avancées + 1 crédit offert.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card"
+              },
+              "html": "\n                <h3>InTheMoment</h3>\n                <p class=\"price-big\">Gratuit / Pro 8,99–9,99 €/mois</p>\n                <p class=\"price-note\">Plan gratuit (2 sessions/jour, stockage 60 jours). Plan Pro (5 sessions/jour, stockage illimité, hors-ligne, 9 langues). Tarif relevé le 17 août 2026 sur la fiche App Store française.</p>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "pricing-footnote"
+          },
+          "html": "Tarifs relevés le 17 août 2026 sur les fiches App Store françaises. "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "choose"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Comment choisir"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Honnêtement, qui devrait choisir quoi ?"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Le bon réflexe : choisir l'app qui correspond à votre besoin, pas à votre app AI préférée."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "choose-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card us"
+              },
+              "html": "\n                <h3>Choisissez Caresse si vous voulez…</h3>\n                <ul>\n                    <li>écouter de vraies démos audio avant de payer, sans créer de compte</li>\n                    <li>utiliser l'app totalement anonymement, sans inscription d'aucune sorte</li>\n                    <li>une expérience audio intime (couple ou solo)</li>\n                    <li>que la voix vous appelle par votre prénom</li>\n                    <li>la garantie qu'un·e expert·e a écrit le prompt avant vous</li>\n                    <li>configurer votre profil intime plutôt que parler à un chat</li>\n                    <li>payer à la session plutôt qu'un abonnement mensuel</li>\n                    <li>écouter des sessions générées en français, anglais, espagnol ou portugais (interface PT sur Android ; mise à jour iOS en attente de validation)</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card them"
+              },
+              "html": "\n                <h3>Choisissez InTheMoment si vous voulez…</h3>\n                <ul>\n                    <li>une app de méditation ou d'hypnose AI personnalisée</li>\n                    <li>du contenu de bien-être individuel, pas intime</li>\n                    <li>décrire librement votre situation à l'AI</li>\n                    <li>jusqu'à 9 langues sur le plan Pro</li>\n                    <li>un format d'abonnement mensuel</li>\n                </ul>\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub",
+            "style": "margin-top:24px;"
+          },
+          "html": "Vous cherchez plutôt un catalogue pré-enregistré et curé, français ou anglais ? Comparez avec <a href=\"/vs-melba/\">Melba</a> ou <a href=\"/vs-coelle/\">Coelle</a>."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Questions fréquentes"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse vs InTheMoment, vos questions."
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Puis-je écouter Caresse avant de payer, sans créer de compte ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Oui. Caresse propose des démos audio pré-générées, en français, en anglais et en espagnol, jouables immédiatement sans inscription, sans email, sans compte. Le mode anonyme ne demande pas de compte Caresse ; les achats passent par votre compte Apple ou Google. C'est une différence majeure avec InTheMoment et la quasi-totalité des concurrents qui exigent la création d'un compte."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Caresse et InTheMoment, est-ce le même cas d'usage ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Non. InTheMoment est une app de méditation et d'hypnose personnalisées par l'IA. Caresse est une app d'audio intime guidé pour les couples et l'exploration solo. Cette page ne compare pas les cas d'usage : elle compare l'approche AI des deux apps, parce que c'est la dimension dans laquelle on est légitime à se positionner."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Pourquoi Caresse parle de « prompts curatés » ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Parce que la génération AI sans direction éditoriale produit du contenu correct mais générique. Chaque session Caresse passe par un pipeline en plusieurs phases (mise en place, immersion, premières caresses, exploration, montée en intensité, polissage) dont les prompts sont écrits, testés et affinés par l'équipe Caresse. Ce sont ces prompts qui garantissent le rythme, la chaleur de la voix, la cohérence narrative. C'est la même différence qu'entre un texte généré par IA tel quel et un texte généré par un·e expert·e qui sait comment piloter l'IA."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Caresse personnalise-t-il autant qu'InTheMoment ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse personnalise davantage sur sa dimension intime : prénoms prononcés dans l'audio, durée variable selon la génération, genres des participants, pratiques, accessoires, intensité, niveau de dirty-talk, lieu, ambiance. InTheMoment personnalise sur sa dimension méditation/hypnose : voix, technique, posture, longueur, langue (9 langues sur le plan Pro)."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Caresse fonctionne-t-il avec abonnement comme InTheMoment ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Non, Caresse fonctionne à la session. InTheMoment propose un plan gratuit (2 sessions/jour) et un plan Pro à 8,99–9,99 €/mois (relevé le 17 août 2026 sur la fiche App Store française). Caresse n'a pas d'abonnement mensuel : vous payez la session quand vous voulez la vivre."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Caresse est-il disponible en plusieurs langues comme InTheMoment ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse génère des sessions audio en français, anglais, espagnol et portugais. L’interface portugaise est disponible sur Android ; la mise à jour iOS est en attente de validation. Les démos gratuites sont en français, anglais et espagnol. InTheMoment couvre 9 langues sur son plan Pro (allemand, français, italien, espagnol, arabe, polonais, néerlandais, etc.), mais sur un cas d'usage différent (méditation, pas intime)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Prêt·e·s à essayer ?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Écoutez d'abord.<br>Décidez ensuite."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Téléchargez Caresse gratuitement. Accédez immédiatement aux démos audio en français, anglais et espagnol, sans inscription, sans compte, sans email. Vous payez uniquement si vous voulez une session sur-mesure."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR",
+                "class": "store-badge",
+                "aria-label": "Download on the App Store",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Download on the App Store\">\n                \n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Get it on Google Play",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Get it on Google Play\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Réservé aux adultes de 18 ans et plus"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Autres comparaisons"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Explorez le paysage des alternatives."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "related-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-dipsea/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Dipsea</p>\n                <p class=\"desc\">Catalogue de stories en anglais vs scénario généré, multilingue.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-melba/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Melba</p>\n                <p class=\"desc\">Catalogue francophone pré-enregistré vs scénario unique avec prénoms.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-coelle/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Coelle</p>\n                <p class=\"desc\">Library guidée internationale vs scénario unique avec prénoms.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-melt/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs Melt</p>\n                <p class=\"desc\">Audio personnalisé avec prénoms vs générateur de texte érotique.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/alternatives/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🧭</div>\n                <p class=\"ttl\">Toutes les alternatives</p>\n                <p class=\"desc\">Le paysage complet : Melba, Coelle, Dipsea, Ferly, Bloom Stories.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/for-couples/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">💞</div>\n                <p class=\"ttl\">Caresse pour les couples</p>\n                <p class=\"desc\">Comment Caresse aide les couples à ralentir et se reconnecter.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/is-caresse-safe/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🔒</div>\n                <p class=\"ttl\">Caresse est-il sûr ?</p>\n                <p class=\"desc\">Confidentialité, données, IA : tout est expliqué clairement.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-magicwave/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse vs MagicWave</p>\n                <p class=\"desc\">Audiobooks à casting complet, anglais uniquement vs scénario généré, multilingue.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/vs-bonded/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse vs Bonded</p><p class=\"desc\">Chat écrit qui attend vos réponses, vs audio qui se déroule seul.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.fr.logo",
+        "footer-1908c9d33a4bfa5c",
+        "footer.fr.links",
+        "footer-c18220e05a34e590",
+        "footer.fr.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}
