@@ -54,7 +54,7 @@ def check_page(tab, base, data, profile, width, errors):
     # The download router intentionally has no header, as in its reference.
     if data["family"] != "download":
         assert tab.locator('a[hreflang="de"][aria-current="page"]').count() == 1, path
-    assert not tab.evaluate("document.documentElement.scrollWidth > innerWidth"), (
+    assert not tab.evaluate("document.documentElement.scrollWidth > document.documentElement.clientWidth"), (
         path, profile, "horizontal overflow"
     )
     assert not errors, (path, profile, errors)

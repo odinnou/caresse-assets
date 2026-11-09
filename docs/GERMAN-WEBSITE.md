@@ -12,7 +12,8 @@ téléchargement hors sitemap.
 Chaque fichier `src/content/pages/*.de.json` indique sa référence dans
 `translationSource`. Il reprend la composition propre à cette page : layout,
 sections, cartes, tableaux complets, FAQ, liens, médias et scripts. Les styles sont
-ceux de la référence. L’accueil conserve notamment son carrousel, ses quatre étapes,
+ceux de la référence. Une règle de retour à la ligne permet aux mots allemands longs
+de tenir dans les petits écrans ; le sélecteur reste compact sur mobile. L’accueil conserve notamment son carrousel, ses quatre étapes,
 sa vidéo et ses sections de découverte. La page des alternatives conserve ses
 comparaisons et sa matrice. Les articles, comparatifs, démos, pages saisonnières,
 le support et les textes légaux conservent également leurs présentations distinctes.

@@ -1,0 +1,2 @@
+/* German compounds can otherwise widen the mobile layout viewport. */
+body.lang-de { overflow-wrap: anywhere; }
