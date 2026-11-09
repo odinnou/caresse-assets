@@ -67,6 +67,9 @@ Le workflow `.github/workflows/pages.yml` vérifie les PR. Sur `main_v2`, il pub
 
 Procédure d’édition et protocole avant/après : [docs/ASTRO-MIGRATION.md](docs/ASTRO-MIGRATION.md).
 
+Analyse de visibilité dans les réponses IA, constats vérifiés et plan de mesure :
+[analyse GEO du 9 novembre 2026](docs/ANALYSE-GEO-2026-11-09.md).
+
 ## Acquisition saisonnière
 
 [Calendrier Noël 2026 / Saint-Valentin 2027](SEO-CALENDRIER-SAISONNIER-2026-2027.md) : intentions des quatre pages, variantes de recherche, étapes de publication et d’indexation, calendrier de diffusion, sept brouillons de publications et mesure des clics vers les stores. Conserver les URL saisonnières sans année pour les enrichir au fil des saisons.
