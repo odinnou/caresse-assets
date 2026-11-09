@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-11-09T20:14:14+00:00",
+  "http_requests": 66,
+  "all_200": true,
+  "de_pages": 54,
+  "de_indexable": 49,
+  "sitemap_urls": 245,
+  "sitemap_de": 49,
+  "tables": 20,
+  "table_rows": 181,
+  "table_cells": 589,
+  "faq_questions": 257,
+  "reachable_de": 54,
+  "own_ios_links": 122,
+  "matched_local": 54,
+  "issues": [],
+  "source_reference": "68acc59ed8d182438b96c15bcb5b2245679d62e9",
+  "method": "HTML statique via un user-agent audit identifie, sans execution JS ni simulation IP de robots",
+  "faq_exact_text_matches_after_normalization": 256,
+  "faq_paraphrases_to_review": [
+    {
+      "path": "/de/weihnachten-zu-zweit/",
+      "question": "Welches Paarspiel passt in die Weihnachtszeit?",
+      "meaning": "Les deux textes evoquent un jeu ou une demo Caresse, avec generation personnelle payante ; formulations differentes, pas de contradiction produit identifiee."
+    }
+  ],
+  "assets_match_source": {
+    "robots.txt": true,
+    "llms.txt": true
+  }
+}
