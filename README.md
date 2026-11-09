@@ -10,6 +10,8 @@ Caresse est une application mobile (iOS/Android) proposant des expériences audi
 
 Astro génère les 226 pages historiques en FR/EN/ES/PT : pages éditoriales, comparatifs, démos, pages saisonnières, support, téléchargement, documents légaux et anciennes URL de démos. Les assets restent dans `public/`.
 
+La version allemande ajoute 54 pages sous `/de/`, dont 49 au sitemap. Elle réutilise les composants Astro et les contenus versionnés ; l’application et ses audios ne sont pas traduits en allemand. Voir [le guide allemand](docs/GERMAN-WEBSITE.md).
+
 - `src/content/pages/` — données éditables : SEO, blocs, FAQ et références de contenu
 - `src/content/blocks/` — contenus propres aux pages : Markdown et fragments HTML conservés
 - `src/content/scripts/` — scripts historiques partagés, injectés sans transformation
@@ -48,6 +50,7 @@ Node 24 est utilisé dans la CI. Installer les dépendances avec `npm ci`, puis 
 npm run dev          # prévisualisation locale seulement
 npm test             # contenu, création de pages et attribution Umami
 npm run build        # validation des sources puis génération de dist/
+npm run test:i18n    # liens, langues, SEO et médias du HTML généré
 npm run preview      # prévisualisation du résultat statique
 ```
 
@@ -63,6 +66,9 @@ La commande crée des contenus indépendants et met à jour les traductions et l
 Le workflow `.github/workflows/pages.yml` vérifie les PR. Sur `main_v2`, il publie uniquement `dist/` après les contrôles. La source de GitHub Pages doit être **GitHub Actions**. Le domaine reste `caresse.app` (`public/CNAME`).
 
 Procédure d’édition et protocole avant/après : [docs/ASTRO-MIGRATION.md](docs/ASTRO-MIGRATION.md).
+
+Analyse de visibilité dans les réponses IA, constats vérifiés et plan de mesure :
+[analyse GEO du 9 novembre 2026](docs/ANALYSE-GEO-2026-11-09.md).
 
 ## Acquisition saisonnière
 

@@ -1,5 +1,10 @@
 # Audit SEO / GEO — caresse.app
 
+> Pour l’état vérifié au 9 novembre et les priorités actuelles, lire
+> [l’analyse GEO du 9 novembre](docs/ANALYSE-GEO-2026-11-09.md).
+> Les diagnostics et recommandations ci-dessous restent un historique d’août,
+> et non un score GEO actuel ni une liste de prérequis des moteurs IA.
+
 > **Photo au 2026-08-08** — État constaté sur la branche `main_v2` au commit `c6d7bcb` (`feat(melt): optimize alternative page (#37)`).
 > Site live : https://caresse.app (GitHub Pages, `CNAME` → `caresse.app`).
 >

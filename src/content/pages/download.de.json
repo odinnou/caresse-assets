@@ -1,0 +1,232 @@
+{
+  "id": "download.de",
+  "family": "download",
+  "locale": "de",
+  "path": "/de/download/",
+  "kind": "page",
+  "sitemap": false,
+  "htmlAttrs": {
+    "lang": "de",
+    "data-analytics-variant": "download-router-oct23-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-de"
+  },
+  "title": "Caresse herunterladen – Für iOS und Android",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Lade Caresse für iOS oder Android herunter. Kostenlose Demos, persönliche Sessions mit Credits, ohne Abo. Die App ist derzeit nicht auf Deutsch verfügbar."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse herunterladen – Für iOS und Android"
+    },
+    {
+      "property": "og:description",
+      "content": "Lade Caresse für iOS oder Android herunter. Kostenlose Demos, persönliche Sessions mit Credits, ohne Abo. Die App ist derzeit nicht auf Deutsch verfügbar."
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/download/"
+    },
+    {
+      "property": "og:locale",
+      "content": "de_DE"
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse herunterladen – Für iOS und Android"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Lade Caresse für iOS oder Android herunter. Kostenlose Demos, persönliche Sessions mit Credits, ohne Abo. Die App ist derzeit nicht auf Deutsch verfügbar."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1536"
+    },
+    {
+      "property": "og:image:height",
+      "content": "1024"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://caresse.app/de/download/#webpage",
+      "url": "https://caresse.app/de/download/",
+      "name": "Caresse herunterladen – Für iOS und Android",
+      "description": "Lade Caresse für iOS oder Android herunter. Kostenlose Demos, persönliche Sessions mit Credits, ohne Abo. Die App ist derzeit nicht auf Deutsch verfügbar.",
+      "inLanguage": "de",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      }
+    }
+  ],
+  "styles": [
+    "couples-bc626485.css",
+    "localized-content.css"
+  ],
+  "headScripts": [
+    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
+    "<script defer src=\"/umami-store-tracking.js\"></script>",
+    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  ],
+  "blocks": [
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "id": "main-content"
+      },
+      "blocks": [
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero localized-hero"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-eyebrow"
+              },
+              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+            },
+            {
+              "tag": "h1",
+              "attrs": {},
+              "html": "Caresse herunterladen – Für iOS und Android"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Lade Caresse für iOS oder Android herunter. Kostenlose Demos, persönliche Sessions mit Credits, ohne Abo. Die App ist derzeit nicht auf Deutsch verfügbar."
+            }
+          ]
+        },
+        {
+          "type": "html",
+          "file": "shared.de/languages"
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "localized-content"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group"
+              },
+              "html": "<a id=\"ios-link\" href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" target=\"_blank\" rel=\"noopener\" class=\"cta-pink\">Im App Store herunterladen</a><a id=\"android-link\" href=\"https://play.google.com/store/apps/details?id=studio.mokuton.caresse\" target=\"_blank\" rel=\"noopener\" class=\"cta-pink\">Bei Google Play herunterladen</a>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "localized-content"
+          },
+          "blocks": [
+            {
+              "type": "markdown",
+              "file": "download.de/00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "header": "header.de",
+  "footer": [
+    "footer.de.navigation",
+    "footer.de.legal",
+    "footer.de.copy"
+  ],
+  "footerAttrs": {},
+  "scripts": [
+    "<script defer src=\"/download-store-router.js\"></script>"
+  ]
+}

@@ -1,0 +1,25 @@
+id,locale,cadence,type,question,page_cible,point_a_verifier
+FR01,fr,hebdomadaire,decouverte,Quelle application propose des expériences audio personnalisées pour un couple sans abonnement ?,/for-couples/,Génération payante par crédits ; pas de confusion avec un abonnement.
+FR02,fr,mensuel,decouverte,Existe-t-il une application audio à essayer sans créer de compte avec mon email ?,/demo/,Démos fixes gratuites ; anonymat Caresse distinct du compte store.
+FR03,fr,hebdomadaire,comparaison,Quelle alternative à Dipsea permet de créer un audio avec les prénoms du couple ?,/vs-dipsea/,Différence entre catalogue enregistré et génération ; voix synthétique.
+FR04,fr,mensuel,decouverte,Comment trouver un jeu pour couple où une voix guide la session sans cartes à lire ?,/couples-game/,Format audio ; pas de points ni de cartes imposées pendant la session.
+FR05,fr,mensuel,decouverte,Quelles applications audio expliquent clairement comment les préférences personnelles sont utilisées ?,/is-caresse-safe/,Pas de promesse de traitement intégralement local ni d’absence totale de données.
+FR06,fr,mensuel,decouverte,Quelle expérience audio pourrait accompagner une soirée à deux à la maison ?,/soiree-romantique-maison/,Pertinence du format et absence de garantie sur les effets relationnels.
+FR07,fr,mensuel,fidelite,Caresse est-il gratuit ou faut-il payer un abonnement ?,/tarifs/,Démos gratuites ; crédits pour générer ; déblocage/options distinctes.
+FR08,fr,hebdomadaire,fidelite,Dans quelles langues peut-on écouter Caresse et existe-t-il des audios en allemand ?,/,Audio FR/EN/ES/PT ; site DE distinct de l’app et des démos.
+EN01,en,hebdomadaire,decouverte,Which apps create personalized guided audio for couples without a subscription?,/en/for-couples/,Credits for personalized generation ; no subscription claim qualified by paid sessions.
+EN02,en,mensuel,decouverte,Can I try a guided audio app without giving it my email address?,/en/demo/,Fixed demos ; Caresse guest use distinguished from Apple or Google purchases.
+EN03,en,hebdomadaire,comparaison,Is there a Dipsea alternative that uses our chosen names in generated audio?,/en/vs-dipsea/,Generated fiction versus recorded catalogue ; synthetic voice.
+EN04,en,mensuel,decouverte,What couples game can we listen to without reading cards during the session?,/en/couples-game/,Narrated session ; not a scored dare game.
+EN05,en,mensuel,decouverte,Which audio apps clearly explain how they handle personal preferences and AI providers?,/en/is-caresse-safe/,Actual data processing ; no invented privacy guarantees.
+EN06,en,mensuel,decouverte,What audio experience could we try together for a quiet date night at home?,/en/romantic-date-night-at-home/,Product fit ; no guaranteed relationship outcome.
+EN07,en,mensuel,fidelite,Is Caresse free and does its one-time unlock include unlimited sessions?,/en/pricing/,Free demos ; paid credits ; optional unlock does not include unlimited generation.
+EN08,en,hebdomadaire,fidelite,Does the German Caresse website mean the app offers German audio?,/de/,German website only ; German pages are not proof of German audio.
+DE01,de,hebdomadaire,decouverte,Welche Apps erstellen persönliche Audioerlebnisse für Paare ohne Abonnement?,/de/fuer-paare/,Audioangebot und tatsächlich unterstützte Sprachen getrennt betrachten.
+DE02,de,mensuel,decouverte,Welche Audio-Apps für Paare bieten deutschsprachige Aufnahmen?,/de/,Caresse darf nicht als Anbieter deutscher Audios dargestellt werden.
+DE03,de,mensuel,comparaison,Gibt es eine Alternative zu Dipsea mit den gewählten Namen in einer generierten Audiosession?,/de/vs-dipsea/,Katalog oder Generierung ; synthetische Stimme ; kein deutsches Audio.
+DE04,de,mensuel,decouverte,Welches Paarspiel begleitet uns mit einer Stimme ohne Kartenlesen während der Session?,/de/paarspiel/,Audiofiktion und fortlaufende freie Entscheidung.
+DE05,de,mensuel,decouverte,Welche Audio-App erklärt die Nutzung persönlicher Einstellungen durch KI-Dienstleister?,/de/datenschutz-und-sicherheit/,Keine unbelegten Aussagen über lokale Verarbeitung oder vollständige Datenfreiheit.
+DE06,de,mensuel,decouverte,Welche Audioerfahrung passt zu einem ruhigen Abend zu zweit zu Hause?,/de/romantischer-abend-zu-hause/,Sprachliche Eignung ; keine Wirkungszusage.
+DE07,de,mensuel,fidelite,Ist Caresse kostenlos und bedeutet eine einmalige Freischaltung unbegrenzte Sessions?,/de/preise/,Kostenlose feste Demos ; Credits ; keine unbegrenzte Generierung.
+DE08,de,hebdomadaire,fidelite,Gibt es Caresse auf Deutsch und welche Sprache sprechen die Hörproben?,/de/demo/,Website auf Deutsch ; auf den deutschen Seiten englische Aufnahmen ; weitere FR/ES-Versionen.
