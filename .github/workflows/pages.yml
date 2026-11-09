@@ -31,6 +31,7 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - run: npm run test:i18n
       - run: npm run test:parity
         if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
       - uses: actions/setup-python@v5

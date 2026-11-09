@@ -1,0 +1,190 @@
+{
+  "id": "legal-cgu.de",
+  "family": "legal-cgu",
+  "locale": "de",
+  "path": "/de/rechtliches/nutzungsbedingungen/",
+  "kind": "legal",
+  "sitemap": false,
+  "htmlAttrs": {
+    "lang": "de",
+    "data-analytics-variant": "legal-cgu-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-de"
+  },
+  "title": "Nutzungsbedingungen – Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Nutzungsbedingungen der Caresse-App: Dienst, KI-generierte Inhalte, Verantwortung, Käufe und personenbezogene Daten."
+    },
+    {
+      "name": "robots",
+      "content": "noindex, nofollow"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Nutzungsbedingungen – Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Nutzungsbedingungen der Caresse-App: Dienst, KI-generierte Inhalte, Verantwortung, Käufe und personenbezogene Daten."
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/rechtliches/nutzungsbedingungen/"
+    },
+    {
+      "property": "og:locale",
+      "content": "de_DE"
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Nutzungsbedingungen – Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Nutzungsbedingungen der Caresse-App: Dienst, KI-generierte Inhalte, Verantwortung, Käufe und personenbezogene Daten."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1536"
+    },
+    {
+      "property": "og:image:height",
+      "content": "1024"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [],
+  "styles": [
+    "couples-bc626485.css",
+    "localized-content.css"
+  ],
+  "headScripts": [],
+  "blocks": [
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "id": "main-content"
+      },
+      "blocks": [
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero localized-hero"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-eyebrow"
+              },
+              "html": "Caresse · Rechtliche Informationen"
+            },
+            {
+              "tag": "h1",
+              "attrs": {},
+              "html": "Nutzungsbedingungen – Caresse"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Nutzungsbedingungen der Caresse-App: Dienst, KI-generierte Inhalte, Verantwortung, Käufe und personenbezogene Daten."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "localized-content"
+          },
+          "blocks": [
+            {
+              "type": "markdown",
+              "file": "legal-cgu.de/00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "header": "header.de",
+  "footer": [
+    "footer.de.navigation",
+    "footer.de.legal",
+    "footer.de.copy"
+  ],
+  "footerAttrs": {},
+  "scripts": []
+}

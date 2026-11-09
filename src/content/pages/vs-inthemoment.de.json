@@ -1,0 +1,318 @@
+{
+  "id": "vs-inthemoment.de",
+  "family": "vs-inthemoment",
+  "locale": "de",
+  "path": "/de/vs-inthemoment/",
+  "kind": "page",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "de",
+    "data-analytics-variant": "comparison-cta-v1-seo-consistency-oct23-v1-seo-consistency-oct31-v1"
+  },
+  "bodyAttrs": {
+    "class": "lang-de"
+  },
+  "title": "Caresse und InTheMoment im Vergleich – Format, Nutzung und Preise",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Vergleiche Caresse und InTheMoment: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Caresse und InTheMoment im Vergleich – Format, Nutzung und Preise"
+    },
+    {
+      "property": "og:description",
+      "content": "Vergleiche Caresse und InTheMoment: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/vs-inthemoment/"
+    },
+    {
+      "property": "og:locale",
+      "content": "de_DE"
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Caresse und InTheMoment im Vergleich – Format, Nutzung und Preise"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Vergleiche Caresse und InTheMoment: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1536"
+    },
+    {
+      "property": "og:image:height",
+      "content": "1024"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://caresse.app/de/vs-inthemoment/#webpage",
+      "url": "https://caresse.app/de/vs-inthemoment/",
+      "name": "Caresse und InTheMoment im Vergleich – Format, Nutzung und Preise",
+      "description": "Vergleiche Caresse und InTheMoment: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo.",
+      "inLanguage": "de",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    }
+  ],
+  "styles": [
+    "couples-bc626485.css",
+    "localized-content.css"
+  ],
+  "headScripts": [
+    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
+    "<script defer src=\"/umami-store-tracking.js\"></script>",
+    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  ],
+  "blocks": [
+    {
+      "type": "container",
+      "tag": "main",
+      "attrs": {
+        "id": "main-content"
+      },
+      "blocks": [
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "hero localized-hero"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-eyebrow"
+              },
+              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+            },
+            {
+              "tag": "h1",
+              "attrs": {},
+              "html": "Caresse und InTheMoment im Vergleich – Format, Nutzung und Preise"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Vergleiche Caresse und InTheMoment: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group"
+              },
+              "links": [
+                {
+                  "store": "ios",
+                  "attrs": {
+                    "id": "hero-cta",
+                    "class": "cta-pink",
+                    "data-store-auto": true,
+                    "data-cta-position": "hero",
+                    "target": "_blank",
+                    "rel": "noopener"
+                  },
+                  "html": "Caresse kostenlos herunterladen"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "html",
+          "file": "shared.de/languages"
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "localized-content"
+          },
+          "blocks": [
+            {
+              "type": "markdown",
+              "file": "vs-inthemoment.de/00"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "localized-content"
+          },
+          "blocks": [
+            {
+              "type": "markdown",
+              "file": "shared.de/comparison"
+            }
+          ]
+        },
+        {
+          "type": "faq",
+          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
+          "suffix": "</section>",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Gibt es deutsche Audios in der App?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "html",
+          "file": "shared.de/store-cta"
+        }
+      ]
+    }
+  ],
+  "header": "header.de",
+  "footer": [
+    "footer.de.navigation",
+    "footer.de.legal",
+    "footer.de.copy"
+  ],
+  "footerAttrs": {},
+  "scripts": []
+}

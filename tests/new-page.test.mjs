@@ -14,10 +14,11 @@ test('adding a page and translation updates routing/sitemap and keeps copied con
   const before = validateContent(root).length;
   createPage({ root, family: 'new-occasion', locale: 'fr', path: '/nouvelle-occasion/', from: 'couples.fr' });
   createPage({ root, family: 'new-occasion', locale: 'en', path: '/en/new-occasion/', from: 'couples.en' });
-  assert.equal(validateContent(root).length, before + 2);
+  createPage({ root, family: 'new-occasion', locale: 'de', path: '/de/neuer-anlass/', from: 'couples.de' });
+  assert.equal(validateContent(root).length, before + 3);
   const routes = JSON.parse(readFileSync(join(root, 'src/data/routes.json')));
   assert.deepEqual(routes['new-occasion'].fr.alternates, {
-    fr: '/nouvelle-occasion/', en: '/en/new-occasion/', 'x-default': '/nouvelle-occasion/',
+    fr: '/nouvelle-occasion/', en: '/en/new-occasion/', de: '/de/neuer-anlass/', 'x-default': '/nouvelle-occasion/',
   });
   const page = JSON.parse(readFileSync(join(root, 'src/content/pages/new-occasion.fr.json')));
   assert.equal(page.meta.find((meta) => meta.property === 'og:url').content, 'https://caresse.app/nouvelle-occasion/');

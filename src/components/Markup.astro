@@ -1,5 +1,6 @@
 ---
 // Preserve each navigation variant while resolving translated links centrally.
+import { languageLinks } from '../lib/languages.mjs';
 const { nodes, alternates = {} } = Astro.props;
 ---
 {nodes.map((node) => {
@@ -7,7 +8,10 @@ const { nodes, alternates = {} } = Astro.props;
   if (!node.tag) return <Fragment set:html={node.html} />;
   const Tag = node.tag;
   const attrs = node.language ? { ...node.attrs, href: alternates[node.language] } : node.attrs;
+  const children = node.attrs?.class?.split(/\s+/).includes('lang-toggle')
+    ? languageLinks(node.children ?? [], alternates, (link) => link.language ?? link.attrs?.hreflang)
+    : node.children;
   return node.children
-    ? <Tag {...attrs}><Astro.self nodes={node.children} alternates={alternates} /></Tag>
+    ? <Tag {...attrs}><Astro.self nodes={children} alternates={alternates} /></Tag>
     : <Tag {...attrs} set:html={node.html} />;
 })}

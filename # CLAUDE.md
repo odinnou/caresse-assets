@@ -181,9 +181,13 @@ Points à synchroniser systématiquement :
 - **JSON-LD** (`FAQPage`, `WebPage`, `SoftwareApplication`, etc.) — traduire les champs `name`, `description`, `text` des Q&A, etc.
 - **Liens internes** — les pages FR linkent vers `/for-*/`, les pages EN vers `/en/for-*/`
 - **Images screens** — les pages FR utilisent `screens/fr/*`, les pages EN `screens/en/*`
-- **hreflang** — chaque page doit avoir 3 `<link rel="alternate" hreflang>` (`fr` vers la FR, `en` vers la EN, `x-default` vers la FR)
+- **hreflang** — utiliser les traductions réellement disponibles dans `src/data/routes.json` (FR/EN/ES/PT/DE et le `x-default` existant), avec des liens réciproques ; les slugs peuvent différer
 - **canonical** — chaque page pointe vers sa propre URL
-- **Sitemap** — `sitemap.xml` contient les 14 URLs (7 FR + 7 EN) avec leurs hreflang croisés
+- **Sitemap** — inclure toutes les URL indexables et leurs hreflang croisés, en préservant les exclusions des documents légaux et des pages de téléchargement
+
+L’allemand est disponible sur le site sous `/de/`, pas dans l’application ni les
+audios. Voir `docs/GERMAN-WEBSITE.md` pour les contenus, les correspondances de
+routes, les relectures attendues et les contrôles.
 
 ### Toggle de langue
 

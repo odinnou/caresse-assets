@@ -2,13 +2,14 @@ import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readInventory, writeInventory } from './sitemap-inventory.mjs';
+import languages from '../src/data/languages.json' with { type: 'json' };
 
 const read = (file) => JSON.parse(readFileSync(file, 'utf8'));
 const write = (file, data) => writeFileSync(file, JSON.stringify(data, null, 2) + '\n');
 
 export function createPage({ root = process.cwd(), family, locale, path, from }) {
-  if (!/^[a-z0-9-]+$/.test(family ?? '') || !['fr', 'en', 'es', 'pt'].includes(locale) || !/^\/(?:[a-z0-9-]+\/)+$/.test(path ?? '')) {
-    throw new Error('Usage: npm run page:new -- <family> <fr|en|es|pt> </new-path/> <template-id>');
+  if (!/^[a-z0-9-]+$/.test(family ?? '') || !Object.hasOwn(languages, locale ?? '') || !/^\/(?:[a-z0-9-]+\/)+$/.test(path ?? '')) {
+    throw new Error(`Usage: npm run page:new -- <family> <${Object.keys(languages).join('|')}> </new-path/> <template-id>`);
   }
   const id = `${family}.${locale}`;
   const pagesDirectory = join(root, 'src/content/pages');

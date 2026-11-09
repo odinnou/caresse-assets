@@ -1,6 +1,7 @@
 ---
 import stores from '../data/stores.json';
 const { store = 'ios', locale, attrs = {}, html } = Astro.props;
-const href = store === 'ios' ? stores.ios[locale] : stores.android;
+// A translated website does not imply a translated app/store listing.
+const href = store === 'ios' ? (stores.ios[locale] ?? stores.ios.en) : stores.android;
 ---
 <a {...attrs} href={href} set:html={html} />

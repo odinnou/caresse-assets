@@ -1,7 +1,13 @@
 ---
 import Element from './Element.astro';
 import Markup from './Markup.astro';
+import { languageLinks } from '../lib/languages.mjs';
 const { data, alternates } = Astro.props;
+const hasLanguageControl = (nodes) => nodes.some((node) =>
+  node.attrs?.class?.split(/\s+/).includes('lang-toggle') || (node.children && hasLanguageControl(node.children)));
+const fallback = data.nodes && !hasLanguageControl(data.nodes) && Object.keys(alternates).length > 0;
+const current = Object.entries(alternates).find(([locale, path]) => locale !== 'x-default' && path === Astro.url.pathname)?.[0];
+const labels = { fr: 'Choisir la langue', en: 'Choose language', es: 'Elegir idioma', pt: 'Escolher idioma', de: 'Sprache wählen' };
 ---
 <header {...data.attrs}>
   {data.nodes ? <Markup nodes={data.nodes} alternates={alternates} /> : <>
@@ -9,8 +15,20 @@ const { data, alternates } = Astro.props;
   <div {...data.rightAttrs}>
     <Fragment set:html={data.links} />
     <div {...data.toggleAttrs}>
-      {data.languages.filter((link) => alternates[link.attrs.hreflang]).map((link) => <Element {...link} attrs={{ ...link.attrs, href: alternates[link.attrs.hreflang] }} />)}
+      {languageLinks(data.languages, alternates).filter((link) => alternates[link.attrs.hreflang]).map((link) => <Element {...link} attrs={{ ...link.attrs, href: alternates[link.attrs.hreflang] }} />)}
     </div>
   </div>
   </>}
+  {fallback && <nav class="language-fallback" aria-label={labels[current] ?? labels.en}>
+    {languageLinks([], alternates).map((link) => <a href={alternates[link.language]} hreflang={link.language} aria-label={link.attrs['aria-label']} aria-current={link.language === current ? 'page' : undefined}>{link.html}</a>)}
+  </nav>}
 </header>
+<style is:global>
+  .language-fallback { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-top: 16px; }
+  .language-fallback a { font-weight: 600; padding: 4px; }
+  @media (max-width: 480px) {
+    header .lang-toggle { gap: 0; }
+    header .lang-btn { padding: 6px 8px; }
+    header .header-right { gap: 4px; }
+  }
+</style>

@@ -74,8 +74,8 @@ function assertCampaign(event, expected = expectedCampaign) {
     assert.deepEqual(Object.fromEntries(keys.filter(key => key in event).map(key => [key, event[key]])), expected);
 }
 
-test('attributes direct store clicks to the campaign across all four locales', () => {
-    for (const [path, locale] of [['/', 'fr'], ['/en/', 'en'], ['/es/', 'es'], ['/pt/', 'pt']]) {
+test('attributes direct store clicks to the campaign across all website locales', () => {
+    for (const [path, locale] of [['/', 'fr'], ['/en/', 'en'], ['/es/', 'es'], ['/pt/', 'pt'], ['/de/', 'de']]) {
         const b = browser();
         const event = b.page(path + campaign, { locale }).click(locale === 'fr' ? iosStore : androidStore);
         assertCampaign(event);
