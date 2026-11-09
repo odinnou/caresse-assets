@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ARTIFACTS = ROOT / "artifacts/german"
 SCREENSHOT_FAMILIES = {
     "home", "alternatives", "couples", "comparison", "article", "demo-couple-romantique",
-    "legal-privacy", "support", "noel-en-couple",
+    "legal-privacy", "support", "tarifs", "noel-en-couple",
 }
 ANDROID_AGENT = (
     "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 "
@@ -142,9 +142,17 @@ def main():
                 errors = []
                 tab.on("pageerror", lambda error: errors.append(str(error)))
                 for page in pages:
-                    results.append(check_page(
-                        tab, base, page, profile, viewport["width"], errors
-                    ))
+                    try:
+                        results.append(check_page(
+                            tab, base, page, profile, viewport["width"], errors
+                        ))
+                    except Exception:
+                        tab.screenshot(
+                            path=str(ARTIFACTS / f'failure-{page["family"]}-{profile}.png'),
+                            full_page=True,
+                        )
+                        results.append({"page": page["path"], "profile": profile, "ok": False})
+                        raise
 
                 check_home_interactions(tab, base)
 
@@ -169,8 +177,7 @@ def main():
     finally:
         server.shutdown()
         server.server_close()
-
-    (ARTIFACTS / "browser-report.json").write_text(json.dumps(results, indent=2) + "\n")
+        (ARTIFACTS / "browser-report.json").write_text(json.dumps(results, indent=2) + "\n")
     print("German browser checks passed for desktop and Android: "
           "content, language switching, layout and store routing.")
 

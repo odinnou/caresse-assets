@@ -28,7 +28,14 @@ const labels = { fr: 'Choisir la langue', en: 'Choose language', es: 'Elegir idi
   .language-fallback a { font-weight: 600; padding: 4px; }
   @media (max-width: 480px) {
     header .lang-toggle { gap: 0; }
-    header .lang-btn { padding: 6px 8px; }
+    /* Explicit sizing also fits the five-language control on pricing pages,
+       whose native stylesheet gives each segment a fixed flex basis. */
+    header .lang-toggle .lang-btn {
+      box-sizing: border-box;
+      flex: 0 0 auto;
+      min-width: 30px;
+      padding: 6px;
+    }
     header .header-right { gap: 4px; }
   }
 </style>
