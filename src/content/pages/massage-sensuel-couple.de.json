@@ -4,15 +4,16 @@
   "locale": "de",
   "path": "/de/massage-zu-zweit/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "massage-acquisition-oct24-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "Massage zu zweit – Eine ruhige gemeinsame Auszeit | Caresse",
+  "title": "Massage zu zweit mit persönlicher Audiobegleitung | Caresse",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,11 +24,15 @@
     },
     {
       "name": "description",
-      "content": "Plant eine ruhige Auszeit zu zweit und entdeckt, wie Audio einen gemeinsamen Moment begleiten kann. Wünsche abstimmen und jederzeit selbst entscheiden."
+      "content": "Ein gemeinsamer Massagemoment mit persönlicher KI-Audiofiktion aus euren Vorlieben. Kostenlose Demos, danach Generierung mit Credits ohne Abo."
     },
     {
       "name": "robots",
       "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
     },
     {
       "name": "theme-color",
@@ -38,32 +43,52 @@
       "content": "website"
     },
     {
+      "property": "og:url",
+      "content": "https://caresse.app/de/massage-zu-zweit/"
+    },
+    {
       "property": "og:site_name",
       "content": "Caresse"
     },
     {
       "property": "og:title",
-      "content": "Massage zu zweit – Eine ruhige gemeinsame Auszeit | Caresse"
+      "content": "Massage zu zweit mit persönlicher Audiobegleitung | Caresse"
     },
     {
       "property": "og:description",
-      "content": "Plant eine ruhige Auszeit zu zweit und entdeckt, wie Audio einen gemeinsamen Moment begleiten kann. Wünsche abstimmen und jederzeit selbst entscheiden."
+      "content": "Ein gemeinsamer Massagemoment mit persönlicher KI-Audiofiktion aus euren Vorlieben. Kostenlose Demos, danach Generierung mit Credits ohne Abo."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/massage-zu-zweit/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
       "name": "twitter:card",
@@ -71,56 +96,33 @@
     },
     {
       "name": "twitter:title",
-      "content": "Massage zu zweit – Eine ruhige gemeinsame Auszeit | Caresse"
+      "content": "Massage zu zweit mit persönlicher Audiobegleitung | Caresse"
     },
     {
       "name": "twitter:description",
-      "content": "Plant eine ruhige Auszeit zu zweit und entdeckt, wie Audio einen gemeinsamen Moment begleiten kann. Wünsche abstimmen und jederzeit selbst entscheiden."
+      "content": "Ein gemeinsamer Massagemoment mit persönlicher KI-Audiofiktion aus euren Vorlieben. Kostenlose Demos, danach Generierung mit Credits ohne Abo."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse"
     }
   ],
   "links": [
     {
       "rel": "icon",
-      "type": "image/x-icon",
       "href": "/favicon.ico"
     },
     {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "32x32",
-      "href": "/favicon-32.png"
-    },
-    {
       "rel": "apple-touch-icon",
-      "sizes": "180x180",
       "href": "/apple-touch-icon.png"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "192x192",
-      "href": "/favicon-192.png"
     },
     {
       "rel": "sitemap",
       "type": "application/xml",
-      "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
     }
   ],
@@ -129,15 +131,38 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "@id": "https://caresse.app/de/massage-zu-zweit/#webpage",
+      "name": "Massage zu zweit mit persönlicher Audiobegleitung | Caresse",
+      "description": "Ein gemeinsamer Massagemoment mit persönlicher KI-Audiofiktion aus euren Vorlieben. Kostenlose Demos, danach Generierung mit Credits ohne Abo.",
       "url": "https://caresse.app/de/massage-zu-zweit/",
-      "name": "Massage zu zweit – Eine ruhige gemeinsame Auszeit | Caresse",
-      "description": "Plant eine ruhige Auszeit zu zweit und entdeckt, wie Audio einen gemeinsamen Moment begleiten kann. Wünsche abstimmen und jederzeit selbst entscheiden.",
       "inLanguage": "de",
+      "datePublished": "2026-10-24",
+      "dateModified": "2026-10-24",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Caresse",
-        "url": "https://caresse.app/"
+        "url": "https://caresse.app/de/"
+      },
+      "about": {
+        "@id": "https://caresse.app/#app"
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/de/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Massage zu zweit",
+          "item": "https://caresse.app/de/massage-zu-zweit/"
+        }
+      ]
     },
     {
       "@context": "https://schema.org",
@@ -148,26 +173,312 @@
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-4b217ebdb8fa84e9.css",
+    "home-b0af781f.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-4b217ebdb8fa84e9.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "style",
+      "file": "shared-4b217ebdb8fa84e9.css",
+      "attrs": {}
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
   ],
   "blocks": [
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "class": "skip-link",
+        "href": "#main"
+      },
+      "html": "Zum Inhalt springen"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "header",
+      "ref": "header-05d265169eac9102.de"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb",
+        "aria-label": "Seitennavigation"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "html",
+          "file": "massage-sensuel-couple.de/0257"
+        },
+        {
+          "type": "text",
+          "html": "\n"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
     {
       "type": "container",
       "tag": "main",
       "attrs": {
-        "id": "main-content"
+        "id": "main",
+        "tabindex": "-1"
       },
       "blocks": [
         {
           "type": "intro",
           "attrs": {
-            "class": "hero localized-hero"
+            "class": "hero",
+            "style": "min-height:auto; padding-top:60px;"
           },
           "children": [
             {
@@ -175,131 +486,473 @@
               "attrs": {
                 "class": "hero-eyebrow"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+              "html": "Massage zu zweit · Persönliches Audio · Ab 18"
             },
             {
               "tag": "h1",
-              "attrs": {},
-              "html": "Massage zu zweit – Eine ruhige gemeinsame Auszeit"
+              "attrs": {
+                "id": "page-title"
+              },
+              "html": "Ein Massagemoment zu zweit, <br>\n<em>begleitet von einer Stimme.</em>\n"
             },
             {
               "tag": "p",
-              "attrs": {},
-              "html": "Plant eine ruhige Auszeit zu zweit und entdeckt, wie Audio einen gemeinsamen Moment begleiten kann. Wünsche abstimmen und jederzeit selbst entscheiden."
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Ihr möchtet gemeinsame Aufmerksamkeit ohne Video? Wählt Paarmodus und eine passende Massagevorliebe in Caresse. Eine synthetische Stimme begleitet die daraus generierte Fiktion für euch beide."
             },
             {
               "tag": "div",
               "attrs": {
-                "class": "cta-group"
+                "class": "store-controls"
               },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
+              "html": "\n<div class=\"cta-group\">\n<a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Jetzt herunterladen</a>\n</div>\n"
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-badge"
+              },
+              "html": "Kostenlose Demos · Kein Caresse-Konto · Persönliche Sessions mit Credits, ohne Abo.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
             }
           ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/languages"
         },
         {
           "type": "container",
           "tag": "section",
           "attrs": {
-            "class": "localized-content"
+            "class": "intent"
           },
           "blocks": [
             {
-              "type": "markdown",
-              "file": "massage-sensuel-couple.de/00"
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Im Moment bleiben, ohne den nächsten Schritt lesen zu müssen."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "intent-prose"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Ein gemeinsamer Massagemoment lebt von Aufmerksamkeit und freiwilliger Berührung. Wählt Atmosphäre und Gesten, die beiden entsprechen."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse ergänzt eine Stimme. Paarmodus und Vorlieben prägen eine Geschichte, in der eure Namen oder Spitznamen vorkommen können."
+                }
+              ]
             }
           ]
         },
         {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
+          "type": "container",
+          "tag": "section",
           "attrs": {
-            "class": "faq-list"
+            "class": "diff"
           },
-          "items": [
+          "blocks": [
             {
+              "type": "element",
+              "tag": "h2",
               "attrs": {
-                "class": "faq-item"
+                "class": "section-title",
+                "id": "configuration-title"
               },
-              "children": [
+              "html": "Ein mögliches Einstellungsbeispiel"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "diff-table-wrap"
+              },
+              "blocks": [
                 {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "diff-table",
+                    "aria-labelledby": "configuration-title"
+                  },
+                  "html": "\n<tbody>\n<tr>\n<td>Teilnehmende</td>\n<td class=\"highlight\">Alex und Sam oder zwei Spitznamen</td>\n</tr>\n<tr>\n<td>Modus</td>\n<td class=\"highlight\">Paarmodus</td>\n</tr>\n<tr>\n<td>Vorliebe</td>\n<td class=\"highlight\">Sinnlicher Massagemoment</td>\n</tr>\n<tr>\n<td>Absicht</td>\n<td class=\"highlight\">Ruhige Atmosphäre und sanfte Intensität</td>\n</tr>\n</tbody>\n"
                 }
               ]
             },
             {
+              "type": "container",
+              "tag": "div",
               "attrs": {
-                "class": "faq-item"
+                "class": "intent-prose",
+                "style": "max-width:900px;margin:32px auto 0;"
               },
-              "children": [
+              "blocks": [
                 {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
+                  "type": "element",
                   "tag": "p",
                   "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
+                  "html": "Beginnt mit einer Atmosphäre, die beide mögen. Paarmodus, gewählte Namen und Vorlieben gestalten die Session."
                 },
                 {
+                  "type": "element",
                   "tag": "p",
                   "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                  "html": "Die Stimme kann eure Namen oder Spitznamen verwenden. Die Länge hängt von der Generierung ab; eine genaue Minutenzahl ist nicht einstellbar."
                 }
               ]
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "how"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "In drei Schritten vorbereiten"
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "steps-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "step-item"
+                  },
+                  "html": "\n<div class=\"num\" aria-hidden=\"true\">01</div>\n<h3>Zuerst die Stimme hören</h3>\n<p>Die App herunterladen und eine kostenlose Demo hören. Sie zeigt das Format und ist keine für euch persönlich erstellte Massageerfahrung.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "step-item"
+                  },
+                  "html": "\n<div class=\"num\" aria-hidden=\"true\">02</div>\n<h3>Gemeinsam wählen</h3>\n<p>Wählt Paarmodus, Namen und eine passende Massagevorliebe. Prüft gemeinsam Stimmung, Intensität und weitere Optionen.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "step-item"
+                  },
+                  "html": "\n<div class=\"num\" aria-hidden=\"true\">03</div>\n<h3>Erstellen und anschließend hören</h3>\n<p>Die Generierung benötigt Credits. Sobald das Audio bereitsteht, macht es euch bequem und lasst die Stimme eure gemeinsame Zeit begleiten.</p>\n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "benefits"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Ein Moment, der zu euch passt"
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "benefits-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "benefit-card"
+                  },
+                  "html": "\n<h3>Alle erwachsenen Paare sind willkommen</h3>\n<p>Caresse richtet sich an erwachsene Paare aller Geschlechter und Orientierungen. Eure gemeinsam gewählten Wünsche prägen die Erfahrung.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "benefit-card"
+                  },
+                  "html": "\n<h3>Das Gespräch bleibt wichtig</h3>\n<p>Jede Berührung und Aktivität benötigt während des ganzen Erlebnisses freie, gegenseitige Zustimmung. Sie darf jederzeit zurückgenommen werden.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "benefit-card"
+                  },
+                  "html": "\n<h3>Fiktion statt fachlicher Ausbildung</h3>\n<p>Caresse erstellt erzählerische Erlebnisse. Es ersetzt keine professionelle Massageausbildung und verspricht keine therapeutischen Ergebnisse.</p>\n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq",
+            "aria-labelledby": "faq-title"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "id": "faq-title",
+                "class": "section-title"
+              },
+              "html": "Antworten auf eure Fragen."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Brauchen wir Massagekenntnisse?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Zum Kennenlernen des Audioformats ist keine Vorerfahrung nötig. Caresse ist eine Fiktion mit passendem Thema, kein Massagekurs."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Müssen wir Zubehör kaufen?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Dieses Beispiel benötigt kein spezielles Zubehör. Wählt Optionen, die zu dem passen, was ihr habt und gemeinsam verwenden möchtet."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Ist das eine kostenlose Massage-Demo?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Download und vorhandene Demos sind kostenlos. Eine aus euren Namen und Vorlieben erstellte Session benötigt Credits. Feste Demos versprechen nicht genau dieses Szenario."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Brauche ich zum Kauf von Credits ein Caresse-Konto?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Nein. Der anonyme Modus benötigt kein Caresse-Konto. Käufe brauchen weiterhin euer Apple- oder Google-Konto mit der Zahlungsmethode des Stores."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Welche Audiosprachen gibt es?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Caresse generiert Audio auf FR, EN, ES und PT. Demos sind auf FR, EN und ES verfügbar. Die PT-Oberfläche gibt es auf Android; das iOS-Update wartet auf Freigabe. Deutsche Audios sind noch nicht verfügbar."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "aside",
+          "attrs": {
+            "class": "editorial-links",
+            "aria-label": "Weiterlesen",
+            "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
+          },
+          "html": "\n<p>Weiterlesen: <a href=\"/de/blog/erstes-audioerlebnis-zu-zweit/\" style=\"color:var(--primary-vibrant);text-underline-offset:3px;\">Eine Einführung in das erste gemeinsame Audioerlebnis</a>.</p>\n"
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Eine Stimme für eure gemeinsame Zeit."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Hört zuerst eine kostenlose Demo in der App. Entscheidet danach, ob ihr eine persönliche Erfahrung mit passendem Massagethema erstellen möchtet."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "store-badges"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                        "class": "store-badge",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Im App Store herunterladen"
+                      },
+                      "html": "\n<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\" width=\"162\" height=\"54\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                        "class": "store-badge gplay",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Bei Google Play herunterladen"
+                      },
+                      "html": "\n<img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\" width=\"207\" height=\"80\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice",
+                "style": "max-width:760px;margin:24px auto 0;"
+              },
+              "html": "Preise für Credits und Optionen werden vor dem Kauf in der Währung eures Stores angezeigt."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Für Erwachsene ab 18 Jahren"
+            }
+          ]
         }
       ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-78b491e24d481783.de",
+        "footer-f716ddec21d3fbf7.de",
+        "footer-8bdd2932f00085ec.de",
+        "footer-4363bc4c7a962fbb.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "massage-sensuel-couple.en"
 }

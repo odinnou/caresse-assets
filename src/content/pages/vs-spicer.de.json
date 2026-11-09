@@ -4,15 +4,16 @@
   "locale": "de",
   "path": "/de/vs-spicer/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "comparison-spicer-reach-oct10-v1-seo-consistency-oct23-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "Caresse und Spicer im Vergleich – Format, Nutzung und Preise",
+  "title": "Alternative zu Spicer: geführte Audios für Paare | Caresse",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +24,31 @@
     },
     {
       "name": "description",
-      "content": "Vergleiche Caresse und Spicer: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Spicer oder Caresse? Fragen und gemeinsame Vorlieben oder persönliche Audiofiktion. Kostenlose Demos auf iOS und Android; persönliche Sessions mit Credits."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/vs-spicer/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +56,43 @@
     },
     {
       "property": "og:title",
-      "content": "Caresse und Spicer im Vergleich – Format, Nutzung und Preise"
+      "content": "Alternative zu Spicer: geführte Audios für Paare | Caresse"
     },
     {
       "property": "og:description",
-      "content": "Vergleiche Caresse und Spicer: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Spicer oder Caresse? Fragen und gemeinsame Vorlieben oder persönliche Audiofiktion. Kostenlose Demos auf iOS und Android; persönliche Sessions mit Credits."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/vs-spicer/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
       "name": "twitter:card",
@@ -71,27 +100,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Caresse und Spicer im Vergleich – Format, Nutzung und Preise"
+      "content": "Alternative zu Spicer: geführte Audios für Paare | Caresse"
     },
     {
       "name": "twitter:description",
-      "content": "Vergleiche Caresse und Spicer: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Spicer oder Caresse? Fragen und gemeinsame Vorlieben oder persönliche Audiofiktion. Kostenlose Demos auf iOS und Android; persönliche Sessions mit Credits."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse"
     }
   ],
   "links": [
@@ -128,15 +149,32 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://caresse.app/de/vs-spicer/#webpage",
+      "name": "Alternative zu Spicer: geführte Audios für Paare | Caresse",
+      "description": "Spicer oder Caresse? Fragen und gemeinsame Vorlieben oder persönliche Audiofiktion. Kostenlose Demos auf iOS und Android; persönliche Sessions mit Credits.",
       "url": "https://caresse.app/de/vs-spicer/",
-      "name": "Caresse und Spicer im Vergleich – Format, Nutzung und Preise",
-      "description": "Vergleiche Caresse und Spicer: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo.",
       "inLanguage": "de",
+      "dateModified": "2026-10-23",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Caresse",
-        "url": "https://caresse.app/"
+        "url": "https://caresse.app/de/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        }
       }
     },
     {
@@ -148,26 +186,293 @@
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "comparison-3d782fdb.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "comparison-3d782fdb.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "style",
+      "file": "comparison-3d782fdb.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      }
+    }
   ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-9f575cfdc41fc960.de"
+    },
+    {
       "type": "container",
       "tag": "main",
-      "attrs": {
-        "id": "main-content"
-      },
+      "attrs": {},
       "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "breadcrumb"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/"
+              },
+              "html": "Caresse"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "html",
+              "file": "vs-spicer.de/0283"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/alternativen/"
+              },
+              "html": "Alternativen"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "html",
+              "file": "vs-spicer.de/0284"
+            },
+            {
+              "type": "text",
+              "html": " "
+            },
+            {
+              "type": "html",
+              "file": "vs-spicer.de/0285"
+            }
+          ]
+        },
         {
           "type": "intro",
           "attrs": {
-            "class": "hero localized-hero"
+            "class": "hero"
           },
           "children": [
             {
@@ -175,54 +480,140 @@
               "attrs": {
                 "class": "hero-eyebrow"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+              "html": "Caresse und Spicer · Ab 18"
             },
             {
               "tag": "h1",
               "attrs": {},
-              "html": "Caresse und Spicer im Vergleich – Format, Nutzung und Preise"
+              "html": "Eine Alternative zu Spicer.<br><em>Vom Gespräch zum Audio.</em>"
             },
             {
               "tag": "p",
               "attrs": {},
-              "html": "Vergleiche Caresse und Spicer: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+              "html": "Sucht ihr eine Stimme für eure gemeinsame Zeit statt einer Fragenliste? Caresse bietet persönliche Audiofiktion zum Hören in der App."
             },
             {
               "tag": "div",
               "attrs": {
                 "class": "cta-group"
               },
-              "links": [
+              "html": "<a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Kostenlos herunterladen</a>"
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-badge"
+              },
+              "html": "Gastmodus · Kostenlose Demos · iOS und Android<br>Persönliche Sessions kostenpflichtig, ohne Abo.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "tldr"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Kurz erklärt"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Gemeinsame Wünsche abgleichen oder eine Session hören?"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "tldr-card"
+              },
+              "blocks": [
                 {
-                  "store": "ios",
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Spicer zeigt gemeinsame Vorlieben durch Fragen und Antworten. Caresse generiert Audiofiktion und bietet kein solches Abgleichsystem. Spicer hat ebenfalls Aufgaben und KI-Funktionen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "verdict",
+            "id": "verdict"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Vergleich"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Caresse und Spicer"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "verdict-table-wrap",
+                "tabindex": "0",
+                "role": "region",
+                "aria-label": "Caresse und Spicer"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "table",
                   "attrs": {
-                    "id": "hero-cta",
+                    "class": "verdict-table"
+                  },
+                  "html": "<thead><tr><th scope=\"col\">Kriterium</th><th scope=\"col\">Caresse</th><th scope=\"col\">Spicer</th></tr></thead><tbody>\n<tr><th scope=\"row\" class=\"crit\">Format</th><td class=\"caresse\">Geführte Audiofiktion</td><td class=\"other\">Fragen, Übereinstimmungen und Aufgaben</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Vorlieben</th><td class=\"caresse\">Session-Einstellungen in der App</td><td class=\"other\">Antworten mit Ja, Vielleicht oder Nein</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Partnerverbindung</th><td class=\"caresse\">Gemeinsame Session, kein Paar-Chat</td><td class=\"other\">Verbindung per Code</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Sprachen</th><td class=\"caresse\">Audio auf EN, FR, ES und PT; PT-Oberfläche teilweise übersetzt</td><td class=\"other\">Fragen und Aufgaben in mehreren Sprachen</td></tr>\n<tr><th scope=\"row\" class=\"crit\">KI</th><td class=\"caresse\">Erzählte Sessions in der App generieren</td><td class=\"other\">Spicer AI schlägt Aktivitäten aus Übereinstimmungen vor</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Preise</th><td class=\"caresse\">Kostenlose Demos; Credits ohne Abo</td><td class=\"other\">Kostenlose Basis; kostenpflichtige Pakete und Optionen</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Solonutzung</th><td class=\"caresse\">Verfügbar</td><td class=\"other\">Auf Paare ausgerichtet</td></tr>\n</tbody>"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group",
+                "style": "margin-top:32px"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
                     "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
+                    "data-store-auto": "",
+                    "data-cta-position": "inline",
                     "target": "_blank",
                     "rel": "noopener"
                   },
-                  "html": "Caresse kostenlos herunterladen"
+                  "html": "Kostenlos herunterladen"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/languages"
-        },
-        {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content"
-          },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "vs-spicer.de/00"
             }
           ]
         },
@@ -230,89 +621,471 @@
           "type": "container",
           "tag": "section",
           "attrs": {
-            "class": "localized-content"
+            "class": "columns"
           },
           "blocks": [
             {
-              "type": "markdown",
-              "file": "shared.de/comparison"
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Zwei Formate"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Vorlieben besprechen oder Fiktion hören?"
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "columns-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "col-card highlight"
+                  },
+                  "html": "<p class=\"col-sub\">Caresse</p><h3>Audio im Mittelpunkt.</h3><p>Caresse generiert Audiofiktion aus euren Vorlieben. Eine synthetische Stimme erzählt; ihr könnt jederzeit pausieren, etwas auslassen oder aufhören.</p><p>Diese Website generiert keine Sessions. Demos sind feste Beispiele, persönliche Erstellung erfolgt kostenpflichtig in der App.</p><ul><li>Geführte Audiofiktion ohne Kartenlesen während der Session.</li><li>Solo- oder Paarformat mit einer synthetischen Stimme.</li><li>Credits statt Abonnement.</li></ul>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "col-card muted"
+                  },
+                  "html": "<p class=\"col-sub\">Spicer</p><h3>Fragen für gemeinsame Interessen.</h3><p>Spicer vergleicht Antworten und zeigt gemeinsame Wünsche. Beide nehmen auf ihrem eigenen Telefon teil, verbunden durch einen Code. Fragen, Aufgaben und Gespräch stehen im Mittelpunkt.</p><p>Der Anbieter beschreibt mehrsprachige Fragen und Aufgaben sowie Spicer AI. Spicer wird hier nicht als Angebot ohne KI oder kostenlosen Einstieg dargestellt.</p><ul><li>Fragen mit Ja, Vielleicht oder Nein beantworten.</li><li>Gemeinsame Vorlieben sehen und besprechen.</li><li>Partner per Code verbinden, auch zwischen iOS und Android.</li></ul>"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
+          "type": "container",
+          "tag": "section",
           "attrs": {
-            "class": "faq-list"
+            "class": "pricing"
           },
-          "items": [
+          "blocks": [
             {
+              "type": "element",
+              "tag": "p",
               "attrs": {
-                "class": "faq-item"
+                "class": "section-label"
               },
-              "children": [
+              "html": "Preise und Zugang"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Kostenlos bedeutet nicht, dass alles enthalten ist."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "pricing-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
                 {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
+                  "tag": "div",
+                  "attrs": {
+                    "class": "price-card highlight"
+                  },
+                  "html": "<h3>Caresse</h3><p class=\"price-big\">Credits ohne Abo</p><p class=\"price-note\">Kostenloser Download und Demos. Persönliche Generierung benötigt Credits in der App.</p><p class=\"price-note\">Die optionale Freischaltung zusätzlicher Einstellungen ist separat und enthält keine unbegrenzte Generierung.</p>"
                 },
                 {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
+                  "tag": "div",
+                  "attrs": {
+                    "class": "price-card"
+                  },
+                  "html": "<h3>Spicer</h3><p class=\"price-big\">Kostenlose Basis</p><p class=\"price-note\">Die Spicer-Website bewirbt kostenlose Basisnutzung und optionale kostenpflichtige Fragenpakete. Weitere Optionen können in App oder Store erscheinen.</p>"
                 }
               ]
             },
             {
+              "type": "element",
+              "tag": "p",
               "attrs": {
-                "class": "faq-item"
+                "class": "pricing-footnote"
               },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
+              "html": "Preise und Angebote variieren nach Land und Store. Prüft sie vor dem Kauf. <a href=\"/de/preise/\">Caresse-Preise</a>."
             },
             {
+              "type": "element",
+              "tag": "p",
               "attrs": {
-                "class": "faq-item"
+                "class": "pricing-footnote"
               },
-              "children": [
+              "html": "Von Caresse anhand öffentlicher Angaben vom 10. Oktober 2026 veröffentlicht, ohne unabhängigen Praxistest. Quellen: Spicer-Website, FAQ und App-Store-Eintrag."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "choose"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Nach euren Vorlieben"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Welches Format passt?"
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "choose-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
                 {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
+                  "tag": "div",
+                  "attrs": {
+                    "class": "choose-card us"
+                  },
+                  "html": "<h3>Caresse kann passen, wenn ihr …</h3><ul><li>Geführte Audiofiktion ohne Kartenlesen während der Session.</li><li>Solo- oder Paarformat mit einer synthetischen Stimme.</li><li>Credits statt Abonnement.</li></ul>"
                 },
                 {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                  "tag": "div",
+                  "attrs": {
+                    "class": "choose-card them"
+                  },
+                  "html": "<h3>Spicer kann passen, wenn ihr …</h3><ul><li>Fragen mit Ja, Vielleicht oder Nein beantworten.</li><li>Gemeinsame Vorlieben sehen und besprechen.</li><li>Partner per Code verbinden, auch zwischen iOS und Android.</li></ul>"
                 }
               ]
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Häufige Fragen"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Antworten vor der Entscheidung."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Gleicht Caresse wie Spicer Vorlieben ab?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Nein. Spicer vergleicht Antworten und zeigt gemeinsame Interessen. Caresse generiert eine Audiofiktion aus Session-Einstellungen und bewirbt weder ein Abgleichsystem noch Paar-Chat."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Ist Spicer kostenlos?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Die Anbieterwebsite nennt eine kostenlose Basis und optionale kostenpflichtige Fragenpakete. Prüft zusätzlich die Angebote in App und Store."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Hat Spicer mehrsprachige Inhalte und KI?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Ja. Der Anbieter nennt Fragen und Aufgaben unter anderem auf EN, DE, RU, FR, PT, ES und NL. Spicer AI schlägt Aktivitäten aus gemeinsamen Interessen vor."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Welche Alternative zu Spicer bietet Audiobegleitung?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Caresse bietet Fiktion mit synthetischer Stimme für solo oder Paare. Download und Demos sind kostenlos; persönliche Generierung in der App benötigt Credits."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Sind persönliche Caresse-Sessions kostenlos?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Nein. Download und Demos sind kostenlos; persönliche Generierung benötigt Credits ohne Abo. Die optionale Freischaltung zusätzlicher Einstellungen ist separat."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Muss ich ein Caresse-Konto anlegen?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Gastnutzung braucht kein Caresse-Konto. Käufe laufen über Apple oder Google und deren Zahlungsmethode. Die Store-Transaktion ist nicht anonym."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section",
+            "id": "download"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Bereit zum Ausprobieren?"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Eine Stimme als Begleitung.<br>In eurem Tempo."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Caresse kostenlos herunterladen. Demos sind kostenlos, persönliche Sessions in der App benötigen Credits."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-badges"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                    "class": "store-badge",
+                    "data-cta-position": "inline",
+                    "aria-label": "Im App Store herunterladen",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\">"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                    "class": "store-badge gplay",
+                    "data-cta-position": "inline",
+                    "aria-label": "Bei Google Play herunterladen",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "<img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\">"
+                },
+                {
+                  "type": "text",
+                  "html": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Ausschließlich für Erwachsene ab 18 Jahren."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "related"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Formate vergleichen"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Weitere Ideen für euer Paar."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "related-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/vs-desire/",
+                    "class": "related-card"
+                  },
+                  "html": "<div class=\"icon\" aria-hidden=\"true\">🎲</div><p class=\"ttl\">Caresse und Desire</p><p class=\"desc\">Vergleich</p>"
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/vs-dipsea/",
+                    "class": "related-card"
+                  },
+                  "html": "<div class=\"icon\" aria-hidden=\"true\">🎧</div><p class=\"ttl\">Caresse und Dipsea</p><p class=\"desc\">Vergleich</p>"
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/paarspiel/",
+                    "class": "related-card"
+                  },
+                  "html": "<div class=\"icon\" aria-hidden=\"true\">💑</div><p class=\"ttl\">Paarspiel</p>"
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/alternativen/",
+                    "class": "related-card"
+                  },
+                  "html": "<div class=\"icon\" aria-hidden=\"true\">↔</div><p class=\"ttl\">Alternativen</p>"
+                }
+              ]
+            }
+          ]
         }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-acd2a0ded6266810.de",
+        "footer-3a3ca01d8df954ca.de",
+        "footer-a516a381d605030e.de",
+        "footer-29c248ef72d1fe25.de",
+        "footer-116a4eb5bb097f38.de"
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "vs-spicer.en"
 }

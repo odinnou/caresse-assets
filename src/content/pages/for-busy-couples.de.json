@@ -4,15 +4,16 @@
   "locale": "de",
   "path": "/de/paare-mit-wenig-zeit/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "seo-consistency-oct23-v1-seo-consistency-oct31-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "Wenig Zeit als Paar? Gemeinsam einen Moment finden | Caresse",
+  "title": "Wenig Zeit als Paar? Gemeinsame Momente im vollen Alltag",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +24,31 @@
     },
     {
       "name": "description",
-      "content": "Zwischen Arbeit und Alltag Raum füreinander finden: Entdeckt, wie persönliche Audioerlebnisse einen gemeinsamen Moment begleiten können."
+      "content": "Arbeit, Familie und Müdigkeit: Ideen für gemeinsame Zeit ohne ganzen Abend Vorbereitung. Persönliche KI-Audiosessions mit variabler Länge und vorab wählbaren Einstellungen."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/paare-mit-wenig-zeit/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +56,43 @@
     },
     {
       "property": "og:title",
-      "content": "Wenig Zeit als Paar? Gemeinsam einen Moment finden | Caresse"
+      "content": "Caresse für Paare mit wenig Zeit – Raum füreinander"
     },
     {
       "property": "og:description",
-      "content": "Zwischen Arbeit und Alltag Raum füreinander finden: Entdeckt, wie persönliche Audioerlebnisse einen gemeinsamen Moment begleiten können."
+      "content": "Ein persönliches Audioritual für Paare mit vollem Alltag. Gestaltet den Moment, den ihr gemeinsam wählen möchtet."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/paare-mit-wenig-zeit/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse für Paare mit wenig Zeit – Persönliche KI-Audios"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +100,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Wenig Zeit als Paar? Gemeinsam einen Moment finden | Caresse"
+      "content": "Caresse für Paare mit wenig Zeit"
     },
     {
       "name": "twitter:description",
-      "content": "Zwischen Arbeit und Alltag Raum füreinander finden: Entdeckt, wie persönliche Audioerlebnisse einen gemeinsamen Moment begleiten können."
+      "content": "Caresse kann einen gemeinsamen Rahmen bieten, wenn ihr beide Zeit und Lust habt."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse für Paare mit wenig Zeit – Persönliche KI-Audios"
     }
   ],
   "links": [
@@ -122,117 +143,829 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/paare-mit-wenig-zeit/#webpage",
-      "url": "https://caresse.app/de/paare-mit-wenig-zeit/",
-      "name": "Wenig Zeit als Paar? Gemeinsam einen Moment finden | Caresse",
-      "description": "Zwischen Arbeit und Alltag Raum füreinander finden: Entdeckt, wie persönliche Audioerlebnisse einen gemeinsamen Moment begleiten können.",
-      "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      }
-    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": {
         "block": "faq"
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse für Paare mit wenig Zeit",
+      "description": "Gemeinsame Zeit zwischen Arbeit, Familie und Müdigkeit: persönliche KI-Audiosessions mit variabler Dauer und gemeinsam gewählten Einstellungen.",
+      "url": "https://caresse.app/de/paare-mit-wenig-zeit/",
+      "inLanguage": "de",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://caresse.app/screens/en/08_android_en.webp"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Paare mit wenig Zeit",
+            "item": "https://caresse.app/de/paare-mit-wenig-zeit/"
+          }
+        ]
+      }
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-31244f28e38beba2.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-31244f28e38beba2.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-31244f28e38beba2.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
   ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-ea1fb38988bf1e92.de"
+    },
+    {
       "type": "container",
-      "tag": "main",
+      "tag": "div",
       "attrs": {
-        "id": "main-content"
+        "class": "breadcrumb"
       },
       "blocks": [
         {
-          "type": "intro",
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
           "attrs": {
-            "class": "hero localized-hero"
+            "href": "/de/"
           },
-          "children": [
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " "
+        },
+        {
+          "type": "html",
+          "file": "for-busy-couples.de/0230"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "⚡ · Paare mit wenig Zeit · Audio · KI"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Wenig Zeit?<br><em>Ein gemeinsamer Rahmen kann helfen.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Arbeit, Kinder, Müdigkeit: Gemeinsame Zeit kann im Alltag zu kurz kommen. Caresse bietet Paaren einen von einer Stimme getragenen Rahmen mit wenigen Einstellungen und ohne selbst einen ganzen Ablauf planen zu müssen."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" target=\"_blank\" rel=\"noopener\">\n                \n                <span class=\"inline\">Kostenlos herunterladen</span>\n            </a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Auf iOS und Android · Kostenlose Demos · Persönliche Sessions kostenpflichtig<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "stat-row"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-item"
+          },
+          "blocks": [
             {
+              "type": "html",
+              "file": "for-busy-couples.de/0231"
+            },
+            {
+              "type": "element",
               "tag": "p",
               "attrs": {
-                "class": "hero-eyebrow"
+                "class": "stat-label"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+              "html": "für die Einstellungen einer Session"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-item"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "for-busy-couples.de/0232"
             },
             {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Wenig Zeit als Paar? Gemeinsam einen Moment finden"
-            },
-            {
+              "type": "element",
               "tag": "p",
-              "attrs": {},
-              "html": "Zwischen Arbeit und Alltag Raum füreinander finden: Entdeckt, wie persönliche Audioerlebnisse einen gemeinsamen Moment begleiten können."
+              "attrs": {
+                "class": "stat-label"
+              },
+              "html": "eigener vollständiger Ablauf nötig"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-item"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "for-busy-couples.de/0233"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "stat-label"
+              },
+              "html": "mögliche unterschiedliche Sessions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "problem"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "problem-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Die Herausforderung"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Wenig Zeit füreinander?<br>Gestaltet den passenden Moment gemeinsam."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub problem-lede"
+              },
+              "html": "Freie Zeit ist manchmal kurz und ungeplant. Dann kann auch die Entscheidung über einen gemeinsamen Ablauf schwerfallen. Caresse bietet eine Audiofiktion aus euren Einstellungen. Ihre Dauer bleibt variabel; ein freies Zeitfenster verpflichtet euch nicht zu einer Session."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "problem-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "problem-card"
+                  },
+                  "html": "\n                    <h3>Zwischen Arbeit und Familie</h3>\n                    <p>Schlafenszeiten, Aufgaben und späte Nachrichten machen Planung schwierig. Wenn beide möchten, könnt ihr Einstellungen vorher besprechen und die fertige Session später hören. Achtet auf Privatsphäre, eine passende Lautstärke und einen Moment, in dem ihr wirklich verfügbar seid.</p>\n                "
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "problem-card"
+                  },
+                  "html": "\n                    <h3>Wenn beide erschöpft sind</h3>\n                    <p>Müdigkeit kann Initiative erschweren. Eine Stimme kann den Ablauf einer Erfahrung tragen, sodass nicht eine Person alles planen muss. Ihr braucht nichts zu leisten; wenn Ruhe oder Schlaf wichtiger sind, darf die Session warten.</p>\n                "
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "problem-card"
+                  },
+                  "html": "\n                    <h3>Wenn freie Zeit unvorhersehbar ist</h3>\n                    <p>Ein abgesagter Termin oder ein ruhiger Sonntagmorgen können Raum schaffen. Persönliche Sessions dauern häufig etwa 25 bis 35 Minuten, können aber anders ausfallen. Ihr dürft jederzeit aufhören; eine exakt in das Zeitfenster passende Dauer wird nicht garantiert.</p>\n                "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "problem-outro"
+              },
+              "html": "Ein einfacher Rahmen kann Entscheidungen reduzieren. Er beseitigt weder Zeitmangel noch die Notwendigkeit gemeinsamer Zustimmung. Wenn euch eher die Routine beschäftigt, behandelt <a href=\"/de/langjaehrige-paare/\">Caresse für langjährige Paare</a> dieses Thema. Unser Artikel über <a href=\"/de/blog/naehe-neu-entdecken/\">neue Nähe in einer langen Beziehung</a> bietet weitere Anregungen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "benefits"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Warum dieses Format bei wenig Zeit?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Ein gemeinsamer Moment braucht keinen perfekten Abend."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Caresse kann eine Gelegenheit begleiten, die beide freiwillig wählen. Die Planung bleibt so einfach, wie es euch entspricht."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "benefits-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">⚡</div>\n                \n                <h3>Wenige Einstellungen</h3>\n                \n                <p>Atmosphäre, Intensität und Vorlieben lassen sich in wenigen Minuten wählen. Die kreative Erzählung erstellt Caresse; die tatsächliche Erstellungszeit kann variieren.</p>\n            "
             },
             {
               "tag": "div",
               "attrs": {
-                "class": "cta-group"
+                "class": "benefit-card"
               },
-              "links": [
+              "html": "\n                <div class=\"icon\">🎯</div>\n                \n                <h3>Planung gemeinsam erleichtern</h3>\n                \n                <p>Ihr müsst keinen vollständigen Ablauf erfinden. Wählt eure Vorlieben, dann generiert Caresse eine Geschichte daraus.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🌙</div>\n                \n                <h3>Wenn du möchtest</h3>\n                \n                <p>Abends, am Wochenende oder spontan: Wählt einen passenden Zeitpunkt, ohne dafür ein großes Programm organisieren zu müssen.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🔋</div>\n                \n                <h3>Auch ohne großen Aufwand</h3>\n                \n                <p>Die Stimme trägt den Verlauf. Ihr dürft einfach zuhören und jederzeit entscheiden, ob die Erfahrung heute passt.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "timeline"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Einfach beginnen"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Von der Idee zur Erfahrung<br>in wenigen Schritten."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "timeline-inner"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "timeline-item"
+              },
+              "blocks": [
                 {
-                  "store": "ios",
+                  "type": "html",
+                  "file": "for-busy-couples.de/0234"
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
                   "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
+                    "class": "timeline-content"
                   },
-                  "html": "Caresse kostenlos herunterladen"
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Die App öffnen"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Feste Demos lassen sich ohne Caresse-Registrierung entdecken."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "timeline-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-busy-couples.de/0235"
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "timeline-content"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Einstellungen wählen"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Atmosphäre, Intensität und Ton: Wenige gemeinsam gewählte Angaben gestalten euren Rahmen."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "timeline-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-busy-couples.de/0236"
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "timeline-content"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Die KI generiert eure Session"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Caresse erstellt ein persönliches Erlebnis und benachrichtigt euch nach der Fertigstellung."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "timeline-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-busy-couples.de/0237"
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "timeline-content"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Bequem machen und hören"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Wählt passende Lautstärke und Licht. Eine Stimme trägt die Fiktion; jeder Vorschlag bleibt freiwillig."
+                    }
+                  ]
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
         {
-          "type": "html",
-          "file": "shared.de/languages"
-        },
-        {
-          "type": "container",
-          "tag": "section",
+          "type": "element",
+          "tag": "p",
           "attrs": {
-            "class": "localized-content"
+            "class": "section-label"
           },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "for-busy-couples.de/00"
-            }
-          ]
+          "html": "Häufige Fragen"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Was ihr wissen möchtet"
         },
         {
           "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
           "attrs": {
             "class": "faq-list"
           },
+          "prefix": "",
+          "suffix": "",
           "items": [
             {
               "attrs": {
@@ -242,12 +975,12 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
+                  "html": "Wie lange dauert eine Caresse-Session?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
+                  "html": "Die Dauer hängt von der Generierung ab, häufig etwa 25 bis 35 Minuten. Ihr könnt jederzeit pausieren oder aufhören."
                 }
               ]
             },
@@ -259,12 +992,12 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
+                  "html": "Müssen beide gleichzeitig verfügbar sein?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
+                  "html": "Für das gemeinsame Erleben ja. Einstellungen könnt ihr vorher abstimmen und die Session später starten. Solo-Nutzung ist ebenfalls möglich."
                 }
               ]
             },
@@ -276,30 +1009,338 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
+                  "html": "Ist der Einstieg wirklich einfach?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                  "html": "Kostenlose Demos zeigen Stimme und Format ohne Caresse-Konto. Persönliche Sessions werden in der App aus euren Einstellungen mit kostenpflichtigen Credits erstellt, ohne Abo."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Können wir eine Session für denselben Abend vorbereiten?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Ja. Wählt die Einstellungen vorher und hört die fertig generierte Session später, wenn beide bereit sind. Die Erstellungszeit kann variieren."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Was, wenn eine Person zu müde ist?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Dann darf die Erfahrung warten oder ausfallen. Wenn beide zuhören möchten, bietet die Stimme einen Ablauf ohne eigene vollständige Planung. Die App erzeugt keine Pflicht, Müdigkeit zu übergehen."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Wie finden wir im vollen Alltag Zeit füreinander?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Wählt gemeinsam einen realistischen Rahmen und reduziert unnötige Vorbereitung. Caresse kann einen Ablauf anbieten, garantiert aber keine frei werdende Zeit oder Wirkung. Achtet darauf, dass beide wirklich möchten."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Kann das Format auch für Eltern passen?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Wenn beide Zeit und Privatsphäre haben, könnt ihr eine vorher vorbereitete Session hören. Eine passende Lautstärke und ein störungsarmer Rahmen sind hilfreich. Ihr dürft jederzeit aufhören, ohne die bereits gespeicherte Erfahrung zu verlieren."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Verbessert Caresse eine langfristige Beziehung?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse kann einen Anlass für gemeinsame Zeit bieten. Es ist keine Paartherapie und garantiert keine Wirkung auf eine Beziehung. Gespräche, Grenzen und unterschiedliche Bedürfnisse bleiben wichtig."
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/store-cta"
         }
       ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "background:var(--grad-soft);padding:60px 5%;"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Für andere Situationen entdeckt auch"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse für verschiedene Lebensphasen."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "style": "display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:900px;margin-top:32px;"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/fuer-paare/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔥</div>\n                \n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Für Paare</p>\n                \n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Gemeinsam langsamer werden und Nähe erleben</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/neue-paare/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">💫</div>\n                \n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Neue Paare</p>\n                \n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Gemeinsam ohne Druck entdecken</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/langjaehrige-paare/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🕰️</div>\n                \n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Langjährige Paare</p>\n                \n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Zusammen Neues kennenlernen</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/solo-entdecken/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🌙</div>\n                \n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Solo entdecken</p>\n                \n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Dein eigener Raum</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/neugierige-paare/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔥</div>\n                \n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Neugierige Paare</p>\n                \n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Neugier im gemeinsam gewählten Rahmen</p>\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "aside",
+      "attrs": {
+        "id": "audio-experiences-links",
+        "aria-label": "Weiterlesen",
+        "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
+      },
+      "html": "\n        <p>Zur Vorbereitung könnt ihr auch lesen über: <a href=\"/de/romantischer-abend-zu-hause/\" style=\"color:var(--primary);text-underline-offset:3px;\">einen romantischen Abend zu Hause</a>.</p>\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Bereit, wenn ihr es seid?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Ein Moment, den ihr<br>gemeinsam wählen könnt."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Ladet Caresse kostenlos herunter und hört Demos ohne Caresse-Konto. Persönliche Sessions benötigen kostenpflichtige Credits, ohne Abo."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "compare-note"
+          },
+          "html": "Ihr vergleicht mehrere Apps? Hier erfahrt ihr, <a href=\"/de/alternativen/\">wie sich Caresse von Melba, Coelle und Dipsea unterscheidet</a> – mit festen Hörproben ohne Caresse-Konto zum Kennenlernen."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "class": "store-badge",
+                "aria-label": "Im App Store herunterladen",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\">\n                \n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Bei Google Play herunterladen",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Ausschließlich für Erwachsene ab 18 Jahren"
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo.de",
+        "footer-0410d49776abcde0.de",
+        "footer.en.links.couples.de",
+        "footer-c18220e05a34e590.de",
+        "footer.en.copy.couples.de"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "for-busy-couples.en"
 }

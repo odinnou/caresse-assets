@@ -1,0 +1,8 @@
+{
+  "tag": "nav",
+  "attrs": {
+    "aria-label": "Alternativen",
+    "style": "display:flex;gap:6px 16px;flex-wrap:wrap;justify-content:center;max-width:720px;"
+  },
+  "html": "\n            <a href=\"/de/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Startseite</a>\n            <a href=\"/de/paarspiel/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Paarspiel</a>\n            <a href=\"/de/preise/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Preise</a>\n            <a href=\"/de/alternativen/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Alternativen</a>\n            <a href=\"/de/vs-desire/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Caresse und Desire</a>\n            <a href=\"/de/vs-spicer/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Caresse und Spicer</a>\n            <a href=\"/de/vs-dipsea/\" style=\"color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:500;padding:4px 8px;border-radius:6px;\">Caresse und Dipsea</a>\n        "
+}

@@ -4,34 +4,39 @@
   "locale": "de",
   "path": "/de/weihnachten-zu-zweit/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "seasonal-christmas-nov26-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en seasonal-page christmas lang-de"
   },
-  "title": "Weihnachten und die Zeit zwischen den Jahren zu zweit | Caresse",
+  "title": "Zwischen Weihnachten und Neujahr: sieben Abende zu zweit | Caresse",
   "meta": [
     {
       "charset": "UTF-8"
     },
     {
       "name": "viewport",
-      "content": "width=device-width, initial-scale=1.0"
+      "content": "width=device-width, initial-scale=1"
     },
     {
       "name": "description",
-      "content": "Sieben ruhige Ideen für gemeinsame Abende zwischen Weihnachten und Neujahr: Gespräche, kleine Rituale und ein persönliches Audioerlebnis zu Hause."
+      "content": "Ruhige Abende zwischen den Feiertagen: Serie, gemeinsames Essen, ein Getränk nach Wahl und eine Audioerfahrung mit Caresse."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
-      "content": "#5D3D8C"
+      "content": "#5d3d8c"
     },
     {
       "property": "og:type",
@@ -42,28 +47,48 @@
       "content": "Caresse"
     },
     {
+      "property": "og:url",
+      "content": "https://caresse.app/de/weihnachten-zu-zweit/"
+    },
+    {
       "property": "og:title",
-      "content": "Weihnachten und die Zeit zwischen den Jahren zu zweit | Caresse"
+      "content": "Zwischen Weihnachten und Neujahr: sieben Abende zu zweit | Caresse"
     },
     {
       "property": "og:description",
-      "content": "Sieben ruhige Ideen für gemeinsame Abende zwischen Weihnachten und Neujahr: Gespräche, kleine Rituale und ein persönliches Audioerlebnis zu Hause."
-    },
-    {
-      "property": "og:url",
-      "content": "https://caresse.app/de/weihnachten-zu-zweit/"
+      "content": "Ruhige Abende zwischen den Feiertagen: Serie, gemeinsames Essen, ein Getränk nach Wahl und eine Audioerfahrung mit Caresse."
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
       "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
     },
     {
       "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "content": "Caresse"
     },
     {
       "name": "twitter:card",
@@ -71,235 +96,943 @@
     },
     {
       "name": "twitter:title",
-      "content": "Weihnachten und die Zeit zwischen den Jahren zu zweit | Caresse"
+      "content": "Zwischen Weihnachten und Neujahr: sieben Abende zu zweit | Caresse"
     },
     {
       "name": "twitter:description",
-      "content": "Sieben ruhige Ideen für gemeinsame Abende zwischen Weihnachten und Neujahr: Gespräche, kleine Rituale und ein persönliches Audioerlebnis zu Hause."
+      "content": "Ruhige Abende zwischen den Feiertagen: Serie, gemeinsames Essen, ein Getränk nach Wahl und eine Audioerfahrung mit Caresse."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse"
     }
   ],
   "links": [
     {
-      "rel": "icon",
-      "type": "image/x-icon",
-      "href": "/favicon.ico"
+      "rel": "sitemap",
+      "type": "application/xml",
+      "href": "https://caresse.app/sitemap.xml"
     },
     {
       "rel": "icon",
-      "type": "image/png",
-      "sizes": "32x32",
-      "href": "/favicon-32.png"
+      "href": "../../favicon.ico"
     },
     {
       "rel": "apple-touch-icon",
-      "sizes": "180x180",
-      "href": "/apple-touch-icon.png"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "192x192",
-      "href": "/favicon-192.png"
-    },
-    {
-      "rel": "sitemap",
-      "type": "application/xml",
-      "title": "Sitemap",
-      "href": "https://caresse.app/sitemap.xml"
+      "href": "../../apple-touch-icon.png"
     }
   ],
   "schemas": [
     {
       "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/weihnachten-zu-zweit/#webpage",
-      "url": "https://caresse.app/de/weihnachten-zu-zweit/",
-      "name": "Weihnachten und die Zeit zwischen den Jahren zu zweit | Caresse",
-      "description": "Sieben ruhige Ideen für gemeinsame Abende zwischen Weihnachten und Neujahr: Gespräche, kleine Rituale und ein persönliches Audioerlebnis zu Hause.",
-      "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": {
-        "block": "faq"
-      }
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://caresse.app/de/weihnachten-zu-zweit/#webpage",
+          "url": "https://caresse.app/de/weihnachten-zu-zweit/",
+          "name": "Zwischen Weihnachten und Neujahr: sieben Abende zu zweit | Caresse",
+          "description": "Ruhige Abende zwischen den Feiertagen: Serie, gemeinsames Essen, ein Getränk nach Wahl und eine Audioerfahrung mit Caresse.",
+          "inLanguage": "de",
+          "isPartOf": {
+            "@id": "https://caresse.app/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://caresse.app/de/weihnachten-zu-zweit/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://caresse.app/de/weihnachten-zu-zweit/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Caresse",
+              "item": "https://caresse.app/de/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Weihnachten und Neujahr. Ein wenig Zeit für uns.",
+              "item": "https://caresse.app/de/weihnachten-zu-zweit/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://caresse.app/de/weihnachten-zu-zweit/#faq",
+          "inLanguage": "de",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Was können Paare zwischen Weihnachten und Neujahr tun?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Eine Serie weiterschauen, kochen oder bestellen, Lichter genießen oder gemeinsam Audio entdecken. Die Ideen passen zu freien Abenden zwischen Besuchen und Feiern."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Müssen wir alle sieben Ideen der Reihe nach machen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein. Wählt frei, was euch gefällt. Es sind unabhängige Ideen, kein sieben Sessions umfassendes App-Programm."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Geht das auch mit kleinem Budget?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Playlists, Erinnerungen, Nachrichten und ein einfaches Essen brauchen wenig Material. Caresse-Demos sind kostenlos; persönliche Sessions kostenpflichtig."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welches Paarspiel passt in die Weihnachtszeit?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nehmt ein bekanntes Kartenspiel oder entdeckt Caresse mit einer kostenlosen Demo. Persönliche Generierung benötigt Credits. Mehr zum Format auf unserer Paarspielseite."
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-4b217ebdb8fa84e9.css",
+    "home-b0af781f.css",
+    "shared-50abc3fe5e51d2e3.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-4b217ebdb8fa84e9.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    },
+    "shared-50abc3fe5e51d2e3.css": {
+      "data-component": "seasonal-editorial"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "../../mobile-store-cta.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "../../umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-4b217ebdb8fa84e9.css",
+      "attrs": {}
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-50abc3fe5e51d2e3.css",
+      "attrs": {
+        "data-component": "seasonal-editorial"
+      }
+    }
   ],
   "blocks": [
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "class": "skip-link",
+        "href": "#main"
+      },
+      "html": "Zum Inhalt springen"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "header",
+      "ref": "header-d59eef285faa30ca.de"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
     {
       "type": "container",
       "tag": "main",
       "attrs": {
-        "id": "main-content"
+        "id": "main",
+        "tabindex": "-1"
       },
       "blocks": [
         {
           "type": "intro",
           "attrs": {
-            "class": "hero localized-hero"
+            "class": "hero",
+            "aria-labelledby": "page-title"
           },
           "children": [
             {
-              "tag": "p",
+              "tag": "img",
               "attrs": {
-                "class": "hero-eyebrow"
+                "class": "hero-image",
+                "src": "../../seasonal/christmas-soft-kinky.jpg",
+                "alt": "",
+                "width": "1536",
+                "height": "1024",
+                "fetchpriority": "high"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Weihnachten und die Zeit zwischen den Jahren zu zweit"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Sieben ruhige Ideen für gemeinsame Abende zwischen Weihnachten und Neujahr: Gespräche, kleine Rituale und ein persönliches Audioerlebnis zu Hause."
+              "html": ""
             },
             {
               "tag": "div",
               "attrs": {
-                "class": "cta-group"
+                "class": "hero-inner"
               },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
+              "html": "<div class=\"hero-copy\">\n<p class=\"hero-eyebrow\">Weihnachten · Sieben frei wählbare Abende · Ab 18</p>\n<h1 id=\"page-title\">Weihnachten und Neujahr.<em>Ein wenig Zeit für uns.</em></h1>\n<p class=\"hero-lead\">Familienessen, Besuche, Silvester mit Freunden – und dazwischen ein ruhiger Abend zu Hause. Eine Lieblingsserie, ein Getränk nach Wahl und gemeinsame Zeit können genügen.</p>\n<div class=\"store-controls\"><div class=\"cta-group\"><a class=\"cta-pink\" id=\"hero-cta\" href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Jetzt herunterladen</a></div></div>\n<p class=\"hero-badge\">Kostenlose Demos · Persönliche Sessions mit Credits · Ohne Abo · Ab 18</p>\n</div><div class=\"hero-note\"><div class=\"waveform\" aria-hidden=\"true\"><i style=\"--bar:7px\"></i><i style=\"--bar:13px\"></i><i style=\"--bar:23px\"></i><i style=\"--bar:16px\"></i><i style=\"--bar:29px\"></i><i style=\"--bar:20px\"></i><i style=\"--bar:10px\"></i><i style=\"--bar:18px\"></i><i style=\"--bar:28px\"></i><i style=\"--bar:15px\"></i><i style=\"--bar:23px\"></i><i style=\"--bar:30px\"></i><i style=\"--bar:19px\"></i><i style=\"--bar:11px\"></i><i style=\"--bar:22px\"></i><i style=\"--bar:15px\"></i><i style=\"--bar:8px\"></i><i style=\"--bar:18px\"></i><i style=\"--bar:27px\"></i><i style=\"--bar:13px\"></i><i style=\"--bar:7px\"></i></div><small>Ein Audioerlebnis für zwei</small><p>Eine Stimme. Eure Wünsche. Euer Moment.</p></div>"
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "occasion-strip"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "noel-en-couple.de/0186"
+            },
+            {
+              "type": "html",
+              "file": "noel-en-couple.de/0187"
+            },
+            {
+              "type": "html",
+              "file": "noel-en-couple.de/0188"
+            }
+          ]
+        },
+        {
+          "type": "intro",
+          "attrs": {
+            "class": "intro"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner editorial-split"
+              },
+              "html": "<div><p class=\"section-label\">Ein Abend zu Hause</p><h2 class=\"section-title\">Eure Abende zwischen den Feiertagen</h2></div><div class=\"intent-prose\"><p>Zwischen Besuchen gibt es vielleicht ruhige Momente: nach Hause kommen, bequem machen und die noch leuchtende Weihnachtsdekoration genießen.</p>\n<p>Schaut eine Serie, kocht etwas oder entdeckt eine Caresse-Hörprobe. Hier sind sieben Ideen, aus denen ihr frei wählen könnt.</p></div>"
+            }
+          ]
         },
         {
           "type": "container",
           "tag": "section",
           "attrs": {
-            "class": "localized-content"
+            "class": "ideas-section"
           },
           "blocks": [
             {
-              "type": "markdown",
-              "file": "noel-en-couple.de/00"
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "ideas-heading"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Zum gemeinsamen Erleben<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Sieben Ideen für gemeinsame Zeit"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "ol",
+                  "attrs": {
+                    "class": "ideas-grid"
+                  },
+                  "html": "<li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">01 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><circle cx=\"8\" cy=\"8\" r=\"1.5\"/><path d=\"m21 15-5-5L5 21\"/></svg></div><h3>Eine Serie auf dem Sofa weiterschauen</h3><p>Eine Folge, ein Weihnachtsspecial oder ein vertrauter Film mit Getränk und Dessert. Bleibt länger sitzen, wenn es euch gefällt.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">02 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 10h8v11H8zM12 10V8M12 8c5-1 2-5 0-7-2 2-5 6 0 7Z\"/></svg></div><h3>Ein Essen nur für euch beide</h3><p>Ein großes Festessen muss heute nicht sein. Kocht etwas Einfaches oder bestellt. Zum Anstoßen passt ein Getränk nach Wahl, mit oder ohne Alkohol.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">03 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 18V5l12-2v13M9 9l12-2\"/><ellipse cx=\"6\" cy=\"18\" rx=\"3\" ry=\"3\"/><ellipse cx=\"18\" cy=\"16\" rx=\"3\" ry=\"3\"/></svg></div><h3>Gemeinsam den Baum schmücken</h3><p>Musik an, Dekoration hervorholen und Zeit lassen. Ein Snack oder warmes Getränk kann die Vorbereitung begleiten.</p></li><li class=\"idea-card featured\"><div class=\"idea-top\"><span class=\"idea-number\">04 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 14v-3a9 9 0 0 1 18 0v3\"/><rect x=\"2\" y=\"12\" width=\"5\" height=\"9\" rx=\"2\"/><rect x=\"17\" y=\"12\" width=\"5\" height=\"9\" rx=\"2\"/></svg></div><h3>Caresse-Audio entdecken</h3><p>Wenn beide möchten und Privatsphäre da ist, hört eine kostenlose Demo. Eine persönliche Session erstellt ihr danach aus gemeinsam gewählten Vorlieben mit Credits.</p></li><li class=\"idea-card wide\"><div class=\"idea-top\"><span class=\"idea-number\">05 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"3\"/><path d=\"m3 6 9 7 9-7\"/></svg></div><h3>Gemeinsam Geschenke einpacken</h3><p>Packt Geschenke für Familie und Freunde bei Tee oder einem anderen Getränk ein. Mit genügend Zeit kann eine Aufgabe zu einem gemeinsamen Abend werden.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">06 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12.8A9 9 0 0 1 11.2 3 9 9 0 1 0 21 12.8Z\"/></svg></div><h3>Nach den Besuchen gemeinsam ausruhen</h3><p>Nach Familie oder Freunden kann ein ruhiger Moment zu Hause angenehm sein. Musik, ein freiwillig gewählter Massagemoment oder ein Gespräch auf dem Sofa reichen.</p></li><li class=\"idea-card \"><div class=\"idea-top\"><span class=\"idea-number\">07 / 07</span><svg class=\"idea-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m12 3 2.6 6.4L21 12l-6.4 2.6L12 21l-2.6-6.4L3 12l6.4-2.6L12 3ZM21 2v4M19 4h4\"/></svg></div><h3>Einen Abend zwischen den Feiern wählen</h3><p>Wenn Weihnachten und Silvester schon verplant sind, nehmt einen anderen Abend für ein Essen und einen Toast zu zweit. Danach könnt ihr eine Serie oder ein Audio wählen.</p></li>"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
+          "type": "container",
+          "tag": "section",
           "attrs": {
-            "class": "faq-list"
+            "class": "practical-section"
           },
-          "items": [
+          "blocks": [
             {
+              "type": "container",
+              "tag": "div",
               "attrs": {
-                "class": "faq-item"
+                "class": "section-inner editorial-split"
               },
-              "children": [
+              "blocks": [
                 {
-                  "tag": "h3",
+                  "type": "container",
+                  "tag": "div",
                   "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Die kleinen Details"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Wenn ein ruhiger Abend entsteht"
+                    }
+                  ]
                 },
                 {
-                  "tag": "p",
+                  "type": "container",
+                  "tag": "div",
                   "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                  "blocks": [
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "practical-panel"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "noel-en-couple.de/0189"
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Zwischen Besuchen, an freien Tagen oder einem Wochenende: Findet einen Moment, an dem beide Zeit haben. Ein einfaches Essen und ein passendes Getränk können den Anfang bilden."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "practical-panel"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "noel-en-couple.de/0190"
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Für Caresse installiert ihr die App und hört zunächst eine kostenlose Demo in privater Umgebung. Wenn beide das Format mögen, wählt Einstellungen für eine persönliche Session mit Credits."
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "experience-section"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner experience-layout"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "experience-art"
+                  },
+                  "blocks": [
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "aria-hidden": "true"
+                      },
+                      "blocks": [
+                        {
+                          "type": "html",
+                          "file": "noel-en-couple.de/0191"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Eine Stimme. Eure Wünsche. Euer Moment."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Die Caresse-Erfahrung"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title"
+                      },
+                      "html": "Eine Stimme für eure gemeinsame Zeit"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-sub"
+                      },
+                      "html": "Caresse erstellt geführte Audiofiktion aus euren Vorlieben. Beginnt mit einer kostenlosen Demo und entscheidet gemeinsam, ob ihr eine persönliche Session möchtet."
+                    },
+                    {
+                      "type": "element",
+                      "tag": "ol",
+                      "attrs": {
+                        "class": "experience-steps"
+                      },
+                      "html": "<li><span>01</span><div><h3>Die Stimme kennenlernen</h3><p>Caresse installieren und eine kostenlose Demo hören.</p></div></li><li><span>02</span><div><h3>Gemeinsam wählen</h3><p>Wählt Paarmodus, Namen und eine passende Stimmung. Die persönliche Generierung benötigt Credits.</p></div></li><li><span>03</span><div><h3>Die Stimme begleitet euch</h3><p>Sobald das Audio bereitsteht, macht es euch mit Telefon oder Lautsprecher bequem. Erstellungszeit und Länge können variieren.</p></div></li>"
+                    },
+                    {
+                      "type": "container",
+                      "tag": "div",
+                      "attrs": {
+                        "class": "store-controls"
+                      },
+                      "blocks": [
+                        {
+                          "type": "container",
+                          "tag": "div",
+                          "attrs": {
+                            "class": "cta-group"
+                          },
+                          "blocks": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attrs": {
+                                "class": "cta-pink",
+                                "id": "inline-cta",
+                                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                                "data-store-auto": "",
+                                "data-cta-position": "inline",
+                                "target": "_blank",
+                                "rel": "noopener"
+                              },
+                              "html": "Jetzt herunterladen"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "demo-note"
+                      },
+                      "html": "Für erwachsene Paare aller Geschlechter und Orientierungen. Beide dürfen jederzeit vorschlagen, ablehnen, pausieren oder aufhören. Der Rahmen darf überraschen; Wünsche und Grenzen stimmt ihr gemeinsam ab."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq-section",
+            "id": "faq",
+            "aria-labelledby": "faq-title"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "section-inner faq-layout"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "section-label"
+                      },
+                      "html": "Gut zu wissen"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h2",
+                      "attrs": {
+                        "class": "section-title",
+                        "id": "faq-title"
+                      },
+                      "html": "Vor der Planung"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "faq-list"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Was können Paare zwischen Weihnachten und Neujahr tun?</summary><p>Eine Serie weiterschauen, kochen oder bestellen, Lichter genießen oder gemeinsam Audio entdecken. Die Ideen passen zu freien Abenden zwischen Besuchen und Feiern.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Müssen wir alle sieben Ideen der Reihe nach machen?</summary><p>Nein. Wählt frei, was euch gefällt. Es sind unabhängige Ideen, kein sieben Sessions umfassendes App-Programm.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Geht das auch mit kleinem Budget?</summary><p>Ja. Playlists, Erinnerungen, Nachrichten und ein einfaches Essen brauchen wenig Material. Caresse-Demos sind kostenlos; persönliche Sessions kostenpflichtig.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Welches Paarspiel passt in die Weihnachtszeit?</summary><p>Ein Kartenspiel oder ein von einer Stimme begleitetes Format können eine Idee sein. Caresse-Demos sind kostenlos, persönliche Generierung benötigt Credits. Mehr auf der <a href=\"/de/paarspiel/\">Paarspiel-</a> Seite.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "closing-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Caresse · iOS und Android"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Beginnt euer nächster gemeinsamer Abend hier?"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Lernt die Stimme mit einer kostenlosen Caresse-Demo kennen. Wenn euch das Format gefällt, wählt eure Einstellungen für eine kostenpflichtige persönliche Session."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "cta-group"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "class": "cta-pink",
+                        "id": "footer-cta",
+                        "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                        "data-store-auto": "",
+                        "data-cta-position": "footer",
+                        "target": "_blank",
+                        "rel": "noopener"
+                      },
+                      "html": "Jetzt herunterladen"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "store-badges"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                        "class": "store-badge",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Im App Store herunterladen"
+                      },
+                      "html": "\n<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\" width=\"162\" height=\"54\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                        "class": "store-badge gplay",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Bei Google Play herunterladen"
+                      },
+                      "html": "\n<img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\" width=\"207\" height=\"80\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Kostenlose Demos · Persönliche Sessions mit Credits · Ohne Abo · Ab 18"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "aside",
+          "attrs": {
+            "class": "editorial-links",
+            "aria-label": "Weitere Ideen für gemeinsame Zeit",
+            "style": "margin:0 auto;color:var(--text-secondary);line-height:1.8;"
+          },
+          "html": "<p>Weitere Ideen für gemeinsame Zeit: <a href=\"/de/valentinstag-zu-hause/\">Valentinstag zu Hause</a> · <a href=\"/de/valentinstagsgeschenk/\">Ein gemeinsames Valentinstagsgeschenk</a> · <a href=\"/de/romantischer-abend-zu-hause/\">Romantischer Abend zu Hause</a> · <a href=\"/de/fuer-paare/\">Caresse für Paare</a> · <a href=\"/de/silvester-zu-zweit/\">Silvester zu zweit zu Hause</a>.</p>"
         }
       ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-4b39c3f864fb7265.de",
+        "footer-a00caa389e50aa7f.de",
+        "footer-8bdd2932f00085ec.de",
+        "footer-4363bc4c7a962fbb.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "noel-en-couple.en"
 }

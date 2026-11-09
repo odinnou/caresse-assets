@@ -4,15 +4,16 @@
   "locale": "de",
   "path": "/de/paarspiel/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "anonymous-feature-v1-seo-oct03-v1-game-audio-oct17-v1-title-clarity-oct17-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "Paarspiel als Audio – Persönliche Erlebnisse zu zweit | Caresse",
+  "title": "Paarspiel als persönliches KI-Audio | Caresse",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +24,31 @@
     },
     {
       "name": "description",
-      "content": "Ein Paarspiel ohne Kartenlesen: Caresse erstellt persönliche Audiofiktion mit euren gewählten Namen und Wünschen. Kostenlose Demos, Credits statt Abo."
+      "content": "Ein Audiospiel für Paare auf iOS und Android. Kostenlose Demos ohne Caresse-Konto. Persönliche Sessions mit Credits, ohne Abo."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/paarspiel/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +56,43 @@
     },
     {
       "property": "og:title",
-      "content": "Paarspiel als Audio – Persönliche Erlebnisse zu zweit | Caresse"
+      "content": "Paarspiel als persönliches KI-Audio | Caresse"
     },
     {
       "property": "og:description",
-      "content": "Ein Paarspiel ohne Kartenlesen: Caresse erstellt persönliche Audiofiktion mit euren gewählten Namen und Wünschen. Kostenlose Demos, Credits statt Abo."
+      "content": "Ein Audiospiel für Paare auf iOS und Android. Kostenlose Demos ohne Caresse-Konto. Persönliche Sessions mit Credits, ohne Abo."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/paarspiel/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse – Persönliches KI-Audiospiel für Paare"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +100,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Paarspiel als Audio – Persönliche Erlebnisse zu zweit | Caresse"
+      "content": "Paarspiel als persönliches KI-Audio | Caresse"
     },
     {
       "name": "twitter:description",
-      "content": "Ein Paarspiel ohne Kartenlesen: Caresse erstellt persönliche Audiofiktion mit euren gewählten Namen und Wünschen. Kostenlose Demos, Credits statt Abo."
+      "content": "Ein Audiospiel für Paare auf iOS und Android. Kostenlose Demos ohne Caresse-Konto. Persönliche Sessions mit Credits, ohne Abo."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse – Persönliches KI-Audiospiel für Paare"
     }
   ],
   "links": [
@@ -122,117 +143,708 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/paarspiel/#webpage",
-      "url": "https://caresse.app/de/paarspiel/",
-      "name": "Paarspiel als Audio – Persönliche Erlebnisse zu zweit | Caresse",
-      "description": "Ein Paarspiel ohne Kartenlesen: Caresse erstellt persönliche Audiofiktion mit euren gewählten Namen und Wünschen. Kostenlose Demos, Credits statt Abo.",
-      "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      }
-    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": {
         "block": "faq"
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Paarspiel als persönliches KI-Audio | Caresse",
+      "description": "Ein Audiospiel für Paare auf iOS und Android. Kostenlose Demos ohne Caresse-Konto. Persönliche Sessions mit Credits, ohne Abo.",
+      "url": "https://caresse.app/de/paarspiel/",
+      "inLanguage": "de",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://caresse.app/screens/en/06_android_en.webp"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Paarspiel",
+            "item": "https://caresse.app/de/paarspiel/"
+          }
+        ]
+      },
+      "dateModified": "2026-10-24"
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-1d3abcd452e25aaf.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-1d3abcd452e25aaf.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-1d3abcd452e25aaf.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
   ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-a8cce404d21d2b8c.de"
+    },
+    {
       "type": "container",
-      "tag": "main",
+      "tag": "div",
       "attrs": {
-        "id": "main-content"
+        "class": "breadcrumb",
+        "style": "padding-top:80px;"
       },
       "blocks": [
         {
-          "type": "intro",
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
           "attrs": {
-            "class": "hero localized-hero"
+            "href": "/de/"
           },
-          "children": [
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " "
+        },
+        {
+          "type": "html",
+          "file": "couples-game.de/0192"
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero",
+        "style": "min-height:auto; padding-top:60px;"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🎲 · Paarspiel · Mit KI generiert"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Das Paarspiel<br><em>ohne Karten oder Spielbrett.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Eure Vorlieben, Grenzen und gewählten Namen prägen ein von einer Stimme begleitetes Paarspiel. Ladet Caresse auf iOS oder Android herunter, hört kostenlose Demos und erstellt persönliche Sessions mit Credits."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">\n                <span class=\"inline\">Kostenlos herunterladen</span>\n                </a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Anonymer Modus · Kein Caresse-Konto · Kostenlose Demos<br>Persönliche Sessions kostenpflichtig, ohne Abo.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "intent"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Ein Spiel für zwei, als Audio"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Ein Paarspiel ohne Kartenlesen."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "intent-prose"
+          },
+          "blocks": [
             {
+              "type": "element",
               "tag": "p",
+              "attrs": {},
+              "html": "Ihr sucht ein Paarspiel auf dem Telefon? Bei Caresse wählt ihr den Rahmen in der App, dann begleitet euch eine Stimme. <strong>Keine Karten oder Spielzüge während des Hörens</strong>: Die Erzählung gibt Anregungen; ihr könnt jederzeit pausieren oder etwas auslassen."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Wählt Namen oder Spitznamen, Stimmung, Intensität sowie einbezogene oder ausgeschlossene Vorlieben. Daraus generiert die KI eine Audiofiktion. Inhalte können variieren und widersprüchlich sein. Eure Grenzen und euer Wohlbefinden haben Vorrang."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "<strong>Ein Beispiel für den ersten Abend:</strong> Hört zuerst eine kostenlose Demo. Für eine persönliche Session könnt ihr Paarmodus, romantische Stimmung und sanfte Intensität wählen. Die Erstellung benötigt Credits, ohne Abo."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Fragen, Aufgaben oder Audio? Die Unterschiede erklären <a href=\"/de/vs-spicer/\">Caresse und Spicer</a> und <a href=\"/de/vs-desire/\">Caresse und Desire</a>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "diff",
+        "id": "diff"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Ein anderes Format"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Wie Caresse das Spiel gestaltet."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Karten- oder Würfelspiele bieten eine begrenzte Auswahl an Fragen und Aufgaben. Caresse nutzt persönliche Generierung."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "diff-table-wrap"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
               "attrs": {
-                "class": "hero-eyebrow"
+                "class": "diff-table"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
+              "html": "\n                <tr>\n                    <th></th>\n                    <th>Klassisches Kartenspiel</th>\n                    <th>Caresse</th>\n                </tr>\n                <tr>\n                    <td>Inhalt</td>\n                    <td>Begrenzte Zahl vorformulierter Fragen und Aufgaben</td>\n                    <td class=\"highlight\">Auf Anfrage aus euren Einstellungen generierte Geschichte</td>\n                </tr>\n                <tr>\n                    <td>Wiederholbarkeit</td>\n                    <td>Ein Kartensatz ist irgendwann bekannt</td>\n                    <td class=\"highlight\">Jede Session neu generiert; Ergebnisse können sich unterscheiden</td>\n                </tr>\n                <tr>\n                    <td>Personalisierung</td>\n                    <td>Dieselben Karten für alle</td>\n                    <td class=\"highlight\">Eure Namen, Umgebung und Intensität fließen in die Erzählung ein</td>\n                </tr>\n                <tr>\n                    <td>Material</td>\n                    <td>Kartensatz oder Spielbrett kaufen</td>\n                    <td class=\"highlight\">Keine zusätzlichen Gegenstände nötig; das Format läuft in der App</td>\n                </tr>\n                <tr>\n                    <td>Aktualisierungen</td>\n                    <td>Neue Karten separat kaufen</td>\n                    <td class=\"highlight\">App-Aktualisierungen kostenlos enthalten</td>\n                </tr>\n                <tr>\n                    <td>Format</td>\n                    <td>Text zum Vorlesen</td>\n                    <td class=\"highlight\">Eine Stimme begleitet euch</td>\n                </tr>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group",
+            "style": "margin-top:32px;"
+          },
+          "blocks": [
             {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Paarspiel als Audio – Persönliche Erlebnisse zu zweit"
-            },
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "inline",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "Kostenlos herunterladen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "how"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "So beginnt ihr"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Gemeinsam starten in vier Schritten"
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "steps-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
             {
-              "tag": "p",
-              "attrs": {},
-              "html": "Ein Paarspiel ohne Kartenlesen: Caresse erstellt persönliche Audiofiktion mit euren gewählten Namen und Wünschen. Kostenlose Demos, Credits statt Abo."
+              "tag": "div",
+              "attrs": {
+                "class": "step-item"
+              },
+              "html": "\n                <div class=\"num\">01</div>\n                <h3>Eine Demo in der App hören</h3>\n                <p>Caresse auf iOS oder Android herunterladen und kostenlose Demos ohne Caresse-Konto kennenlernen.</p>\n            "
             },
             {
               "tag": "div",
               "attrs": {
-                "class": "cta-group"
+                "class": "step-item"
               },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/languages"
-        },
-        {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content"
-          },
-          "blocks": [
+              "html": "\n                <div class=\"num\">02</div>\n                <h3>Euren Moment gemeinsam wählen</h3>\n                <p>Wählt Paarmodus, Namen, Stimmung und Intensität. Besprecht Vorlieben und Grenzen gemeinsam.</p>\n            "
+            },
             {
-              "type": "markdown",
-              "file": "couples-game.de/00"
+              "tag": "div",
+              "attrs": {
+                "class": "step-item"
+              },
+              "html": "\n                <div class=\"num\">03</div>\n                <h3>Eure Session erstellen</h3>\n                <p>Die Generierung benötigt Credits, ohne Abo. Ihr erhaltet eine Benachrichtigung, wenn das Audio bereitsteht.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "step-item"
+              },
+              "html": "\n                <div class=\"num\">04</div>\n                <h3>Die Stimme begleitet euch</h3>\n                <p>Hört in eurem Tempo. Jeder Vorschlag bleibt freiwillig: pausieren, auslassen oder aufhören ist jederzeit möglich.</p>\n            "
             }
           ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "demo-note"
+          },
+          "html": "Möchtet ihr die Stimme vor dem Download hören? <a href=\"/de/demo/romantischer-abend/\">Eine Paar-Hörprobe von Caresse anhören</a> – vier Minuten auf Englisch mit James und Emma, gesprochenen Namen und wechselnder Begleitung, ohne Konto oder E-Mail."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "benefits"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Warum dieses Format?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Was sich konkret verändert."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Ein gemeinsames Spiel darf Nähe anregen, ohne sie zu erzwingen. Caresse bietet dafür einen Audioansatz."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "benefits-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🎁</div>\n                <h3>Raum für Überraschung</h3>\n                <p>Die Geschichte entsteht erst nach euren Einstellungen. Ihr müsst sie vorher nicht lesen und könnt sie gemeinsam entdecken.</p>\n                "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">♾️</div>\n                <h3>Jede Runde neu generiert</h3>\n                <p>Kein fester Kartensatz: Jede Session entsteht auf Anfrage aus vielen möglichen Kombinationen.</p>\n                "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">💬</div>\n                <h3>Ein Gesprächseinstieg</h3>\n                <p>Vorlieben gemeinsam auszuwählen kann ein Gespräch anregen, ohne dass eine Person alles allein formulieren muss.</p>\n                "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "benefit-card"
+              },
+              "html": "\n                <div class=\"icon\">🔒</div>\n                <h3>Privater Rahmen</h3>\n                <p>Keine expliziten Bilder, keine öffentliche Weitergabe zwischen Nutzern. Ein Spitzname genügt. Technische Verarbeitung erfolgt gemäß Datenschutzerklärung.</p>\n                "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Häufige Fragen"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Was ihr wissen möchtet"
         },
         {
           "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
           "attrs": {
             "class": "faq-list"
           },
+          "prefix": "",
+          "suffix": "",
           "items": [
             {
               "attrs": {
@@ -242,12 +854,12 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
+                  "html": "Können wir das Paarspiel kostenlos ausprobieren?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
+                  "html": "Ja. Download und feste Demos sind auf iOS und Android ohne Caresse-Konto kostenlos. Aus euren Angaben generierte Sessions benötigen danach Credits, ohne Abo."
                 }
               ]
             },
@@ -259,12 +871,12 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
+                  "html": "Ist es eine App oder ein Browserspiel?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
+                  "html": "Caresse ist eine App für iOS und Android. Einstellungen und persönliche Generierung erfolgen dort. Die Website erklärt das Format; der Downloadbutton führt direkt zum Store."
                 }
               ]
             },
@@ -276,30 +888,412 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
+                  "html": "Kann ich im anonymen Modus Sessions kaufen?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                  "html": "Ja. Du kannst Caresse ohne eigenes Caresse-Konto nutzen und Sessions kaufen. Käufe laufen über den App Store oder Google Play und benötigen dort ein Apple- oder Google-Konto mit Zahlungsmethode. Der anonyme Modus gilt gegenüber Caresse, nicht gegenüber dem Store."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Inwiefern ist Caresse ein persönliches Paarspiel?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Eine Stimme begleitet eine für zwei generierte Audiofiktion. Ihr wählt Namen, Vorlieben und Grenzen. Ohne Karten oder Punkte bleibt ihr frei, Vorschläge zu wählen, auszulassen oder aufzuhören."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Müssen wir zusätzlich ein physisches Spiel kaufen?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Nein. Der Download ist kostenlos; Karten oder Zubehör sind nicht erforderlich. Vorbereitung, Generierung und Wiedergabe erfolgen in der App."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Passt das Format auch beim ersten Paarspiel?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Beginnt mit einer kostenlosen Demo. Wenn beide möchten, wählt einen sanften Rahmen und gemeinsame Grenzen für eine persönliche Session. Die Generierung benötigt Credits, und jeder Vorschlag bleibt freiwillig."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Können wir das Format wiederholt nutzen?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Jede Session wird neu generiert. Anders als ein fester Kartensatz bietet das viele mögliche Kombinationen. Ob euch ein Ergebnis gefällt, bleibt individuell."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Was unterscheidet Caresse von Paarspielkarten?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Karten enthalten feste Fragen und Aufgaben. Caresse generiert eine neue Session aus euren aktuellen Einstellungen mit gewählten Namen in der Audioerzählung."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Welches Paarspiel können wir an Valentinstag zu Hause ausprobieren?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Hört nach dem Essen gemeinsam eine Caresse-Demo und entscheidet, ob euch das Format gefällt. Persönliche Generierung benötigt Credits, ohne Abo."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Passt das Format auch zu Weihnachten oder Silvester?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Ja, wenn ihr gemeinsam Zeit und Privatsphäre habt. Beginnt mit einer kostenlosen Demo. Für eine persönliche Session benötigt ihr Credits und wartet auf das fertige Audio; Erstellungszeit und Länge variieren."
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/store-cta"
         }
       ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "background:var(--surface); padding:60px 5%;"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Weitere Perspektiven"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse für eure Situation."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "style": "display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:900px;margin-top:32px;"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/fuer-paare/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">💞</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Für Paare</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Gemeinsam langsamer werden und Nähe erleben</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/neue-paare/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">💫</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Neue Paare</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Von Anfang an gemeinsam ohne Druck entdecken</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/neugierige-paare/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔥</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Neugierige Paare</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Neugierig entdecken und eigene Grenzen achten</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/so-funktionierts/",
+                "style": "background:var(--grad-soft);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🎧</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">So funktioniert’s</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Wie die KI-Audiogenerierung funktioniert</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "padding:60px 5%;"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Mehr erfahren"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Nähe in einer langen Beziehung neu entdecken"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub",
+            "style": "max-width:760px;"
+          },
+          "html": "Wenn ihr euch ein Spiel als Abwechslung zur Routine wünscht, bietet unser Artikel sieben konkrete Ideen für gemeinsame Neugier in einer langen Beziehung."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/blog/naehe-neu-entdecken/",
+            "style": "display:inline-block;margin-top:24px;background:var(--surface);border-radius:16px;padding:24px 28px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);max-width:620px;"
+          },
+          "html": "\n            <p style=\"font-weight:700;color:var(--primary);font-size:1rem;\">Nähe in einer langen Beziehung neu entdecken</p>\n            <p style=\"font-size:0.85rem;color:var(--text-secondary);margin-top:6px;\">Artikel lesen →</p>\n        "
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "aside",
+      "attrs": {
+        "id": "audio-experiences-links",
+        "aria-label": "Weiterlesen",
+        "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
+      },
+      "html": "\n        <p>Zur Vorbereitung könnt ihr auch lesen über: <a href=\"/de/romantischer-abend-zu-hause/\" style=\"color:var(--primary);text-underline-offset:3px;\">einen romantischen Abend zu Hause</a>.</p>\n        <p class=\"seasonal-links\" style=\"margin-top:16px;\">Für einen besonderen Anlass: <a href=\"/de/valentinstag-zu-hause/\" style=\"color:var(--primary);text-underline-offset:3px;\">Valentinstag zu Hause</a> · <a href=\"/de/valentinstagsgeschenk/\" style=\"color:var(--primary);text-underline-offset:3px;\">ein gemeinsames Valentinstagsgeschenk</a> · <a href=\"/de/weihnachten-zu-zweit/\" style=\"color:var(--primary);text-underline-offset:3px;\">sieben Weihnachtsabende zu zweit</a> · <a href=\"/de/silvester-zu-zweit/\" style=\"color:var(--primary);text-underline-offset:3px;\">Silvester zu zweit zu Hause</a>.</p>\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Bereit zum Ausprobieren?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Eure erste Runde<br>wartet auf dich."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Caresse kostenlos herunterladen und feste Demos ohne Caresse-Konto hören. Eine persönliche Session erstellt ihr danach gemeinsam mit Credits, ohne Abo."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "class": "store-badge",
+                "aria-label": "Im App Store herunterladen",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\">\n\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Bei Google Play herunterladen",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Ausschließlich Erwachsene ab 18"
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo.de",
+        "footer-a7ace073ce441bd1.de",
+        "footer-90014d7c21ffa763.de",
+        "footer-efe3c9ecc082c623.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "couples-game.en"
 }

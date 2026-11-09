@@ -3,16 +3,13 @@
   "family": "article",
   "locale": "de",
   "path": "/de/blog/naehe-neu-entdecken/",
-  "kind": "page",
-  "sitemap": true,
   "htmlAttrs": {
-    "lang": "de",
-    "data-analytics-variant": "article-v1"
+    "lang": "de"
   },
   "bodyAttrs": {
     "class": "lang-de"
   },
-  "title": "Nähe in einer langen Beziehung neu entdecken – Sieben Ideen",
+  "title": "Nähe in einer langen Beziehung neu entdecken – sieben Ideen",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +20,31 @@
     },
     {
       "name": "description",
-      "content": "Sieben Anregungen für bewusste gemeinsame Zeit: Gespräche, kleine Rituale und neue Erfahrungen im eigenen Tempo. Ohne Druck und ohne Erfolgsversprechen."
+      "content": "Routine muss nicht alles bestimmen. Sieben konkrete Ideen für gemeinsame Neugier, ohne Druck oder Wunderversprechen."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "article"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/blog/naehe-neu-entdecken/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +52,43 @@
     },
     {
       "property": "og:title",
-      "content": "Nähe in einer langen Beziehung neu entdecken – Sieben Ideen"
+      "content": "Nähe in einer langen Beziehung neu entdecken"
     },
     {
       "property": "og:description",
-      "content": "Sieben Anregungen für bewusste gemeinsame Zeit: Gespräche, kleine Rituale und neue Erfahrungen im eigenen Tempo. Ohne Druck und ohne Erfolgsversprechen."
+      "content": "Sieben konkrete Ideen für gemeinsame Neugier in einer langen Beziehung, ohne Druck und ohne Wunderversprechen."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/blog/naehe-neu-entdecken/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Neue Nähe in einer langen Beziehung – Caresse"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +96,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Nähe in einer langen Beziehung neu entdecken – Sieben Ideen"
+      "content": "Nähe in einer langen Beziehung neu entdecken"
     },
     {
       "name": "twitter:description",
-      "content": "Sieben Anregungen für bewusste gemeinsame Zeit: Gespräche, kleine Rituale und neue Erfahrungen im eigenen Tempo. Ohne Druck und ohne Erfolgsversprechen."
+      "content": "Sieben Ideen für gemeinsame Zeit und Neugier, ohne Druck."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Neue Nähe in einer langen Beziehung – Caresse"
     }
   ],
   "links": [
@@ -122,28 +139,45 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
     {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "@id": "https://caresse.app/de/blog/naehe-neu-entdecken/#webpage",
+      "@type": "Article",
+      "headline": "Nähe in einer langen Beziehung neu entdecken – sieben Ideen",
+      "description": "Routine muss nicht alles bestimmen. Sieben konkrete Ideen für gemeinsame Neugier, ohne Druck oder Wunderversprechen.",
       "url": "https://caresse.app/de/blog/naehe-neu-entdecken/",
-      "name": "Nähe in einer langen Beziehung neu entdecken – Sieben Ideen",
-      "description": "Sieben Anregungen für bewusste gemeinsame Zeit: Gespräche, kleine Rituale und neue Erfahrungen im eigenen Tempo. Ohne Druck und ohne Erfolgsversprechen.",
+      "datePublished": "2026-07-20",
+      "dateModified": "2026-07-20",
       "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      },
-      "headline": "Nähe in einer langen Beziehung neu entdecken – Sieben Ideen",
+      "image": "https://caresse.app/og-image-en.png",
       "author": {
         "@type": "Organization",
-        "name": "Studio Mokuton"
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
       },
-      "dateModified": "2026-11-09"
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://caresse.app/de/blog/naehe-neu-entdecken/"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -151,161 +185,177 @@
       "mainEntity": {
         "block": "faq"
       }
-    }
-  ],
-  "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
-  ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
-  ],
-  "blocks": [
+    },
     {
-      "type": "container",
-      "tag": "main",
-      "attrs": {
-        "id": "main-content"
-      },
-      "blocks": [
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
         {
-          "type": "intro",
-          "attrs": {
-            "class": "hero localized-hero"
-          },
-          "children": [
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Nähe in einer langen Beziehung neu entdecken – Sieben Ideen"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Sieben Anregungen für bewusste gemeinsame Zeit: Gespräche, kleine Rituale und neue Erfahrungen im eigenen Tempo. Ohne Druck und ohne Erfolgsversprechen."
-            },
-            {
-              "tag": "div",
-              "attrs": {
-                "class": "cta-group"
-              },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
-            }
-          ]
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/de/"
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/de/blog/"
         },
         {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content"
-          },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "article.de/00"
-            }
-          ]
-        },
-        {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
-          "attrs": {
-            "class": "faq-list"
-          },
-          "items": [
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Nähe neu entdecken",
+          "item": "https://caresse.app/de/blog/naehe-neu-entdecken/"
         }
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
+  "styles": [
+    "article-146693e5.css"
   ],
+  "headScripts": [
+    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
+    "<script defer src=\"/umami-store-tracking.js\"></script>",
+    "<script src=\"/mobile-store-cta.js\" defer></script>"
+  ],
+  "blocks": [
+    {
+      "type": "html",
+      "file": "article.de/00"
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "article-hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "eyebrow"
+          },
+          "html": "Beziehung · Wünsche · Kommunikation<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Nähe in einer langen Beziehung neu entdecken"
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "article-meta"
+          },
+          "html": "Sieben konkrete Ideen · acht Minuten Lesezeit"
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "article-intro"
+          },
+          "html": "Wünsche verändern sich im Lauf einer Beziehung. Hier findet ihr sieben Anregungen, um gemeinsam Neues zu entdecken, ohne Druck oder das Versprechen einer einfachen Lösung."
+        }
+      ]
+    },
+    {
+      "type": "markdown",
+      "file": "article.de/01"
+    },
+    {
+      "type": "faq",
+      "prefix": "<section class=\"faq\">\n        <div class=\"faq-inner\">\n            <p class=\"section-label\">Häufige Fragen</p>\n            <h2>Nähe neu entdecken – eure Fragen.</h2>\n            ",
+      "suffix": "\n        </div>\n    </section>",
+      "attrs": {
+        "class": "faq-list"
+      },
+      "items": [
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Kann sich das Verlangen nach Jahren verändern?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Ja, Wünsche und spontane Anziehung können sich im Lauf einer Beziehung verändern. Vertrautheit und Alltag spielen dabei eine Rolle. Das allein ist keine Diagnose und bedeutet nicht automatisch, dass etwas nicht stimmt."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Wie schaffen wir Raum für Nähe ohne Druck?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Wählt einen gemeinsamen, freiwilligen Rahmen statt eine Erwartung. Ein Ritual oder eine Aktivität kann die Planung teilen. Ein Nein, eine Pause oder eine Änderung bleiben jederzeit möglich."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Müssen wir dafür über Fantasien sprechen?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Nein. Auch ein anderer Rahmen oder ein neues Tempo können interessant sein. Eine Abstimmung über Wünsche und Grenzen hilft, dass die gemeinsame Zeit für beide passt; niemand muss persönliche Vorstellungen offenlegen."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Wie lange dauert es, bis sich etwas verändert?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Es gibt keinen allgemeinen Zeitplan und kein garantiertes Ergebnis. Manche Paare mögen schon einen kleinen Wechsel, andere brauchen einen anderen Ansatz. Bei belastenden Konflikten ist qualifizierte Unterstützung geeigneter als ein Wirkungsversprechen einer App."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "file": "article.de/02"
+    }
+  ],
+  "footer": [
+    "footer.en.logo.de",
+    "footer.en.navigation.de",
+    "footer.en.links.de",
+    "footer.en.social.de",
+    "footer.en.copy.de"
+  ],
+  "scripts": [
+    "<script>\n        (function () {\n            if (/Android/i.test(navigator.userAgent)) {\n                var cta = document.getElementById('hero-cta');\n                if (cta) cta.href = \"https://play.google.com/store/apps/details?id=studio.mokuton.caresse\";\n            }\n        })();\n    </script>"
+  ],
+  "header": "header.en.de",
   "footerAttrs": {},
-  "scripts": []
+  "translationSource": "article.en"
 }

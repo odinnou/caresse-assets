@@ -1,81 +1,75 @@
-# Allemand sur le site web — issue #94
+# Allemand sur le site web
 
 La locale `de` concerne le site uniquement. L’application conserve ses langues
 actuelles et les démos leur audio existant. Aucune URL historique n’est renommée.
 
 ## Contenu et présentation
 
-Les 54 pages allemandes couvrent toutes les familles anglaises, hors anciennes
+Les 54 pages allemandes couvrent toutes les familles anglaises hors anciennes
 redirections : 49 pages indexables, 4 documents légaux en `noindex` et une page de
-téléchargement hors sitemap. Il n’est pas nécessaire de créer des alias allemands
-pour les anciennes URL qui n’ont jamais existé en allemand.
+téléchargement hors sitemap.
 
-Les fichiers `src/content/pages/*.de.json` utilisent `SitePage`, `Intro`, `Faq`,
-`PageBlocks` et le thème couples existants. Le contenu allemand est éditable dans
-`src/content/blocks/*.de/`. `localized-content.css` complète la typographie de ces
-blocs Markdown. La navigation, le footer, l’indication des langues et la présentation
-des crédits sont mutualisés dans les données et blocs partagés allemands.
+Chaque fichier `src/content/pages/*.de.json` indique sa référence dans
+`translationSource`. Il reprend la composition propre à cette page : layout,
+sections, cartes, tableaux complets, FAQ, liens, médias et scripts. Les styles sont
+ceux de la référence. Une règle de retour à la ligne permet aux mots allemands longs
+de tenir dans les petits écrans ; le sélecteur reste compact sur mobile. L’accueil conserve notamment son carrousel, ses quatre étapes,
+sa vidéo et ses sections de découverte. La page des alternatives conserve ses
+comparaisons et sa matrice. Les articles, comparatifs, démos, pages saisonnières,
+le support et les textes légaux conservent également leurs présentations distinctes.
 
-Le contenu éditorial allemand est adapté et souvent plus concis que les versions
-historiques : il ne reproduit pas chaque tableau, chaque section ou la mise en page
-spécifique de toutes les pages anglaises. Le rapport de recherche se présente
-explicitement comme une synthèse. Les comparatifs reprennent les informations
-existantes en indiquant qu’il ne s’agit pas d’une nouvelle vérification des offres.
-Relire les formulations allemandes et cette adaptation éditoriale lors de la revue.
+Les traductions restent des données éditables dans les JSON et les fragments
+`src/content/blocks/*.de/`. Les variantes allemandes du header et du footer
+conservent la structure propre à chaque famille. Une courte mention dans un
+paragraphe existant précise la disponibilité linguistique de l’application ; elle
+n’ajoute pas une nouvelle section ni un thème commun aux pages.
 
-Les documents légaux reprennent les textes et dates des versions existantes.
-Le renvoi obsolète à la plateforme européenne de règlement en ligne est identifié
-comme une référence historique, sans le présenter comme un recours actif. Les
-autres langues ne sont pas réécrites dans cette modification.
+Les formulations allemandes ne promettent pas de garantie thérapeutique,
+d’anonymat du paiement ou de résultat individuel. Les références comparatives et
+leurs dates sont conservées ; cette traduction ne constitue pas une nouvelle
+vérification commerciale des offres tierces.
+
+Lors de l’édition de fragments HTML, conserver les balises ouvrantes et fermantes
+réparties entre `prefix`, `suffix` et fichiers. Leur sérialisation séparée par un
+parseur HTML peut fermer une section prématurément et déplacer des éléments.
+Le contrôle de parité vérifie le résultat HTML assemblé pour détecter ce défaut.
 
 ## Routes et SEO
 
-`src/data/routes.json` reste la source des correspondances. Par exemple :
+`src/data/routes.json` reste la source des correspondances. Les slugs peuvent
+différer selon les langues. Chaque page indexable conserve un canonical vers sa
+propre URL et des hreflang réciproques. Les liens internes utilisent les routes
+allemandes ; le sélecteur utilise les correspondances réelles de chaque famille.
+Les documents légaux restent exclus du sitemap et en `noindex`.
 
-| Famille | Anglais | Portugais | Allemand |
-| --- | --- | --- | --- |
-| Accueil | `/en/` | `/pt/` | `/de/` |
-| Couples | `/en/for-couples/` | `/pt/para-casais/` | `/de/fuer-paare/` |
-| Tarifs | `/en/pricing/` | `/pt/precos/` | `/de/preise/` |
+`src/data/languages.json` alimente les sélecteurs et la commande de création de
+page. Une traduction n’est proposée que si elle existe pour la famille en cours.
+Les headers de support et des documents légaux disposent aussi d’un sélecteur.
 
-Chaque page allemande a un canonical vers sa propre URL. Les pages indexables
-relient les traductions par des hreflang réciproques, y compris les pages composées
-dont `headOrder` a été créé avant l’ajout de cette langue. Le `x-default` existant
-reste conservé. Les nouvelles entrées de sitemap sont ajoutées sans modifier les
-URL ou les dates historiques des autres pages.
-
-La liste `src/data/languages.json` alimente les sélecteurs et la commande de création
-de page. Les composants proposent une traduction seulement si elle existe pour la
-famille en cours. Les anciens headers de support et des documents légaux disposent
-également d’un sélecteur. Les noms accessibles des langues sont conservés.
-
-Pour ajouter une page en allemand :
+Pour ajouter une page, choisir une famille dont la composition convient :
 
 ```sh
 npm run page:new -- nouvelle-occasion de /de/neuer-anlass/ couples.de
 ```
 
-Modifier ensuite les textes, métadonnées, schémas et liens copiés avant publication.
-Cette commande ne traduit pas automatiquement.
+Modifier ensuite les textes, métadonnées, schémas, liens et `translationSource`.
+Cette commande ne traduit pas automatiquement. Une nouvelle famille doit aussi
+avoir sa référence anglaise pour bénéficier du contrôle de composition.
 
 ## App, stores et médias
 
-- La mention de langue précise que le site est en allemand, mais que l’app et ses
-  audios ne le sont pas. Les données structurées ne déclarent pas `de` comme langue
-  de l’application ou des enregistrements.
-- Les pages allemandes des six démos utilisent les fichiers MP3 anglais existants,
-  clairement étiquetés, avec `AudioObject.inLanguage: en`. Les autres enregistrements
-  sont accessibles par les liens vers les pages FR/ES. Aucun audio n’est créé.
-- La capture d’application montrée sur l’accueil est identifiée comme anglaise.
-  L’image de partage utilise le visuel d’ambiance existant, sans texte dans une autre
-  langue ni promesse d’interface allemande.
+- L’app et les audios ne sont pas disponibles en allemand. Les schémas ne déclarent
+  pas `de` comme langue de l’application ou des enregistrements.
+- Les six démos conservent leurs MP3 anglais, étiquetés dans le contenu visible,
+  avec `AudioObject.inLanguage: en`. Aucun nouvel audio n’est créé.
+- Les captures de l’app et la vidéo conservent leur langue réelle et les mêmes
+  ressources que la référence ; leurs textes d’accompagnement sont traduits.
 - Les CTA restent directs vers les stores. L’iOS utilise le repli anglais existant ;
-  `mobile-store-cta.js` sélectionne Google Play sur Android, y compris pour le bouton
-  flottant. La page de téléchargement conserve le routeur de secours.
-- Les scripts d’attribution restent partagés. Le champ `locale` vient du document
-  HTML et accepte maintenant également `de` dans les tests de conversion.
+  `mobile-store-cta.js` sélectionne Google Play sur Android. La page de
+  téléchargement conserve le routeur de secours.
+- Les scripts d’attribution restent partagés et prennent la locale du document.
 
-## Validation
+## Validation des 54 pages
 
 ```sh
 npm ci
@@ -85,22 +79,33 @@ npm run test:i18n
 python scripts/check-german-browser.py
 ```
 
-Le dernier contrôle utilise Playwright et Chromium ; les dépendances Python sont
-dans `requirements-test.txt`. `CHROMIUM_EXECUTABLE` sélectionne éventuellement un
-Chromium déjà installé. Sinon, utiliser l’installation Playwright habituelle.
+`test:i18n`, exécuté après le build en CI, vérifie les canonical, hreflang,
+sélecteurs, liens, sitemap, médias et destinations des stores. Il exécute aussi
+`check-german-parity.mjs` sur **toutes les pages allemandes**, y compris le support,
+le téléchargement et les documents légaux :
 
-Le contrôle du build vérifie les canonical, hreflang réciproques, sélecteurs de
-langues, liens internes, médias, sitemap, exclusions et langues des schémas. Il est
-exécuté en CI après le build.
+- même layout et mêmes fichiers et contenus CSS que leur référence ;
+- même arbre HTML, classes, identifiants et attributs de présentation ;
+- mêmes sections, cartes, tableaux et dimensions de cellules, FAQ et médias ;
+- mêmes sources de médias et de scripts.
 
-Le contrôle navigateur parcourt les pages allemandes sur ordinateur et Android,
-vérifie l’absence d’erreur JavaScript, le débordement horizontal, la visibilité du
-sélecteur et les destinations stores. Il contrôle aussi la navigation depuis les
-anciennes langues vers les slugs allemands et le retour vers un slug portugais.
-Les ressources externes et destinations stores sont interceptées : aucun événement
-analytics de production ni achat n’est déclenché. Rapport et captures sont écrits
-dans `artifacts/german/`, sans être versionnés. Il ne s’agit ni d’un audit complet
-d’accessibilité ni d’un test d’écoute des enregistrements.
+Seuls les textes, les URL traduites, l’état de la langue active et la courte mention
+de disponibilité linguistique sont autorisés à différer. Le rapport par page est
+écrit dans `artifacts/german/parity-report.json`. Le contrôle de structure ne remplace
+pas une relecture linguistique et factuelle.
 
-La PR ne déploie pas le site. Le déploiement existant reste réservé à la branche
-principale après fusion.
+Le contrôle Playwright parcourt également les 54 pages sur ordinateur et Android :
+absence d’erreur JavaScript, débordement horizontal, sélecteur visible et destinations
+stores. Il teste des parcours entre langues et produit des captures représentatives,
+dont l’accueil et les alternatives. Les destinations stores et les ressources
+externes sont interceptées ; aucun achat ni événement analytics de production
+n’est déclenché. Les captures conservent les médias locaux. Les badges externes ne
+sont pas chargés pendant ce contrôle isolé.
+
+Les dépendances Python sont dans `requirements-test.txt`. `CHROMIUM_EXECUTABLE`
+permet de sélectionner Chromium ; sinon, utiliser l’installation Playwright habituelle.
+Les rapports et captures sont écrits dans `artifacts/german/` et sont archivés par
+la CI sans être versionnés.
+
+La PR ne déploie pas le site. Le déploiement existant suit la fusion dans la branche
+principale.

@@ -4,6 +4,7 @@
   "locale": "de",
   "path": "/de/blog/ki-audio-und-naehe-2026/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
@@ -12,7 +13,7 @@
   "bodyAttrs": {
     "class": "lang-de"
   },
-  "title": "KI, Audio und Nähe 2026 – Forschungsüberblick | Caresse",
+  "title": "KI, Audio und Nähe 2026: Daten und Einordnung",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +24,31 @@
     },
     {
       "name": "description",
-      "content": "Öffentliche Forschung zu KI, Audio, gemeinsamer Zeit und Datenschutz eingeordnet. Mit Quellen, klarer Trennung von Prognosen und Beobachtungen und ohne Wirksamkeitsversprechen."
+      "content": "Forschungsüberblick zu KI, Audio und Nähe: Verbreitung generativer KI, Hörgewohnheiten, Personalisierung, Datenschutz und Dating-App-Müdigkeit."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "article"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/blog/ki-audio-und-naehe-2026/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +56,43 @@
     },
     {
       "property": "og:title",
-      "content": "KI, Audio und Nähe 2026 – Forschungsüberblick | Caresse"
+      "content": "KI, Audio und Nähe 2026 – Forschungsüberblick"
     },
     {
       "property": "og:description",
-      "content": "Öffentliche Forschung zu KI, Audio, gemeinsamer Zeit und Datenschutz eingeordnet. Mit Quellen, klarer Trennung von Prognosen und Beobachtungen und ohne Wirksamkeitsversprechen."
+      "content": "KI-Nutzung, Audio, Personalisierung, Datenschutz und Dating-App-Müdigkeit anhand öffentlicher Quellen von Pew, Edison Research, Cisco, McKinsey und weiteren."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/blog/ki-audio-und-naehe-2026/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "KI, Audio und Nähe 2026 – Jahresüberblick"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +100,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "KI, Audio und Nähe 2026 – Forschungsüberblick | Caresse"
+      "content": "KI, Audio und Nähe 2026 – Forschungsüberblick"
     },
     {
       "name": "twitter:description",
-      "content": "Öffentliche Forschung zu KI, Audio, gemeinsamer Zeit und Datenschutz eingeordnet. Mit Quellen, klarer Trennung von Prognosen und Beobachtungen und ohne Wirksamkeitsversprechen."
+      "content": "KI-Nutzung, Audio, Personalisierung, Datenschutz und Dating-App-Müdigkeit aus öffentlichen Quellen."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "KI, Audio und Nähe 2026 – Jahresüberblick"
     }
   ],
   "links": [
@@ -122,28 +143,37 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
     {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "@id": "https://caresse.app/de/blog/ki-audio-und-naehe-2026/#webpage",
+      "@type": "Article",
+      "headline": "KI, Audio und Nähe 2026: Jahresüberblick",
+      "description": "Forschungsüberblick zu KI, Audio und Nähe: Verbreitung generativer KI, Hörgewohnheiten, Personalisierung, Datenschutz und Dating-App-Müdigkeit.",
       "url": "https://caresse.app/de/blog/ki-audio-und-naehe-2026/",
-      "name": "KI, Audio und Nähe 2026 – Forschungsüberblick | Caresse",
-      "description": "Öffentliche Forschung zu KI, Audio, gemeinsamer Zeit und Datenschutz eingeordnet. Mit Quellen, klarer Trennung von Prognosen und Beobachtungen und ohne Wirksamkeitsversprechen.",
+      "datePublished": "2026-08-07",
+      "dateModified": "2026-10-24",
       "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      },
-      "headline": "KI, Audio und Nähe 2026 – Forschungsüberblick | Caresse",
+      "image": "https://caresse.app/og-image-en.png",
       "author": {
         "@type": "Organization",
-        "name": "Studio Mokuton"
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
       },
-      "dateModified": "2026-11-09"
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://caresse.app/de/blog/ki-audio-und-naehe-2026/"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -151,161 +181,1816 @@
       "mainEntity": {
         "block": "faq"
       }
-    }
-  ],
-  "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
-  ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
-  ],
-  "blocks": [
+    },
     {
-      "type": "container",
-      "tag": "main",
-      "attrs": {
-        "id": "main-content"
-      },
-      "blocks": [
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
         {
-          "type": "intro",
-          "attrs": {
-            "class": "hero localized-hero"
-          },
-          "children": [
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "KI, Audio und Nähe 2026 – Forschungsüberblick"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Öffentliche Forschung zu KI, Audio, gemeinsamer Zeit und Datenschutz eingeordnet. Mit Quellen, klarer Trennung von Prognosen und Beobachtungen und ohne Wirksamkeitsversprechen."
-            },
-            {
-              "tag": "div",
-              "attrs": {
-                "class": "cta-group"
-              },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
-            }
-          ]
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/de/"
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/de/blog/"
         },
         {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content"
-          },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "blog-state-of-ai-romance-2026.de/00"
-            }
-          ]
-        },
-        {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
-          "attrs": {
-            "class": "faq-list"
-          },
-          "items": [
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KI, Audio und Nähe 2026",
+          "item": "https://caresse.app/de/blog/ki-audio-und-naehe-2026/"
         }
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
+  "styles": [
+    "shared-28c5043c609b4a56.css"
   ],
-  "footerAttrs": {},
-  "scripts": []
+  "styleAttrs": {
+    "shared-28c5043c609b4a56.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "style",
+      "file": "shared-28c5043c609b4a56.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js?v=20261024-1",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-79eddcfbc7efb7fe.de"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/blog/"
+          },
+          "html": "Blog"
+        },
+        {
+          "type": "text",
+          "html": " › KI, Audio und Nähe 2026\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-hero"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "blog-state-of-ai-romance-2026.de/0130"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "KI, Audio und Nähe 2026."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dek"
+          },
+          "html": "Ein Blick auf künstliche Intelligenz, Audio sowie Erwartungen an Datenschutz und Personalisierung. Grundlage sind öffentliche Veröffentlichungen, keine eigene Befragung.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "report-meta"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-state-of-ai-romance-2026.de/0131"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-state-of-ai-romance-2026.de/0132"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-state-of-ai-romance-2026.de/0133"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-state-of-ai-romance-2026.de/0134"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-state-of-ai-romance-2026.de/0135"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-state-of-ai-romance-2026.de/0136"
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "html",
+              "file": "blog-state-of-ai-romance-2026.de/0137"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section",
+        "style": "padding-top:0;"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "callout"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "<strong>Quellen und Methode.</strong> Dieser Überblick stammt von Studio Mokuton, dem Herausgeber von Caresse. Er verbindet öffentliche Forschung aus unterschiedlichen Ländern, Bevölkerungen und Jahren. Prognosen werden von Beobachtungen getrennt. Es gab keine eigene Marktstudie oder klinische Untersuchung; die Quellen belegen keine Wirksamkeit von Caresse. <a href=\"#sources\">Zitierte Veröffentlichungen lesen</a>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section exec-summary wide"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "Zusammenfassung"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Sechs Themen zur Einordnung."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "KI-Nutzung, Audio, gemeinsame Zeit, Personalisierung, Datenschutz und Dating-App-Müdigkeit: Ergebnisse gelten jeweils für ihre untersuchte Zielgruppe und Zeit. Ältere Quellen sind gekennzeichnet."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "exec-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "exec-card"
+              },
+              "html": "\n                <span class=\"num\">39.2%</span>\n                <p>der US-Bevölkerung sollen laut Prognose 2026 generative KI nutzen, nach 35,8 % im Jahr 2025.</p>\n                <span class=\"src\">EMARKETER, 2026</span>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "exec-card"
+              },
+              "html": "<span class=\"num\">5 Std. 11 Min.</span><p>Audio pro Tag bei täglichen Podcast-Hörern. Diese Zielgruppe entspricht nicht der gesamten US-Bevölkerung.</p><span class=\"src\">Edison Research, erstes Quartal 2026, über Podnews</span>"
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "exec-card"
+              },
+              "html": "\n                <span class=\"num\">2026</span>\n                <p>Forschung untersucht Dating-App-Müdigkeit, nicht Caresse.</p>\n                <span class=\"src\">Forschung · Sharabi et al.</span>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section bg-alt wide"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "01 · Generative KI"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "KI zwischen Neuheit und Alltagsnutzung."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Die zitierte Pew-Befragung berichtet, dass <strong>49 % der Erwachsenen in den USA einen KI-Chatbot nutzen</strong>und <strong>24 % eine tägliche Nutzung angeben</strong>. Die Angaben beziehen sich auf die genannte Befragung und nicht auf die Nutzung persönlicher Audiofiktion."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "EMARKETER modelliert für 2026 <strong>133 Millionen Nutzer generativer KI in den USA</strong>, etwa 39,2 % der Bevölkerung, gegenüber 121,1 Millionen beziehungsweise 35,8 % im Vorjahr. Weltweit werden für Ende 2025 geschätzte 16,3 % genannt. Modelle und Befragungen messen nicht dieselben Sachverhalte."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "bar-chart"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "chart-title"
+              },
+              "html": "Generative KI in den USA, Bevölkerungsanteil"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "bar-row"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0138"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "bar-track"
+                  },
+                  "blocks": [
+                    {
+                      "type": "html",
+                      "file": "blog-state-of-ai-romance-2026.de/0139"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0140"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "bar-row"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0141"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "bar-track"
+                  },
+                  "blocks": [
+                    {
+                      "type": "html",
+                      "file": "blog-state-of-ai-romance-2026.de/0142"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0143"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "chart-src"
+              },
+              "html": "Quelle: <a href=\"https://www.emarketer.com/content/faq-on-generative-ai--how-consumer-adoption-steering-marketing-2026\" target=\"_blank\" rel=\"noopener\">EMARKETER, „FAQ on generative AI“, 2026</a>"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Neben der Anzahl ist wichtig, wofür die Menschen KI <em>nutzen</em>. Pew nennt 10 % der US-Erwachsenen für emotionale Unterstützung oder Rat und 4 % für Gesellschaft. Das sind spezifische Nutzungszwecke, nicht die gesamte Chatbot-Nutzung und kein Nachweis einer Wirkung von Caresse."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "source-note"
+          },
+          "html": "Quellen: <a href=\"https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/\" target=\"_blank\" rel=\"noopener\">Pew Research Center, „Americans and AI 2026“</a> · <a href=\"https://www.emarketer.com/content/faq-on-generative-ai--how-consumer-adoption-steering-marketing-2026\" target=\"_blank\" rel=\"noopener\">EMARKETER, 2026</a>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section wide",
+        "id": "audio-research"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "02 · Audio"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Hörgewohnheiten hängen von der Zielgruppe ab."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Edison unterscheidet 2026 tägliche Podcast-Hörer von der breiteren US-Zielgruppe. Im ersten Quartal nennt der Bericht 5 Stunden 11 Minuten mit allen Audioquellen für die erste Gruppe und 3 Stunden 57 Minuten bei US-Amerikanern ab 13 Jahren."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-row"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-tile"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0144"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0145"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-tile"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0146"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0147"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Bei Caresse trägt eine Stimme die Session ohne Blick auf den Bildschirm. Podcast-Nutzung ist ein anderer Anwendungsfall und misst weder Nachfrage noch Wirkung persönlicher Audiofiktion."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "source-note"
+          },
+          "html": "Quelle: <a href=\"https://podnews.net/press-release/podcast-consumer-2026\" target=\"_blank\" rel=\"noopener\">Edison Research, erstes Quartal 2026, über Podnews</a>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section bg-alt wide"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "03 · Paare im Alltag"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Volle Terminkalender als Hindernis für gemeinsame Zeit."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Eine Tawkify-Befragung von 911 Erwachsenen in US-Partnerschaften aus März 2026 fragte nach Hindernissen für Intimität. <strong>65 % nannten volle Terminkalender</strong>, gefolgt von Stress oder Angst mit 41 % und geringem Verlangen mit 33 %."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "bar-chart"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "chart-title"
+              },
+              "html": "Genannte Hindernisse bei befragten US-Erwachsenen in Partnerschaften"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "bar-row"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0148"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "bar-track"
+                  },
+                  "blocks": [
+                    {
+                      "type": "html",
+                      "file": "blog-state-of-ai-romance-2026.de/0149"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0150"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "bar-row"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0151"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "bar-track"
+                  },
+                  "blocks": [
+                    {
+                      "type": "html",
+                      "file": "blog-state-of-ai-romance-2026.de/0152"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0153"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "bar-row"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0154"
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "bar-track"
+                  },
+                  "blocks": [
+                    {
+                      "type": "html",
+                      "file": "blog-state-of-ai-romance-2026.de/0155"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "html": "\n                "
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0156"
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "chart-src"
+              },
+              "html": "Quelle: <a href=\"https://tawkify.com/blog/dating/scheduling-intimacy\" target=\"_blank\" rel=\"noopener\">Tawkify, „Love on the Calendar“, 2026</a>"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Die zitierte Zusammenstellung nennt außerdem <strong>82 % Zufriedenheit bei verheirateten oder in Partnerschaft lebenden Erwachsenen</strong>. Zugleich werden Zeit und Initiative als Themen beschrieben. 46 % berichten „Phubbing“, also das Gefühl, zugunsten eines Telefons ignoriert zu werden. Eine Metaanalyse von 2025 beschreibt Zusammenhänge mit Beziehungszufriedenheit und Nähe, keine eindeutige Kausalität."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Diese Daten geben Hinweise auf Alltagsbedingungen. Sie gelten für verschiedene Stichproben und beweisen nicht, dass Zeitmangel bei jedem Paar die Ursache fehlender Nähe ist."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "source-note"
+          },
+          "html": "Quellen: <a href=\"https://tawkify.com/blog/dating/scheduling-intimacy\" target=\"_blank\" rel=\"noopener\">Tawkify-Befragung, 2026</a> · <a href=\"https://www.connectedcouples.app/blog/relationship-statistics\" target=\"_blank\" rel=\"noopener\">Connected Couples, „Relationship Statistics“, 2026</a>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section wide"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "04 · Personalisierung"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Erwartungen an persönliche digitale Angebote."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "McKinsey nennt für eine US-Befragung 2021 71 % mit Erwartungen an Personalisierung und 76 % mit Frustration ohne sie. Salesforce nennt 2023 73 %, die Verständnis ihrer individuellen Bedürfnisse erwarten."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-row"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-tile"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0157"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0158"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0159"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-tile"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0160"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0161"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0162"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-tile"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0163"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0164"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0165"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Diese Erhebungen betreffen Unternehmen und Kundschaft. Bei Caresse meint Personalisierung Namen oder Spitznamen, Vorlieben und Klangatmosphäre. Daraus folgt kein Nachweis einer besseren Paarbeziehung."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "source-note"
+          },
+          "html": "Quellen: <a href=\"https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-value-of-getting-personalization-right-or-wrong-is-multiplying\" target=\"_blank\" rel=\"noopener\">McKinsey, 2021</a> · <a href=\"https://www.salesforce.com/news/stories/financial-services-cloud-personalized-service/\" target=\"_blank\" rel=\"noopener\">Salesforce, 2023</a>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section bg-alt wide"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "05 · Datenschutz"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Vertrauen in KI und persönliche Daten."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Cisco berichtet in der <em>Data and Privacy Benchmark Study 2026</em> , dass <strong>KI für 90 % der Organisationen ein wesentlicher Anlass zum Ausbau ihrer Datenschutzprogramme ist</strong>und 93 % weitere Investitionen planen, um auf neue Anforderungen und Erwartungen zu reagieren."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-row two"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-tile"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0166"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0167"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0168"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-tile"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0169"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0170"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0171"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Mit persönlicheren KI-Eingaben werden konkrete Datenschutzangaben wichtiger: Welche Daten werden verarbeitet, wie lange gespeichert und an welche Dienste übermittelt? Allgemeine Unternehmensbefragungen ersetzen keine Prüfung eines einzelnen Produkts."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "source-note"
+          },
+          "html": "Quelle: <a href=\"https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m01/ai-data-privacy-investments-governance-cisco-report.html\" target=\"_blank\" rel=\"noopener\">Cisco Newsroom, „AI Fuels Surge in Data Privacy Investments“, Januar 2026</a>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section wide",
+        "id": "dating-app-research"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "06 · Forschung"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Was Studien über Dating-Apps sagen können."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Eine zwölfwöchige Untersuchung beobachtet zunehmende Erschöpfung bei den begleiteten Nutzern. Ausfälle im Verlauf begrenzen ihre Aussagekraft."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-row"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-tile"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0172"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0173"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0174"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-tile"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0175"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0176"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0177"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-tile"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0178"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0179"
+                },
+                {
+                  "type": "html",
+                  "file": "blog-state-of-ai-romance-2026.de/0180"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Eine Metaanalyse verbindet 23 Studien mit 26.068 Menschen. Sie findet Zusammenhänge mit psychischem Wohlbefinden, ohne eine Verursachung durch Apps nachzuweisen."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Diese Untersuchungen behandeln weder Caresse noch die Wirkung einer Audiosession."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "source-note"
+          },
+          "html": "Quellen: <a href=\"https://asu.elsevierpure.com/en/publications/burnt-out-and-still-single-susceptibility-to-dating-app-burnout-o/\" target=\"_blank\" rel=\"noopener\">Sharabi und Kollegen, Verlaufsuntersuchung zu Erschöpfung, 2026</a> · <a href=\"https://asu.elsevierpure.com/en/publications/dating-app-use-psychological-health-and-psychological-well-being-/\" target=\"_blank\" rel=\"noopener\">Sharabi und Kollegen, Metaanalyse, 2026</a>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section bg-alt wide"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "07 · Ausblick"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Fragen für 2027."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Aus den Daten lassen sich vorsichtig offene Fragen ableiten. Sie sind keine bereits bestätigten Entwicklungen:"
+        },
+        {
+          "type": "element",
+          "tag": "ul",
+          "attrs": {},
+          "html": "\n            <li><strong>Wächst die Nutzung von KI für emotionale Unterstützung und Gesellschaft weiter?</strong> Pew nennt dafür 10 % beziehungsweise 4 %. Ob diese Anteile wachsen oder stagnieren, bleibt eine offene Frage und lässt sich nicht aus einem einzelnen Messzeitpunkt beantworten.</li>\n            <li><strong>Wie verändern sich Hörgewohnheiten?</strong> Vergleiche sollten dieselben Zielgruppen untersuchen und Podcasts, Videopodcasts und andere Audioformate unterscheiden.</li>\n            <li><strong>Wird Datenschutz stärker als Produkteigenschaft beworben?</strong> Die Cisco-Ergebnisse werfen die Frage auf, wie Unternehmen ihre Datenschutzversprechen künftig konkret belegen. Eine Prognose für 2027 ist noch keine Beobachtung.</li>\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Eine spätere Ausgabe kann diese Fragen mit neuen Daten und einem Vergleich zur aktuellen Ausgangslage aufgreifen."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section wide"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "Die wichtigsten Punkte"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Sechs Sätze zur Einordnung."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "takeaways-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "takeaway-card"
+              },
+              "html": "\n                <span class=\"tk-num\">01</span>\n                <p><strong>KI-Nutzung wächst laut Prognose,</strong> von 35,8 % auf 39,2 % der US-Bevölkerung in EMARKETERs Modell.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "takeaway-card"
+              },
+              "html": "\n                <span class=\"tk-num\">02</span>\n                <p><strong>Die Zielgruppendefinition ist entscheidend.</strong> Tägliche Podcast-Hörer und die Gesamtbevölkerung haben unterschiedliche Hörgewohnheiten.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "takeaway-card"
+              },
+              "html": "\n                <span class=\"tk-num\">03</span>\n                <p><strong>Zeitmangel wird häufig als Hindernis genannt:</strong> 65 % der Tawkify-Befragten in US-Partnerschaften nennen volle Terminkalender.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "takeaway-card"
+              },
+              "html": "\n                <span class=\"tk-num\">04</span>\n                <p><strong>Markenbefragungen beschreiben Erwartungen an Personalisierung.</strong> Die genannten Quellen stammen aus 2021 und 2023.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "takeaway-card"
+              },
+              "html": "\n                <span class=\"tk-num\">05</span>\n                <p><strong>Datenschutz ist ein Vertrauensthema für KI:</strong> 95 % der befragten Organisationen nennen ihn wesentlich, laut Cisco.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "takeaway-card"
+              },
+              "html": "\n                <span class=\"tk-num\">06</span>\n                <p><strong>Dating-App-Müdigkeit ist ein Forschungsthema.</strong> Ergebnisse müssen mit ihren Grenzen gelesen werden und belegen keinen Nutzen von Caresse.</p>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section bg-alt wide"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "Fazit"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Was die Quellen gemeinsam einordnen."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Die Veröffentlichungen behandeln KI-Nutzung, Audio, gemeinsame Zeit, Marken und Datenschutz in verschiedenen Bevölkerungen und Jahren. Sie helfen, Fragen zu stellen, messen aber keinen einheitlichen Markt für KI und Intimität."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Caresse bietet darin ein konkretes Format: synthetische Stimme, Klangatmosphäre und eine aus gewählten Namen und Vorlieben generierte Geschichte. Download und Demos sind kostenlos; persönliche Sessions benötigen Credits ohne Abo. Mehr dazu unter <a href=\"/de/so-funktionierts/\">den Schritten einer persönlichen Audiosession</a> oder <a href=\"/de/alternativen/\">im Vergleich verschiedener App-Formate</a>."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "report-section wide",
+        "id": "sources"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "Anhang"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Vollständige Quellenliste."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Quellen in der Reihenfolge ihres Auftretens, möglichst mit Verweis auf die ursprüngliche Veröffentlichung."
+        },
+        {
+          "type": "element",
+          "tag": "ul",
+          "attrs": {
+            "class": "sources-list"
+          },
+          "html": "\n            <li>Pew Research Center, <a href=\"https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/\" target=\"_blank\" rel=\"noopener\">„Americans and AI 2026: Chatbots, Smart Devices and Views on Impact“</a>, Juni 2026</li>\n            <li>Pew Research Center, <a href=\"https://www.pewresearch.org/internet/2026/06/17/how-opinions-and-use-of-ai-differ-by-age/\" target=\"_blank\" rel=\"noopener\">„How Americans' opinions and use of AI differ by age“</a>, Juni 2026</li>\n            <li>EMARKETER, <a href=\"https://www.emarketer.com/content/faq-on-generative-ai--how-consumer-adoption-steering-marketing-2026\" target=\"_blank\" rel=\"noopener\">„FAQ on generative AI: How consumer adoption is steering marketing in 2026“</a></li>\n            <li>Edison Research / Podnews, <a href=\"https://podnews.net/press-release/podcast-consumer-2026\" target=\"_blank\" rel=\"noopener\">„Weekly Podcast Consumers Are Just as Likely to Watch as to Listen“</a></li>\n            <li>Tawkify, <a href=\"https://tawkify.com/blog/dating/scheduling-intimacy\" target=\"_blank\" rel=\"noopener\">„Love on the Calendar: How Busy Americans Schedule Intimacy to Stay Connected“</a>, 2026</li>\n            <li>Connected Couples, <a href=\"https://www.connectedcouples.app/blog/relationship-statistics\" target=\"_blank\" rel=\"noopener\">„75+ Relationship Statistics in 2026 Every Couple Should Know“</a></li>\n            <li><a href=\"https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-value-of-getting-personalization-right-or-wrong-is-multiplying\" target=\"_blank\" rel=\"noopener\">McKinsey, Next in Personalization, 2021</a></li>\n            <li><a href=\"https://www.salesforce.com/news/stories/financial-services-cloud-personalized-service/\" target=\"_blank\" rel=\"noopener\">Salesforce, 2023</a></li>\n            <li>Cisco Newsroom, <a href=\"https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m01/ai-data-privacy-investments-governance-cisco-report.html\" target=\"_blank\" rel=\"noopener\">„AI Fuels Surge in Data Privacy Investments and Redefines Governance“</a>, Januar 2026</li>\n            <li>Cisco Newsroom, <a href=\"https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m04/cisco-2025-data-privacy-benchmark-study-privacy-landscape-grows-increasingly-complex-in-the-age-of-ai.html\" target=\"_blank\" rel=\"noopener\">„Cisco's 2025 Data Privacy Benchmark Study“</a>, April 2025</li>\n            <li><a href=\"https://asu.elsevierpure.com/en/publications/burnt-out-and-still-single-susceptibility-to-dating-app-burnout-o/\" target=\"_blank\" rel=\"noopener\">Sharabi und Kollegen, Verlaufsuntersuchung zu Erschöpfung, 2026</a></li>\n            <li><a href=\"https://asu.elsevierpure.com/en/publications/dating-app-use-psychological-health-and-psychological-well-being-/\" target=\"_blank\" rel=\"noopener\">Sharabi und Kollegen, Metaanalyse, 2026</a></li>\n        "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "faq-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "kicker"
+              },
+              "html": "Häufige Fragen"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "KI, Audio und Nähe 2026 – eure Fragen."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Wie viele Menschen nutzen 2026 generative KI?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "EMARKETER prognostiziert für die USA 133 Millionen Nutzer, etwa 39,2 % der Bevölkerung, gegenüber 121,1 Millionen beziehungsweise 35,8 % im Vorjahr. Die zitierte Pew-Befragung nennt 49 % Chatbot-Nutzung und 24 % tägliche Nutzung bei Erwachsenen. Die Methoden unterscheiden sich."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Was messen die genannten Hörzeiten?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Edison beschreibt verschiedene Zielgruppen und alle Audioquellen, nicht ausschließlich Podcasts oder persönliche Audiofiktion."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Erwarten Menschen persönliche digitale Erfahrungen?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Dafür geben Markenbefragungen von McKinsey 2021 und Salesforce 2023 Hinweise. Sie messen keine Wirkung einer App für intime Audioerlebnisse."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Wird Datenschutz durch KI wichtiger?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Cisco berichtet 2026, dass KI bei 90 % der Organisationen den Ausbau von Datenschutzprogrammen anstößt und 95 % Datenschutz als wesentlich für Vertrauen in KI-Dienste ansehen."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Sind Menschen von Dating-Apps erschöpft?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Studien beschreiben Erschöpfung bei bestimmten Nutzern. Das gilt nicht automatisch für alle Zielgruppen und belegt keinen Nutzen von Caresse."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Was erschwert Paaren gemeinsame intime Zeit?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "In der Tawkify-Erhebung 2026 nennen 65 % volle Terminkalender, 41 % Stress oder Angst und 33 % geringes Verlangen. Das beschreibt die befragte US-Zielgruppe, nicht jedes Paar."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "kicker"
+          },
+          "html": "Im Zusammenhang sehen"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Wo Caresse in dieses Umfeld passt."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Ein persönliches KI-Audioerlebnis aus wenigen Einstellungen mit euren Namen. Kostenlose feste Demos ohne Caresse-Konto."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+            "id": "hero-cta",
+            "class": "cta-pink",
+            "target": "_blank",
+            "rel": "noopener"
+          },
+          "html": "Caresse entdecken"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Nur für Erwachsene ab 18 Jahren"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "related-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "kicker"
+              },
+              "html": "Mehr erfahren"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Weitere Anregungen entdecken."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "related-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/so-funktionierts/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">⚙️</div>\n                    <p class=\"ttl\">So funktioniert Caresse</p>\n                    <p class=\"desc\">Vom Profil zur persönlichen Audiofiktion mit variabler Dauer.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/alternativen/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🧭</div>\n                    <p class=\"ttl\">Alle Alternativen</p>\n                    <p class=\"desc\">Der Überblick: Melt, Dipsea, Melba, Coelle und MagicWave.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/datenschutz-und-sicherheit/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🔒</div>\n                    <p class=\"ttl\">Ist Caresse sicher?</p>\n                    <p class=\"desc\">Datenschutz, Daten und KI verständlich erklärt.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/paare-mit-wenig-zeit/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">⏱️</div>\n                    <p class=\"ttl\">Caresse für Paare mit wenig Zeit</p>\n                    <p class=\"desc\">Wenn im Alltag Raum füreinander fehlt.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/langjaehrige-paare/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🕰️</div>\n                    <p class=\"ttl\">Caresse für langjährige Paare</p>\n                    <p class=\"desc\">Gemeinsame Zeit außerhalb der Routine.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/blog/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">📝</div>\n                    <p class=\"ttl\">Alle Artikel</p>\n                    <p class=\"desc\">Der Caresse-Blog: Beziehung, Nähe und Entdeckung.</p>\n                "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo.de",
+        "footer.en.navigation.de",
+        "footer.en.links.de",
+        "footer-c18220e05a34e590.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ],
+  "translationSource": "blog-state-of-ai-romance-2026.en"
 }

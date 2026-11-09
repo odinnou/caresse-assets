@@ -4,6 +4,7 @@
   "locale": "de",
   "path": "/de/demo/solo-entdeckung/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
@@ -12,7 +13,7 @@
   "bodyAttrs": {
     "class": "lang-de"
   },
-  "title": "Solo-Hörprobe – Ein ruhiger Einstieg | Caresse",
+  "title": "Solo-Hörprobe: eine langsame, persönliche Entdeckung",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,75 +24,59 @@
     },
     {
       "name": "description",
-      "content": "Ein langsames Solobeispiel mit Raum für Ruhe und eigene Wahrnehmung. Du kannst das Audio unverbindlich kennenlernen und jederzeit pausieren oder aufhören."
+      "content": "Die erste Phase einer sanften Solosession kostenlos hören. Englische Aufnahme ohne Konto oder E-Mail im Browser."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
-      "property": "og:type",
-      "content": "website"
+      "name": "format-detection",
+      "content": "telephone=no"
     },
     {
-      "property": "og:site_name",
-      "content": "Caresse"
+      "name": "rating",
+      "content": "adult"
+    },
+    {
+      "property": "og:type",
+      "content": "article"
     },
     {
       "property": "og:title",
-      "content": "Solo-Hörprobe – Ein ruhiger Einstieg | Caresse"
+      "content": "Solo-Hörprobe: eine langsame, persönliche Entdeckung"
     },
     {
       "property": "og:description",
-      "content": "Ein langsames Solobeispiel mit Raum für Ruhe und eigene Wahrnehmung. Du kannst das Audio unverbindlich kennenlernen und jederzeit pausieren oder aufhören."
+      "content": "Die erste Phase einer sanften Solosession kostenlos hören. Englische Aufnahme ohne Konto oder E-Mail im Browser."
     },
     {
       "property": "og:url",
       "content": "https://caresse.app/de/demo/solo-entdeckung/"
     },
     {
-      "property": "og:locale",
-      "content": "de_DE"
+      "property": "og:site_name",
+      "content": "Caresse"
     },
     {
       "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:card",
       "content": "summary_large_image"
     },
     {
-      "name": "twitter:title",
-      "content": "Solo-Hörprobe – Ein ruhiger Einstieg | Caresse"
-    },
-    {
-      "name": "twitter:description",
-      "content": "Ein langsames Solobeispiel mit Raum für Ruhe und eigene Wahrnehmung. Du kannst das Audio unverbindlich kennenlernen und jederzeit pausieren oder aufhören."
-    },
-    {
-      "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "property": "og:locale",
+      "content": "de_DE"
     }
   ],
   "links": [
@@ -127,132 +112,400 @@
   "schemas": [
     {
       "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/demo/solo-entdeckung/#webpage",
-      "url": "https://caresse.app/de/demo/solo-entdeckung/",
-      "name": "Solo-Hörprobe – Ein ruhiger Einstieg | Caresse",
-      "description": "Ein langsames Solobeispiel mit Raum für Ruhe und eigene Wahrnehmung. Du kannst das Audio unverbindlich kennenlernen und jederzeit pausieren oder aufhören.",
-      "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      },
-      "associatedMedia": {
-        "@type": "AudioObject",
-        "name": "Solo-Hörprobe – Ein ruhiger Einstieg | Caresse (Englisch)",
-        "contentUrl": "https://caresse.app/demos/caresse-demo-solo-decouverte-en-olivia.mp3",
-        "encodingFormat": "audio/mpeg",
-        "inLanguage": "en",
-        "isAccessibleForFree": true
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": {
-        "block": "faq"
-      }
+      "@graph": [
+        {
+          "@type": "AudioObject",
+          "name": "Eine ruhige Solo-Entdeckung",
+          "description": "Die erste Phase einer sanften Solosession kostenlos hören. Englische Aufnahme ohne Konto oder E-Mail im Browser.",
+          "contentUrl": "https://caresse.app/demos/caresse-demo-solo-decouverte-en-olivia.mp3",
+          "encodingFormat": "audio/mpeg",
+          "inLanguage": "en",
+          "isFamilyFriendly": false,
+          "isAccessibleForFree": true,
+          "url": "https://caresse.app/de/demo/solo-entdeckung/",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Caresse",
+            "url": "https://caresse.app/"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Startseite",
+              "item": "https://caresse.app/de/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Hörproben",
+              "item": "https://caresse.app/de/demo/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Eine ruhige Solo-Entdeckung",
+              "item": "https://caresse.app/de/demo/solo-entdeckung/"
+            }
+          ]
+        }
+      ]
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-8492103cef7d4a55.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-8492103cef7d4a55.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "style",
+      "file": "shared-8492103cef7d4a55.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 15
+    }
   ],
   "blocks": [
+    {
+      "type": "header",
+      "ref": "header-46c3245406f81633.de"
+    },
     {
       "type": "container",
       "tag": "main",
       "attrs": {
-        "id": "main-content"
+        "class": "dpage"
       },
       "blocks": [
         {
-          "type": "intro",
+          "type": "element",
+          "tag": "p",
           "attrs": {
-            "class": "hero localized-hero"
+            "class": "crumb"
           },
-          "children": [
+          "html": "<a href=\"/de/\">Startseite</a> › <a href=\"/de/demo/\">Hörproben</a> › Olivia"
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "Eine ruhige Solo-Entdeckung"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dpitch"
+          },
+          "html": "Olivia nimmt sich einen ruhigen Abend. Die Stimme begleitet ein langsames Soloerlebnis mit Aufmerksamkeit für die eigene Wahrnehmung. Diese vollständige erste Phase etabliert das Tempo."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "margin:0 0 12px;"
+          },
+          "html": "<a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-store-cta\" class=\"hero-store-cta\" style=\"margin-top:0;\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener noreferrer\">App kostenlos herunterladen</a>"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dnote",
+            "style": "text-align:left;margin-bottom:22px;"
+          },
+          "html": "Diese Demo ist kostenlos. Persönliche Sessions in der App benötigen Credits, ohne Abo.<span class=\"language-notice\"> Diese Demo ist auf Englisch. Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dplayer"
+          },
+          "blocks": [
             {
+              "type": "element",
               "tag": "p",
               "attrs": {
-                "class": "hero-eyebrow"
+                "class": "lbl"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+              "html": "Die erste Phase hören · Olivia · Englisch"
             },
             {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Solo-Hörprobe – Ein ruhiger Einstieg"
-            },
+              "type": "element",
+              "tag": "audio",
+              "attrs": {
+                "controls": "",
+                "preload": "none",
+                "src": "/demos/caresse-demo-solo-decouverte-en-olivia.mp3"
+              },
+              "html": "\n                Dein Browser kann dieses Audio nicht abspielen. <a href=\"/demos/caresse-demo-solo-decouverte-en-olivia.mp3\">MP3 herunterladen</a>.\n            "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "dnote"
+          },
+          "html": "🎧 Ein ruhiger Ort und eine passende Lautstärke"
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dmeta"
+          },
+          "blocks": [
             {
-              "tag": "p",
-              "attrs": {},
-              "html": "Ein langsames Solobeispiel mit Raum für Ruhe und eigene Wahrnehmung. Du kannst das Audio unverbindlich kennenlernen und jederzeit pausieren oder aufhören."
-            },
-            {
+              "type": "container",
               "tag": "div",
-              "attrs": {
-                "class": "cta-group"
-              },
-              "links": [
+              "attrs": {},
+              "blocks": [
                 {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
+                  "type": "html",
+                  "file": "demo-solo-decouverte-sensuelle.de/0209"
+                },
+                {
+                  "type": "text",
+                  "html": "Geführte Solosession"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-solo-decouverte-sensuelle.de/0210"
+                },
+                {
+                  "type": "text",
+                  "html": "Massageöl, optionales vibrierendes Zubehör"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-solo-decouverte-sensuelle.de/0211"
+                },
+                {
+                  "type": "text",
+                  "html": "Gemütlich"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {},
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "demo-solo-decouverte-sensuelle.de/0212"
+                },
+                {
+                  "type": "text",
+                  "html": "Sanft"
                 }
               ]
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
-        },
-        {
           "type": "container",
           "tag": "section",
           "attrs": {
-            "class": "localized-content audio-preview",
-            "aria-label": "Hörprobe auf Englisch"
+            "class": "dsec"
           },
           "blocks": [
             {
               "type": "element",
               "tag": "h2",
               "attrs": {},
-              "html": "Englische Hörprobe anhören"
+              "html": "Ein sanftes Beispiel im Angebot"
             },
             {
               "type": "element",
               "tag": "p",
-              "attrs": {
-                "id": "audio-language"
-              },
-              "html": "Dieses Audio ist auf Englisch. Es gibt derzeit keine deutsche Aufnahme."
-            },
-            {
-              "type": "element",
-              "tag": "audio",
-              "attrs": {
-                "controls": true,
-                "preload": "none",
-                "src": "/demos/caresse-demo-solo-decouverte-en-olivia.mp3",
-                "aria-describedby": "audio-language"
-              },
-              "html": "Dein Browser kann dieses Audio nicht abspielen. <a href=\"/demos/caresse-demo-solo-decouverte-en-olivia.mp3\">MP3 herunterladen</a>."
+              "attrs": {},
+              "html": "Ein ruhiger Einstieg mit leiser Stimme, längeren Pausen und langsamem Aufbau. Diese erste Phase zeigt, wie eine Begleitung Atmosphäre schafft. Wenn Audio neu für dich ist, kannst du hier das Format kennenlernen."
             }
           ]
         },
@@ -260,89 +513,145 @@
           "type": "container",
           "tag": "section",
           "attrs": {
-            "class": "localized-content"
+            "class": "dsec"
           },
           "blocks": [
             {
-              "type": "markdown",
-              "file": "demo-solo-decouverte-sensuelle.de/00"
-            }
-          ]
-        },
-        {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
-          "attrs": {
-            "class": "faq-list"
-          },
-          "items": [
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Was nach dieser ersten Phase folgt"
             },
             {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
-                }
-              ]
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Dies ist die vollständige erste Phase, kein Zusammenschnitt. Die folgenden Phasen erlebt ihr in der App. Die Demo hat feste Namen und Einstellungen. Persönliche Sessions werden dagegen aus euren Angaben generiert und können unterschiedlich verlaufen."
             }
           ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/store-cta"
         }
       ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "dcta"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+            "id": "demo-store-cta",
+            "data-store-auto": "",
+            "data-cta-position": "end",
+            "class": "hero-store-cta",
+            "style": "display:inline-block;margin-top:0;",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          "html": "Eine vollständige Session in der App erleben"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age"
+          },
+          "html": "🔞 Ausschließlich für Erwachsene ab 18"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "dpage",
+        "style": "padding-top:0;"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dlinks"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Mehr erfahren"
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "html": "\n                <li><a href=\"/de/solo-entdecken/\">Solo entdecken</a></li>\n                <li><a href=\"/de/neue-paare/\">Für neue Paare</a></li>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "dlinks"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Die anderen Hörproben"
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "html": "\n                <li><a href=\"/de/demo/romantischer-abend/\">Ein romantischer Abend zu zweit mit Audiobegleitung</a></li>\n                <li><a href=\"/de/demo/solo-entdecken/\">Ein weiterer persönlicher Solomoment</a></li>\n                <li><a href=\"/de/demo/leidenschaftliches-paar/\">Ein gemeinsamer Rollenwechsel mit Audiobegleitung</a></li>\n                <li><a href=\"/de/demo/zwei-frauen/\">Eine geführte Session für zwei Frauen</a></li>\n                <li><a href=\"/de/demo/zwei-maenner/\">Eine geführte Session für zwei Männer</a></li>\n            "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "style": "margin-top:12px;"
+              },
+              "html": "<a href=\"/de/demo/\">Alle sechs Hörproben ansehen →</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-5dac14696b65a7da.de",
+        "footer-3dc47714870eacdd.de",
+        "footer.en.links.de",
+        "footer-efe3c9ecc082c623.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-e86488cf4c9bedce.js"
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "demo-solo-decouverte-sensuelle.en"
 }

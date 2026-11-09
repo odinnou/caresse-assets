@@ -4,10 +4,10 @@
   "locale": "de",
   "path": "/de/rechtliches/datenschutz/",
   "kind": "legal",
+  "layout": "composed",
   "sitemap": false,
   "htmlAttrs": {
-    "lang": "de",
-    "data-analytics-variant": "legal-privacy-v1"
+    "lang": "de"
   },
   "bodyAttrs": {
     "class": "lang-de"
@@ -22,169 +22,334 @@
       "content": "width=device-width, initial-scale=1.0"
     },
     {
-      "name": "description",
-      "content": "Datenverarbeitung bei Caresse: Zwecke, Rechtsgrundlagen, Dienstleister, Aufbewahrung, Rechte, Kontolöschung und Analyse von Website und App."
-    },
-    {
       "name": "robots",
       "content": "noindex, nofollow"
-    },
-    {
-      "name": "theme-color",
-      "content": "#5D3D8C"
-    },
-    {
-      "property": "og:type",
-      "content": "website"
-    },
-    {
-      "property": "og:site_name",
-      "content": "Caresse"
-    },
-    {
-      "property": "og:title",
-      "content": "Datenschutzerklärung – Caresse"
-    },
-    {
-      "property": "og:description",
-      "content": "Datenverarbeitung bei Caresse: Zwecke, Rechtsgrundlagen, Dienstleister, Aufbewahrung, Rechte, Kontolöschung und Analyse von Website und App."
-    },
-    {
-      "property": "og:url",
-      "content": "https://caresse.app/de/rechtliches/datenschutz/"
-    },
-    {
-      "property": "og:locale",
-      "content": "de_DE"
-    },
-    {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "name": "twitter:card",
-      "content": "summary_large_image"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Datenschutzerklärung – Caresse"
-    },
-    {
-      "name": "twitter:description",
-      "content": "Datenverarbeitung bei Caresse: Zwecke, Rechtsgrundlagen, Dienstleister, Aufbewahrung, Rechte, Kontolöschung und Analyse von Website und App."
-    },
-    {
-      "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
     }
   ],
-  "links": [
-    {
-      "rel": "icon",
-      "type": "image/x-icon",
-      "href": "/favicon.ico"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "32x32",
-      "href": "/favicon-32.png"
-    },
-    {
-      "rel": "apple-touch-icon",
-      "sizes": "180x180",
-      "href": "/apple-touch-icon.png"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "192x192",
-      "href": "/favicon-192.png"
-    },
-    {
-      "rel": "sitemap",
-      "type": "application/xml",
-      "title": "Sitemap",
-      "href": "https://caresse.app/sitemap.xml"
-    }
-  ],
+  "links": [],
   "schemas": [],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-8c53c89e9530107f.css"
   ],
+  "styleAttrs": {
+    "shared-8c53c89e9530107f.css": {}
+  },
   "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "style",
+      "file": "shared-8c53c89e9530107f.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-4c88699509e1bb98.de"
+    },
+    {
+      "type": "element",
+      "tag": "h1",
+      "attrs": {},
+      "html": "🔒 Datenschutzerklärung"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "<strong>Stand:</strong> 5. September 2026"
+    },
+    {
       "type": "container",
-      "tag": "main",
+      "tag": "div",
       "attrs": {
-        "id": "main-content"
+        "class": "highlight"
       },
       "blocks": [
         {
-          "type": "intro",
-          "attrs": {
-            "class": "hero localized-hero"
-          },
-          "children": [
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Rechtliche Informationen"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Datenschutzerklärung – Caresse"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Datenverarbeitung bei Caresse: Zwecke, Rechtsgrundlagen, Dienstleister, Aufbewahrung, Rechte, Kontolöschung und Analyse von Website und App."
-            }
-          ]
+          "type": "text",
+          "html": "\n        "
         },
         {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content"
-          },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "legal-privacy.de/00"
-            }
-          ]
+          "type": "html",
+          "file": "legal-privacy.de/0507"
+        },
+        {
+          "type": "text",
+          "html": " Caresse ist eine persönliche App. Der Schutz deiner Daten ist wichtig. Wir begrenzen die Erhebung auf erforderliche Daten, verkaufen sie nicht und bieten Kontrolle und Löschmöglichkeiten.\n    "
         }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "1. Verantwortlicher"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Verantwortlich ist der Herausgeber der Caresse-App, erreichbar unter <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "2. Erhobene Daten"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Caresse verarbeitet Daten, die für den Dienst erforderlich sind:"
+    },
+    {
+      "type": "element",
+      "tag": "table",
+      "attrs": {},
+      "html": "\n        <tr>\n            <th>Daten</th>\n            <th>Zweck</th>\n            <th>Rechtsgrundlage</th>\n        </tr>\n        <tr>\n            <td>Anonymer Identifikator (Firebase UID)</td>\n            <td>Authentifizierung und dauerhafte Zuordnung des Kontos</td>\n            <td>Vertragserfüllung</td>\n        </tr>\n        <tr>\n            <td>Vorname oder Spitzname</td>\n            <td>Persönliche Ansprache durch die KI-Stimme</td>\n            <td>Ausdrückliche Einwilligung</td>\n        </tr>\n        <tr>\n            <td>Anatomische Angaben, angegebenes biologisches Geschlecht</td>\n            <td>Anpassung körperlicher Vorschläge an die Anatomie der Teilnehmenden</td>\n            <td>Ausdrückliche Einwilligung</td>\n        </tr>\n        <tr>\n            <td>Session-Einstellungen wie Vorlieben, Zubehör, Dauer und Ort</td>\n            <td>Generierung der persönlichen Erfahrung</td>\n            <td>Vertragserfüllung</td>\n        </tr>\n        <tr>\n            <td>Historie generierter Erfahrungen</td>\n            <td>Zugriff auf frühere Inhalte in der App</td>\n            <td>Vertragserfüllung</td>\n        </tr>\n        <tr>\n            <td>Kaufdaten über RevenueCat</td>\n            <td>Verwaltung von Credits und dauerhafter Freischaltung</td>\n            <td>Vertragserfüllung</td>\n        </tr>\n        <tr>\n            <td>Aggregierte anonymisierte Nutzungsstatistik über Google Analytics</td>\n            <td>Analyse des Erstellungsablaufs zur Verbesserung des Dienstes, etwa Abbruchstellen; keine individuelle Nachverfolgung.</td>\n            <td>Berechtigtes Interesse</td>\n        </tr>\n        <tr>\n            <td>Website-Navigation und Store-Klicks über Umami Cloud</td>\n            <td>Aggregierte Messung von Website-Verkehr und Ausgängen zu App Store oder Google Play.</td>\n            <td>Berechtigtes Interesse</td>\n        </tr>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Wir erheben keine E-Mail außer bei Kontaktaufnahme, keine Telefonnummer, GPS-Position, Kontakte oder biometrischen Daten und keine zur Identifizierung außerhalb der App bestimmten Angaben."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "3. Übermittlung an externe Dienste"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Notwendige Einstellungen werden pseudonymisiert an KI- und Sprachsynthesedienste übermittelt. Ein gewählter Vorname oder Spitzname kann enthalten sein; direkt identifizierende Angaben wie E-Mail, Kontokennung oder vollständiger rechtlicher Name werden dafür nicht geteilt."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Zu den verwendeten Diensten gehören:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li><strong>Firebase (Google)</strong> – Authentifizierung und Datenbank</li>\n        <li><strong>Microsoft Azure</strong> – Server, Audiodateien und Erlebnisdaten in Europa</li>\n        <li><strong>KI-Anbieter</strong> – Generierung aus pseudonymisierten Einstellungen</li>\n        <li><strong>TTS-Anbieter</strong> – Sprachsynthese mit gewähltem Vornamen oder Spitznamen</li>\n        <li><strong>RevenueCat</strong> – Kauf- und Creditverwaltung</li>\n        <li><strong>Google Analytics (Firebase Analytics)</strong> – Anonymisierte Verhaltensanalyse ohne direkt identifizierende Angaben</li>\n        <li><strong>Umami Cloud</strong> – Website- und Store-Klick-Messung ohne Werbecookies oder Nutzerprofile</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Jeder Anbieter hat eigene Datenschutzbedingungen und unterliegt den jeweils anwendbaren Vorschriften, etwa der DSGVO bei europäischen Diensten."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Personenbezogene Daten werden nicht zu Werbe- oder kommerziellen Zwecken an Dritte verkauft."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "4. Hosting und Sicherheit"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Daten und Audiodateien liegen auf Microsoft-Azure-Servern in Europa. Verbindungen zwischen App und Server sind per HTTPS/TLS verschlüsselt."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Zugriff ist auf das Erforderliche beschränkt. Beschäftigte und Auftragnehmer greifen nicht zu persönlichen Zwecken auf Erfahrungen zu."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "5. Aufbewahrung"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Daten bleiben während eines aktiven Kontos gespeichert. Bei Kontolöschung gilt:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>Erfahrungen, Audiodateien und Einstellungen werden dauerhaft von unseren Servern gelöscht.</li>\n        <li>Der anonyme Identifikator wird aus unserer Datenbank entfernt.</li>\n        <li>Apple, Google und RevenueCat können Transaktionsdaten aufgrund eigener gesetzlicher Pflichten weiter aufbewahren.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "6. Deine Rechte"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Für personenbezogene Daten bestehen insbesondere folgende Rechte:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li><strong>Auskunft:</strong> Eine Kopie der über dich gespeicherten Daten erhalten.</li>\n        <li><strong>Berichtigung:</strong> Unrichtige Daten korrigieren lassen.</li>\n        <li><strong>Löschung</strong> beziehungsweise Recht auf Vergessenwerden: vollständige Entfernung beantragen.</li>\n        <li><strong>Datenübertragbarkeit:</strong> Daten in einem strukturierten, maschinenlesbaren Format erhalten.</li>\n        <li><strong>Widerspruch:</strong> Einer Verarbeitung auf Grundlage berechtigter Interessen widersprechen.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Wende dich dafür an <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>. Anfragen werden innerhalb eines Monats bearbeitet."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "In der EU beziehungsweise im EWR kannst du dich außerdem bei der örtlichen Datenschutzaufsicht beschweren, etwa bei der <strong>CNIL</strong> in Frankreich kontaktieren: <a href=\"https://www.cnil.fr\" target=\"_blank\" rel=\"noopener\">www.cnil.fr</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "7. Kontolöschung und Recht auf Löschung"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Du kannst die vollständige Löschung von Konto und zugehörigen Daten jederzeit beim Herausgeber beantragen unter <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Dadurch werden Erfahrungen, Audiodateien und Profile endgültig und unwiderruflich entfernt. Die Löschung kann nicht rückgängig gemacht werden."
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-privacy.de/0508"
+        },
+        {
+          "type": "text",
+          "html": " Ungenutzte Credits gehen bei Kontolöschung verloren. Die dauerhafte Freischaltung lässt sich später über „Käufe wiederherstellen“ erneut aktivieren. Siehe "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/rechtliches/verkaufsbedingungen/"
+          },
+          "html": "Verkaufsbedingungen"
+        },
+        {
+          "type": "text",
+          "html": " für Einzelheiten.\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "8. Cookies und Analyse"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die App nutzt keine Werbecookies oder Tracker zur gezielten Werbung. Technische Kennungen dienen dem Betrieb, etwa Firebase und RevenueCat. Firebase Analytics analysiert anonymisiert den Erstellungsablauf, um Abbruchstellen zu erkennen und den Dienst zu verbessern; dafür werden keine direkt identifizierenden Angaben übermittelt."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die Website nutzt Umami Cloud zur aggregierten Messung von Seiten, Besucherquellen und Store-Klicks, ohne Werbecookies oder Nutzerprofile."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "9. Änderungen dieser Erklärung"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die Erklärung kann aktualisiert werden. Wesentliche Änderungen an deinen Rechten werden in der App mitgeteilt. Die aktuelle Fassung ist dort und in diesem Dokument zugänglich."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "10. Kontakt"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Bei Fragen zum Schutz deiner Daten erreichst du den Herausgeber unter <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-ca93feaad6ae74bb.de"
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "legal-privacy.en"
 }

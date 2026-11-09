@@ -4,10 +4,10 @@
   "locale": "de",
   "path": "/de/rechtliches/verkaufsbedingungen/",
   "kind": "legal",
+  "layout": "composed",
   "sitemap": false,
   "htmlAttrs": {
-    "lang": "de",
-    "data-analytics-variant": "legal-cgv-v1"
+    "lang": "de"
   },
   "bodyAttrs": {
     "class": "lang-de"
@@ -22,169 +22,340 @@
       "content": "width=device-width, initial-scale=1.0"
     },
     {
-      "name": "description",
-      "content": "Verkaufsbedingungen der Caresse-App: Credits, dauerhafte Freischaltung, Store-Zahlungen, technische Fehler, Erstattungen und Kontolöschung."
-    },
-    {
       "name": "robots",
       "content": "noindex, nofollow"
-    },
-    {
-      "name": "theme-color",
-      "content": "#5D3D8C"
-    },
-    {
-      "property": "og:type",
-      "content": "website"
-    },
-    {
-      "property": "og:site_name",
-      "content": "Caresse"
-    },
-    {
-      "property": "og:title",
-      "content": "Verkaufsbedingungen – Caresse"
-    },
-    {
-      "property": "og:description",
-      "content": "Verkaufsbedingungen der Caresse-App: Credits, dauerhafte Freischaltung, Store-Zahlungen, technische Fehler, Erstattungen und Kontolöschung."
-    },
-    {
-      "property": "og:url",
-      "content": "https://caresse.app/de/rechtliches/verkaufsbedingungen/"
-    },
-    {
-      "property": "og:locale",
-      "content": "de_DE"
-    },
-    {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "name": "twitter:card",
-      "content": "summary_large_image"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Verkaufsbedingungen – Caresse"
-    },
-    {
-      "name": "twitter:description",
-      "content": "Verkaufsbedingungen der Caresse-App: Credits, dauerhafte Freischaltung, Store-Zahlungen, technische Fehler, Erstattungen und Kontolöschung."
-    },
-    {
-      "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
     }
   ],
-  "links": [
-    {
-      "rel": "icon",
-      "type": "image/x-icon",
-      "href": "/favicon.ico"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "32x32",
-      "href": "/favicon-32.png"
-    },
-    {
-      "rel": "apple-touch-icon",
-      "sizes": "180x180",
-      "href": "/apple-touch-icon.png"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "192x192",
-      "href": "/favicon-192.png"
-    },
-    {
-      "rel": "sitemap",
-      "type": "application/xml",
-      "title": "Sitemap",
-      "href": "https://caresse.app/sitemap.xml"
-    }
-  ],
+  "links": [],
   "schemas": [],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-281a0447b34fccfd.css"
   ],
+  "styleAttrs": {
+    "shared-281a0447b34fccfd.css": {}
+  },
   "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "style",
+      "file": "shared-281a0447b34fccfd.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-4c88699509e1bb98.de"
+    },
+    {
+      "type": "element",
+      "tag": "h1",
+      "attrs": {},
+      "html": "💳 Verkaufsbedingungen"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "<strong>Stand:</strong> 15. Mai 2026"
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "1. Geltungsbereich"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Diese Bedingungen betreffen Käufe in der mobilen Caresse-App, herausgegeben von einem unabhängigen Entwickler, erreichbar unter <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Sie gelten für Credits und einmalige Freischaltungen über App Store und Google Play."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Für die App-Nutzung gelten außerdem die <a href=\"/de/rechtliches/nutzungsbedingungen/\">Nutzungsbedingungen</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "2. Verfügbare Käufe"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Es gibt zwei Arten von In-App-Käufen:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li><strong>Verbrauchbare Credits:</strong> Einheiten zur Generierung einer Erfahrung. Die erforderliche Anzahl kann je nach gewählten Optionen variieren.</li>\n        <li><strong>Dauerhafte Freischaltung:</strong> Ein einmaliger Kauf für zusätzliche Einstellungen, etwa Vorlieben, Zubehör und Atmosphäre. Er ist an das Plattformkonto gebunden, nicht an ein Gerät, und enthält keine unbegrenzte Generierung.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "3. Preise und Zahlung"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die Preise einschließlich anwendbarer Steuern erscheinen vor dem Kauf in der App. Sie können je nach Region und den von Apple oder Google angewandten Steuern variieren."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Zahlungen werden ausschließlich von App Store oder Google Play nach deren Bedingungen verarbeitet. Caresse erhebt, speichert oder verarbeitet keine Bank- oder Zahlungsdaten."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Bei Zahlungsstreitigkeiten wende dich an Apple beziehungsweise Google, je nach verwendeter Plattform."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "4. Verbrauch von Credits"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Credits werden beim Start der Generierung abgezogen. Da KI-Inhalte nicht deterministisch sind, werden sie nicht allein deshalb erstattet, weil das Ergebnis subjektiven Erwartungen nicht entspricht."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Credits verfallen nicht, solange das Konto aktiv bleibt."
+    },
+    {
       "type": "container",
-      "tag": "main",
+      "tag": "div",
       "attrs": {
-        "id": "main-content"
+        "class": "highlight"
       },
       "blocks": [
         {
-          "type": "intro",
-          "attrs": {
-            "class": "hero localized-hero"
-          },
-          "children": [
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Rechtliche Informationen"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Verkaufsbedingungen – Caresse"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Verkaufsbedingungen der Caresse-App: Credits, dauerhafte Freischaltung, Store-Zahlungen, technische Fehler, Erstattungen und Kontolöschung."
-            }
-          ]
+          "type": "text",
+          "html": "\n        "
         },
         {
-          "type": "container",
-          "tag": "section",
+          "type": "html",
+          "file": "legal-cgv.de/0481"
+        },
+        {
+          "type": "text",
+          "html": " Bei einem nachgewiesenen, dem Dienst zurechenbaren technischen Fehler ohne ausgelieferten Inhalt werden verbrauchte Credits automatisch wiederhergestellt. Störungen können gemeldet werden unter "
+        },
+        {
+          "type": "element",
+          "tag": "a",
           "attrs": {
-            "class": "localized-content"
+            "href": "mailto:admin@caresse.app"
           },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "legal-cgv.de/00"
-            }
-          ]
+          "html": "admin@caresse.app"
+        },
+        {
+          "type": "text",
+          "html": ".\n    "
         }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "5. Widerruf und Erstattungen"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-cgv.de/0482"
+        },
+        {
+          "type": "text",
+          "html": " Nach Maßgabe der anwendbaren Vorschriften entfällt das 14-tägige Widerrufsrecht bei digitalen Inhalten, deren Ausführung mit vorheriger Zustimmung und ausdrücklichem Verzicht begonnen hat. Mit dem Start stimmt der Nutzer der sofortigen Ausführung zu und erkennt den Verzicht an.\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Dementsprechend erfolgt keine Erstattung allein aus folgenden Gründen:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>Die generierte Erfahrung entspricht nicht subjektiven Erwartungen oder Vorlieben.</li>\n        <li>Stil, Ton oder generierter Inhalt gefallen nicht.</li>\n        <li>Die Entscheidung wird nach dem Start geändert.</li>\n        <li>Eine Geschichte, Erfahrung oder das Konto wird freiwillig gelöscht.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Anfragen wegen nachgewiesener technischer Fehler richten sich nach Abschnitt 4."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Andere Erstattungsanfragen, etwa wegen versehentlicher Käufe, sind an Apple oder Google zu richten. Diese bearbeiten Erstattungen über ihre Plattformen."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "6. Bedingungen der dauerhaften Freischaltung"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die Freischaltung ist ein einmaliger Kauf, an das Plattformkonto gebunden und auf einem neuen Gerät oder Caresse-Konto über <strong>„Käufe wiederherstellen“</strong> in der App wiederherstellbar."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Eine Kontolöschung deaktiviert die Freischaltung in Caresse. Mit einem neuen Konto und der Wiederherstellungsfunktion kann sie erneut aktiviert werden, sofern der Kauf weiterhin dem ursprünglichen Apple- oder Google-Konto zugeordnet ist."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Verbrauchbare Credits gehen bei Kontolöschung dauerhaft verloren und lassen sich weder wiederherstellen noch übertragen."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Der Herausgeber kann zusätzliche Optionen ohne Mehrkosten ergänzen. Bereits enthaltene Funktionen dürfen nicht ohne vorherige Mitteilung entfernt werden."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "7. Kontolöschung und Creditverlust"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Eine Kontolöschung entfernt ungenutzte Credits endgültig ohne Erstattung. Es wird empfohlen, verbleibende Credits vorher zu nutzen."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die Freischaltung wird deaktiviert, kann aber später gemäß Abschnitt 6 über die Wiederherstellung von Käufen erneut aktiviert werden."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "8. Preisänderungen"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Der Herausgeber kann Preise jederzeit ändern. Frühere Käufe sind davon nicht betroffen; neue Preise gelten nur für spätere Käufe."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "9. Anwendbares Recht und Streitigkeiten"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die Verkaufsbedingungen unterliegen französischem Recht. Zunächst wird eine einvernehmliche Lösung gesucht. Nach der zugrunde liegenden Fassung sind andernfalls die zuständigen französischen Gerichte zuständig."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die Ausgangsfassung enthält folgenden historischen Verweis auf die frühere EU-Plattform zur Online-Streitbeilegung nach Verordnung (EU) Nr. 524/2013; er ist kein aktuell angebotener Beschwerdeweg: <a href=\"https://ec.europa.eu/consumers/odr\" target=\"_blank\" rel=\"noopener\">https://ec.europa.eu/consumers/odr</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "10. Kontakt"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Bei Fragen zu den Verkaufsbedingungen erreichst du den Herausgeber unter <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-ca93feaad6ae74bb.de"
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "legal-cgv.en"
 }

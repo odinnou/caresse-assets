@@ -4,15 +4,16 @@
   "locale": "de",
   "path": "/de/preise/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "pricing-v3"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "Caresse Preise – Kostenlose Demos, Credits statt Abo",
+  "title": "Caresse-Preise: Kostenlose Demos, ohne Abo",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,11 +24,15 @@
     },
     {
       "name": "description",
-      "content": "Caresse kostenlos herunterladen und Hörproben testen. Persönliche Sessions mit Credits, ohne Abo. Optionale Freischaltung und Store-Käufe verständlich erklärt."
+      "content": "Caresse kostenlos herunterladen. Was Demos enthalten, wie Credits funktionieren und was die optionale Freischaltung bietet. Ohne Abo."
     },
     {
       "name": "robots",
       "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
     },
     {
       "name": "theme-color",
@@ -38,32 +43,32 @@
       "content": "website"
     },
     {
+      "property": "og:url",
+      "content": "https://caresse.app/de/preise/"
+    },
+    {
       "property": "og:site_name",
       "content": "Caresse"
     },
     {
       "property": "og:title",
-      "content": "Caresse Preise – Kostenlose Demos, Credits statt Abo"
+      "content": "Caresse-Preise: Kostenlose Demos, ohne Abo"
     },
     {
       "property": "og:description",
-      "content": "Caresse kostenlos herunterladen und Hörproben testen. Persönliche Sessions mit Credits, ohne Abo. Optionale Freischaltung und Store-Käufe verständlich erklärt."
+      "content": "Caresse kostenlos herunterladen. Was Demos enthalten, wie Credits funktionieren und was die optionale Freischaltung bietet. Ohne Abo."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/preise/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
       "name": "twitter:card",
@@ -71,103 +76,309 @@
     },
     {
       "name": "twitter:title",
-      "content": "Caresse Preise – Kostenlose Demos, Credits statt Abo"
+      "content": "Caresse-Preise: Kostenlose Demos, ohne Abo"
     },
     {
       "name": "twitter:description",
-      "content": "Caresse kostenlos herunterladen und Hörproben testen. Persönliche Sessions mit Credits, ohne Abo. Optionale Freischaltung und Store-Käufe verständlich erklärt."
+      "content": "Caresse kostenlos herunterladen. Was Demos enthalten, wie Credits funktionieren und was die optionale Freischaltung bietet. Ohne Abo."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "https://caresse.app/og-image-en.png"
     }
   ],
   "links": [
     {
       "rel": "icon",
-      "type": "image/x-icon",
       "href": "/favicon.ico"
     },
     {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "32x32",
-      "href": "/favicon-32.png"
-    },
-    {
       "rel": "apple-touch-icon",
-      "sizes": "180x180",
       "href": "/apple-touch-icon.png"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "192x192",
-      "href": "/favicon-192.png"
-    },
-    {
-      "rel": "sitemap",
-      "type": "application/xml",
-      "title": "Sitemap",
-      "href": "https://caresse.app/sitemap.xml"
     }
   ],
   "schemas": [
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://caresse.app/de/preise/#webpage",
+      "name": "Caresse-Preise: Kostenlose Demos, ohne Abo",
+      "description": "Caresse kostenlos herunterladen. Was Demos enthalten, wie Credits funktionieren und was die optionale Freischaltung bietet. Ohne Abo.",
       "url": "https://caresse.app/de/preise/",
-      "name": "Caresse Preise – Kostenlose Demos, Credits statt Abo",
-      "description": "Caresse kostenlos herunterladen und Hörproben testen. Persönliche Sessions mit Credits, ohne Abo. Optionale Freischaltung und Store-Käufe verständlich erklärt.",
       "inLanguage": "de",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Caresse",
         "url": "https://caresse.app/"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Preise",
+            "item": "https://caresse.app/de/preise/"
+          }
+        ]
       }
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "mainEntity": {
-        "block": "faq"
-      }
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ist Caresse kostenlos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Download und feste Demos sind kostenlos. Persönliche Generierung benötigt Credits. Zusätzliche Einstellungen können separat einmalig freigeschaltet werden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Caresse-Session?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aktuelle Credit- und Paketpreise stehen vor dem Kauf in der Währung eures Stores in der App. Beim Start einer persönlichen Generierung wird ein Credit gemäß gewähltem Angebot verwendet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es ein Abo oder automatische Verlängerung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Kauft Credits, wenn ihr neue Sessions erstellen möchtet. Die optionale Freischaltung ist ein einmaliger Kauf, kein Abo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Enthält die Freischaltung unbegrenzte Sessions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Sie erweitert Einstellungen. Die Generierung benötigt weiterhin Credits; eventuell enthaltene Credits sind im Angebot der App angegeben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich ohne Caresse-Konto kaufen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Der anonyme Modus benötigt kein Caresse-Konto. Zahlungen im App Store oder bei Google Play brauchen aber das jeweilige Plattformkonto und dessen Zahlungsmethode."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich auf Englisch, Französisch oder Spanisch ausprobieren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; das iOS-Update wartet laut aktuellem Stand auf Freigabe. Website-Demos gibt es auf Englisch, Französisch und Spanisch. Die deutsche Website bedeutet keine deutschen App-Inhalte oder Audios."
+          }
+        }
+      ]
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-ce2d06a4f19a47b9.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-ce2d06a4f19a47b9.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "style",
+      "file": "shared-ce2d06a4f19a47b9.css",
+      "attrs": {}
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
   ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-04fe14bd3ff33991.de"
+    },
+    {
       "type": "container",
       "tag": "main",
-      "attrs": {
-        "id": "main-content"
-      },
+      "attrs": {},
       "blocks": [
         {
           "type": "intro",
           "attrs": {
-            "class": "hero localized-hero"
+            "class": "hero",
+            "aria-labelledby": "pricing-title"
           },
           "children": [
             {
@@ -175,131 +386,489 @@
               "attrs": {
                 "class": "hero-eyebrow"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+              "html": "Caresse · Preise"
             },
             {
               "tag": "h1",
-              "attrs": {},
-              "html": "Caresse Preise – Kostenlose Demos, Credits statt Abo"
+              "attrs": {
+                "id": "pricing-title"
+              },
+              "html": "Eure Audiosessions.<br><em>Ohne Abonnement.</em>"
             },
             {
               "tag": "p",
               "attrs": {},
-              "html": "Caresse kostenlos herunterladen und Hörproben testen. Persönliche Sessions mit Credits, ohne Abo. Optionale Freischaltung und Store-Käufe verständlich erklärt."
+              "html": "Die Stimme kostenlos kennenlernen. Persönliche Sessions danach mit Credits erstellen, wenn ihr möchtet."
             },
             {
               "tag": "div",
               "attrs": {
                 "class": "cta-group"
               },
+              "html": "<a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink hero-adaptive-download\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">App kostenlos herunterladen</a>"
+            },
+            {
+              "attrs": {
+                "class": "store-badges hero-store-options"
+              },
               "links": [
                 {
                   "store": "ios",
                   "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
                     "data-cta-position": "hero",
+                    "class": "store-badge",
+                    "aria-label": "Im App Store herunterladen",
                     "target": "_blank",
-                    "rel": "noopener"
+                    "rel": "noopener noreferrer"
                   },
-                  "html": "Caresse kostenlos herunterladen"
+                  "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\">\n\n            "
+                },
+                {
+                  "store": "android",
+                  "attrs": {
+                    "data-cta-position": "hero",
+                    "class": "store-badge gplay",
+                    "aria-label": "Bei Google Play herunterladen",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\">\n            "
                 }
               ]
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-badge"
+              },
+              "html": "Kostenlose Demos · Kein Caresse-Konto · iOS und Android<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
             }
           ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/languages"
         },
         {
           "type": "container",
           "tag": "section",
           "attrs": {
-            "class": "localized-content"
+            "class": "pricing",
+            "aria-labelledby": "included-title"
           },
           "blocks": [
             {
-              "type": "markdown",
-              "file": "tarifs.de/00"
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Preise"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "id": "included-title",
+                "class": "section-title"
+              },
+              "html": "Kostenlos ausprobieren.<br>In eurem Tempo generieren."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Demos sind kostenlos. Persönliche Sessions entstehen mit Credits, ohne Abo."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "pricing-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "article",
+                  "attrs": {
+                    "class": "price-card highlight"
+                  },
+                  "html": "\n                    <h3>Hörproben</h3>\n                    <p class=\"price-big\">Kostenlos</p>\n                    <p class=\"price-note\">Die App und feste Demos sind kostenlos.</p>\n                    <div class=\"price-details\"><p>✓ Stimme und Format kennenlernen</p><p>✓ Solo oder zu zweit</p><p>✓ Auf Englisch, Französisch und Spanisch</p></div>\n                    <p class=\"price-note\" style=\"margin-top:20px;font-size:0.85rem;\">Demos sind feste Beispiele, keine aus eurem Profil generierten Sessions.</p>\n                "
+                },
+                {
+                  "tag": "article",
+                  "attrs": {
+                    "class": "price-card"
+                  },
+                  "html": "\n                    <h3>Persönliche Sessions</h3>\n                    <p class=\"price-big\">Pro Session bezahlen</p>\n                    <p class=\"price-note\">Ein Credit = eine generierte Session gemäß gewähltem Angebot</p>\n                    <div class=\"price-details\"><p>Eure Namen oder Spitznamen, Stimmung und Vorlieben. Ein Credit startet die persönliche Generierung.</p><p>✓ Einzelne Credits oder Pakete</p><p>✓ Keine automatische Verlängerung</p></div>\n                "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "pricing-footnote"
+              },
+              "html": "Credit-, Paket- und Freischaltpreise stehen vor dem Kauf in der Währung eures Stores in der App."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group",
+                "style": "margin-top:32px;"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                    "class": "cta-pink",
+                    "data-store-auto": "",
+                    "data-cta-position": "inline",
+                    "target": "_blank",
+                    "rel": "noopener"
+                  },
+                  "html": "App kostenlos herunterladen"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
+          "type": "container",
+          "tag": "section",
           "attrs": {
-            "class": "faq-list"
+            "class": "columns",
+            "aria-labelledby": "options-title"
           },
-          "items": [
+          "blocks": [
             {
+              "type": "element",
+              "tag": "p",
               "attrs": {
-                "class": "faq-item"
+                "class": "section-label"
               },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
+              "html": "Personalisierung"
             },
             {
+              "type": "element",
+              "tag": "h2",
               "attrs": {
-                "class": "faq-item"
+                "id": "options-title",
+                "class": "section-title"
               },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
+              "html": "Eine Option, kein Abo."
             },
             {
+              "type": "container",
+              "tag": "article",
               "attrs": {
-                "class": "faq-item"
+                "class": "col-card options-card"
               },
-              "children": [
+              "blocks": [
                 {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "col-sub"
+                  },
+                  "html": "Optional · Einmaliger Kauf"
                 },
                 {
+                  "type": "element",
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Weitere Personalisierungsoptionen"
+                },
+                {
+                  "type": "element",
                   "tag": "p",
                   "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                  "html": "Eine separate Freischaltung erweitert die Einstellungen. Persönliche Generierung benötigt weiter Credits; unbegrenzte Sessions sind nicht enthalten."
                 }
               ]
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq",
+            "aria-labelledby": "faq-title"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Häufige Fragen"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "id": "faq-title",
+                "class": "section-title"
+              },
+              "html": "Preise verständlich erklärt."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "article",
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Ist Caresse kostenlos?"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Download und feste Demos sind kostenlos. Persönliche Generierung benötigt Credits. Zusätzliche Einstellungen können separat einmalig freigeschaltet werden."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "article",
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Was kostet eine Caresse-Session?"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Aktuelle Credit- und Paketpreise stehen vor dem Kauf in der Währung eures Stores in der App. Beim Start einer persönlichen Generierung wird ein Credit gemäß gewähltem Angebot verwendet."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "article",
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Gibt es ein Abo oder automatische Verlängerung?"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Nein. Kauft Credits, wenn ihr neue Sessions erstellen möchtet. Die optionale Freischaltung ist ein einmaliger Kauf, kein Abo."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "article",
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Enthält die Freischaltung unbegrenzte Sessions?"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Nein. Sie erweitert Einstellungen. Die Generierung benötigt weiterhin Credits; eventuell enthaltene Credits sind im Angebot der App angegeben."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "article",
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Kann ich ohne Caresse-Konto kaufen?"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Ja. Der anonyme Modus benötigt kein Caresse-Konto. Zahlungen im App Store oder bei Google Play brauchen aber das jeweilige Plattformkonto und dessen Zahlungsmethode."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "tag": "article",
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Kann ich auf Englisch, Französisch oder Spanisch ausprobieren?"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; das iOS-Update wartet laut aktuellem Stand auf Freigabe. Website-Demos gibt es auf Englisch, Französisch und Spanisch. Die deutsche Website bedeutet keine deutschen App-Inhalte oder Audios."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Selbst hineinhören.<br>Mit einer Demo beginnen."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Caresse kostenlos herunterladen und danach über eine persönliche Session entscheiden."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "cta-group"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                    "class": "cta-pink hero-adaptive-download",
+                    "data-store-auto": "",
+                    "data-cta-position": "inline",
+                    "target": "_blank",
+                    "rel": "noopener"
+                  },
+                  "html": "App kostenlos herunterladen"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-badges hero-store-options"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "data-cta-position": "inline",
+                    "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                    "class": "store-badge",
+                    "aria-label": "Im App Store herunterladen",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\">\n\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "data-cta-position": "inline",
+                    "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                    "class": "store-badge gplay",
+                    "aria-label": "Bei Google Play herunterladen",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\">\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice",
+                "style": "margin-top:24px;"
+              },
+              "html": "Ausschließlich für Erwachsene ab 18 Jahren."
+            }
+          ]
         }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo.de",
+        "footer-60b041cb44bacf4e.de",
+        "footer.en.links.de",
+        "footer-c18220e05a34e590.de",
+        "footer.en.copy.de"
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "tarifs.en"
 }

@@ -4,15 +4,16 @@
   "locale": "de",
   "path": "/de/so-funktionierts/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
-    "lang": "de",
-    "data-analytics-variant": "seo-consistency-oct31-v1"
+    "data-analytics-variant": "seo-consistency-oct31-v1",
+    "lang": "de"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "So funktioniert Caresse – Persönliche Audioerlebnisse mit KI",
+  "title": "So funktioniert Caresse – Persönliche KI-Audios erklärt",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +24,31 @@
     },
     {
       "name": "description",
-      "content": "Vom Profil zur Audioerfahrung: Modus und Wünsche wählen, Session erstellen lassen und einer synthetischen Stimme folgen. Ablauf, Credits und Grenzen erklärt."
+      "content": "So entstehen persönliche Audioerlebnisse: Einstellungen, KI-Geschichte, synthetische Stimme und Datenschutz. Kostenlose feste Demos ohne Caresse-Konto."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/so-funktionierts/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +56,43 @@
     },
     {
       "property": "og:title",
-      "content": "So funktioniert Caresse – Persönliche Audioerlebnisse mit KI"
+      "content": "So funktioniert Caresse – KI-Audiogenerierung erklärt"
     },
     {
       "property": "og:description",
-      "content": "Vom Profil zur Audioerfahrung: Modus und Wünsche wählen, Session erstellen lassen und einer synthetischen Stimme folgen. Ablauf, Credits und Grenzen erklärt."
+      "content": "Einstellungen, Generierung, Stimme und Datenschutz: die Schritte einer Caresse-Erfahrung."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/so-funktionierts/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "So funktioniert Caresse – Persönliche KI-Audiogenerierung"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +100,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "So funktioniert Caresse – Persönliche Audioerlebnisse mit KI"
+      "content": "So funktioniert Caresse – KI-Audiogenerierung erklärt"
     },
     {
       "name": "twitter:description",
-      "content": "Vom Profil zur Audioerfahrung: Modus und Wünsche wählen, Session erstellen lassen und einer synthetischen Stimme folgen. Ablauf, Credits und Grenzen erklärt."
+      "content": "Einstellungen, Generierung, Stimme und Datenschutz Schritt für Schritt."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "So funktioniert Caresse – Persönliche KI-Audiogenerierung"
     }
   ],
   "links": [
@@ -122,117 +143,739 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/so-funktionierts/#webpage",
-      "url": "https://caresse.app/de/so-funktionierts/",
-      "name": "So funktioniert Caresse – Persönliche Audioerlebnisse mit KI",
-      "description": "Vom Profil zur Audioerfahrung: Modus und Wünsche wählen, Session erstellen lassen und einer synthetischen Stimme folgen. Ablauf, Credits und Grenzen erklärt.",
-      "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      }
-    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": {
         "block": "faq"
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "So funktioniert Caresse",
+      "description": "Wie Caresse aus Einstellungen eine persönliche Audioerfahrung mit KI und synthetischer Stimme erstellt und welche Datenschutzangaben gelten.",
+      "url": "https://caresse.app/de/so-funktionierts/",
+      "inLanguage": "de",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://caresse.app/screens/en/07_android_en.webp"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "So funktioniert’s",
+            "item": "https://caresse.app/de/so-funktionierts/"
+          }
+        ]
+      }
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-d1ae81f11431d5b8.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-d1ae81f11431d5b8.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-d1ae81f11431d5b8.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
   ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-dd7f33c069c671cb.de"
+    },
+    {
       "type": "container",
-      "tag": "main",
+      "tag": "div",
       "attrs": {
-        "id": "main-content"
+        "class": "breadcrumb",
+        "style": "padding-top:80px;"
       },
       "blocks": [
         {
-          "type": "intro",
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
           "attrs": {
-            "class": "hero localized-hero"
+            "href": "/de/"
           },
-          "children": [
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " "
+        },
+        {
+          "type": "html",
+          "file": "how-it-works.de/0241"
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero",
+        "style": "min-height:auto; padding-top:60px;"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🎧 · KI · Geführte Audios · Schritt für Schritt"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "So erstellt Caresse<br><em>dein Audioerlebnis.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Von den Einstellungen bis zum Hören: So entsteht eine persönliche, private Audiofiktion auf Anfrage."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" target=\"_blank\" rel=\"noopener\">\n                <span class=\"inline\">Kostenlos herunterladen</span>\n                </a>\n            <a href=\"#steps\" class=\"cta-ghost\">\n                <span class=\"inline\">Die Schritte ansehen</span>\n                </a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Auf iOS und Android · Kostenlose feste Demos<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "steps-detail",
+        "id": "steps"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Der Ablauf"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Ein persönliches Erlebnis in vier Schritten"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Kein fester Titel aus einem Katalog: Jede persönliche Session entsteht aus euren Angaben."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "steps-detail-list"
+          },
+          "blocks": [
             {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "So funktioniert Caresse – Persönliche Audioerlebnisse mit KI"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Vom Profil zur Audioerfahrung: Modus und Wünsche wählen, Session erstellen lassen und einer synthetischen Stimme folgen. Ablauf, Credits und Grenzen erklärt."
-            },
-            {
+              "type": "container",
               "tag": "div",
               "attrs": {
-                "class": "cta-group"
+                "class": "step-detail-card"
               },
-              "links": [
+              "blocks": [
                 {
-                  "store": "ios",
+                  "type": "element",
+                  "tag": "img",
                   "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
+                    "src": "/screens/en/05_android_en.webp",
+                    "loading": "lazy",
+                    "alt": "Eine Caresse-Session für solo oder Paare vorbereiten – englische Oberfläche",
+                    "width": "1179",
+                    "height": "2556"
                   },
-                  "html": "Caresse kostenlos herunterladen"
+                  "html": ""
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "step-detail-num"
+                      },
+                      "html": "Schritt 01"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Deine Session beschreiben"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Wähle Solo- oder Paarmodus und Profile mit Namen oder Spitznamen. Lege Stimmung, Intensität und die verfügbaren Vorlieben fest. Im Paarmodus stimmt ihr euch gemeinsam ab; kein ausgewählter Rahmen verpflichtet zum späteren Mitmachen."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "step-detail-card"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "img",
+                  "attrs": {
+                    "src": "/screens/en/07_android_en.webp",
+                    "loading": "lazy",
+                    "alt": "Die KI erstellt eine persönliche Caresse-Geschichte",
+                    "width": "1179",
+                    "height": "2556"
+                  },
+                  "html": ""
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "step-detail-num"
+                      },
+                      "html": "Schritt 02"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Die KI schreibt die Geschichte"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Caresse generiert eine Erzählung aus euren Angaben statt einen festen Text aus einer Bibliothek abzuspielen. Gewählte Namen, Vorlieben und Dynamik fließen ein; Ergebnisse können variieren."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "step-detail-card"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "img",
+                  "attrs": {
+                    "src": "/screens/en/08_android_en.webp",
+                    "loading": "lazy",
+                    "alt": "Synthetische Stimme und Klangatmosphäre für Caresse",
+                    "width": "1179",
+                    "height": "2556"
+                  },
+                  "html": ""
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "step-detail-num"
+                      },
+                      "html": "Schritt 03"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Die Geschichte wird hörbar"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Eine synthetische Stimme liest die Erzählung, ergänzt durch eine gewählte Klangatmosphäre. Die Session ist zum Hören gedacht, ohne ständig auf einen Bildschirm schauen zu müssen."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "step-detail-card"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "img",
+                  "attrs": {
+                    "src": "/screens/en/09_android_en.webp",
+                    "loading": "lazy",
+                    "alt": "Caresse-Session zum Hören bereit, allein oder gemeinsam – englische Oberfläche",
+                    "width": "1179",
+                    "height": "2556"
+                  },
+                  "html": ""
+                },
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {},
+                  "blocks": [
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {
+                        "class": "step-detail-num"
+                      },
+                      "html": "Schritt 04"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Allein oder gemeinsam hören"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Ihr werdet benachrichtigt, sobald die Session bereitsteht. Solo können Kopfhörer passen, zu zweit ein gemeinsam hörbarer Lautsprecher. Die Erfahrungen werden nicht öffentlich oder zwischen Nutzern geteilt."
+                    }
+                  ]
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "privacy"
+      },
+      "blocks": [
         {
-          "type": "html",
-          "file": "shared.de/languages"
-        },
-        {
-          "type": "container",
-          "tag": "section",
+          "type": "element",
+          "tag": "p",
           "attrs": {
-            "class": "localized-content"
+            "class": "section-label"
           },
-          "blocks": [
+          "html": "Datenschutz im Mittelpunkt"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Klare Angaben zur Verarbeitung."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Persönliche KI-Inhalte werfen Fragen auf. Hier findet ihr konkrete Angaben dazu, wie Caresse funktioniert."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "privacy-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
             {
-              "type": "markdown",
-              "file": "how-it-works.de/00"
+              "tag": "div",
+              "attrs": {
+                "class": "privacy-card"
+              },
+              "html": "\n                <div class=\"icon\">🔒</div>\n                <h3>Keine öffentlichen Sessions</h3>\n                <p>Generierte Erfahrungen werden nicht veröffentlicht oder anderen Nutzern angezeigt.</p>\n                "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "privacy-card"
+              },
+              "html": "\n                <div class=\"icon\">🎭</div>\n                <h3>Ein Spitzname genügt</h3>\n                <p>Deine echte Identität ist für Profil und Generierung nicht erforderlich.</p>\n                "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "privacy-card"
+              },
+              "html": "\n                <div class=\"icon\">🎚️</div>\n                <h3>Du entscheidest</h3>\n                <p>Intensität, Vorlieben und Stimmung wählst du vor der Generierung selbst. Während des Hörens darfst du jederzeit pausieren oder aufhören.</p>\n                "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "privacy-card"
+              },
+              "html": "\n                <div class=\"icon\">🤐</div>\n                <h3>Diskreter Rahmen</h3>\n                <p>Die App ist auf diskrete Nutzung ausgelegt und zeigt keine expliziten visuellen Inhalte.</p>\n                "
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Häufige Fragen"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Was ihr wissen möchtet"
         },
         {
           "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
           "attrs": {
             "class": "faq-list"
           },
+          "prefix": "",
+          "suffix": "",
           "items": [
             {
               "attrs": {
@@ -242,12 +885,12 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
+                  "html": "Wird jede Session neu generiert?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
+                  "html": "Ja. Persönliche Sessions entstehen auf Anfrage aus den gewählten Einstellungen. Sie sind keine unverändert abgespielten Demos. Wiederholungen und Unstimmigkeiten bleiben trotzdem möglich."
                 }
               ]
             },
@@ -259,12 +902,12 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
+                  "html": "Schreibt die KI die gesamte Geschichte?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
+                  "html": "Ja. Sie generiert den Text aus euren Vorlieben; daraus entsteht die Audiofassung. Es wird nicht einfach ein festes Skript aus einer Bibliothek ausgewählt."
                 }
               ]
             },
@@ -276,30 +919,266 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
+                  "html": "Gibt es Caresse auf dem iPhone?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                  "html": "Ja. Caresse ist kostenlos im App Store für iOS und bei Google Play für Android erhältlich. Persönliche Generierung ist kostenpflichtig."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Sind meine Daten privat?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Deine Sessions werden nicht öffentlich oder zwischen Nutzern geteilt. Ein Spitzname genügt. Notwendige technische Verarbeitung und externe Dienstleister sind in der Datenschutzerklärung beschrieben."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Können Paare eine gemeinsame Session erstellen?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Ja. Der Paarmodus berücksichtigt beide Profile und gewählten Namen für eine gemeinsam erlebbare Audiofiktion."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Welche Sprachen unterstützt Caresse?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die Website ist auch auf Deutsch, die App und ihre Audios derzeit nicht."
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/store-cta"
         }
       ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "style": "background:var(--grad-soft); padding:60px 5%;"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Mehr erfahren"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Weitere Perspektiven auf Caresse."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "style": "display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:900px;margin-top:32px;"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/fuer-paare/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">💞</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Für Paare</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Gemeinsam langsamer werden und Nähe erleben</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/solo-entdecken/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🌙</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Solo entdecken</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Ein privater Raum nur für dich</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "/de/alternativen/",
+                "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);transition:transform 0.2s;",
+                "onmouseover": "this.style.transform='translateY(-4px)'",
+                "onmouseout": "this.style.transform='none'"
+              },
+              "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\">🔍</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Alternativen</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Caresse mit anderen Angeboten vergleichen</p>\n                "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "aside",
+      "attrs": {
+        "id": "audio-experiences-links",
+        "aria-label": "Weiterlesen",
+        "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
+      },
+      "html": "\n        <p>Zur Vorbereitung könnt ihr auch lesen über: <a href=\"/de/persoenliches-audio/\" style=\"color:var(--primary);text-underline-offset:3px;\">persönliche Audioerlebnisse mit euren Namen</a>.</p>\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Bereit zum Ausprobieren?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Deine erste Session<br>wartet auf dich."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Ladet Caresse kostenlos herunter und hört Demos ohne Caresse-Konto. Persönliche Sessions benötigen kostenpflichtige Credits, ohne Abo."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "class": "store-badge",
+                "aria-label": "Im App Store herunterladen",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\">\n\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Bei Google Play herunterladen",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Ausschließlich Erwachsene ab 18"
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo.de",
+        "footer-081dc1097d1b1c09.de",
+        "footer-90014d7c21ffa763.de",
+        "footer-efe3c9ecc082c623.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "how-it-works.en"
 }

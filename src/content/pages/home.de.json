@@ -3,16 +3,14 @@
   "family": "home",
   "locale": "de",
   "path": "/de/",
-  "kind": "page",
-  "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "home-direct-v1-anonymous-feature-v1-offer-clarity-oct05-v1-home-snippet-oct17-v1-seo-consistency-oct31-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "Caresse – Persönliche Audioerlebnisse für Paare und solo",
+  "title": "Caresse – KI-Audio für Paare und solo | Persönliche Erlebnisse",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +21,31 @@
     },
     {
       "name": "description",
-      "content": "Entdeckt KI-generierte Audioerlebnisse für eure gemeinsame Zeit oder für euch allein. Kostenlose Hörproben, persönliche Sessions mit Credits, ohne Abo."
+      "content": "Persönliche KI-Audioerlebnisse für Paare und solo. Kostenlose Demos ohne Caresse-Konto. Individuelle Sessions mit Credits, ohne Abo. iOS und Android."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +53,43 @@
     },
     {
       "property": "og:title",
-      "content": "Caresse – Persönliche Audioerlebnisse für Paare und solo"
+      "content": "Caresse – KI-Audioerlebnisse für Paare und solo"
     },
     {
       "property": "og:description",
-      "content": "Entdeckt KI-generierte Audioerlebnisse für eure gemeinsame Zeit oder für euch allein. Kostenlose Hörproben, persönliche Sessions mit Credits, ohne Abo."
+      "content": "Persönliche KI-Audioerlebnisse für Paare und solo. Kostenlose Demos ohne Caresse-Konto. Individuelle Sessions mit Credits, ohne Abo. iOS und Android."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse – Persönliche KI-Audioerlebnisse auf iOS und Android"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +97,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Caresse – Persönliche Audioerlebnisse für Paare und solo"
+      "content": "Caresse – KI-Audioerlebnisse für Paare und solo"
     },
     {
       "name": "twitter:description",
-      "content": "Entdeckt KI-generierte Audioerlebnisse für eure gemeinsame Zeit oder für euch allein. Kostenlose Hörproben, persönliche Sessions mit Credits, ohne Abo."
+      "content": "Persönliche KI-Audioerlebnisse für Paare und solo. Kostenlose Demos ohne Caresse-Konto. Individuelle Sessions mit Credits, ohne Abo. iOS und Android."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse – Persönliche KI-Audioerlebnisse"
     }
   ],
   "links": [
@@ -122,34 +140,115 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://i.ytimg.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
     {
       "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "@id": "https://caresse.app/#app",
+      "name": "Caresse",
+      "description": "Caresse erstellt persönliche, immersive Audioerlebnisse für Paare und solo. Kostenloser Download mit Demos, ohne Caresse-Konto. Sessions entstehen aus euren Wünschen, eurer Stimmung und euren Grenzen, ohne explizite Bilder. In-App-Käufe ab etwa 2 € pro Session; aktuelle Preise stehen in der App.",
+      "url": "https://caresse.app/de/",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS, Android",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "downloadUrl": "https://caresse.app/de/download/",
+      "contentRating": "Adults Only 18+",
+      "sameAs": [
+        "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+        "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+        "https://x.com/app_caresse",
+        "https://www.instagram.com/caresse.app",
+        "https://www.youtube.com/@app.caresse",
+        "https://www.tiktok.com/@caresse.app"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Erwachsene ab 18 Jahren"
+      },
+      "inLanguage": [
+        "fr",
+        "en",
+        "es",
+        "pt"
+      ],
+      "keywords": "KI-Audio, romantische Audioerlebnisse, Paare, geführte Erfahrungen, Lifestyle",
+      "featureList": [
+        "KI-generierte Audioerlebnisse",
+        "Personalisierung: Atmosphäre, Intensität, Zubehör",
+        "Solo- und Paarmodus",
+        "Offen für alle Identitäten",
+        "Private, diskrete Oberfläche",
+        "Jede Session neu generiert"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "@id": "https://caresse.app/#video",
+      "name": "Caresse entdecken: Persönliche KI-Audioerlebnisse für Paare und solo",
+      "description": "Eine Einführung in Caresse. Jede Session entsteht aus euren Vorlieben, eurer Paardynamik, Intensität und Grenzen. Allein oder zu zweit, ohne explizite Bilder. Das Video ist auf Englisch.",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/hLcwrOdqChY/maxresdefault.jpg"
+      ],
+      "uploadDate": "2026-07-12T06:47:42-07:00",
+      "duration": "PT2M41S",
+      "contentUrl": "https://www.youtube.com/watch?v=hLcwrOdqChY",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hLcwrOdqChY",
+      "inLanguage": "en",
+      "isFamilyFriendly": false,
+      "about": {
+        "@id": "https://caresse.app/#app"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://caresse.app/de/#webpage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      }
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "WebPage",
       "@id": "https://caresse.app/de/#webpage",
       "url": "https://caresse.app/de/",
-      "name": "Caresse – Persönliche Audioerlebnisse für Paare und solo",
-      "description": "Entdeckt KI-generierte Audioerlebnisse für eure gemeinsame Zeit oder für euch allein. Kostenlose Hörproben, persönliche Sessions mit Credits, ohne Abo.",
+      "name": "Caresse – KI-Audio für Paare und solo | Persönliche Erlebnisse",
       "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      },
       "about": {
-        "@type": "MobileApplication",
-        "name": "Caresse",
-        "operatingSystem": "iOS, Android",
-        "applicationCategory": "LifestyleApplication",
-        "inLanguage": [
-          "fr",
-          "en",
-          "es",
-          "pt"
-        ],
-        "downloadUrl": "https://caresse.app/de/download/"
+        "@id": "https://caresse.app/#app"
+      },
+      "primaryImageOfPage": "https://caresse.app/og-image-en.png",
+      "video": {
+        "@id": "https://caresse.app/#video"
       }
     },
     {
@@ -161,8 +260,7 @@
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "home-fa92676e.css"
   ],
   "headScripts": [
     "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
@@ -171,170 +269,197 @@
   ],
   "blocks": [
     {
-      "type": "container",
-      "tag": "main",
+      "type": "html",
+      "file": "home.de/00"
+    },
+    {
+      "type": "cards",
+      "prefix": "<section class=\"steps\">\n        <div class=\"steps-header\">\n            \n            <p class=\"section-label\">So funktioniert’s</p>\n\n            <h2 class=\"section-title\">Euer persönliches Audioerlebnis in vier Schritten</h2>\n\n            <p class=\"section-sub\">Einstellungen wählen, starten und Caresse erstellt ein persönliches Erlebnis. Ihr werdet benachrichtigt, sobald es bereitsteht.</p>\n        </div>\n\n        ",
+      "suffix": "\n    </section>",
       "attrs": {
-        "id": "main-content"
+        "class": "steps-grid"
       },
-      "blocks": [
+      "items": [
         {
-          "type": "intro",
+          "tag": "div",
           "attrs": {
-            "class": "hero localized-hero"
+            "class": "step-card"
+          },
+          "html": "\n                <div class=\"step-screen\">\n                    \n                    <img src=\"/screens/en/05_android_en.webp\" loading=\"lazy\" alt=\"Teilnehmende wählen: solo oder zu zweit, Profile personalisieren – englische App\" width=\"1179\" height=\"2556\">\n                </div>\n                <div class=\"step-body\">\n                    \n                    <p class=\"step-num\">Schritt 01</p>\n                    \n                    <h3>Wer nimmt teil?</h3>\n                    \n                    <p>Allein oder mit einer anderen Person: Wählt euren Modus und gestaltet eure Profile frei. Ein Spitzname genügt; eure echte Identität ist nicht erforderlich.</p>\n                </div>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "html": "\n                <div class=\"step-screen\">\n                    \n                    <img src=\"/screens/en/07_android_en.webp\" loading=\"lazy\" alt=\"Wünsche einstellen: Zubehör, Vorlieben und Atmosphäre – englische App\" width=\"1179\" height=\"2556\">\n                </div>\n                <div class=\"step-body\">\n                    \n                    <p class=\"step-num\">Schritt 02</p>\n                    \n                    <h3>Eure Wünsche, eure Regeln</h3>\n                    \n                    <p>Klangatmosphäre, Ton, Vorlieben, Zubehör und Dynamik: Wählt frei, was euch anspricht. Caresse richtet sich nach euch.</p>\n                </div>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "html": "\n                <div class=\"step-screen\">\n                    \n                    <img src=\"/screens/en/08_android_en.webp\" loading=\"lazy\" alt=\"Intensität und Musikstimmung: romantisch, direkt, ruhig oder Natur – englische App\" width=\"1179\" height=\"2556\">\n                </div>\n                <div class=\"step-body\">\n                    \n                    <p class=\"step-num\">Schritt 03</p>\n                    \n                    <h3>Intensität und Stimmung</h3>\n                    \n                    <p>Romantisch oder direkter? Ruhige Klänge oder Natur? Stimmt Ton und Intensität auf eure aktuelle Stimmung ab.</p>\n                </div>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "html": "\n                <div class=\"step-screen\">\n                    \n                    <img src=\"/screens/en/09_android_en.webp\" loading=\"lazy\" alt=\"Erlebnis bereit: persönlich mit KI generiert, Benachrichtigung bei Fertigstellung – englische App\" width=\"1179\" height=\"2556\">\n                </div>\n                <div class=\"step-body\">\n                    \n                    <p class=\"step-num\">Schritt 04</p>\n                    \n                    <h3>Euer Erlebnis ist bereit</h3>\n                    \n                    <p>Caresse erstellt eure Session in wenigen Minuten und benachrichtigt euch. Die Erfahrung wird für euren Moment generiert und kann jedes Mal anders ausfallen.</p>\n                </div>\n            "
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "file": "home.de/01"
+    },
+    {
+      "type": "faq",
+      "prefix": "<section class=\"faq\" id=\"faq\">\n        <p class=\"section-label\">Häufige Fragen</p>\n        <h2 class=\"section-title\">Was ihr wissen möchtet</h2>\n        ",
+      "suffix": "\n    </section>",
+      "attrs": {
+        "class": "faq-list"
+      },
+      "items": [
+        {
+          "attrs": {
+            "class": "faq-item"
           },
           "children": [
             {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "h1",
+              "tag": "h3",
               "attrs": {},
-              "html": "Caresse – Persönliche Audioerlebnisse für Paare und solo"
+              "html": "Kann ich im anonymen Modus Sessions kaufen?"
             },
             {
               "tag": "p",
               "attrs": {},
-              "html": "Entdeckt KI-generierte Audioerlebnisse für eure gemeinsame Zeit oder für euch allein. Kostenlose Hörproben, persönliche Sessions mit Credits, ohne Abo."
-            },
-            {
-              "tag": "div",
-              "attrs": {
-                "class": "cta-group"
-              },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
+              "html": "Ja. Du kannst Caresse ohne eigenes Caresse-Konto nutzen und Sessions kaufen. Käufe laufen über den App Store oder Google Play und benötigen dort ein Apple- oder Google-Konto mit Zahlungsmethode. Der anonyme Modus gilt gegenüber Caresse, nicht gegenüber dem Store."
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
-        },
-        {
-          "type": "container",
-          "tag": "section",
           "attrs": {
-            "class": "localized-content"
+            "class": "faq-item"
           },
-          "blocks": [
+          "children": [
             {
-              "type": "markdown",
-              "file": "home.de/00"
-            }
-          ]
-        },
-        {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content app-preview",
-            "aria-label": "Beispiel der App-Oberfläche auf Englisch"
-          },
-          "blocks": [
-            {
-              "type": "element",
-              "tag": "h2",
+              "tag": "h3",
               "attrs": {},
-              "html": "Ein Blick auf die App"
+              "html": "Was ist Caresse?"
             },
             {
-              "type": "element",
-              "tag": "figure",
+              "tag": "p",
               "attrs": {},
-              "html": "<img src=\"/screens/en/05_android_en.webp\" alt=\"Englische App-Oberfläche: Auswahl für eine Person oder ein Paar\" width=\"1179\" height=\"2556\" loading=\"lazy\"><figcaption>Beispiel auf Englisch. Die App-Oberfläche ist noch nicht auf Deutsch verfügbar.</figcaption>"
+              "html": "Caresse ist eine App mit persönlichen KI-Audioerlebnissen für Paare und solo. Die Geschichten entstehen aus euren Wünschen, eurer Stimmung und euren Grenzen. Keine expliziten Bilder: Eine Stimme begleitet euch, eure Vorstellungskraft gestaltet das Erlebnis."
             }
           ]
         },
         {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
           "attrs": {
-            "class": "faq-list"
+            "class": "faq-item"
           },
-          "items": [
+          "children": [
             {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
+              "tag": "h3",
+              "attrs": {},
+              "html": "Brauche ich zum Ausprobieren ein Konto?"
             },
             {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
-                }
-              ]
+              "tag": "p",
+              "attrs": {},
+              "html": "Nein. Beim ersten Öffnen der App gibt es eine Demo ohne Registrierung. Für die weitere Nutzung genügt ein anonymer Identifikator und ein Vorname oder Spitzname; eure echte Identität ist nicht erforderlich."
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Was kostet Caresse?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Download und Demos sind kostenlos. Persönliche Sessions werden einzeln mit Credits bezahlt, ab etwa 2 €, ohne Abo. Eine optionale einmalige Freischaltung erweitert die Einstellungen. Maßgeblich sind die aktuellen Preise in der App."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Was unterscheidet Caresse von einem Audiokatalog?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Ein Katalog spielt bestehende Aufnahmen ab. Caresse generiert eine neue Session aus euren Einstellungen. Auch gleiche Einstellungen können unterschiedliche Ergebnisse liefern. Da die Inhalte generiert werden, sind Unstimmigkeiten möglich."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "In welchen Sprachen ist Caresse verfügbar?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; das iOS-Update wartet laut aktuellem Stand auf Freigabe. Website-Demos gibt es auf Englisch, Französisch und Spanisch. Die deutsche Website bedeutet keine deutschen App-Inhalte oder Audios."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Kann ich Caresse allein und als Paar nutzen?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Ja. Solo- und Paarmodus sind verfügbar; die Personalisierung berücksichtigt den gewählten Modus und die Namen in der Erzählung. Caresse ist ausschließlich für Erwachsene."
+            }
+          ]
         }
       ]
+    },
+    {
+      "type": "html",
+      "file": "home.de/02"
     }
   ],
-  "header": "header.de",
   "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
+    "footer.en.logo.de",
+    "footer.en.navigation.home.de",
+    "footer.en.links.home.de",
+    "footer.en.social.de",
+    "footer.en.copy.couples.de"
   ],
+  "scripts": [
+    "<script>\n        // Carousel\n        const slides = document.querySelectorAll('.phone-carousel-slide');\n        const dotsContainer = document.getElementById('carouselDots');\n        const carousel = document.getElementById('phoneCarousel');\n        let current = 0;\n        let timer;\n\n        slides.forEach((_, i) => {\n            const dot = document.createElement('button');\n            dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');\n            dot.setAttribute('aria-label', 'Bildschirm ' + (i + 1));\n            dot.addEventListener('click', () => { goTo(i); resetTimer(); });\n            dotsContainer.appendChild(dot);\n        });\n\n        carousel.addEventListener('click', () => { next(); resetTimer(); });\n\n        function goTo(index) {\n            slides[current].classList.remove('active');\n            dotsContainer.children[current].classList.remove('active');\n            current = index;\n            slides[current].classList.add('active');\n            dotsContainer.children[current].classList.add('active');\n        }\n\n        function next() { goTo((current + 1) % slides.length); }\n\n        function resetTimer() {\n            clearInterval(timer);\n            timer = setInterval(next, 3000);\n        }\n\n        resetTimer();\n    </script>",
+    "<script>\n        document.querySelectorAll('.video-facade').forEach(function (facade) {\n            facade.addEventListener('click', function () {\n                var id = facade.dataset.videoId;\n                var iframe = document.createElement('iframe');\n                iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';\n                iframe.title = facade.dataset.videoTitle;\n                iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';\n                iframe.allowFullscreen = true;\n                facade.replaceWith(iframe);\n            });\n        });\n    </script>"
+  ],
+  "header": "header.en.home.de",
   "footerAttrs": {},
-  "scripts": []
+  "translationSource": "home.en"
 }
