@@ -67,6 +67,9 @@ Le workflow `.github/workflows/pages.yml` vérifie les PR. Sur `main_v2`, il pub
 
 Procédure d’édition et protocole avant/après : [docs/ASTRO-MIGRATION.md](docs/ASTRO-MIGRATION.md).
 
+Audit de la duplication des contenus et plan pour réduire les fichiers à modifier :
+[analyse de maintenabilité Astro](docs/ANALYSE-MAINTENABILITE-ASTRO-2026-11-09.md).
+
 Analyse de visibilité dans les réponses IA, constats vérifiés et plan de mesure :
 [analyse GEO du 9 novembre 2026](docs/ANALYSE-GEO-2026-11-09.md).
 
