@@ -2,7 +2,7 @@
 
 Date : 9 novembre 2026. Statut : analyse et proposition, sans refonte mise en œuvre.
 Périmètre : dépôt Caresse Assets, après la correction des compositions allemandes et
-avec le correctif App Store allemand en cours de revue.
+avec le correctif App Store allemand intégré.
 
 ## Conclusion
 
