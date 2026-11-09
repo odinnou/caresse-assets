@@ -35,13 +35,11 @@ jobs:
       - run: npm run test:parity
         if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
       - uses: actions/setup-python@v5
-        if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
         with:
           python-version: '3.13'
       - run: pip install -r requirements-test.txt
-        if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
       - run: python -m playwright install --with-deps chromium
-        if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
+      - run: python scripts/check-german-browser.py
       - run: npm run test:browser
         if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
       - uses: actions/upload-artifact@v4

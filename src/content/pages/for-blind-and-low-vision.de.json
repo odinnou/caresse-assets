@@ -4,6 +4,7 @@
   "locale": "de",
   "path": "/de/blinde-und-sehbehinderte/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
@@ -23,19 +24,31 @@
     },
     {
       "name": "description",
-      "content": "Die Session wird von einer Stimme getragen. Erfahre, was das Audioformat ermöglicht und welche Barrierefreiheit der App noch nicht geprüft wurde."
+      "content": "Ein von einer Stimme getragenes Erlebnis ohne mitzulesenden Text während der Session. Audio auf EN, FR, ES und PT; keine geprüfte Screenreader-Kompatibilität behauptet."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/blinde-und-sehbehinderte/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +56,43 @@
     },
     {
       "property": "og:title",
-      "content": "Caresse für blinde und sehbehinderte Menschen – Audio im Mittelpunkt"
+      "content": "Caresse – ein persönliches Erlebnis zum Hören"
     },
     {
       "property": "og:description",
-      "content": "Die Session wird von einer Stimme getragen. Erfahre, was das Audioformat ermöglicht und welche Barrierefreiheit der App noch nicht geprüft wurde."
+      "content": "Die Stimme trägt die Session. Kein mitzulEsender Text; kostenloser Einstieg ohne Caresse-Konto."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/blinde-und-sehbehinderte/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse – ein persönliches Erlebnis zum Hören"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +100,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Caresse für blinde und sehbehinderte Menschen – Audio im Mittelpunkt"
+      "content": "Caresse – eine persönliche Audioerfahrung"
     },
     {
       "name": "twitter:description",
-      "content": "Die Session wird von einer Stimme getragen. Erfahre, was das Audioformat ermöglicht und welche Barrierefreiheit der App noch nicht geprüft wurde."
+      "content": "Nach dem Start trägt eine Stimme die Erzählung. Keine E-Mail-Registrierung bei Caresse nötig."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse – ein persönliches Erlebnis zum Hören"
     }
   ],
   "links": [
@@ -122,52 +143,383 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
     }
   ],
   "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/blinde-und-sehbehinderte/#webpage",
-      "url": "https://caresse.app/de/blinde-und-sehbehinderte/",
-      "name": "Caresse für blinde und sehbehinderte Menschen – Audio im Mittelpunkt",
-      "description": "Die Session wird von einer Stimme getragen. Erfahre, was das Audioformat ermöglicht und welche Barrierefreiheit der App noch nicht geprüft wurde.",
-      "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      }
-    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": {
         "block": "faq"
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse – ein persönliches Erlebnis zum Hören",
+      "description": "Ein von einer Stimme getragenes Erlebnis ohne mitzulesenden Text während der Session. Audio auf EN, FR, ES und PT; keine geprüfte Screenreader-Kompatibilität behauptet.",
+      "url": "https://caresse.app/de/blinde-und-sehbehinderte/",
+      "inLanguage": "de",
+      "dateModified": "2026-10-31",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blindheit und Sehbehinderung",
+            "item": "https://caresse.app/de/blinde-und-sehbehinderte/"
+          }
+        ]
+      }
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-2701c942d6495cef.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-2701c942d6495cef.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "style",
+      "file": "shared-2701c942d6495cef.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
   ],
   "blocks": [
+    {
+      "type": "text",
+      "html": "\n    "
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "class": "skip-link",
+        "href": "#main"
+      },
+      "html": "Zum Hauptinhalt springen"
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "header",
+      "ref": "header-bd24636a4a1f3bc2.de"
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " "
+        },
+        {
+          "type": "html",
+          "file": "for-blind-and-low-vision.de/0226"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
     {
       "type": "container",
       "tag": "main",
       "attrs": {
-        "id": "main-content"
+        "id": "main"
       },
       "blocks": [
         {
           "type": "intro",
           "attrs": {
-            "class": "hero localized-hero"
+            "class": "hero"
           },
           "children": [
             {
@@ -175,131 +527,564 @@
               "attrs": {
                 "class": "hero-eyebrow"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+              "html": "🎧 · Blindheit und Sehbehinderung · Audio · KI"
             },
             {
               "tag": "h1",
               "attrs": {},
-              "html": "Caresse für blinde und sehbehinderte Menschen – Audio im Mittelpunkt"
+              "html": "Die Augen schließen, wenn du möchtest.<br><em>Die Stimme begleitet dich.</em>"
             },
             {
               "tag": "p",
               "attrs": {},
-              "html": "Die Session wird von einer Stimme getragen. Erfahre, was das Audioformat ermöglicht und welche Barrierefreiheit der App noch nicht geprüft wurde."
+              "html": "Caresse ist ein Erlebnis zum Hören. Nach dem Start trägt eine Stimme Atmosphäre und Verlauf, ohne Text oder visuelle Inhalte verfolgen zu müssen. Das ist das eigentliche Format der Session. Die Vorbereitung bleibt eine Bildschirmoberfläche, deren Screenreader-Kompatibilität noch nicht formal geprüft wurde."
             },
             {
               "tag": "div",
               "attrs": {
                 "class": "cta-group"
               },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
+              "html": "\n            <a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" target=\"_blank\" rel=\"noopener\">Kostenlos herunterladen</a>\n        "
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-badge"
+              },
+              "html": "Auf iOS und Android · Kostenlose Demos · Persönliche Sessions kostenpflichtig<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "stat-row"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-blind-and-low-vision.de/0227"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "stat-label"
+                  },
+                  "html": "Ungefähre Dauer"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "stat-label"
+                  },
+                  "html": "einer von der Stimme getragenen Session"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-blind-and-low-vision.de/0228"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "stat-label"
+                  },
+                  "html": "Text während der Session zu lesen"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "stat-item"
+              },
+              "blocks": [
+                {
+                  "type": "html",
+                  "file": "for-blind-and-low-vision.de/0229"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "stat-label"
+                  },
+                  "html": "Website-Demos auf Englisch, Französisch und Spanisch"
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "container",
           "tag": "section",
           "attrs": {
-            "class": "localized-content"
+            "class": "listen"
           },
           "blocks": [
             {
-              "type": "markdown",
-              "file": "for-blind-and-low-vision.de/00"
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "listen-inner"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "section-label"
+                  },
+                  "html": "Was das Audioformat ermöglichen kann"
+                },
+                {
+                  "type": "element",
+                  "tag": "h2",
+                  "attrs": {
+                    "class": "section-title"
+                  },
+                  "html": "Zuhören ist kein Ersatzformat.<br>Es ist der Kern der Session."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "section-sub listen-lede"
+                  },
+                  "html": "Viele Angebote verlangen Katalogsuche und Lesen. Bei Caresse dient der Bildschirm vor allem zur Vorbereitung, bevor die Stimme die Session trägt. Das beschreibt das Audioformat, beweist aber keine vollständige Zugänglichkeit der App-Oberfläche."
+                },
+                {
+                  "type": "cards",
+                  "attrs": {
+                    "class": "listen-grid"
+                  },
+                  "prefix": "",
+                  "suffix": "",
+                  "items": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "listen-card"
+                      },
+                      "html": "\n                    <h3>Die Session läuft ohne ständigen Bildschirmblick</h3>\n                    <p>Nach dem Start kannst du das Telefon ablegen oder den Bildschirm ausschalten. Du musst während der Erzählung keinen Text verfolgen oder einzelne Abschnitte mit einem Button bestätigen.</p>\n                "
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "listen-card"
+                      },
+                      "html": "\n                    <h3>Einstieg ohne Caresse-Registrierung</h3>\n                    <p>Demos sind ohne E-Mail, Passwort oder Caresse-Konto verfügbar. Weniger Eingabefelder können den Einstieg erleichtern. Für Käufe brauchst du trotzdem ein Apple- oder Google-Konto beim Store.</p>\n                "
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "listen-card"
+                      },
+                      "html": "\n                    <h3>Die Vorbereitung besteht aus Einstellungen</h3>\n                    <p>Ihr wählt Atmosphäre, Intensität und Namen. Anschließend entsteht eine Audiosession mit variabler Länge. Die Oberfläche zur Vorbereitung muss trotzdem individuell bedienbar sein; eine formale Prüfung liegt nicht vor.</p>\n                "
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "listen-outro"
+                  },
+                  "html": "Diese Seite richtet sich an blinde Menschen und Menschen mit Sehbehinderung, deren Anforderungen verschieden sein können. Für gemeinsames Hören beschreibt <a href=\"/de/fuer-paare/\">Caresse für Paare</a> den Paarmodus. Für eigene Zeit gibt es <a href=\"/de/solo-entdecken/\">Solo-Entdeckung</a>."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "listen-outro",
+                    "style": "margin-top:16px;"
+                  },
+                  "html": "Mehr dazu im Artikel <a href=\"/de/blog/intimitaet-und-sehbehinderung/\">Intimität und Sehbehinderung: der Platz von Audio</a>. Er behandelt visuelle Annahmen digitaler Angebote und die wichtige Unterscheidung zwischen Audioinhalt und zugänglicher Oberfläche, auch bei Caresse."
+                }
+              ]
             }
           ]
         },
         {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
+          "type": "container",
+          "tag": "section",
           "attrs": {
-            "class": "faq-list"
+            "style": "background:var(--surface);"
           },
-          "items": [
+          "blocks": [
             {
+              "type": "container",
+              "tag": "div",
               "attrs": {
-                "class": "faq-item"
+                "class": "honest"
               },
-              "children": [
+              "blocks": [
                 {
-                  "tag": "h3",
+                  "type": "element",
+                  "tag": "h2",
                   "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
+                  "html": "Was noch nicht bestätigt ist"
                 },
                 {
+                  "type": "element",
                   "tag": "p",
                   "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
+                  "html": "Wir beschreiben ein Audioerlebnis. Eine geprüfte Kompatibilität mit VoiceOver oder TalkBack sowie eine Zertifizierung der Oberfläche behaupten wir derzeit nicht."
                 },
                 {
+                  "type": "element",
                   "tag": "p",
                   "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                  "html": "Die <em>Session</em> wird durch Hören erlebt; die <em>Vorbereitung</em> erfolgt weiterhin am Bildschirm. Diese Grenze benennen wir ausdrücklich. Feste Demos sind ohne Caresse-Konto kostenlos; persönliche Sessions benötigen Credits, ohne Abo."
                 }
               ]
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Häufige Fragen"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Was ihr wissen möchtet"
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Muss ich während der Session etwas lesen?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Nein. Nach dem Start trägt die Stimme Atmosphäre und Verlauf. Du kannst den Bildschirm ausschalten oder das Telefon ablegen, ohne zwischendurch Text lesen oder einen Abschnitt bestätigen zu müssen."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Brauche ich zum Ausprobieren ein Konto?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Für Demos brauchst du kein Caresse-Konto, keine E-Mail und kein Passwort. Persönliche Nutzung ist im anonymen Modus möglich; Käufe benötigen trotzdem das Konto des jeweiligen Stores."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Funktioniert Caresse mit VoiceOver oder TalkBack?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Eine formale Prüfung liegt noch nicht vor. Deshalb behaupten wir keine geprüfte Kompatibilität. Die Session selbst ist Audio; die Vorbereitung erfolgt über eine Bildschirmoberfläche."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Wie lange dauert eine Session?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Häufig etwa 25 bis 35 Minuten, abhängig von der Generierung. Eine genaue Dauer ist nicht einstellbar. Du kannst jederzeit aufhören und später auf gespeicherte Erfahrungen zugreifen."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Welche Sprachen spricht das Audio?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Die App generiert auf Englisch, Französisch, Spanisch und Portugiesisch. Website-Demos gibt es auf EN, FR und ES; deutsche Beschreibungen verwenden englische Aufnahmen. Deutsch ist derzeit keine Audiosprache."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "style": "background:var(--surface);"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Auch interessant"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Caresse für deine Nutzung."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "style": "display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;max-width:900px;margin:32px auto 0;"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/fuer-paare/",
+                    "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);display:block;"
+                  },
+                  "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\" aria-hidden=\"true\">🔥</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Für Paare</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Gemeinsam langsamer werden und Nähe erleben</p>\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/solo-entdecken/",
+                    "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);display:block;"
+                  },
+                  "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\" aria-hidden=\"true\">🌙</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Solo entdecken</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Ein Raum nur für dich</p>\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/so-funktionierts/",
+                    "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);display:block;"
+                  },
+                  "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\" aria-hidden=\"true\">⚙️</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">So funktioniert’s</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Eine Session, Schritt für Schritt</p>\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/blog/intimitaet-und-sehbehinderung/",
+                    "style": "background:var(--surface);border-radius:16px;padding:24px;text-decoration:none;border:1px solid rgba(158,123,181,0.12);display:block;"
+                  },
+                  "html": "\n                <div style=\"font-size:1.6rem;margin-bottom:8px;\" aria-hidden=\"true\">📝</div>\n                <p style=\"font-weight:700;color:var(--primary);font-size:0.95rem;\">Intimität und Sehbehinderung</p>\n                <p style=\"font-size:0.82rem;color:var(--text-secondary);margin-top:4px;\">Unser Artikel über die Rolle von Audio</p>\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n        "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section",
+            "id": "download"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Wenn du möchtest"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Eine Session kennenlernen."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Ladet Caresse kostenlos herunter und hört Demos ohne Caresse-Konto. Persönliche Sessions benötigen kostenpflichtige Credits, ohne Abo."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-badges"
+              },
+              "blocks": [
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                    "class": "store-badge",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\">\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                    "class": "store-badge gplay",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  },
+                  "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\">\n            "
+                },
+                {
+                  "type": "text",
+                  "html": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "🔞 Nur für Erwachsene ab 18 Jahren"
+            }
+          ]
         }
       ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-bb5817a7c9b5f097.de",
+        "footer-e34b45de5f36a045.de",
+        "footer-131734871a3da917.de",
+        "footer-ee08ae1aa3b323d0.de"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n\n    "
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "for-blind-and-low-vision.en"
 }

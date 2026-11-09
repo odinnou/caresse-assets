@@ -4,15 +4,15 @@
   "locale": "de",
   "path": "/de/support/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
-    "lang": "de",
-    "data-analytics-variant": "support-v1"
+    "lang": "de"
   },
   "bodyAttrs": {
     "class": "lang-de"
   },
-  "title": "Caresse Support – Hilfe, Käufe und Kontolöschung",
+  "title": "Support und Hilfe – Caresse",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,211 +23,244 @@
     },
     {
       "name": "description",
-      "content": "Fragen zur App, zu Credits, Wiedergabe oder Kontolöschung? Kontaktiere den Caresse-Support und lies die Antworten auf häufige Fragen."
-    },
-    {
-      "name": "robots",
-      "content": "index, follow"
-    },
-    {
-      "name": "theme-color",
-      "content": "#5D3D8C"
-    },
-    {
-      "property": "og:type",
-      "content": "website"
-    },
-    {
-      "property": "og:site_name",
-      "content": "Caresse"
-    },
-    {
-      "property": "og:title",
-      "content": "Caresse Support – Hilfe, Käufe und Kontolöschung"
-    },
-    {
-      "property": "og:description",
-      "content": "Fragen zur App, zu Credits, Wiedergabe oder Kontolöschung? Kontaktiere den Caresse-Support und lies die Antworten auf häufige Fragen."
-    },
-    {
-      "property": "og:url",
-      "content": "https://caresse.app/de/support/"
+      "content": "Hilfe bei Caresse: Kontakt und Antworten zu Credits, Käufen, Kontolöschung und Audiowiedergabe."
     },
     {
       "property": "og:locale",
       "content": "de_DE"
-    },
-    {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "name": "twitter:card",
-      "content": "summary_large_image"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Caresse Support – Hilfe, Käufe und Kontolöschung"
-    },
-    {
-      "name": "twitter:description",
-      "content": "Fragen zur App, zu Credits, Wiedergabe oder Kontolöschung? Kontaktiere den Caresse-Support und lies die Antworten auf häufige Fragen."
-    },
-    {
-      "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
     }
   ],
   "links": [
     {
       "rel": "icon",
-      "type": "image/x-icon",
-      "href": "/favicon.ico"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "32x32",
-      "href": "/favicon-32.png"
-    },
-    {
-      "rel": "apple-touch-icon",
-      "sizes": "180x180",
-      "href": "/apple-touch-icon.png"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "192x192",
-      "href": "/favicon-192.png"
-    },
-    {
-      "rel": "sitemap",
-      "type": "application/xml",
-      "title": "Sitemap",
-      "href": "https://caresse.app/sitemap.xml"
+      "href": "/favicon.ico",
+      "sizes": "any"
     }
   ],
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/support/#webpage",
-      "url": "https://caresse.app/de/support/",
-      "name": "Caresse Support – Hilfe, Käufe und Kontolöschung",
-      "description": "Fragen zur App, zu Credits, Wiedergabe oder Kontolöschung? Kontaktiere den Caresse-Support und lies die Antworten auf häufige Fragen.",
-      "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      }
-    }
-  ],
+  "schemas": [],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-435b5f68aa63f91d.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-435b5f68aa63f91d.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "style",
+      "file": "shared-435b5f68aa63f91d.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 3
+    }
   ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-bd28b27b6e01508f.de"
+    },
+    {
+      "type": "element",
+      "tag": "h1",
+      "attrs": {},
+      "html": "💬 Support und Hilfe"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Fragen, technische Probleme oder eine Anfrage zum Konto? Hier findet ihr Hilfe.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+    },
+    {
       "type": "container",
-      "tag": "main",
+      "tag": "div",
       "attrs": {
-        "id": "main-content"
+        "class": "highlight"
       },
       "blocks": [
         {
-          "type": "intro",
-          "attrs": {
-            "class": "hero localized-hero"
-          },
-          "children": [
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Caresse Support – Hilfe, Käufe und Kontolöschung"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Fragen zur App, zu Credits, Wiedergabe oder Kontolöschung? Kontaktiere den Caresse-Support und lies die Antworten auf häufige Fragen."
-            },
-            {
-              "tag": "div",
-              "attrs": {
-                "class": "cta-group"
-              },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
-            }
-          ]
+          "type": "text",
+          "html": "\n        "
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "margin:0 0 6px;"
+          },
+          "html": "<strong>Kontakt</strong>"
         },
         {
-          "type": "container",
-          "tag": "section",
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
           "attrs": {
-            "class": "localized-content"
+            "style": "margin:0 0 12px;"
           },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "support.de/00"
-            }
-          ]
+          "html": "Schreibt an <a class=\"email\" href=\"mailto:admin@caresse.app\">admin@caresse.app</a>. Wir antworten üblicherweise innerhalb von 48 Stunden."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "class": "contact-btn",
+            "href": "mailto:admin@caresse.app?subject=Caresse%20Support"
+          },
+          "html": "E-Mail schreiben"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
         }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "❓ Häufige Fragen"
+    },
+    {
+      "type": "element",
+      "tag": "details",
+      "attrs": {},
+      "html": "\n        <summary>Wie lösche ich mein Konto?</summary>\n        <p>Direkt in der App: <strong>Profil → Konto löschen</strong> und bestätigen. Persönliche Daten, Inhalte und ungenutzte Credits werden endgültig entfernt. Zusätzliche Schritte oder eine E-Mail sind dafür nicht erforderlich.</p>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "details",
+      "attrs": {},
+      "html": "\n        <summary>Wie funktionieren Credits?</summary>\n        <p>Credits werden in der App gekauft und für persönliche Generierungen verwendet. Bei nachgewiesenem technischem Ausfall ohne Inhalt werden sie automatisch wiederhergestellt. Probleme könnt ihr auch melden unter <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>.</p>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "details",
+      "attrs": {},
+      "html": "\n        <summary>Wie erhalte ich eine Erstattung?</summary>\n        <p>Caresse bietet einmalige Käufe wie Credits und Freischaltungen, keine laufenden Abos. Käufe laufen über App Store oder Google Play. Wendet euch für Erstattungsanfragen an Apple beziehungsweise Google; Einzelheiten stehen in den Verkaufsbedingungen.</p>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "details",
+      "attrs": {},
+      "html": "\n        <summary>Audio startet nicht oder stoppt im Hintergrund</summary>\n        <p>Die App unterstützt Hintergrund- und Sperrbildschirmwiedergabe mit Steuerung. Prüft Verbindung und Lautstärke und startet die Erfahrung erneut. Bei weiterem Fehler schreibt uns.</p>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "details",
+      "attrs": {},
+      "html": "\n        <summary>Ein Kauf wurde nicht gutgeschrieben</summary>\n        <p>Schließt die App und öffnet sie erneut, damit sich Credits synchronisieren. Bleibt der Stand falsch, kontaktiert uns unter <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a> mit dem Kaufdatum.</p>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "📄 Rechtliche Informationen"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "\n        <a href=\"/de/rechtliches/nutzungsbedingungen/\">Nutzungsbedingungen</a> ·\n        <a href=\"/de/rechtliches/verkaufsbedingungen/\">Verkaufsbedingungen</a> ·\n        <a href=\"/de/rechtliches/datenschutz/\">Datenschutz</a> ·\n        <a href=\"/de/rechtliches/impressum/\">Impressum</a>\n    "
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-341450fb8cac4656.de",
+        "footer-87ae90b899ba7e1f.de"
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "support.en"
 }

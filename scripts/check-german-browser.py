@@ -13,7 +13,7 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[1]
 ARTIFACTS = ROOT / "artifacts/german"
 SCREENSHOT_FAMILIES = {
-    "home", "couples", "comparison", "article", "demo-couple-romantique",
+    "home", "alternatives", "couples", "comparison", "article", "demo-couple-romantique",
     "legal-privacy", "support", "noel-en-couple",
 }
 ANDROID_AGENT = (
@@ -51,7 +51,9 @@ def check_page(tab, base, data, profile, width, errors):
 
     assert tab.locator("html").get_attribute("lang") == "de", path
     assert tab.locator("h1").count() == 1, path
-    assert tab.locator('a[hreflang="de"][aria-current="page"]').count() == 1, path
+    # The download router intentionally has no header, as in its reference.
+    if data["family"] != "download":
+        assert tab.locator('a[hreflang="de"][aria-current="page"]').count() == 1, path
     assert not tab.evaluate("document.documentElement.scrollWidth > innerWidth"), (
         path, profile, "horizontal overflow"
     )
@@ -72,13 +74,37 @@ def check_page(tab, base, data, profile, width, errors):
         tab.locator("img").evaluate_all("""async images => {
             await Promise.all(images.map(async image => {
                 image.loading = 'eager';
-                await image.decode();
+                if (new URL(image.src).origin === location.origin) await image.decode();
             }));
         }""")
         tab.screenshot(
             path=str(ARTIFACTS / f'{data["family"]}-{profile}.png'), full_page=True
         )
+        reference = json.loads((ROOT / "src/content/pages" / f'{data["family"]}.en.json').read_text())
+        tab.goto(base + reference["path"], wait_until="networkidle")
+        tab.locator("img").evaluate_all("""async images => {
+            await Promise.all(images.map(async image => {
+                image.loading = 'eager';
+                if (new URL(image.src).origin === location.origin) await image.decode();
+            }));
+        }""")
+        tab.screenshot(
+            path=str(ARTIFACTS / f'{data["family"]}-reference-{profile}.png'), full_page=True
+        )
     return {"page": path, "profile": profile, "ok": True}
+
+
+def check_home_interactions(tab, base):
+    # Preserve the homepage interactions as well as its static composition.
+    tab.goto(base + "/de/", wait_until="networkidle")
+    dots = tab.locator("#carouselDots button")
+    assert dots.count() == tab.locator(".phone-carousel-slide").count()
+    dots.nth(1).click()
+    assert "active" in tab.locator(".phone-carousel-slide").nth(1).get_attribute("class")
+    tab.locator(".video-facade").click()
+    video = tab.locator('iframe[src^="https://www.youtube-nocookie.com/embed/"]')
+    assert video.count() == 1
+    assert video.get_attribute("title")
 
 
 def main():
@@ -119,6 +145,8 @@ def main():
                     results.append(check_page(
                         tab, base, page, profile, viewport["width"], errors
                     ))
+
+                check_home_interactions(tab, base)
 
                 # Resolve real translation paths rather than constructing English slugs.
                 for source, target in LANGUAGE_JOURNEYS:

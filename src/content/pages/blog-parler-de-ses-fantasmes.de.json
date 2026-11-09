@@ -4,15 +4,15 @@
   "locale": "de",
   "path": "/de/blog/ueber-wuensche-sprechen/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
-    "lang": "de",
-    "data-analytics-variant": "blog-parler-de-ses-fantasmes-v1"
+    "lang": "de"
   },
   "bodyAttrs": {
     "class": "lang-de"
   },
-  "title": "Über Wünsche und Fantasien sprechen – Ohne Druck | Caresse",
+  "title": "Über Wünsche und Fantasien sprechen – Ohne Druck",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +23,31 @@
     },
     {
       "name": "description",
-      "content": "Wie ihr intime Wünsche besprechen könnt: einen ruhigen Moment wählen, zuhören, Grenzen respektieren und Vorstellungen von Handlungen unterscheiden."
+      "content": "Ein respektvoller Gesprächseinstieg für Paare, die eigene Wünsche und Vorstellungen teilen möchten, mit fünf konkreten Schritten."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "article"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/blog/ueber-wuensche-sprechen/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +55,43 @@
     },
     {
       "property": "og:title",
-      "content": "Über Wünsche und Fantasien sprechen – Ohne Druck | Caresse"
+      "content": "Über Wünsche und Fantasien sprechen – Ohne Druck"
     },
     {
       "property": "og:description",
-      "content": "Wie ihr intime Wünsche besprechen könnt: einen ruhigen Moment wählen, zuhören, Grenzen respektieren und Vorstellungen von Handlungen unterscheiden."
+      "content": "Ein respektvoller Gesprächseinstieg für Paare, die eigene Wünsche und Vorstellungen teilen möchten, mit fünf konkreten Schritten."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/blog/ueber-wuensche-sprechen/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Über Wünsche mit der anderen Person sprechen – Caresse"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +99,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Über Wünsche und Fantasien sprechen – Ohne Druck | Caresse"
+      "content": "Über Wünsche sprechen, ohne Druck aufzubauen"
     },
     {
       "name": "twitter:description",
-      "content": "Wie ihr intime Wünsche besprechen könnt: einen ruhigen Moment wählen, zuhören, Grenzen respektieren und Vorstellungen von Handlungen unterscheiden."
+      "content": "Ein konkreter Gesprächseinstieg für Wünsche und Vorstellungen, ohne Druck."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Über Wünsche mit der anderen Person sprechen – Caresse"
     }
   ],
   "links": [
@@ -122,28 +142,45 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
     {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "@id": "https://caresse.app/de/blog/ueber-wuensche-sprechen/#webpage",
+      "@type": "Article",
+      "headline": "Über Wünsche und Fantasien sprechen – Ohne Druck",
+      "description": "Ein respektvoller Gesprächseinstieg für Paare, die eigene Wünsche und Vorstellungen teilen möchten, mit fünf konkreten Schritten.",
       "url": "https://caresse.app/de/blog/ueber-wuensche-sprechen/",
-      "name": "Über Wünsche und Fantasien sprechen – Ohne Druck | Caresse",
-      "description": "Wie ihr intime Wünsche besprechen könnt: einen ruhigen Moment wählen, zuhören, Grenzen respektieren und Vorstellungen von Handlungen unterscheiden.",
+      "datePublished": "2026-07-27",
+      "dateModified": "2026-07-27",
       "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      },
-      "headline": "Über Wünsche und Fantasien sprechen – Ohne Druck | Caresse",
+      "image": "https://caresse.app/og-image-en.png",
       "author": {
         "@type": "Organization",
-        "name": "Studio Mokuton"
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
       },
-      "dateModified": "2026-11-09"
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://caresse.app/de/blog/ueber-wuensche-sprechen/"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -151,161 +188,798 @@
       "mainEntity": {
         "block": "faq"
       }
-    }
-  ],
-  "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
-  ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
-  ],
-  "blocks": [
+    },
     {
-      "type": "container",
-      "tag": "main",
-      "attrs": {
-        "id": "main-content"
-      },
-      "blocks": [
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
         {
-          "type": "intro",
-          "attrs": {
-            "class": "hero localized-hero"
-          },
-          "children": [
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Über Wünsche und Fantasien sprechen – Ohne Druck"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Wie ihr intime Wünsche besprechen könnt: einen ruhigen Moment wählen, zuhören, Grenzen respektieren und Vorstellungen von Handlungen unterscheiden."
-            },
-            {
-              "tag": "div",
-              "attrs": {
-                "class": "cta-group"
-              },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
-            }
-          ]
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/de/"
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/de/blog/"
         },
         {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content"
-          },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "blog-parler-de-ses-fantasmes.de/00"
-            }
-          ]
-        },
-        {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
-          "attrs": {
-            "class": "faq-list"
-          },
-          "items": [
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Über Vorstellungen sprechen",
+          "item": "https://caresse.app/de/blog/ueber-wuensche-sprechen/"
         }
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
+  "styles": [
+    "article-146693e5.css"
   ],
-  "footerAttrs": {},
-  "scripts": []
+  "styleAttrs": {
+    "article-146693e5.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "article-146693e5.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-d850020f28f81f74.de"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/blog/"
+          },
+          "html": "Blog"
+        },
+        {
+          "type": "text",
+          "html": " › Über Vorstellungen sprechen\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "article-hero"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "eyebrow"
+          },
+          "html": "Kommunikation · Wünsche · Beziehung<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "Über Wünsche und Fantasien sprechen – Ohne Druck"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "article-meta"
+          },
+          "html": "Fünf Schritte · sieben Minuten Lesezeit"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "article-intro"
+          },
+          "html": "Manchmal erschwert die Sorge vor einer Reaktion das Gespräch. Diese fünf Schritte können einen respektvollen Einstieg bieten, auch wenn ihr bisher kaum darüber gesprochen habt."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "article",
+      "attrs": {},
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Eine Vorstellung zu teilen kann verletzlich machen. Vielleicht befürchtet ihr Missverständnisse oder Ablehnung. Das lässt sich nicht allgemein vorhersagen. Der Rahmen und die Erlaubnis, auch nicht darüber reden zu wollen, sind deshalb wichtig."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Fünf Schritte als mögliche Orientierung für euer Gespräch."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-parler-de-ses-fantasmes.de/0181"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Den passenden Moment wählen"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Fragt zuerst, ob die andere Person sprechen möchte. Ein ruhiger Moment außerhalb von Streit, Erschöpfung oder unmittelbaren Erwartungen kann mehr Raum zum Zuhören geben."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-parler-de-ses-fantasmes.de/0182"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Mit einem kleinen Wunsch beginnen"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Niemand muss alles auf einmal offenlegen. Beginnt mit etwas, das ihr wirklich teilen möchtet, und respektiert, wenn die andere Person nicht weiterreden möchte. Vertrauen kann schrittweise wachsen."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-parler-de-ses-fantasmes.de/0183"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Von dir selbst sprechen"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "„Ich bin neugierig auf …“ ist anders als eine Vermutung darüber, was die andere Person ablehnen würde. Ich-Aussagen können Wünsche beschreiben, ohne Vorwürfe oder einen Test daraus zu machen."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-parler-de-ses-fantasmes.de/0184"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Zuhören und Entscheiden trennen"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Eine erste Reaktion muss keine endgültige Antwort sein. Ihr dürft zuhören, nachfragen und später Ja, Nein oder Vielleicht sagen. Vermeidet Abwertung und gebt auch unerwarteten Gefühlen Raum."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-parler-de-ses-fantasmes.de/0185"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Ein gemeinsames Medium als Einstieg nutzen"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Ein Artikel, eine Liste oder eine App kann ein Gespräch anregen, wenn Worte fehlen. Eine Auswahl auf dem Bildschirm ersetzt aber keine Zustimmung und darf nicht als Verpflichtung gelesen werden."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "callout"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Eine Caresse-Session gemeinsam einzustellen kann Fragen über Intensität, Atmosphäre und Vorlieben eröffnen. Die App bietet einen Gesprächsanlass, ohne euch die Verantwortung für die Abstimmung abzunehmen. Mehr über <a href=\"/de/fuer-paare/\">Caresse für Paare</a>."
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Was nach dem ersten Gespräch möglich wird"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Ein respektvoller Austausch kann weitere Gespräche erleichtern. Er muss nicht alles klären. Ein diskreter Rahmen kann helfen, sich mit eigenen Ideen zu beschäftigen; technische Datennutzung sollte trotzdem verständlich sein. Darauf achtet <a href=\"/de/\">Caresse</a>mit anonymem Caresse-Modus ohne E-Mail-Registrierung. Käufe erfolgen über ein Apple- oder Google-Konto."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "faq-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Häufige Fragen"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Über Vorstellungen sprechen – eure Fragen."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Warum fällt es schwer, Wünsche anzusprechen?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Sorge vor Bewertung, Missverständnissen oder Enttäuschung kann den Einstieg erschweren. Wie die andere Person reagieren wird, lässt sich nicht garantieren. Ein freiwilliger, ruhiger Rahmen und das Recht auf ein Nein bleiben wichtig."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Muss ich alles auf einmal erzählen?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Nein. Du kannst mit einem kleinen Wunsch anfangen und entscheiden, was du teilen möchtest. Auch die andere Person darf bestimmen, worüber sie sprechen möchte. Das Gespräch ist keine Offenlegungspflicht."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Wie reagiere ich auf eine überraschende Vorstellung?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Trenne Zuhören und Entscheiden. Frage respektvoll nach und nimm dir Zeit, statt sofort etwas zusagen zu müssen. Auch dein Nein und deine eigenen Grenzen sind wichtig; Abwertung ist nicht nötig."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Kann ein Werkzeug wie Caresse dabei helfen?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Die gemeinsame Auswahl von Stimmung, Intensität und Vorlieben kann einen Gesprächsanlass geben. Eine angeklickte Option ersetzt jedoch keine freie Zustimmung und kein Gespräch während der späteren Erfahrung."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Ausprobieren"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Ein gemeinsamer Gesprächsanlass."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Caresse bietet konkrete Einstellungen für eine gemeinsame Session, ohne dass eine Person alles allein formulieren muss. Feste Demos sind kostenlos, ohne Caresse-Konto."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+            "id": "hero-cta",
+            "class": "cta-pink",
+            "target": "_blank",
+            "rel": "noopener"
+          },
+          "html": "Caresse entdecken"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Nur für Erwachsene ab 18 Jahren"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "related-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Mehr erfahren"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Weitere Anregungen entdecken."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "related-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/fuer-paare/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">💞</div>\n                    <p class=\"ttl\">Caresse für Paare</p>\n                    <p class=\"desc\">Gemeinsam langsamer werden und Rituale gestalten.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/blog/naehe-neu-entdecken/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🕰️</div>\n                    <p class=\"ttl\">Nähe neu entdecken</p>\n                    <p class=\"desc\">Sieben konkrete Ideen für gemeinsame Neugier.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/blog/solozeit-ohne-schuldgefuehl/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🌙</div>\n                    <p class=\"ttl\">Solozeit ohne Schuldgefühl</p>\n                    <p class=\"desc\">Zeit für dich, in deinem Tempo.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/blog/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">📝</div>\n                    <p class=\"ttl\">Alle Artikel</p>\n                    <p class=\"desc\">Der Caresse-Blog: Beziehung, Nähe und Entdeckung.</p>\n                "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo.de",
+        "footer.en.navigation.de",
+        "footer.en.links.de",
+        "footer-c18220e05a34e590.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ],
+  "translationSource": "blog-parler-de-ses-fantasmes.en"
 }

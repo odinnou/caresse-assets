@@ -4,15 +4,16 @@
   "locale": "de",
   "path": "/de/vs-melt/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "comparison-cta-v1-melt-acquisition-v1-seo-oct03-v1-offer-clarity-oct05-v1-melt-snippet-oct17-v1-seo-consistency-oct23-v1-seo-consistency-oct31-v1-melt-first-use-oct31-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "Caresse und Melt Stories im Vergleich – Format, Nutzung und Preise",
+  "title": "Alternative zu Melt Stories: Persönliche Audio-App | Caresse",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +24,31 @@
     },
     {
       "name": "description",
-      "content": "Vergleiche Caresse und Melt Stories: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Melt Stories als Audioalternative? Caresse erstellt persönliche Sessions auf iOS und Android. Kostenlose Demos, danach Credits ohne Abo."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/vs-melt/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +56,43 @@
     },
     {
       "property": "og:title",
-      "content": "Caresse und Melt Stories im Vergleich – Format, Nutzung und Preise"
+      "content": "Alternative zu Melt Stories: Persönliche Audio-App | Caresse"
     },
     {
       "property": "og:description",
-      "content": "Vergleiche Caresse und Melt Stories: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Melt Stories als Audioalternative? Caresse erstellt persönliche Sessions auf iOS und Android. Kostenlose Demos, danach Credits ohne Abo."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/vs-melt/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse und Melt Stories – Persönliche KI-Audioerlebnisse"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +100,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Caresse und Melt Stories im Vergleich – Format, Nutzung und Preise"
+      "content": "Alternative zu Melt Stories: Persönliche Audio-App | Caresse"
     },
     {
       "name": "twitter:description",
-      "content": "Vergleiche Caresse und Melt Stories: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Melt Stories als Audioalternative? Caresse erstellt persönliche Sessions auf iOS und Android. Kostenlose Demos, danach Credits ohne Abo."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse und Melt Stories – Persönliche KI-Audioerlebnisse"
     }
   ],
   "links": [
@@ -122,130 +143,763 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/vs-melt/#webpage",
-      "url": "https://caresse.app/de/vs-melt/",
-      "name": "Caresse und Melt Stories im Vergleich – Format, Nutzung und Preise",
-      "description": "Vergleiche Caresse und Melt Stories: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo.",
-      "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      }
-    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": {
         "block": "faq"
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse und Melt Stories",
+      "description": "Vergleich von Caresse mit persönlicher Audiofiktion pro Generierung und Melt Stories mit einer Plattform für persönliche Textgeschichten.",
+      "url": "https://caresse.app/de/vs-melt/",
+      "inLanguage": "de",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "isSimilarTo": {
+          "@type": "SoftwareApplication",
+          "name": "Melt Stories"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternativen",
+            "item": "https://caresse.app/de/alternativen/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse und Melt Stories",
+            "item": "https://caresse.app/de/vs-melt/"
+          }
+        ]
+      }
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-96507040e5da65b2.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-96507040e5da65b2.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-96507040e5da65b2.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
   ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-0e6d5046eaad1fdf.de"
+    },
+    {
       "type": "container",
-      "tag": "main",
+      "tag": "div",
       "attrs": {
-        "id": "main-content"
+        "class": "breadcrumb"
       },
       "blocks": [
         {
-          "type": "intro",
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
           "attrs": {
-            "class": "hero localized-hero"
+            "href": "/de/"
           },
-          "children": [
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/alternativen/"
+          },
+          "html": "Alternativen"
+        },
+        {
+          "type": "text",
+          "html": " › Caresse und Melt Stories\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🔊 Audio · 📖 Text · Caresse und Melt Stories"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Eine Alternative zu Melt Stories<br><em>als Audio gesucht?</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Melt Stories bietet Texte zum Lesen. Caresse erstellt Audiofiktion mit euren gewählten Namen, solo oder gemeinsam. Download und feste Demos auf iOS und Android sind ohne Caresse-Konto kostenlos. Persönliche Generierung benötigt Credits, ohne Abo."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">App kostenlos herunterladen</a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Anonymer Modus · Kein Caresse-Konto · Kostenlose Demos<br>Persönliche Sessions kostenpflichtig, ohne Abo.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "tldr"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "In der Caresse-App"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Von einer Demo zur eigenen Audiosession."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "tldr-card"
+          },
+          "blocks": [
             {
+              "type": "element",
               "tag": "p",
               "attrs": {
-                "class": "hero-eyebrow"
+                "style": "margin-bottom:18px;"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+              "html": "<strong>Die Stimme entdecken.</strong> Caresse herunterladen und feste Demos ohne Konto hören. Lernt Ton und Format vor einem Creditkauf kennen."
             },
             {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Caresse und Melt Stories im Vergleich – Format, Nutzung und Preise"
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "style": "margin-bottom:18px;"
+              },
+              "html": "<strong>Den Rahmen wählen.</strong> Zum Beispiel Paarmodus, die Namen Alex und Sam, romantische Stimmung und gemeinsam gewählte Vorlieben. Solomodus ist ebenfalls verfügbar."
             },
             {
+              "type": "element",
               "tag": "p",
               "attrs": {},
-              "html": "Vergleiche Caresse und Melt Stories: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+              "html": "<strong>Erstellen und danach hören.</strong> Die Generierung benötigt Credits, ohne Abo. Sobald das Audio bereitsteht, erzählt die Stimme. Jede Person darf pausieren, Vorschläge auslassen oder aufhören."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "verdict",
+        "id": "verdict"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Auf einen Blick"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse und Melt Stories – Audio und Text im Vergleich."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "verdict-table-wrap"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "verdict-table"
+              },
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Kriterium</th>\n                        <th>Caresse</th>\n                        <th>Melt Stories</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Zugang ohne Konto</th>\n                        <td class=\"caresse\"><span class=\"yes\">Ja</span> – feste Demos sofort anhören</td>\n                        <td class=\"other\"><span class=\"yes\">Ja</span> – Einstieg ohne Konto möglich</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Konto erforderlich</th>\n                        <td class=\"caresse\"><span class=\"no\">Kein Caresse-Konto</span>; Apple- oder Google-Konto für Käufe</td>\n                        <td class=\"other\">Keine Pflichtregistrierung</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Inhaltsformat</th>\n                        <td class=\"caresse\">Persönlich generierte Audiogeschichte</td>\n                        <td class=\"other\">Mit KI generierte persönliche Textgeschichten</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personalisierung mit euren Namen</th>\n                        <td class=\"caresse\"><span class=\"yes\">Ja</span> – die Stimme verwendet euren gewählten Namen</td>\n                        <td class=\"other\"><span class=\"yes\">Ja</span> – im generierten Text</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Einstellungen der Geschichte</th>\n                        <td class=\"caresse\">Profile, Vorlieben, Zubehör, Intensität, Ton, Ort und Atmosphäre</td>\n                        <td class=\"other\">Genre, Stimmung und Intensität</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Dauer</th>\n                        <td class=\"caresse\">Variiert mit der Generierung; keine exakte Dauereinstellung</td>\n                        <td class=\"other\">Je nach Geschichte unterschiedlich</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Bezahlmodell</th>\n                        <td class=\"caresse\">Pro Generierung – Beispiele 1,99 € · 5,49 € · 7,99 €</td>\n                        <td class=\"other\">Abo für unbegrenzte Generierung; öffentlicher Preis nicht angegeben</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Sprache</th>\n                        <td class=\"caresse\">Französisch, Englisch, Spanisch und Portugiesisch; PT-Oberfläche auf Android, iOS-Update ausstehend</td>\n                        <td class=\"other\">Englisch, Französisch, Deutsch, Spanisch und brasilianisches Portugiesisch</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Solo- und Paarmodus</th>\n                        <td class=\"caresse\"><span class=\"yes\">Ja</span> – beide Modi vorhanden</td>\n                        <td class=\"other\">Auf Paare ausgerichtet</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Zugriff auf generierte Sessions</th>\n                        <td class=\"caresse\"><span class=\"yes\">Ja</span> – in eurem Konto verfügbar, solange es besteht</td>\n                        <td class=\"other\">Nicht angegeben</td>\n                    </tr>\n                </tbody>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group",
+            "style": "margin-top:32px"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "inline",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "App kostenlos herunterladen"
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "columns"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Im Detail"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Zwei unterschiedliche Ansätze."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Melt generiert Text, Caresse Audio. Ein ähnlicher Personalisierungsansatz in einem anderen Medium."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "columns-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card highlight"
+              },
+              "html": "\n                <p class=\"col-sub\">Caresse</p>\n                <h3>Eine persönliche Audiogeschichte mit euren Namen.</h3>\n                <p>Vor dem Kauf gibt es feste Demos auf FR, EN und ES ohne Caresse-Konto oder E-Mail. Ihr hört Klang, Stimme, Atmosphäre und Intensitäten. Die Beispiele verwenden vorgegebene Namen, nicht euer Profil.</p>\n                <p>Für eine persönliche Session werden Namen, Wünsche, Intensität und Atmosphäre berücksichtigt. Die synthetische Stimme trägt die Erzählung. Anonyme Caresse-Nutzung ist möglich; Käufe laufen über Apple oder Google. Generierte Inhalte bleiben im bestehenden Konto verfügbar.</p>\n                <ul>\n                    <li>Demos ohne Caresse-Konto auf FR, EN und ES</li>\n                    <li>Anonymer Modus ohne Caresse-Konto</li>\n                    <li>Gewählte Namen in der gesprochenen Erzählung</li>\n                    <li>Dauer variiert mit der Generierung</li>\n                    <li>Viele Kombinationen aus Profilen, Vorlieben, Zubehör, Intensität, Ort und Atmosphäre</li>\n                    <li>Paar- und Solomodus vorhanden</li>\n                    <li>Beispiele 1,99 € / 5,49 € / 7,99 € – Inhalte im Konto verfügbar</li>\n                </ul>\n            "
             },
             {
               "tag": "div",
               "attrs": {
-                "class": "cta-group"
+                "class": "col-card muted"
               },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
+              "html": "\n                <p class=\"col-sub\">Melt Stories</p>\n                <h3>Persönliche Textgeschichten, Einstieg ohne Konto.</h3>\n                <p>Melt Stories generiert persönliche Geschichten für Paare und solo. Stimmung, Szene, Figuren und Intensität lassen sich wählen; der Text kann fortgesetzt oder bearbeitet werden. Zum Einstieg braucht es kein Konto, mehrere Geschichten sind kostenlos.</p>\n                <p>Das Format kann zu interaktivem Lesen im eigenen Tempo passen. Häufige Nutzung ist laut Anbieter über ein Abo möglich. Caresse setzt dagegen auf eine Audioerzählung mit gewählten Namen und ohne ständiges Lesen.</p>\n                <ul>\n                    <li>Mit KI generierte persönliche Textgeschichten</li>\n                    <li>Personalisierung mit Namen und Vorlieben</li>\n                    <li>Kein Konto zum Einstieg nötig</li>\n                    <li>Englisch, Französisch, Deutsch, Spanisch und brasilianisches Portugiesisch</li>\n                    <li>Mehrere Geschichten kostenlos; Abo für unbegrenzte Generierung</li>\n                </ul>\n            "
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "pricing"
+      },
+      "blocks": [
         {
-          "type": "html",
-          "file": "shared.de/languages"
-        },
-        {
-          "type": "container",
-          "tag": "section",
+          "type": "element",
+          "tag": "p",
           "attrs": {
-            "class": "localized-content"
+            "class": "section-label"
           },
-          "blocks": [
+          "html": "Preise"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Einzeln bezahlen oder abonnieren."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Caresse verwendet Einzel- und Paketkäufe für Credits. Melt bietet mehrere kostenlose Geschichten und ein Abo für unbegrenzte Generierung, dessen Preis im geprüften öffentlichen Angebot nicht angezeigt wurde."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "pricing-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
             {
-              "type": "markdown",
-              "file": "vs-melt.de/00"
+              "tag": "div",
+              "attrs": {
+                "class": "price-card highlight"
+              },
+              "html": "\n                <h3>Caresse</h3>\n                <p class=\"price-big\">Pro Session</p>\n                <p class=\"price-note\" style=\"margin-bottom:14px;\">Kostenloser Download und feste Demos. Persönliche Sessions benötigen Credits, ohne Abo oder monatliche Verlängerung.</p>\n                <p class=\"price-note\" style=\"margin-top:16px;font-size:0.85rem;\">Eurobeträge sind Beispiele. Preise variieren je nach Land und Store; prüft den Betrag vor dem Kauf in der App.</p>\n                <div style=\"display:flex;flex-direction:column;gap:8px;text-align:left;border-top:1px solid rgba(255,255,255,0.25);padding-top:14px;\">\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>Ein Erlebnis</span>\n                        <strong>€1.99</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>Drei Erlebnisse</span>\n                        <strong>€5.49</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>Fünf Erlebnisse</span>\n                        <strong>€7.99</strong>\n                    </div>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:12px;font-size:0.82rem;opacity:0.85;\">Generierte Erfahrungen bleiben in eurem Konto in der App verfügbar. Eine Kontolöschung entfernt diese Inhalte.</p>\n                <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.85rem;margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,0.25);\">\n                    <span>Erweiterte Optionen – einmalig und dauerhaft</span>\n                    <strong>€9.99</strong>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:6px;font-size:0.78rem;opacity:0.8;\">Schaltet zusätzliche Einstellungen frei; laut bestehendem Angebot ist ein Credit enthalten. Prüft die aktuellen Kaufbedingungen.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card"
+              },
+              "html": "\n                <h3>Melt Stories</h3>\n                <p class=\"price-big\">Kostenlos und Abonnement</p>\n                <p class=\"price-note\">Mehrere vollständige Geschichten sind kostenlos. Unbegrenzte Generierung benötigt ein Abo; der Preis war öffentlich nicht angegeben.</p>\n            "
             }
           ]
         },
         {
-          "type": "container",
-          "tag": "section",
+          "type": "element",
+          "tag": "p",
           "attrs": {
-            "class": "localized-content"
+            "class": "pricing-footnote"
           },
-          "blocks": [
+          "html": "Caresse-Preisbeispiele stammen aus Juni 2026; aktuelle Preise vor dem Kauf in der App prüfen. Melt-Angaben anhand der Anbieterwebsite vom 5. September 2026. Angebote können sich ändern."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "choose"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Die Wahl treffen"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Welches Angebot passt zu wem?"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Eine Orientierung nach gewünschtem Format."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "choose-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
             {
-              "type": "markdown",
-              "file": "shared.de/comparison"
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card us"
+              },
+              "html": "\n                <h3>Caresse kann passen, wenn ihr …</h3>\n                <ul>\n                    <li>lieber zuhören als auf einem Bildschirm lesen möchtet</li>\n                    <li>den anonymen Modus ohne Caresse-Registrierung nutzen möchtet</li>\n                    <li>gewählte Namen in der Erzählung hören möchtet</li>\n                    <li>eine Erfahrung ohne ständigen Bildschirmblick sucht</li>\n                    <li>Audio auf FR, EN, ES oder PT sucht; PT-Oberfläche auf Android, iOS-Update ausstehend</li>\n                    <li>pro Generierung mit angezeigten Einzel- und Paketpreisen bezahlen möchtet</li>\n                    <li>generierte Sessions im anonymen Caresse-Konto behalten möchtet</li>\n                    <li>Audio auf FR, EN, ES und PT; PT-Oberfläche auf Android, iOS-Update ausstehend</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card them"
+              },
+              "html": "\n                <h3>Melt kann passen, wenn ihr …</h3>\n                <ul>\n                    <li>persönliche Geschichten lieber lesen als hören möchtet</li>\n                    <li>ein literarisches Format im eigenen Lesetempo sucht</li>\n                    <li>KI-Text in fünf Sprachen ohne Registrierung zum Einstieg möchtet</li>\n                    <li>Geschichten mit eigenen Texteinstellungen generieren möchtet</li>\n                </ul>\n            "
             }
           ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub",
+            "style": "margin-top:24px;"
+          },
+          "html": "Für einen bestehenden englischen Audiokatalog gibt es den Vergleich mit <a href=\"/de/vs-dipsea/\">Dipsea</a>. Eine französische Bibliothek behandelt <a href=\"/de/vs-melba/\">Caresse und Melba</a>."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Häufige Fragen"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse und Melt Stories – eure Fragen."
         },
         {
           "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
           "attrs": {
             "class": "faq-list"
           },
+          "prefix": "",
+          "suffix": "",
           "items": [
             {
               "attrs": {
@@ -255,12 +909,12 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
+                  "html": "Kann ich Melt Stories über diese Seite herunterladen?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
+                  "html": "Nein. Downloadbuttons führen zu Caresse im App Store oder bei Google Play. Caresse ist eine eigene App für persönliche Audiofiktion; diese Seite vertreibt Melt Stories nicht."
                 }
               ]
             },
@@ -272,12 +926,12 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
+                  "html": "Kann ich im anonymen Modus Sessions kaufen?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
+                  "html": "Ja. Du kannst Caresse ohne eigenes Caresse-Konto nutzen und Sessions kaufen. Käufe laufen über den App Store oder Google Play und benötigen dort ein Apple- oder Google-Konto mit Zahlungsmethode. Der anonyme Modus gilt gegenüber Caresse, nicht gegenüber dem Store."
                 }
               ]
             },
@@ -289,30 +943,358 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
+                  "html": "Ist Melt Stories kostenlos?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                  "html": "Melt bietet einen Browser-Einstieg ohne Konto und mehrere kostenlose Geschichten. Unbegrenzte Generierung benötigt laut dokumentiertem Angebot ein Abo ohne öffentlich angegebenen Preis. Caresse bietet kostenlose feste Demos und kostenpflichtige Credits; aktuelle Preise stehen in der App."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Ist Caresse eine passende Alternative zu Melt Stories?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Wenn ihr persönliche Generierung als Audio statt Text möchtet, kann Caresse passen. Audio gibt es auf FR, EN, ES und PT, feste Demos auf FR, EN und ES. PT-Oberfläche auf Android, iOS-Update ausstehend. Demos ohne Caresse-Konto zeigen das Format vor dem Creditkauf."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Benötigen Caresse und Melt ein Konto?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Beide ermöglichen einen Einstieg ohne eigene Registrierung. Caresse braucht kein Caresse-Konto für den Gastmodus; Käufe benötigen aber ein Apple- oder Google-Konto beim Store. Melt erlaubt den Beginn einer Geschichte ohne Registrierung."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Was ist der wichtigste Unterschied?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Das Medium: Melt erzeugt Text zum Lesen, Caresse Audio mit einer synthetischen Stimme und gewählten Namen. Beide personalisieren mit KI, aber Lesen und Zuhören sind unterschiedliche Erfahrungen."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Caresse und Melt: Audio oder Text in welchen Sprachen?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse generiert Audio auf FR, EN, ES und PT; Demos auf FR, EN und ES. Melt nennt Text auf EN, FR, DE, ES und PT-BR. Eine deutsche Caresse-Website bedeutet keine deutschen Audios. Der Formatunterschied bleibt wesentlich."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Was kostet Caresse?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Für Caresse sind Preisbeispiele von 1,99 €, 5,49 € und 7,99 € dokumentiert. Maßgeblich sind aktuelle App-Preise. Inhalte bleiben im bestehenden Konto verfügbar. Melt nennt kostenlose Geschichten und ein Abo ohne öffentlich angegebenen Preis im geprüften Angebot."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Sind Caresse und Melt direkt vergleichbar?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Nur mit Blick auf die unterschiedlichen Medien: persönliche Textgeschichten oder Audiofiktion mit gesprochenen Namen. Beide bieten einen Einstieg ohne eigene Registrierung. Die kostenlosen Caresse-Demos zeigen, ob euch der Klang entspricht."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Wie viele Geschichten kann Caresse generieren?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Profile, Namen, Vorlieben, Zubehör, Intensität, Ort und Atmosphäre ermöglichen viele Kombinationen. Jede Session wird neu erstellt, wobei Wiederholungen und Unstimmigkeiten möglich bleiben."
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/store-cta"
         }
       ]
+    },
+    {
+      "type": "element",
+      "tag": "aside",
+      "attrs": {
+        "id": "audio-experiences-links",
+        "aria-label": "Weiterlesen",
+        "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
+      },
+      "html": "\n        <p>Zur Vorbereitung könnt ihr auch lesen über: <a href=\"/de/persoenliches-audio/\" style=\"color:var(--primary);text-underline-offset:3px;\">persönliche Audioerlebnisse mit euren Namen</a>.</p>\n    "
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Bereit zum Ausprobieren?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Erst hören.<br>Dann entscheiden."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Caresse kostenlos herunterladen und feste Demos auf FR, EN und ES ohne Caresse-Konto oder E-Mail hören. Persönliche Sessions sind kostenpflichtig."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "class": "store-badge",
+                "aria-label": "Im App Store herunterladen",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\">\n                \n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Bei Google Play herunterladen",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Ausschließlich für Erwachsene ab 18"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Weitere Vergleiche"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Weitere Alternativen entdecken."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "related-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-dipsea/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse und Dipsea</p>\n                <p class=\"desc\">Englischer Geschichtenkatalog oder mehrsprachige Generierung.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-melba/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse und Melba</p>\n                <p class=\"desc\">Französischer Katalog oder persönliche Geschichte mit euren Namen.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-coelle/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse und Coelle</p>\n                <p class=\"desc\">Internationale Bibliothek oder persönliche Generierung mit euren Namen.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-inthemoment/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse und InTheMoment</p>\n                <p class=\"desc\">KI-Ansätze: vorbereitete Vorgaben oder freie Eingabe.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/alternativen/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🧭</div>\n                <p class=\"ttl\">Alle Alternativen</p>\n                <p class=\"desc\">Der Überblick: Melba, Coelle, Melt, Dipsea, Ferly und Bloom Stories.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/fuer-paare/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">💞</div>\n                <p class=\"ttl\">Caresse für Paare</p>\n                <p class=\"desc\">Wie Caresse gemeinsame Zeit für Paare begleiten kann.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/datenschutz-und-sicherheit/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🔒</div>\n                <p class=\"ttl\">Ist Caresse sicher?</p>\n                <p class=\"desc\">Datenschutz, Daten und KI verständlich erklärt.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-magicwave/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse und MagicWave</p>\n                <p class=\"desc\">Englische Hörbücher mit mehreren Stimmen oder persönliche mehrsprachige Generierung.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-bonded/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse und Bonded</p><p class=\"desc\">Schriftlicher Chat mit Antworten statt einer selbstständig laufenden Audioerzählung.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo.de",
+        "footer-000cac8bf9ce95b1.de",
+        "footer.en.links.de",
+        "footer-c18220e05a34e590.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "vs-melt.en"
 }

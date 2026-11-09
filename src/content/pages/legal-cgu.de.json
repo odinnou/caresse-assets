@@ -4,10 +4,10 @@
   "locale": "de",
   "path": "/de/rechtliches/nutzungsbedingungen/",
   "kind": "legal",
+  "layout": "composed",
   "sitemap": false,
   "htmlAttrs": {
-    "lang": "de",
-    "data-analytics-variant": "legal-cgu-v1"
+    "lang": "de"
   },
   "bodyAttrs": {
     "class": "lang-de"
@@ -22,169 +22,346 @@
       "content": "width=device-width, initial-scale=1.0"
     },
     {
-      "name": "description",
-      "content": "Nutzungsbedingungen der Caresse-App: Dienst, KI-generierte Inhalte, Verantwortung, Käufe und personenbezogene Daten."
-    },
-    {
       "name": "robots",
       "content": "noindex, nofollow"
-    },
-    {
-      "name": "theme-color",
-      "content": "#5D3D8C"
-    },
-    {
-      "property": "og:type",
-      "content": "website"
-    },
-    {
-      "property": "og:site_name",
-      "content": "Caresse"
-    },
-    {
-      "property": "og:title",
-      "content": "Nutzungsbedingungen – Caresse"
-    },
-    {
-      "property": "og:description",
-      "content": "Nutzungsbedingungen der Caresse-App: Dienst, KI-generierte Inhalte, Verantwortung, Käufe und personenbezogene Daten."
-    },
-    {
-      "property": "og:url",
-      "content": "https://caresse.app/de/rechtliches/nutzungsbedingungen/"
-    },
-    {
-      "property": "og:locale",
-      "content": "de_DE"
-    },
-    {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "name": "twitter:card",
-      "content": "summary_large_image"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Nutzungsbedingungen – Caresse"
-    },
-    {
-      "name": "twitter:description",
-      "content": "Nutzungsbedingungen der Caresse-App: Dienst, KI-generierte Inhalte, Verantwortung, Käufe und personenbezogene Daten."
-    },
-    {
-      "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
     }
   ],
-  "links": [
-    {
-      "rel": "icon",
-      "type": "image/x-icon",
-      "href": "/favicon.ico"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "32x32",
-      "href": "/favicon-32.png"
-    },
-    {
-      "rel": "apple-touch-icon",
-      "sizes": "180x180",
-      "href": "/apple-touch-icon.png"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "192x192",
-      "href": "/favicon-192.png"
-    },
-    {
-      "rel": "sitemap",
-      "type": "application/xml",
-      "title": "Sitemap",
-      "href": "https://caresse.app/sitemap.xml"
-    }
-  ],
+  "links": [],
   "schemas": [],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-281a0447b34fccfd.css"
   ],
+  "styleAttrs": {
+    "shared-281a0447b34fccfd.css": {}
+  },
   "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "style",
+      "file": "shared-281a0447b34fccfd.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-4c88699509e1bb98.de"
+    },
+    {
+      "type": "element",
+      "tag": "h1",
+      "attrs": {},
+      "html": "📜 Nutzungsbedingungen"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "<strong>Stand:</strong> 15. Mai 2026"
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "1. Über den Dienst"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Caresse ist eine mobile Anwendung mit immersiven Audio- und Texterfahrungen, die in Echtzeit durch künstliche Intelligenz erzeugt werden. Sie sollen Entspannung, Verbindung zu sich selbst oder einer anderen Person im Rahmen emotionalen und sensorischen Wohlbefindens ermöglichen."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Der Dienst wird von einem unabhängigen Entwickler herausgegeben, erreichbar unter <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
       "type": "container",
-      "tag": "main",
+      "tag": "div",
       "attrs": {
-        "id": "main-content"
+        "class": "highlight"
       },
       "blocks": [
         {
-          "type": "intro",
-          "attrs": {
-            "class": "hero localized-hero"
-          },
-          "children": [
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Rechtliche Informationen"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Nutzungsbedingungen – Caresse"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Nutzungsbedingungen der Caresse-App: Dienst, KI-generierte Inhalte, Verantwortung, Käufe und personenbezogene Daten."
-            }
-          ]
+          "type": "text",
+          "html": "\n        "
         },
         {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content"
-          },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "legal-cgu.de/00"
-            }
-          ]
+          "type": "html",
+          "file": "legal-cgu.de/0479"
+        },
+        {
+          "type": "text",
+          "html": " Mit der Nutzung erklärst du in eigener Verantwortung, dass du das gesetzliche Volljährigkeitsalter deines Wohnsitzlandes erreicht hast.\n    "
         }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "2. Annahme der Bedingungen"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die Nutzung der Caresse-App gilt als vollständige und vorbehaltlose Annahme dieser Bedingungen. Wenn du ihnen nicht zustimmst, musst du die Nutzung unverzüglich beenden."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Diese Bedingungen können geändert werden. Bei wesentlichen Änderungen werden Nutzer in der App informiert. Die weitere Nutzung nach dieser Mitteilung gilt als Annahme der aktualisierten Bedingungen."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "3. Art der KI-generierten Inhalte"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die Erfahrungen werden in Echtzeit von KI erzeugt und haben folgende Eigenschaften:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li><strong>Nicht deterministisch:</strong> Gleiche Einstellungen können unterschiedliche Ergebnisse erzeugen.</li>\n        <li><strong>Fiktiv:</strong> Die Erfahrungen sind sensorische Erzählfiktion. Sie sind keine tatsächlichen Anweisungen oder medizinischen, psychologischen beziehungsweise verhaltensbezogenen Empfehlungen.</li>\n        <li><strong>Fehleranfällig:</strong> Die KI kann Widersprüche, Wiederholungen und unerwartete Formulierungen erzeugen. Der Herausgeber garantiert keine einheitliche Qualität aller Generierungen.</li>\n        <li><strong>Pseudonymisiert:</strong> Einstellungen einschließlich des gewählten Vornamens oder Spitznamens werden an externe KI-Dienste übermittelt, ohne direkt identifizierende Angaben wie vollständigen rechtlichen Namen, E-Mail oder Kontokennung.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Der Herausgeber ist nicht Urheber der generierten Inhalte im urheberrechtlichen Sinn. Die KI dient als automatisiertes Werkzeug für erzählerische Vorschläge."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "4. Pflichten und Verantwortung der Nutzer"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Mit der Nutzung verpflichtest du dich:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>Die App ausschließlich für persönliche und rechtmäßige Zwecke zu verwenden.</li>\n        <li>Nicht zu versuchen, die Sicherheitsfilter der KI zu umgehen.</li>\n        <li>Generierte Inhalte nicht ohne vorherige schriftliche Zustimmung zu vervielfältigen, zu verbreiten oder kommerziell zu verwerten.</li>\n        <li>Die alleinige Verantwortung für eigene reale Handlungen zu tragen, die nicht der App oder ihren Erfahrungen zugerechnet werden können.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Du erkennst an, dass es sich um geführte Fiktion handelt. Kein erzählerischer Vorschlag ist eine Verpflichtung, Aufforderung oder tatsächliche Handlungsempfehlung."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "5. Ethik und Sicherheit"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Caresse beruht auf Zustimmung, Respekt und Achtsamkeit. Deshalb gilt:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>Inhalte mit Minderjährigen, nicht einvernehmlicher Gewalt oder Ausbeutung sind strikt untersagt und werden systematisch gefiltert.</li>\n        <li>Einvernehmlichkeit wird als zentraler Wert innerhalb der Erlebnisse bekräftigt.</li>\n        <li>Der Herausgeber kann den Zugang aussetzen oder beenden, wenn Nutzer den Dienst entgegen seiner ethischen Zielsetzung missbrauchen.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "6. Haftungsbegrenzung"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Soweit nach geltendem Recht zulässig, haftet der Herausgeber nicht für:"
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attrs": {},
+      "html": "\n        <li>KI-generierte Inhalte, die unvorhersehbar sind und vor der Anzeige nicht von einem Menschen geprüft werden.</li>\n        <li>Die reale Umsetzung von Erfahrungen durch Nutzer.</li>\n        <li>Unterbrechungen, Fehler oder vorübergehende Nichtverfügbarkeit des Dienstes.</li>\n        <li>Mittelbare Schäden aus Nutzung oder Nichtnutzbarkeit der App.</li>\n    "
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Der Herausgeber bemüht sich dennoch mit angemessenen Mitteln um Kontinuität und Sicherheit des Dienstes."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "7. Geistiges Eigentum"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Oberfläche, Gestaltung, Logo, Architektur und Quellcode sind geschützt und bleiben ausschließliches Eigentum des Herausgebers."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Für KI-generierte Inhalte wird eine persönliche, nicht gewerbliche Nutzungslizenz eingeräumt. Andere Nutzungen benötigen vorherige Zustimmung."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "8. Käufe und Geschäftsmodell"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Der Dienst verwendet verbrauchbare Credits. Jede Generierung benötigt je nach gewählten Optionen einen oder mehrere Credits."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Erweiterte Einstellungen können durch einen einmaligen dauerhaften Kauf freigeschaltet werden."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Einzelheiten zu Verkauf, Zahlung und Erstattungen stehen in den <a href=\"/de/rechtliches/verkaufsbedingungen/\">Verkaufsbedingungen</a>."
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "highlight"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-cgu.de/0480"
+        },
+        {
+          "type": "text",
+          "html": " Wegen der variablen Natur generierter Inhalte erfolgt keine Erstattung allein deshalb, weil das Ergebnis subjektiven Erwartungen nicht entspricht. Mit dem Start erkennst du diese Variabilität an und verzichtest nach Maßgabe der anwendbaren Vorschriften für digitale Inhalte auf eine Erstattung aus diesem Grund.\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "9. Personenbezogene Daten"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Der Herausgeber erhebt erforderliche Daten wie anonymen Identifikator und Einstellungen. Für persönliche Ansprache kann ein Vorname oder Spitzname angegeben werden; dein echter Name ist nicht nötig. Personenbezogene Daten werden nicht an Dritte verkauft."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Du kannst jederzeit direkt beim Herausgeber die vollständige Löschung deiner Daten beantragen."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Einzelheiten stehen in unserer <a href=\"/de/rechtliches/datenschutz/\">Datenschutzerklärung</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "10. Anwendbares Recht und Gerichtsstand"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Diese Bedingungen unterliegen französischem Recht. Bei Streitigkeiten wird zunächst eine einvernehmliche Lösung gesucht. Nach der zugrunde liegenden Fassung sind andernfalls die zuständigen französischen Gerichte zuständig."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die Ausgangsfassung enthält folgenden historischen Verweis auf die frühere EU-Plattform zur Online-Streitbeilegung nach Verordnung (EU) Nr. 524/2013; er ist kein aktuell angebotener Beschwerdeweg: <a href=\"https://ec.europa.eu/consumers/odr\" target=\"_blank\" rel=\"noopener\">https://ec.europa.eu/consumers/odr</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "11. Kontakt"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Bei Fragen zu den Nutzungsbedingungen erreichst du den Herausgeber unter <a href=\"mailto:admin@caresse.app\">admin@caresse.app</a>."
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-ca93feaad6ae74bb.de"
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "legal-cgu.en"
 }

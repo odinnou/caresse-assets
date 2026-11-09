@@ -4,13 +4,14 @@
   "locale": "de",
   "path": "/de/persoenliches-audio/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "personalized-acquisition-oct24-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
   "title": "Persönliche Audioerlebnisse mit euren Namen | Caresse",
   "meta": [
@@ -23,11 +24,15 @@
     },
     {
       "name": "description",
-      "content": "Eine Stimme, eure gewählten Namen und eure Wünsche: So erstellt Caresse persönliche Audiofiktion für Erwachsene, allein oder zu zweit, ohne Abo."
+      "content": "Erstellt persönliche Audios aus Namen, Stimmung und Vorlieben, allein oder gemeinsam. Kostenlose Demos, danach Generierung mit Credits ohne Abo."
     },
     {
       "name": "robots",
       "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
     },
     {
       "name": "theme-color",
@@ -36,6 +41,10 @@
     {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/persoenliches-audio/"
     },
     {
       "property": "og:site_name",
@@ -47,23 +56,39 @@
     },
     {
       "property": "og:description",
-      "content": "Eine Stimme, eure gewählten Namen und eure Wünsche: So erstellt Caresse persönliche Audiofiktion für Erwachsene, allein oder zu zweit, ohne Abo."
+      "content": "Erstellt persönliche Audios aus Namen, Stimmung und Vorlieben, allein oder gemeinsam. Kostenlose Demos, danach Generierung mit Credits ohne Abo."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/persoenliches-audio/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
       "name": "twitter:card",
@@ -75,52 +100,29 @@
     },
     {
       "name": "twitter:description",
-      "content": "Eine Stimme, eure gewählten Namen und eure Wünsche: So erstellt Caresse persönliche Audiofiktion für Erwachsene, allein oder zu zweit, ohne Abo."
+      "content": "Erstellt persönliche Audios aus Namen, Stimmung und Vorlieben, allein oder gemeinsam. Kostenlose Demos, danach Generierung mit Credits ohne Abo."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse"
     }
   ],
   "links": [
     {
       "rel": "icon",
-      "type": "image/x-icon",
       "href": "/favicon.ico"
     },
     {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "32x32",
-      "href": "/favicon-32.png"
-    },
-    {
       "rel": "apple-touch-icon",
-      "sizes": "180x180",
       "href": "/apple-touch-icon.png"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "192x192",
-      "href": "/favicon-192.png"
     },
     {
       "rel": "sitemap",
       "type": "application/xml",
-      "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
     }
   ],
@@ -129,15 +131,38 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "@id": "https://caresse.app/de/persoenliches-audio/#webpage",
-      "url": "https://caresse.app/de/persoenliches-audio/",
       "name": "Persönliche Audioerlebnisse mit euren Namen | Caresse",
-      "description": "Eine Stimme, eure gewählten Namen und eure Wünsche: So erstellt Caresse persönliche Audiofiktion für Erwachsene, allein oder zu zweit, ohne Abo.",
+      "description": "Erstellt persönliche Audios aus Namen, Stimmung und Vorlieben, allein oder gemeinsam. Kostenlose Demos, danach Generierung mit Credits ohne Abo.",
+      "url": "https://caresse.app/de/persoenliches-audio/",
       "inLanguage": "de",
+      "datePublished": "2026-10-24",
+      "dateModified": "2026-10-24",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Caresse",
-        "url": "https://caresse.app/"
+        "url": "https://caresse.app/de/"
+      },
+      "about": {
+        "@id": "https://caresse.app/#app"
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/de/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Persönliches Audio",
+          "item": "https://caresse.app/de/persoenliches-audio/"
+        }
+      ]
     },
     {
       "@context": "https://schema.org",
@@ -148,26 +173,312 @@
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-4b217ebdb8fa84e9.css",
+    "home-b0af781f.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-4b217ebdb8fa84e9.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "style",
+      "file": "shared-4b217ebdb8fa84e9.css",
+      "attrs": {}
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
   ],
   "blocks": [
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "class": "skip-link",
+        "href": "#main"
+      },
+      "html": "Zum Inhalt springen"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "header",
+      "ref": "header-05d265169eac9102.de"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb",
+        "aria-label": "Seitennavigation"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "html",
+          "file": "audio-intime-personnalise.de/0249"
+        },
+        {
+          "type": "text",
+          "html": "\n"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
     {
       "type": "container",
       "tag": "main",
       "attrs": {
-        "id": "main-content"
+        "id": "main",
+        "tabindex": "-1"
       },
       "blocks": [
         {
           "type": "intro",
           "attrs": {
-            "class": "hero localized-hero"
+            "class": "hero",
+            "style": "min-height:auto; padding-top:60px;"
           },
           "children": [
             {
@@ -175,131 +486,481 @@
               "attrs": {
                 "class": "hero-eyebrow"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+              "html": "Persönliches KI-Audio · Solo oder zu zweit · Ab 18"
             },
             {
               "tag": "h1",
-              "attrs": {},
-              "html": "Persönliche Audioerlebnisse mit euren Namen"
+              "attrs": {
+                "id": "page-title"
+              },
+              "html": "Euer persönliches Audio. <br>\n<em>Eure Namen. Eure Wünsche.</em>\n"
             },
             {
               "tag": "p",
-              "attrs": {},
-              "html": "Eine Stimme, eure gewählten Namen und eure Wünsche: So erstellt Caresse persönliche Audiofiktion für Erwachsene, allein oder zu zweit, ohne Abo."
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Eine feste Aufnahme klingt für alle gleich. Caresse generiert geführte Audiofiktion aus euren Einstellungen: gewählte Namen, Solo- oder Paarmodus, Atmosphäre und verfügbare Vorlieben."
             },
             {
               "tag": "div",
               "attrs": {
-                "class": "cta-group"
+                "class": "store-controls"
               },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
+              "html": "\n<div class=\"cta-group\">\n<a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Jetzt herunterladen</a>\n</div>\n"
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "hero-badge"
+              },
+              "html": "Kostenlose Demos · Kein Caresse-Konto · Persönliche Sessions mit Credits, ohne Abo.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
             }
           ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/languages"
         },
         {
           "type": "container",
           "tag": "section",
           "attrs": {
-            "class": "localized-content"
+            "class": "intent"
           },
           "blocks": [
             {
-              "type": "markdown",
-              "file": "audio-intime-personnalise.de/00"
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Der Unterschied zwischen Demo und persönlicher Session"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "intent-prose"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Eine Demo zeigt Stimme und Format vor dem Kauf. Ihre Namen und Einstellungen stehen fest; euer Profil wird dafür nicht verwendet."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Bei einer persönlichen Session fließen eure Angaben in die Erzählung ein. Gewählte Namen oder Spitznamen können gesprochen werden, Vorlieben gestalten die Vorschläge. Ihr hört eine Audiofiktion und müsst zum Fortsetzen keine Antworten schreiben."
+                }
+              ]
             }
           ]
         },
         {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
+          "type": "container",
+          "tag": "section",
           "attrs": {
-            "class": "faq-list"
+            "class": "diff"
           },
-          "items": [
+          "blocks": [
             {
+              "type": "element",
+              "tag": "h2",
               "attrs": {
-                "class": "faq-item"
+                "class": "section-title",
+                "id": "configuration-title"
               },
-              "children": [
+              "html": "Von euren Angaben zur Audioerfahrung"
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "diff-table-wrap"
+              },
+              "blocks": [
                 {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "diff-table",
+                    "aria-labelledby": "configuration-title"
+                  },
+                  "html": "\n<tbody>\n<tr>\n<td>Gewählte Namen</td>\n<td class=\"highlight\">Alex und Sam</td>\n</tr>\n<tr>\n<td>Modus</td>\n<td class=\"highlight\">Zu zweit oder solo mit einem Profil</td>\n</tr>\n<tr>\n<td>Atmosphäre</td>\n<td class=\"highlight\">Ein ruhiger, romantischer Moment</td>\n</tr>\n<tr>\n<td>Vorlieben</td>\n<td class=\"highlight\">Die gemeinsam vereinbarten Optionen</td>\n</tr>\n</tbody>\n"
                 }
               ]
             },
             {
+              "type": "container",
+              "tag": "div",
               "attrs": {
-                "class": "faq-item"
+                "class": "intent-prose",
+                "style": "max-width:900px;margin:32px auto 0;"
               },
-              "children": [
+              "blocks": [
                 {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
+                  "type": "element",
                   "tag": "p",
                   "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
+                  "html": "Dieses Beispiel nutzt Alex und Sam sowie ihre gewählte Atmosphäre. Andere Namen, Solo statt Paarmodus oder andere Vorlieben ändern die Informationen für die Generierung."
                 },
                 {
+                  "type": "element",
                   "tag": "p",
                   "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                  "html": "Dies ist ein Konfigurationsbeispiel, kein versprochenes Transkript. KI kann variieren, Widersprüche oder Wiederholungen erzeugen. Weder genaue Formulierungen noch eine feste Dauer werden garantiert."
+                },
+                {
+                  "type": "element",
+                  "tag": "figure",
+                  "attrs": {
+                    "style": "max-width:260px;margin:32px auto 0;text-align:center;"
+                  },
+                  "html": "\n<img src=\"/screens/en/05_android_en.webp\" alt=\"Englische Caresse-Oberfläche: Solo- oder Paarmodus und Namen wählen\" width=\"1179\" height=\"2556\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;border-radius:24px;\">\n<figcaption style=\"margin-top:12px;font-size:0.85rem;color:var(--text-secondary);line-height:1.6;\">Beispiel einer englischen Profilkonfiguration. Die sichtbaren Namen gehören zu dieser Darstellung.</figcaption>\n"
                 }
               ]
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "how"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Audio aus euren Vorlieben erstellen"
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "steps-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "step-item"
+                  },
+                  "html": "\n<div class=\"num\" aria-hidden=\"true\">01</div>\n<h3>Eine Demo ausprobieren</h3>\n<p>Caresse kostenlos herunterladen und das Format ohne Caresse-Konto kennenlernen.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "step-item"
+                  },
+                  "html": "\n<div class=\"num\" aria-hidden=\"true\">02</div>\n<h3>Profile konfigurieren</h3>\n<p>Wählt Namen oder Spitznamen, Modus und passende Optionen. Im Paarmodus stimmt ihr euch gemeinsam ab.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "step-item"
+                  },
+                  "html": "\n<div class=\"num\" aria-hidden=\"true\">03</div>\n<h3>Generierung starten</h3>\n<p>Ein kostenpflichtiger Credit startet die Erstellung. Sobald das Audio bereitsteht, begleitet eine synthetische Stimme eure persönliche Session.</p>\n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "benefits"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Was Personalisierung konkret bedeutet"
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "benefits-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "benefit-card"
+                  },
+                  "html": "\n<h3>Namen in der Erzählung</h3>\n<p>Wählt die Ansprache der Teilnehmenden. Ein Spitzname genügt; euer echter Name ist nicht erforderlich.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "benefit-card"
+                  },
+                  "html": "\n<h3>Atmosphäre und Vorlieben</h3>\n<p>Intensität, Stimmung und Vorlieben prägen die Session. Zusätzliche Optionen können eine separat angebotene Freischaltung benötigen.</p>\n"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "benefit-card"
+                  },
+                  "html": "\n<h3>Offen für alle</h3>\n<p>Caresse richtet sich an Erwachsene aller Geschlechter und Orientierungen, allein oder zu zweit. Im Paarmodus ist während der gesamten Erfahrung freie gegenseitige Zustimmung nötig; sie darf jederzeit zurückgenommen werden.</p>\n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "faq",
+            "aria-labelledby": "faq-title"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "id": "faq-title",
+                "class": "section-title"
+              },
+              "html": "Antworten auf eure Fragen."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Wird nur ein Name in eine Aufnahme eingesetzt?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Nein. Die Session wird aus den Einstellungen generiert und mit einer synthetischen Stimme erzählt. Sie ist nicht nur eine feste Demo mit ersetztem Namen. Das Ergebnis hängt von euren Angaben ab und kann variieren."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Kann ich eine Solosession erstellen?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Ja. Solo nutzt ein Profil und einen Namen oder Spitznamen. Im Paarmodus konfiguriert ihr zwei Personen. Wählt, was zu eurer Situation passt."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Kann ich eine genaue Dauer festlegen?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Nein. Die Länge hängt von der Generierung ab und variiert zwischen Sessions. Eine exakte Dauereinstellung gibt es nicht."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Brauche ich zum Kauf von Credits ein Caresse-Konto?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Nein. Der anonyme Modus benötigt kein Caresse-Konto. Käufe brauchen weiterhin euer Apple- oder Google-Konto mit der Zahlungsmethode des Stores."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Welche Audiosprachen gibt es?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Caresse generiert Audio auf FR, EN, ES und PT. Demos sind auf FR, EN und ES verfügbar. Die PT-Oberfläche gibt es auf Android; das iOS-Update wartet auf Freigabe. Deutsche Audios sind noch nicht verfügbar."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "aside",
+          "attrs": {
+            "class": "editorial-links",
+            "aria-label": "Weiterlesen",
+            "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
+          },
+          "html": "\n<p>Weiterlesen: <a href=\"/de/blog/erstes-audioerlebnis-zu-zweit/\" style=\"color:var(--primary-vibrant);text-underline-offset:3px;\">Eine Einführung in das erste gemeinsame Audioerlebnis</a>.</p>\n"
+        },
+        {
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Erst die Stimme kennenlernen, dann eure Session erstellen."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Caresse herunterladen und kostenlose Demos hören. Persönliche Sessions benötigen danach Credits, ohne Abo."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "store-badges"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                        "class": "store-badge",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Im App Store herunterladen"
+                      },
+                      "html": "\n<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\" width=\"162\" height=\"54\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                        "class": "store-badge gplay",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Bei Google Play herunterladen"
+                      },
+                      "html": "\n<img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\" width=\"207\" height=\"80\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice",
+                "style": "max-width:760px;margin:24px auto 0;"
+              },
+              "html": "Preise für Credits und Optionen werden vor dem Kauf in der Währung eures Stores angezeigt."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Für Erwachsene ab 18 Jahren"
+            }
+          ]
         }
       ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-78b491e24d481783.de",
+        "footer-da9a4e1d93a40876.de",
+        "footer-8bdd2932f00085ec.de",
+        "footer-4363bc4c7a962fbb.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "audio-intime-personnalise.en"
 }

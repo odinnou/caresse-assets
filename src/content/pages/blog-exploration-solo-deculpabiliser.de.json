@@ -4,15 +4,15 @@
   "locale": "de",
   "path": "/de/blog/solozeit-ohne-schuldgefuehl/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
-    "lang": "de",
-    "data-analytics-variant": "blog-exploration-solo-deculpabiliser-v1"
+    "lang": "de"
   },
   "bodyAttrs": {
     "class": "lang-de"
   },
-  "title": "Solozeit ohne Schuldgefühl – Im eigenen Tempo entdecken",
+  "title": "Solozeit ohne Schuldgefühl – Raum für dich",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +23,31 @@
     },
     {
       "name": "description",
-      "content": "Eigene Wünsche wahrnehmen, ohne Leistungsdruck: Anregungen für private Zeit, persönliche Grenzen und den bewussten Umgang mit Audiofiktion."
+      "content": "Zeit für dich ist nicht automatisch egoistisch. Gedanken über Schuldgefühle und den eigenen privaten Raum."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "article"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/blog/solozeit-ohne-schuldgefuehl/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +55,43 @@
     },
     {
       "property": "og:title",
-      "content": "Solozeit ohne Schuldgefühl – Im eigenen Tempo entdecken"
+      "content": "Solozeit ohne Schuldgefühl – Raum für dich"
     },
     {
       "property": "og:description",
-      "content": "Eigene Wünsche wahrnehmen, ohne Leistungsdruck: Anregungen für private Zeit, persönliche Grenzen und den bewussten Umgang mit Audiofiktion."
+      "content": "Zeit für dich ist nicht automatisch egoistisch. Gedanken über Schuldgefühle und den eigenen privaten Raum."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/blog/solozeit-ohne-schuldgefuehl/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Solozeit ohne Schuldgefühl – Caresse"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +99,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Solozeit ohne Schuldgefühl – Im eigenen Tempo entdecken"
+      "content": "Solozeit: Schuldgefühle hinterfragen"
     },
     {
       "name": "twitter:description",
-      "content": "Eigene Wünsche wahrnehmen, ohne Leistungsdruck: Anregungen für private Zeit, persönliche Grenzen und den bewussten Umgang mit Audiofiktion."
+      "content": "Woher Schuldgefühle kommen können und wie du dir Zeit für dich erlauben kannst."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Solozeit ohne Schuldgefühl – Caresse"
     }
   ],
   "links": [
@@ -122,28 +142,45 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
     {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "@id": "https://caresse.app/de/blog/solozeit-ohne-schuldgefuehl/#webpage",
+      "@type": "Article",
+      "headline": "Solozeit ohne Schuldgefühl – Raum für dich",
+      "description": "Zeit für dich ist nicht automatisch egoistisch. Gedanken über Schuldgefühle und den eigenen privaten Raum.",
       "url": "https://caresse.app/de/blog/solozeit-ohne-schuldgefuehl/",
-      "name": "Solozeit ohne Schuldgefühl – Im eigenen Tempo entdecken",
-      "description": "Eigene Wünsche wahrnehmen, ohne Leistungsdruck: Anregungen für private Zeit, persönliche Grenzen und den bewussten Umgang mit Audiofiktion.",
+      "datePublished": "2026-08-03",
+      "dateModified": "2026-08-03",
       "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      },
-      "headline": "Solozeit ohne Schuldgefühl – Im eigenen Tempo entdecken",
+      "image": "https://caresse.app/og-image-en.png",
       "author": {
         "@type": "Organization",
-        "name": "Studio Mokuton"
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
       },
-      "dateModified": "2026-11-09"
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://caresse.app/de/blog/solozeit-ohne-schuldgefuehl/"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -151,161 +188,792 @@
       "mainEntity": {
         "block": "faq"
       }
-    }
-  ],
-  "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
-  ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
-  ],
-  "blocks": [
+    },
     {
-      "type": "container",
-      "tag": "main",
-      "attrs": {
-        "id": "main-content"
-      },
-      "blocks": [
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
         {
-          "type": "intro",
-          "attrs": {
-            "class": "hero localized-hero"
-          },
-          "children": [
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Solozeit ohne Schuldgefühl – Im eigenen Tempo entdecken"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Eigene Wünsche wahrnehmen, ohne Leistungsdruck: Anregungen für private Zeit, persönliche Grenzen und den bewussten Umgang mit Audiofiktion."
-            },
-            {
-              "tag": "div",
-              "attrs": {
-                "class": "cta-group"
-              },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
-            }
-          ]
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/de/"
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/de/blog/"
         },
         {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content"
-          },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "blog-exploration-solo-deculpabiliser.de/00"
-            }
-          ]
-        },
-        {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
-          "attrs": {
-            "class": "faq-list"
-          },
-          "items": [
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Solozeit ohne Schuldgefühl",
+          "item": "https://caresse.app/de/blog/solozeit-ohne-schuldgefuehl/"
         }
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
+  "styles": [
+    "article-146693e5.css"
   ],
-  "footerAttrs": {},
-  "scripts": []
+  "styleAttrs": {
+    "article-146693e5.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "article-146693e5.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-d850020f28f81f74.de"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/blog/"
+          },
+          "html": "Blog"
+        },
+        {
+          "type": "text",
+          "html": " › Solozeit ohne Schuldgefühl\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "article-hero"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "eyebrow"
+          },
+          "html": "Solo · Wohlbefinden · Privatsphäre<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "Solozeit ohne Schuldgefühl – Raum für dich"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "article-meta"
+          },
+          "html": "Verstehen und ausprobieren · sechs Minuten Lesezeit"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "article-intro"
+          },
+          "html": "Zeit allein kann Schuldgefühle auslösen, als wäre sie ein Luxus, der begründet werden müsste. Hier geht es darum, solche Erwartungen zu hinterfragen."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "article",
+      "attrs": {},
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Manche Menschen empfinden Schuldgefühle, sobald sie sich Zeit nehmen, gerade bei persönlichen oder intimen Themen. Erwartungen, für andere verfügbar zu sein, können dazu beitragen. Diese Muster zu erkennen kann ein erster Schritt sein, ohne dass eine einfache Erklärung für alle gilt."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.de/0125"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Woher Schuldgefühle kommen können"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Arbeit, Familie oder Beziehung werden oft vor eigene Zeit gestellt. Das ist keine zwingende Rangordnung. Wer gewohnt ist, immer verfügbar zu sein, braucht vielleicht bewusst Raum, um die eigenen Bedürfnisse wahrzunehmen."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.de/0126"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Zeit für dich wird nicht automatisch anderen genommen"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Für dich zu sorgen bedeutet nicht zwangsläufig, andere zu vernachlässigen. Ruhe kann dazu beitragen, später wieder Aufmerksamkeit zu teilen. Du musst deinen persönlichen Raum trotzdem nicht allein durch seinen Nutzen für andere rechtfertigen."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.de/0127"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Solo-Entdeckung ist kein Ersatzpreis"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Auch in einer Beziehung darf persönliche Zeit ihren eigenen Wert haben. Eigene Vorlieben wahrzunehmen kann Gespräche erleichtern. Solozeit ersetzt nicht automatisch gemeinsame Nähe und steht nicht zwangsläufig in Konkurrenz dazu."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.de/0128"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Privatsphäre als Voraussetzung"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Das Gefühl, beobachtet oder bewertet zu werden, kann Entspannung erschweren. Prüfe, welche Daten ein Werkzeug benötigt, speichert und weitergibt. Ein diskreter Rahmen darf zu deinen eigenen Bedürfnissen passen."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "callout"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Caresse bietet einen anonymen Modus ohne Caresse-Konto oder E-Mail. Für Käufe brauchst du trotzdem ein Apple- oder Google-Konto beim Store. Mehr über <a href=\"/de/solo-entdecken/\">Caresse solo</a>\n            <a href=\"/de/blinde-und-sehbehinderte/\">Blindheit und Sehbehinderung</a>."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "step-card"
+          },
+          "blocks": [
+            {
+              "type": "html",
+              "file": "blog-exploration-solo-deculpabiliser.de/0129"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Noch nicht zu wissen, was du möchtest, ist in Ordnung"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Du musst keine fertige Vorstellung haben. Ohne Vergleiche oder Erwartungen kannst du langsam herausfinden, was dir entspricht. Ein Rahmen mit Auswahlmöglichkeiten kann Anregungen geben, ohne ein Ergebnis vorzuschreiben."
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Dir Zeit erlauben, ohne sie ständig zu begründen"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Sich diesen Raum zuzugestehen kann schwieriger sein, als es klingt. Persönliche Zeit muss kein Luxus für besonders gute Tage sein. Finde einen Rhythmus, der zu deinem Alltag passt und keine weitere Pflicht wird."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "faq-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Häufige Fragen"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Solozeit – deine Fragen."
+            },
+            {
+              "type": "faq",
+              "attrs": {
+                "class": "faq-list"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Warum fühle ich mich schuldig, wenn ich Zeit für mich nehme?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Vielleicht wirken Erwartungen mit, eigene Zeit hinter Arbeit, Familie oder Beziehung zu stellen. Das ist keine allgemeine Wahrheit über ihren Wert. Nimm deine Bedürfnisse ernst; bei belastenden Gefühlen kann fachliche Unterstützung helfen."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Ist Solozeit auch in einer Beziehung sinnvoll?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Sie kann neben gemeinsamer Nähe bestehen. Eigene Vorlieben zu kennen kann die Kommunikation erleichtern. Daraus folgt weder eine Pflicht zur Solo-Entdeckung noch eine Bewertung deiner Beziehung."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Wie schaffe ich einen privaten Rahmen?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Prüfe die Angaben zu Konto, Datennutzung und Löschung eines Angebots. Wähle einen Ort und ein Format, bei dem du dich wohlfühlst. Anonyme Nutzung bedeutet nicht zwangsläufig, dass keine technischen Daten verarbeitet werden."
+                    }
+                  ]
+                },
+                {
+                  "attrs": {
+                    "class": "faq-item"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "html": "Ist es in Ordnung, meine Wünsche noch nicht zu kennen?"
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "html": "Ja. Du musst vor einer Erfahrung keine vollständige Vorstellung haben. Auswahlmöglichkeiten können helfen, dich ohne Leistungsdruck in deinem Tempo zu orientieren."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Ausprobieren"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "html": "Ein Raum für dich."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Wähle eine Caresse-Solosession aus deinen Einstellungen, ohne Caresse-Registrierung oder E-Mail. Feste Demos sind kostenlos; persönliche Generierungen benötigen Credits."
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+            "id": "hero-cta",
+            "class": "cta-pink",
+            "target": "_blank",
+            "rel": "noopener"
+          },
+          "html": "Caresse entdecken"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Nur für Erwachsene ab 18 Jahren"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "related-inner"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-label"
+              },
+              "html": "Mehr erfahren"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "Weitere Anregungen entdecken."
+            },
+            {
+              "type": "cards",
+              "attrs": {
+                "class": "related-grid"
+              },
+              "prefix": "",
+              "suffix": "",
+              "items": [
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/solo-entdecken/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🌙</div>\n                    <p class=\"ttl\">Caresse solo</p>\n                    <p class=\"desc\">Ein privater Raum mit persönlicher KI-Audiobegleitung.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/blog/ueber-wuensche-sprechen/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">💬</div>\n                    <p class=\"ttl\">Über Wünsche sprechen</p>\n                    <p class=\"desc\">Ein respektvoller Einstieg in ein ungewohntes Gespräch.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/blog/naehe-neu-entdecken/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">🕰️</div>\n                    <p class=\"ttl\">Nähe neu entdecken</p>\n                    <p class=\"desc\">Sieben konkrete Ideen für gemeinsame Neugier.</p>\n                "
+                },
+                {
+                  "tag": "a",
+                  "attrs": {
+                    "href": "/de/blog/",
+                    "class": "related-card"
+                  },
+                  "html": "\n                    <div class=\"icon\">📝</div>\n                    <p class=\"ttl\">Alle Artikel</p>\n                    <p class=\"desc\">Der Caresse-Blog: Beziehung, Nähe und Entdeckung.</p>\n                "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo.de",
+        "footer-ccb1d8e5216cc678.de",
+        "footer.en.links.de",
+        "footer-c18220e05a34e590.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ],
+  "translationSource": "blog-exploration-solo-deculpabiliser.en"
 }

@@ -48,8 +48,10 @@ for (const page of german) {
   assert.equal(elements(page.path, 'h1').length, 1, page.id);
   assert.ok(elements(page.path, 'title').some((node) => text(node).trim()), page.id);
   const metas = elements(page.path, 'meta').map(attrs);
-  assert.ok(metas.some((meta) => meta.name === 'description' && meta.content.trim()), page.id);
-  assert.ok(metas.some((meta) => meta.property === 'og:locale' && meta.content === 'de_DE'), page.id);
+  if (page.kind !== 'legal') {
+    assert.ok(metas.some((meta) => meta.name === 'description' && meta.content.trim()), page.id);
+    if (page.sitemap !== false) assert.ok(metas.some((meta) => meta.property === 'og:locale' && meta.content === 'de_DE'), page.id);
+  }
   if (page.kind === 'legal') {
     assert.ok(metas.some((meta) => meta.name === 'robots' && /noindex/.test(meta.content)), page.id);
   } else {

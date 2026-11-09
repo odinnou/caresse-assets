@@ -4,10 +4,10 @@
   "locale": "de",
   "path": "/de/rechtliches/impressum/",
   "kind": "legal",
+  "layout": "composed",
   "sitemap": false,
   "htmlAttrs": {
-    "lang": "de",
-    "data-analytics-variant": "legal-legals-v1"
+    "lang": "de"
   },
   "bodyAttrs": {
     "class": "lang-de"
@@ -22,169 +22,508 @@
       "content": "width=device-width, initial-scale=1.0"
     },
     {
-      "name": "description",
-      "content": "Angaben zum Herausgeber von Caresse, Hosting, technischer Infrastruktur, Distribution, geistigem Eigentum und Kontakt."
-    },
-    {
       "name": "robots",
       "content": "noindex, nofollow"
-    },
-    {
-      "name": "theme-color",
-      "content": "#5D3D8C"
-    },
-    {
-      "property": "og:type",
-      "content": "website"
-    },
-    {
-      "property": "og:site_name",
-      "content": "Caresse"
-    },
-    {
-      "property": "og:title",
-      "content": "Impressum – Caresse"
-    },
-    {
-      "property": "og:description",
-      "content": "Angaben zum Herausgeber von Caresse, Hosting, technischer Infrastruktur, Distribution, geistigem Eigentum und Kontakt."
-    },
-    {
-      "property": "og:url",
-      "content": "https://caresse.app/de/rechtliches/impressum/"
-    },
-    {
-      "property": "og:locale",
-      "content": "de_DE"
-    },
-    {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "name": "twitter:card",
-      "content": "summary_large_image"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Impressum – Caresse"
-    },
-    {
-      "name": "twitter:description",
-      "content": "Angaben zum Herausgeber von Caresse, Hosting, technischer Infrastruktur, Distribution, geistigem Eigentum und Kontakt."
-    },
-    {
-      "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
-    },
-    {
-      "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
     }
   ],
-  "links": [
-    {
-      "rel": "icon",
-      "type": "image/x-icon",
-      "href": "/favicon.ico"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "32x32",
-      "href": "/favicon-32.png"
-    },
-    {
-      "rel": "apple-touch-icon",
-      "sizes": "180x180",
-      "href": "/apple-touch-icon.png"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "192x192",
-      "href": "/favicon-192.png"
-    },
-    {
-      "rel": "sitemap",
-      "type": "application/xml",
-      "title": "Sitemap",
-      "href": "https://caresse.app/sitemap.xml"
-    }
-  ],
+  "links": [],
   "schemas": [],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-108655d8bdebf4cb.css"
   ],
+  "styleAttrs": {
+    "shared-108655d8bdebf4cb.css": {}
+  },
   "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "style",
+      "file": "shared-108655d8bdebf4cb.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    }
+  ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-4c88699509e1bb98.de"
+    },
+    {
+      "type": "element",
+      "tag": "h1",
+      "attrs": {},
+      "html": "⚖️ Impressum"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "<strong>Stand:</strong> 15. Mai 2026"
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "🏢 1. Herausgeber"
+    },
+    {
       "type": "container",
-      "tag": "main",
+      "tag": "div",
       "attrs": {
-        "id": "main-content"
+        "class": "info-block"
       },
       "blocks": [
         {
-          "type": "intro",
-          "attrs": {
-            "class": "hero localized-hero"
-          },
-          "children": [
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Rechtliche Informationen"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Impressum – Caresse"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Angaben zum Herausgeber von Caresse, Hosting, technischer Infrastruktur, Distribution, geistigem Eigentum und Kontakt."
-            }
-          ]
+          "type": "text",
+          "html": "\n        "
         },
         {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content"
-          },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "legal-legals.de/00"
-            }
-          ]
+          "type": "html",
+          "file": "legal-legals.de/0483"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0484"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
         }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "info-block"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0485"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0486"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "info-block"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0487"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0488"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "info-block"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0489"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0490"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "info-block"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0491"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0492"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "info-block"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0493"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0494"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "☁️ 2. Hosting und technische Infrastruktur"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "info-block"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0495"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0496"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "info-block"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0497"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0498"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "info-block"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0499"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0500"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "info-block"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0501"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0502"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "📲 3. Vertrieb"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "info-block"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0503"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0504"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "info-block"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0505"
+        },
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "html",
+          "file": "legal-legals.de/0506"
+        },
+        {
+          "type": "text",
+          "html": "\n    "
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "©️ 4. Geistiges Eigentum"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "App, Marke, Logo, Oberfläche, Quellcode und Algorithmen von Caresse sind ausschließliches Eigentum des Herausgebers. Vervielfältigung, Darstellung, Änderung oder Verwertung ohne vorherige schriftliche Zustimmung sind untersagt und können nach geltendem Recht verfolgt werden."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "⚠️ 5. Haftung"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Der Herausgeber bemüht sich um richtige und aktuelle Informationen. Für Fehler oder Nichtverfügbarkeit durch äußere Umstände wie Netzwerkausfall, Drittwartung oder höhere Gewalt wird im rechtlich zulässigen Rahmen keine Haftung übernommen."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "KI-Inhalte sind unvorhersehbar. Einzelheiten zur Verantwortung stehen in den <a href=\"/de/rechtliches/nutzungsbedingungen/\">Nutzungsbedingungen</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "🔐 6. Personenbezogene Daten"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Die Datenverarbeitung wird beschrieben in der <a href=\"/de/rechtliches/datenschutz/\">Datenschutzerklärung</a>. Anfragen nach DSGVO können über den Kontakt in Abschnitt 1 gestellt werden."
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Bei ungelösten Anfragen kannst du dich an deine örtliche Aufsichtsbehörde wenden. EU-Nutzer können auch die <strong>CNIL</strong> in Frankreich kontaktieren: <a href=\"https://www.cnil.fr\" target=\"_blank\" rel=\"noopener\">www.cnil.fr</a>."
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attrs": {},
+      "html": "⚖️ 7. Anwendbares Recht"
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attrs": {},
+      "html": "Diese Angaben unterliegen französischem Recht. Nach der zugrunde liegenden Fassung fallen Streitigkeiten über Auslegung oder Anwendung in die Zuständigkeit französischer Gerichte."
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-ca93feaad6ae74bb.de"
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "legal-legals.en"
 }

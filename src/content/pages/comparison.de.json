@@ -3,16 +3,14 @@
   "family": "comparison",
   "locale": "de",
   "path": "/de/vs-dipsea/",
-  "kind": "page",
-  "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "comparison-cta-v1-dipsea-acquisition-v1-seo-oct03-v1-offer-clarity-oct05-v1-seo-consistency-oct23-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "Caresse und Dipsea im Vergleich – Format, Nutzung und Preise",
+  "title": "Alternative zu Dipsea: Persönliches Audio ohne Abo | Caresse",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +21,31 @@
     },
     {
       "name": "description",
-      "content": "Vergleiche Caresse und Dipsea: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Dipsea und Caresse vergleichen: persönliche Audios in vier Sprachen, kostenlose Demos, anonymer Modus ohne Caresse-Konto und kein Abo."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/vs-dipsea/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +53,43 @@
     },
     {
       "property": "og:title",
-      "content": "Caresse und Dipsea im Vergleich – Format, Nutzung und Preise"
+      "content": "Alternative zu Dipsea: Persönliches Audio ohne Abo | Caresse"
     },
     {
       "property": "og:description",
-      "content": "Vergleiche Caresse und Dipsea: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Persönliche Audios in vier Sprachen. Kostenlose Demos, anonymer Modus ohne Caresse-Konto und kein Abo."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/vs-dipsea/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse und Dipsea – Persönliche KI-Audioerlebnisse"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +97,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Caresse und Dipsea im Vergleich – Format, Nutzung und Preise"
+      "content": "Alternative zu Dipsea: Persönliches Audio ohne Abo | Caresse"
     },
     {
       "name": "twitter:description",
-      "content": "Vergleiche Caresse und Dipsea: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Persönliche Audios auf EN, FR, ES und PT. Anonymer Modus ohne Caresse-Konto, ohne Abo."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse und Dipsea – Persönliche KI-Audioerlebnisse"
     }
   ],
   "links": [
@@ -122,197 +140,400 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/vs-dipsea/#webpage",
-      "url": "https://caresse.app/de/vs-dipsea/",
-      "name": "Caresse und Dipsea im Vergleich – Format, Nutzung und Preise",
-      "description": "Vergleiche Caresse und Dipsea: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo.",
-      "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      }
-    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": {
         "block": "faq"
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse und Dipsea",
+      "description": "Vergleich zwischen Caresse mit persönlichen KI-Audios pro Generierung und Dipsea mit einem Katalog vorproduzierter Audiogeschichten im Abo.",
+      "url": "https://caresse.app/de/vs-dipsea/",
+      "inLanguage": "de",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "isSimilarTo": {
+          "@type": "SoftwareApplication",
+          "name": "Dipsea"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternativen",
+            "item": "https://caresse.app/de/alternativen/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse und Dipsea",
+            "item": "https://caresse.app/de/vs-dipsea/"
+          }
+        ]
+      }
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "comparison-3d782fdb.css"
   ],
   "headScripts": [
     "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
     "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+    "<script src=\"/mobile-store-cta.js\" defer></script>"
   ],
   "blocks": [
     {
-      "type": "container",
-      "tag": "main",
+      "type": "html",
+      "file": "comparison.de/00"
+    },
+    {
+      "type": "intro",
       "attrs": {
-        "id": "main-content"
+        "class": "hero"
       },
-      "blocks": [
+      "children": [
         {
-          "type": "intro",
+          "tag": "p",
           "attrs": {
-            "class": "hero localized-hero"
+            "class": "hero-eyebrow"
+          },
+          "html": "🇬🇧 🇫🇷 🇪🇸 🇧🇷 · Caresse und Dipsea · Audio in vier Sprachen"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Eine Alternative zu Dipsea<br><em>mit persönlichem Audio gesucht?</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Caresse erstellt persönliche Audios mit euren Namen und Vorlieben auf EN, FR, ES oder PT, ohne Abo. Die portugiesische Oberfläche ist auf Android verfügbar; iOS wartet auf Freigabe. Auf iOS oder Android könnt ihr feste Demos kostenlos ohne Caresse-Konto hören. Persönliche Sessions benötigen Credits."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "links": [
+            {
+              "store": "ios",
+              "attrs": {
+                "id": "hero-cta",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "hero",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "App kostenlos herunterladen"
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Anonymer Modus · Kein Caresse-Konto · Kostenlose Demos<br>Persönliche Sessions kostenpflichtig, ohne Abo.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "file": "comparison.de/01"
+    },
+    {
+      "type": "faq",
+      "prefix": "<section class=\"faq\">\n        <p class=\"section-label\">Häufige Fragen</p>\n        <h2 class=\"section-title\">Caresse und Dipsea – eure Fragen.</h2>\n        ",
+      "suffix": "\n    </section>",
+      "attrs": {
+        "class": "faq-list"
+      },
+      "items": [
+        {
+          "attrs": {
+            "class": "faq-item"
           },
           "children": [
             {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "h1",
+              "tag": "h3",
               "attrs": {},
-              "html": "Caresse und Dipsea im Vergleich – Format, Nutzung und Preise"
+              "html": "Welche Alternative zu Dipsea bietet Französisch oder Spanisch?"
             },
             {
               "tag": "p",
               "attrs": {},
-              "html": "Vergleiche Caresse und Dipsea: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+              "html": "Caresse generiert Audio auf FR, EN, ES und PT. Die PT-Oberfläche gibt es auf Android; iOS wartet auf Freigabe. Feste Demos sind auf FR, EN und ES kostenlos. Persönliche Sessions entstehen mit euren Namen und Vorlieben gegen Credits, ohne Abo."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Sind alle persönlichen Caresse-Sessions kostenlos?"
             },
             {
-              "tag": "div",
-              "attrs": {
-                "class": "cta-group"
-              },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
+              "tag": "p",
+              "attrs": {},
+              "html": "Nein. Download und Demos sind kostenlos. Persönliche Generierung benötigt kostenpflichtige Credits. Es gibt kein Abo; die aktuellen Preise stehen vor dem Kauf in der App."
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
-        },
-        {
-          "type": "container",
-          "tag": "section",
           "attrs": {
-            "class": "localized-content"
+            "class": "faq-item"
           },
-          "blocks": [
+          "children": [
             {
-              "type": "markdown",
-              "file": "comparison.de/00"
-            }
-          ]
-        },
-        {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content"
-          },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "shared.de/comparison"
-            }
-          ]
-        },
-        {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
-          "attrs": {
-            "class": "faq-list"
-          },
-          "items": [
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
+              "tag": "h3",
+              "attrs": {},
+              "html": "Kann ich im anonymen Modus Sessions kaufen?"
             },
             {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
-                }
-              ]
+              "tag": "p",
+              "attrs": {},
+              "html": "Ja. Du kannst Caresse ohne eigenes Caresse-Konto nutzen und Sessions kaufen. Käufe laufen über den App Store oder Google Play und benötigen dort ein Apple- oder Google-Konto mit Zahlungsmethode. Der anonyme Modus gilt gegenüber Caresse, nicht gegenüber dem Store."
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Ist Dipsea kostenlos und was enthält das Abo?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Dipsea bietet begrenzte Vorschauen und sieben Tage Probezeit mit dem Jahresplan. Am 5. September 2026 wurden 69,99 $/Jahr oder 12,99 $/Monat genannt. Bedingungen können sich ändern. Caresse bietet feste Demos ohne Konto oder Probeabo."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Welche kostenlose Alternative gibt es zu Dipsea?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Caresse bietet feste Hörproben im Browser ohne Konto, E-Mail oder Zahlung. Es ist kein unbegrenzt kostenloser Katalog: Persönliche Sessions werden einzeln mit Credits erstellt. Ihr könnt das Format vor einem Kauf hören."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Kann ich Caresse vor dem Kauf ohne Konto anhören?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Ja. Feste Demos auf EN, FR und ES sind sofort ohne Konto oder E-Mail verfügbar. Ihr hört Stimme, Klang und Atmosphäre. Die Aufnahmen verwenden vorgegebene Namen und nicht euer Profil."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Braucht Caresse wie Dipsea ein Konto?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Für den anonymen Modus ist kein Caresse-Konto erforderlich. Käufe über App Store oder Google Play benötigen das jeweilige Plattformkonto. Bei Dipsea setzt der Zugang zum Katalog laut Bestandsvergleich eine Registrierung voraus."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Was ist der wichtigste Unterschied zwischen Caresse und Dipsea?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Dipsea ist ein englischer Katalog vorproduzierter Geschichten im Abo. Caresse generiert persönliche Audiofiktion mit euren Namen und gewählten Einstellungen; die Dauer kann variieren. Ihr wählt somit zwischen einer festen Bibliothek und persönlicher Generierung."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Ist Caresse ein Abo oder zahle ich pro Session?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Caresse verwendet Credits pro Generierung, ohne Pflichtabo. Bei Dipsea wird nach der Probezeit das Abo berechnet, unabhängig von der Häufigkeit des Hörens. Die dokumentierten Preise sind 69,99 $/Jahr oder 12,99 $/Monat; prüft das aktuelle Angebot."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Ist der Katalog von Caresse so groß wie bei Dipsea?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Die Formate sind verschieden: Dipsea erweitert einen festen Katalog. Caresse generiert auf Anfrage aus Namen, Vorlieben, Zubehör, Intensität und Atmosphäre. Die möglichen Kombinationen sind vielfältig und nicht an einen Veröffentlichungsplan gebunden."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Gibt es Dipsea auch in anderen Sprachen als Englisch?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Im dokumentierten Vergleich wird Dipsea als englischsprachig beschrieben. Caresse generiert auf FR, EN, ES und PT; Website-Demos gibt es auf FR, EN und ES. PT-Oberfläche auf Android, iOS-Update ausstehend. Aktuelle Anbieterangaben können sich ändern."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Dipsea oder Caresse für ein gemeinsames Paarerlebnis?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Dipsea richtet sich vorwiegend an individuelles Hören; manche Geschichten eignen sich auch für Paare. Caresse hat einen Paarmodus, berücksichtigt beide Namen und bietet eine gemeinsam erlebte Audiofiktion."
+            }
+          ]
         }
       ]
+    },
+    {
+      "type": "html",
+      "file": "comparison.de/02"
     }
   ],
-  "header": "header.de",
   "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
+    "footer.en.logo.de",
+    "footer.en.navigation.comparison.de",
+    "footer.en.links.de",
+    "footer.en.social.de",
+    "footer.en.copy.de"
   ],
+  "scripts": [
+    "<script>\n        (function () {\n            if (/Android/i.test(navigator.userAgent)) {\n                var cta = document.getElementById('hero-cta');\n                if (cta) cta.href = \"https://play.google.com/store/apps/details?id=studio.mokuton.caresse\";\n            }\n        })();\n    </script>"
+  ],
+  "header": "header.en.comparison.de",
   "footerAttrs": {},
-  "scripts": []
+  "translationSource": "comparison.en"
 }

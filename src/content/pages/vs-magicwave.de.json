@@ -4,15 +4,16 @@
   "locale": "de",
   "path": "/de/vs-magicwave/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "comparison-cta-v1-seo-consistency-oct23-v1-seo-consistency-oct31-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "Caresse und MagicWave im Vergleich – Format, Nutzung und Preise",
+  "title": "Caresse und MagicWave – Kostenlose Demos ohne Caresse-Konto",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +24,31 @@
     },
     {
       "name": "description",
-      "content": "Vergleiche Caresse und MagicWave: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Caresse und MagicWave: feste Demos vor einem Kauf hören. Persönliche Sessions mit gesprochenen Namen und Credits, ohne Abo."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/vs-magicwave/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +56,43 @@
     },
     {
       "property": "og:title",
-      "content": "Caresse und MagicWave im Vergleich – Format, Nutzung und Preise"
+      "content": "Caresse und MagicWave – Kostenlose Demos ohne Caresse-Konto"
     },
     {
       "property": "og:description",
-      "content": "Vergleiche Caresse und MagicWave: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Feste Demos auf EN, FR und ES ohne Caresse-Registrierung. Persönliche Sessions mit gewählten Namen, ohne Abo."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/vs-magicwave/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse und MagicWave – Persönliche KI-Audioerlebnisse"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +100,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Caresse und MagicWave im Vergleich – Format, Nutzung und Preise"
+      "content": "Caresse und MagicWave – Kostenlose Demos ohne Caresse-Konto"
     },
     {
       "name": "twitter:description",
-      "content": "Vergleiche Caresse und MagicWave: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+      "content": "Feste Demos ohne Caresse-Konto auf EN, FR und ES. Kein Abo."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse und MagicWave – Persönliche KI-Audioerlebnisse"
     }
   ],
   "links": [
@@ -122,130 +143,747 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/vs-magicwave/#webpage",
-      "url": "https://caresse.app/de/vs-magicwave/",
-      "name": "Caresse und MagicWave im Vergleich – Format, Nutzung und Preise",
-      "description": "Vergleiche Caresse und MagicWave: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo.",
-      "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      }
-    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": {
         "block": "faq"
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse und MagicWave",
+      "description": "Vergleich von Caresse mit persönlicher KI-Audiofiktion pro Generierung und MagicWave mit englischen romantischen Hörbüchern im Abo.",
+      "url": "https://caresse.app/de/vs-magicwave/",
+      "inLanguage": "de",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "isSimilarTo": {
+          "@type": "SoftwareApplication",
+          "name": "MagicWave"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternativen",
+            "item": "https://caresse.app/de/alternativen/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse und MagicWave",
+            "item": "https://caresse.app/de/vs-magicwave/"
+          }
+        ]
+      }
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-a40e50920932b5d8.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-a40e50920932b5d8.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-a40e50920932b5d8.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
   ],
   "blocks": [
     {
+      "type": "header",
+      "ref": "header-0e6d5046eaad1fdf.de"
+    },
+    {
       "type": "container",
-      "tag": "main",
+      "tag": "div",
       "attrs": {
-        "id": "main-content"
+        "class": "breadcrumb"
       },
       "blocks": [
         {
-          "type": "intro",
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
           "attrs": {
-            "class": "hero localized-hero"
+            "href": "/de/"
           },
-          "children": [
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/alternativen/"
+          },
+          "html": "Alternativen"
+        },
+        {
+          "type": "text",
+          "html": " › Caresse und MagicWave\n    "
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "🇬🇧 🇫🇷 🇪🇸 🇧🇷 · Caresse und MagicWave · Audio in vier Sprachen"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Caresse und MagicWave:<br>zuerst hören, <em>dann entscheiden.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "MagicWave bietet englische Hörbücher mit mehreren Stimmen zum individuellen Hören. Caresse bietet feste EN-/FR-/ES-Demos ohne Konto oder E-Mail und danach persönliche Generierung mit gewählten Namen, solo oder gemeinsam."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">App kostenlos herunterladen</a>\n        "
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Kostenlose App-Demos ohne Caresse-Registrierung. Persönliche Sessions kostenpflichtig, ohne Abo.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "tldr"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "In einem Satz"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Die Unterschiede kurz erklärt."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "tldr-card"
+          },
+          "blocks": [
             {
+              "type": "element",
               "tag": "p",
+              "attrs": {},
+              "html": "<strong>MagicWave</strong> ist eine englische Bibliothek vorab geschriebener romantischer Hörbücher mit mehreren Stimmen und unterschiedlichen Genres. Zugang erfolgt über Prime oder die virtuelle Währung Shells, vorwiegend für individuelles Hören. <strong>Caresse</strong> bietet vor einem Kauf feste Demos ohne Caresse-Konto. Persönliche Sessions entstehen dagegen aus Profilen, Namen und Vorlieben, solo oder zu zweit. Der anonyme Caresse-Modus ist möglich; Käufe laufen über euer Store-Konto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "verdict",
+        "id": "verdict"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Auf einen Blick"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse und MagicWave – wichtige Kriterien."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "verdict-table-wrap"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
               "attrs": {
-                "class": "hero-eyebrow"
+                "class": "verdict-table"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Kriterium</th>\n                        <th>Caresse</th>\n                        <th>MagicWave</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Kostenlose Demos ohne Konto</th>\n                        <td class=\"caresse\"><span class=\"yes\">Ja</span> – Demos sofort anhören</td>\n                        <td class=\"other\">Begrenzte Vorschauen; vollständiger Katalog über Abo oder Shells</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Inhaltsformat</th>\n                        <td class=\"caresse\">Persönliche Generierung pro Session</td>\n                        <td class=\"other\">Katalog geschriebener Hörbücher mit mehreren Stimmen</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Eure Namen im Audio</th>\n                        <td class=\"caresse\"><span class=\"yes\">Ja</span> – die Stimme spricht eure gewählten Namen</td>\n                        <td class=\"other\"><span class=\"no\">Nein</span> – allgemeine fiktionale Erzählung</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personalisierung</th>\n                        <td class=\"caresse\">Geschlechter, Vorlieben, Zubehör, Intensität, Sprache, Umgebung und Atmosphäre</td>\n                        <td class=\"other\">Einen Katalogtitel wählen</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Solo- und Paarmodus</th>\n                        <td class=\"caresse\"><span class=\"yes\">Ja</span> – beide Modi vorhanden</td>\n                        <td class=\"other\">Für individuelles Hören gestaltet</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Neue Inhalte</th>\n                        <td class=\"caresse\">Viele mögliche Einstellungskombinationen</td>\n                        <td class=\"other\">Regelmäßig erweiterter Katalog</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Bezahlmodell</th>\n                        <td class=\"caresse\">Pro Session, ohne Abo</td>\n                        <td class=\"other\">Prime-Abonnement oder virtuelle Währung Shells</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Audiosprachen</th>\n                        <td class=\"caresse\">Französisch, Englisch, Spanisch und Portugiesisch; PT-Oberfläche auf Android, iOS-Update ausstehend</td>\n                        <td class=\"other\">Nur Englisch</td>\n                    </tr>\n                </tbody>\n            "
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group",
+            "style": "margin-top:32px"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
             },
             {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Caresse und MagicWave im Vergleich – Format, Nutzung und Preise"
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "inline",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "App kostenlos herunterladen"
             },
             {
-              "tag": "p",
-              "attrs": {},
-              "html": "Vergleiche Caresse und MagicWave: Format, Personalisierung, Sprachen und Bezahlmodell. Persönliche Audiofiktion mit Credits, ohne Abo."
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "columns"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Im Detail"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Zwei unterschiedliche Ansätze."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "MagicWave setzt auf vorproduzierte Geschichten, Caresse auf persönliche Generierung. Es sind unterschiedliche Angebote."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "columns-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card highlight"
+              },
+              "html": "\n                <p class=\"col-sub\">Caresse</p>\n                <h3>Erst hören. Dann entscheiden.</h3>\n                <p>Vor dem Kauf könnt ihr feste Demos auf EN, FR und ES ohne Caresse-Konto oder E-Mail hören. So lernt ihr Stimme, Klang, Atmosphäre und Intensitäten kennen. Die Demos verwenden vorgegebene Namen und nicht euer Profil.</p>\n                <p>Die persönliche Caresse-Session berücksichtigt eure Namen, Wünsche, Intensität und Atmosphäre. Sie entsteht für eure Anfrage, solo oder als Paar. Inhalte und Länge können variieren.</p>\n                <ul>\n                    <li>Demos ohne Caresse-Konto auf EN, FR und ES</li>\n                    <li>Anonymer Caresse-Modus; Käufe benötigen ein Store-Konto</li>\n                    <li>Gewählte Namen werden gesprochen</li>\n                    <li>Dauer variiert; keine genaue Länge einstellbar</li>\n                    <li>Viele Kombinationen aus Geschlechtern, Vorlieben, Zubehör, Intensität, Ort und Atmosphäre</li>\n                    <li>Solo- und Paarmodus vorhanden</li>\n                    <li>Kein Abo: Bezahlung pro Session</li>\n                </ul>\n            "
             },
             {
               "tag": "div",
               "attrs": {
-                "class": "cta-group"
+                "class": "col-card muted"
               },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
+              "html": "\n                <p class=\"col-sub\">MagicWave</p>\n                <h3>Eine englische Bibliothek romantischer Geschichten.</h3>\n                <p>MagicWave beschreibt zahlreiche vorproduzierte Hörbücher mit mehreren Stimmen aus Romance, Fantasy und weiteren Genres. Das Angebot richtet sich insbesondere an Frauen. Für vollständigen Zugang werden Prime oder Shells benötigt; die Aufnahmen bleiben für alle gleich.</p>\n                <p>Ein Katalog passt zu einer Auswahl vorhandener Geschichten. Caresse hat einen anderen Schwerpunkt: persönliche Namen und Einstellungen, gemeinsam oder solo, mit mehreren unterstützten Audiosprachen.</p>\n                <ul>\n                    <li>Großer Katalog vorproduzierter Hörbücher mit mehreren Stimmen</li>\n                    <li>Verschiedene Genres: Romance, Fantasy und weitere Welten</li>\n                    <li>Für alle dieselbe Aufnahme</li>\n                    <li>Nur auf Englisch laut Bestandsvergleich</li>\n                    <li>Abo oder Shells für den vollständigen Katalog</li>\n                </ul>\n            "
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "pricing"
+      },
+      "blocks": [
         {
-          "type": "html",
-          "file": "shared.de/languages"
-        },
-        {
-          "type": "container",
-          "tag": "section",
+          "type": "element",
+          "tag": "p",
           "attrs": {
-            "class": "localized-content"
+            "class": "section-label"
           },
-          "blocks": [
+          "html": "Preise"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Einzeln bezahlen oder abonnieren."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Caresse hat keine laufenden Abokosten. Das dokumentierte MagicWave-Angebot nennt sieben Tage Probezeit, verschiedene Abozeiträume oder einzelne Shells-Pakete."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "pricing-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
             {
-              "type": "markdown",
-              "file": "vs-magicwave.de/00"
+              "tag": "div",
+              "attrs": {
+                "class": "price-card highlight"
+              },
+              "html": "\n                <h3>Caresse</h3>\n                <p class=\"price-big\">Pro Session</p>\n                <p class=\"price-note\" style=\"margin-bottom:14px;\">Kostenloser Download und Demos. Persönliche Sessions mit Credits, ohne Abo.</p>\n                <p class=\"price-note\" style=\"margin-top:16px;font-size:0.85rem;\">Eurobeträge sind Beispiele. Preise variieren je nach Land und Store; prüft den Betrag vor dem Kauf in der App.</p>\n                <div style=\"display:flex;flex-direction:column;gap:8px;text-align:left;border-top:1px solid rgba(255,255,255,0.25);padding-top:14px;\">\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>Ein Erlebnis</span>\n                        <strong>€1.99</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>Drei Erlebnisse</span>\n                        <strong>€5.49</strong>\n                    </div>\n                    <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.92rem;\">\n                        <span>Fünf Erlebnisse</span>\n                        <strong>€7.99</strong>\n                    </div>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:12px;font-size:0.82rem;opacity:0.85;\">Generierte Erfahrungen bleiben in eurem Konto in der App verfügbar. Eine Kontolöschung entfernt diese Inhalte.</p>\n                <div style=\"display:flex;justify-content:space-between;align-items:center;font-size:0.85rem;margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,0.25);\">\n                    <span>Erweiterte Optionen – einmalig und dauerhaft</span>\n                    <strong>€9.99</strong>\n                </div>\n                <p class=\"price-note\" style=\"margin-top:6px;font-size:0.78rem;opacity:0.8;\">Schaltet zusätzliche Einstellungen frei; laut bestehendem Angebot ist ein Credit enthalten. Prüft die aktuellen Kaufbedingungen.</p>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card"
+              },
+              "html": "\n                <h3>MagicWave</h3>\n                <p class=\"price-big\">Abonnement oder Shells</p>\n                <p class=\"price-note\">Dokumentiert: sieben Tage Probezeit, danach 4,99–6,99 $/Monat oder 47,99 $/Jahr mit Prime; Shells-Pakete zwischen 0,99 $ und 26,99 $.</p>\n            "
             }
           ]
         },
         {
-          "type": "container",
-          "tag": "section",
+          "type": "element",
+          "tag": "p",
           "attrs": {
-            "class": "localized-content"
+            "class": "pricing-footnote"
           },
-          "blocks": [
+          "html": "MagicWave-Preise aus dem US-App-Store-Eintrag vom 17. August 2026."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "choose"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Die Wahl treffen"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Welches Angebot passt zu wem?"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Eine Orientierung anhand eurer Wünsche."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "choose-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
             {
-              "type": "markdown",
-              "file": "shared.de/comparison"
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card us"
+              },
+              "html": "\n                <h3>Caresse kann passen, wenn ihr …</h3>\n                <ul>\n                    <li>vor dem Bezahlen feste Demos ohne Konto hören möchtet</li>\n                    <li>Gastnutzung ohne Caresse-Registrierung, mit Store-Konto bei Käufen</li>\n                    <li>eure gewählten Namen in der Erzählung hören möchtet</li>\n                    <li>bei jeder Erstellung eine neue persönliche Geschichte entdecken möchtet</li>\n                    <li>Intensität, Vorlieben und Atmosphäre wählen möchtet; die Dauer bleibt variabel</li>\n                    <li>pro Generierung statt über laufende Abokosten bezahlen möchtet</li>\n                    <li>sowohl solo als auch zu zweit hören möchtet</li>\n                    <li>Audio auf EN, FR, ES und PT sucht; PT-Oberfläche auf Android, iOS-Update ausstehend</li>\n                </ul>\n            "
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "choose-card them"
+              },
+              "html": "\n                <h3>MagicWave kann passen, wenn ihr …</h3>\n                <ul>\n                    <li>einen großen englischen Hörbuchkatalog mit mehreren Stimmen sucht</li>\n                    <li>unterschiedliche Romance- und Fantasywelten möchtet</li>\n                    <li>ein insbesondere an Frauen gerichtetes Angebot sucht</li>\n                    <li>Abo oder aufladbare virtuelle Währung bevorzugt</li>\n                    <li>feste Geschichten ohne Konfiguration pro Generierung hören möchtet</li>\n                </ul>\n            "
             }
           ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub",
+            "style": "margin-top:24px;"
+          },
+          "html": "Für eine französische Bibliothek gibt es den Vergleich mit <a href=\"/de/vs-melba/\">Melba</a>. Einen anderen KI-Ansatz vergleicht <a href=\"/de/vs-inthemoment/\">InTheMoment</a>."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Häufige Fragen"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Caresse und MagicWave – eure Fragen."
         },
         {
           "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
           "attrs": {
             "class": "faq-list"
           },
+          "prefix": "",
+          "suffix": "",
           "items": [
             {
               "attrs": {
@@ -255,12 +893,12 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
+                  "html": "Kann ich Caresse vor dem Kauf ohne Konto anhören?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
+                  "html": "Ja. Feste Demos auf EN, FR und ES sind sofort ohne Konto oder E-Mail verfügbar. Ihr hört Stimme, Klang und Atmosphäre. Die Aufnahmen verwenden vorgegebene Namen und nicht euer Profil."
                 }
               ]
             },
@@ -272,12 +910,12 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
+                  "html": "Bietet Caresse Französisch, während MagicWave Englisch anbietet?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
+                  "html": "Caresse generiert Audio auf FR, EN, ES und PT; feste Demos gibt es auf FR, EN und ES. Die PT-Oberfläche ist auf Android verfügbar, iOS wartet auf Freigabe. MagicWave wird im Bestandsvergleich als englischer Katalog beschrieben."
                 }
               ]
             },
@@ -289,30 +927,288 @@
                 {
                   "tag": "h3",
                   "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
+                  "html": "Was unterscheidet Caresse und MagicWave hauptsächlich?"
                 },
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
+                  "html": "MagicWave bietet englische Hörbücher mit mehreren Stimmen und festen Geschichten. Caresse generiert Audiofiktion aus Namen, Intensität, Vorlieben und Atmosphäre für solo oder Paare."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Ist Caresse ein Abo oder zahle ich pro Session?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Caresse verwendet Credits ohne Pflichtabo. MagicWave nutzt laut dokumentiertem Angebot Prime-Abos oder aufladbare Shells. Prüft die aktuellen Preise im jeweiligen Angebot."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Hat Caresse auch einen Paarmodus?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Ja, Solo- und Paarmodus sind vorhanden. MagicWave richtet sich vorwiegend an individuelles Hören bestehender Hörbücher, nicht an eine aus beiden Profilen generierte Session."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Ist der Caresse-Katalog so groß wie bei MagicWave?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Die Angebote sind verschieden: MagicWave bietet bestehende Hörbücher in verschiedenen Genres. Caresse generiert aus euren Einstellungen statt einen Katalog zum Durchsuchen anzubieten. Auch gleiche Einstellungen können unterschiedliche Ergebnisse liefern."
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/store-cta"
         }
       ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Bereit zum Ausprobieren?"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Erst hören.<br>Dann entscheiden."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Lade Caresse kostenlos herunter. Feste Demos auf EN, FR und ES sind ohne Caresse-Konto oder E-Mail verfügbar. Persönliche Sessions benötigen kostenpflichtige Credits."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "store-badges"
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "class": "store-badge",
+                "aria-label": "Im App Store herunterladen",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n            "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "store-badge gplay",
+                "aria-label": "Bei Google Play herunterladen",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+              },
+              "html": "\n                <img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\">\n            "
+            },
+            {
+              "type": "text",
+              "html": "\n        "
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "🔞 Nur für Erwachsene ab 18 Jahren"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Weitere Vergleiche"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Die Alternativen entdecken."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "related-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-dipsea/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse und Dipsea</p>\n                <p class=\"desc\">Englischer Geschichtenkatalog oder mehrsprachige Generierung.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-melba/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse und Melba</p>\n                <p class=\"desc\">Fachlich begleiteter Katalog oder persönliche Generierung mit euren Namen.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-coelle/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse und Coelle</p>\n                <p class=\"desc\">Internationale Bibliothek oder persönliche Generierung mit euren Namen.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-melt/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse und Melt Stories</p>\n                <p class=\"desc\">Persönliches Audio mit euren Namen oder KI-generierter Text.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-inthemoment/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🆚</div>\n                <p class=\"ttl\">Caresse und InTheMoment</p>\n                <p class=\"desc\">KI-Ansätze im Vergleich: vorbereitete Vorgaben oder freie Eingabe.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-quinn/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse und Quinn</p><p class=\"desc\">Creator-Katalog oder eine aus euren Namen generierte Session.</p>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/alternativen/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🧭</div>\n                <p class=\"ttl\">Alle Alternativen</p>\n                <p class=\"desc\">Der Überblick: Melba, Coelle, Dipsea, Ferly und Bloom Stories.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/fuer-paare/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">💞</div>\n                <p class=\"ttl\">Caresse für Paare</p>\n                <p class=\"desc\">Wie Caresse gemeinsame Zeit für Paare begleiten kann.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/datenschutz-und-sicherheit/",
+                "class": "related-card"
+              },
+              "html": "\n                <div class=\"icon\">🔒</div>\n                <p class=\"ttl\">Ist Caresse sicher?</p>\n                <p class=\"desc\">Datenschutz, Daten und KI verständlich erklärt.</p>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-bonded/",
+                "class": "related-card"
+              },
+              "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse und Bonded</p><p class=\"desc\">Schriftlicher Chat mit Antworten statt einer selbstständig laufenden Audioerzählung.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo.de",
+        "footer-adedbdaa4102a334.de",
+        "footer.en.links.de",
+        "footer-c18220e05a34e590.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "vs-magicwave.en"
 }

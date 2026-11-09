@@ -1,0 +1,61 @@
+{
+  "attrs": {},
+  "logo": "<a href=\"/de/\" aria-label=\"Caresse – Startseite\"><img src=\"/caresse-logo.svg\" class=\"logo\" alt=\"Caresse, App für persönliche KI-Audioerlebnisse\" width=\"250\" height=\"80\"></a>",
+  "rightAttrs": {
+    "class": "header-right"
+  },
+  "links": "<a href=\"/de/blog/\" class=\"header-link active\" aria-current=\"page\">Blog</a><a href=\"/de/alternativen/\" class=\"header-link\">Alternativen</a>",
+  "toggleAttrs": {
+    "class": "lang-toggle",
+    "role": "group",
+    "aria-label": "Sprache wählen"
+  },
+  "languages": [
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn",
+        "hreflang": "fr",
+        "aria-label": "Français"
+      },
+      "html": "FR"
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn",
+        "hreflang": "en",
+        "aria-label": "English"
+      },
+      "html": "EN"
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn",
+        "hreflang": "es",
+        "aria-label": "Español"
+      },
+      "html": "ES"
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn",
+        "hreflang": "pt",
+        "aria-label": "Português"
+      },
+      "html": "PT"
+    },
+    {
+      "tag": "a",
+      "attrs": {
+        "class": "lang-btn active",
+        "hreflang": "de",
+        "aria-label": "Deutsch",
+        "aria-current": "page"
+      },
+      "html": "DE"
+    }
+  ]
+}

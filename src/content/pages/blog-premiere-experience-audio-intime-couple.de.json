@@ -4,15 +4,16 @@
   "locale": "de",
   "path": "/de/blog/erstes-audioerlebnis-zu-zweit/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "first-acquisition-oct24-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "Das erste Audioerlebnis zu zweit – Ein Einstieg | Caresse",
+  "title": "Das erste persönliche Audioerlebnis zu zweit | Caresse",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,11 +24,15 @@
     },
     {
       "name": "description",
-      "content": "Gemeinsam ein Audioformat entdecken: Vorbereitung, Wünsche, Pausen und der Unterschied zwischen einer kostenlosen Demo und einer persönlichen Session."
+      "content": "Audio gemeinsam vorschlagen, Vorlieben abstimmen und ohne Druck ausprobieren. Ein Leitfaden von kostenlosen Demos zur persönlichen Session."
     },
     {
       "name": "robots",
       "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
     },
     {
       "name": "theme-color",
@@ -38,32 +43,52 @@
       "content": "article"
     },
     {
+      "property": "og:url",
+      "content": "https://caresse.app/de/blog/erstes-audioerlebnis-zu-zweit/"
+    },
+    {
       "property": "og:site_name",
       "content": "Caresse"
     },
     {
       "property": "og:title",
-      "content": "Das erste Audioerlebnis zu zweit – Ein Einstieg | Caresse"
+      "content": "Das erste persönliche Audioerlebnis zu zweit | Caresse"
     },
     {
       "property": "og:description",
-      "content": "Gemeinsam ein Audioformat entdecken: Vorbereitung, Wünsche, Pausen und der Unterschied zwischen einer kostenlosen Demo und einer persönlichen Session."
+      "content": "Audio gemeinsam vorschlagen, Vorlieben abstimmen und ohne Druck ausprobieren. Ein Leitfaden von kostenlosen Demos zur persönlichen Session."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/blog/erstes-audioerlebnis-zu-zweit/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
       "name": "twitter:card",
@@ -71,79 +96,79 @@
     },
     {
       "name": "twitter:title",
-      "content": "Das erste Audioerlebnis zu zweit – Ein Einstieg | Caresse"
+      "content": "Das erste persönliche Audioerlebnis zu zweit | Caresse"
     },
     {
       "name": "twitter:description",
-      "content": "Gemeinsam ein Audioformat entdecken: Vorbereitung, Wünsche, Pausen und der Unterschied zwischen einer kostenlosen Demo und einer persönlichen Session."
+      "content": "Audio gemeinsam vorschlagen, Vorlieben abstimmen und ohne Druck ausprobieren. Ein Leitfaden von kostenlosen Demos zur persönlichen Session."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse"
     }
   ],
   "links": [
     {
       "rel": "icon",
-      "type": "image/x-icon",
       "href": "/favicon.ico"
     },
     {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "32x32",
-      "href": "/favicon-32.png"
-    },
-    {
       "rel": "apple-touch-icon",
-      "sizes": "180x180",
       "href": "/apple-touch-icon.png"
-    },
-    {
-      "rel": "icon",
-      "type": "image/png",
-      "sizes": "192x192",
-      "href": "/favicon-192.png"
     },
     {
       "rel": "sitemap",
       "type": "application/xml",
-      "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
     }
   ],
   "schemas": [
     {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
+      "@type": "WebPage",
       "@id": "https://caresse.app/de/blog/erstes-audioerlebnis-zu-zweit/#webpage",
+      "name": "Das erste persönliche Audioerlebnis zu zweit | Caresse",
+      "description": "Audio gemeinsam vorschlagen, Vorlieben abstimmen und ohne Druck ausprobieren. Ein Leitfaden von kostenlosen Demos zur persönlichen Session.",
       "url": "https://caresse.app/de/blog/erstes-audioerlebnis-zu-zweit/",
-      "name": "Das erste Audioerlebnis zu zweit – Ein Einstieg | Caresse",
-      "description": "Gemeinsam ein Audioformat entdecken: Vorbereitung, Wünsche, Pausen und der Unterschied zwischen einer kostenlosen Demo und einer persönlichen Session.",
       "inLanguage": "de",
+      "datePublished": "2026-10-24",
+      "dateModified": "2026-10-24",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Caresse",
-        "url": "https://caresse.app/"
+        "url": "https://caresse.app/de/"
       },
-      "headline": "Das erste Audioerlebnis zu zweit – Ein Einstieg | Caresse",
-      "author": {
-        "@type": "Organization",
-        "name": "Studio Mokuton"
-      },
-      "dateModified": "2026-11-09"
+      "about": {
+        "@id": "https://caresse.app/#app"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/de/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/de/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Das erste gemeinsame Hören",
+          "item": "https://caresse.app/de/blog/erstes-audioerlebnis-zu-zweit/"
+        }
+      ]
     },
     {
       "@context": "https://schema.org",
@@ -151,161 +176,804 @@
       "mainEntity": {
         "block": "faq"
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Euer erstes gemeinsames Audioerlebnis, ohne Druck.",
+      "description": "Audio gemeinsam vorschlagen, Vorlieben abstimmen und ohne Druck ausprobieren. Ein Leitfaden von kostenlosen Demos zur persönlichen Session.",
+      "url": "https://caresse.app/de/blog/erstes-audioerlebnis-zu-zweit/",
+      "inLanguage": "de",
+      "datePublished": "2026-10-24",
+      "dateModified": "2026-10-24",
+      "image": "https://caresse.app/og-image-en.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://caresse.app/de/blog/erstes-audioerlebnis-zu-zweit/#webpage"
+      }
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "shared-f0c3af73b34a575f.css",
+    "home-b0af781f.css"
   ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+  "styleAttrs": {
+    "shared-f0c3af73b34a575f.css": {},
+    "home-b0af781f.css": {
+      "data-component": "store-badges"
+    }
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "style",
+      "file": "shared-f0c3af73b34a575f.css",
+      "attrs": {}
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 2,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 3,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      },
+      "file": "script-01ba4719c80b6fe9.js"
+    },
+    {
+      "type": "style",
+      "file": "home-b0af781f.css",
+      "attrs": {
+        "data-component": "store-badges"
+      }
+    }
   ],
   "blocks": [
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "element",
+      "tag": "a",
+      "attrs": {
+        "class": "skip-link",
+        "href": "#main"
+      },
+      "html": "Zum Inhalt springen"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "header",
+      "ref": "header-e2b0ae3eb10bc543.de"
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb",
+        "aria-label": "Seitennavigation"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/blog/"
+          },
+          "html": "Blog"
+        },
+        {
+          "type": "text",
+          "html": " › "
+        },
+        {
+          "type": "html",
+          "file": "blog-premiere-experience-audio-intime-couple.de/0117"
+        },
+        {
+          "type": "text",
+          "html": "\n"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
     {
       "type": "container",
       "tag": "main",
       "attrs": {
-        "id": "main-content"
+        "id": "main",
+        "tabindex": "-1"
       },
       "blocks": [
         {
-          "type": "intro",
+          "type": "container",
+          "tag": "section",
           "attrs": {
-            "class": "hero localized-hero"
+            "class": "article-hero"
           },
-          "children": [
+          "blocks": [
             {
+              "type": "element",
               "tag": "p",
               "attrs": {
-                "class": "hero-eyebrow"
+                "class": "eyebrow"
               },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
+              "html": "Leitfaden · Erstes Hören · Ab 18<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
             },
             {
+              "type": "element",
               "tag": "h1",
-              "attrs": {},
-              "html": "Das erste Audioerlebnis zu zweit – Ein Einstieg"
+              "attrs": {
+                "id": "page-title"
+              },
+              "html": "Euer erstes gemeinsames Audioerlebnis, ohne Druck."
             },
             {
+              "type": "element",
               "tag": "p",
-              "attrs": {},
-              "html": "Gemeinsam ein Audioformat entdecken: Vorbereitung, Wünsche, Pausen und der Unterschied zwischen einer kostenlosen Demo und einer persönlichen Session."
+              "attrs": {
+                "class": "article-meta"
+              },
+              "html": "Von Studio Mokuton · 24. Oktober 2026"
             },
             {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "article-intro"
+              },
+              "html": "Neugierig auf eine von einer Stimme begleitete Erfahrung? Dieser Leitfaden richtet sich an erwachsene Paare aller Geschlechter und Orientierungen und begleitet euch von der ersten Demo zur gemeinsamen Auswahl von Vorlieben."
+            },
+            {
+              "type": "container",
               "tag": "div",
               "attrs": {
-                "class": "cta-group"
+                "class": "store-controls",
+                "style": "margin-top:28px;"
               },
-              "links": [
+              "blocks": [
                 {
-                  "store": "ios",
+                  "type": "container",
+                  "tag": "div",
                   "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
+                    "class": "cta-group"
                   },
-                  "html": "Caresse kostenlos herunterladen"
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                        "id": "hero-cta",
+                        "class": "cta-pink",
+                        "data-store-auto": "",
+                        "data-cta-position": "hero",
+                        "target": "_blank",
+                        "rel": "noopener"
+                      },
+                      "html": "Jetzt herunterladen"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    }
+                  ]
                 }
               ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "article-meta",
+                "style": "margin-top:24px;"
+              },
+              "html": "Kostenlose Demos · Kein Caresse-Konto · Persönliche Sessions mit Credits, ohne Abo."
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
+          "type": "container",
+          "tag": "article",
+          "attrs": {
+            "aria-labelledby": "page-title"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "1. Die Idee teilen"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Wählt einen Moment, in dem ihr sprechen könnt, ohne sofort beginnen zu müssen. Beschreibt eine gemeinsame Neugier, statt ein Problem zu behaupten, das die andere Person lösen soll."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Erzählt, was euch anspricht: die Stimme, eine Geschichte oder die gemeinsame Auswahl einer Atmosphäre. Eine Demo macht das Format greifbar."
+            },
+            {
+              "type": "html",
+              "file": "blog-premiere-experience-audio-intime-couple.de/0118"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "2. Verstehen, was ihr hören werdet"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Caresse bietet Audiofiktion mit einer synthetischen Stimme. Eine Demo ist eine feste Aufnahme mit vorgegebenen Namen und Einstellungen. Sie zeigt das Format ohne Kauf einer persönlichen Session."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Achtet auf Stimme, Tempo und Raum für euch selbst. Eure Eindrücke können die spätere Auswahl einer Atmosphäre erleichtern."
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "3. Vorlieben vor der Generierung abstimmen"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Wählt Paarmodus, Namen oder Spitznamen und Vorlieben, die beiden entsprechen. Zustimmung muss frei und gegenseitig während des ganzen Erlebnisses bestehen und darf jederzeit zurückgenommen werden. Einstellungen ersetzen sie nicht."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Den Unterschied zur Demo erklärt <a href=\"/de/persoenliches-audio/\">wie persönliche Audios entstehen</a>. Eure Angaben fließen ein, garantieren aber weder jede Formulierung noch eine genaue Dauer."
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "html": "\n<li>Welcher Ton passt heute: ruhig, romantisch oder intensiver?</li>\n<li>Welche Vorschläge möchtet ihr ausschließen?</li>\n<li>Welche Namen oder Spitznamen möchtet ihr hören?</li>\n"
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "4. Das erste gemeinsame Hören vorbereiten"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Ein <a href=\"/de/romantischer-abend-zu-hause/\">romantischer Abend zu Hause</a> kann mit einem Gespräch und einer Demo beginnen. Ein bequemer Platz und ein Telefon mit Lautsprecher reichen, um die Stimme gemeinsam kennenzulernen."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Prüft vor einer persönlichen Generierung Einstellungen und angezeigte Kosten. Erstellt die Session mit einem Credit und wählt nach Fertigstellung eine für beide angenehme Lautstärke."
+            },
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {},
+              "html": "5. Eindrücke teilen"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Was hat euch gefallen: Stimme, Tempo, Atmosphäre oder Überraschung? Eure Eindrücke helfen, gemeinsame Vorlieben wahrzunehmen."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "Daraus kann eine nächste Session mit anderer Atmosphäre, Intensität oder gemeinsam gewählten Vorlieben entstehen."
+            }
+          ]
         },
         {
           "type": "container",
           "tag": "section",
           "attrs": {
-            "class": "localized-content"
+            "class": "faq",
+            "aria-labelledby": "faq-title"
           },
           "blocks": [
             {
-              "type": "markdown",
-              "file": "blog-premiere-experience-audio-intime-couple.de/00"
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "faq-inner"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "h2",
+                  "attrs": {
+                    "id": "faq-title"
+                  },
+                  "html": "Antworten auf eure Fragen."
+                },
+                {
+                  "type": "faq",
+                  "attrs": {
+                    "class": "faq-list"
+                  },
+                  "prefix": "",
+                  "suffix": "",
+                  "items": [
+                    {
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "attrs": {},
+                          "html": "Brauchen wir Erfahrung mit persönlichen Audios?"
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Nein. Eine kostenlose Demo zeigt Stimme, Tempo und Erzählstil, bevor ihr eine persönliche Session erstellt."
+                        }
+                      ]
+                    },
+                    {
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "attrs": {},
+                          "html": "Gilt eine Zustimmung vor dem Start für die gesamte Session?"
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Nein. Jede Aktivität benötigt während des gesamten Erlebnisses freie, gegenseitige Zustimmung. Sie darf jederzeit zurückgenommen werden, unabhängig von den Einstellungen."
+                        }
+                      ]
+                    },
+                    {
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "attrs": {},
+                          "html": "Ist die erste persönliche Session kostenlos?"
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Demos sind kostenlos. Eine Session aus euren Profilen benötigt kostenpflichtige Credits, ohne Abo."
+                        }
+                      ]
+                    },
+                    {
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "attrs": {},
+                          "html": "Brauche ich zum Kauf von Credits ein Caresse-Konto?"
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Nein. Der anonyme Modus benötigt kein Caresse-Konto. Käufe brauchen weiterhin euer Apple- oder Google-Konto mit der Zahlungsmethode des Stores."
+                        }
+                      ]
+                    },
+                    {
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "attrs": {},
+                          "html": "Welche Audiosprachen gibt es?"
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "html": "Caresse generiert Audio auf FR, EN, ES und PT. Demos sind auf FR, EN und ES verfügbar. Die PT-Oberfläche gibt es auf Android; das iOS-Update wartet auf Freigabe. Deutsche Audios sind noch nicht verfügbar."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
+          "type": "element",
+          "tag": "aside",
           "attrs": {
-            "class": "faq-list"
+            "class": "editorial-links",
+            "aria-label": "Weiterlesen",
+            "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
           },
-          "items": [
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
-                }
-              ]
-            }
-          ]
+          "html": "\n<p>Weiterlesen: <a href=\"/de/romantischer-abend-zu-hause/\" style=\"color:var(--primary-vibrant);text-underline-offset:3px;\">Ein romantischer Abend zu Hause</a>.</p>\n<p>Weiterlesen: <a href=\"/de/persoenliches-audio/\" style=\"color:var(--primary-vibrant);text-underline-offset:3px;\">Persönliche Audioerlebnisse mit euren Namen</a>.</p>\n"
         },
         {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "type": "container",
+          "tag": "section",
+          "attrs": {
+            "class": "cta-section"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "h2",
+              "attrs": {
+                "class": "section-title"
+              },
+              "html": "Zuerst die Stimme kennenlernen."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "section-sub"
+              },
+              "html": "Caresse herunterladen und kostenlose Demos ohne Caresse-Konto entdecken. Danach könnt ihr eure Vorlieben für eine persönliche Session gemeinsam wählen."
+            },
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "store-controls"
+              },
+              "blocks": [
+                {
+                  "type": "container",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "store-badges"
+                  },
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                        "class": "store-badge",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Im App Store herunterladen"
+                      },
+                      "html": "\n<img src=\"https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg\" alt=\"Im App Store herunterladen\" width=\"162\" height=\"54\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                        "class": "store-badge gplay",
+                        "data-cta-position": "inline",
+                        "target": "_blank",
+                        "rel": "noopener",
+                        "aria-label": "Bei Google Play herunterladen"
+                      },
+                      "html": "\n<img src=\"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png\" alt=\"Bei Google Play herunterladen\" width=\"207\" height=\"80\">\n"
+                    },
+                    {
+                      "type": "text",
+                      "html": "\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice",
+                "style": "max-width:760px;margin:24px auto 0;"
+              },
+              "html": "Preise für Credits und Optionen werden vor dem Kauf in der Währung eures Stores angezeigt."
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "age-notice"
+              },
+              "html": "Für Erwachsene ab 18 Jahren"
+            }
+          ]
         }
       ]
+    },
+    {
+      "type": "text",
+      "html": "\n"
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer-78b491e24d481783.de",
+        "footer-0bfaec3afdc90069.de",
+        "footer-8bdd2932f00085ec.de",
+        "footer-b7998d652f849e41.de",
+        "footer.en.copy.de"
+      ]
+    },
+    {
+      "type": "text",
+      "html": "\n</body>\n</html>\n"
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
-  ],
-  "footerAttrs": {},
-  "scripts": []
+  "translationSource": "blog-premiere-experience-audio-intime-couple.en"
 }

@@ -3,16 +3,14 @@
   "family": "couples",
   "locale": "de",
   "path": "/de/fuer-paare/",
-  "kind": "page",
-  "sitemap": true,
   "htmlAttrs": {
     "lang": "de",
     "data-analytics-variant": "anonymous-feature-v1-seo-consistency-oct23-v1-seo-consistency-oct31-v1-game-context-oct31-v1"
   },
   "bodyAttrs": {
-    "class": "lang-de"
+    "class": "lang-en lang-de"
   },
-  "title": "Caresse für Paare – Gemeinsam Nähe neu entdecken",
+  "title": "Caresse für Paare – Nähe mit einer persönlichen Audioerfahrung entdecken",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +21,31 @@
     },
     {
       "name": "description",
-      "content": "Nehmt euch Zeit zu zweit: Persönliche Audioerlebnisse begleiten euch mit einer Stimme. Wünsche gemeinsam wählen, kostenlos hineinhören, ohne Abo."
+      "content": "Persönliche KI-Audioerlebnisse für Paare: gemeinsam langsamer werden, neue Empfindungen entdecken und Rituale gestalten. Auf iOS und Android."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/fuer-paare/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +53,43 @@
     },
     {
       "property": "og:title",
-      "content": "Caresse für Paare – Gemeinsam Nähe neu entdecken"
+      "content": "Caresse für Paare – Gemeinsam Nähe entdecken"
     },
     {
       "property": "og:description",
-      "content": "Nehmt euch Zeit zu zweit: Persönliche Audioerlebnisse begleiten euch mit einer Stimme. Wünsche gemeinsam wählen, kostenlos hineinhören, ohne Abo."
+      "content": "Eine persönliche KI-Audioerfahrung für Paare. Gemeinsam langsamer werden, entdecken und Nähe erleben."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/fuer-paare/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse für Paare – Persönliche KI-Audioerlebnisse"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
     },
     {
       "name": "twitter:card",
@@ -71,27 +97,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Caresse für Paare – Gemeinsam Nähe neu entdecken"
+      "content": "Caresse für Paare – Gemeinsam Nähe entdecken"
     },
     {
       "name": "twitter:description",
-      "content": "Nehmt euch Zeit zu zweit: Persönliche Audioerlebnisse begleiten euch mit einer Stimme. Wünsche gemeinsam wählen, kostenlos hineinhören, ohne Abo."
+      "content": "Persönliche Audioerlebnisse für Paare. Gemeinsam langsamer werden."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse für Paare – Persönliche KI-Audioerlebnisse"
     }
   ],
   "links": [
@@ -122,184 +140,392 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/fuer-paare/#webpage",
-      "url": "https://caresse.app/de/fuer-paare/",
-      "name": "Caresse für Paare – Gemeinsam Nähe neu entdecken",
-      "description": "Nehmt euch Zeit zu zweit: Persönliche Audioerlebnisse begleiten euch mit einer Stimme. Wünsche gemeinsam wählen, kostenlos hineinhören, ohne Abo.",
-      "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      }
-    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": {
         "block": "faq"
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse für Paare",
+      "description": "Persönliche KI-Audioerlebnisse für Paare: gemeinsam langsamer werden, entdecken und Rituale gestalten.",
+      "url": "https://caresse.app/de/fuer-paare/",
+      "inLanguage": "de",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "sameAs": [
+          "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ]
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://caresse.app/screens/en/05_android_en.webp"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Für Paare",
+            "item": "https://caresse.app/de/fuer-paare/"
+          }
+        ]
+      }
     }
   ],
   "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
+    "couples-bc626485.css"
   ],
   "headScripts": [
     "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
     "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
+    "<script src=\"/mobile-store-cta.js\" defer></script>"
   ],
   "blocks": [
     {
-      "type": "container",
-      "tag": "main",
+      "type": "html",
+      "file": "couples.de/00"
+    },
+    {
+      "type": "intro",
       "attrs": {
-        "id": "main-content"
+        "class": "hero",
+        "style": "min-height:auto; padding-top:60px;"
       },
-      "blocks": [
+      "children": [
         {
-          "type": "intro",
+          "tag": "p",
           "attrs": {
-            "class": "hero localized-hero"
+            "class": "hero-eyebrow"
+          },
+          "html": "🔥 · Paare · Geführte Audios · KI"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "Gemeinsam langsamer werden.<br><em>Nähe erleben.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "Caresse bietet persönliche KI-Audioerlebnisse für Paare, die gemeinsam langsamer werden, neue Empfindungen entdecken und eigene Rituale gestalten möchten."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "links": [
+            {
+              "store": "ios",
+              "attrs": {
+                "id": "hero-cta",
+                "class": "cta-pink",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "\n                \n                <span class=\"inline\">Kostenlos herunterladen</span>\n            "
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "Anonymer Modus · Kein Caresse-Konto · Kostenlose Demos<br>Persönliche Sessions kostenpflichtig, ohne Abo.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "file": "couples.de/01"
+    },
+    {
+      "type": "cards",
+      "prefix": "<section class=\"benefits\">\n        \n        <p class=\"section-label\">Warum Caresse?</p>\n        \n        <h2 class=\"section-title\">Ein Ritual für zwei.</h2>\n        \n        <p class=\"section-sub\">Die Stimme bietet einen Rahmen. Ihr nehmt euch Zeit füreinander.</p>\n\n        ",
+      "suffix": "\n    </section>",
+      "attrs": {
+        "class": "benefits-grid"
+      },
+      "items": [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "benefit-card"
+          },
+          "html": "\n                <div class=\"icon\">💬</div>\n                \n                <h3>Anders miteinander kommunizieren</h3>\n                \n                <p>Die Stimme begleitet beide und bietet einen gemeinsamen Ablauf, ohne dass eine Person alles organisieren muss. Daraus kann ein Gespräch entstehen.</p>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "benefit-card"
+          },
+          "html": "\n                <div class=\"icon\">✨</div>\n                \n                <h3>Aus der Routine treten</h3>\n                \n                <p>Jede Session wird aus euren aktuellen Wünschen generiert. So können auch vertraute Einstellungen neue Anregungen ergeben.</p>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "benefit-card"
+          },
+          "html": "\n                <div class=\"icon\">🎯</div>\n                \n                <h3>Für euch beide personalisiert</h3>\n                \n                <p>Atmosphäre, Ton, Dynamik und Vorlieben wählt ihr gemeinsam. Caresse richtet sich nach euren Einstellungen.</p>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "benefit-card"
+          },
+          "html": "\n                <div class=\"icon\">🔒</div>\n                \n                <h3>Privat und diskret</h3>\n                \n                <p>Keine expliziten Bilder. Persönliche Erfahrungen werden nicht öffentlich geteilt. Notwendige Einstellungen werden gemäß Datenschutzerklärung verarbeitet; ein Spitzname genügt.</p>\n            "
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "file": "couples.de/02"
+    },
+    {
+      "type": "cards",
+      "prefix": "<section class=\"how\">\n        \n        <p class=\"section-label\">So funktioniert’s</p>\n        \n        <h2 class=\"section-title\">Ein gemeinsames Erlebnis in vier Schritten</h2>\n\n        ",
+      "suffix": "\n        <p class=\"compare-note\" style=\"margin-top:32px;\">Möchtet ihr die Stimme vor dem Download kennenlernen? <a href=\"/de/demo/romantischer-abend/\">Eine Paar-Hörprobe von Caresse anhören</a> – vier Minuten auf Englisch mit James und Emma, gesprochenen Namen und wechselnder Begleitung, ohne Konto oder E-Mail.</p>\n        <p class=\"compare-note\" style=\"margin-top:24px;\">Die Begleitung kann auch als <a href=\"/de/paarspiel/\">Audiospiel für Paare</a> erlebt werden: Vorlieben und Grenzen wählen, dann zuhören, ohne währenddessen Karten lesen zu müssen.</p>\n    </section>",
+      "attrs": {
+        "class": "steps-grid"
+      },
+      "items": [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "step-item"
+          },
+          "html": "\n                <div class=\"num\">01</div>\n                \n                <h3>Paarmodus wählen</h3>\n                \n                <p>Wählt den Paarmodus und richtet eure Profile ein. Ein Spitzname genügt; eure echte Identität ist nicht erforderlich.</p>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "step-item"
+          },
+          "html": "\n                <div class=\"num\">02</div>\n                \n                <h3>Gemeinsam konfigurieren</h3>\n                \n                <p>Wählt Atmosphäre, Intensität und Dynamik gemeinsam. Schon die Vorbereitung kann ein Anlass zum Austausch sein.</p>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "step-item"
+          },
+          "html": "\n                <div class=\"num\">03</div>\n                \n                <h3>Bequem machen</h3>\n                \n                <p>Caresse generiert eure Session und benachrichtigt euch, sobald sie bereitsteht.</p>\n            "
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "step-item"
+          },
+          "html": "\n                <div class=\"num\">04</div>\n                \n                <h3>Der Stimme zuhören</h3>\n                \n                <p>Wenn ihr möchtet, schließt die Augen. Die Stimme begleitet euch beide ohne Leistungsdruck. Jeder Vorschlag bleibt freiwillig.</p>\n            "
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "file": "couples.de/03"
+    },
+    {
+      "type": "faq",
+      "prefix": "<section class=\"faq\">\n        \n        <p class=\"section-label\">Häufige Fragen</p>\n        \n        <h2 class=\"section-title\">Was ihr wissen möchtet</h2>\n\n        ",
+      "suffix": "\n    </section>",
+      "attrs": {
+        "class": "faq-list"
+      },
+      "items": [
+        {
+          "attrs": {
+            "class": "faq-item"
           },
           "children": [
             {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "h1",
+              "tag": "h3",
               "attrs": {},
-              "html": "Caresse für Paare – Gemeinsam Nähe neu entdecken"
+              "html": "Kann ich im anonymen Modus Sessions kaufen?"
             },
             {
               "tag": "p",
               "attrs": {},
-              "html": "Nehmt euch Zeit zu zweit: Persönliche Audioerlebnisse begleiten euch mit einer Stimme. Wünsche gemeinsam wählen, kostenlos hineinhören, ohne Abo."
-            },
-            {
-              "tag": "div",
-              "attrs": {
-                "class": "cta-group"
-              },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
+              "html": "Ja. Du kannst Caresse ohne eigenes Caresse-Konto nutzen und Sessions kaufen. Käufe laufen über den App Store oder Google Play und benötigen dort ein Apple- oder Google-Konto mit Zahlungsmethode. Der anonyme Modus gilt gegenüber Caresse, nicht gegenüber dem Store."
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
-        },
-        {
-          "type": "container",
-          "tag": "section",
           "attrs": {
-            "class": "localized-content"
+            "class": "faq-item"
           },
-          "blocks": [
+          "children": [
             {
-              "type": "markdown",
-              "file": "couples.de/00"
+              "tag": "h3",
+              "attrs": {},
+              "html": "Wie hören wir Caresse gemeinsam im selben Raum?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Caresse ist für gemeinsames Erleben im selben Raum gedacht. Nutzt den Lautsprecher oder einen Bluetooth-Lautsprecher, damit beide die Stimme hören."
             }
           ]
         },
         {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
           "attrs": {
-            "class": "faq-list"
+            "class": "faq-item"
           },
-          "items": [
+          "children": [
             {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
+              "tag": "h3",
+              "attrs": {},
+              "html": "Sind die Inhalte explizit?"
             },
             {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
-                }
-              ]
+              "tag": "p",
+              "attrs": {},
+              "html": "Caresse bietet unterschiedliche Intensitäten von romantisch bis direkter. Ihr wählt, was euch entspricht. Es gibt keine expliziten Bilder; die Erfahrung beruht auf Audio und Vorstellungskraft."
             }
           ]
         },
         {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Werden unsere Daten und Vorlieben geteilt?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Eure Erfahrungen sind nicht öffentlich oder für andere Nutzer sichtbar. Für die Generierung werden notwendige Einstellungen pseudonymisiert an KI- und Sprachdienste übermittelt. Einzelheiten stehen in der Datenschutzerklärung. Ein Spitzname genügt."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Kann Caresse langjährigen Paaren neue Anregungen geben?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Die persönliche Generierung kann überraschen und Ideen anbieten, die euch selbst nicht eingefallen wären. Eine Wirkung auf eure Beziehung ist nicht garantiert; Abstimmung und Einvernehmlichkeit bleiben eure Entscheidung."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Brauchen wir zwei Telefone?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Ihr könnt gemeinsam im selben Raum über einen Lautsprecher hören. Caresse ist auf iOS und Android verfügbar. Wählt eure Einstellungen gemeinsam und stimmt euch über die Wiedergabe ab."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Was, wenn eine Person schüchtern ist oder sich unwohl fühlt?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Wählt einen passenden, sanften Einstieg und besprecht eure Grenzen vor dem Start. Ihr dürft jederzeit pausieren, Vorschläge auslassen oder aufhören, auch wenn eine Einstellung vorher ausgewählt wurde."
+            }
+          ]
         }
       ]
+    },
+    {
+      "type": "html",
+      "file": "couples.de/04"
     }
   ],
-  "header": "header.de",
   "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
+    "footer.en.logo.de",
+    "footer.en.navigation.couples.de",
+    "footer.en.links.couples.de",
+    "footer.en.social.de",
+    "footer.en.copy.couples.de"
   ],
+  "scripts": [
+    "<script>\n        (function () {\n            if (/Android/i.test(navigator.userAgent)) {\n                var cta = document.getElementById('hero-cta');\n                if (cta) cta.href = \"https://play.google.com/store/apps/details?id=studio.mokuton.caresse\";\n            }\n        })();\n    </script>"
+  ],
+  "header": "header.en.couples.de",
   "footerAttrs": {},
-  "scripts": []
+  "translationSource": "couples.en"
 }

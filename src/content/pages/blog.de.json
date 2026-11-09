@@ -4,15 +4,15 @@
   "locale": "de",
   "path": "/de/blog/",
   "kind": "page",
+  "layout": "composed",
   "sitemap": true,
   "htmlAttrs": {
-    "lang": "de",
-    "data-analytics-variant": "blog-v1"
+    "lang": "de"
   },
   "bodyAttrs": {
     "class": "lang-de"
   },
-  "title": "Caresse Blog – Beziehung, Nähe und persönliche Audioerlebnisse",
+  "title": "Caresse-Blog – Beziehung, Nähe, Entdeckung und Entwicklung",
   "meta": [
     {
       "charset": "UTF-8"
@@ -23,19 +23,31 @@
     },
     {
       "name": "description",
-      "content": "Ideen für gemeinsame Zeit, Solo-Entdeckung und Gespräche über Wünsche. Dazu Einblicke in KI-Audio, Datenschutz und die Grenzen von Barrierefreiheit."
+      "content": "Artikel über Beziehungen, Kommunikation und Solozeit sowie Einblicke in die Entwicklung von Caresse mit .NET 10 und einer KI-Pipeline."
     },
     {
       "name": "robots",
       "content": "index, follow"
     },
     {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
       "name": "theme-color",
       "content": "#5D3D8C"
     },
     {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
       "property": "og:type",
       "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/de/blog/"
     },
     {
       "property": "og:site_name",
@@ -43,27 +55,39 @@
     },
     {
       "property": "og:title",
-      "content": "Caresse Blog – Beziehung, Nähe und persönliche Audioerlebnisse"
+      "content": "Caresse-Blog – Beziehung, Nähe und Entdeckung"
     },
     {
       "property": "og:description",
-      "content": "Ideen für gemeinsame Zeit, Solo-Entdeckung und Gespräche über Wünsche. Dazu Einblicke in KI-Audio, Datenschutz und die Grenzen von Barrierefreiheit."
+      "content": "Artikel über Beziehungen, Kommunikation und Solozeit sowie Einblicke in die Entwicklung von Caresse."
     },
     {
-      "property": "og:url",
-      "content": "https://caresse.app/de/blog/"
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse-Blog: Beziehung, Nähe und Entdeckung"
     },
     {
       "property": "og:locale",
       "content": "de_DE"
     },
     {
-      "property": "og:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
     },
     {
-      "property": "og:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
     },
     {
       "name": "twitter:card",
@@ -71,27 +95,19 @@
     },
     {
       "name": "twitter:title",
-      "content": "Caresse Blog – Beziehung, Nähe und persönliche Audioerlebnisse"
+      "content": "Caresse-Blog – Beziehung, Nähe und Entdeckung"
     },
     {
       "name": "twitter:description",
-      "content": "Ideen für gemeinsame Zeit, Solo-Entdeckung und Gespräche über Wünsche. Dazu Einblicke in KI-Audio, Datenschutz und die Grenzen von Barrierefreiheit."
+      "content": "Artikel über Beziehungen, Kommunikation und Solozeit."
     },
     {
       "name": "twitter:image",
-      "content": "https://caresse.app/seasonal/evening-ambience.jpg"
+      "content": "https://caresse.app/og-image-en.png"
     },
     {
       "name": "twitter:image:alt",
-      "content": "Ruhige Atmosphäre mit Kerze und violetten Stoffen"
-    },
-    {
-      "property": "og:image:width",
-      "content": "1536"
-    },
-    {
-      "property": "og:image:height",
-      "content": "1024"
+      "content": "Caresse-Blog: Beziehung, Nähe und Entdeckung"
     }
   ],
   "links": [
@@ -122,184 +138,631 @@
       "type": "application/xml",
       "title": "Sitemap",
       "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://medium.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://miro.medium.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
     }
   ],
   "schemas": [
     {
       "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://caresse.app/de/blog/#webpage",
+      "@type": "Blog",
+      "name": "Caresse-Blog",
+      "description": "Artikel über Beziehung, Kommunikation und Solozeit sowie technische Hintergründe der App.",
       "url": "https://caresse.app/de/blog/",
-      "name": "Caresse Blog – Beziehung, Nähe und persönliche Audioerlebnisse",
-      "description": "Ideen für gemeinsame Zeit, Solo-Entdeckung und Gespräche über Wünsche. Dazu Einblicke in KI-Audio, Datenschutz und die Grenzen von Barrierefreiheit.",
       "inLanguage": "de",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Caresse",
-        "url": "https://caresse.app/"
-      }
+      "publisher": {
+        "@type": "Organization",
+        "name": "Studio Mokuton",
+        "url": "https://mokuton.studio/"
+      },
+      "blogPost": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Euer erstes gemeinsames Audioerlebnis, ohne Druck.",
+          "description": "Audio gemeinsam vorschlagen, Vorlieben abstimmen und ohne Druck ausprobieren. Ein Leitfaden von kostenlosen Demos zur persönlichen Session.",
+          "url": "https://caresse.app/de/blog/erstes-audioerlebnis-zu-zweit/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-10-24",
+          "inLanguage": "de",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Intimität und Sehbehinderung: Was Audio verändert",
+          "description": "Warum viele digitale Angebote das Sehen voraussetzen, was ein Audioformat verändert und wie sich Audioinhalte von einer zugänglichen Oberfläche unterscheiden.",
+          "url": "https://caresse.app/de/blog/intimitaet-und-sehbehinderung/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-08-20",
+          "inLanguage": "de",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "KI, Audio und Nähe 2026: Jahresüberblick",
+          "description": "Forschungsüberblick zu KI, Audio und Nähe: Verbreitung generativer KI, Hörgewohnheiten, Personalisierung, Datenschutz und Dating-App-Müdigkeit.",
+          "url": "https://caresse.app/de/blog/ki-audio-und-naehe-2026/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-08-07",
+          "inLanguage": "de",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Nähe in einer langen Beziehung neu entdecken",
+          "description": "Routine muss nicht alles bestimmen. Sieben konkrete Ideen für gemeinsame Neugier ohne Druck und Wunderversprechen.",
+          "url": "https://caresse.app/de/blog/naehe-neu-entdecken/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-07-20",
+          "inLanguage": "de",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Über Wünsche und Fantasien sprechen – Ohne Druck",
+          "description": "Ein respektvoller Gesprächseinstieg für Paare, die eigene Wünsche und Vorstellungen teilen möchten, mit fünf konkreten Schritten.",
+          "url": "https://caresse.app/de/blog/ueber-wuensche-sprechen/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-07-27",
+          "inLanguage": "de",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Solozeit ohne Schuldgefühl – Raum für dich",
+          "description": "Zeit für dich ist nicht automatisch egoistisch. Gedanken über Schuldgefühle und den eigenen privaten Raum.",
+          "url": "https://caresse.app/de/blog/solozeit-ohne-schuldgefuehl/",
+          "image": "https://caresse.app/og-image-en.png",
+          "datePublished": "2026-08-03",
+          "inLanguage": "de",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Caresse entwickeln #1: Hexagonale Architektur für mehrere KI-Anbieter",
+          "description": "Ports, Adapter und eine Anbieterregistrierung in .NET 10 erlauben den Wechsel zwischen LLM- und Sprachdiensten, ohne die Domäne zu ändern.",
+          "url": "https://medium.com/@odinnou/building-caresse-1-hexagonal-architecture-for-a-multi-provider-ai-pipeline-f0c1ca4ee471",
+          "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*7ytom68t1spMTMSCI76MFg.png",
+          "inLanguage": "de",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Caresse entwickeln #2: Eine mehrstufige LLM-Pipeline orchestrieren",
+          "description": "Eine Eingabe, acht aufeinanderfolgende Schritte, unterschiedliche Modelle und eine Selbstprüfung vor der Sprachausgabe.",
+          "url": "https://medium.com/@odinnou/building-caresse-2-orchestrating-a-multi-phase-llm-pipeline-66f4a29ad236",
+          "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*hr24axQNj_VLDsxjmrdr3Q.png",
+          "inLanguage": "de",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Caresse entwickeln #3: Integrationstests einer .NET-API ohne Produktionszugriff",
+          "description": "Testcontainers für PostgreSQL, Azurite für Blob Storage, ein Authentifizierungshandler statt Firebase und WireMock.Net für Käufe, Sprach- und KI-Dienste.",
+          "url": "https://medium.com/@odinnou/building-caresse-3-integration-testing-a-net-api-without-touching-production-1999f2ac35a8",
+          "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*ZiI6Ybzru6qGv8UVaeJVQQ.png",
+          "inLanguage": "de",
+          "author": {
+            "@type": "Organization",
+            "name": "Studio Mokuton"
+          }
+        }
+      ]
     },
     {
       "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": {
-        "block": "faq"
-      }
-    }
-  ],
-  "styles": [
-    "couples-bc626485.css",
-    "localized-content.css"
-  ],
-  "headScripts": [
-    "<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"4a1be662-e78b-4d4e-8a5d-c5791756a46a\" data-domains=\"caresse.app\"></script>",
-    "<script defer src=\"/umami-store-tracking.js\"></script>",
-    "<script defer src=\"/mobile-store-cta.js\"></script>"
-  ],
-  "blocks": [
-    {
-      "type": "container",
-      "tag": "main",
-      "attrs": {
-        "id": "main-content"
-      },
-      "blocks": [
+      "@type": "BreadcrumbList",
+      "itemListElement": [
         {
-          "type": "intro",
-          "attrs": {
-            "class": "hero localized-hero"
-          },
-          "children": [
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-eyebrow"
-              },
-              "html": "Caresse · Ab 18 · Persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "h1",
-              "attrs": {},
-              "html": "Caresse Blog – Beziehung, Nähe und persönliche Audioerlebnisse"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Ideen für gemeinsame Zeit, Solo-Entdeckung und Gespräche über Wünsche. Dazu Einblicke in KI-Audio, Datenschutz und die Grenzen von Barrierefreiheit."
-            },
-            {
-              "tag": "div",
-              "attrs": {
-                "class": "cta-group"
-              },
-              "links": [
-                {
-                  "store": "ios",
-                  "attrs": {
-                    "id": "hero-cta",
-                    "class": "cta-pink",
-                    "data-store-auto": true,
-                    "data-cta-position": "hero",
-                    "target": "_blank",
-                    "rel": "noopener"
-                  },
-                  "html": "Caresse kostenlos herunterladen"
-                }
-              ]
-            }
-          ]
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Caresse",
+          "item": "https://caresse.app/de/"
         },
         {
-          "type": "html",
-          "file": "shared.de/languages"
-        },
-        {
-          "type": "container",
-          "tag": "section",
-          "attrs": {
-            "class": "localized-content"
-          },
-          "blocks": [
-            {
-              "type": "markdown",
-              "file": "blog.de/00"
-            }
-          ]
-        },
-        {
-          "type": "faq",
-          "prefix": "<section class=\"faq\"><h2 class=\"section-title\">Häufige Fragen</h2>",
-          "suffix": "</section>",
-          "attrs": {
-            "class": "faq-list"
-          },
-          "items": [
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Gibt es deutsche Audios in der App?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Noch nicht. Die deutsche Website stellt das Angebot vor. Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; laut aktuellem Website-Stand wartet das iOS-Update auf Freigabe. Website-Hörproben gibt es auf Englisch, Französisch und Spanisch."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Was ist kostenlos, was ist kostenpflichtig?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Download und vorab erstellte Demos sind kostenlos. Eine persönliche Session wird mit kostenpflichtigen Credits generiert, ohne Abo. Eine optionale einmalige Freischaltung erweitert Einstellungen und enthält keine unbegrenzten Generierungen. Maßgeblich sind die Preise, die vor dem Kauf in deiner App angezeigt werden."
-                }
-              ]
-            },
-            {
-              "attrs": {
-                "class": "faq-item"
-              },
-              "children": [
-                {
-                  "tag": "h3",
-                  "attrs": {},
-                  "html": "Kann ich den anonymen Modus auch für Käufe nutzen?"
-                },
-                {
-                  "tag": "p",
-                  "attrs": {},
-                  "html": "Du brauchst kein Caresse-Konto mit E-Mail-Adresse. Käufe werden aber über den App Store oder Google Play abgewickelt und benötigen dort ein Apple- oder Google-Konto sowie eine Zahlungsmethode. Der anonyme Modus gegenüber Caresse macht die Zahlung beim Store nicht anonym."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "html",
-          "file": "shared.de/store-cta"
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://caresse.app/de/blog/"
         }
       ]
     }
   ],
-  "header": "header.de",
-  "footer": [
-    "footer.de.navigation",
-    "footer.de.legal",
-    "footer.de.copy"
+  "styles": [
+    "shared-ffee72c26d6f4980.css"
   ],
-  "footerAttrs": {},
-  "scripts": []
+  "styleAttrs": {
+    "shared-ffee72c26d6f4980.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-ffee72c26d6f4980.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/mobile-store-cta.js"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-d850020f28f81f74.de"
+    },
+    {
+      "type": "container",
+      "tag": "div",
+      "attrs": {
+        "class": "breadcrumb",
+        "style": "padding-top:90px;"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "html": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attrs": {
+            "href": "/de/"
+          },
+          "html": "Caresse"
+        },
+        {
+          "type": "text",
+          "html": " › Blog\n    "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "blog-hero"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "eyebrow"
+          },
+          "html": "Der Caresse-Blog<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        },
+        {
+          "type": "element",
+          "tag": "h1",
+          "attrs": {},
+          "html": "Beziehung, Nähe und Entdeckung."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "html": "Anregungen für Gespräche, gemeinsame Zeit und eigene Bedürfnisse. Weiter unten findet ihr technische Einblicke in die Entwicklung von Caresse."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "style": "display:flex;justify-content:center;margin-top:24px;"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "id": "hero-cta",
+                "class": "cta-pink",
+                "data-store-auto": "",
+                "data-cta-position": "hero",
+                "target": "_blank",
+                "rel": "noopener"
+              },
+              "html": "Kostenlos herunterladen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "posts"
+      },
+      "blocks": [
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "posts-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/blog/erstes-audioerlebnis-zu-zweit/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-soft);display:flex;align-items:center;justify-content:center;\"><span style=\"font-size:3rem;\" aria-hidden=\"true\">🎧</span></div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\"><span>Von Studio Mokuton · 24. Oktober 2026</span></div>\n                    <h2>Euer erstes gemeinsames Audioerlebnis, ohne Druck.</h2>\n                    <p>Audio gemeinsam vorschlagen, Vorlieben abstimmen und ohne Druck ausprobieren. Ein Leitfaden von kostenlosen Demos zur persönlichen Session.</p>\n                    <span class=\"post-cta\">Leitfaden lesen</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/blog/intimitaet-und-sehbehinderung/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-pink);display:flex;align-items:center;justify-content:center;\">\n                    <span style=\"font-size:3rem;\">🎧</span>\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>Barrierefreiheit · acht Minuten Lesezeit</span>\n                    </div>\n                    <h2>Intimität und Sehbehinderung: Was Audio verändert</h2>\n                    <p>Warum viele Angebote Sehen voraussetzen, was Audio verändert und wie sich Inhalte von einer zugänglichen Oberfläche unterscheiden.</p>\n                    <span class=\"post-cta\">Artikel lesen</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/blog/ki-audio-und-naehe-2026/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-primary);display:flex;align-items:center;justify-content:center;\">\n                    <span style=\"font-size:3rem;\">📊</span>\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>Jahresüberblick · elf Minuten Lesezeit</span>\n                    </div>\n                    <h2>KI, Audio und Nähe 2026</h2>\n                    <p>Öffentliche Forschung zu KI, Audio, Personalisierung und Datenschutz, unter anderem von Pew, Cisco und McKinsey. Quellen und Grenzen sind angegeben.</p>\n                    <span class=\"post-cta\">Bericht lesen</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/blog/naehe-neu-entdecken/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-primary);display:flex;align-items:center;justify-content:center;\">\n                    <span style=\"font-size:3rem;\">🕰️</span>\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>Beziehung · acht Minuten Lesezeit</span>\n                    </div>\n                    <h2>Nähe in einer langen Beziehung neu entdecken</h2>\n                    <p>Sieben konkrete Ideen für gemeinsame Neugier ohne Druck oder Wunderversprechen.</p>\n                    <span class=\"post-cta\">Artikel lesen</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/blog/ueber-wuensche-sprechen/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-pink);display:flex;align-items:center;justify-content:center;\">\n                    <span style=\"font-size:3rem;\">💬</span>\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>Kommunikation · sieben Minuten Lesezeit</span>\n                    </div>\n                    <h2>Über Wünsche sprechen, ohne Druck aufzubauen</h2>\n                    <p>Ein Gesprächseinstieg für Wünsche und Vorstellungen mit Respekt vor den Grenzen beider Personen.</p>\n                    <span class=\"post-cta\">Artikel lesen</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/blog/solozeit-ohne-schuldgefuehl/",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\" style=\"background:var(--grad-soft);display:flex;align-items:center;justify-content:center;\">\n                    <span style=\"font-size:3rem;\">🌙</span>\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>Solo · sechs Minuten Lesezeit</span>\n                    </div>\n                    <h2>Solozeit ohne Schuldgefühl</h2>\n                    <p>Zeit allein braucht keine ständige Rechtfertigung. Gedanken über Erwartungen und den eigenen Raum.</p>\n                    <span class=\"post-cta\">Artikel lesen</span>\n                </div>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "posts",
+        "style": "padding-top:0;"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label",
+            "style": "font-size:0.8rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--primary-vibrant);margin-bottom:12px;"
+          },
+          "html": "Caresse entwickeln"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "style": "font-size:1.6rem;font-weight:800;margin-bottom:32px;"
+          },
+          "html": "Technische Einblicke."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "posts-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "https://medium.com/@odinnou/building-caresse-1-hexagonal-architecture-for-a-multi-provider-ai-pipeline-f0c1ca4ee471",
+                "target": "_blank",
+                "rel": "noopener",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\">\n                    <img src=\"https://miro.medium.com/v2/resize:fit:4800/format:webp/1*7ytom68t1spMTMSCI76MFg.png\" alt=\"Caresse entwickeln #1 – Hexagonale Architektur\" loading=\"lazy\">\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>#1 · neun Minuten Lesezeit</span>\n                        <span class=\"dot\"></span>\n                        <span class=\"lang-tag\">Medium</span>\n                    </div>\n                    <h2>Hexagonale Architektur für eine KI-Pipeline mit mehreren Anbietern</h2>\n                    <p>Ports, Adapter und eine Anbieterregistrierung in .NET 10 erlauben den Wechsel zwischen LLM- und Sprachdiensten, ohne die Domäne zu ändern.</p>\n                    <span class=\"post-cta\">Auf Medium lesen</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "https://medium.com/@odinnou/building-caresse-2-orchestrating-a-multi-phase-llm-pipeline-66f4a29ad236",
+                "target": "_blank",
+                "rel": "noopener",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\">\n                    <img src=\"https://miro.medium.com/v2/resize:fit:4800/format:webp/1*hr24axQNj_VLDsxjmrdr3Q.png\" alt=\"Caresse entwickeln #2 – Eine mehrstufige LLM-Pipeline orchestrieren\" loading=\"lazy\">\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>#2 · neun Minuten Lesezeit</span>\n                        <span class=\"dot\"></span>\n                        <span class=\"lang-tag\">Medium</span>\n                    </div>\n                    <h2>Eine mehrstufige LLM-Pipeline orchestrieren</h2>\n                    <p>Eine Eingabe, acht aufeinanderfolgende Schritte, unterschiedliche Modelle und eine Selbstprüfung vor der Sprachausgabe.</p>\n                    <span class=\"post-cta\">Auf Medium lesen</span>\n                </div>\n            "
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "https://medium.com/@odinnou/building-caresse-3-integration-testing-a-net-api-without-touching-production-1999f2ac35a8",
+                "target": "_blank",
+                "rel": "noopener",
+                "class": "post-card"
+              },
+              "html": "\n                <div class=\"post-card-img\">\n                    <img src=\"https://miro.medium.com/v2/resize:fit:4800/format:webp/1*ZiI6Ybzru6qGv8UVaeJVQQ.png\" alt=\"Caresse entwickeln #3 – Integrationstests einer .NET-API\" loading=\"lazy\">\n                </div>\n                <div class=\"post-card-body\">\n                    <div class=\"post-meta\">\n                        <span>#3 · zwölf Minuten Lesezeit</span>\n                        <span class=\"dot\"></span>\n                        <span class=\"lang-tag\">Medium</span>\n                    </div>\n                    <h2>Integrationstests einer .NET-API ohne Produktionszugriff</h2>\n                    <p>Testcontainers für PostgreSQL, Azurite für Azure Blob, eigene Authentifizierung statt Firebase und WireMock.Net für RevenueCat, KI und Sprachausgabe – gemeinsam in einer xUnit-Suite für die CI, ohne externe Dienste aufzurufen.</p>\n                    <span class=\"post-cta\">Auf Medium lesen</span>\n                </div>\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo.de",
+        "footer-12af3034ecb3e22a.de",
+        "footer-e76140d1daf71ad9.de",
+        "footer-c18220e05a34e590.de",
+        "footer.en.copy.couples.de"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ],
+  "translationSource": "blog.en"
 }
