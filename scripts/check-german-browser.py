@@ -5,6 +5,7 @@ import http.server
 import json
 import os
 from pathlib import Path
+from urllib.parse import urlparse, parse_qs
 import shutil
 import threading
 
@@ -107,6 +108,41 @@ def check_home_interactions(tab, base):
     assert video.get_attribute("title")
 
 
+def check_german_iphone_store(browser, base, intercept):
+    context = browser.new_context(
+        viewport={"width": 390, "height": 844}, is_mobile=True, has_touch=True,
+        user_agent="Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148 Safari/604.1",
+    )
+    context.route("**/*", intercept)
+    tab = context.new_page()
+
+    def assert_german_store(target):
+        url = urlparse(target)
+        assert url.netloc == "apps.apple.com" and url.path.startswith("/de/app/"), target
+        assert parse_qs(url.query).get("l") == ["de-DE"], target
+
+    for path in ["/de/", "/de/fuer-paare/", "/de/demo/"]:
+        tab.goto(base + path, wait_until="networkidle")
+        links = tab.locator('a[href*="apps.apple.com/"][href*="/id6758887086"]')
+        assert links.count(), path
+        for link in links.all():
+            assert_german_store(link.get_attribute("href"))
+
+    tab.goto(base + "/de/fuer-paare/", wait_until="networkidle")
+    with context.expect_page() as opened:
+        tab.locator("#hero-cta").click()
+    popup = opened.value
+    popup.wait_for_url("https://apps.apple.com/de/app/**")
+    assert_german_store(popup.url)
+    popup.close()
+    tab.evaluate("scrollTo(0, document.body.scrollHeight / 2)")
+    tab.wait_for_timeout(400)
+    assert_german_store(tab.locator(".mobile-store-cta a").get_attribute("href"))
+    tab.goto(base + "/de/download/", wait_until="networkidle")
+    assert_german_store(tab.url)
+    context.close()
+
+
 def main():
     ARTIFACTS.mkdir(parents=True, exist_ok=True)
     pages = sorted(
@@ -173,6 +209,7 @@ def main():
                     assert sticky.count() == 1
                     assert sticky.get_attribute("href").startswith("https://play.google.com/")
                 context.close()
+            check_german_iphone_store(browser, base, intercept)
             browser.close()
     finally:
         server.shutdown()

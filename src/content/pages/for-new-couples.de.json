@@ -195,7 +195,7 @@
           "availability": "https://schema.org/InStock"
         },
         "sameAs": [
-          "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+          "https://apps.apple.com/de/app/caresse/id6758887086?l=de-DE",
           "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
           "https://x.com/app_caresse",
           "https://www.instagram.com/caresse.app",
@@ -531,7 +531,7 @@
           "attrs": {
             "class": "cta-group"
           },
-          "html": "\n            <a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" target=\"_blank\" rel=\"noopener\">\n                \n                <span class=\"inline\">Kostenlos herunterladen</span>\n            </a>\n        "
+          "html": "\n            <a href=\"https://apps.apple.com/de/app/caresse/id6758887086?l=de-DE\" id=\"hero-cta\" class=\"cta-pink\" target=\"_blank\" rel=\"noopener\">\n                \n                <span class=\"inline\">Kostenlos herunterladen</span>\n            </a>\n        "
         },
         {
           "tag": "p",
@@ -1050,7 +1050,7 @@
               "type": "element",
               "tag": "a",
               "attrs": {
-                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "href": "https://apps.apple.com/de/app/caresse/id6758887086?l=de-DE",
                 "class": "store-badge",
                 "aria-label": "Im App Store herunterladen",
                 "target": "_blank",
