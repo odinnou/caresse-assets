@@ -9,6 +9,14 @@ const routes = json('src/data/routes.json');
 const pages = readdirSync('src/content/pages').filter((name) => name.endsWith('.json'))
   .map((name) => json(join('src/content/pages', name)));
 const site = 'https://caresse.app';
+const stores = json('src/data/stores.json');
+function checkGermanAppStore(value, id) {
+  if (typeof value !== 'string' || !value.startsWith('https://apps.apple.com/') || !value.includes('/id6758887086')) return;
+  const url = new URL(value);
+  assert.match(url.pathname, /^\/de\/app\//, `${id}: Caresse App Store must use the German storefront`);
+  assert.equal(url.searchParams.get('l'), 'de-DE', `${id}: App Store listing locale`);
+  assert.equal(value, stores.ios.de, `${id}: App Store URL differs from shared store configuration`);
+}
 const documents = new Map();
 const attrs = (node) => Object.fromEntries((node.attrs ?? []).map(({ name, value }) => [name, value]));
 const text = (node) => node.nodeName === '#text' ? node.value : (node.childNodes ?? []).map(text).join('');
@@ -66,6 +74,7 @@ for (const page of german) {
   for (const node of elements(page.path, 'a')) {
     const link = attrs(node);
     if (!link.href || link.href.startsWith('mailto:')) continue;
+    checkGermanAppStore(link.href, page.id);
     const url = new URL(link.href, site + page.path);
     if (url.origin === site) {
       assert.ok(existsSync(join('dist', decodeURIComponent(url.pathname), url.pathname.endsWith('/') ? 'index.html' : '')), `${page.id}: broken ${url.pathname}`);
@@ -86,6 +95,7 @@ for (const page of german) {
   }
   for (const script of elements(page.path, 'script').filter((node) => attrs(node).type === 'application/ld+json')) {
     const walk = (schema) => {
+      checkGermanAppStore(schema, page.id);
       if (Array.isArray(schema)) return schema.forEach(walk);
       if (!schema || typeof schema !== 'object') return;
       if (['MobileApplication', 'SoftwareApplication'].includes(schema['@type'])) assert.ok(![].concat(schema.inLanguage ?? []).includes('de'), `${page.id}: app incorrectly claims German support`);

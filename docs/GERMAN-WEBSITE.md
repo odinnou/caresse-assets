@@ -64,7 +64,8 @@ avoir sa référence anglaise pour bénéficier du contrôle de composition.
   avec `AudioObject.inLanguage: en`. Aucun nouvel audio n’est créé.
 - Les captures de l’app et la vidéo conservent leur langue réelle et les mêmes
   ressources que la référence ; leurs textes d’accompagnement sont traduits.
-- Les CTA restent directs vers les stores. L’iOS utilise le repli anglais existant ;
+- Les CTA restent directs vers les stores. L’iOS pointe vers la boutique allemande (`/de/`, `l=de-DE`), ce qui
+  ne change pas les langues disponibles dans l’application ;
   `mobile-store-cta.js` sélectionne Google Play sur Android. La page de
   téléchargement conserve le routeur de secours.
 - Les scripts d’attribution restent partagés et prennent la locale du document.

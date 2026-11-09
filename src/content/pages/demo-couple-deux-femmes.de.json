@@ -373,7 +373,7 @@
           "attrs": {
             "style": "margin:0 0 12px;"
           },
-          "html": "<a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-store-cta\" class=\"hero-store-cta\" style=\"margin-top:0;\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener noreferrer\">App kostenlos herunterladen</a>"
+          "html": "<a href=\"https://apps.apple.com/de/app/caresse/id6758887086?l=de-DE\" id=\"hero-store-cta\" class=\"hero-store-cta\" style=\"margin-top:0;\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener noreferrer\">App kostenlos herunterladen</a>"
         },
         {
           "type": "element",
@@ -547,7 +547,7 @@
           "type": "element",
           "tag": "a",
           "attrs": {
-            "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+            "href": "https://apps.apple.com/de/app/caresse/id6758887086?l=de-DE",
             "id": "demo-store-cta",
             "data-store-auto": "",
             "data-cta-position": "end",
