@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Persönliche KI-Audioerlebnisse für langjährige Paare, die Abwechslung zur Routine suchen. Gemeinsame Einstellungen, eine Stimme und freiwillige Anregungen auf iOS und Android."
+      "content": "KI-Audiofiktion für langjährige Paare mit euren Namen und Vorlieben. Kostenlose Demos, persönliche Sessions mit Credits, ohne Abo. App und Audio nicht auf Deutsch."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "Persönliche Audiofiktion aus euren Wünschen kann neue Anregungen bieten, ohne dass ihr selbst einen vollständigen Ablauf erfinden müsst."
+      "content": "KI-Audiofiktion für langjährige Paare mit euren Namen und Vorlieben. Kostenlose Demos, persönliche Sessions mit Credits, ohne Abo. App und Audio nicht auf Deutsch."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Gemeinsam außerhalb der Routine entdecken, mit einer Erzählung aus euren gewählten Einstellungen."
+      "content": "KI-Audiofiktion für langjährige Paare mit euren Namen und Vorlieben. Kostenlose Demos, persönliche Sessions mit Credits, ohne Abo. App und Audio nicht auf Deutsch."
     },
     {
       "name": "twitter:image",
@@ -169,7 +169,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse für langjährige Paare",
-      "description": "Persönliche Audiofiktion für langjährige Paare, die gemeinsam Neues entdecken möchten.",
+      "description": "KI-Audiofiktion für langjährige Paare mit euren Namen und Vorlieben. Kostenlose Demos, persönliche Sessions mit Credits, ohne Abo. App und Audio nicht auf Deutsch.",
       "url": "https://caresse.app/de/langjaehrige-paare/",
       "inLanguage": "de",
       "isPartOf": {
@@ -229,7 +229,8 @@
             "item": "https://caresse.app/de/langjaehrige-paare/"
           }
         ]
-      }
+      },
+      "dateModified": "2026-11-11"
     }
   ],
   "styles": [
@@ -524,7 +525,7 @@
         {
           "tag": "p",
           "attrs": {},
-          "html": "Vertraute Gewohnheiten können Sicherheit geben. Wenn ihr Abwechslung möchtet, bietet Caresse auf Anfrage generierte Audioerfahrungen aus euren Wünschen, statt immer dieselbe Aufnahme abzuspielen."
+          "html": "Caresse erstellt KI-Audiofiktion mit euren Namen oder Pseudonymen und synthetischer Stimme. Feste Demos sind kostenlos; persönliche Sessions zu zweit nutzen kostenpflichtige Credits, ohne Abo."
         },
         {
           "tag": "div",
@@ -880,6 +881,23 @@
                   "html": "Dafür gibt es keine Regel. Wählt einen Rhythmus oder Anlass, der beiden entspricht. Es bleibt eine freie Entscheidung und keine Verpflichtung."
                 }
               ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Ist Caresse für langjährige Paare kostenlos?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Der Download und die festen Demos sind kostenlos. Eine persönliche Audiogeschichte in der App zu erstellen verbraucht einen kostenpflichtigen Credit, ohne Abo. Preise werden vor dem Kauf angezeigt; die optionale Freischaltung weiterer Vorlieben enthält keine unbegrenzte Generierung."
+                }
+              ]
             }
           ]
         }
@@ -1069,7 +1087,7 @@
         "aria-label": "Weiterlesen",
         "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
       },
-      "html": "\n        <p>Zur Vorbereitung könnt ihr auch lesen über: <a href=\"/de/romantischer-abend-zu-hause/\" style=\"color:var(--primary);text-underline-offset:3px;\">einen romantischen Abend zu Hause</a>.</p>\n    "
+      "html": "\n        <p>Für eure gemeinsame Zeit findet ihr Ideen für <a href=\"/de/romantischer-abend-zu-hause/\" style=\"color:var(--primary);text-underline-offset:3px;\">einen romantischen Abend zu Hause</a> oder <a href=\"/de/jahrestag/\" style=\"color:var(--primary);text-underline-offset:3px;\">euren Jahrestag</a>.</p>\n    <p class=\"seasonal-links\" style=\"margin-top:16px;\">Für einen besonderen Anlass: <a href=\"/de/valentinstag-zu-hause/\" style=\"color:var(--primary);text-underline-offset:3px;\">Valentinstag zu Hause</a> · <a href=\"/de/weihnachten-zu-zweit/\" style=\"color:var(--primary);text-underline-offset:3px;\">Weihnachten zu zweit</a>.</p>\n"
     },
     {
       "type": "container",

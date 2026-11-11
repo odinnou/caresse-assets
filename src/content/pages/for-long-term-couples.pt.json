@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Áudio íntimo guiado por IA para casais de longa data. Uma narrativa criada a partir das preferências de vocês. iOS e Android, créditos pagos e sem assinatura."
+      "content": "Ficção em áudio para casais de longa data, personalizada por IA com nomes e preferências. Voz sintética, demos fixas grátis e créditos pagos, sem assinatura."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "Uma narrativa em áudio criada no app a partir das preferências de vocês, para descobrir um contexto diferente do habitual."
+      "content": "Ficção em áudio para casais de longa data, personalizada por IA com nomes e preferências. Voz sintética, demos fixas grátis e créditos pagos, sem assinatura."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Descubram uma narrativa em áudio criada a partir das escolhas do momento."
+      "content": "Ficção em áudio para casais de longa data, personalizada por IA com nomes e preferências. Voz sintética, demos fixas grátis e créditos pagos, sem assinatura."
     },
     {
       "name": "twitter:image",
@@ -169,7 +169,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse para casais de longa data",
-      "description": "Experiência íntima em áudio guiada por IA para casais de longa data que querem sair do habitual e descobrir algo juntos.",
+      "description": "Ficção em áudio para casais de longa data, personalizada por IA com nomes e preferências. Voz sintética, demos fixas grátis e créditos pagos, sem assinatura.",
       "url": "https://caresse.app/pt/para-casais-de-longa-data/",
       "inLanguage": "pt",
       "isPartOf": {
@@ -229,7 +229,8 @@
             "item": "https://caresse.app/pt/para-casais-de-longa-data/"
           }
         ]
-      }
+      },
+      "dateModified": "2026-11-11"
     }
   ],
   "styles": [
@@ -535,7 +536,7 @@
         {
           "tag": "p",
           "attrs": {},
-          "html": "Com o tempo, a intimidade pode seguir caminhos conhecidos. O Caresse propõe uma experiência em áudio criada a partir das preferências do momento, para descobrir juntos uma narrativa diferente."
+          "html": "O Caresse cria ficção em áudio com IA, nomes ou pseudônimos e voz sintética. Demos fixas grátis; sessões personalizadas a dois com créditos pagos, sem assinatura."
         },
         {
           "tag": "div",
@@ -549,7 +550,7 @@
           "attrs": {
             "class": "hero-badge"
           },
-          "html": "Disponível para iOS e Android · Demos pré-geradas gratuitas<br>Áudios em português no app; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação."
+          "html": "Disponível para iOS e Android · Demos fixas gratuitas · Sessões personalizadas pagas<br>App totalmente em português no Android; o português completo no iOS chega na próxima atualização, em análise."
         }
       ]
     },
@@ -891,6 +892,23 @@
                   "html": "Não existe uma regra. Pode ser um momento ocasional ou um ritual escolhido pelos dois. O importante é continuar sendo uma vontade compartilhada, não uma obrigação."
                 }
               ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "O Caresse é grátis para casais de longa data?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "O download e as demos fixas são gratuitos. Criar uma ficção em áudio personalizada no app consome um crédito pago, sem assinatura. Os preços aparecem antes da compra; o desbloqueio opcional de preferências não inclui geração ilimitada."
+                }
+              ]
             }
           ]
         }
@@ -1080,7 +1098,7 @@
         "aria-label": "Para saber mais",
         "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
       },
-      "html": "\n        <p>Para preparar o momento de vocês, vejam também: <a href=\"/pt/noite-romantica-em-casa/\" style=\"color:var(--primary);text-underline-offset:3px;\">uma noite romântica em casa</a>.</p>\n    "
+      "html": "\n        <p>Para preparar um momento a dois, vejam nossas ideias para <a href=\"/pt/noite-romantica-em-casa/\" style=\"color:var(--primary);text-underline-offset:3px;\">uma noite romântica em casa</a> ou <a href=\"/pt/aniversario-de-relacionamento/\" style=\"color:var(--primary);text-underline-offset:3px;\">um aniversário de relacionamento</a>.</p>\n    <p class=\"seasonal-links\" style=\"margin-top:16px;\">Para uma ocasião especial: <a href=\"/pt/dia-dos-namorados-em-casa/\" style=\"color:var(--primary);text-underline-offset:3px;\">Dia dos Namorados em casa</a> · <a href=\"/pt/natal-a-dois/\" style=\"color:var(--primary);text-underline-offset:3px;\">Natal a dois</a>.</p>\n"
     },
     {
       "type": "container",
