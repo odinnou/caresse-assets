@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Caresse aide les couples installés à sortir de la routine intime. Sessions audio guidées par l'IA, personnalisées, qui créent de la nouveauté sans effort."
+      "content": "Pour les couples de longue date : fictions audio personnalisées par IA, voix synthétique et préférences partagées. Démos gratuites ; crédits sans abonnement."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "Sortez de la routine intime sans effort. L'IA crée une expérience audio que vous n'auriez pas pensé à proposer vous-mêmes."
+      "content": "Pour les couples de longue date : fictions audio personnalisées par IA, voix synthétique et préférences partagées. Démos gratuites ; crédits sans abonnement."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Sortez de la routine intime. L'IA génère une expérience que vous n'auriez pas osé proposer vous-mêmes."
+      "content": "Pour les couples de longue date : fictions audio personnalisées par IA, voix synthétique et préférences partagées. Démos gratuites ; crédits sans abonnement."
     },
     {
       "name": "twitter:image",
@@ -169,7 +169,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse pour les couples de longue date",
-      "description": "Expérience audio intime guidée par l'IA pour les couples installés qui veulent sortir de la routine et redécouvrir quelque chose de nouveau ensemble.",
+      "description": "Pour les couples de longue date : fictions audio personnalisées par IA, voix synthétique et préférences partagées. Démos gratuites ; crédits sans abonnement.",
       "url": "https://caresse.app/for-long-term-couples/",
       "inLanguage": "fr",
       "isPartOf": {
@@ -229,7 +229,8 @@
             "item": "https://caresse.app/for-long-term-couples/"
           }
         ]
-      }
+      },
+      "dateModified": "2026-11-11"
     }
   ],
   "styles": [
@@ -520,7 +521,7 @@
         {
           "tag": "p",
           "attrs": {},
-          "html": "Avec le temps, l'intimité ne disparaît pas, elle se répète. Caresse brise ce cycle en générant des expériences audio que vous n'auriez jamais pensé à proposer vous-mêmes, à chaque fois différentes."
+          "html": "Caresse crée des fictions audio par IA avec vos prénoms ou pseudonymes et une voix synthétique. Démos fixes gratuites ; sessions personnalisées à deux avec crédits payants, sans abonnement."
         },
         {
           "tag": "div",
@@ -581,7 +582,7 @@
               "attrs": {
                 "class": "truth-item"
               },
-              "html": "\n                <p class=\"label\">La solution Caresse</p>\n                <p>L'IA crée l'expérience à votre place. Pas besoin d'idées, pas de négociation. Vous configurez vos préférences, et quelque chose de nouveau apparaît.</p>\n                "
+              "html": "\n                <p class=\"label\">La solution Caresse</p>\n                <p>Vous choisissez ensemble vos préférences, puis l’IA crée une narration dans l’app. Il n’est pas nécessaire d’écrire le scénario ; la discussion et l’accord de chacun restent essentiels.</p>\n                "
             },
             {
               "tag": "div",
@@ -595,7 +596,7 @@
               "attrs": {
                 "class": "truth-item"
               },
-              "html": "\n                <p class=\"label\">Ce que ça ne remplace pas</p>\n                <p>Caresse ne remplace pas la complicité que vous avez construite. Il l'enrichit, en ajoutant une couche de nouveauté à ce que vous connaissez déjà bien.</p>\n                "
+              "html": "\n                <p class=\"label\">Ce que ça ne remplace pas</p>\n                <p>Caresse ne remplace pas votre complicité, les échanges ni un accompagnement professionnel si nécessaire. Il propose une fiction audio à explorer ensemble, au rythme de chacun.</p>\n                "
             }
           ]
         }
@@ -668,14 +669,14 @@
               "attrs": {
                 "class": "benefit-card"
               },
-              "html": "\n                <div class=\"icon\">🔁</div>\n                <h3>Jamais deux fois la même chose</h3>\n                <p>Chaque session est générée à la volée par l'IA. Même si vous choisissez les mêmes préférences, l'expérience sera différente. La répétition n'est plus possible.</p>\n                "
+              "html": "\n                <div class=\"icon\">🔁</div>\n                <h3>Une narration créée à chaque demande</h3>\n                <p>L’IA génère la fiction dans l’app à partir de vos choix. Le résultat peut varier avec les mêmes préférences. La création utilise des crédits payants ; des ressemblances ou incohérences restent possibles.</p>\n                "
             },
             {
               "tag": "div",
               "attrs": {
                 "class": "benefit-card"
               },
-              "html": "\n                <div class=\"icon\">💬</div>\n                <h3>Recommuniquer sans les mots difficiles</h3>\n                <p>La configuration de la session est une conversation guidée sur ce qui vous attire aujourd'hui. Dans les longues relations, ces conversations manquent souvent. Caresse les rend naturelles.</p>\n                "
+              "html": "\n                <div class=\"icon\">💬</div>\n                <h3>Recommuniquer sans les mots difficiles</h3>\n                <p>La configuration peut ouvrir une conversation sur vos envies du moment. Les options aident à formuler préférences et limites, sans remplacer un accord explicite.</p>\n                "
             }
           ]
         }
@@ -724,7 +725,7 @@
               "attrs": {
                 "class": "step-item"
               },
-              "html": "\n                <div class=\"num\">02</div>\n                <h3>L'IA génère votre session</h3>\n                <p>En quelques minutes, Caresse crée une expérience sur mesure. Unique, inédite, construite autour de vos préférences du moment.</p>\n                "
+              "html": "\n                <div class=\"num\">02</div>\n                <h3>L'IA génère votre session</h3>\n                <p>Caresse crée une fiction audio à partir de vos préférences. La génération peut prendre quelques minutes ; le contenu et la durée varient selon la session.</p>\n                "
             },
             {
               "tag": "div",
@@ -788,7 +789,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "C'est justement pour ça qu'il est conçu. Vous connaître bien vous permet de configurer avec précision ce qui vous attire. L'IA s'appuie sur ce socle pour générer quelque chose d'inattendu."
+                  "html": "Connaître vos préférences peut vous aider à choisir ensemble une configuration. Caresse crée ensuite une fiction audio à partir de ces choix. Une démo gratuite permet de découvrir la voix et le format avant de payer pour une session personnalisée."
                 }
               ]
             },
@@ -822,7 +823,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "C'est souvent la situation de départ. La configuration ensemble et la voix qui prend le relais permettent à celui qui hésite de se laisser porter sans avoir à \"faire des efforts\". L'immersion se crée naturellement."
+                  "html": "Parlez-en avant de commencer et participez uniquement si vous en avez envie tous les deux. Une démo peut servir à découvrir le format ensemble, mais personne ne doit être convaincu de participer. Chacun peut refuser, faire une pause ou arrêter à tout moment."
                 }
               ]
             },
@@ -839,7 +840,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Non, c'est structurellement impossible. Chaque session est générée à la volée par l'IA, même avec les mêmes préférences en entrée. Vous pouvez utiliser Caresse chaque semaine pendant des années sans jamais entendre la même session."
+                  "html": "Chaque session personnalisée est générée à la demande par l’IA à partir de vos choix. Des configurations identiques peuvent donner des résultats différents, mais des ressemblances, répétitions ou incohérences restent possibles. Les démos gratuites sont des enregistrements fixes."
                 }
               ]
             },
@@ -856,7 +857,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Oui, et c'est l'un de ses usages les plus fréquents. En supprimant la pression de l'initiative et en créant un cadre neutre, Caresse permet de reprendre le contact de façon naturelle, sans que ça ressemble à un \"effort de couple\"."
+                  "html": "Caresse propose une fiction guidée à partager si vous en avez envie tous les deux. L’app ne garantit pas d’amélioration de la relation et ne remplace ni la communication ni un accompagnement professionnel lorsque celui-ci est nécessaire."
                 }
               ]
             },
@@ -873,7 +874,24 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Il n'y a pas de règle. Certains couples l'utilisent comme rituel mensuel, d'autres lors de moments particuliers comme un week-end en amoureux. L'essentiel est que ça reste un choix, pas une obligation."
+                  "html": "Il n’y a pas de fréquence recommandée. Choisissez ensemble un moment et un rythme qui vous conviennent, pour une occasion particulière ou un rendez-vous à deux. L’utilisation reste un choix partagé, jamais une obligation."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Caresse est-il gratuit pour les couples de longue date ?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Le téléchargement et les démos fixes sont gratuits. Créer une fiction audio personnalisée dans l’app consomme un crédit payant, sans abonnement. Les prix sont affichés avant l’achat ; le déblocage optionnel des préférences n’inclut pas une génération illimitée."
                 }
               ]
             }
@@ -1065,7 +1083,7 @@
         "aria-label": "Pour aller plus loin",
         "style": "max-width:900px;margin:0 auto;padding:24px 5%;color:var(--text-secondary);font-size:0.94rem;line-height:1.7;"
       },
-      "html": "\n        <p>Pour préparer votre moment, vous pouvez aussi lire : <a href=\"/soiree-romantique-maison/\" style=\"color:var(--primary);text-underline-offset:3px;\">une soirée romantique à la maison</a>.</p>\n    "
+      "html": "\n        <p>Pour préparer une occasion à deux, retrouvez nos idées pour <a href=\"/soiree-romantique-maison/\" style=\"color:var(--primary);text-underline-offset:3px;\">une soirée romantique à la maison</a> ou <a href=\"/anniversaire-de-couple/\" style=\"color:var(--primary);text-underline-offset:3px;\">un anniversaire de couple</a>.</p>\n    <p class=\"seasonal-links\" style=\"margin-top:16px;\">Pour une occasion particulière : <a href=\"/saint-valentin/\" style=\"color:var(--primary);text-underline-offset:3px;\">Une Saint-Valentin à la maison</a> · <a href=\"/noel-en-couple/\" style=\"color:var(--primary);text-underline-offset:3px;\">Noël en couple</a>.</p>\n"
     },
     {
       "type": "container",

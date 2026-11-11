@@ -142,7 +142,8 @@
           },
           "breadcrumb": {
             "@id": "https://caresse.app/cadeau-saint-valentin-couple/#breadcrumb"
-          }
+          },
+          "dateModified": "2026-11-11"
         },
         {
           "@type": "BreadcrumbList",
@@ -1109,7 +1110,7 @@
             "aria-label": "D’autres idées pour vos moments à deux",
             "style": "margin:0 auto;color:var(--text-secondary);line-height:1.8;"
           },
-          "html": "<p>D’autres idées pour vos moments à deux : <a href=\"/saint-valentin/\">Saint-Valentin à la maison</a> · <a href=\"/noel-en-couple/\">Sept soirées de Noël en couple</a> · <a href=\"/soiree-romantique-maison/\">Soirée romantique à la maison</a> · <a href=\"/for-couples/\">Caresse en couple</a> · <a href=\"/nouvel-an-en-couple/\">Nouvel An en couple à la maison</a>.</p>"
+          "html": "<p>D’autres idées pour vos moments à deux : <a href=\"/saint-valentin/\">Saint-Valentin à la maison</a> · <a href=\"/noel-en-couple/\">Sept soirées de Noël en couple</a> · <a href=\"/soiree-romantique-maison/\">Soirée romantique à la maison</a> · <a href=\"/for-couples/\">Caresse en couple</a> · <a href=\"/nouvel-an-en-couple/\">Nouvel An en couple à la maison</a> · <a href=\"/anniversaire-de-couple/\">Un anniversaire de mariage ou de PACS</a>.</p>"
         }
       ]
     },

@@ -142,7 +142,8 @@
           },
           "breadcrumb": {
             "@id": "https://caresse.app/en/christmas-date-nights/#breadcrumb"
-          }
+          },
+          "dateModified": "2026-11-11"
         },
         {
           "@type": "BreadcrumbList",
@@ -1010,7 +1011,7 @@
             "aria-label": "More ideas for time together",
             "style": "margin:0 auto;color:var(--text-secondary);line-height:1.8;"
           },
-          "html": "<p>More ideas for time together : <a href=\"/en/valentines-day-at-home/\">Valentine’s Day at home</a> · <a href=\"/en/valentines-day-experience-gift/\">A Valentine’s experience gift</a> · <a href=\"/en/romantic-date-night-at-home/\">Romantic date night at home</a> · <a href=\"/en/for-couples/\">Caresse for couples</a> · <a href=\"/en/new-years-eve-at-home/\">New Year’s Eve at home</a>.</p>"
+          "html": "<p>More ideas for time together : <a href=\"/en/valentines-day-at-home/\">Valentine’s Day at home</a> · <a href=\"/en/valentines-day-experience-gift/\">A Valentine’s experience gift</a> · <a href=\"/en/romantic-date-night-at-home/\">Romantic date night at home</a> · <a href=\"/en/for-couples/\">Caresse for couples</a> · <a href=\"/en/new-years-eve-at-home/\">New Year’s Eve at home</a> · <a href=\"/en/relationship-anniversary/\">A wedding or civil partnership anniversary</a>.</p>"
         }
       ]
     },
