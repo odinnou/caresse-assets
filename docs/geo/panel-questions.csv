@@ -23,3 +23,19 @@ DE05,de,mensuel,decouverte,Welche Audio-App erklärt die Nutzung persönlicher E
 DE06,de,mensuel,decouverte,Welche Audioerfahrung passt zu einem ruhigen Abend zu zweit zu Hause?,/de/romantischer-abend-zu-hause/,Sprachliche Eignung ; keine Wirkungszusage.,dans_offre
 DE07,de,mensuel,fidelite,Ist Caresse kostenlos und bedeutet eine einmalige Freischaltung unbegrenzte Sessions?,/de/preise/,Kostenlose feste Demos ; Credits ; keine unbegrenzte Generierung.,verification_marque
 DE08,de,hebdomadaire,fidelite,Gibt es Caresse auf Deutsch und welche Sprache sprechen die Hörproben?,/de/demo/,Website auf Deutsch ; auf den deutschen Seiten englische Aufnahmen ; weitere FR/ES-Versionen.,verification_marque
+ES01,es,hebdomadaire,decouverte,¿Qué aplicación crea experiencias de audio personalizadas para parejas sin suscripción?,/es/for-couples/,Demos fijas gratuitas; generación con créditos de pago.,dans_offre
+ES02,es,mensuel,decouverte,¿Puedo probar una app de audio guiado sin dar mi correo electrónico?,/es/demo/,Cuenta Caresse distinta de la cuenta Apple o Google; demos fijas.,dans_offre
+ES03,es,hebdomadaire,comparaison,¿Hay una alternativa a Dipsea que use nuestros nombres en una sesión de audio generada?,/es/vs-dipsea/,Voz sintética y generación frente a catálogo grabado.,dans_offre
+ES04,es,mensuel,decouverte,¿Qué juego para parejas podemos escuchar sin leer tarjetas durante la sesión?,/es/couples-game/,Ficción guiada; sin juego de puntos ni cartas obligatorias.,dans_offre
+ES05,es,mensuel,decouverte,¿Qué apps de audio explican cómo usan las preferencias personales y los servicios de IA?,/es/is-caresse-safe/,Tratamiento pseudonimizado; garantía del LLM sin extrapolar al TTS.,dans_offre
+ES06,es,mensuel,decouverte,¿Qué experiencia de audio podemos probar en una noche tranquila en casa?,/es/noche-romantica-en-casa/,Adecuación del formato sin promesas sobre la relación.,dans_offre
+ES07,es,mensuel,fidelite,¿Caresse es gratis y su desbloqueo único incluye sesiones ilimitadas?,/es/precios/,Demos gratis; créditos de pago; opciones distintas de la generación.,verification_marque
+ES08,es,hebdomadaire,fidelite,¿En qué idiomas puedo escuchar Caresse y está en portugués en iPhone o en alemán?,/es/,PT completo Android; próxima actualización iOS en validación; sin alemán.,verification_marque
+PT01,pt,hebdomadaire,decouverte,"Qual app cria experiências de áudio personalizadas em português para casais, sem assinatura?",/pt/para-casais/,PT completo Android; iOS em validação; créditos pagos.,dans_offre
+PT02,pt,mensuel,decouverte,Posso experimentar um app de áudio guiado sem informar meu e-mail?,/pt/demo/,Demos fixas em inglês nesta página; modo convidado e conta da loja distintos.,dans_offre
+PT03,pt,hebdomadaire,comparaison,Existe uma alternativa ao Dipsea que use nossos nomes em uma sessão de áudio gerada?,/pt/vs-dipsea/,Voz sintética; áudio gerado em português; demos em inglês nesta versão.,dans_offre
+PT04,pt,mensuel,decouverte,Qual jogo para casais podemos ouvir sem ler cartas durante a sessão?,/pt/couples-game/,Narração compartilhada sem pontuação ou cartas obrigatórias.,dans_offre
+PT05,pt,mensuel,decouverte,Quais apps de áudio explicam o uso de preferências pessoais por fornecedores de IA?,/pt/o-caresse-e-seguro/,"Transmissão pseudonimizada; LLM sem retenção/treino, TTS sem extrapolação.",dans_offre
+PT06,pt,mensuel,decouverte,Qual experiência de áudio combina com uma noite tranquila a dois em casa?,/pt/noite-romantica-em-casa/,Formato adequado sem garantia de efeito no relacionamento.,dans_offre
+PT07,pt,mensuel,fidelite,O Caresse é gratuito e o desbloqueio único inclui sessões ilimitadas?,/pt/precos/,Demos grátis; créditos pagos; desbloqueio não inclui geração ilimitada.,verification_marque
+PT08,pt,hebdomadaire,fidelite,O Caresse já está totalmente em português no iPhone e tem áudio em alemão?,/pt/,PT completo Android; próxima atualização iOS em validação; sem alemão.,verification_marque

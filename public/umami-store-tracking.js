@@ -14,6 +14,7 @@
     var testParameter = new URLSearchParams(window.location.search).get('analytics_test');
     var isTest = testParameter === '1';
     var acquisitionReferrer = getRedirectReferrer();
+    var acquisitionReferrerHost = getReferrerHost(acquisitionReferrer);
     var acquisitionSource = getAcquisitionSource();
 
     function normalizeCampaign(values) {
@@ -52,20 +53,45 @@
         return document.referrer;
     }
 
+    function getReferrerHost(referrer) {
+        try {
+            if (referrer) return new URL(referrer).hostname.toLowerCase().slice(0, 253);
+        } catch (_) {}
+        return '';
+    }
+
     function getAcquisitionSource() {
         var source = campaign.utm_source;
-        var referrerHost = '';
-        try {
-            if (acquisitionReferrer) referrerHost = new URL(acquisitionReferrer).hostname;
-        } catch (_) {}
+        var referrerHost = acquisitionReferrerHost;
         if (source === 'chatgpt.com' || source === 'openai') return 'chatgpt';
         if (source) return source;
         if (referrerHost === 'chatgpt.com') return 'chatgpt';
+        if (getAIProvider(referrerHost)) return referrerHost;
         if (/(^|\.)corp\.google\.com$/.test(referrerHost)) return referrerHost;
         if (referrerHost === 'google.com' || /(^|\.)google\.[a-z.]+$/.test(referrerHost) ||
             referrerHost === 'com.google.android.googlequicksearchbox') return 'google';
         if (referrerHost && referrerHost !== window.location.hostname) return referrerHost;
         return 'direct_or_unknown';
+    }
+
+    function getAIProvider(source) {
+        // These are observed referral/UTM signals, not proof of an AI citation.
+        // General Google/Bing traffic cannot identify AI Overviews or Copilot.
+        var value = source.toLowerCase().replace(/^www\./, '');
+        var providers = [
+            ['chatgpt', ['chatgpt', 'openai'], ['chatgpt.com', 'chat.openai.com']],
+            ['perplexity', ['perplexity'], ['perplexity.ai']],
+            ['claude', ['claude'], ['claude.ai']],
+            ['gemini', ['gemini'], ['gemini.google.com']],
+            ['copilot', ['copilot'], ['copilot.microsoft.com']]
+        ];
+        for (var i = 0; i < providers.length; i++) {
+            var provider = providers[i];
+            if (provider[1].indexOf(value) !== -1 || provider[2].some(function (domain) {
+                return value === domain || value.slice(-(domain.length + 1)) === '.' + domain;
+            })) return provider[0];
+        }
+        return '';
     }
 
     function saveVisit() {
@@ -74,6 +100,7 @@
             sessionStorage.setItem('caresse_last_seen_at', String(lastSeenAt));
             sessionStorage.setItem('caresse_landing_page', landingPage);
             sessionStorage.setItem('caresse_acquisition_source', acquisitionSource);
+            sessionStorage.setItem('caresse_acquisition_referrer_host', acquisitionReferrerHost);
             sessionStorage.setItem('caresse_utm', JSON.stringify(campaign));
             sessionStorage.setItem('caresse_analytics_test', isTest ? '1' : '0');
             sessionStorage.setItem('caresse_link_clicked', firstLinkClicked ? '1' : '0');
@@ -102,6 +129,7 @@
             firstStoreClicked = sessionStorage.getItem('caresse_store_clicked') === '1';
             landingPage = sessionStorage.getItem('caresse_landing_page') || landingPage;
             acquisitionSource = sessionStorage.getItem('caresse_acquisition_source') || acquisitionSource;
+            acquisitionReferrerHost = sessionStorage.getItem('caresse_acquisition_referrer_host') || '';
             campaign = storedCampaign;
             if (testParameter === null) isTest = sessionStorage.getItem('caresse_analytics_test') === '1';
         }
@@ -142,6 +170,7 @@
             visitStartedAt = clickedAt;
             landingPage = window.location.pathname;
             campaign = getCampaign();
+            acquisitionReferrerHost = getReferrerHost(acquisitionReferrer);
             acquisitionSource = getAcquisitionSource();
             firstLinkClicked = false;
             firstStoreClicked = false;
@@ -169,12 +198,18 @@
                 first_link_click: isFirstLinkClick,
                 first_store_click: isFirstStoreClick,
                 acquisition_source: acquisitionSource,
+                acquisition_channel: getAIProvider(acquisitionSource) ? 'ai' :
+                    (acquisitionSource === 'direct_or_unknown' ? 'direct_or_unknown' : 'other'),
+                acquisition_referrer_host: acquisitionReferrerHost,
+                acquisition_definition: 'observed-source-v1',
                 client_visit_started_at: new Date(visitStartedAt).toISOString(),
                 visit_definition: 'client-30min-v3',
                 store_click_definition: 'caresse-only-v1',
                 variant: document.documentElement.dataset.analyticsVariant || 'store-first-v1',
                 test: isTest
             };
+            var aiProvider = getAIProvider(acquisitionSource);
+            if (aiProvider) data.ai_provider = aiProvider;
             utmKeys.forEach(function (key) {
                 if (campaign[key]) data[key] = campaign[key];
             });

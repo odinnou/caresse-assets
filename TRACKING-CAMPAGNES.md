@@ -53,6 +53,10 @@ contexte d’attribution côté navigateur ; ce contexte ne correspond pas
 nécessairement à une session Umami, notamment après un changement de campagne.
 Les anciens événements ne sont pas enrichis rétroactivement.
 
+Le suivi GEO ajoute aussi un regroupement des sources IA, tout en conservant la
+priorité des UTM : voir [le guide des rapports et du panel](docs/geo/README.md).
+Ces propriétés sont des signaux d’acquisition, pas une preuve de citation.
+
 ## Contrôle avant de lancer la campagne
 
 1. Après déploiement, ouvrir le lien de campagne dans le navigateur intégré

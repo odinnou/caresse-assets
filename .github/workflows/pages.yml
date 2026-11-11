@@ -40,6 +40,7 @@ jobs:
       - run: pip install -r requirements-test.txt
       - run: python -m playwright install --with-deps chromium
       - run: python scripts/check-german-browser.py
+      - run: python scripts/check-ai-attribution-browser.py
       - run: npm run test:browser
         if: github.head_ref == 'feat/90-astro-static' || inputs.compare_migration
       - uses: actions/upload-artifact@v4
