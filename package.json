@@ -13,7 +13,7 @@
     "geo:clicks": "node scripts/geo-clicks-report.mjs",
     "geo:http": "python scripts/geo-http-audit.py",
     "test": "node --test tests/*.test.cjs tests/*.test.mjs",
-    "test:i18n": "node scripts/check-localized-build.mjs && node scripts/check-german-parity.mjs && node scripts/check-geo-build.mjs",
+    "test:i18n": "node scripts/check-localized-build.mjs && node scripts/check-german-parity.mjs",
     "test:parity": "node scripts/compare-build.mjs",
     "test:browser": "python scripts/compare-browser.py"
   },

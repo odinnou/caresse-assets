@@ -22,7 +22,7 @@
     },
     {
       "name": "description",
-      "content": "Une expérience intime entièrement guidée par la voix, pensée pour être vécue sans lire l'écran. Utile si vous êtes aveugle ou malvoyant : pas de compte, pas d'email, audio en français, anglais, espagnol et portugais."
+      "content": "Une expérience intime entièrement guidée par la voix, pensée pour être vécue sans lire l'écran. Utile si vous êtes aveugle ou malvoyant : pas de compte, pas d'email, audio en français, anglais et espagnol."
     },
     {
       "name": "robots",
@@ -163,7 +163,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse, une expérience intime qui se vit à l'oreille",
-      "description": "Une expérience intime entièrement guidée par la voix, pensée pour être vécue sans lire l'écran. Utile si vous êtes aveugle ou malvoyant : pas de compte, pas d'email, audio en français, anglais, espagnol et portugais.",
+      "description": "Une expérience intime entièrement guidée par la voix, pensée pour être vécue sans lire l'écran. Utile si vous êtes aveugle ou malvoyant : pas de compte, pas d'email, audio en français, anglais et espagnol.",
       "url": "https://caresse.app/for-blind-and-low-vision/",
       "inLanguage": "fr",
       "dateModified": "2026-10-31",
@@ -627,7 +627,7 @@
                   "attrs": {
                     "class": "stat-label"
                   },
-                  "html": "langues audio dans l’app : français, anglais, espagnol, portugais"
+                  "html": "langues audio : français, anglais, espagnol"
                 }
               ]
             }
@@ -691,7 +691,7 @@
                       "attrs": {
                         "class": "listen-card"
                       },
-                      "html": "\n                    <h3>Rien à saisir, pas de compte</h3>\n                    <p>Vous pouvez écouter les démos gratuites sans inscription, email ni mot de passe Caresse. Cela réduit les champs à remplir. Pour acheter des crédits, vous utilisez votre compte Apple ou Google : l’anonymat vis-à-vis de Caresse ne signifie pas un paiement anonyme auprès du store.</p>\n                "
+                      "html": "\n                    <h3>Rien à saisir, pas de compte</h3>\n                    <p>Il n'y a ni inscription, ni email, ni mot de passe à renseigner. Vous ouvrez l'app et vous pouvez lancer une démo immédiatement. Moins de champs à remplir, c'est moins de saisie à l'aveugle, et c'est vrai jusqu'au paiement : l'app fonctionne anonymement de bout en bout.</p>\n                "
                     },
                     {
                       "tag": "div",
@@ -820,7 +820,7 @@
                     {
                       "tag": "p",
                       "attrs": {},
-                      "html": "Les démos gratuites et le mode anonyme ne demandent pas de compte Caresse, d’email ni de mot de passe. Les achats passent par votre compte Apple ou Google et son moyen de paiement. Caresse ne connaît pas votre identité ; la transaction reste gérée par le store."
+                      "html": "Non. Aucune inscription, aucun email, aucun mot de passe. L'app s'ouvre directement sur des démos audio jouables tout de suite, et l'usage reste anonyme, paiement compris."
                     }
                   ]
                 },
@@ -871,7 +871,7 @@
                     {
                       "tag": "p",
                       "attrs": {},
-                      "html": "L’app génère des sessions audio en français, anglais, espagnol et portugais. L’interface portugaise est disponible sur Android ; la mise à jour iOS est en attente de validation. Les démos sont des enregistrements fixes en français, anglais et espagnol ; les pages portugaises et allemandes utilisent les enregistrements anglais. Le site est disponible en cinq langues, mais l’app et les audios ne sont pas disponibles en allemand."
+                      "html": "En français, en anglais et en espagnol. La voix est générée nativement dans la langue choisie, y compris pour les démos gratuites."
                     }
                   ]
                 }

@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Sechs kostenlose Hörproben auf Englisch, ohne Caresse-Konto. Persönliche Sessions entstehen in der App mit Credits; kein deutsches Audio."
+      "content": "Sechs englische Caresse-Hörproben: solo, Paare, zwei Frauen oder zwei Männer, von sanft bis direkter. Wähle ein passendes Beispiel."
     },
     {
       "name": "robots",
@@ -64,7 +64,7 @@
     },
     {
       "property": "og:description",
-      "content": "Sechs kostenlose Hörproben auf Englisch, ohne Caresse-Konto. Persönliche Sessions entstehen in der App mit Credits; kein deutsches Audio."
+      "content": "Sechs Hörproben für solo oder Paare, von sanft bis direkter. Jedes Beispiel hat eine eigene Wiedergabeseite."
     },
     {
       "property": "og:image",
@@ -108,7 +108,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Sechs kostenlose Hörproben auf Englisch, ohne Caresse-Konto. Persönliche Sessions entstehen in der App mit Credits; kein deutsches Audio."
+      "content": "Sechs Caresse-Hörproben mit eigenen Wiedergabeseiten."
     },
     {
       "name": "twitter:image",
@@ -168,7 +168,7 @@
       "@id": "https://caresse.app/de/demo/#webpage",
       "url": "https://caresse.app/de/demo/",
       "name": "Caresse-Hörproben: das Format kostenlos kennenlernen",
-      "description": "Sechs kostenlose Hörproben auf Englisch, ohne Caresse-Konto. Persönliche Sessions entstehen in der App mit Credits; kein deutsches Audio.",
+      "description": "Sechs englische Hörproben für Solo-Nutzung und verschiedene Paar-Konstellationen. Jede erste Phase hat eine eigene Wiedergabeseite.",
       "inLanguage": "de",
       "isFamilyFriendly": false,
       "isPartOf": {
@@ -180,7 +180,7 @@
         "@id": "https://caresse.app/de/demo/#app"
       },
       "primaryImageOfPage": "https://caresse.app/og-image-en.png",
-      "dateModified": "2026-11-11",
+      "dateModified": "2026-10-31",
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
@@ -590,7 +590,7 @@
           "attrs": {
             "class": "hero-lede"
           },
-          "html": "Sechs kostenlose, feste Audioausschnitte zum Kennenlernen der Caresse-Stimme: englische Aufnahmen mit deutschen Texten, ohne Konto oder E-Mail. <strong>Wählt eine passende Hörprobe.</strong>"
+          "html": "Ohne Konto. Ohne E-Mail. <strong>Wählt eine passende Hörprobe.</strong>"
         },
         {
           "tag": "a",
@@ -1138,7 +1138,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Demos sind feste englische Ausschnitte mit bereits gewählten Namen und Einstellungen, bei jedem Hören unverändert. In der App erstellt die KI eine Session aus euren Namen oder Spitznamen, Solo- oder Paarmodus und Vorlieben, mit synthetischer Stimme. Die Generierung benötigt kostenpflichtige Credits, ohne Abo; Wiederholungen oder Unstimmigkeiten sind möglich. Es gibt keine deutschen App-Audios."
+                  "html": "Demos wurden einmal erstellt und werden unverändert abgespielt. Eine persönliche Session entsteht in der App aus Namen, Modus, Ort, Klangatmosphäre, Intensität und Vorlieben. Auch gleiche Einstellungen können unterschiedliche Ergebnisse liefern."
                 }
               ]
             },

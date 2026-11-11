@@ -629,7 +629,7 @@
                   "attrs": {
                     "class": "stat-label"
                   },
-                  "html": "Audiosprachen der App: Englisch, Französisch, Spanisch, Portugiesisch"
+                  "html": "Website-Demos auf Englisch, Französisch und Spanisch"
                 }
               ]
             }
@@ -693,7 +693,7 @@
                       "attrs": {
                         "class": "listen-card"
                       },
-                      "html": "\n                    <h3>Einstieg ohne Caresse-Registrierung</h3>\n                    <p>Du kannst kostenlose Demos ohne Caresse-Registrierung, E-Mail oder Passwort hören. Das bedeutet weniger Eingabefelder. Für Credits verwendest du dein Apple- oder Google-Konto: Anonymität gegenüber Caresse bedeutet keine anonyme Zahlung gegenüber dem Store.</p>\n                "
+                      "html": "\n                    <h3>Einstieg ohne Caresse-Registrierung</h3>\n                    <p>Demos sind ohne E-Mail, Passwort oder Caresse-Konto verfügbar. Weniger Eingabefelder können den Einstieg erleichtern. Für Käufe brauchst du trotzdem ein Apple- oder Google-Konto beim Store.</p>\n                "
                     },
                     {
                       "tag": "div",
@@ -822,7 +822,7 @@
                     {
                       "tag": "p",
                       "attrs": {},
-                      "html": "Kostenlose Demos und der anonyme Modus benötigen kein Caresse-Konto, keine E-Mail und kein Passwort. Käufe laufen über dein Apple- oder Google-Konto mit dessen Zahlungsmethode. Caresse kennt deine Identität nicht; der Store wickelt die Transaktion ab."
+                      "html": "Für Demos brauchst du kein Caresse-Konto, keine E-Mail und kein Passwort. Persönliche Nutzung ist im anonymen Modus möglich; Käufe benötigen trotzdem das Konto des jeweiligen Stores."
                     }
                   ]
                 },
@@ -873,7 +873,7 @@
                     {
                       "tag": "p",
                       "attrs": {},
-                      "html": "Die App generiert Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; das iOS-Update wartet auf Freigabe. Demos sind feste Aufnahmen auf Englisch, Französisch und Spanisch; portugiesische und deutsche Seiten verwenden die englischen Aufnahmen. Die Website ist in fünf Sprachen verfügbar, die App und ihre Audios sind jedoch nicht auf Deutsch verfügbar."
+                      "html": "Die App generiert auf Englisch, Französisch, Spanisch und Portugiesisch. Website-Demos gibt es auf EN, FR und ES; deutsche Beschreibungen verwenden englische Aufnahmen. Deutsch ist derzeit keine Audiosprache."
                     }
                   ]
                 }

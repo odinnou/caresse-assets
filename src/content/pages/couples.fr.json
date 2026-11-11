@@ -264,7 +264,7 @@
         {
           "tag": "p",
           "attrs": {},
-          "html": "Caresse est une application pour les adultes qui souhaitent une expérience audio intime à deux. Elle génère à la demande une fiction avec vos prénoms ou pseudonymes, vos préférences et vos limites, racontée par une voix de synthèse. Les démos sont gratuites ; créer une session personnalisée utilise des crédits payants, sans abonnement."
+          "html": "Caresse est une expérience audio intime guidée par l'IA, conçue pour les couples qui veulent ralentir, explorer de nouvelles sensations et créer des rituels qui leur appartiennent vraiment."
         },
         {
           "tag": "div",
@@ -331,7 +331,7 @@
           "attrs": {
             "class": "benefit-card"
           },
-          "html": "\n                <div class=\"icon\">🔒</div>\n                <h3>Privé et sécurisé</h3>\n                <p>Aucun contenu visuel explicite. Vos expériences restent privées. Les paramètres nécessaires sont transmis aux services de génération, conformément à la politique de confidentialité.</p>\n                "
+          "html": "\n                <div class=\"icon\">🔒</div>\n                <h3>Privé et sécurisé</h3>\n                <p>Aucun contenu visuel explicite. Aucune donnée sensible stockée. Un espace qui reste entre vous, guidé par une voix, construit par votre imagination.</p>\n                "
         }
       ]
     },
@@ -453,7 +453,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "Vos expériences ne sont ni publiques ni partagées entre utilisateurs. Les paramètres nécessaires à la génération sont transmis de manière pseudonymisée aux services d’IA et de synthèse vocale. Le prénom ou pseudonyme choisi peut être inclus, sans email ni identifiant de compte. Les données envoyées au modèle de langage (LLM) servent uniquement à générer le scénario : il ne les conserve pas et ne les utilise pas pour entraîner ses modèles. Caresse conserve vos expériences dans votre historique pour que vous puissiez les retrouver ; vous pouvez demander leur suppression selon la politique de confidentialité."
+              "html": "Vos profils et préférences restent strictement privés. Caresse ne partage aucune donnée sensible, ni avec des tiers, ni entre utilisateurs. Un alias suffit pour créer votre profil."
             }
           ]
         },

@@ -702,7 +702,7 @@
                       "attrs": {
                         "class": "listen-card"
                       },
-                      "html": "\n                    <h3>Modo convidado, sem conta Caresse</h3>\n                    <p>Você pode ouvir demos gratuitas sem cadastro, e-mail ou senha Caresse. Isso reduz os campos a preencher. Para comprar créditos, você usa sua conta Apple ou Google: o anonimato perante o Caresse não significa pagamento anônimo perante a loja.</p>\n                "
+                      "html": "\n                    <h3>Modo convidado, sem conta Caresse</h3>\n                    <p>Não é preciso informar e-mail nem criar uma senha Caresse para ouvir uma demo. Isso reduz campos a preencher. O app ainda usa um identificador de usuário; compras dependem da sua conta Apple ou Google e não são anônimas perante a loja.</p>\n                "
                     },
                     {
                       "tag": "div",
@@ -831,7 +831,7 @@
                     {
                       "tag": "p",
                       "attrs": {},
-                      "html": "As demos gratuitas e o modo convidado dispensam conta Caresse, e-mail ou senha. Compras usam sua conta Apple ou Google e seu meio de pagamento. O Caresse não conhece sua identidade; a loja gerencia a transação."
+                      "html": "Não é necessário criar uma conta Caresse para ouvir as demos ou usar o modo convidado. Compras passam pela App Store ou pelo Google Play e exigem a conta da loja e seu meio de pagamento; a transação não é anônima."
                     }
                   ]
                 },
@@ -882,7 +882,7 @@
                     {
                       "tag": "p",
                       "attrs": {},
-                      "html": "O app gera sessões de áudio em português, francês, inglês e espanhol. A interface em português está disponível no Android; a atualização para iOS aguarda aprovação. As demos são gravações fixas em francês, inglês e espanhol; as páginas em português e alemão usam as gravações em inglês. O site está disponível em cinco idiomas, mas o app e seus áudios não estão disponíveis em alemão."
+                      "html": "O app cria áudio em português, francês, inglês e espanhol. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. Os arquivos das demos do site existem em francês, inglês e espanhol; esta versão usa os áudios em inglês."
                     }
                   ]
                 }

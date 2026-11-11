@@ -708,7 +708,7 @@
                   "attrs": {
                     "class": "section-sub"
                   },
-                  "html": "Each experience is generated on demand from your choices. Session settings are sent in pseudonymized form to AI and text-to-speech providers. <strong><u>No</u></strong> data that could directly identify you is shared with these providers. Data sent to the language model (LLM) is used only to generate the scenario: the LLM does not retain it or use it to train its models."
+                  "html": "Each experience is generated on demand from your choices. Session settings are sent in pseudonymized form to AI and text-to-speech providers. <strong><u>No</u></strong> data that could directly identify you is shared with these providers."
                 },
                 {
                   "type": "element",
@@ -861,7 +861,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Your experiences are not public or shared between users. Caresse saves your experiences in your history so you can access them again; you can request their deletion under the privacy policy."
+                  "html": "No. Every generated experience is private and accessible only from your account. Nothing is published, shared between users, or made visible to third parties."
                 }
               ]
             },
@@ -878,7 +878,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Free demos and anonymous mode require no Caresse account, email or password. Purchases use your Apple or Google account and its payment method. Caresse does not know your identity; the store handles the transaction."
+                  "html": "No. Caresse works with an anonymous identifier and a first name or alias of your choice. No email address or phone number is required to use the app or make a purchase."
                 }
               ]
             },
@@ -895,7 +895,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Settings needed for generation are sent in pseudonymized form to AI and text-to-speech services. Your chosen first name or alias may be included, without your email or account identifier. Data sent to the language model (LLM) is used only to generate the scenario: the LLM does not retain it or use it to train its models."
+                  "html": "Session settings are sent in pseudonymized form to AI and text-to-speech providers to generate the audio. No data that could directly identify you is shared with these providers."
                 }
               ]
             },

@@ -719,7 +719,7 @@
                   "attrs": {
                     "class": "section-sub"
                   },
-                  "html": "Cada experiência é criada no app a partir das suas escolhas. Os parâmetros necessários são transmitidos aos fornecedores de IA e síntese de voz de forma pseudonimizada, conforme a política de privacidade. Você pode usar um pseudônimo na narração, em vez de informar um nome real. O modo convidado não elimina a transmissão necessária para a geração. Os dados enviados ao modelo de linguagem (LLM) servem apenas para gerar o roteiro: o LLM não os armazena nem os utiliza para treinar seus modelos."
+                  "html": "Cada experiência é criada no app a partir das suas escolhas. Os parâmetros necessários são transmitidos aos fornecedores de IA e síntese de voz de forma pseudonimizada, conforme a política de privacidade. Você pode usar um pseudônimo na narração, em vez de informar um nome real. O modo convidado não elimina a transmissão necessária para a geração."
                 },
                 {
                   "type": "element",
@@ -872,7 +872,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Suas experiências não são publicadas nem compartilhadas entre usuários. O Caresse salva suas experiências no histórico para você poder acessá-las novamente; você pode solicitar a exclusão conforme a política de privacidade."
+                  "html": "Não são publicadas nem compartilhadas entre usuários. O conteúdo e os dados necessários ao serviço são tratados conforme a política de privacidade, incluindo os fornecedores envolvidos na geração e no armazenamento."
                 }
               ]
             },
@@ -889,7 +889,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "As demos gratuitas e o modo convidado dispensam conta Caresse, e-mail ou senha. Compras usam sua conta Apple ou Google e seu meio de pagamento. O Caresse não conhece sua identidade; a loja gerencia a transação."
+                  "html": "O modo convidado usa um identificador de usuário e dispensa e-mail ou telefone para criar uma conta Caresse. Você pode usar um pseudônimo na narração. Compras exigem sua conta Apple ou Google e o pagamento da loja: não são anônimas perante ela."
                 }
               ]
             },
@@ -906,7 +906,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Os parâmetros necessários à geração são transmitidos de forma pseudonimizada a serviços de IA e síntese de voz. O nome ou pseudônimo escolhido pode ser incluído, sem e-mail nem identificador de conta. Os dados enviados ao modelo de linguagem (LLM) servem apenas para gerar o roteiro: o LLM não os armazena nem os utiliza para treinar seus modelos."
+                  "html": "As opções da sessão são transmitidas aos fornecedores de IA e síntese de voz para criar o roteiro e o áudio, conforme a política de privacidade. Use pseudônimos se não quiser inserir nomes reais; o modo convidado não elimina esse tratamento de dados."
                 }
               ]
             },

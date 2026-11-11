@@ -164,7 +164,7 @@
       "@type": "MobileApplication",
       "@id": "https://caresse.app/#app",
       "name": "Caresse",
-      "description": "Caresse ist eine App für intime Audiofiktion für Erwachsene, allein oder zu zweit. Aus gewählten Namen oder Spitznamen, Vorlieben und Grenzen erstellt die KI eine Session mit synthetischer Stimme. Demos sind kostenlose, feste Ausschnitte; persönliche Generierung in der App benötigt kostenpflichtige Credits, ohne Abo. App und Audio sind nicht auf Deutsch verfügbar.",
+      "description": "Caresse erstellt persönliche, immersive Audioerlebnisse für Paare und solo. Kostenloser Download mit Demos, ohne Caresse-Konto. Sessions entstehen aus euren Wünschen, eurer Stimmung und euren Grenzen, ohne explizite Bilder. In-App-Käufe ab etwa 2 € pro Session; aktuelle Preise stehen in der App.",
       "url": "https://caresse.app/de/",
       "applicationCategory": "HealthApplication",
       "operatingSystem": "iOS, Android",
@@ -249,8 +249,7 @@
       "primaryImageOfPage": "https://caresse.app/og-image-en.png",
       "video": {
         "@id": "https://caresse.app/#video"
-      },
-      "dateModified": "2026-11-11"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -353,7 +352,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "Caresse ist eine App für intime Audiofiktion für Erwachsene, allein oder zu zweit. Aus gewählten Namen oder Spitznamen, Vorlieben und Grenzen erstellt die KI eine Session mit synthetischer Stimme. Demos sind kostenlose, feste Ausschnitte; persönliche Generierung in der App benötigt kostenpflichtige Credits, ohne Abo. App und Audio sind nicht auf Deutsch verfügbar."
+              "html": "Caresse ist eine App mit persönlichen KI-Audioerlebnissen für Paare und solo. Die Geschichten entstehen aus euren Wünschen, eurer Stimmung und euren Grenzen. Keine expliziten Bilder: Eine Stimme begleitet euch, eure Vorstellungskraft gestaltet das Erlebnis."
             }
           ]
         },
@@ -387,7 +386,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "Download und feste Demos sind kostenlos. Persönliche Generierung benötigt kostenpflichtige Credits, ohne Abo; die Preise stehen vor dem Kauf in der App. Die optionale einmalige Freischaltung erweitert die Einstellungen und umfasst keine unbegrenzte Generierung."
+              "html": "Download und Demos sind kostenlos. Persönliche Sessions werden einzeln mit Credits bezahlt, ab etwa 2 €, ohne Abo. Eine optionale einmalige Freischaltung erweitert die Einstellungen. Maßgeblich sind die aktuellen Preise in der App."
             }
           ]
         },
@@ -421,7 +420,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "Die App generiert Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die App ist auf Android vollständig auf Portugiesisch verfügbar; die vollständige portugiesische iOS-Version kommt mit dem nächsten Update, das gerade geprüft wird. Demos sind feste Aufnahmen auf Englisch, Französisch und Spanisch; portugiesische und deutsche Seiten verwenden die englischen Aufnahmen. Die Website ist in fünf Sprachen verfügbar, die App und ihre Audios sind jedoch nicht auf Deutsch verfügbar."
+              "html": "Die App bietet Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; das iOS-Update wartet laut aktuellem Stand auf Freigabe. Website-Demos gibt es auf Englisch, Französisch und Spanisch. Die deutsche Website bedeutet keine deutschen App-Inhalte oder Audios."
             }
           ]
         },
@@ -439,23 +438,6 @@
               "tag": "p",
               "attrs": {},
               "html": "Ja. Solo- und Paarmodus sind verfügbar; die Personalisierung berücksichtigt den gewählten Modus und die Namen in der Erzählung. Caresse ist ausschließlich für Erwachsene."
-            }
-          ]
-        },
-        {
-          "attrs": {
-            "class": "faq-item"
-          },
-          "children": [
-            {
-              "tag": "h3",
-              "attrs": {},
-              "html": "Kann ich auf dieser Website kostenlos persönliches Audio generieren?"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "Die Website erklärt Caresse und bietet feste Demoausschnitte. Sie generiert keine persönlichen Sessions. Für eine Fiktion mit euren Namen und Vorlieben nutzt ihr die App für iPhone oder Android mit kostenpflichtigen Credits, ohne Abo. Die App und ihre Audios sind nicht auf Deutsch verfügbar."
             }
           ]
         }

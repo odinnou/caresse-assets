@@ -164,7 +164,7 @@
       "@type": "MobileApplication",
       "@id": "https://caresse.app/#app",
       "name": "Caresse",
-      "description": "Caresse is an intimate audio fiction app for adults, solo or together. AI creates a session from your chosen names or aliases, preferences and boundaries, narrated by a synthetic voice. Demos are free, fixed excerpts; creating a personalized session in the app uses paid credits, with no subscription.",
+      "description": "Caresse is an AI-guided intimacy app for couples and solo exploration that generates personalized immersive audio experiences. Free to download with demos included, no account required. Sessions are generated in real time from your desires, mood and boundaries, with no explicit visual content. In-app purchases from €2 per session.",
       "url": "https://caresse.app/en/",
       "applicationCategory": "HealthApplication",
       "operatingSystem": "iOS, Android",
@@ -214,7 +214,7 @@
       "@type": "VideoObject",
       "@id": "https://caresse.app/#video",
       "name": "Discover Caresse: Personalized AI Audio Experiences for Couples & Solo",
-      "description": "An introduction to Caresse, the AI-guided intimacy app. Every session is generated on demand from your preferences, relationship dynamic, selected intensity and boundaries. Solo or as a couple, with no explicit visual content.",
+      "description": "An introduction to Caresse, the AI-guided intimacy app. Every session is generated in real time from your preferences, relationship dynamic, selected intensity and boundaries. Solo or as a couple, with no explicit visual content.",
       "thumbnailUrl": [
         "https://i.ytimg.com/vi/hLcwrOdqChY/maxresdefault.jpg"
       ],
@@ -249,8 +249,7 @@
       "primaryImageOfPage": "https://caresse.app/og-image-en.png",
       "video": {
         "@id": "https://caresse.app/#video"
-      },
-      "dateModified": "2026-11-11"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -353,7 +352,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "Caresse is an intimate audio fiction app for adults, solo or together. AI creates a session from your chosen names or aliases, preferences and boundaries, narrated by a synthetic voice. Demos are free, fixed excerpts; creating a personalized session in the app uses paid credits, with no subscription."
+              "html": "Caresse is an AI-guided intimacy app for couples and solo exploration. It generates immersive audio experiences in real time, personalized to your desires, mood and boundaries. There is no explicit visual content: everything rests on a guiding voice and your imagination."
             }
           ]
         },
@@ -387,7 +386,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "Downloading and fixed demos are free. Creating a personalized session uses paid credits, with no subscription; prices are shown in the app before purchase. The optional one-time unlock expands customization options and does not include unlimited generation."
+              "html": "Downloading is free and includes demos. After that you pay per session, from €2 — there is no subscription. An optional one-time unlock gives access to more personalization options."
             }
           ]
         },
@@ -404,7 +403,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "A catalogue replays existing recordings. Caresse writes and generates each session at the moment you start it: two sessions with the same settings can produce different results. Because the content is generative, repetitions or slight inconsistencies remain possible."
+              "html": "A catalogue replays existing recordings. Caresse writes and generates each session at the moment you start it: two sessions with the same settings will never be identical. In return, because the content is generative, slight inconsistencies remain possible."
             }
           ]
         },
@@ -421,7 +420,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "The app generates audio sessions in English, French, Spanish and Portuguese. The app is fully available in Portuguese on Android; full Portuguese support on iOS is in the next update, currently under review. Demos are fixed recordings in English, French and Spanish; Portuguese and German pages use the English recordings. The website is available in five languages, but the app and its audio are not available in German."
+              "html": "The app offers audio sessions in English, French, Spanish and Portuguese. The Portuguese interface is available on Android; the iOS update is awaiting approval. Demos published on the website are in English, French and Spanish."
             }
           ]
         },
@@ -439,23 +438,6 @@
               "tag": "p",
               "attrs": {},
               "html": "Both. Solo and duo modes are available, and personalization adapts to the mode you choose, including the first names used in the narration. Caresse is for adults only."
-            }
-          ]
-        },
-        {
-          "attrs": {
-            "class": "faq-item"
-          },
-          "children": [
-            {
-              "tag": "h3",
-              "attrs": {},
-              "html": "Can I generate personalized audio for free on this website?"
-            },
-            {
-              "tag": "p",
-              "attrs": {},
-              "html": "The website explains Caresse and offers fixed demo excerpts. It does not generate personalized sessions. To create fiction with your chosen names and preferences, use the iPhone or Android app with paid credits, without a subscription."
             }
           ]
         }

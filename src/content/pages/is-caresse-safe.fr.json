@@ -708,7 +708,7 @@
                   "attrs": {
                     "class": "section-sub"
                   },
-                  "html": "Chaque expérience est générée à la demande à partir de vos choix. Les paramètres de session sont transmis de façon pseudonymisée aux fournisseurs d'IA et de synthèse vocale, sans donnée permettant de vous identifier directement. Les données envoyées au modèle de langage (LLM) servent uniquement à générer le scénario : il ne les conserve pas et ne les utilise pas pour entraîner ses modèles."
+                  "html": "Chaque expérience est générée à la demande à partir de vos choix. Les paramètres de session sont transmis de façon pseudonymisée aux fournisseurs d'IA et de synthèse vocale, sans donnée permettant de vous identifier directement."
                 },
                 {
                   "type": "element",
@@ -861,7 +861,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Vos expériences ne sont ni publiques ni partagées entre utilisateurs. Caresse conserve vos expériences dans votre historique pour que vous puissiez les retrouver ; vous pouvez demander leur suppression selon la politique de confidentialité."
+                  "html": "Non. Chaque expérience générée est privée et accessible uniquement depuis votre compte. Rien n'est publié, partagé entre utilisateurs ou rendu visible à des tiers."
                 }
               ]
             },
@@ -878,7 +878,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Les démos gratuites et le mode anonyme ne demandent pas de compte Caresse, d’email ni de mot de passe. Les achats passent par votre compte Apple ou Google et son moyen de paiement. Caresse ne connaît pas votre identité ; la transaction reste gérée par le store."
+                  "html": "Non. Caresse fonctionne avec un identifiant anonyme et un prénom ou pseudonyme de votre choix. Aucune adresse email ni numéro de téléphone n'est requis pour utiliser l'application ou effectuer un achat."
                 }
               ]
             },
@@ -895,7 +895,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Les paramètres de session sont transmis de manière pseudonymisée à des fournisseurs d'IA et de synthèse vocale pour générer l'audio. <strong><u>Aucune</u></strong> donnée permettant de vous identifier directement n'est partagée avec ces prestataires. Les données envoyées au modèle de langage (LLM) servent uniquement à générer le scénario : il ne les conserve pas et ne les utilise pas pour entraîner ses modèles."
+                  "html": "Les paramètres de session sont transmis de manière pseudonymisée à des fournisseurs d'IA et de synthèse vocale pour générer l'audio. <strong><u>Aucune</u></strong> donnée permettant de vous identifier directement n'est partagée avec ces prestataires."
                 }
               ]
             },

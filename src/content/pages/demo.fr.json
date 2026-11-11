@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Écoutez six extraits audio Caresse gratuits, sans compte. Solo ou couple. Les sessions personnalisées se créent dans l’app avec des crédits payants."
+      "content": "Explorez six démos audio Caresse en français : solo, couple, deux femmes ou deux hommes, du plus doux au plus direct. Choisissez la session à écouter."
     },
     {
       "name": "robots",
@@ -64,7 +64,7 @@
     },
     {
       "property": "og:description",
-      "content": "Écoutez six extraits audio Caresse gratuits, sans compte. Solo ou couple. Les sessions personnalisées se créent dans l’app avec des crédits payants."
+      "content": "Six démos audio Caresse à explorer : solo ou en couple, du plus doux au plus direct. Chaque écoute possède sa page dédiée."
     },
     {
       "property": "og:image",
@@ -108,7 +108,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Écoutez six extraits audio Caresse gratuits, sans compte. Solo ou couple. Les sessions personnalisées se créent dans l’app avec des crédits payants."
+      "content": "Six démos audio Caresse, chacune sur sa page d’écoute dédiée."
     },
     {
       "name": "twitter:image",
@@ -168,7 +168,7 @@
       "@id": "https://caresse.app/demo/#webpage",
       "url": "https://caresse.app/demo/",
       "name": "Démo audio Caresse : écoutez une expérience gratuitement",
-      "description": "Écoutez six extraits audio Caresse gratuits, sans compte. Solo ou couple. Les sessions personnalisées se créent dans l’app avec des crédits payants.",
+      "description": "Hub de six démos audio Caresse en français : solo, couple hétéro, deux femmes et deux hommes, avec une page d’écoute dédiée pour chaque première phase.",
       "inLanguage": "fr",
       "isFamilyFriendly": false,
       "isPartOf": {
@@ -180,7 +180,7 @@
         "@id": "https://caresse.app/demo/#app"
       },
       "primaryImageOfPage": "https://caresse.app/og-image-fr.png",
-      "dateModified": "2026-11-11",
+      "dateModified": "2026-10-31",
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
@@ -590,7 +590,7 @@
           "attrs": {
             "class": "hero-lede"
           },
-          "html": "Six extraits audio fixes et gratuits pour découvrir la voix de Caresse, sans compte ni email. <strong>Choisissez la démo qui vous ressemble.</strong>"
+          "html": "Pas de compte. Pas d'email. <strong>Choisissez la démo qui vous ressemble.</strong>"
         },
         {
           "tag": "a",
@@ -1138,7 +1138,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Les démos sont des extraits fixes, avec des prénoms et préférences déjà choisis, identiques à chaque écoute. Dans l’app, l’IA crée une session avec vos propres prénoms ou pseudonymes, votre mode solo ou duo et vos préférences, racontée par une voix de synthèse. Cette création utilise des crédits payants, sans abonnement ; des répétitions ou incohérences restent possibles."
+                  "html": "Ces premières phases sont pré-générés : ils ont été produits une fois et servis à tout le monde à l'identique. Dans l'application, Caresse génère l'expérience pour vous à la demande, à partir de vos prénoms, du mode solo ou duo, du lieu, de l'ambiance sonore, du niveau d'intensité, des pratiques et des accessoires retenus. Deux sessions configurées de la même façon ne donnent pas le même texte ni le même déroulé."
                 }
               ]
             },

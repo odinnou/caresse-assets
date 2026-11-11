@@ -708,7 +708,7 @@
                   "attrs": {
                     "class": "section-sub"
                   },
-                  "html": "Cada experiencia se genera bajo demanda a partir de tus elecciones. Los parámetros de sesión se transmiten de forma seudonimizada a proveedores de IA y de síntesis de voz. <strong><u>Ningún</u></strong> dato que pueda identificarte directamente se comparte con estos proveedores. Los datos enviados al modelo de lenguaje (LLM) se usan únicamente para generar el guion: el LLM no los conserva ni los utiliza para entrenar sus modelos."
+                  "html": "Cada experiencia se genera bajo demanda a partir de tus elecciones. Los parámetros de sesión se transmiten de forma seudonimizada a proveedores de IA y de síntesis de voz. <strong><u>Ningún</u></strong> dato que pueda identificarte directamente se comparte con estos proveedores."
                 },
                 {
                   "type": "element",
@@ -861,7 +861,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Tus experiencias no son públicas ni se comparten entre usuarios. Caresse guarda tus experiencias en el historial para que puedas volver a ellas; puedes solicitar su eliminación según la política de privacidad."
+                  "html": "No. Cada experiencia generada es privada y solo es accesible desde tu cuenta. Nada se publica, se comparte entre usuarios ni se hace visible a terceros."
                 }
               ]
             },
@@ -878,7 +878,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Las demos gratuitas y el modo anónimo no requieren una cuenta de Caresse, correo electrónico ni contraseña. Las compras usan tu cuenta de Apple o Google y su método de pago. Caresse no conoce tu identidad; la tienda gestiona la transacción."
+                  "html": "No. Caresse funciona con un identificador anónimo y un nombre o alias de tu elección. No se requiere correo electrónico ni número de teléfono para usar la app o realizar una compra."
                 }
               ]
             },
@@ -895,7 +895,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Los parámetros necesarios para la generación se transmiten de forma seudonimizada a servicios de IA y síntesis de voz. Pueden incluir el nombre o seudónimo elegido, sin correo electrónico ni identificador de cuenta. Los datos enviados al modelo de lenguaje (LLM) se usan únicamente para generar el guion: el LLM no los conserva ni los utiliza para entrenar sus modelos."
+                  "html": "Los parámetros de sesión se transmiten de forma seudonimizada a proveedores de IA y de síntesis de voz para generar el audio. Ningún dato que pueda identificarte directamente se comparte con estos proveedores."
                 }
               ]
             },

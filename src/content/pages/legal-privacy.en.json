@@ -87,7 +87,7 @@
       "type": "element",
       "tag": "p",
       "attrs": {},
-      "html": "<strong>Last updated:</strong> November 10, 2026"
+      "html": "<strong>Last updated:</strong> September 5, 2026"
     },
     {
       "type": "container",
@@ -156,7 +156,7 @@
       "type": "element",
       "tag": "p",
       "attrs": {},
-      "html": "To generate experiences, certain parameters are transmitted to third-party AI and text-to-speech (TTS) services. This transmission is pseudonymized: the first name or alias you provided may be included, but no data that directly identifies you (email, account identifier, full legal name) is shared. Data sent to the language model (LLM) is used only to generate the scenario: the LLM does not retain it or use it to train its models."
+      "html": "To generate experiences, certain parameters are transmitted to third-party AI and text-to-speech (TTS) services. This transmission is pseudonymized: the first name or alias you provided may be included, but no data that directly identifies you (email, account identifier, full legal name) is shared."
     },
     {
       "type": "element",

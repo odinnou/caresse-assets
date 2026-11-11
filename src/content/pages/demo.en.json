@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Listen to six free Caresse audio excerpts, no account needed. Solo or together. Personalized sessions are created in the app with paid credits."
+      "content": "Explore six Caresse audio demos in English: solo, couples, two women or two men, from gentle to direct. Choose the session you want to hear."
     },
     {
       "name": "robots",
@@ -64,7 +64,7 @@
     },
     {
       "property": "og:description",
-      "content": "Listen to six free Caresse audio excerpts, no account needed. Solo or together. Personalized sessions are created in the app with paid credits."
+      "content": "Six Caresse audio demos to explore: solo or as a couple, from gentle to direct. Each has its own listening page."
     },
     {
       "property": "og:image",
@@ -108,7 +108,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Listen to six free Caresse audio excerpts, no account needed. Solo or together. Personalized sessions are created in the app with paid credits."
+      "content": "Six Caresse audio demos, each with its own dedicated listening page."
     },
     {
       "name": "twitter:image",
@@ -168,7 +168,7 @@
       "@id": "https://caresse.app/en/demo/#webpage",
       "url": "https://caresse.app/en/demo/",
       "name": "Caresse audio demo: listen to a real experience, free",
-      "description": "Listen to six free Caresse audio excerpts, no account needed. Solo or together. Personalized sessions are created in the app with paid credits.",
+      "description": "A hub of six Caresse audio demos in English: solo, mixed-gender couples, two women and two men, with a dedicated listening page for every first phase.",
       "inLanguage": "en",
       "isFamilyFriendly": false,
       "isPartOf": {
@@ -180,7 +180,7 @@
         "@id": "https://caresse.app/en/demo/#app"
       },
       "primaryImageOfPage": "https://caresse.app/og-image-en.png",
-      "dateModified": "2026-11-11",
+      "dateModified": "2026-10-31",
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
@@ -590,7 +590,7 @@
           "attrs": {
             "class": "hero-lede"
           },
-          "html": "Six free, fixed audio excerpts to discover the Caresse voice, without an account or email. <strong>Choose the demo that fits you.</strong>"
+          "html": "No account. No email. <strong>Choose the demo that fits you.</strong>"
         },
         {
           "tag": "a",
@@ -1138,7 +1138,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Demos are fixed excerpts with names and preferences already chosen, identical on every listen. In the app, AI creates a session using your own names or aliases, solo or duo mode and preferences, narrated by a synthetic voice. Creating it uses paid credits, without a subscription; repetitions or inconsistencies remain possible."
+                  "html": "These first phases are pre-generated: they were produced once and are served identically to everyone. In the app, Caresse generates the experience for you on demand, from your first names, solo or duo mode, the location, the sound ambience, the intensity level, and the practices and accessories you select. Two sessions configured the same way do not produce the same script or the same arc."
                 }
               ]
             },

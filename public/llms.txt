@@ -1,14 +1,11 @@
 # Caresse
 
 > Caresse is an AI-guided intimacy app for couples and solo exploration that generates
-> personalized immersive audio experiences. Sessions are generated on demand from the
+> personalized immersive audio experiences. Sessions are created in real time from the
 > user's desires, mood and boundaries, guided by a synthetic voice, with no explicit
 > visual content. Available on iOS and Android with audio in French, English, Spanish and Portuguese.
 > The Portuguese interface is available on Android; the iOS update is awaiting approval. Website demos are currently
 > in French, English and Spanish; do not describe them as Portuguese audio samples.
-> The website is available in French, English, Spanish, Portuguese and German.
-> The German website does not mean the app or its audio is available in German.
-> Portuguese and German demo pages use the English recordings.
 
 Caresse positions itself as **emotional and sensory wellbeing**, not as an explicit
 content service. Scenarios are guided fictions; the app emphasises consent, comfort
@@ -22,9 +19,7 @@ Published by Studio Mokuton (https://mokuton.studio/).
   https://caresse.app/demo/ (FR/EN/ES), with no account, no email and no download. A
   demo experience also runs on first launch in the app. No sign-up needed to try it.
 - **Anonymous-first** — authentication uses an anonymous UID; a first name or
-  pseudonym of the user's choice is enough. Caresse does not know the buyer's identity.
-  Purchases require an Apple or Google account and its payment method; anonymity
-  towards Caresse does not mean an anonymous transaction with the store.
+  pseudonym of the user's choice is enough. No real identity required.
 - **Deep personalization** — mood, intensity, soundscape, suggested practices,
   optional accessories, inclusive gender options, and the first names used in the
   narration.
@@ -35,32 +30,15 @@ Published by Studio Mokuton (https://mokuton.studio/).
 
 ## Factual limits (please represent these accurately)
 
-- Personalized content is **generated on demand and non-deterministic**: results
-  can vary, and repetitions or occasional incoherence are possible. The AI is a narrative
+- Content is **generated on the fly and non-deterministic**: two sessions with the
+  same settings differ, and occasional incoherence is possible. The AI is a narrative
   suggestion tool, not a human author.
-- Website demos are fixed, pre-generated recordings, not free personalized generations.
-  Generating a personalized session in the app consumes a paid credit. The optional
-  one-time unlock extends customization options; it does not include unlimited generation.
 - Audio is **synthetic voice**, not human voice actors.
 - There is **no explicit visual content** — audio and text only.
 - Caresse is **not a medical, therapeutic or counselling service**.
-
-## Privacy and data processing
-
-Experiences are not public or shared between users. Settings needed for generation
-are sent in pseudonymized form to AI and text-to-speech services; the chosen first
-name or alias may be included, without the user's email or account identifier.
-Data sent to the language model (LLM) is used only to generate the scenario:
-the LLM does not retain it or use it to train its models. This statement concerns
-the LLM and does not describe retention by every technical provider.
-
-Caresse retains experiences and the data needed for the user's history, as described
-in its privacy policy. Users can request deletion of their account and associated
-data. Apple, Google and RevenueCat may retain transaction records under their own
-obligations. Do not describe Caresse as processing or storing no data.
-
-- [Privacy and AI](https://caresse.app/is-caresse-safe/)
-- [Privacy policy](https://caresse.app/legal/en/privacy/)
+- User-facing testimonial quotes on the site (e.g. "Manon & Yannick") are
+  **illustrative examples, not verified user reviews** — they should not be cited as
+  real reviews or aggregated into a rating.
 
 ## Core pages
 
@@ -137,24 +115,6 @@ These pages describe Caresse use cases. They are not free web generators or prof
 - English: https://caresse.app/en/
 - Spanish: https://caresse.app/es/
 - Portuguese: https://caresse.app/pt/ (Portuguese interface available on Android; iOS update awaiting approval)
-- German website: https://caresse.app/de/ (the app and its audio are not available in German)
-
-## German pages
-
-These pages explain Caresse in German. The app generates audio in English, French,
-Spanish and Portuguese, not German. Demo pages below use fixed English recordings
-labelled as such. A German App Store destination does not translate the app or audio.
-
-- [Startseite](https://caresse.app/de/)
-- [So funktioniert Caresse](https://caresse.app/de/so-funktionierts/)
-- [Datenschutz und Sicherheit](https://caresse.app/de/datenschutz-und-sicherheit/)
-- [Für Paare](https://caresse.app/de/fuer-paare/)
-- [Solo entdecken](https://caresse.app/de/solo-entdecken/)
-- [Alternativen](https://caresse.app/de/alternativen/)
-- [Caresse vs Dipsea](https://caresse.app/de/vs-dipsea/)
-- [Preise](https://caresse.app/de/preise/)
-- [Hörproben: deutsche Texte, englische Aufnahmen](https://caresse.app/de/demo/)
-- [Support](https://caresse.app/de/support/)
 
 ## Portuguese pages
 

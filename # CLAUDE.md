@@ -25,6 +25,10 @@ fait pour le crawler, jamais en CTA visible qui détourne l'utilisateur final.
 
 👉 Détail, invariants techniques et checklist : [`SEO-GOLDEN-RULE.md`](SEO-GOLDEN-RULE.md)
 
+Pour les futurs travaux SEO/GEO, utiliser une branche d’analyse comme source
+uniquement sur demande explicite du propriétaire. Ne pas consulter ou importer
+ces analyses automatiquement.
+
 ---
 
 ## 🎯 Objectif produit

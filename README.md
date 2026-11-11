@@ -76,8 +76,8 @@ contrôles HTTP, cohérence des faits et plan de mesure :
 
 Faits produit harmonisés pour le contenu et `llms.txt`, avec leur source et la
 portée des garanties de confidentialité : [référentiel GEO](docs/GEO-PRODUCT-FACTS.md).
-Le contrôle `test:i18n` vérifie aussi les réponses FAQ visibles et les liens de
-l’inventaire `llms.txt` après le build.
+Les contrôles des FAQ visibles et des liens `llms.txt` accompagnent les
+améliorations du site dans la PR dédiée #101.
 
 Suite du chantier : [mise en œuvre GEO du 10 novembre](docs/GEO-EXECUTION-2026-11-10.md),
 [panel, rapports Umami et contrôles publics](docs/geo/README.md).

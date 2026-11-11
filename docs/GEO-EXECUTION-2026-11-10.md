@@ -1,5 +1,11 @@
 # GEO : mise en œuvre et point de départ du 10 novembre 2026
 
+> Branche de référence pour l’analyse et l’outillage, à conserver hors de `main_v2`.
+> Les améliorations du site sont proposées séparément dans la PR #101.
+> Les descriptions d’implémentation ci-dessous documentent ce travail ; le code
+> de production correspondant appartient à cette autre branche. Pour de futurs
+> travaux SEO/GEO, consulter cette analyse uniquement sur demande explicite du propriétaire.
+
 L’objectif est d’être découvert sur des demandes compatibles avec Caresse, décrit
 fidèlement, puis de conduire au store. Les améliorations sont préparées dans le
 dépôt ; elles ne sont pas encore déployées. Aucun gain de citation, de trafic ou

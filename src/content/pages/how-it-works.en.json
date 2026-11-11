@@ -941,7 +941,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Your experiences are not public or shared between users. Settings needed for generation are sent in pseudonymized form to AI and text-to-speech services. Your chosen first name or alias may be included, without your email or account identifier. Data sent to the language model (LLM) is used only to generate the scenario: the LLM does not retain it or use it to train its models. Caresse saves your experiences in your history so you can access them again; you can request their deletion under the privacy policy."
+                  "html": "Yes. Your sessions are never public or shared between users. An alias is enough to create your profile: your real data stays yours."
                 }
               ]
             },
@@ -975,7 +975,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "The app generates audio sessions in English, French, Spanish and Portuguese. The Portuguese interface is available on Android; the iOS update is awaiting approval. Demos are fixed recordings in English, French and Spanish; Portuguese and German pages use the English recordings. The website is available in five languages, but the app and its audio are not available in German."
+                  "html": "Caresse is available in English, French and Spanish."
                 }
               ]
             }

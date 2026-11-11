@@ -710,7 +710,7 @@
                   "attrs": {
                     "class": "section-sub"
                   },
-                  "html": "Für persönliche Sessions werden notwendige Einstellungen pseudonymisiert an KI- und Sprachdienste übermittelt. <strong><u>Keine</u></strong> direkt identifizierenden Daten wie E-Mail oder vollständiger rechtlicher Name werden dafür weitergegeben. Die an das Sprachmodell (LLM) gesendeten Daten dienen nur zur Generierung der Geschichte: Das LLM speichert sie nicht und verwendet sie nicht zum Trainieren seiner Modelle."
+                  "html": "Für persönliche Sessions werden notwendige Einstellungen pseudonymisiert an KI- und Sprachdienste übermittelt. <strong><u>Nein</u></strong> direkt identifizierende Daten wie E-Mail oder vollständiger rechtlicher Name werden dafür nicht weitergegeben."
                 },
                 {
                   "type": "element",
@@ -863,7 +863,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Deine Erfahrungen sind nicht öffentlich und werden nicht zwischen Nutzern geteilt. Caresse speichert deine Erfahrungen im Verlauf, damit du sie erneut aufrufen kannst; du kannst ihre Löschung nach der Datenschutzerklärung verlangen."
+                  "html": "Nein. Erfahrungen werden nicht öffentlich oder zwischen Nutzern geteilt. Technische Dienstleister verarbeiten notwendige Angaben nach der Datenschutzerklärung; das ist von einer öffentlichen Veröffentlichung zu unterscheiden."
                 }
               ]
             },
@@ -880,7 +880,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Kostenlose Demos und der anonyme Modus benötigen kein Caresse-Konto, keine E-Mail und kein Passwort. Käufe laufen über dein Apple- oder Google-Konto mit dessen Zahlungsmethode. Caresse kennt deine Identität nicht; der Store wickelt die Transaktion ab."
+                  "html": "Caresse verwendet einen anonymen Identifikator und gewählten Namen oder Spitznamen, ohne E-Mail oder Telefonnummer zur Caresse-Nutzung. Käufe benötigen jedoch ein Apple- oder Google-Konto beim Store."
                 }
               ]
             },
@@ -897,7 +897,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Für die Generierung notwendige Einstellungen werden pseudonymisiert an KI- und Sprachsynthesedienste übermittelt. Dein gewählter Vorname oder Spitzname kann enthalten sein, jedoch keine E-Mail oder Kontokennung. Die an das Sprachmodell (LLM) gesendeten Daten dienen nur zur Generierung der Geschichte: Das LLM speichert sie nicht und verwendet sie nicht zum Trainieren seiner Modelle."
+                  "html": "Notwendige Session-Einstellungen werden pseudonymisiert an KI- und Sprachdienste übermittelt. Dein gewählter Name oder Spitzname kann enthalten sein, direkte Identifikationsangaben wie E-Mail werden nicht dafür geteilt."
                 }
               ]
             },

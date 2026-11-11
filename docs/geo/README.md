@@ -1,5 +1,11 @@
 # Suivi GEO : de la découverte au clic store
 
+> Branche de référence pour l’analyse et l’outillage, à conserver hors de `main_v2`.
+> Les améliorations du site sont proposées séparément dans la PR #101.
+> Les descriptions d’implémentation ci-dessous documentent ce travail ; le code
+> de production correspondant appartient à cette autre branche. Pour de futurs
+> travaux SEO/GEO, consulter cette analyse uniquement sur demande explicite du propriétaire.
+
 Le panel contient 40 questions FR/EN/ES/PT/DE : 29 intentions compatibles,
 10 vérifications de marque et un contrôle négatif sur les enregistrements allemands.
 Les questions ES/PT ont été ajoutées le 10 novembre 2026. Comparer les séries avec

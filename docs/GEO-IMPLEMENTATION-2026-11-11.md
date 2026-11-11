@@ -1,5 +1,11 @@
 # Implémentation GEO et priorités SEO — 11 novembre 2026
 
+> Branche de référence pour l’analyse et l’outillage, à conserver hors de `main_v2`.
+> Les améliorations du site sont proposées séparément dans la PR #101.
+> Les descriptions d’implémentation ci-dessous documentent ce travail ; le code
+> de production correspondant appartient à cette autre branche. Pour de futurs
+> travaux SEO/GEO, consulter cette analyse uniquement sur demande explicite du propriétaire.
+
 Le propriétaire demande de poursuivre l’implémentation, sans contrôle IA payant.
 Aucun contrôle payant ni suivi récurrent n’a été lancé. La suite s’appuie sur les
 données Search Console et l’export Umami déjà obtenus, sans nouvelle collecte payante.
@@ -91,4 +97,4 @@ disponibles dans [geo/README.md](geo/README.md).
 - Le contrôle navigateur conservé en CI inclut désormais les accueils et démos,
   en plus des pages couples et jeu pour couple.
 
-Les changements restent locaux : aucun déploiement n’a été effectué dans ce lot.
+Les améliorations sont proposées dans la PR #101 ; aucun déploiement n’a été effectué dans ce lot.

@@ -22,7 +22,7 @@
     },
     {
       "name": "description",
-      "content": "An intimate experience carried entirely by voice, built to be lived without reading the screen. Useful if you are blind or have low vision: no account, no email, audio in English, French, Spanish and Portuguese."
+      "content": "An intimate experience carried entirely by voice, built to be lived without reading the screen. Useful if you are blind or have low vision: no account, no email, audio in English, French and Spanish."
     },
     {
       "name": "robots",
@@ -163,7 +163,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse, an intimate experience lived by ear",
-      "description": "An intimate experience carried entirely by voice, built to be lived without reading the screen. Useful if you are blind or have low vision: no account, no email, audio in English, French, Spanish and Portuguese.",
+      "description": "An intimate experience carried entirely by voice, built to be lived without reading the screen. Useful if you are blind or have low vision: no account, no email, audio in English, French and Spanish.",
       "url": "https://caresse.app/en/for-blind-and-low-vision/",
       "inLanguage": "en",
       "dateModified": "2026-10-31",
@@ -627,7 +627,7 @@
                   "attrs": {
                     "class": "stat-label"
                   },
-                  "html": "audio languages in the app: English, French, Spanish, Portuguese"
+                  "html": "audio languages: English, French, Spanish"
                 }
               ]
             }
@@ -691,7 +691,7 @@
                       "attrs": {
                         "class": "listen-card"
                       },
-                      "html": "\n                    <h3>Nothing to type, no account</h3>\n                    <p>You can listen to free demos without a Caresse sign-up, email or password. That means fewer fields to fill in. To buy credits, you use your Apple or Google account: anonymity towards Caresse does not mean anonymous payment to the store.</p>\n                "
+                      "html": "\n                    <h3>Nothing to type, no account</h3>\n                    <p>There's no sign-up, no email, no password to enter. You open the app and can play a demo straight away. Fewer fields to fill in means less typing you can't see, and it holds all the way through payment: the app runs anonymously from end to end.</p>\n                "
                     },
                     {
                       "tag": "div",
@@ -820,7 +820,7 @@
                     {
                       "tag": "p",
                       "attrs": {},
-                      "html": "Free demos and anonymous mode require no Caresse account, email or password. Purchases use your Apple or Google account and its payment method. Caresse does not know your identity; the store handles the transaction."
+                      "html": "No. No sign-up, no email, no password. The app opens straight onto audio demos you can play right away, and use stays anonymous, payment included."
                     }
                   ]
                 },
@@ -871,7 +871,7 @@
                     {
                       "tag": "p",
                       "attrs": {},
-                      "html": "The app generates audio sessions in English, French, Spanish and Portuguese. The Portuguese interface is available on Android; the iOS update is awaiting approval. Demos are fixed recordings in English, French and Spanish; Portuguese and German pages use the English recordings. The website is available in five languages, but the app and its audio are not available in German."
+                      "html": "English, French and Spanish. The voice is generated natively in the chosen language, including for the free demos."
                     }
                   ]
                 }

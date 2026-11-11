@@ -937,7 +937,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Tus experiencias no son públicas ni se comparten entre usuarios. Los parámetros necesarios para la generación se transmiten de forma seudonimizada a servicios de IA y síntesis de voz. Pueden incluir el nombre o seudónimo elegido, sin correo electrónico ni identificador de cuenta. Los datos enviados al modelo de lenguaje (LLM) se usan únicamente para generar el guion: el LLM no los conserva ni los utiliza para entrenar sus modelos. Caresse guarda tus experiencias en el historial para que puedas volver a ellas; puedes solicitar su eliminación según la política de privacidad."
+                  "html": "Sí. Tus sesiones nunca son públicas ni se comparten entre usuarios. Un alias basta para crear tu perfil: tus datos reales siguen siendo tuyos."
                 }
               ]
             },
@@ -971,7 +971,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "La app genera sesiones de audio en español, francés, inglés y portugués. La interfaz en portugués está disponible en Android; la actualización para iOS está pendiente de aprobación. Las demos son grabaciones fijas en español, francés e inglés; las páginas en portugués y alemán usan las grabaciones en inglés. El sitio está disponible en cinco idiomas, pero la app y sus audios no están disponibles en alemán."
+                  "html": "Caresse está disponible en francés, inglés y español."
                 }
               ]
             }

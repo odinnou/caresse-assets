@@ -1,5 +1,11 @@
 # Faits produit pour les pages Caresse et llms.txt
 
+> Branche de référence pour l’analyse et l’outillage, à conserver hors de `main_v2`.
+> Les améliorations du site sont proposées séparément dans la PR #101.
+> Les descriptions d’implémentation ci-dessous documentent ce travail ; le code
+> de production correspondant appartient à cette autre branche. Pour de futurs
+> travaux SEO/GEO, consulter cette analyse uniquement sur demande explicite du propriétaire.
+
 État du 10 novembre 2026. Premier chantier de l’issue #99 : rendre les réponses
 sur Caresse cohérentes dans les cinq langues. Ce document sert de référence
 éditoriale ; il ne décrit pas un changement du fonctionnement de l’application.
