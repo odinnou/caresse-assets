@@ -264,7 +264,7 @@
         {
           "tag": "p",
           "attrs": {},
-          "html": "Caresse bietet persönliche KI-Audioerlebnisse für Paare, die gemeinsam langsamer werden, neue Empfindungen entdecken und eigene Rituale gestalten möchten."
+          "html": "Caresse ist eine App für Erwachsene, die gemeinsam eine intime Audioerfahrung erleben möchten. Aus euren gewählten Namen oder Spitznamen, Vorlieben und Grenzen entsteht auf Anfrage eine Fiktion mit synthetischer Stimme. Demos sind kostenlos; persönliche Sessions benötigen kostenpflichtige Credits, ohne Abonnement."
         },
         {
           "tag": "div",
@@ -331,7 +331,7 @@
           "attrs": {
             "class": "benefit-card"
           },
-          "html": "\n                <div class=\"icon\">🔒</div>\n                \n                <h3>Privat und diskret</h3>\n                \n                <p>Keine expliziten Bilder. Persönliche Erfahrungen werden nicht öffentlich geteilt. Notwendige Einstellungen werden gemäß Datenschutzerklärung verarbeitet; ein Spitzname genügt.</p>\n            "
+          "html": "\n                <div class=\"icon\">🔒</div>\n                \n                <h3>Privat und diskret</h3>\n                \n                <p>Keine expliziten Bilder. Eure Erfahrungen bleiben privat. Notwendige Einstellungen werden nach der Datenschutzerklärung an die Generierungsdienste übermittelt.</p>\n            "
         }
       ]
     },
@@ -453,7 +453,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "Eure Erfahrungen sind nicht öffentlich oder für andere Nutzer sichtbar. Für die Generierung werden notwendige Einstellungen pseudonymisiert an KI- und Sprachdienste übermittelt. Einzelheiten stehen in der Datenschutzerklärung. Ein Spitzname genügt."
+              "html": "Deine Erfahrungen sind nicht öffentlich und werden nicht zwischen Nutzern geteilt. Für die Generierung notwendige Einstellungen werden pseudonymisiert an KI- und Sprachsynthesedienste übermittelt. Dein gewählter Vorname oder Spitzname kann enthalten sein, jedoch keine E-Mail oder Kontokennung. Die an das Sprachmodell (LLM) gesendeten Daten dienen nur zur Generierung der Geschichte: Das LLM speichert sie nicht und verwendet sie nicht zum Trainieren seiner Modelle. Caresse speichert deine Erfahrungen im Verlauf, damit du sie erneut aufrufen kannst; du kannst ihre Löschung nach der Datenschutzerklärung verlangen."
             }
           ]
         },

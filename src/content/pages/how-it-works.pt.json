@@ -951,7 +951,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "As sessões não são publicadas nem compartilhadas entre usuários. O app trata os dados necessários ao serviço, incluindo a geração com fornecedores de IA, conforme a política de privacidade. Você pode usar um pseudônimo na narração."
+                  "html": "Suas experiências não são publicadas nem compartilhadas entre usuários. Os parâmetros necessários à geração são transmitidos de forma pseudonimizada a serviços de IA e síntese de voz. O nome ou pseudônimo escolhido pode ser incluído, sem e-mail nem identificador de conta. Os dados enviados ao modelo de linguagem (LLM) servem apenas para gerar o roteiro: o LLM não os armazena nem os utiliza para treinar seus modelos. O Caresse salva suas experiências no histórico para você poder acessá-las novamente; você pode solicitar a exclusão conforme a política de privacidade."
                 }
               ]
             },
@@ -985,7 +985,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "O app cria áudios em português, francês, inglês e espanhol. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. As demos do site estão em francês, inglês e espanhol; esta versão usa os áudios em inglês."
+                  "html": "O app gera sessões de áudio em português, francês, inglês e espanhol. A interface em português está disponível no Android; a atualização para iOS aguarda aprovação. As demos são gravações fixas em francês, inglês e espanhol; as páginas em português e alemão usam as gravações em inglês. O site está disponível em cinco idiomas, mas o app e seus áudios não estão disponíveis em alemão."
                 }
               ]
             }

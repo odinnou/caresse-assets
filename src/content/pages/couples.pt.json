@@ -265,7 +265,7 @@
         {
           "tag": "p",
           "attrs": {},
-          "html": "O Caresse oferece experiências íntimas em áudio guiadas por IA para casais que querem desacelerar, descobrir sensações e reservar um momento compartilhado."
+          "html": "O Caresse é um app para adultos que querem uma experiência íntima em áudio a dois. Ele gera uma ficção sob demanda com seus nomes ou pseudônimos, preferências e limites, narrada por uma voz sintética. As demos são gratuitas; criar uma sessão personalizada usa créditos pagos, sem assinatura."
         },
         {
           "tag": "div",
@@ -332,7 +332,7 @@
           "attrs": {
             "class": "benefit-card"
           },
-          "html": "\n                <div class=\"icon\">🔒</div>\n\n                <h3>Privacidade com transparência</h3>\n\n                <p>Sem imagens explícitas. O modo convidado dispensa uma conta Caresse, e um pseudônimo pode ser usado na narração. O app trata os dados necessários ao serviço, conforme a política de privacidade.</p>\n            "
+          "html": "\n                <div class=\"icon\">🔒</div>\n\n                <h3>Privacidade com transparência</h3>\n\n                <p>Sem imagens explícitas. Suas experiências continuam privadas. Os parâmetros necessários são transmitidos aos serviços de geração conforme a política de privacidade.</p>\n            "
         }
       ]
     },
@@ -454,7 +454,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "O app trata os dados necessários para criar e disponibilizar as sessões, com transmissão aos serviços de IA conforme a política de privacidade. Um pseudônimo pode ser usado na narração. Não há revenda de dados pessoais; consulte a política para conhecer a coleta e a exclusão."
+              "html": "Suas experiências não são publicadas nem compartilhadas entre usuários. Os parâmetros necessários à geração são transmitidos de forma pseudonimizada a serviços de IA e síntese de voz. O nome ou pseudônimo escolhido pode ser incluído, sem e-mail nem identificador de conta. Os dados enviados ao modelo de linguagem (LLM) servem apenas para gerar o roteiro: o LLM não os armazena nem os utiliza para treinar seus modelos. O Caresse salva suas experiências no histórico para você poder acessá-las novamente; você pode solicitar a exclusão conforme a política de privacidade."
             }
           ]
         },

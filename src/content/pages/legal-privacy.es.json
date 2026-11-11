@@ -87,7 +87,7 @@
       "type": "element",
       "tag": "p",
       "attrs": {},
-      "html": "<strong>Última actualización:</strong> 5 de septiembre de 2026"
+      "html": "<strong>Última actualización:</strong> 10 de noviembre de 2026"
     },
     {
       "type": "container",
@@ -156,7 +156,7 @@
       "type": "element",
       "tag": "p",
       "attrs": {},
-      "html": "Para generar las experiencias, ciertos parámetros se transmiten a servicios de IA y síntesis de voz (TTS) de terceros. Esta transmisión es seudoanonimizada: el nombre o seudónimo introducido puede incluirse, pero no se comparte ningún dato que le identifique directamente (correo electrónico, identificador de cuenta, nombre civil completo)."
+      "html": "Para generar las experiencias, ciertos parámetros se transmiten a servicios de IA y síntesis de voz (TTS) de terceros. Esta transmisión es seudonimizada: el nombre o seudónimo introducido puede incluirse, pero no se comparte ningún dato que le identifique directamente (correo electrónico, identificador de cuenta, nombre civil completo). Los datos enviados al modelo de lenguaje (LLM) se usan únicamente para generar el guion: el LLM no los conserva ni los utiliza para entrenar sus modelos."
     },
     {
       "type": "element",
@@ -168,7 +168,7 @@
       "type": "element",
       "tag": "ul",
       "attrs": {},
-      "html": "\n        <li><strong>Firebase (Google)</strong>, autenticación y base de datos</li>\n        <li><strong>Microsoft Azure</strong>, alojamiento de servidores, archivos de audio y datos de experiencias (Europa)</li>\n        <li><strong>Proveedores de IA</strong>, generación de experiencias (los parámetros de sesión se transmiten de forma seudoanonimizada)</li>\n        <li><strong>Proveedores TTS</strong>, síntesis de voz (el nombre o seudónimo se transmite para personalización de audio)</li>\n        <li><strong>RevenueCat</strong>, gestión de compras y créditos</li>\n        <li><strong>Google Analytics (Firebase Analytics)</strong>, análisis de comportamiento anonimizado (no se transmiten datos personales identificables)</li>\n        <li><strong>Umami Cloud</strong>, medición de audiencia del sitio y de clics hacia las tiendas, sin cookies publicitarias ni perfiles de usuario</li>\n    "
+      "html": "\n        <li><strong>Firebase (Google)</strong>, autenticación y base de datos</li>\n        <li><strong>Microsoft Azure</strong>, alojamiento de servidores, archivos de audio y datos de experiencias (Europa)</li>\n        <li><strong>Proveedores de IA</strong>, generación de experiencias (los parámetros de sesión se transmiten de forma seudonimizada)</li>\n        <li><strong>Proveedores TTS</strong>, síntesis de voz (el nombre o seudónimo se transmite para personalización de audio)</li>\n        <li><strong>RevenueCat</strong>, gestión de compras y créditos</li>\n        <li><strong>Google Analytics (Firebase Analytics)</strong>, análisis de comportamiento anonimizado (no se transmiten datos personales identificables)</li>\n        <li><strong>Umami Cloud</strong>, medición de audiencia del sitio y de clics hacia las tiendas, sin cookies publicitarias ni perfiles de usuario</li>\n    "
     },
     {
       "type": "element",

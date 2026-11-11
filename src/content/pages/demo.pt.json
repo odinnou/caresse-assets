@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Explore seis demos gratuitas do Caresse com áudio em inglês e textos em português: solo ou em casal, de suave a intenso. Sem cadastro."
+      "content": "Seis demos grátis com áudio em inglês e textos em português, sem conta. Crie suas sessões em português no app com créditos pagos."
     },
     {
       "name": "robots",
@@ -64,7 +64,7 @@
     },
     {
       "property": "og:description",
-      "content": "Seis demos do Caresse com áudio em inglês e páginas em português, para uso solo ou a dois. Cada uma tem sua própria página de escuta."
+      "content": "Seis demos grátis com áudio em inglês e textos em português, sem conta. Crie suas sessões em português no app com créditos pagos."
     },
     {
       "property": "og:image",
@@ -108,7 +108,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Seis demos com áudio em inglês, cada uma com sua própria página em português."
+      "content": "Seis demos grátis com áudio em inglês e textos em português, sem conta. Crie suas sessões em português no app com créditos pagos."
     },
     {
       "name": "twitter:image",
@@ -168,7 +168,7 @@
       "@id": "https://caresse.app/pt/demo/#webpage",
       "url": "https://caresse.app/pt/demo/",
       "name": "Demo do Caresse: textos em português, áudio em inglês",
-      "description": "Seis demos pré-geradas do Caresse com áudio em inglês: solo ou em casal, entre duas mulheres ou dois homens. As páginas explicativas estão em português.",
+      "description": "Seis demos grátis com áudio em inglês e textos em português, sem conta. Crie suas sessões em português no app com créditos pagos.",
       "inLanguage": "pt",
       "isFamilyFriendly": false,
       "isPartOf": {
@@ -180,7 +180,7 @@
         "@id": "https://caresse.app/pt/demo/#app"
       },
       "primaryImageOfPage": "https://caresse.app/og-image-en.png",
-      "dateModified": "2026-10-31",
+      "dateModified": "2026-11-11",
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
@@ -601,7 +601,7 @@
           "attrs": {
             "class": "hero-lede"
           },
-          "html": "Sem cadastro. Sem e-mail. <strong>Textos em português, áudios em inglês.</strong>"
+          "html": "Seis trechos fixos e gratuitos para conhecer a voz do Caresse, sem conta nem e-mail. <strong>Textos em português, áudios em inglês.</strong>"
         },
         {
           "tag": "a",
@@ -1149,7 +1149,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Estas primeiras fases são pré-geradas: foram produzidas uma vez e são iguais para todos. No app, o Caresse cria a experiência a partir dos nomes, modo solo ou a dois, local, ambiente sonoro, intensidade, sugestões e acessórios escolhidos. A geração usa créditos pagos e pode produzir áudio em português; a interface em português já está disponível no Android e a atualização para iOS aguarda aprovação. Resultados de duas gerações podem variar."
+                  "html": "As demos são trechos fixos em inglês, com nomes e preferências já escolhidos, iguais a cada reprodução. No app, a IA cria uma sessão com seus próprios nomes ou pseudônimos, modo individual ou a dois e preferências, narrada por uma voz sintética. A criação usa créditos pagos, sem assinatura. O app está totalmente em português no Android; a próxima atualização iOS está em validação. Podem ocorrer repetições ou incoerências."
                 }
               ]
             },
