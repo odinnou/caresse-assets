@@ -21,7 +21,7 @@
     },
     {
       "name": "description",
-      "content": "Áudio íntimo em português, para casais ou solo. Demos grátis; sessões com créditos pagos, sem assinatura. iOS e Android, com tradução parcial da interface."
+      "content": "Áudio íntimo por IA, solo ou a dois. Demos grátis; criação com créditos, sem assinatura. App em português no Android; atualização iOS em validação."
     },
     {
       "name": "robots",
@@ -57,7 +57,7 @@
     },
     {
       "property": "og:description",
-      "content": "Áudio íntimo em português, para casais ou solo. Demos grátis; sessões com créditos pagos, sem assinatura. iOS e Android, com tradução parcial da interface."
+      "content": "Áudio íntimo por IA, solo ou a dois. Demos grátis; criação com créditos, sem assinatura. App em português no Android; atualização iOS em validação."
     },
     {
       "property": "og:image",
@@ -101,7 +101,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Áudio íntimo em português, para casais ou solo. Demos grátis; sessões com créditos pagos, sem assinatura. iOS e Android, com tradução parcial da interface."
+      "content": "Áudio íntimo por IA, solo ou a dois. Demos grátis; criação com créditos, sem assinatura. App em português no Android; atualização iOS em validação."
     },
     {
       "name": "twitter:image",
@@ -150,7 +150,7 @@
       "description": "App de intimidade por áudio em português, individual ou a dois. Baixe grátis para iPhone e Android. Sessões com créditos pagos, sem assinatura.",
       "url": "https://caresse.app/pt/",
       "inLanguage": "pt",
-      "dateModified": "2026-10-24",
+      "dateModified": "2026-11-11",
       "isPartOf": {
         "@type": "WebSite",
         "name": "Caresse",
@@ -171,7 +171,8 @@
           "@type": "Organization",
           "name": "Studio Mokuton",
           "url": "https://mokuton.studio/"
-        }
+        },
+        "description": "O Caresse é um app de ficções íntimas em áudio para adultos, individualmente ou a dois. A IA cria uma sessão a partir dos nomes ou pseudônimos, preferências e limites escolhidos, narrada por uma voz sintética. As demos são trechos fixos gratuitos; criar uma sessão personalizada no app usa créditos pagos, sem assinatura."
       }
     },
     {
@@ -183,7 +184,7 @@
           "name": "O que é o Caresse?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O Caresse é um app de ficções guiadas por áudio para adultos, em uso individual ou a dois. Uma voz sintética narra experiências criadas no app. Não é um serviço médico ou terapêutico."
+            "text": "O Caresse é um app de ficções íntimas em áudio para adultos, individualmente ou a dois. A IA cria uma sessão a partir dos nomes ou pseudônimos, preferências e limites escolhidos, narrada por uma voz sintética. As demos são trechos fixos gratuitos; criar uma sessão personalizada no app usa créditos pagos, sem assinatura."
           }
         },
         {
@@ -191,7 +192,7 @@
           "name": "O Caresse funciona em português?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O app cria áudios em português. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação. As demos disponíveis no site estão em francês, inglês e espanhol."
+            "text": "O app gera sessões de áudio em português, francês, inglês e espanhol. O app está totalmente em português no Android; o português completo para iOS chega na próxima atualização, em validação. As demos são gravações fixas em francês, inglês e espanhol; as páginas em português e alemão usam as gravações em inglês. O site está disponível em cinco idiomas, mas o app e seus áudios não estão disponíveis em alemão."
           }
         },
         {
@@ -199,7 +200,7 @@
           "name": "O Caresse é gratuito?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O download e as demos são gratuitos. Criar uma sessão a partir das suas preferências no app usa um crédito pago, sem assinatura. Um desbloqueio opcional de opções avançadas é vendido separadamente."
+            "text": "O download e as demos fixas são gratuitos. Criar uma sessão personalizada usa créditos pagos, sem assinatura; os preços aparecem no app antes da compra. O desbloqueio opcional em compra única amplia as opções de personalização e não inclui geração ilimitada."
           }
         },
         {
@@ -215,7 +216,7 @@
           "name": "O site cria sessões personalizadas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Não. Este site apresenta o app e leva diretamente à App Store ou ao Google Play. As demos são exemplos pré-gerados; nenhuma sessão personalizada é gerada aqui."
+            "text": "O site apresenta o Caresse e oferece trechos fixos de demonstração. Ele não cria sessões personalizadas. Para gerar uma ficção com seus nomes e preferências, use o app para iPhone ou Android com créditos pagos, sem assinatura."
           }
         },
         {

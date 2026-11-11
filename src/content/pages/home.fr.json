@@ -164,7 +164,7 @@
       "@type": "MobileApplication",
       "@id": "https://caresse.app/#app",
       "name": "Caresse",
-      "description": "Caresse est une application d'intimité guidée par l'IA, pour les couples et l'exploration solo, qui génère des expériences audio immersives personnalisées. Téléchargement gratuit avec démos incluses, sans création de compte. Chaque session est générée en temps réel selon vos envies, votre humeur et vos limites, sans contenu visuel explicite. Achats intégrés à partir de 2€ par session.",
+      "description": "Caresse est une application de fictions audio intimes pour adultes, en solo ou à deux. L’IA crée une session selon vos prénoms ou pseudonymes, vos préférences et vos limites, racontée par une voix de synthèse. Les démos sont des extraits fixes gratuits ; créer une session personnalisée dans l’app utilise des crédits payants, sans abonnement.",
       "url": "https://caresse.app/",
       "applicationCategory": "HealthApplication",
       "operatingSystem": "iOS, Android",
@@ -214,7 +214,7 @@
       "@type": "VideoObject",
       "@id": "https://caresse.app/#video",
       "name": "Découvrir Caresse : des expériences audio personnalisées par IA, pour les couples et en solo",
-      "description": "Présentation de Caresse, l'application d'intimité guidée par l'IA. Chaque session est générée en temps réel selon vos envies, votre dynamique relationnelle, l'intensité choisie et vos limites. Solo ou en couple, sans contenu visuel explicite.",
+      "description": "Présentation de Caresse, l'application d'intimité guidée par l'IA. Chaque session est générée à la demande selon vos envies, votre dynamique relationnelle, l'intensité choisie et vos limites. Solo ou en couple, sans contenu visuel explicite.",
       "thumbnailUrl": [
         "https://i.ytimg.com/vi/hLcwrOdqChY/maxresdefault.jpg"
       ],
@@ -249,7 +249,8 @@
       "primaryImageOfPage": "https://caresse.app/og-image-fr.png",
       "video": {
         "@id": "https://caresse.app/#video"
-      }
+      },
+      "dateModified": "2026-11-11"
     },
     {
       "@context": "https://schema.org",
@@ -352,7 +353,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "Caresse est une application d'intimité guidée par l'IA, pour les couples et l'exploration solo. Elle génère en temps réel des expériences audio immersives, personnalisées selon vos envies, votre humeur et vos limites. Il n'y a aucun contenu visuel explicite : tout repose sur une voix qui vous guide et sur votre imagination."
+              "html": "Caresse est une application de fictions audio intimes pour adultes, en solo ou à deux. L’IA crée une session selon vos prénoms ou pseudonymes, vos préférences et vos limites, racontée par une voix de synthèse. Les démos sont des extraits fixes gratuits ; créer une session personnalisée dans l’app utilise des crédits payants, sans abonnement."
             }
           ]
         },
@@ -386,7 +387,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "Le téléchargement est gratuit et inclut des démos. Ensuite, vous payez à la session, à partir de 2 € : il n'y a pas d'abonnement. Un déverrouillage optionnel en achat unique donne accès à davantage d'options de personnalisation."
+              "html": "Le téléchargement et les démos fixes sont gratuits. Créer une session personnalisée utilise des crédits payants, sans abonnement ; les prix sont affichés dans l’app avant achat. Le déblocage optionnel en achat unique élargit les options de personnalisation et n’inclut pas une génération illimitée."
             }
           ]
         },
@@ -403,7 +404,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "Un catalogue rejoue des enregistrements existants. Caresse écrit et génère chaque session au moment où vous la lancez : deux sessions configurées de la même manière ne seront jamais identiques. En contrepartie, le contenu étant génératif, de légères incohérences restent possibles."
+              "html": "Un catalogue rejoue des enregistrements existants. Caresse écrit et génère chaque session au moment où vous la lancez : deux sessions configurées de la même manière peuvent donner des résultats différents. Le contenu étant génératif, des répétitions ou de légères incohérences restent possibles."
             }
           ]
         },
@@ -420,7 +421,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "L’app propose des sessions audio en français, anglais, espagnol et portugais. L’interface portugaise est disponible sur Android ; la mise à jour iOS est en attente de validation. Les démos publiées sur le site sont en français, anglais et espagnol."
+              "html": "L’app génère des sessions audio en français, anglais, espagnol et portugais. L’app est entièrement disponible en portugais sur Android ; le portugais complet sur iOS arrive dans la prochaine mise à jour, en cours de validation. Les démos sont des enregistrements fixes en français, anglais et espagnol ; les pages portugaises et allemandes utilisent les enregistrements anglais. Le site est disponible en cinq langues, mais l’app et les audios ne sont pas disponibles en allemand."
             }
           ]
         },
@@ -438,6 +439,23 @@
               "tag": "p",
               "attrs": {},
               "html": "Les deux. Un mode solo et un mode duo sont disponibles, et la personnalisation s'adapte à la configuration choisie, y compris les prénoms utilisés dans la narration. Caresse est réservé aux personnes majeures."
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "faq-item"
+          },
+          "children": [
+            {
+              "tag": "h3",
+              "attrs": {},
+              "html": "Peut-on générer gratuitement un audio personnalisé sur ce site ?"
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "html": "Le site présente Caresse et propose des extraits de démonstration fixes. Il ne génère pas de session personnalisée. Pour créer une fiction avec vos prénoms et préférences, utilisez l’app iPhone ou Android avec des crédits payants, sans abonnement."
             }
           ]
         }

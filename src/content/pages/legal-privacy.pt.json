@@ -87,7 +87,7 @@
       "type": "element",
       "tag": "p",
       "attrs": {},
-      "html": "<strong>Última atualização:</strong> 5 de setembro de 2026"
+      "html": "<strong>Última atualização:</strong> 10 de novembro de 2026"
     },
     {
       "type": "container",
@@ -156,7 +156,7 @@
       "type": "element",
       "tag": "p",
       "attrs": {},
-      "html": "Para gerar as experiências, certos parâmetros são transmitidos a serviços de IA e síntese de voz (TTS) de terceiros. Essa transmissão é pseudonimizada: o nome ou pseudônimo informado pode ser incluído, mas nenhum dado que o identifique diretamente (e-mail, identificador de conta, nome civil completo) é compartilhado."
+      "html": "Para gerar as experiências, certos parâmetros são transmitidos a serviços de IA e síntese de voz (TTS) de terceiros. Essa transmissão é pseudonimizada: o nome ou pseudônimo informado pode ser incluído, mas nenhum dado que o identifique diretamente (e-mail, identificador de conta, nome civil completo) é compartilhado. Os dados enviados ao modelo de linguagem (LLM) servem apenas para gerar o roteiro: o LLM não os armazena nem os utiliza para treinar seus modelos."
     },
     {
       "type": "element",

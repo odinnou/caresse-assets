@@ -941,7 +941,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Deine Sessions werden nicht öffentlich oder zwischen Nutzern geteilt. Ein Spitzname genügt. Notwendige technische Verarbeitung und externe Dienstleister sind in der Datenschutzerklärung beschrieben."
+                  "html": "Deine Erfahrungen sind nicht öffentlich und werden nicht zwischen Nutzern geteilt. Für die Generierung notwendige Einstellungen werden pseudonymisiert an KI- und Sprachsynthesedienste übermittelt. Dein gewählter Vorname oder Spitzname kann enthalten sein, jedoch keine E-Mail oder Kontokennung. Die an das Sprachmodell (LLM) gesendeten Daten dienen nur zur Generierung der Geschichte: Das LLM speichert sie nicht und verwendet sie nicht zum Trainieren seiner Modelle. Caresse speichert deine Erfahrungen im Verlauf, damit du sie erneut aufrufen kannst; du kannst ihre Löschung nach der Datenschutzerklärung verlangen."
                 }
               ]
             },
@@ -975,7 +975,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die Website ist auch auf Deutsch, die App und ihre Audios derzeit nicht."
+                  "html": "Die App generiert Audio auf Englisch, Französisch, Spanisch und Portugiesisch. Die portugiesische Oberfläche ist auf Android verfügbar; das iOS-Update wartet auf Freigabe. Demos sind feste Aufnahmen auf Englisch, Französisch und Spanisch; portugiesische und deutsche Seiten verwenden die englischen Aufnahmen. Die Website ist in fünf Sprachen verfügbar, die App und ihre Audios sind jedoch nicht auf Deutsch verfügbar."
                 }
               ]
             }
