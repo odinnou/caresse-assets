@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Aniversário de namoro, união estável ou casamento: cinco ideias para celebrar em casa, com uma experiência de áudio Caresse para compartilhar."
+      "content": "Aniversário de casamento, união estável ou namoro: presentes e ideias para celebrar em casa. Demos Caresse grátis; áudio personalizado com créditos pagos."
     },
     {
       "name": "robots",
@@ -56,7 +56,7 @@
     },
     {
       "property": "og:description",
-      "content": "Aniversário de namoro, união estável ou casamento: cinco ideias para celebrar em casa, com uma experiência de áudio Caresse para compartilhar."
+      "content": "Aniversário de casamento, união estável ou namoro: presentes e ideias para celebrar em casa. Demos Caresse grátis; áudio personalizado com créditos pagos."
     },
     {
       "property": "og:locale",
@@ -100,7 +100,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Aniversário de namoro, união estável ou casamento: cinco ideias para celebrar em casa, com uma experiência de áudio Caresse para compartilhar."
+      "content": "Aniversário de casamento, união estável ou namoro: presentes e ideias para celebrar em casa. Demos Caresse grátis; áudio personalizado com créditos pagos."
     },
     {
       "name": "twitter:image",
@@ -135,14 +135,15 @@
           "@id": "https://caresse.app/pt/aniversario-de-relacionamento/#webpage",
           "url": "https://caresse.app/pt/aniversario-de-relacionamento/",
           "name": "Aniversário de relacionamento: além do jantar | Caresse",
-          "description": "Aniversário de namoro, união estável ou casamento: cinco ideias para celebrar em casa, com uma experiência de áudio Caresse para compartilhar.",
+          "description": "Aniversário de casamento, união estável ou namoro: presentes e ideias para celebrar em casa. Demos Caresse grátis; áudio personalizado com créditos pagos.",
           "inLanguage": "pt",
           "isPartOf": {
             "@id": "https://caresse.app/#website"
           },
           "breadcrumb": {
             "@id": "https://caresse.app/pt/aniversario-de-relacionamento/#breadcrumb"
-          }
+          },
+          "dateModified": "2026-11-11"
         },
         {
           "@type": "BreadcrumbList",
@@ -197,6 +198,22 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Você pode propor uma experiência para compartilhar no app, escolhendo as preferências juntos. Não é um vale-presente: esta página não oferece cartão-presente nem transferência de créditos para outra pessoa."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Que presente pessoal escolher para o aniversário de casamento?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Uma carta, uma refeição ligada à história de vocês e uma experiência escolhida juntos podem formar um presente pessoal, para o primeiro ano ou um aniversário posterior. O Caresse pode acompanhar o momento com uma demo gratuita ou uma sessão em áudio personalizada paga. Esta página não oferece vales-presente nem transferências de créditos."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Como celebrar o aniversário de união estável em casa?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Escolham uma lembrança do começo da vida a dois, preparem uma playlist e uma comida de que gostam e reservem um tempo sem interrupções. Vocês podem acrescentar uma descoberta em áudio se ambos quiserem. Adaptem os detalhes à história de vocês, sem seguir um programa fixo."
               }
             }
           ]
@@ -522,7 +539,7 @@
               "attrs": {
                 "class": "section-inner editorial-split"
               },
-              "html": "<div><p class=\"section-label\">Aniversário de relacionamento</p><h2 class=\"section-title\">Uma data de vocês, o ano inteiro</h2></div><div class=\"intent-prose\"><p>No começo, vocês contam os meses. Com os anos, talvez acabem reservando sempre a mesma mesa. Comecem este aniversário com uma lembrança concreta: a primeira conversa, o filme a que vocês não prestaram muita atenção naquela noite ou a refeição do dia em que se conheceram.</p><p>Seja aniversário de namoro, união estável ou casamento, uma grande surpresa é opcional. Escolham juntos o que querem celebrar e reservem um tempo só para vocês.</p></div>"
+              "html": "<div><p class=\"section-label\">Aniversário de relacionamento</p><h2 class=\"section-title\">Uma data de vocês, o ano inteiro</h2></div><div class=\"intent-prose\"><p>No começo, vocês contam os meses. Com os anos, talvez acabem reservando sempre a mesma mesa. Comecem este aniversário com uma lembrança concreta: a primeira conversa, o filme a que vocês não prestaram muita atenção naquela noite ou a refeição do dia em que se conheceram.</p><p>Seja aniversário de namoro, união estável ou casamento, uma grande surpresa é opcional. Escolham juntos o que querem celebrar e reservem um tempo só para vocês.</p><h3>Presente de aniversário de casamento: um, cinco ou vinte anos</h3><p>Escolham uma lembrança específica do último ano e algo que gostariam de compartilhar no próximo. Vocês podem recriar um prato do casamento, abrir um álbum e trocar algumas linhas escritas à mão. Para um presente que se vive em vez de embrulhar, proponham uma noite planejada a dois, com uma descoberta em áudio no Caresse se o formato interessar.</p><h3>Celebrar o aniversário de união estável em casa</h3><p>Partam de uma data que represente a união para vocês ou de uma lembrança do primeiro lar juntos. Preparem um jantar simples, escolham uma música daquela época e deixem espaço para conversar sobre o que querem compartilhar neste ano. A surpresa pode ficar nos detalhes da noite; qualquer atividade íntima é escolhida a dois.</p><h3>Aniversário de namoro: recriar o primeiro encontro</h3><p>Retomem a comida, a música ou o filme do começo da história e acrescentem algo que represente vocês hoje. Pouco dinheiro ou uma preparação no mesmo dia também permitem uma comemoração pessoal. Se escolherem o Caresse, ouçam uma demo gratuita primeiro; criar uma ficção em áudio com suas preferências usa depois um crédito pago.</p></div>"
             }
           ]
         },
@@ -858,6 +875,22 @@
                         "class": "faq-item"
                       },
                       "html": "<summary>Posso dar o Caresse como presente de aniversário?</summary><p>Você pode propor uma experiência para compartilhar no app, escolhendo as preferências juntos. Não é um vale-presente: esta página não oferece cartão-presente nem transferência de créditos para outra pessoa.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Que presente pessoal escolher para o aniversário de casamento?</summary><p>Uma carta, uma refeição ligada à história de vocês e uma experiência escolhida juntos podem formar um presente pessoal, para o primeiro ano ou um aniversário posterior. O Caresse pode acompanhar o momento com uma demo gratuita ou uma sessão em áudio personalizada paga. Esta página não oferece vales-presente nem transferências de créditos.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Como celebrar o aniversário de união estável em casa?</summary><p>Escolham uma lembrança do começo da vida a dois, preparem uma playlist e uma comida de que gostam e reservem um tempo sem interrupções. Vocês podem acrescentar uma descoberta em áudio se ambos quiserem. Adaptem os detalhes à história de vocês, sem seguir um programa fixo.</p>"
                     }
                   ]
                 }

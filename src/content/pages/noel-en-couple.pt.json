@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Aproveitem as noites em casa entre Natal e Ano-Novo: uma série, jantar, champanhe ou uma bebida sem álcool e uma experiência em áudio a dois no Caresse."
+      "content": "Presentes de Natal e atividades para casais em casa: lembranças, jantar e áudio Caresse a dois. Demos grátis; sessões personalizadas com créditos pagos."
     },
     {
       "name": "robots",
@@ -56,7 +56,7 @@
     },
     {
       "property": "og:description",
-      "content": "Aproveitem as noites em casa entre Natal e Ano-Novo: uma série, jantar, champanhe ou uma bebida sem álcool e uma experiência em áudio a dois no Caresse."
+      "content": "Presentes de Natal e atividades para casais em casa: lembranças, jantar e áudio Caresse a dois. Demos grátis; sessões personalizadas com créditos pagos."
     },
     {
       "property": "og:locale",
@@ -100,7 +100,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Aproveitem as noites em casa entre Natal e Ano-Novo: uma série, jantar, champanhe ou uma bebida sem álcool e uma experiência em áudio a dois no Caresse."
+      "content": "Presentes de Natal e atividades para casais em casa: lembranças, jantar e áudio Caresse a dois. Demos grátis; sessões personalizadas com créditos pagos."
     },
     {
       "name": "twitter:image",
@@ -135,14 +135,15 @@
           "@id": "https://caresse.app/pt/natal-a-dois/#webpage",
           "url": "https://caresse.app/pt/natal-a-dois/",
           "name": "Entre Natal e Ano-Novo: 7 noites a dois em casa | Caresse",
-          "description": "Aproveitem as noites em casa entre Natal e Ano-Novo: uma série, jantar, champanhe ou uma bebida sem álcool e uma experiência em áudio a dois no Caresse.",
+          "description": "Presentes de Natal e atividades para casais em casa: lembranças, jantar e áudio Caresse a dois. Demos grátis; sessões personalizadas com créditos pagos.",
           "inLanguage": "pt",
           "isPartOf": {
             "@id": "https://caresse.app/#website"
           },
           "breadcrumb": {
             "@id": "https://caresse.app/pt/natal-a-dois/#breadcrumb"
-          }
+          },
+          "dateModified": "2026-11-11"
         },
         {
           "@type": "BreadcrumbList",
@@ -197,6 +198,22 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Vocês podem pegar as cartas ou experimentar uma atividade guiada pela voz com o Caresse. As demos de áudio são grátis; uma sessão personalizada usa um crédito pago. Conheçam o formato na nossa página de jogo para casais."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Que presente de Natal escolher para um casal que já tem tudo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Um convite para uma atividade escolhida juntos pode acompanhar um presente material: cozinhar, relembrar um momento ou conhecer uma experiência em áudio. Para propor o Caresse, comecem pelas demos gratuitas no app; as gerações personalizadas usam créditos pagos. Esta página não vende vales-presente nem transferências de créditos."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "O que fazer a dois na noite de Natal em casa?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Preparem uma comida de que gostam, uma playlist e uma atividade que interesse aos dois. Uma demo em áudio do Caresse pode fazer parte da noite se vocês quiserem um momento íntimo em um lugar privado. O tempo de geração e a duração de uma sessão personalizada variam; mantenham o programa flexível."
               }
             }
           ]
@@ -522,7 +539,7 @@
               "attrs": {
                 "class": "section-inner editorial-split"
               },
-              "html": "<div><p class=\"section-label\">Uma noite em casa</p><h2 class=\"section-title\">As noites entre o Natal e o Ano-Novo</h2></div><div class=\"intent-prose\"><p>Tem as refeições para encontrar todo mundo, as visitas e as noites com os amigos. E tem os momentos mais tranquilos: vocês chegam em casa, ficam à vontade, as luzes da árvore ainda estão acesas e dá vontade de passar mais um tempo juntos.</p>\n<p>Vocês podem continuar a série, preparar algo para comer ou experimentar um áudio a dois no Caresse. Essas noites também fazem parte do que é gostoso nas festas. Aqui vão sete ideias para escolher.</p></div>"
+              "html": "<div><p class=\"section-label\">Uma noite em casa</p><h2 class=\"section-title\">As noites entre o Natal e o Ano-Novo</h2></div><div class=\"intent-prose\"><p>Tem as refeições para encontrar todo mundo, as visitas e as noites com os amigos. E tem os momentos mais tranquilos: vocês chegam em casa, ficam à vontade, as luzes da árvore ainda estão acesas e dá vontade de passar mais um tempo juntos.</p>\n<p>Vocês podem continuar a série, preparar algo para comer ou experimentar um áudio a dois no Caresse. Essas noites também fazem parte do que é gostoso nas festas. Aqui vão sete ideias para escolher.</p><h3>Um presente de Natal para o casal viver junto</h3><p>Ofereçam um convite para uma noite cujos detalhes vocês escolhem juntos: uma receita para preparar, uma playlist e um bilhete pessoal. Se a ideia é uma experiência em vez de um objeto, vocês podem propor conhecer a voz do Caresse. As demos são gratuitas; criar uma sessão personalizada usa créditos pagos, sem assinatura. O convite é para um momento a dois, não um vale-presente do Caresse.</p><h3>Atividades de Natal a dois com pouco dinheiro</h3><p>Na noite de Natal ou entre as comemorações, escolham uma ideia conforme a disposição de vocês: cozinhar algo simples, rever fotos do ano ou ouvir um áudio juntos. Procurem um lugar com privacidade se forem experimentar o Caresse. É possível ouvir uma demo fixa sem comprar créditos e decidir depois se querem personalizar uma sessão.</p></div>"
             }
           ]
         },
@@ -874,6 +891,22 @@
                         "class": "faq-item"
                       },
                       "html": "<summary>Que jogo para casais experimentar nas festas de fim de ano?</summary><p>Vocês podem pegar as cartas ou experimentar uma atividade guiada pela voz com o Caresse. As demos de áudio são grátis; uma sessão personalizada usa um crédito pago. Conheçam o formato na nossa página de <a href=\"/pt/couples-game/\">jogo para casais</a>.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Que presente de Natal escolher para um casal que já tem tudo?</summary><p>Um convite para uma atividade escolhida juntos pode acompanhar um presente material: cozinhar, relembrar um momento ou conhecer uma experiência em áudio. Para propor o Caresse, comecem pelas demos gratuitas no app; as gerações personalizadas usam créditos pagos. Esta página não vende vales-presente nem transferências de créditos.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>O que fazer a dois na noite de Natal em casa?</summary><p>Preparem uma comida de que gostam, uma playlist e uma atividade que interesse aos dois. Uma demo em áudio do Caresse pode fazer parte da noite se vocês quiserem um momento íntimo em um lugar privado. O tempo de geração e a duração de uma sessão personalizada variam; mantenham o programa flexível.</p>"
                     }
                   ]
                 }

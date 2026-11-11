@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Kennenlernen, Partnerschaft oder Hochzeit: fünf persönliche Ideen für euren Jahrestag zu Hause, mit einer gemeinsamen Audioerfahrung von Caresse."
+      "content": "Hochzeitstag, Partnerschaft oder Kennenlernen: persönliche Geschenke und Ideen für euren Jahrestag zu Hause. Kostenlose Caresse-Demos; persönliche Audios mit Credits."
     },
     {
       "name": "robots",
@@ -56,7 +56,7 @@
     },
     {
       "property": "og:description",
-      "content": "Kennenlernen, Partnerschaft oder Hochzeit: fünf persönliche Ideen für euren Jahrestag zu Hause, mit einer gemeinsamen Audioerfahrung von Caresse."
+      "content": "Hochzeitstag, Partnerschaft oder Kennenlernen: persönliche Geschenke und Ideen für euren Jahrestag zu Hause. Kostenlose Caresse-Demos; persönliche Audios mit Credits."
     },
     {
       "property": "og:locale",
@@ -100,7 +100,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Kennenlernen, Partnerschaft oder Hochzeit: fünf persönliche Ideen für euren Jahrestag zu Hause, mit einer gemeinsamen Audioerfahrung von Caresse."
+      "content": "Hochzeitstag, Partnerschaft oder Kennenlernen: persönliche Geschenke und Ideen für euren Jahrestag zu Hause. Kostenlose Caresse-Demos; persönliche Audios mit Credits."
     },
     {
       "name": "twitter:image",
@@ -135,14 +135,15 @@
           "@id": "https://caresse.app/de/jahrestag/#webpage",
           "url": "https://caresse.app/de/jahrestag/",
           "name": "Jahrestag als Paar: mehr als ein Restaurantbesuch | Caresse",
-          "description": "Kennenlernen, Partnerschaft oder Hochzeit: fünf persönliche Ideen für euren Jahrestag zu Hause, mit einer gemeinsamen Audioerfahrung von Caresse.",
+          "description": "Hochzeitstag, Partnerschaft oder Kennenlernen: persönliche Geschenke und Ideen für euren Jahrestag zu Hause. Kostenlose Caresse-Demos; persönliche Audios mit Credits.",
           "inLanguage": "de",
           "isPartOf": {
             "@id": "https://caresse.app/#website"
           },
           "breadcrumb": {
             "@id": "https://caresse.app/de/jahrestag/#breadcrumb"
-          }
+          },
+          "dateModified": "2026-11-11"
         },
         {
           "@type": "BreadcrumbList",
@@ -197,6 +198,22 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Du kannst eine gemeinsam gewählte Erfahrung in der App vorschlagen. Diese Seite verkauft keine Gutscheine und bietet keine Übertragung von Credits."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was ist eine persönliche Geschenkidee zum Hochzeitstag?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ein Brief, ein Essen mit Bezug zu eurer Geschichte und ein gemeinsam gewähltes Erlebnis können ein persönliches Geschenk ergeben, zum ersten Jahr oder einem späteren Hochzeitstag. Caresse kann den Moment mit einer kostenlosen Demo oder einer kostenpflichtigen persönlichen Audiosession begleiten. Diese Seite bietet weder Gutscheine noch Credit-Übertragungen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie können wir den Jahrestag unserer Partnerschaft zu Hause feiern?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wählt eine Erinnerung an den Anfang eures gemeinsamen Lebens, stellt eine Playlist zusammen und bereitet ein Essen zu, das ihr mögt. Nehmt euch ungestörte Zeit und ergänzt ein Audioerlebnis, wenn beide möchten. Passt die Details an eure Geschichte an, statt einem festen Programm zu folgen."
               }
             }
           ]
@@ -522,7 +539,7 @@
               "attrs": {
                 "class": "section-inner editorial-split"
               },
-              "html": "<div><p class=\"section-label\">Jahrestag als Paar</p><h2 class=\"section-title\">Euer eigenes Datum, das ganze Jahr</h2></div><div class=\"intent-prose\"><p>Am Anfang zählt ihr die Monate, später reserviert ihr vielleicht immer denselben Tisch. Beginnt mit einer konkreten Erinnerung: eurem ersten Gespräch, einem gemeinsamen Film oder dem Essen beim Kennenlernen.</p><p>Ob Kennenlernen, Partnerschaft oder Hochzeit: Eine große Überraschung ist nicht nötig. Entscheidet gemeinsam, was ihr feiern möchtet, und nehmt euch Zeit füreinander.</p></div>"
+              "html": "<div><p class=\"section-label\">Jahrestag als Paar</p><h2 class=\"section-title\">Euer eigenes Datum, das ganze Jahr</h2></div><div class=\"intent-prose\"><p>Am Anfang zählt ihr die Monate, später reserviert ihr vielleicht immer denselben Tisch. Beginnt mit einer konkreten Erinnerung: eurem ersten Gespräch, einem gemeinsamen Film oder dem Essen beim Kennenlernen.</p><p>Ob Kennenlernen, Partnerschaft oder Hochzeit: Eine große Überraschung ist nicht nötig. Entscheidet gemeinsam, was ihr feiern möchtet, und nehmt euch Zeit füreinander.</p><h3>Geschenke zum Hochzeitstag: ein, fünf oder zwanzig Jahre</h3><p>Wählt eine konkrete Erinnerung aus dem vergangenen Jahr und etwas, das ihr im nächsten gemeinsam erleben möchtet. Kocht ein Gericht von eurer Hochzeit nach, öffnet ein Fotoalbum und tauscht ein paar handgeschriebene Zeilen aus. Als Geschenk zum Erleben könnt ihr einen zusammen geplanten Abend vorschlagen, mit einem Caresse-Audioerlebnis, wenn euch das Format anspricht.</p><h3>Den Jahrestag eurer Partnerschaft zu Hause feiern</h3><p>Beginnt mit dem Tag eurer Eintragung oder einer Erinnerung an euer erstes gemeinsames Zuhause. Bereitet ein einfaches Essen vor, wählt ein Lied aus dieser Zeit und sprecht darüber, was ihr in diesem Jahr teilen möchtet. Überraschungen können in den Details des Abends liegen; intime Aktivitäten wählt ihr gemeinsam.</p><h3>Jahrestag des Kennenlernens: das erste Date aufgreifen</h3><p>Greift Essen, Musik oder Film vom Anfang eurer Geschichte auf und ergänzt etwas, das euch heute entspricht. Auch mit kleinem Budget oder spontaner Vorbereitung kann der Anlass persönlich werden. Bei Caresse könnt ihr zuerst eine kostenlose Demo anhören; eine Audiogeschichte aus euren Vorlieben zu erstellen nutzt danach einen kostenpflichtigen Credit.</p></div>"
             }
           ]
         },
@@ -850,6 +867,22 @@
                         "class": "faq-item"
                       },
                       "html": "<summary>Kann ich Caresse zum Jahrestag verschenken?</summary><p>Du kannst eine gemeinsam gewählte Erfahrung in der App vorschlagen. Diese Seite verkauft keine Gutscheine und bietet keine Übertragung von Credits.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Was ist eine persönliche Geschenkidee zum Hochzeitstag?</summary><p>Ein Brief, ein Essen mit Bezug zu eurer Geschichte und ein gemeinsam gewähltes Erlebnis können ein persönliches Geschenk ergeben, zum ersten Jahr oder einem späteren Hochzeitstag. Caresse kann den Moment mit einer kostenlosen Demo oder einer kostenpflichtigen persönlichen Audiosession begleiten. Diese Seite bietet weder Gutscheine noch Credit-Übertragungen.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Wie können wir den Jahrestag unserer Partnerschaft zu Hause feiern?</summary><p>Wählt eine Erinnerung an den Anfang eures gemeinsamen Lebens, stellt eine Playlist zusammen und bereitet ein Essen zu, das ihr mögt. Nehmt euch ungestörte Zeit und ergänzt ein Audioerlebnis, wenn beide möchten. Passt die Details an eure Geschichte an, statt einem festen Programm zu folgen.</p>"
                     }
                   ]
                 }

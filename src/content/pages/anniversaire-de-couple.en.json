@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Dating, civil partnership or wedding anniversary: five personal ways to celebrate at home, including a guided Caresse audio experience to share."
+      "content": "Wedding, civil partnership or dating anniversary: personal gift and at-home date ideas for two. Free Caresse demos; personalised audio uses paid credits."
     },
     {
       "name": "robots",
@@ -56,7 +56,7 @@
     },
     {
       "property": "og:description",
-      "content": "Dating, civil partnership or wedding anniversary: five personal ways to celebrate at home, including a guided Caresse audio experience to share."
+      "content": "Wedding, civil partnership or dating anniversary: personal gift and at-home date ideas for two. Free Caresse demos; personalised audio uses paid credits."
     },
     {
       "property": "og:locale",
@@ -100,7 +100,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Dating, civil partnership or wedding anniversary: five personal ways to celebrate at home, including a guided Caresse audio experience to share."
+      "content": "Wedding, civil partnership or dating anniversary: personal gift and at-home date ideas for two. Free Caresse demos; personalised audio uses paid credits."
     },
     {
       "name": "twitter:image",
@@ -135,14 +135,15 @@
           "@id": "https://caresse.app/en/relationship-anniversary/#webpage",
           "url": "https://caresse.app/en/relationship-anniversary/",
           "name": "Relationship anniversary: beyond a restaurant | Caresse",
-          "description": "Dating, civil partnership or wedding anniversary: five personal ways to celebrate at home, including a guided Caresse audio experience to share.",
+          "description": "Wedding, civil partnership or dating anniversary: personal gift and at-home date ideas for two. Free Caresse demos; personalised audio uses paid credits.",
           "inLanguage": "en",
           "isPartOf": {
             "@id": "https://caresse.app/#website"
           },
           "breadcrumb": {
             "@id": "https://caresse.app/en/relationship-anniversary/#breadcrumb"
-          }
+          },
+          "dateModified": "2026-11-11"
         },
         {
           "@type": "BreadcrumbList",
@@ -197,6 +198,22 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "You can suggest an experience to share in the app, choosing preferences together. It is not a gift voucher: this page offers neither gift cards nor credit transfers to another person."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is a personal wedding anniversary gift idea?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A letter, a meal connected to your story and an experience chosen together can make a personal gift, whether it is your first year or a later anniversary. Caresse can accompany the occasion with a free demo or a paid personalised audio session. This page offers neither gift vouchers nor credit transfers."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can we celebrate a civil partnership anniversary at home?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Choose a memory from the start of your life together, prepare a playlist and a meal you enjoy, then make time without interruptions. Add an audio discovery if you both want to. Adapt the details to your story rather than following a fixed programme."
               }
             }
           ]
@@ -522,7 +539,7 @@
               "attrs": {
                 "class": "section-inner editorial-split"
               },
-              "html": "<div><p class=\"section-label\">Relationship anniversary</p><h2 class=\"section-title\">Your own date, all year round</h2></div><div class=\"intent-prose\"><p>At first, you count the months. Years later, you may find yourselves booking the same table again. Start this anniversary with something specific: your first conversation, the film you didn’t really watch that night or the meal you shared when you met.</p><p>Whether you are marking a dating, civil partnership or wedding anniversary, a big surprise is optional. Decide together what you want to celebrate and make some time for each other.</p></div>"
+              "html": "<div><p class=\"section-label\">Relationship anniversary</p><h2 class=\"section-title\">Your own date, all year round</h2></div><div class=\"intent-prose\"><p>At first, you count the months. Years later, you may find yourselves booking the same table again. Start this anniversary with something specific: your first conversation, the film you didn’t really watch that night or the meal you shared when you met.</p><p>Whether you are marking a dating, civil partnership or wedding anniversary, a big surprise is optional. Decide together what you want to celebrate and make some time for each other.</p><h3>Wedding anniversary gifts for one, five or twenty years</h3><p>Choose a specific memory from the past year and something you would like to share in the next. Recreate a dish from your wedding, open a photo album and exchange a few handwritten lines. For a gift to experience rather than unwrap, suggest an evening you plan together, with a Caresse audio discovery if the format appeals to you.</p><h3>A civil partnership anniversary at home</h3><p>Start with the day you registered your partnership or a memory of your first home together. Prepare a simple dinner, choose a song from that time and leave room to talk about what you would like to share this year. Keep surprises in the details of the evening; choose any intimate activity together.</p><h3>Dating anniversary ideas: revisit your first date</h3><p>Bring back the food, music or film from the start of your story, then add something that reflects you today. A small budget or same-day preparation can still make the occasion personal. If you choose Caresse, hear a free demo first; creating audio fiction from your preferences then uses a paid credit.</p></div>"
             }
           ]
         },
@@ -850,6 +867,22 @@
                         "class": "faq-item"
                       },
                       "html": "<summary>Can I give Caresse as an anniversary gift?</summary><p>You can suggest an experience to share in the app, choosing preferences together. It is not a gift voucher: this page offers neither gift cards nor credit transfers to another person.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>What is a personal wedding anniversary gift idea?</summary><p>A letter, a meal connected to your story and an experience chosen together can make a personal gift, whether it is your first year or a later anniversary. Caresse can accompany the occasion with a free demo or a paid personalised audio session. This page offers neither gift vouchers nor credit transfers.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>How can we celebrate a civil partnership anniversary at home?</summary><p>Choose a memory from the start of your life together, prepare a playlist and a meal you enjoy, then make time without interruptions. Add an audio discovery if you both want to. Adapt the details to your story rather than following a fixed programme.</p>"
                     }
                   ]
                 }

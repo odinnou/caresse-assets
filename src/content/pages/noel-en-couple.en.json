@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Enjoy evenings at home between Christmas and New Year: a TV series, dinner, champagne or an alcohol-free drink, and an audio experience together in Caresse."
+      "content": "Christmas gift and date-night ideas for couples at home: memories, dinner and Caresse audio to share. Free demos; personalised sessions use paid credits."
     },
     {
       "name": "robots",
@@ -56,7 +56,7 @@
     },
     {
       "property": "og:description",
-      "content": "Enjoy evenings at home between Christmas and New Year: a TV series, dinner, champagne or an alcohol-free drink, and an audio experience together in Caresse."
+      "content": "Christmas gift and date-night ideas for couples at home: memories, dinner and Caresse audio to share. Free demos; personalised sessions use paid credits."
     },
     {
       "property": "og:locale",
@@ -100,7 +100,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Enjoy evenings at home between Christmas and New Year: a TV series, dinner, champagne or an alcohol-free drink, and an audio experience together in Caresse."
+      "content": "Christmas gift and date-night ideas for couples at home: memories, dinner and Caresse audio to share. Free demos; personalised sessions use paid credits."
     },
     {
       "name": "twitter:image",
@@ -135,14 +135,15 @@
           "@id": "https://caresse.app/en/christmas-date-nights/#webpage",
           "url": "https://caresse.app/en/christmas-date-nights/",
           "name": "Between Christmas and New Year: 7 nights in for couples | Caresse",
-          "description": "Enjoy evenings at home between Christmas and New Year: a TV series, dinner, champagne or an alcohol-free drink, and an audio experience together in Caresse.",
+          "description": "Christmas gift and date-night ideas for couples at home: memories, dinner and Caresse audio to share. Free demos; personalised sessions use paid credits.",
           "inLanguage": "en",
           "isPartOf": {
             "@id": "https://caresse.app/#website"
           },
           "breadcrumb": {
             "@id": "https://caresse.app/en/christmas-date-nights/#breadcrumb"
-          }
+          },
+          "dateModified": "2026-11-11"
         },
         {
           "@type": "BreadcrumbList",
@@ -197,6 +198,22 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Get out a pack of cards or try a voice-guided activity with Caresse. Audio demos are free; a personalized session uses a paid credit. Find out about the format on our couples game page."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What Christmas gift can you give a couple who have everything?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "An invitation to an activity chosen together can complement a physical gift: cooking, revisiting a memory or trying an audio experience. To suggest Caresse, start with the free demos in the app; personalised generation uses paid credits. This page sells neither gift cards nor credit transfers."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What can couples do at home on Christmas evening?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Prepare a favourite meal, a playlist and an activity you both enjoy. A Caresse audio demo can be part of the evening if you want an intimate moment somewhere private. Generation time and the duration of a personalised session vary, so keep your plans flexible."
               }
             }
           ]
@@ -522,7 +539,7 @@
               "attrs": {
                 "class": "section-inner editorial-split"
               },
-              "html": "<div><p class=\"section-label\">A night at home</p><h2 class=\"section-title\">Your evenings between Christmas and New Year</h2></div><div class=\"intent-prose\"><p>There are family meals, visits and nights with friends. Then there are the quieter moments: you get home, get comfortable, the Christmas lights are still on and you feel like spending a little more time together.</p>\n<p>You could catch up on your show, make something to eat or try an audio experience together in Caresse. Those evenings are part of the pleasure of the holidays too. Here are seven ideas to choose from.</p></div>"
+              "html": "<div><p class=\"section-label\">A night at home</p><h2 class=\"section-title\">Your evenings between Christmas and New Year</h2></div><div class=\"intent-prose\"><p>There are family meals, visits and nights with friends. Then there are the quieter moments: you get home, get comfortable, the Christmas lights are still on and you feel like spending a little more time together.</p>\n<p>You could catch up on your show, make something to eat or try an audio experience together in Caresse. Those evenings are part of the pleasure of the holidays too. Here are seven ideas to choose from.</p><h3>A Christmas gift for couples to experience together</h3><p>Give an invitation to an evening whose details you choose together: a recipe to cook, a playlist and a personal note. If you want an experience rather than an object, you could suggest discovering the Caresse voice. Demos are free; creating a personalised session uses paid credits without a subscription. The invitation is for shared time, not a Caresse gift card.</p><h3>Christmas activities for couples on a budget</h3><p>On Christmas evening or between celebrations, pick one idea that suits your energy: cook a simple meal, look through photos from the year or listen to audio together. Choose somewhere private if you try Caresse. You can hear a fixed demo without buying a credit, then decide whether you want to personalise a session.</p></div>"
             }
           ]
         },
@@ -866,6 +883,22 @@
                         "class": "faq-item"
                       },
                       "html": "<summary>What couples game can we try over the Christmas holidays?</summary><p>Get out a pack of cards or try a voice-guided activity with Caresse. Audio demos are free; a personalized session uses a paid credit. Find out about the format on our <a href=\"/en/couples-game/\">couples game</a> page.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>What Christmas gift can you give a couple who have everything?</summary><p>An invitation to an activity chosen together can complement a physical gift: cooking, revisiting a memory or trying an audio experience. To suggest Caresse, start with the free demos in the app; personalised generation uses paid credits. This page sells neither gift cards nor credit transfers.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>What can couples do at home on Christmas evening?</summary><p>Prepare a favourite meal, a playlist and an activity you both enjoy. A Caresse audio demo can be part of the evening if you want an intimate moment somewhere private. Generation time and the duration of a personalised session vary, so keep your plans flexible.</p>"
                     }
                   ]
                 }
