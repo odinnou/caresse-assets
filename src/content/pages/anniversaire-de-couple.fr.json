@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Anniversaire de rencontre, de PACS ou de mariage : cinq idées pour célébrer votre couple à la maison, avec une expérience audio Caresse à partager."
+      "content": "Anniversaire de mariage, de PACS ou de rencontre : idées de cadeaux et de soirées à deux chez vous. Démos Caresse gratuites, créations avec crédits payants."
     },
     {
       "name": "robots",
@@ -56,7 +56,7 @@
     },
     {
       "property": "og:description",
-      "content": "Anniversaire de rencontre, de PACS ou de mariage : cinq idées pour célébrer votre couple à la maison, avec une expérience audio Caresse à partager."
+      "content": "Anniversaire de mariage, de PACS ou de rencontre : idées de cadeaux et de soirées à deux chez vous. Démos Caresse gratuites, créations avec crédits payants."
     },
     {
       "property": "og:locale",
@@ -100,7 +100,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Anniversaire de rencontre, de PACS ou de mariage : cinq idées pour célébrer votre couple à la maison, avec une expérience audio Caresse à partager."
+      "content": "Anniversaire de mariage, de PACS ou de rencontre : idées de cadeaux et de soirées à deux chez vous. Démos Caresse gratuites, créations avec crédits payants."
     },
     {
       "name": "twitter:image",
@@ -135,14 +135,15 @@
           "@id": "https://caresse.app/anniversaire-de-couple/#webpage",
           "url": "https://caresse.app/anniversaire-de-couple/",
           "name": "Anniversaire de couple : changez du restaurant | Caresse",
-          "description": "Anniversaire de rencontre, de PACS ou de mariage : cinq idées pour célébrer votre couple à la maison, avec une expérience audio Caresse à partager.",
+          "description": "Anniversaire de mariage, de PACS ou de rencontre : idées de cadeaux et de soirées à deux chez vous. Démos Caresse gratuites, créations avec crédits payants.",
           "inLanguage": "fr",
           "isPartOf": {
             "@id": "https://caresse.app/#website"
           },
           "breadcrumb": {
             "@id": "https://caresse.app/anniversaire-de-couple/#breadcrumb"
-          }
+          },
+          "dateModified": "2026-11-11"
         },
         {
           "@type": "BreadcrumbList",
@@ -197,6 +198,22 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Vous pouvez proposer une expérience à partager dans l’app, en choisissant vos préférences ensemble. Ce n’est pas un bon cadeau : cette page ne propose ni carte cadeau ni transfert de crédits à une autre personne."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quelle idée de cadeau pour un anniversaire de mariage ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Une lettre, un repas lié à votre histoire et une expérience choisie ensemble peuvent former un cadeau personnel, pour votre première année comme pour un anniversaire plus ancien. Caresse peut accompagner ce moment avec une démo gratuite ou une session audio personnalisée payante. Cette page ne vend ni bon cadeau ni transfert de crédits."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Comment fêter un anniversaire de PACS à la maison ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Choisissez un souvenir du début de votre vie commune, préparez une playlist et un repas que vous aimez, puis réservez un moment sans interruptions. Vous pouvez y ajouter une découverte audio si vous en avez envie tous les deux. Adaptez les détails à votre histoire plutôt qu’à un programme imposé."
               }
             }
           ]
@@ -522,7 +539,7 @@
               "attrs": {
                 "class": "section-inner editorial-split"
               },
-              "html": "<div><p class=\"section-label\">Anniversaire de couple</p><h2 class=\"section-title\">Une date à vous, toute l’année</h2></div><div class=\"intent-prose\"><p>Au début, on compte les mois. Puis les années passent et la même réservation revient. Pour votre anniversaire de couple, repartez plutôt d’un souvenir précis : votre première conversation, le film que vous n’avez pas vraiment regardé ce soir-là ou le repas de votre rencontre.</p><p>Qu’il s’agisse d’un anniversaire de rencontre, de PACS ou de mariage, vous n’avez pas besoin d’une grande surprise. Choisissez ensemble ce que vous souhaitez célébrer et gardez un vrai moment pour vous.</p></div>"
+              "html": "<div><p class=\"section-label\">Anniversaire de couple</p><h2 class=\"section-title\">Une date à vous, toute l’année</h2></div><div class=\"intent-prose\"><p>Au début, on compte les mois. Puis les années passent et la même réservation revient. Pour votre anniversaire de couple, repartez plutôt d’un souvenir précis : votre première conversation, le film que vous n’avez pas vraiment regardé ce soir-là ou le repas de votre rencontre.</p><p>Qu’il s’agisse d’un anniversaire de rencontre, de PACS ou de mariage, vous n’avez pas besoin d’une grande surprise. Choisissez ensemble ce que vous souhaitez célébrer et gardez un vrai moment pour vous.</p><h3>Anniversaire de mariage : un cadeau pour un, cinq ou vingt ans</h3><p>Choisissez un souvenir précis de l’année écoulée et une envie pour la prochaine. Vous pouvez refaire un plat de votre mariage, ouvrir un album et échanger quelques lignes écrites à la main. Pour un cadeau à vivre plutôt qu’à emballer, proposez une soirée dont vous décidez ensemble, avec une découverte audio Caresse si ce format vous attire.</p><h3>Anniversaire de PACS : marquer votre date à deux</h3><p>Repartez du jour de la signature ou d’un souvenir de votre premier chez-vous. Préparez un dîner simple, choisissez une chanson liée à cette période et gardez un moment pour parler de ce que vous aimeriez partager cette année. La surprise peut rester dans les détails de la soirée ; l’activité intime se choisit à deux.</p><h3>Anniversaire de rencontre : rejouer votre premier rendez-vous</h3><p>Retrouvez le menu, la musique ou le film du début de votre histoire, puis ajoutez quelque chose qui vous ressemble aujourd’hui. Un petit budget ou une préparation le jour même n’empêchent pas de rendre ce rendez-vous personnel. Si vous choisissez Caresse, écoutez d’abord une démo gratuite ; une fiction créée avec vos préférences utilise ensuite un crédit payant.</p></div>"
             }
           ]
         },
@@ -850,6 +867,22 @@
                         "class": "faq-item"
                       },
                       "html": "<summary>Peut-on offrir Caresse comme cadeau d’anniversaire de couple ?</summary><p>Vous pouvez proposer une expérience à partager dans l’app, en choisissant vos préférences ensemble. Ce n’est pas un bon cadeau : cette page ne propose ni carte cadeau ni transfert de crédits à une autre personne.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Quelle idée de cadeau pour un anniversaire de mariage ?</summary><p>Une lettre, un repas lié à votre histoire et une expérience choisie ensemble peuvent former un cadeau personnel, pour votre première année comme pour un anniversaire plus ancien. Caresse peut accompagner ce moment avec une démo gratuite ou une session audio personnalisée payante. Cette page ne vend ni bon cadeau ni transfert de crédits.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Comment fêter un anniversaire de PACS à la maison ?</summary><p>Choisissez un souvenir du début de votre vie commune, préparez une playlist et un repas que vous aimez, puis réservez un moment sans interruptions. Vous pouvez y ajouter une découverte audio si vous en avez envie tous les deux. Adaptez les détails à votre histoire plutôt qu’à un programme imposé.</p>"
                     }
                   ]
                 }

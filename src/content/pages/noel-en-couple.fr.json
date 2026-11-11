@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Entre Noël et le Nouvel An, profitez des soirées à la maison : une série, un dîner, du champagne ou un soft, et une expérience audio à deux avec Caresse."
+      "content": "Cadeaux de Noël et activités en couple à la maison : souvenirs, dîner et audio Caresse à partager. Démos gratuites, sessions personnalisées avec crédits payants."
     },
     {
       "name": "robots",
@@ -56,7 +56,7 @@
     },
     {
       "property": "og:description",
-      "content": "Entre Noël et le Nouvel An, profitez des soirées à la maison : une série, un dîner, du champagne ou un soft, et une expérience audio à deux avec Caresse."
+      "content": "Cadeaux de Noël et activités en couple à la maison : souvenirs, dîner et audio Caresse à partager. Démos gratuites, sessions personnalisées avec crédits payants."
     },
     {
       "property": "og:locale",
@@ -100,7 +100,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Entre Noël et le Nouvel An, profitez des soirées à la maison : une série, un dîner, du champagne ou un soft, et une expérience audio à deux avec Caresse."
+      "content": "Cadeaux de Noël et activités en couple à la maison : souvenirs, dîner et audio Caresse à partager. Démos gratuites, sessions personnalisées avec crédits payants."
     },
     {
       "name": "twitter:image",
@@ -135,7 +135,7 @@
           "@id": "https://caresse.app/noel-en-couple/#webpage",
           "url": "https://caresse.app/noel-en-couple/",
           "name": "Entre Noël et Nouvel An : 7 idées de soirées en couple | Caresse",
-          "description": "Entre Noël et le Nouvel An, profitez des soirées à la maison : une série, un dîner, du champagne ou un soft, et une expérience audio à deux avec Caresse.",
+          "description": "Cadeaux de Noël et activités en couple à la maison : souvenirs, dîner et audio Caresse à partager. Démos gratuites, sessions personnalisées avec crédits payants.",
           "inLanguage": "fr",
           "isPartOf": {
             "@id": "https://caresse.app/#website"
@@ -198,6 +198,22 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Vous pouvez sortir un jeu de cartes, ou essayer une activité guidée avec Caresse. Les démos audio sont gratuites ; une session personnalisée utilise un crédit payant. Retrouvez le format sur notre page jeu pour couple."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quel cadeau de Noël offrir à un couple qui a déjà tout ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Une invitation à une activité choisie ensemble peut compléter un cadeau matériel : cuisiner, partager un souvenir ou découvrir une expérience audio. Pour proposer Caresse, commencez par les démos gratuites dans l’app ; les générations personnalisées utilisent des crédits payants. Cette page ne vend ni carte cadeau ni transfert de crédits."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Que faire en couple le soir de Noël à la maison ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Préparez votre repas préféré, une playlist et une activité qui vous plaît à tous les deux. Une démo audio Caresse peut faire partie de la soirée si vous souhaitez un moment intime, dans un lieu privé. Le temps de génération et la durée d’une éventuelle session personnalisée varient ; gardez un programme souple."
               }
             }
           ]
@@ -523,7 +539,7 @@
               "attrs": {
                 "class": "section-inner editorial-split"
               },
-              "html": "<div><p class=\"section-label\">La soirée chez vous</p><h2 class=\"section-title\">Ces soirées à deux entre Noël et le Nouvel An</h2></div><div class=\"intent-prose\"><p>Il y a les repas où l’on retrouve tout le monde, les visites, les soirées entre amis. Et puis il y a les moments plus calmes : on rentre, on se met à l’aise, les lumières du sapin sont encore allumées et on a envie de rester un peu ensemble.</p>\n<p>On peut reprendre sa série, préparer quelque chose à manger ou essayer un audio à deux dans Caresse. Ces soirées-là font aussi partie du plaisir des fêtes. Voici sept idées à piocher pendant cette période.</p></div>"
+              "html": "<div><p class=\"section-label\">La soirée chez vous</p><h2 class=\"section-title\">Ces soirées à deux entre Noël et le Nouvel An</h2></div><div class=\"intent-prose\"><p>Il y a les repas où l’on retrouve tout le monde, les visites, les soirées entre amis. Et puis il y a les moments plus calmes : on rentre, on se met à l’aise, les lumières du sapin sont encore allumées et on a envie de rester un peu ensemble.</p>\n<p>On peut reprendre sa série, préparer quelque chose à manger ou essayer un audio à deux dans Caresse. Ces soirées-là font aussi partie du plaisir des fêtes. Voici sept idées à piocher pendant cette période.</p><h3>Un cadeau de Noël pour couple à vivre ensemble</h3><p>Offrez une invitation à une soirée dont vous choisissez les détails à deux : une recette à préparer, une playlist et un mot personnel. Si vous cherchez une expérience plutôt qu’un objet, vous pouvez proposer de découvrir la voix de Caresse. Les démos sont gratuites ; la création d’une session personnalisée utilise des crédits payants, sans abonnement. L’invitation porte sur un moment partagé, pas sur une carte cadeau Caresse.</p><h3>Une activité de Noël en couple, même avec un petit budget</h3><p>Le soir de Noël ou entre les réveillons, choisissez une seule idée selon votre énergie : cuisiner un plat simple, regarder vos photos de l’année ou écouter un audio ensemble. Prévoyez un endroit où vous avez de l’intimité si vous essayez Caresse. Vous pouvez découvrir une démo fixe sans acheter de crédit et décider ensuite si vous souhaitez personnaliser une session.</p></div>"
             }
           ]
         },
@@ -867,6 +883,22 @@
                         "class": "faq-item"
                       },
                       "html": "<summary>Quel jeu pour couple pendant les vacances de Noël ?</summary><p>Vous pouvez sortir un jeu de cartes, ou essayer une activité guidée avec Caresse. Les démos audio sont gratuites ; une session personnalisée utilise un crédit payant. Retrouvez le format sur notre page <a href=\"/couples-game/\">jeu pour couple</a>.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Quel cadeau de Noël offrir à un couple qui a déjà tout ?</summary><p>Une invitation à une activité choisie ensemble peut compléter un cadeau matériel : cuisiner, partager un souvenir ou découvrir une expérience audio. Pour proposer Caresse, commencez par les démos gratuites dans l’app ; les générations personnalisées utilisent des crédits payants. Cette page ne vend ni carte cadeau ni transfert de crédits.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Que faire en couple le soir de Noël à la maison ?</summary><p>Préparez votre repas préféré, une playlist et une activité qui vous plaît à tous les deux. Une démo audio Caresse peut faire partie de la soirée si vous souhaitez un moment intime, dans un lieu privé. Le temps de génération et la durée d’une éventuelle session personnalisée varient ; gardez un programme souple.</p>"
                     }
                   ]
                 }

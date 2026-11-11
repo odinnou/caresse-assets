@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Aniversario de noviazgo, unión civil o boda: cinco ideas para celebrar en casa, con una experiencia de audio Caresse para compartir en pareja."
+      "content": "Aniversario de boda, unión civil o noviazgo: ideas de regalos y noches en pareja en casa. Demos Caresse gratis; audio personalizado con créditos de pago."
     },
     {
       "name": "robots",
@@ -56,7 +56,7 @@
     },
     {
       "property": "og:description",
-      "content": "Aniversario de noviazgo, unión civil o boda: cinco ideas para celebrar en casa, con una experiencia de audio Caresse para compartir en pareja."
+      "content": "Aniversario de boda, unión civil o noviazgo: ideas de regalos y noches en pareja en casa. Demos Caresse gratis; audio personalizado con créditos de pago."
     },
     {
       "property": "og:locale",
@@ -100,7 +100,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Aniversario de noviazgo, unión civil o boda: cinco ideas para celebrar en casa, con una experiencia de audio Caresse para compartir en pareja."
+      "content": "Aniversario de boda, unión civil o noviazgo: ideas de regalos y noches en pareja en casa. Demos Caresse gratis; audio personalizado con créditos de pago."
     },
     {
       "name": "twitter:image",
@@ -135,14 +135,15 @@
           "@id": "https://caresse.app/es/aniversario-de-pareja/#webpage",
           "url": "https://caresse.app/es/aniversario-de-pareja/",
           "name": "Aniversario de pareja: más allá del restaurante | Caresse",
-          "description": "Aniversario de noviazgo, unión civil o boda: cinco ideas para celebrar en casa, con una experiencia de audio Caresse para compartir en pareja.",
+          "description": "Aniversario de boda, unión civil o noviazgo: ideas de regalos y noches en pareja en casa. Demos Caresse gratis; audio personalizado con créditos de pago.",
           "inLanguage": "es",
           "isPartOf": {
             "@id": "https://caresse.app/#website"
           },
           "breadcrumb": {
             "@id": "https://caresse.app/es/aniversario-de-pareja/#breadcrumb"
-          }
+          },
+          "dateModified": "2026-11-11"
         },
         {
           "@type": "BreadcrumbList",
@@ -197,6 +198,22 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Podéis proponer una experiencia para compartir en la app y elegir las preferencias juntos. No es un vale regalo: esta página no ofrece tarjetas regalo ni transferencias de créditos a otra persona."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué regalo personal elegir para un aniversario de boda?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Una carta, una comida vinculada a vuestra historia y una experiencia elegida juntos pueden formar un regalo personal, para el primer año o un aniversario posterior. Caresse puede acompañar el momento con una demo gratuita o una sesión de audio personalizada de pago. Esta página no ofrece vales regalo ni transferencias de créditos."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo celebrar un aniversario de unión civil en casa?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Elegid un recuerdo del principio de vuestra vida en común, preparad una playlist y una comida que os guste y reservad un rato sin interrupciones. Podéis añadir una experiencia de audio si os apetece a ambos. Adaptad los detalles a vuestra historia, en lugar de seguir un programa fijo."
               }
             }
           ]
@@ -522,7 +539,7 @@
               "attrs": {
                 "class": "section-inner editorial-split"
               },
-              "html": "<div><p class=\"section-label\">Aniversario de pareja</p><h2 class=\"section-title\">Vuestra fecha, en cualquier época del año</h2></div><div class=\"intent-prose\"><p>Al principio se cuentan los meses. Con los años, quizá acabéis reservando siempre la misma mesa. Empezad este aniversario con un recuerdo concreto: vuestra primera conversación, la película que no llegasteis a ver de verdad aquella noche o la comida del día que os conocisteis.</p><p>Ya sea un aniversario de noviazgo, unión civil o boda, no hace falta una gran sorpresa. Elegid juntos qué queréis celebrar y reservad un rato para vosotros.</p></div>"
+              "html": "<div><p class=\"section-label\">Aniversario de pareja</p><h2 class=\"section-title\">Vuestra fecha, en cualquier época del año</h2></div><div class=\"intent-prose\"><p>Al principio se cuentan los meses. Con los años, quizá acabéis reservando siempre la misma mesa. Empezad este aniversario con un recuerdo concreto: vuestra primera conversación, la película que no llegasteis a ver de verdad aquella noche o la comida del día que os conocisteis.</p><p>Ya sea un aniversario de noviazgo, unión civil o boda, no hace falta una gran sorpresa. Elegid juntos qué queréis celebrar y reservad un rato para vosotros.</p><h3>Regalos de aniversario de boda: uno, cinco o veinte años</h3><p>Elegid un recuerdo concreto del último año y algo que os apetezca compartir en el siguiente. Podéis recrear un plato de vuestra boda, abrir un álbum e intercambiar unas líneas escritas a mano. Para un regalo que se vive en vez de envolverse, proponed una noche que preparéis juntos, con un audio Caresse si os atrae el formato.</p><h3>Un aniversario de unión civil en casa</h3><p>Partid del día en que registrasteis la unión o de un recuerdo de vuestra primera casa. Preparad una cena sencilla, elegid una canción de aquella época y dejad espacio para hablar de lo que os gustaría compartir este año. La sorpresa puede estar en los detalles de la noche; cualquier actividad íntima se elige en pareja.</p><h3>Aniversario de noviazgo: recrear vuestra primera cita</h3><p>Recuperad la comida, la música o la película del principio de vuestra historia y añadid algo que os represente hoy. Un presupuesto pequeño o prepararlo el mismo día también permiten una celebración personal. Si elegís Caresse, escuchad primero una demo gratuita; crear una ficción de audio según vuestras preferencias consume después un crédito de pago.</p></div>"
             }
           ]
         },
@@ -850,6 +867,22 @@
                         "class": "faq-item"
                       },
                       "html": "<summary>¿Se puede regalar Caresse para un aniversario?</summary><p>Podéis proponer una experiencia para compartir en la app y elegir las preferencias juntos. No es un vale regalo: esta página no ofrece tarjetas regalo ni transferencias de créditos a otra persona.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>¿Qué regalo personal elegir para un aniversario de boda?</summary><p>Una carta, una comida vinculada a vuestra historia y una experiencia elegida juntos pueden formar un regalo personal, para el primer año o un aniversario posterior. Caresse puede acompañar el momento con una demo gratuita o una sesión de audio personalizada de pago. Esta página no ofrece vales regalo ni transferencias de créditos.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>¿Cómo celebrar un aniversario de unión civil en casa?</summary><p>Elegid un recuerdo del principio de vuestra vida en común, preparad una playlist y una comida que os guste y reservad un rato sin interrupciones. Podéis añadir una experiencia de audio si os apetece a ambos. Adaptad los detalles a vuestra historia, en lugar de seguir un programa fijo.</p>"
                     }
                   ]
                 }

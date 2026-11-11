@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Ruhige Abende zwischen den Feiertagen: Serie, gemeinsames Essen, ein Getränk nach Wahl und eine Audioerfahrung mit Caresse."
+      "content": "Weihnachtsgeschenke und Aktivitäten für Paare zu Hause: Erinnerungen, Essen und Caresse-Audio. Kostenlose Demos; persönliche Sessions mit kostenpflichtigen Credits."
     },
     {
       "name": "robots",
@@ -56,7 +56,7 @@
     },
     {
       "property": "og:description",
-      "content": "Ruhige Abende zwischen den Feiertagen: Serie, gemeinsames Essen, ein Getränk nach Wahl und eine Audioerfahrung mit Caresse."
+      "content": "Weihnachtsgeschenke und Aktivitäten für Paare zu Hause: Erinnerungen, Essen und Caresse-Audio. Kostenlose Demos; persönliche Sessions mit kostenpflichtigen Credits."
     },
     {
       "property": "og:locale",
@@ -100,7 +100,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Ruhige Abende zwischen den Feiertagen: Serie, gemeinsames Essen, ein Getränk nach Wahl und eine Audioerfahrung mit Caresse."
+      "content": "Weihnachtsgeschenke und Aktivitäten für Paare zu Hause: Erinnerungen, Essen und Caresse-Audio. Kostenlose Demos; persönliche Sessions mit kostenpflichtigen Credits."
     },
     {
       "name": "twitter:image",
@@ -135,7 +135,7 @@
           "@id": "https://caresse.app/de/weihnachten-zu-zweit/#webpage",
           "url": "https://caresse.app/de/weihnachten-zu-zweit/",
           "name": "Zwischen Weihnachten und Neujahr: sieben Abende zu zweit | Caresse",
-          "description": "Ruhige Abende zwischen den Feiertagen: Serie, gemeinsames Essen, ein Getränk nach Wahl und eine Audioerfahrung mit Caresse.",
+          "description": "Weihnachtsgeschenke und Aktivitäten für Paare zu Hause: Erinnerungen, Essen und Caresse-Audio. Kostenlose Demos; persönliche Sessions mit kostenpflichtigen Credits.",
           "inLanguage": "de",
           "isPartOf": {
             "@id": "https://caresse.app/#website"
@@ -198,6 +198,22 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Ein Kartenspiel oder ein von einer Stimme begleitetes Format können eine Idee sein. Caresse-Demos sind kostenlos, persönliche Generierung benötigt Credits. Mehr auf der Paarspiel- Seite."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was schenkt man zu Weihnachten einem Paar, das schon alles hat?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Eine Einladung zu einer gemeinsam gewählten Aktivität kann ein materielles Geschenk ergänzen: kochen, eine Erinnerung aufgreifen oder ein Audioerlebnis kennenlernen. Bei Caresse könnt ihr mit kostenlosen Demos in der App beginnen; persönliche Generierungen nutzen kostenpflichtige Credits. Diese Seite verkauft weder Gutscheine noch Credit-Übertragungen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was können Paare an Weihnachten zu Hause unternehmen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bereitet ein Lieblingsessen, eine Playlist und eine Aktivität vor, die beiden gefällt. Eine Caresse-Audiodemo kann dazugehören, wenn ihr einen intimen Moment in privater Umgebung möchtet. Erstellungszeit und Dauer einer persönlichen Session variieren; plant den Abend flexibel."
               }
             }
           ]
@@ -523,7 +539,7 @@
               "attrs": {
                 "class": "section-inner editorial-split"
               },
-              "html": "<div><p class=\"section-label\">Ein Abend zu Hause</p><h2 class=\"section-title\">Eure Abende zwischen den Feiertagen</h2></div><div class=\"intent-prose\"><p>Zwischen Besuchen gibt es vielleicht ruhige Momente: nach Hause kommen, bequem machen und die noch leuchtende Weihnachtsdekoration genießen.</p>\n<p>Schaut eine Serie, kocht etwas oder entdeckt eine Caresse-Hörprobe. Hier sind sieben Ideen, aus denen ihr frei wählen könnt.</p></div>"
+              "html": "<div><p class=\"section-label\">Ein Abend zu Hause</p><h2 class=\"section-title\">Eure Abende zwischen den Feiertagen</h2></div><div class=\"intent-prose\"><p>Zwischen Besuchen gibt es vielleicht ruhige Momente: nach Hause kommen, bequem machen und die noch leuchtende Weihnachtsdekoration genießen.</p>\n<p>Schaut eine Serie, kocht etwas oder entdeckt eine Caresse-Hörprobe. Hier sind sieben Ideen, aus denen ihr frei wählen könnt.</p><h3>Ein Weihnachtsgeschenk für gemeinsame Zeit als Paar</h3><p>Verschenkt eine Einladung zu einem Abend, dessen Details ihr zusammen auswählt: ein Rezept zum Kochen, eine Playlist und eine persönliche Nachricht. Wenn ihr ein Erlebnis statt eines Gegenstands sucht, könnt ihr die Stimme von Caresse kennenlernen. Demos sind kostenlos; eine persönliche Session zu erstellen nutzt kostenpflichtige Credits, ohne Abo. Die Einladung gilt einem gemeinsamen Moment, nicht einem Caresse-Gutschein.</p><h3>Weihnachtsaktivitäten zu zweit mit kleinem Budget</h3><p>Wählt an einem Weihnachtsabend oder zwischen den Feiern eine Idee, die zu eurer Energie passt: etwas Einfaches kochen, Fotos des Jahres ansehen oder gemeinsam Audio hören. Sorgt für Privatsphäre, wenn ihr Caresse ausprobiert. Eine feste Demo könnt ihr ohne Credit-Kauf anhören und danach entscheiden, ob ihr eine persönliche Session erstellen möchtet.</p></div>"
             }
           ]
         },
@@ -867,6 +883,22 @@
                         "class": "faq-item"
                       },
                       "html": "<summary>Welches Paarspiel passt in die Weihnachtszeit?</summary><p>Ein Kartenspiel oder ein von einer Stimme begleitetes Format können eine Idee sein. Caresse-Demos sind kostenlos, persönliche Generierung benötigt Credits. Mehr auf der <a href=\"/de/paarspiel/\">Paarspiel-</a> Seite.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Was schenkt man zu Weihnachten einem Paar, das schon alles hat?</summary><p>Eine Einladung zu einer gemeinsam gewählten Aktivität kann ein materielles Geschenk ergänzen: kochen, eine Erinnerung aufgreifen oder ein Audioerlebnis kennenlernen. Bei Caresse könnt ihr mit kostenlosen Demos in der App beginnen; persönliche Generierungen nutzen kostenpflichtige Credits. Diese Seite verkauft weder Gutscheine noch Credit-Übertragungen.</p>"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "details",
+                      "attrs": {
+                        "class": "faq-item"
+                      },
+                      "html": "<summary>Was können Paare an Weihnachten zu Hause unternehmen?</summary><p>Bereitet ein Lieblingsessen, eine Playlist und eine Aktivität vor, die beiden gefällt. Eine Caresse-Audiodemo kann dazugehören, wenn ihr einen intimen Moment in privater Umgebung möchtet. Erstellungszeit und Dauer einer persönlichen Session variieren; plant den Abend flexibel.</p>"
                     }
                   ]
                 }
