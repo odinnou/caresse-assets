@@ -94,9 +94,23 @@ fait pour le crawler, jamais en CTA visible qui détourne l'utilisateur final.
 - Authentification via Firebase (OAuth / guest)
 - Stockage d’un UID anonyme
 - Données de scénarios utilisées uniquement pour génération
-- Transmission anonymisée aux services d’IA
+- Transmission pseudonymisée des paramètres nécessaires aux services d’IA et de synthèse vocale ; un prénom ou pseudonyme choisi peut être inclus.
+- Confirmation du propriétaire, 10 novembre 2026 : les données envoyées au modèle de langage (LLM) servent à la génération, sans conservation par le LLM ni utilisation pour entraîner ses modèles. Ne pas étendre cette garantie aux autres prestataires sans confirmation.
+- Caresse conserve les expériences dans l’historique, avec suppression possible selon la politique de confidentialité. L’absence de conservation par le LLM ne signifie pas une absence de stockage côté Caresse.
 - Aucune revente de données personnelles
 - Suppression complète possible (droit à l’oubli)
+
+Référentiel éditorial pour le site et `llms.txt` : [docs/GEO-PRODUCT-FACTS.md](docs/GEO-PRODUCT-FACTS.md).
+
+Langues, confirmation du propriétaire le 10 novembre 2026 : l’app est entièrement
+en portugais sur Android. Sur iOS, le portugais complet arrive dans la prochaine
+mise à jour, en cours de validation. L’app et ses audios ne sont pas disponibles
+en allemand ; l’allemand concerne le site uniquement.
+
+Le 11 novembre 2026, le propriétaire a refusé le contrôle de citations IA payant
+proposé dans OpenSEO et demandé de privilégier l’implémentation GEO/SEO. Ne pas
+relancer cette collecte sans nouvelle demande explicite ; exploiter les données
+Search Console et Umami déjà disponibles.
 
 ---
 

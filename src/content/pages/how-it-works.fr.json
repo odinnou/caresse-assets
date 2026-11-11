@@ -941,7 +941,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Oui. Vos sessions ne sont jamais publiques ni partagées entre utilisateurs. Un alias suffit pour créer votre profil : vos vraies données restent les vôtres."
+                  "html": "Vos expériences ne sont ni publiques ni partagées entre utilisateurs. Les paramètres nécessaires à la génération sont transmis de manière pseudonymisée aux services d’IA et de synthèse vocale. Le prénom ou pseudonyme choisi peut être inclus, sans email ni identifiant de compte. Les données envoyées au modèle de langage (LLM) servent uniquement à générer le scénario : il ne les conserve pas et ne les utilise pas pour entraîner ses modèles. Caresse conserve vos expériences dans votre historique pour que vous puissiez les retrouver ; vous pouvez demander leur suppression selon la politique de confidentialité."
                 }
               ]
             },
@@ -975,7 +975,7 @@
                 {
                   "tag": "p",
                   "attrs": {},
-                  "html": "Caresse est disponible en français, anglais et espagnol."
+                  "html": "L’app génère des sessions audio en français, anglais, espagnol et portugais. L’interface portugaise est disponible sur Android ; la mise à jour iOS est en attente de validation. Les démos sont des enregistrements fixes en français, anglais et espagnol ; les pages portugaises et allemandes utilisent les enregistrements anglais. Le site est disponible en cinq langues, mais l’app et les audios ne sont pas disponibles en allemand."
                 }
               ]
             }

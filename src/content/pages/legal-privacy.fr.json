@@ -87,7 +87,7 @@
       "type": "element",
       "tag": "p",
       "attrs": {},
-      "html": "<strong>Dernière mise à jour :</strong> 5 septembre 2026"
+      "html": "<strong>Dernière mise à jour :</strong> 10 novembre 2026"
     },
     {
       "type": "container",
@@ -156,7 +156,7 @@
       "type": "element",
       "tag": "p",
       "attrs": {},
-      "html": "Pour générer les expériences, certains paramètres sont transmis à des services d'IA et de synthèse vocale (TTS) tiers. Cette transmission est pseudonymisée : le prénom ou nom d'emprunt renseigné peut être inclus, mais aucune donnée permettant de vous identifier directement (email, identifiant de compte, nom civil complet) n'est partagée."
+      "html": "Pour générer les expériences, certains paramètres sont transmis à des services d'IA et de synthèse vocale (TTS) tiers. Cette transmission est pseudonymisée : le prénom ou nom d'emprunt renseigné peut être inclus, mais aucune donnée permettant de vous identifier directement (email, identifiant de compte, nom civil complet) n'est partagée. Les données envoyées au modèle de langage (LLM) servent uniquement à générer le scénario : il ne les conserve pas et ne les utilise pas pour entraîner ses modèles."
     },
     {
       "type": "element",

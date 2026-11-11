@@ -264,7 +264,7 @@
         {
           "tag": "p",
           "attrs": {},
-          "html": "Caresse is an AI-guided intimate audio experience designed for couples who want to slow down, explore new sensations, and create rituals that truly belong to them."
+          "html": "Caresse is an app for adults who want a guided intimate audio experience together. It generates fiction on demand using your chosen names or aliases, preferences and boundaries, narrated by a synthetic voice. Demos are free; creating a personalized session uses paid credits, with no subscription."
         },
         {
           "tag": "div",
@@ -331,7 +331,7 @@
           "attrs": {
             "class": "benefit-card"
           },
-          "html": "\n                <div class=\"icon\">🔒</div>\n                \n                <h3>Private and secure</h3>\n                \n                <p>No explicit visual content. No sensitive data stored. A space that stays between you — guided by a voice, built by your imagination.</p>\n            "
+          "html": "\n                <div class=\"icon\">🔒</div>\n                \n                <h3>Private and secure</h3>\n                \n                <p>No explicit visual content. Your experiences remain private. Necessary settings are sent to generation services as described in the privacy policy.</p>\n            "
         }
       ]
     },
@@ -453,7 +453,7 @@
             {
               "tag": "p",
               "attrs": {},
-              "html": "Your profiles and preferences remain strictly private. Caresse does not share any sensitive data — neither with third parties nor between users. An alias is enough to create your profile."
+              "html": "Your experiences are not public or shared between users. Settings needed for generation are sent in pseudonymized form to AI and text-to-speech services. Your chosen first name or alias may be included, without your email or account identifier. Data sent to the language model (LLM) is used only to generate the scenario: the LLM does not retain it or use it to train its models. Caresse saves your experiences in your history so you can access them again; you can request their deletion under the privacy policy."
             }
           ]
         },

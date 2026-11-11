@@ -229,3 +229,73 @@ test('local previews never send production events', () => {
     assert.equal(b.events.length, 0);
     assert.equal(b.storage.size, 0);
 });
+
+test('identifies AI referral hosts while preserving the acquisition source and only the hostname', () => {
+    for (const [host, provider] of [
+        ['chatgpt.com', 'chatgpt'], ['chat.openai.com', 'chatgpt'],
+        ['www.perplexity.ai', 'perplexity'], ['claude.ai', 'claude'],
+        ['gemini.google.com', 'gemini'], ['copilot.microsoft.com', 'copilot']
+    ]) {
+        const event = browser().page('/', { referrer: `https://${host}/private-conversation?prompt=secret` }).click();
+        assert.equal(event.ai_provider, provider);
+        assert.equal(event.acquisition_channel, 'ai');
+        assert.equal(event.acquisition_referrer_host, host);
+        assert.equal(event.acquisition_source, host === 'chatgpt.com' ? 'chatgpt' : host);
+        assert.equal(event.acquisition_definition, 'observed-source-v1');
+        assert.equal(JSON.stringify(event).includes('private-conversation'), false);
+        assert.equal(JSON.stringify(event).includes('secret'), false);
+    }
+});
+
+test('does not infer AI traffic from general search, unknown traffic or lookalike domains', () => {
+    for (const referrer of ['', 'https://www.google.com/', 'https://www.bing.com/',
+        'https://chatgpt.com.example.org/', 'https://evilperplexity.ai/', 'https://openai.com/blog/']) {
+        const event = browser().page('/', { referrer }).click();
+        assert.equal(event.ai_provider, undefined, referrer);
+        assert.notEqual(event.acquisition_channel, 'ai', referrer);
+    }
+});
+
+test('AI attribution follows the campaign precedence and persists through internal navigation', () => {
+    const b = browser();
+    const first = b.page('/?utm_source=Perplexity', { referrer: 'https://claude.ai/chat/private' }).click('https://caresse.app/for-couples/');
+    const event = b.page('/for-couples/', { referrer: 'https://caresse.app/' }).click();
+    assert.equal(event.ai_provider, 'perplexity');
+    assert.equal(event.acquisition_source, 'Perplexity');
+    assert.equal(event.acquisition_referrer_host, 'claude.ai');
+    assert.equal(event.landing_page, '/');
+    assert.equal(event.first_link_click, false);
+    const paid = b.page('/' + campaign, { referrer: 'https://chatgpt.com/' }).click();
+    assert.equal(paid.acquisition_channel, 'other');
+    assert.equal(paid.ai_provider, undefined);
+    assert.equal(paid.acquisition_referrer_host, 'chatgpt.com');
+});
+
+test('older visits and blocked storage never invent an acquisition referrer', () => {
+    const b = browser();
+    b.page('/', { referrer: 'https://claude.ai/' });
+    b.storage.delete('caresse_acquisition_referrer_host');
+    const old = b.page('/for-couples/', { referrer: 'https://caresse.app/' }).click();
+    assert.equal(old.ai_provider, 'claude');
+    assert.equal(old.acquisition_referrer_host, '');
+    const blocked = browser({ storageMode: 'blocked' });
+    assert.equal(blocked.page('/', { referrer: 'https://perplexity.ai/' }).click().ai_provider, 'perplexity');
+    assert.equal(blocked.page('/for-couples/').click().ai_provider, undefined);
+});
+
+test('expires the restored AI source after inactivity on an internal page', () => {
+    for (const navigate of [false, true]) {
+        const b = browser();
+        b.page('/', { referrer: 'https://claude.ai/' }).click('https://caresse.app/for-couples/');
+        let page = b.page('/for-couples/', { referrer: 'https://caresse.app/' });
+        b.advance(30 * 60 * 1000 + 1);
+        if (navigate) page = b.page('/for-couples/');
+        const event = page.click();
+        assert.equal(event.ai_provider, undefined);
+        assert.equal(event.acquisition_channel, 'direct_or_unknown');
+        assert.notEqual(event.acquisition_referrer_host, 'claude.ai');
+    }
+    const googleCampaign = browser().page('/?utm_source=google', { referrer: 'https://gemini.google.com/' }).click();
+    assert.equal(googleCampaign.acquisition_channel, 'other');
+    assert.equal(googleCampaign.ai_provider, undefined);
+});

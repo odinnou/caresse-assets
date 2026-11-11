@@ -74,6 +74,20 @@ Analyse GEO révisée après correction des pages allemandes : contenu publié,
 contrôles HTTP, cohérence des faits et plan de mesure :
 [analyse GEO du 9 novembre 2026](docs/ANALYSE-GEO-2026-11-09.md).
 
+Faits produit harmonisés pour le contenu et `llms.txt`, avec leur source et la
+portée des garanties de confidentialité : [référentiel GEO](docs/GEO-PRODUCT-FACTS.md).
+Le contrôle `test:i18n` vérifie aussi les réponses FAQ visibles et les liens de
+l’inventaire `llms.txt` après le build.
+
+Suite du chantier : [mise en œuvre GEO du 10 novembre](docs/GEO-EXECUTION-2026-11-10.md),
+[panel, rapports Umami et contrôles publics](docs/geo/README.md).
+`geo:prepare`, `geo:report`, `geo:clicks` et `geo:http` préparent et analysent les
+relevés sans envoyer de messages ni déclencher de requêtes d’indexation.
+
+[Implémentation GEO et axes SEO du 11 novembre](docs/GEO-IMPLEMENTATION-2026-11-11.md) :
+accueils/démos, identité produit commune, dates de modification et priorités
+fondées sur Search Console et Umami. Aucun contrôle IA payant n’est lancé.
+
 ## Acquisition saisonnière
 
 [Calendrier Noël 2026 / Saint-Valentin 2027](SEO-CALENDRIER-SAISONNIER-2026-2027.md) : intentions des quatre pages, variantes de recherche, étapes de publication et d’indexation, calendrier de diffusion, sept brouillons de publications et mesure des clics vers les stores. Conserver les URL saisonnières sans année pour les enrichir au fil des saisons.
