@@ -1,0 +1,32 @@
+/* Scoped editorial additions; the site's article layout remains shared. */
+.screen-free .article-hero { padding-bottom: 44px; }
+.screen-free .article-intro { text-align: center; max-width: 740px; }
+.screen-free .article-hero .cta-pink { margin-top: 28px; }
+.screen-free .hero-note { display: block; margin-top: 16px; color: var(--text-secondary); font-size: .85rem; }
+.screen-free .reading-copy { max-width: 900px; }
+.screen-free .reading-copy a { color: var(--primary); text-underline-offset: 4px; }
+.screen-free .reading-copy h2 { scroll-margin-top: 100px; }
+.screen-free .reading-copy .lead { font-size: 1.2rem; color: var(--text-primary); }
+.screen-free .reading-copy blockquote { margin: 32px 0; padding: 22px 28px; border-left: 3px solid var(--pink); background: var(--surface); border-radius: 0 18px 18px 0; }
+.screen-free .reading-copy blockquote p { color: var(--primary); font-size: 1.2rem; margin: 0; }
+.screen-free .reading-copy ol { padding-left: 8px; }
+.screen-free .reading-copy li { padding-left: 6px; margin-bottom: 16px; }
+.screen-free .reading-copy li::marker { color: var(--primary); font-weight: 700; }
+.screen-free .reading-copy .callout h2 { margin-top: 0; }
+.screen-free .reading-copy .callout p + p { margin-top: 16px; }
+.screen-free .cta-section .age-notice { margin-top: 22px; margin-bottom: 0; opacity: 1; }
+.screen-free .related-copy { max-width: 760px; margin: 0 auto; color: var(--text-secondary); }
+.screen-free .related-copy a { color: var(--primary); text-underline-offset: 4px; }
+.screen-free a:focus-visible { outline: 3px solid var(--primary); outline-offset: 4px; }
+@media (max-width: 600px) {
+  .screen-free .article-hero { padding: 28px 6% 36px; }
+  .screen-free .article-hero h1 { font-size: clamp(2rem, 8vw, 2.8rem); }
+  .screen-free .reading-copy { padding: 12px 6% 48px; }
+  .screen-free .reading-copy h2 { font-size: 1.4rem; margin-top: 38px; }
+  .screen-free .reading-copy .callout { padding: 24px; }
+  .screen-free .faq { padding: 52px 6%; }
+  .screen-free .faq-item { padding: 24px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .screen-free .cta-pink { transition: none; }
+}
