@@ -3346,5 +3346,62 @@
         "x-default": "/legal/fr/privacy/"
       }
     }
+  },
+  "masturbation-sans-porno": {
+    "fr": {
+      "path": "/blog/masturbation-sans-porno/",
+      "alternates": {
+        "fr": "/blog/masturbation-sans-porno/",
+        "en": "/en/blog/masturbation-without-porn/",
+        "es": "/es/blog/masturbacion-sin-porno/",
+        "pt": "/pt/blog/masturbacao-sem-pornografia/",
+        "de": "/de/blog/masturbation-ohne-porno/",
+        "x-default": "/blog/masturbation-sans-porno/"
+      }
+    },
+    "en": {
+      "path": "/en/blog/masturbation-without-porn/",
+      "alternates": {
+        "fr": "/blog/masturbation-sans-porno/",
+        "en": "/en/blog/masturbation-without-porn/",
+        "es": "/es/blog/masturbacion-sin-porno/",
+        "pt": "/pt/blog/masturbacao-sem-pornografia/",
+        "de": "/de/blog/masturbation-ohne-porno/",
+        "x-default": "/blog/masturbation-sans-porno/"
+      }
+    },
+    "es": {
+      "path": "/es/blog/masturbacion-sin-porno/",
+      "alternates": {
+        "fr": "/blog/masturbation-sans-porno/",
+        "en": "/en/blog/masturbation-without-porn/",
+        "es": "/es/blog/masturbacion-sin-porno/",
+        "pt": "/pt/blog/masturbacao-sem-pornografia/",
+        "de": "/de/blog/masturbation-ohne-porno/",
+        "x-default": "/blog/masturbation-sans-porno/"
+      }
+    },
+    "pt": {
+      "path": "/pt/blog/masturbacao-sem-pornografia/",
+      "alternates": {
+        "fr": "/blog/masturbation-sans-porno/",
+        "en": "/en/blog/masturbation-without-porn/",
+        "es": "/es/blog/masturbacion-sin-porno/",
+        "pt": "/pt/blog/masturbacao-sem-pornografia/",
+        "de": "/de/blog/masturbation-ohne-porno/",
+        "x-default": "/blog/masturbation-sans-porno/"
+      }
+    },
+    "de": {
+      "path": "/de/blog/masturbation-ohne-porno/",
+      "alternates": {
+        "fr": "/blog/masturbation-sans-porno/",
+        "en": "/en/blog/masturbation-without-porn/",
+        "es": "/es/blog/masturbacion-sin-porno/",
+        "pt": "/pt/blog/masturbacao-sem-pornografia/",
+        "de": "/de/blog/masturbation-ohne-porno/",
+        "x-default": "/blog/masturbation-sans-porno/"
+      }
+    }
   }
 }
