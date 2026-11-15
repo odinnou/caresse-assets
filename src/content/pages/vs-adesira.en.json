@@ -1,0 +1,1074 @@
+{
+  "id": "vs-adesira.en",
+  "family": "vs-adesira",
+  "locale": "en",
+  "path": "/en/vs-adesira/",
+  "kind": "page",
+  "layout": "composed",
+  "sitemap": true,
+  "htmlAttrs": {
+    "lang": "en",
+    "data-analytics-variant": "vs-adesira-v1"
+  },
+  "bodyAttrs": {
+    "class": "adesira-comparison"
+  },
+  "title": "Adesira alternative: generated audio with your names | Caresse",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Adesira or Caresse? Compare profile-based story selection with audio generated with your names. Free demos without an account, paid credits, no subscription."
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "name": "author",
+      "content": "Studio Mokuton"
+    },
+    {
+      "name": "theme-color",
+      "content": "#5D3D8C"
+    },
+    {
+      "name": "format-detection",
+      "content": "telephone=no"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://caresse.app/en/vs-adesira/"
+    },
+    {
+      "property": "og:site_name",
+      "content": "Caresse"
+    },
+    {
+      "property": "og:title",
+      "content": "Adesira alternative: generated audio with your names | Caresse"
+    },
+    {
+      "property": "og:description",
+      "content": "Adesira or Caresse? Compare profile-based story selection with audio generated with your names. Free demos without an account, paid credits, no subscription."
+    },
+    {
+      "property": "og:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1200"
+    },
+    {
+      "property": "og:image:height",
+      "content": "630"
+    },
+    {
+      "property": "og:image:alt",
+      "content": "Caresse vs Adesira"
+    },
+    {
+      "property": "og:locale",
+      "content": "en_US"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "pt_BR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "fr_FR"
+    },
+    {
+      "property": "og:locale:alternate",
+      "content": "es_ES"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Adesira alternative: generated audio with your names | Caresse"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Adesira or Caresse? Compare profile-based story selection with audio generated with your names. Free demos without an account, paid credits, no subscription."
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://caresse.app/og-image-en.png"
+    },
+    {
+      "name": "twitter:image:alt",
+      "content": "Caresse vs Adesira"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "type": "image/x-icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "32x32",
+      "href": "/favicon-32.png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "href": "/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "sizes": "192x192",
+      "href": "/favicon-192.png"
+    },
+    {
+      "rel": "sitemap",
+      "type": "application/xml",
+      "title": "Sitemap",
+      "href": "https://caresse.app/sitemap.xml"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://developer.apple.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://play.google.com"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://mokuton.studio"
+    }
+  ],
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "block": "faq"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Caresse vs Adesira",
+      "description": "Adesira or Caresse? Compare profile-based story selection with audio generated with your names. Free demos without an account, paid credits, no subscription.",
+      "url": "https://caresse.app/en/vs-adesira/",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Caresse",
+        "url": "https://caresse.app/"
+      },
+      "about": {
+        "@type": "MobileApplication",
+        "name": "Caresse",
+        "url": "https://caresse.app/",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Studio Mokuton",
+          "url": "https://mokuton.studio/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "name": "Free download"
+        },
+        "sameAs": [
+          "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+          "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+          "https://x.com/app_caresse",
+          "https://www.instagram.com/caresse.app",
+          "https://www.youtube.com/@app.caresse",
+          "https://www.tiktok.com/@caresse.app"
+        ],
+        "inLanguage": [
+          "fr",
+          "en",
+          "es",
+          "pt"
+        ],
+        "isSimilarTo": {
+          "@type": "SoftwareApplication",
+          "name": "Adesira"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Caresse",
+            "item": "https://caresse.app/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Alternatives",
+            "item": "https://caresse.app/en/alternatives/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caresse vs Adesira",
+            "item": "https://caresse.app/en/vs-adesira/"
+          }
+        ]
+      },
+      "datePublished": "2026-11-15",
+      "dateModified": "2026-11-15"
+    }
+  ],
+  "styles": [
+    "shared-a40e50920932b5d8.css",
+    "vs-adesira.css"
+  ],
+  "styleAttrs": {
+    "shared-a40e50920932b5d8.css": {}
+  },
+  "headScripts": [],
+  "scripts": [],
+  "headOrder": [
+    {
+      "type": "meta",
+      "index": 0
+    },
+    {
+      "type": "meta",
+      "index": 1
+    },
+    {
+      "type": "title"
+    },
+    {
+      "type": "meta",
+      "index": 2
+    },
+    {
+      "type": "meta",
+      "index": 3
+    },
+    {
+      "type": "meta",
+      "index": 4
+    },
+    {
+      "type": "link",
+      "index": 0
+    },
+    {
+      "type": "link",
+      "index": 1
+    },
+    {
+      "type": "link",
+      "index": 2
+    },
+    {
+      "type": "link",
+      "index": 3
+    },
+    {
+      "type": "canonical",
+      "attrs": {
+        "rel": "canonical"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 5
+    },
+    {
+      "type": "meta",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 4
+    },
+    {
+      "type": "alternate",
+      "locale": "fr",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "fr"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "en",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "en"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "es",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "es"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "pt",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "pt"
+      }
+    },
+    {
+      "type": "alternate",
+      "locale": "x-default",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default"
+      }
+    },
+    {
+      "type": "meta",
+      "index": 7
+    },
+    {
+      "type": "meta",
+      "index": 8
+    },
+    {
+      "type": "meta",
+      "index": 9
+    },
+    {
+      "type": "meta",
+      "index": 10
+    },
+    {
+      "type": "meta",
+      "index": 11
+    },
+    {
+      "type": "meta",
+      "index": 12
+    },
+    {
+      "type": "meta",
+      "index": 13
+    },
+    {
+      "type": "meta",
+      "index": 14
+    },
+    {
+      "type": "meta",
+      "index": 15
+    },
+    {
+      "type": "meta",
+      "index": 16
+    },
+    {
+      "type": "meta",
+      "index": 17
+    },
+    {
+      "type": "meta",
+      "index": 18
+    },
+    {
+      "type": "meta",
+      "index": 19
+    },
+    {
+      "type": "meta",
+      "index": 20
+    },
+    {
+      "type": "meta",
+      "index": 21
+    },
+    {
+      "type": "meta",
+      "index": 22
+    },
+    {
+      "type": "meta",
+      "index": 23
+    },
+    {
+      "type": "meta",
+      "index": 24
+    },
+    {
+      "type": "schema",
+      "index": 0,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "schema",
+      "index": 1,
+      "attrs": {
+        "type": "application/ld+json"
+      }
+    },
+    {
+      "type": "link",
+      "index": 5
+    },
+    {
+      "type": "link",
+      "index": 6
+    },
+    {
+      "type": "link",
+      "index": 7
+    },
+    {
+      "type": "style",
+      "file": "shared-a40e50920932b5d8.css",
+      "attrs": {}
+    },
+    {
+      "type": "style",
+      "file": "vs-adesira.css",
+      "attrs": {}
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "https://cloud.umami.is/script.js",
+        "data-website-id": "4a1be662-e78b-4d4e-8a5d-c5791756a46a",
+        "data-domains": "caresse.app"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "defer": "",
+        "src": "/umami-store-tracking.js"
+      }
+    },
+    {
+      "type": "script",
+      "attrs": {
+        "src": "/mobile-store-cta.js",
+        "defer": ""
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "ref": "header-0e6d5046eaad1fdf"
+    },
+    {
+      "type": "element",
+      "tag": "nav",
+      "attrs": {
+        "class": "breadcrumb",
+        "aria-label": "Breadcrumb"
+      },
+      "html": "<a href=\"/en/\">Caresse</a> › <a href=\"/en/alternatives/\">Alternatives</a> › <span aria-current=\"page\">Caresse vs Adesira</span>"
+    },
+    {
+      "type": "intro",
+      "attrs": {
+        "class": "hero"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-eyebrow"
+          },
+          "html": "Caresse vs Adesira · Intimate audio · 18+"
+        },
+        {
+          "tag": "h1",
+          "attrs": {},
+          "html": "An alternative to Adesira:<br><em>your name in the narration.</em>"
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "hero-badge"
+          },
+          "html": "<strong>Your names, spoken aloud. Your desires in the story.</strong><br>Generated on demand · Paid credits, no subscription.<br>Free demos without a Caresse account."
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "html": "A quiz can point you towards a story that matches your tastes. With Caresse, your choices are used to create guided audio fiction, solo or together. Listen to a free demo before deciding to generate your own session."
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "html": "\n            <a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Download the app free</a>\n        "
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "tldr"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "The difference in format"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "A story for your profile,<br>or a scenario generated for you?"
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "tldr-card"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "html": "In the Adesira journey examined, the quiz narrows the story selection based on the profile; an account and payment are required before listening. Caresse generates the scenario and its narration from your configuration, including your names or aliases. Downloading Caresse and listening to demos is free; personalized generation uses paid credits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "verdict",
+        "id": "verdict"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Before choosing"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "The differences that matter before paying."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "verdict-table-wrap",
+            "tabindex": "0",
+            "role": "region",
+            "aria-label": "Caresse vs Adesira"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "verdict-table"
+              },
+              "html": "<thead><tr><th scope=\"col\" class=\"crit\">Criterion</th><th scope=\"col\">Caresse</th><th scope=\"col\">Adesira</th></tr></thead><tbody><tr><th scope=\"row\" class=\"crit\">Personalization</th><td class=\"caresse\">Scenario and narration generated on demand from your configuration</td><td class=\"other\">Quiz filters stories by profile in the journey examined</td></tr><tr><th scope=\"row\" class=\"crit\">Names spoken aloud</th><td class=\"caresse\">Your names or aliases, solo or together</td><td class=\"other\">Feature not verified in this comparison</td></tr><tr><th scope=\"row\" class=\"crit\">Listen without paying</th><td class=\"caresse\">Free pre-generated demos</td><td class=\"other\">Payment required before listening in the journey examined</td></tr><tr><th scope=\"row\" class=\"crit\">Account</th><td class=\"caresse\">Guest mode without a Caresse account; purchases through your Apple or Google account</td><td class=\"other\">Account required in the journey examined</td></tr><tr><th scope=\"row\" class=\"crit\">Payment</th><td class=\"caresse\">Credits to generate sessions, no subscription</td><td class=\"other\">Paid listening; check the amount and terms in the offer shown</td></tr></tbody>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "columns"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Your personalization"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "What your answers change."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "columns-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card highlight"
+              },
+              "html": "<p class=\"col-sub\">Caresse</p><h3>Your choices become part of the story.</h3><p>Choose the participants, their names or aliases, the atmosphere and the preferences to include. These details are used to generate the fiction and its narration by a synthetic voice. You keep your own pace and choose which suggestions you want to follow.</p><ul><li>One name for solo, two names for a duo</li><li>Preferences, intensity and atmosphere</li><li>Accessories or sex toys according to your choices</li></ul>"
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "col-card muted"
+              },
+              "html": "<p class=\"col-sub\">Adesira</p><h3>The quiz guides the selection.</h3><p>Answers are used to match stories to a profile in the journey examined. This approach may suit you if you prefer choosing a suggested story. It differs from creating a scenario from your own settings.</p><ul><li>Stories selected by profile</li><li>Account required to access listening</li><li>Payment before trying the audio in the journey examined</li></ul>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "example"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Your names in practice"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Manon and Thomas are in the configuration.<br>Their names become part of the narration."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "example-grid"
+          },
+          "blocks": [
+            {
+              "type": "container",
+              "tag": "div",
+              "attrs": {
+                "class": "example-copy"
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {
+                    "class": "example-names"
+                  },
+                  "html": "Manon + Thomas"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "The screenshot shows the two names for a duo session. You can use your own or choose aliases. They are used to build the scenario and are spoken by the voice during the experience."
+                },
+                {
+                  "type": "element",
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Your accessories can be part of the experience too."
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "If you want to include sex toys, add them to your preferences. Audio, imagination and accessories can complement each other while you put the phone aside."
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "figure",
+              "attrs": {},
+              "html": "<img src=\"/screens/en/05_android_en.webp\" alt=\"Caresse duo configuration with the name fields Manon and Thomas\" width=\"1179\" height=\"2556\" loading=\"lazy\"><figcaption>Caresse screenshot in English. Manon and Thomas are the example names shown.</figcaption>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "pricing"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Listen, then decide"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Hear the voice before buying your session."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "pricing-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card highlight"
+              },
+              "html": "<h3>Free demos</h3><p class=\"price-note\">Discover the format and voice without a Caresse account. Demos are fixed recordings with example names, not a generation using your own names.</p>"
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "price-card"
+              },
+              "html": "<h3>Then, credits</h3><p class=\"price-note\">One credit is used when personalized generation starts. Buy credits when you want them, without a subscription or automatic renewal.</p><p class=\"price-note\">An optional one-time purchase extends the personalization settings. It does not replace credits or include unlimited generation.</p>"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "pricing-footnote"
+          },
+          "html": "<a href=\"/en/pricing/\">Understand Caresse credits</a>. Comparison published by Caresse, based on Adesira pages (home, quiz, login) and a journey checked by the publisher. Access conditions describe that journey. Detailed pricing and names spoken in Adesira audio have not been verified."
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "faq"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Frequently asked questions"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Questions to consider before choosing."
+        },
+        {
+          "type": "faq",
+          "attrs": {
+            "class": "faq-list"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Do the Adesira quiz and Caresse settings personalize the same thing?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "In the Adesira journey examined, the quiz filters stories by profile. In Caresse, the configuration is used to generate the scenario and its narration with your names, preferences and chosen accessories. The difference concerns what is selected or created from your answers."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "How can I hear the format before buying a session with my names?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Listen to free Caresse demos, available without a Caresse account. They let you hear the synthetic voice and style of guidance using example names. If the format suits you, generate a personalized session with paid credits."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "I use sex toys: can the scenario take them into account?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Accessories are part of Caresse personalization preferences. You can specify those you want to include, solo or together. Suggestions remain yours to choose from; you decide which ones to follow and at what pace."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "What do I pay if I only listen occasionally?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "Demos remain free. Creating a new personalized session uses one credit when generation starts. Caresse does not require a subscription. The optional unlock for advanced settings is a separate purchase and does not include unlimited generation."
+                }
+              ]
+            },
+            {
+              "attrs": {
+                "class": "faq-item"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "html": "Which account is needed to listen or buy?"
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "html": "The Adesira journey checked requires an account before listening. Caresse offers guest mode and demos without a Caresse account. Credit purchases go through the App Store or Google Play and require your Apple or Google account and its payment method."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "cta-section",
+        "id": "download"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "At your own pace"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Hear the voice.<br>Imagine your own session."
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-sub"
+          },
+          "html": "Download Caresse on iPhone or Android. Demos are free without a Caresse account; sessions generated with your names use paid credits, without a subscription."
+        },
+        {
+          "type": "container",
+          "tag": "div",
+          "attrs": {
+            "class": "cta-group"
+          },
+          "blocks": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://apps.apple.com/us/app/caresse/id6758887086?l=en-US",
+                "class": "cta-pink",
+                "target": "_blank",
+                "rel": "noopener",
+                "data-cta-position": "footer"
+              },
+              "html": "App Store"
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
+                "class": "cta-ghost",
+                "target": "_blank",
+                "rel": "noopener",
+                "data-cta-position": "footer"
+              },
+              "html": "Google Play"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "age-notice"
+          },
+          "html": "For adults aged 18 and over"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "tag": "section",
+      "attrs": {
+        "class": "related"
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "section-label"
+          },
+          "html": "Compare the formats"
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {
+            "class": "section-title"
+          },
+          "html": "Other ways to experience intimate audio."
+        },
+        {
+          "type": "cards",
+          "attrs": {
+            "class": "related-grid"
+          },
+          "prefix": "",
+          "suffix": "",
+          "items": [
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/en/vs-dipsea/",
+                "class": "related-card"
+              },
+              "html": "<p class=\"ttl\">Caresse vs Dipsea</p><p class=\"desc\">Audio libraries and generated sessions</p>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/en/vs-melba/",
+                "class": "related-card"
+              },
+              "html": "<p class=\"ttl\">Caresse vs Melba</p><p class=\"desc\">Demos and personalized experiences</p>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/en/alternatives/",
+                "class": "related-card"
+              },
+              "html": "<p class=\"ttl\">All comparisons</p><p class=\"desc\">All comparisons</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "attrs": {},
+      "nodes": [
+        "footer.en.logo",
+        "footer-60b041cb44bacf4e",
+        "footer.en.links",
+        "footer-c18220e05a34e590",
+        "footer.en.copy"
+      ]
+    },
+    {
+      "type": "script",
+      "attrs": {},
+      "file": "script-f9d13a335484f6e7.js"
+    }
+  ]
+}

@@ -1199,6 +1199,14 @@
                 "class": "related-card"
               },
               "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse vs Bonded</p><p class=\"desc\">Conversa escrita que espera respostas ou sessão contínua em áudio.</p>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/pt/vs-adesira/",
+                "class": "related-card"
+              },
+              "html": "<p class=\"ttl\">Caresse vs Adesira</p><p class=\"desc\">Questionário ou cenário gerado</p>"
             }
           ]
         }

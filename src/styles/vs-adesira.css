@@ -1,0 +1,27 @@
+.adesira-comparison .hero { padding-top: 52px; padding-bottom: 64px; }
+.adesira-comparison .hero p { max-width: 740px; margin-bottom: 24px; }
+.adesira-comparison .hero .hero-badge { color: var(--text-primary); font-size: 1rem; line-height: 1.7; opacity: 1; margin: 0 auto 24px; }
+.adesira-comparison .hero .hero-eyebrow { font-size: .85rem; }
+.adesira-comparison .tldr-card p + p { margin-top: 18px; }
+.adesira-comparison .example { background: var(--surface); }
+.adesira-comparison .example-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(180px, 240px); gap: 48px; align-items: center; max-width: 1000px; margin: 36px auto 0; }
+.adesira-comparison .example-copy p { color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px; }
+.adesira-comparison .example-copy .example-names { color: var(--primary); font-size: 1.7rem; font-weight: 800; }
+.adesira-comparison .example-copy h3 { color: var(--primary); margin: 24px 0 12px; font-size: 1.2rem; }
+.adesira-comparison .example figure { margin: 0; min-width: 0; }
+.adesira-comparison .example img { display: block; width: 100%; height: auto; border-radius: 22px; box-shadow: 0 16px 40px rgba(93,61,140,.12); }
+.adesira-comparison .example figcaption { color: var(--text-secondary); font-size: .8rem; line-height: 1.6; text-align: center; margin-top: 16px; }
+.adesira-comparison .example-copy a, .adesira-comparison .pricing-footnote a { color: var(--primary); text-underline-offset: 4px; }
+.adesira-comparison .pricing-footnote { opacity: 1; line-height: 1.7; }
+.adesira-comparison .price-note + .price-note { margin-top: 16px; }
+.adesira-comparison .cta-section .age-notice { margin-top: 24px; opacity: 1; }
+.adesira-comparison a:focus-visible { outline: 3px solid var(--primary); outline-offset: 4px; }
+@media (max-width: 640px) {
+  .adesira-comparison .hero { padding: 40px 6% 48px; }
+  .adesira-comparison h1 { font-size: clamp(2rem, 8vw, 2.8rem); }
+  .adesira-comparison .tldr-card { padding: 26px; }
+  .adesira-comparison .col-card, .adesira-comparison .price-card { padding: 28px; }
+  .adesira-comparison .example-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .adesira-comparison .example figure { width: min(240px, 100%); margin: 0 auto; }
+  .adesira-comparison .verdict-table th, .adesira-comparison .verdict-table td { padding: 12px 8px; overflow-wrap: anywhere; }
+}
