@@ -21,7 +21,7 @@
     },
     {
       "name": "description",
-      "content": "Compare Dipsea with Caresse’s personalized audio in 4 languages. Free demos, no account, anonymous mode and no subscription."
+      "content": "Compare Dipsea and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "name": "robots",
@@ -57,7 +57,7 @@
     },
     {
       "property": "og:description",
-      "content": "Personalized audio in four languages. Free demos, no account, anonymous mode and no subscription."
+      "content": "Compare Dipsea and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "property": "og:image",
@@ -101,7 +101,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Personalized audio in EN · FR · ES. No account, anonymous mode and no subscription."
+      "content": "Compare Dipsea and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "name": "twitter:image",
@@ -166,7 +166,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse vs Dipsea",
-      "description": "Comparison between Caresse (AI-personalized intimate audio, pay per session) and Dipsea (subscription-based library of pre-recorded erotic audio stories).",
+      "description": "Compare Dipsea and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription.",
       "url": "https://caresse.app/en/vs-dipsea/",
       "inLanguage": "en",
       "isPartOf": {
@@ -268,6 +268,14 @@
         },
         {
           "tag": "p",
+          "attrs": {
+            "class": "hero-badge",
+            "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+          },
+          "html": "<strong>Your names, spoken aloud. Your desires in the story.</strong><br>Generated on demand · Paid credits, no subscription.<br>Free demos without a Caresse account."
+        },
+        {
+          "tag": "p",
           "attrs": {},
           "html": "Looking for a Dipsea alternative without a subscription? Caresse creates personalized audio sessions with your names and preferences in English, French, Spanish or Portuguese. The Portuguese interface is available on Android; the iOS update is awaiting approval. Download on iPhone or Android and listen to demos free, without a Caresse account. Personalized sessions use paid credits."
         },
@@ -290,13 +298,6 @@
               "html": "Download the app free"
             }
           ]
-        },
-        {
-          "tag": "p",
-          "attrs": {
-            "class": "hero-badge"
-          },
-          "html": "Anonymous mode · No Caresse sign-up · Free demos<br>Paid personalized sessions, no subscription."
         }
       ]
     },

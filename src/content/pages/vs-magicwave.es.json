@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "¿Buscas una alternativa a MagicWave en español? Escucha demos de audio reales sin crear una cuenta, con sesiones personalizadas con tu nombre."
+      "content": "Compara MagicWave y Caresse: audios generados que pronuncian tus nombres, en solitario o en pareja. Demos gratis, créditos sin suscripción."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "¿Buscas una alternativa a MagicWave en español? Escucha demos de audio reales sin crear una cuenta, con sesiones personalizadas con tu nombre."
+      "content": "Compara MagicWave y Caresse: audios generados que pronuncian tus nombres, en solitario o en pareja. Demos gratis, créditos sin suscripción."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Demos de audio FR · EN · ES sin registro. Sin suscripción. Alternativa anónima a MagicWave."
+      "content": "Compara MagicWave y Caresse: audios generados que pronuncian tus nombres, en solitario o en pareja. Demos gratis, créditos sin suscripción."
     },
     {
       "name": "twitter:image",
@@ -169,7 +169,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse vs MagicWave",
-      "description": "Comparativa entre Caresse (audio íntimo personalizado por IA, compra por sesión) y MagicWave (library de audiolibros románticos con reparto completo, en inglés, por suscripción).",
+      "description": "Compara MagicWave y Caresse: audios generados que pronuncian tus nombres, en solitario o en pareja. Demos gratis, créditos sin suscripción.",
       "url": "https://caresse.app/es/vs-magicwave/",
       "inLanguage": "es",
       "isPartOf": {
@@ -533,6 +533,14 @@
         },
         {
           "tag": "p",
+          "attrs": {
+            "class": "hero-badge",
+            "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+          },
+          "html": "<strong>Tus nombres en la voz. Tus deseos en la historia.</strong><br>Generación a petición · Créditos sin suscripción.<br>Demos gratuitas sin cuenta Caresse."
+        },
+        {
+          "tag": "p",
           "attrs": {},
           "html": "MagicWave ofrece una library de audiolibros románticos con reparto completo, solo en inglés, pensada para una escucha individual. Caresse toma un camino distinto: demos de audio pregeneradas jugables al instante, sin registro, sin cuenta, sin email, en francés, inglés y español. Después, un ritual a medida que te llama por tu nombre, en solitario o en pareja."
         },
@@ -542,13 +550,6 @@
             "class": "cta-group"
           },
           "html": "\n            <a href=\"https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Descargar la app gratis</a>\n        "
-        },
-        {
-          "tag": "p",
-          "attrs": {
-            "class": "hero-badge"
-          },
-          "html": "Demos gratis en la app, sin registro. Sesiones personalizadas de pago, sin suscripción."
         }
       ]
     },
@@ -629,7 +630,7 @@
               "attrs": {
                 "class": "verdict-table"
               },
-              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Criterio</th>\n                        <th>Caresse</th>\n                        <th>MagicWave</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Demo de audio sin cuenta</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sí</span>, demos jugables al instante</td>\n                        <td class=\"other\">Fragmentos limitados, catálogo completo tras suscripción/Shells</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Tipo de contenido</th>\n                        <td class=\"caresse\">Guion generado, único en cada sesión</td>\n                        <td class=\"other\">Catálogo de audiolibros con reparto completo, preescritos</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Tus nombres en el audio</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sí</span>, la voz te llama por tu nombre</td>\n                        <td class=\"other\"><span class=\"no\">No</span>, narración de ficción genérica</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personalización del guion</th>\n                        <td class=\"caresse\">Géneros, prácticas, accesorios, intensidad, dirty-talk, lugar, ambiente</td>\n                        <td class=\"other\">Elección de un título del catálogo</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modo solo + modo dúo</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sí</span>, ambos modos nativos</td>\n                        <td class=\"other\">Orientado a la escucha individual</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Renovación</th>\n                        <td class=\"caresse\">Combinatoria casi infinita</td>\n                        <td class=\"other\">Catálogo actualizado regularmente</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modelo económico</th>\n                        <td class=\"caresse\">Compra por sesión, sin suscripción</td>\n                        <td class=\"other\">Suscripción (Prime) o moneda virtual (Shells)</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Idiomas de audio</th>\n                        <td class=\"caresse\">Francés, inglés, español y portugués (interfaz PT en Android; actualización iOS pendiente de aprobación)</td>\n                        <td class=\"other\">Solo inglés</td>\n                    </tr>\n                </tbody>\n            "
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Criterio</th>\n                        <th>Caresse</th>\n                        <th>MagicWave</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Demo de audio sin cuenta</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sí</span>, demos jugables al instante</td>\n                        <td class=\"other\">Fragmentos limitados, catálogo completo tras suscripción/Shells</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Tipo de contenido</th>\n                        <td class=\"caresse\">Guion generado, único en cada sesión</td>\n                        <td class=\"other\">Catálogo de audiolibros con reparto completo, preescritos</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Tus nombres en el audio</th>\n                        <td class=\"caresse\">Nombres o seudónimos integrados en la historia y pronunciados en el audio, en solitario o en pareja. Las demos usan nombres de ejemplo.</td>\n                        <td class=\"other\"><span class=\"no\">No</span>, narración de ficción genérica</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personalización del guion</th>\n                        <td class=\"caresse\">Géneros, prácticas, accesorios, intensidad, dirty-talk, lugar, ambiente</td>\n                        <td class=\"other\">Elección de un título del catálogo</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modo solo + modo dúo</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sí</span>, ambos modos nativos</td>\n                        <td class=\"other\">Orientado a la escucha individual</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Renovación</th>\n                        <td class=\"caresse\">Combinatoria casi infinita</td>\n                        <td class=\"other\">Catálogo actualizado regularmente</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modelo económico</th>\n                        <td class=\"caresse\">Compra por sesión, sin suscripción</td>\n                        <td class=\"other\">Suscripción (Prime) o moneda virtual (Shells)</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Idiomas de audio</th>\n                        <td class=\"caresse\">Francés, inglés, español y portugués (interfaz PT en Android; actualización iOS pendiente de aprobación)</td>\n                        <td class=\"other\">Solo inglés</td>\n                    </tr>\n                </tbody>\n            "
             }
           ]
         },

@@ -21,7 +21,7 @@
     },
     {
       "name": "description",
-      "content": "Dipsea und Caresse vergleichen: persönliche Audios in vier Sprachen, kostenlose Demos, anonymer Modus ohne Caresse-Konto und kein Abo."
+      "content": "Vergleicht Dipsea und Caresse: generierte Audios mit euren gesprochenen Vornamen, allein oder zu zweit. Kostenlose Demos, Credits ohne Abo."
     },
     {
       "name": "robots",
@@ -57,7 +57,7 @@
     },
     {
       "property": "og:description",
-      "content": "Persönliche Audios in vier Sprachen. Kostenlose Demos, anonymer Modus ohne Caresse-Konto und kein Abo."
+      "content": "Vergleicht Dipsea und Caresse: generierte Audios mit euren gesprochenen Vornamen, allein oder zu zweit. Kostenlose Demos, Credits ohne Abo."
     },
     {
       "property": "og:image",
@@ -101,7 +101,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Persönliche Audios auf EN, FR, ES und PT. Anonymer Modus ohne Caresse-Konto, ohne Abo."
+      "content": "Vergleicht Dipsea und Caresse: generierte Audios mit euren gesprochenen Vornamen, allein oder zu zweit. Kostenlose Demos, Credits ohne Abo."
     },
     {
       "name": "twitter:image",
@@ -166,7 +166,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse und Dipsea",
-      "description": "Vergleich zwischen Caresse mit persönlichen KI-Audios pro Generierung und Dipsea mit einem Katalog vorproduzierter Audiogeschichten im Abo.",
+      "description": "Vergleicht Dipsea und Caresse: generierte Audios mit euren gesprochenen Vornamen, allein oder zu zweit. Kostenlose Demos, Credits ohne Abo.",
       "url": "https://caresse.app/de/vs-dipsea/",
       "inLanguage": "de",
       "isPartOf": {
@@ -268,6 +268,14 @@
         },
         {
           "tag": "p",
+          "attrs": {
+            "class": "hero-badge",
+            "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+          },
+          "html": "<strong>Die Stimme nennt eure Namen. Die Geschichte folgt euren Wünschen.</strong><br>Auf Wunsch generiert · Bezahlte Credits, kein Abo.<br>Kostenlose Demos ohne Caresse-Konto.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        },
+        {
+          "tag": "p",
           "attrs": {},
           "html": "Caresse erstellt persönliche Audios mit euren Namen und Vorlieben auf EN, FR, ES oder PT, ohne Abo. Die portugiesische Oberfläche ist auf Android verfügbar; iOS wartet auf Freigabe. Auf iOS oder Android könnt ihr feste Demos kostenlos ohne Caresse-Konto hören. Persönliche Sessions benötigen Credits."
         },
@@ -290,13 +298,6 @@
               "html": "App kostenlos herunterladen"
             }
           ]
-        },
-        {
-          "tag": "p",
-          "attrs": {
-            "class": "hero-badge"
-          },
-          "html": "Anonymer Modus · Kein Caresse-Konto · Kostenlose Demos<br>Persönliche Sessions kostenpflichtig, ohne Abo.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
         }
       ]
     },

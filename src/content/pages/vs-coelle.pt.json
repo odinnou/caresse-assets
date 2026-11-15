@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Compare Caresse e Coelle: demos sem conta Caresse, geração de áudio em português no app e créditos pagos sem assinatura. A interface em português já está disponível no Android. A atualização para iOS aguarda aprovação."
+      "content": "Compare Coelle e Caresse: áudios gerados com seus nomes na narração, a sós ou a dois. Demos grátis, créditos pagos e sem assinatura."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "Demos pré-geradas sem cadastro Caresse. Uma alternativa de áudio criado por IA, com créditos pagos."
+      "content": "Compare Coelle e Caresse: áudios gerados com seus nomes na narração, a sós ou a dois. Demos grátis, créditos pagos e sem assinatura."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Demos sem cadastro e sessões com créditos pagos, sem assinatura."
+      "content": "Compare Coelle e Caresse: áudios gerados com seus nomes na narração, a sós ou a dois. Demos grátis, créditos pagos e sem assinatura."
     },
     {
       "name": "twitter:image",
@@ -169,7 +169,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse vs Coelle",
-      "description": "Compare Caresse, com áudio íntimo criado por IA e créditos por geração, e Coelle, com biblioteca de experiências guiadas e assinatura anual.",
+      "description": "Compare Coelle e Caresse: áudios gerados com seus nomes na narração, a sós ou a dois. Demos grátis, créditos pagos e sem assinatura.",
       "url": "https://caresse.app/pt/vs-coelle/",
       "inLanguage": "pt",
       "isPartOf": {
@@ -544,6 +544,14 @@
         },
         {
           "tag": "p",
+          "attrs": {
+            "class": "hero-badge",
+            "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+          },
+          "html": "<strong>Seus nomes na voz. Suas vontades na história.</strong><br>Geração sob demanda · Créditos pagos, sem assinatura.<br>Demos gratuitas sem conta Caresse."
+        },
+        {
+          "tag": "p",
           "attrs": {},
           "html": "O Coelle propõe um catálogo guiado com cadastro e assinatura anual. O Caresse oferece demos pré-geradas sem e-mail nem conta Caresse para conhecer a voz e o formato. Se você quiser criar uma sessão com seus nomes e preferências, usa créditos pagos, sem assinatura. A compra passa pela conta Apple ou Google."
         },
@@ -553,13 +561,6 @@
             "class": "cta-group"
           },
           "html": "\n            <a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Baixar o app grátis</a>\n        "
-        },
-        {
-          "tag": "p",
-          "attrs": {
-            "class": "hero-badge"
-          },
-          "html": "Demos gratuitas no app, sem cadastro Caresse. Sessões personalizadas com créditos pagos, sem assinatura."
         }
       ]
     },
@@ -640,7 +641,7 @@
               "attrs": {
                 "class": "verdict-table"
               },
-              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critério</th>\n                        <th>Caresse</th>\n                        <th>Coelle</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Demos em áudio sem conta Caresse</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — exemplos pré-gerados disponíveis para escuta</td>\n                        <td class=\"other\"><span class=\"no\">Não</span> — cadastro para conhecer a oferta consultada</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Conta exigida</th>\n                        <td class=\"caresse\"><span class=\"no\">Não no modo convidado</span> — compras exigem conta Apple ou Google</td>\n                        <td class=\"other\"><span class=\"yes\">Sim</span> — cadastro obrigatório</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Tipo de conteúdo</th>\n                        <td class=\"caresse\">Narrativa criada por IA a cada geração</td>\n                        <td class=\"other\">Biblioteca de experiências guiadas previamente criadas</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Seus nomes no áudio</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — a voz usa seus nomes ou pseudônimos</td>\n                        <td class=\"other\"><span class=\"no\">Não</span> — narração não adaptada aos nomes</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personalização do roteiro</th>\n                        <td class=\"caresse\">Identidades, nomes, sugestões, acessórios, intensidade, linguagem, local e ambiente</td>\n                        <td class=\"other\">Escolha de categoria, como preparação ou solo</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Duração</th>\n                        <td class=\"caresse\">Variável, geralmente de 25 a 35 minutos; não é uma opção fixa</td>\n                        <td class=\"other\">Definida para cada experiência escolhida</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Variedade</th>\n                        <td class=\"caresse\">Diferentes combinações de configuração e geração</td>\n                        <td class=\"other\">Novas experiências adicionadas ao catálogo</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modelo de pagamento</th>\n                        <td class=\"caresse\">Créditos por geração, sem assinatura</td>\n                        <td class=\"other\">Assinatura anual, referência de US$ 49,99 por ano</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Idiomas do áudio</th>\n                        <td class=\"caresse\">Português, francês, inglês e espanhol</td>\n                        <td class=\"other\">English</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modo solo e modo a dois</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — ambos disponíveis</td>\n                        <td class=\"other\"><span class=\"yes\">Sim</span> — categorias de preparação e solo</td>\n                    </tr>\n                </tbody>\n            "
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critério</th>\n                        <th>Caresse</th>\n                        <th>Coelle</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Demos em áudio sem conta Caresse</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — exemplos pré-gerados disponíveis para escuta</td>\n                        <td class=\"other\"><span class=\"no\">Não</span> — cadastro para conhecer a oferta consultada</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Conta exigida</th>\n                        <td class=\"caresse\"><span class=\"no\">Não no modo convidado</span> — compras exigem conta Apple ou Google</td>\n                        <td class=\"other\"><span class=\"yes\">Sim</span> — cadastro obrigatório</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Tipo de conteúdo</th>\n                        <td class=\"caresse\">Narrativa criada por IA a cada geração</td>\n                        <td class=\"other\">Biblioteca de experiências guiadas previamente criadas</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Seus nomes no áudio</th>\n                        <td class=\"caresse\">Nomes ou pseudônimos incluídos na história e pronunciados no áudio, a sós ou a dois. As demos usam nomes de exemplo.</td>\n                        <td class=\"other\"><span class=\"no\">Não</span> — narração não adaptada aos nomes</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personalização do roteiro</th>\n                        <td class=\"caresse\">Identidades, nomes, sugestões, acessórios, intensidade, linguagem, local e ambiente</td>\n                        <td class=\"other\">Escolha de categoria, como preparação ou solo</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Duração</th>\n                        <td class=\"caresse\">Variável, geralmente de 25 a 35 minutos; não é uma opção fixa</td>\n                        <td class=\"other\">Definida para cada experiência escolhida</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Variedade</th>\n                        <td class=\"caresse\">Diferentes combinações de configuração e geração</td>\n                        <td class=\"other\">Novas experiências adicionadas ao catálogo</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modelo de pagamento</th>\n                        <td class=\"caresse\">Créditos por geração, sem assinatura</td>\n                        <td class=\"other\">Assinatura anual, referência de US$ 49,99 por ano</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Idiomas do áudio</th>\n                        <td class=\"caresse\">Português, francês, inglês e espanhol</td>\n                        <td class=\"other\">English</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modo solo e modo a dois</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — ambos disponíveis</td>\n                        <td class=\"other\"><span class=\"yes\">Sim</span> — categorias de preparação e solo</td>\n                    </tr>\n                </tbody>\n            "
             }
           ]
         },

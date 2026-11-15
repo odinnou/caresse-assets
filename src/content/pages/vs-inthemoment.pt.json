@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Caresse vs InTheMoment: duas finalidades diferentes. Compare os formatos de geração e conheça demos gratuitas do Caresse sem cadastro."
+      "content": "Compare InTheMoment e Caresse: áudios gerados com seus nomes na narração, a sós ou a dois. Demos grátis, créditos pagos e sem assinatura."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "Dois apps de áudio com IA, duas finalidades. Demos pré-geradas do Caresse sem cadastro, em FR, EN e ES."
+      "content": "Compare InTheMoment e Caresse: áudios gerados com seus nomes na narração, a sós ou a dois. Demos grátis, créditos pagos e sem assinatura."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Demos do Caresse sem cadastro. Geração personalizada com créditos pagos, sem assinatura."
+      "content": "Compare InTheMoment e Caresse: áudios gerados com seus nomes na narração, a sós ou a dois. Demos grátis, créditos pagos e sem assinatura."
     },
     {
       "name": "twitter:image",
@@ -169,7 +169,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse vs InTheMoment",
-      "description": "Compare a geração de áudio íntimo do Caresse, com instruções editoriais, e a proposta de meditação e hipnose por IA do InTheMoment.",
+      "description": "Compare InTheMoment e Caresse: áudios gerados com seus nomes na narração, a sós ou a dois. Demos grátis, créditos pagos e sem assinatura.",
       "url": "https://caresse.app/pt/vs-inthemoment/",
       "inLanguage": "pt",
       "isPartOf": {
@@ -544,6 +544,14 @@
         },
         {
           "tag": "p",
+          "attrs": {
+            "class": "hero-badge",
+            "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+          },
+          "html": "<strong>Seus nomes na voz. Suas vontades na história.</strong><br>Geração sob demanda · Créditos pagos, sem assinatura.<br>Demos gratuitas sem conta Caresse."
+        },
+        {
+          "tag": "p",
           "attrs": {},
           "html": "O InTheMoment propõe meditação e hipnose por IA com planos gratuitos e pagos. O Caresse atende a outra finalidade: áudio íntimo guiado, com demos pré-geradas sem cadastro Caresse e criação personalizada com créditos pagos. O modo convidado não torna compras anônimas perante a loja."
         },
@@ -553,13 +561,6 @@
             "class": "cta-group"
           },
           "html": "\n            <a href=\"https://apps.apple.com/br/app/caresse/id6758887086?l=pt-BR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Baixar o app grátis</a>\n        "
-        },
-        {
-          "tag": "p",
-          "attrs": {
-            "class": "hero-badge"
-          },
-          "html": "Demos gratuitas no app, sem cadastro Caresse. Sessões personalizadas com créditos pagos, sem assinatura."
         }
       ]
     },
@@ -664,7 +665,7 @@
               "attrs": {
                 "class": "verdict-table"
               },
-              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critério</th>\n                        <th>Caresse</th>\n                        <th>InTheMoment</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Demos em áudio sem conta Caresse</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — exemplos pré-gerados disponíveis para escuta</td>\n                        <td class=\"other\">Cadastro exigido para começar</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Conta exigida</th>\n                        <td class=\"caresse\"><span class=\"no\">Não no modo convidado</span> — compras exigem conta Apple ou Google</td>\n                        <td class=\"other\">Conta exigida</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Finalidade</th>\n                        <td class=\"caresse\">Áudio íntimo guiado, solo ou a dois</td>\n                        <td class=\"other\">Meditação e hipnose personalizadas por IA</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Abordagem de IA</th>\n                        <td class=\"caresse\">Instruções editoriais e criação em várias etapas</td>\n                        <td class=\"other\">Geração a partir da descrição do usuário</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Definição da sessão</th>\n                        <td class=\"caresse\">Configuração de participantes, nomes, sugestões e intensidade</td>\n                        <td class=\"other\">Descrição livre e escolha de voz, postura e técnica</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Nomes usados na narração</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span></td>\n                        <td class=\"other\">Não documentado</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Duração da sessão</th>\n                        <td class=\"caresse\">Variável, geralmente de 25 a 35 minutos; não é uma opção fixa</td>\n                        <td class=\"other\">Até 20 min no gratuito e 45 min no Pro</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modelo de pagamento</th>\n                        <td class=\"caresse\">Créditos por geração, sem assinatura</td>\n                        <td class=\"other\">Plano gratuito e Pro de referência a US$ 7,99 por mês</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Idiomas do áudio</th>\n                        <td class=\"caresse\">Português, francês, inglês e espanhol</td>\n                        <td class=\"other\">Inglês no gratuito, 9 idiomas no Pro</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Conteúdo</th>\n                        <td class=\"caresse\">Intimidade para adultos, 18+</td>\n                        <td class=\"other\">Bem-estar e atenção plena</td>\n                    </tr>\n                </tbody>\n            "
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critério</th>\n                        <th>Caresse</th>\n                        <th>InTheMoment</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Demos em áudio sem conta Caresse</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sim</span> — exemplos pré-gerados disponíveis para escuta</td>\n                        <td class=\"other\">Cadastro exigido para começar</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Conta exigida</th>\n                        <td class=\"caresse\"><span class=\"no\">Não no modo convidado</span> — compras exigem conta Apple ou Google</td>\n                        <td class=\"other\">Conta exigida</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Finalidade</th>\n                        <td class=\"caresse\">Áudio íntimo guiado, solo ou a dois</td>\n                        <td class=\"other\">Meditação e hipnose personalizadas por IA</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Abordagem de IA</th>\n                        <td class=\"caresse\">Instruções editoriais e criação em várias etapas</td>\n                        <td class=\"other\">Geração a partir da descrição do usuário</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Definição da sessão</th>\n                        <td class=\"caresse\">Configuração de participantes, nomes, sugestões e intensidade</td>\n                        <td class=\"other\">Descrição livre e escolha de voz, postura e técnica</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Nomes usados na narração</th>\n                        <td class=\"caresse\">Nomes ou pseudônimos incluídos na história e pronunciados no áudio, a sós ou a dois. As demos usam nomes de exemplo.</td>\n                        <td class=\"other\">Não documentado</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Duração da sessão</th>\n                        <td class=\"caresse\">Variável, geralmente de 25 a 35 minutos; não é uma opção fixa</td>\n                        <td class=\"other\">Até 20 min no gratuito e 45 min no Pro</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modelo de pagamento</th>\n                        <td class=\"caresse\">Créditos por geração, sem assinatura</td>\n                        <td class=\"other\">Plano gratuito e Pro de referência a US$ 7,99 por mês</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Idiomas do áudio</th>\n                        <td class=\"caresse\">Português, francês, inglês e espanhol</td>\n                        <td class=\"other\">Inglês no gratuito, 9 idiomas no Pro</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Conteúdo</th>\n                        <td class=\"caresse\">Intimidade para adultos, 18+</td>\n                        <td class=\"other\">Bem-estar e atenção plena</td>\n                    </tr>\n                </tbody>\n            "
             }
           ]
         },

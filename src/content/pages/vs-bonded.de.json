@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Bonded plant schriftlich und wartet auf Antworten. Caresse bietet eine Audiofiktion, die nach der Generierung ohne schriftliche Eingaben weiterläuft."
+      "content": "Vergleicht Bonded und Caresse: generierte Audios mit euren gesprochenen Vornamen, allein oder zu zweit. Kostenlose Demos, Credits ohne Abo."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "Bonded plant schriftlich und wartet auf Antworten. Caresse bietet eine Audiofiktion, die nach der Generierung ohne schriftliche Eingaben weiterläuft."
+      "content": "Vergleicht Bonded und Caresse: generierte Audios mit euren gesprochenen Vornamen, allein oder zu zweit. Kostenlose Demos, Credits ohne Abo."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Feste Demos ohne E-Mail auf EN, FR und ES. Persönliche Sessions pro Generierung, ohne Abo."
+      "content": "Vergleicht Bonded und Caresse: generierte Audios mit euren gesprochenen Vornamen, allein oder zu zweit. Kostenlose Demos, Credits ohne Abo."
     },
     {
       "name": "twitter:image",
@@ -169,7 +169,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse und Bonded",
-      "description": "Vergleich von Caresse mit persönlicher Audiofiktion pro Generierung ohne Caresse-Konto und Bonded mit einem KI-Textchat im Abo und E-Mail-Registrierung laut dokumentiertem Angebot.",
+      "description": "Vergleicht Bonded und Caresse: generierte Audios mit euren gesprochenen Vornamen, allein oder zu zweit. Kostenlose Demos, Credits ohne Abo.",
       "url": "https://caresse.app/de/vs-bonded/",
       "inLanguage": "de",
       "isPartOf": {
@@ -507,6 +507,14 @@
         {
           "tag": "p",
           "attrs": {
+            "class": "hero-badge",
+            "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+          },
+          "html": "<strong>Die Stimme nennt eure Namen. Die Geschichte folgt euren Wünschen.</strong><br>Auf Wunsch generiert · Bezahlte Credits, kein Abo.<br>Kostenlose Demos ohne Caresse-Konto.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+        },
+        {
+          "tag": "p",
+          "attrs": {
             "class": "hero-sub"
           },
           "html": "Bonded bietet schriftliche Planung mit Antworten bei jedem Schritt. Caresse verwendet zuerst eure Einstellungen, dann eine Audioerzählung mit euren Namen, die ohne schriftliche Eingaben läuft. Die Formate sind unterschiedlich."
@@ -517,14 +525,6 @@
             "class": "cta-group"
           },
           "html": "\n            <a href=\"https://apps.apple.com/de/app/caresse/id6758887086?l=de-DE\" id=\"hero-cta\" class=\"cta-pink hero-adaptive-download\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">App kostenlos herunterladen</a>\n        "
-        },
-        {
-          "tag": "p",
-          "attrs": {
-            "class": "hero-badge",
-            "style": "margin-top:20px;font-size:.85rem;color:var(--text-secondary);opacity:.8"
-          },
-          "html": "Kostenlose App-Demos ohne Caresse-Registrierung. Persönliche Sessions kostenpflichtig, ohne Abo.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
         },
         {
           "attrs": {
@@ -643,7 +643,7 @@
               "attrs": {
                 "class": "verdict-table"
               },
-              "html": "\n                <thead>\n                    <tr><th class=\"crit\">Kriterium</th><th>Caresse</th><th>Bonded</th></tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Ohne E-Mail ausprobieren</th>\n                        <td class=\"caresse\"><span class=\"yes\">Ja</span>, feste Demos beim Einstieg</td>\n                        <td class=\"other\"><span class=\"no\">Nein</span>, E-Mail vor dem ersten Austausch nötig</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Inhaltsformat</th>\n                        <td class=\"caresse\">Für Sprachausgabe generierte Erzählung mit variabler Länge</td>\n                        <td class=\"other\">Chattext zum Lesen; Wiedergabe über einen Sprachbutton möglich</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Vorbereitung</th>\n                        <td class=\"caresse\">Profileinstellungen vor dem Start</td>\n                        <td class=\"other\">Offener Dialog mit Ideen und konkreten Fragen</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Während der Erfahrung</th>\n                        <td class=\"caresse\"><span class=\"yes\">Ja</span>: ohne schriftliche Antworten weiterhören</td>\n                        <td class=\"other\"><span class=\"no\">Nein</span>: Antwort nötig, damit der nächste Schritt folgt</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Erzählerische Personalisierung</th>\n                        <td class=\"caresse\"><span class=\"yes\">Umfangreich</span>, mit gesprochenen Namen</td>\n                        <td class=\"other\"><span class=\"yes\">Umfangreich</span> ebenfalls möglich, im Text</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Intensität</th>\n                        <td class=\"caresse\">Wählbar von romantisch bis direkter</td>\n                        <td class=\"other\">Direkter Erwachsenenchat laut Anbieter</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Sprachen</th>\n                        <td class=\"caresse\"><span class=\"yes\">Englisch, Französisch, Spanisch und Portugiesisch</span></td>\n                        <td class=\"other\">Englische Oberfläche; Chatantworten in verschiedenen Sprachen</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Bezahlmodell</th>\n                        <td class=\"caresse\">Pro Generierung: Beispiele 1,99 € · 5,49 € · 7,99 €, ohne Abo</td>\n                        <td class=\"other\">Abos zwischen 4,99 $ und 19,99 $ je nach Angebot</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Visuelle Inhalte</th>\n                        <td class=\"caresse\"><span class=\"no\">Keine</span>: Audio und Vorstellungskraft</td>\n                        <td class=\"other\">Zusätzliche Nachrichtenpakete von 4,99 $ bis 14,99 $</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Erhobene Daten</th>\n                        <td class=\"caresse\">Anonymer Identifikator und gewählter Name</td>\n                        <td class=\"other\">Name und Telefonnummer laut App-Store-Angaben</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Nutzung als Paar</th>\n                        <td class=\"caresse\">Paarmodus mit einer gemeinsam hörbaren Stimme</td>\n                        <td class=\"other\">Profilverknüpfung; eine Person liest und vermittelt die Inhalte</td>\n                    </tr>\n                </tbody>\n            "
+              "html": "\n                <thead>\n                    <tr><th class=\"crit\">Kriterium</th><th>Caresse</th><th>Bonded</th></tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Ohne E-Mail ausprobieren</th>\n                        <td class=\"caresse\"><span class=\"yes\">Ja</span>, feste Demos beim Einstieg</td>\n                        <td class=\"other\"><span class=\"no\">Nein</span>, E-Mail vor dem ersten Austausch nötig</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Inhaltsformat</th>\n                        <td class=\"caresse\">Für Sprachausgabe generierte Erzählung mit variabler Länge</td>\n                        <td class=\"other\">Chattext zum Lesen; Wiedergabe über einen Sprachbutton möglich</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Vorbereitung</th>\n                        <td class=\"caresse\">Profileinstellungen vor dem Start</td>\n                        <td class=\"other\">Offener Dialog mit Ideen und konkreten Fragen</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Während der Erfahrung</th>\n                        <td class=\"caresse\"><span class=\"yes\">Ja</span>: ohne schriftliche Antworten weiterhören</td>\n                        <td class=\"other\"><span class=\"no\">Nein</span>: Antwort nötig, damit der nächste Schritt folgt</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Erzählerische Personalisierung</th>\n                        <td class=\"caresse\">Eine Geschichte mit euren Namen oder Pseudonymen und Vorlieben; die Stimme spricht die gewählten Namen, allein oder zu zweit.</td>\n                        <td class=\"other\"><span class=\"yes\">Umfangreich</span> ebenfalls möglich, im Text</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Intensität</th>\n                        <td class=\"caresse\">Wählbar von romantisch bis direkter</td>\n                        <td class=\"other\">Direkter Erwachsenenchat laut Anbieter</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Sprachen</th>\n                        <td class=\"caresse\"><span class=\"yes\">Englisch, Französisch, Spanisch und Portugiesisch</span></td>\n                        <td class=\"other\">Englische Oberfläche; Chatantworten in verschiedenen Sprachen</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Bezahlmodell</th>\n                        <td class=\"caresse\">Pro Generierung: Beispiele 1,99 € · 5,49 € · 7,99 €, ohne Abo</td>\n                        <td class=\"other\">Abos zwischen 4,99 $ und 19,99 $ je nach Angebot</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Visuelle Inhalte</th>\n                        <td class=\"caresse\"><span class=\"no\">Keine</span>: Audio und Vorstellungskraft</td>\n                        <td class=\"other\">Zusätzliche Nachrichtenpakete von 4,99 $ bis 14,99 $</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Erhobene Daten</th>\n                        <td class=\"caresse\">Anonymer Identifikator und gewählter Name</td>\n                        <td class=\"other\">Name und Telefonnummer laut App-Store-Angaben</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Nutzung als Paar</th>\n                        <td class=\"caresse\">Paarmodus mit einer gemeinsam hörbaren Stimme</td>\n                        <td class=\"other\">Profilverknüpfung; eine Person liest und vermittelt die Inhalte</td>\n                    </tr>\n                </tbody>\n            "
             }
           ]
         },

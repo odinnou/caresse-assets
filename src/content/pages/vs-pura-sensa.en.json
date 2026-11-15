@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Pura Sensa or Caresse? Compare guided sessions, personalization and subscriptions. Caresse offers free demos, then paid audio credits, solo or together."
+      "content": "Compare Pura Sensa and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "Pura Sensa or Caresse? Compare guided sessions, personalization and subscriptions. Caresse offers free demos, then paid audio credits, solo or together."
+      "content": "Compare Pura Sensa and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Pura Sensa or Caresse? Compare guided sessions, personalization and subscriptions. Caresse offers free demos, then paid audio credits, solo or together."
+      "content": "Compare Pura Sensa and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "name": "twitter:image",
@@ -150,7 +150,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Pura Sensa alternative: personalized audio | Caresse",
-      "description": "Pura Sensa or Caresse? Compare guided sessions, personalization and subscriptions. Caresse offers free demos, then paid audio credits, solo or together.",
+      "description": "Compare Pura Sensa and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription.",
       "url": "https://caresse.app/en/vs-pura-sensa/",
       "inLanguage": "en",
       "dateModified": "2026-10-31",
@@ -505,6 +505,14 @@
             },
             {
               "tag": "p",
+              "attrs": {
+                "class": "hero-badge",
+                "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+              },
+              "html": "<strong>Your names, spoken aloud. Your desires in the story.</strong><br>Generated on demand · Paid credits, no subscription.<br>Free demos without a Caresse account."
+            },
+            {
+              "tag": "p",
               "attrs": {},
               "html": "Looking for intimate audio created for you? Caresse generates fiction guided by a synthetic voice, with your names or nicknames, solo or as a duo. Discover free demos in the app, then create sessions with paid credits and no subscription."
             },
@@ -514,13 +522,6 @@
                 "class": "cta-group"
               },
               "html": "<a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Download for free</a>"
-            },
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-badge"
-              },
-              "html": "Anonymous mode · Free demos · iOS and Android<br>Paid personalized sessions, no subscription."
             }
           ]
         },
@@ -604,7 +605,7 @@
                   "attrs": {
                     "class": "verdict-table"
                   },
-                  "html": "<thead><tr><th scope=\"col\">Criterion</th><th scope=\"col\">Caresse</th><th scope=\"col\">Pura Sensa</th></tr></thead><tbody>\n<tr><th scope=\"row\" class=\"crit\">Format</th><td class=\"caresse\">Audio fiction generated on demand</td><td class=\"other\">A library of guided sessions to select</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Personalization</th><td class=\"caresse\">Your names and preferences shape generation</td><td class=\"other\">Generation using your names is not advertised on the pages reviewed</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Getting started</th><td class=\"caresse\">Free download and demos</td><td class=\"other\">A free Explore tier is advertised</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Couples</th><td class=\"caresse\">Duo mode with credits, no subscription</td><td class=\"other\">Couples sessions advertised with the annual plan</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Sound</th><td class=\"caresse\">Synthetic voice and atmosphere based on setup</td><td class=\"other\">Voice, ambient sound and optional binaural audio</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Account</th><td class=\"caresse\">Anonymous mode, including purchases from Caresse</td><td class=\"other\">Free tier without an account; Premium accounts mentioned in the FAQ</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Access</th><td class=\"caresse\">iOS and Android app</td><td class=\"other\">Web, iOS and Android advertised</td></tr>\n        </tbody>"
+                  "html": "<thead><tr><th scope=\"col\">Criterion</th><th scope=\"col\">Caresse</th><th scope=\"col\">Pura Sensa</th></tr></thead><tbody>\n<tr><th scope=\"row\" class=\"crit\">Format</th><td class=\"caresse\">Audio fiction generated on demand</td><td class=\"other\">A library of guided sessions to select</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Personalization</th><td class=\"caresse\">A story generated with your names or aliases and preferences; the voice speaks your chosen names, solo or together.</td><td class=\"other\">Generation using your names is not advertised on the pages reviewed</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Getting started</th><td class=\"caresse\">Free download and demos</td><td class=\"other\">A free Explore tier is advertised</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Couples</th><td class=\"caresse\">Duo mode with credits, no subscription</td><td class=\"other\">Couples sessions advertised with the annual plan</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Sound</th><td class=\"caresse\">Synthetic voice and atmosphere based on setup</td><td class=\"other\">Voice, ambient sound and optional binaural audio</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Account</th><td class=\"caresse\">Anonymous mode, including purchases from Caresse</td><td class=\"other\">Free tier without an account; Premium accounts mentioned in the FAQ</td></tr>\n<tr><th scope=\"row\" class=\"crit\">Access</th><td class=\"caresse\">iOS and Android app</td><td class=\"other\">Web, iOS and Android advertised</td></tr>\n        </tbody>"
                 }
               ]
             },
