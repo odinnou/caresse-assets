@@ -13,7 +13,7 @@
   "bodyAttrs": {
     "class": "adesira-comparison"
   },
-  "title": "Adesira alternative: generated audio with your names | Caresse",
+  "title": "Caresse calls you by name | Alternative to Adesira",
   "meta": [
     {
       "charset": "UTF-8"
@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Adesira or Caresse? Compare profile-based story selection with audio generated with your names. Free demos without an account, paid credits, no subscription."
+      "content": "Adesira: profile-based stories. Caresse: audio generated with your names spoken aloud, free demos and paid credits without a subscription."
     },
     {
       "name": "robots",
@@ -56,11 +56,11 @@
     },
     {
       "property": "og:title",
-      "content": "Adesira alternative: generated audio with your names | Caresse"
+      "content": "Caresse calls you by name | Alternative to Adesira"
     },
     {
       "property": "og:description",
-      "content": "Adesira or Caresse? Compare profile-based story selection with audio generated with your names. Free demos without an account, paid credits, no subscription."
+      "content": "Adesira: profile-based stories. Caresse: audio generated with your names spoken aloud, free demos and paid credits without a subscription."
     },
     {
       "property": "og:image",
@@ -100,11 +100,11 @@
     },
     {
       "name": "twitter:title",
-      "content": "Adesira alternative: generated audio with your names | Caresse"
+      "content": "Caresse calls you by name | Alternative to Adesira"
     },
     {
       "name": "twitter:description",
-      "content": "Adesira or Caresse? Compare profile-based story selection with audio generated with your names. Free demos without an account, paid credits, no subscription."
+      "content": "Adesira: profile-based stories. Caresse: audio generated with your names spoken aloud, free demos and paid credits without a subscription."
     },
     {
       "name": "twitter:image",
@@ -168,8 +168,8 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Caresse vs Adesira",
-      "description": "Adesira or Caresse? Compare profile-based story selection with audio generated with your names. Free demos without an account, paid credits, no subscription.",
+      "name": "Caresse calls you by name | Alternative to Adesira",
+      "description": "Adesira: profile-based stories. Caresse: audio generated with your names spoken aloud, free demos and paid credits without a subscription.",
       "url": "https://caresse.app/en/vs-adesira/",
       "inLanguage": "en",
       "isPartOf": {
@@ -510,19 +510,19 @@
         {
           "tag": "h1",
           "attrs": {},
-          "html": "An alternative to Adesira:<br><em>your name in the narration.</em>"
+          "html": "Caresse calls you by name.<br><em>An alternative to Adesira.</em>"
         },
         {
           "tag": "p",
           "attrs": {
             "class": "hero-badge"
           },
-          "html": "<strong>Your names, spoken aloud. Your desires in the story.</strong><br>Generated on demand · Paid credits, no subscription.<br>Free demos without a Caresse account."
+          "html": "<strong>Caresse creates the story from your preferences.</strong><br>Generated on demand · Paid credits, no subscription.<br>Free demos without a Caresse account."
         },
         {
           "tag": "p",
           "attrs": {},
-          "html": "A quiz can point you towards a story that matches your tastes. With Caresse, your choices are used to create guided audio fiction, solo or together. Listen to a free demo before deciding to generate your own session."
+          "html": "In the journey examined, Adesira points you towards stories based on your profile. Caresse generates an audio session from your names and choices, solo or together. Listen to Caresse demos for free before buying credits."
         },
         {
           "tag": "div",
@@ -554,7 +554,7 @@
           "attrs": {
             "class": "section-title"
           },
-          "html": "A story for your profile,<br>or a scenario generated for you?"
+          "html": "Profile-based selection with Adesira.<br>On-demand creation with Caresse."
         },
         {
           "type": "container",
@@ -689,7 +689,7 @@
           "attrs": {
             "class": "section-title"
           },
-          "html": "Manon and Thomas are in the configuration.<br>Their names become part of the narration."
+          "html": "In Caresse, Manon and Thomas<br>become part of the narration."
         },
         {
           "type": "container",
@@ -764,7 +764,7 @@
           "attrs": {
             "class": "section-title"
           },
-          "html": "Hear the voice before buying your session."
+          "html": "Listen to Caresse before buying credits."
         },
         {
           "type": "cards",

@@ -13,7 +13,7 @@
   "bodyAttrs": {
     "class": "adesira-comparison"
   },
-  "title": "Alternative à Adesira : audio généré avec vos prénoms | Caresse",
+  "title": "Caresse prononce vos prénoms | Alternative à Adesira",
   "meta": [
     {
       "charset": "UTF-8"
@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Adesira ou Caresse ? Comparez la sélection par profil et l’audio généré avec vos prénoms. Démos gratuites sans compte, générations à crédits sans abonnement."
+      "content": "Adesira : histoires selon le profil. Caresse : audio généré avec vos prénoms prononcés, démos gratuites et crédits sans abonnement."
     },
     {
       "name": "robots",
@@ -56,11 +56,11 @@
     },
     {
       "property": "og:title",
-      "content": "Alternative à Adesira : audio généré avec vos prénoms | Caresse"
+      "content": "Caresse prononce vos prénoms | Alternative à Adesira"
     },
     {
       "property": "og:description",
-      "content": "Adesira ou Caresse ? Comparez la sélection par profil et l’audio généré avec vos prénoms. Démos gratuites sans compte, générations à crédits sans abonnement."
+      "content": "Adesira : histoires selon le profil. Caresse : audio généré avec vos prénoms prononcés, démos gratuites et crédits sans abonnement."
     },
     {
       "property": "og:image",
@@ -100,11 +100,11 @@
     },
     {
       "name": "twitter:title",
-      "content": "Alternative à Adesira : audio généré avec vos prénoms | Caresse"
+      "content": "Caresse prononce vos prénoms | Alternative à Adesira"
     },
     {
       "name": "twitter:description",
-      "content": "Adesira ou Caresse ? Comparez la sélection par profil et l’audio généré avec vos prénoms. Démos gratuites sans compte, générations à crédits sans abonnement."
+      "content": "Adesira : histoires selon le profil. Caresse : audio généré avec vos prénoms prononcés, démos gratuites et crédits sans abonnement."
     },
     {
       "name": "twitter:image",
@@ -168,8 +168,8 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Caresse vs Adesira",
-      "description": "Adesira ou Caresse ? Comparez la sélection par profil et l’audio généré avec vos prénoms. Démos gratuites sans compte, générations à crédits sans abonnement.",
+      "name": "Caresse prononce vos prénoms | Alternative à Adesira",
+      "description": "Adesira : histoires selon le profil. Caresse : audio généré avec vos prénoms prononcés, démos gratuites et crédits sans abonnement.",
       "url": "https://caresse.app/vs-adesira/",
       "inLanguage": "fr",
       "isPartOf": {
@@ -510,19 +510,19 @@
         {
           "tag": "h1",
           "attrs": {},
-          "html": "Alternative à Adesira :<br><em>votre prénom dans la voix.</em>"
+          "html": "Caresse prononce vos prénoms.<br><em>Une alternative à Adesira.</em>"
         },
         {
           "tag": "p",
           "attrs": {
             "class": "hero-badge"
           },
-          "html": "<strong>Vos prénoms dans la voix. Vos envies dans le scénario.</strong><br>Génération à la demande · Crédits sans abonnement.<br>Démos gratuites sans compte Caresse."
+          "html": "<strong>Caresse crée le scénario à partir de vos envies.</strong><br>Génération à la demande · Crédits sans abonnement.<br>Démos gratuites sans compte Caresse."
         },
         {
           "tag": "p",
           "attrs": {},
-          "html": "Un quiz peut vous orienter vers une histoire qui correspond à vos goûts. Avec Caresse, vos choix servent à créer une fiction audio guidée, en solo ou à deux. Écoutez une démo gratuitement avant de décider de générer votre propre session."
+          "html": "Dans le parcours observé, Adesira vous oriente vers des histoires selon votre profil. Caresse génère une session audio à partir de vos prénoms et de vos choix, en solo ou à deux. Écoutez les démos Caresse gratuitement avant d’acheter des crédits."
         },
         {
           "tag": "div",
@@ -554,7 +554,7 @@
           "attrs": {
             "class": "section-title"
           },
-          "html": "Une histoire pour votre profil,<br>ou un scénario généré pour vous ?"
+          "html": "Sélection par profil chez Adesira.<br>Création à la demande avec Caresse."
         },
         {
           "type": "container",
@@ -689,7 +689,7 @@
           "attrs": {
             "class": "section-title"
           },
-          "html": "Manon et Thomas sont dans la configuration.<br>Leurs prénoms entrent dans la narration."
+          "html": "Dans Caresse, Manon et Thomas<br>entrent dans la narration."
         },
         {
           "type": "container",
@@ -764,7 +764,7 @@
           "attrs": {
             "class": "section-title"
           },
-          "html": "Entendre la voix avant d’acheter votre session."
+          "html": "Écoutez Caresse avant d’acheter vos crédits."
         },
         {
           "type": "cards",

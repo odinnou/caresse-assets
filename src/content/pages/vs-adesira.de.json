@@ -13,7 +13,7 @@
   "bodyAttrs": {
     "class": "adesira-comparison lang-de"
   },
-  "title": "Alternative zu Adesira: Generiertes Audio mit euren Namen | Caresse",
+  "title": "Caresse spricht eure Namen aus | Alternative zu Adesira",
   "meta": [
     {
       "charset": "UTF-8"
@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Adesira oder Caresse? Vergleicht profilbasierte Geschichten und generiertes Audio mit euren Namen. Kostenlose Demos ohne Konto, Credits ohne Abo."
+      "content": "Adesira: Geschichten nach Profil. Caresse: generierte Audios mit euren gesprochenen Namen, kostenlose Demos und Credits ohne Abo."
     },
     {
       "name": "robots",
@@ -56,11 +56,11 @@
     },
     {
       "property": "og:title",
-      "content": "Alternative zu Adesira: Generiertes Audio mit euren Namen | Caresse"
+      "content": "Caresse spricht eure Namen aus | Alternative zu Adesira"
     },
     {
       "property": "og:description",
-      "content": "Adesira oder Caresse? Vergleicht profilbasierte Geschichten und generiertes Audio mit euren Namen. Kostenlose Demos ohne Konto, Credits ohne Abo."
+      "content": "Adesira: Geschichten nach Profil. Caresse: generierte Audios mit euren gesprochenen Namen, kostenlose Demos und Credits ohne Abo."
     },
     {
       "property": "og:image",
@@ -100,11 +100,11 @@
     },
     {
       "name": "twitter:title",
-      "content": "Alternative zu Adesira: Generiertes Audio mit euren Namen | Caresse"
+      "content": "Caresse spricht eure Namen aus | Alternative zu Adesira"
     },
     {
       "name": "twitter:description",
-      "content": "Adesira oder Caresse? Vergleicht profilbasierte Geschichten und generiertes Audio mit euren Namen. Kostenlose Demos ohne Konto, Credits ohne Abo."
+      "content": "Adesira: Geschichten nach Profil. Caresse: generierte Audios mit euren gesprochenen Namen, kostenlose Demos und Credits ohne Abo."
     },
     {
       "name": "twitter:image",
@@ -168,8 +168,8 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Caresse vs Adesira",
-      "description": "Adesira oder Caresse? Vergleicht profilbasierte Geschichten und generiertes Audio mit euren Namen. Kostenlose Demos ohne Konto, Credits ohne Abo.",
+      "name": "Caresse spricht eure Namen aus | Alternative zu Adesira",
+      "description": "Adesira: Geschichten nach Profil. Caresse: generierte Audios mit euren gesprochenen Namen, kostenlose Demos und Credits ohne Abo.",
       "url": "https://caresse.app/de/vs-adesira/",
       "inLanguage": "de",
       "isPartOf": {
@@ -510,19 +510,19 @@
         {
           "tag": "h1",
           "attrs": {},
-          "html": "Eine Alternative zu Adesira:<br><em>eure Namen in der Stimme.</em>"
+          "html": "Caresse spricht eure Namen aus.<br><em>Eine Alternative zu Adesira.</em>"
         },
         {
           "tag": "p",
           "attrs": {
             "class": "hero-badge"
           },
-          "html": "<strong>Die Stimme nennt eure Namen. Die Geschichte folgt euren Wünschen.</strong><br>Auf Wunsch generiert · Bezahlte Credits, kein Abo.<br>Kostenlose Demos ohne Caresse-Konto.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
+          "html": "<strong>Caresse erstellt die Geschichte aus euren Vorlieben.</strong><br>Auf Wunsch generiert · Bezahlte Credits, kein Abo.<br>Kostenlose Demos ohne Caresse-Konto.<span class=\"language-notice\"> Website auf Deutsch; App und Audio sind noch nicht auf Deutsch verfügbar.</span>"
         },
         {
           "tag": "p",
           "attrs": {},
-          "html": "Ein Quiz kann euch zu einer Geschichte führen, die zu euren Vorlieben passt. Bei Caresse dienen eure Entscheidungen dazu, eine geführte Audiofiktion zu erstellen, allein oder zu zweit. Hört eine kostenlose Demo, bevor ihr eine eigene Session generieren lasst."
+          "html": "Im untersuchten Ablauf führt Adesira euch anhand eures Profils zu Geschichten. Caresse generiert eine Audiosession aus euren Namen und Entscheidungen, allein oder zu zweit. Hört Caresse-Demos kostenlos, bevor ihr Credits kauft."
         },
         {
           "tag": "div",
@@ -554,7 +554,7 @@
           "attrs": {
             "class": "section-title"
           },
-          "html": "Eine Geschichte für euer Profil,<br>oder ein Szenario für euch?"
+          "html": "Profilauswahl bei Adesira.<br>Erstellung auf Wunsch mit Caresse."
         },
         {
           "type": "container",
@@ -689,7 +689,7 @@
           "attrs": {
             "class": "section-title"
           },
-          "html": "Manon und Thomas stehen in der Konfiguration.<br>Ihre Namen gehören zur Erzählung."
+          "html": "Bei Caresse gehören Manon und Thomas<br>zur Erzählung."
         },
         {
           "type": "container",
@@ -764,7 +764,7 @@
           "attrs": {
             "class": "section-title"
           },
-          "html": "Die Stimme hören, bevor ihr eure Session kauft."
+          "html": "Hört Caresse, bevor ihr Credits kauft."
         },
         {
           "type": "cards",
