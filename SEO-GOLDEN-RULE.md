@@ -89,13 +89,14 @@ stores pendant ces changements éditoriaux.
   d'écoute, et en pied de page.
 - Le lien interne vers `/demo/` reste autorisé en lien texte discret, footer ou nav.
 
-### Ne pas faire la promotion des alternatives à Caresse
+### Aucun lien vers un concurrent — sans exception
 
 - Dans les pages `alternatives` et `vs-*`, aucun lien cliquable vers le site, le
   support, les tarifs, les réseaux sociaux ou la fiche App Store / Google Play des
   alternatives comparées, y compris dans les sources décrivant leurs offres.
-- Sur le reste du site non plus, aucun CTA ni lien commercial pour découvrir,
-  acheter ou télécharger une alternative à Caresse.
+- Sur tout le site, aucun lien vers un concurrent : site, support, tarifs, réseaux
+  sociaux, stores ou article de blog. Cette interdiction couvre aussi les citations
+  de sources, même avec `nofollow`. Les attributions restent en texte simple.
 - `nofollow`, `noopener` ou l’ouverture dans un nouvel onglet ne constituent pas une
   exception : ils n’autorisent pas ces liens promotionnels.
 - Les comparatifs peuvent citer les marques et leurs offres. Les attributions de
@@ -103,13 +104,20 @@ stores pendant ces changements éditoriaux.
   fiche consultée, date, sans URL externe de concurrent.
 - Les liens vers nos propres pages de comparaison (`/vs-*/`, `/en/vs-*/`, etc.)
   restent autorisés : ils pointent vers Caresse, pas vers les concurrents.
-- Les références éditoriales du blog sont distinctes des liens promotionnels : un
-  lien d’attribution vers une enquête ou un dossier statistique cité reste autorisé.
-  Tawkify et Connected Couples sont utilisés ici comme références, pas comme
-  alternatives à recommander. Seuls les liens vers les documents cités sont
-  conservés, sans lien vers leurs offres commerciales ou leurs stores.
+- Le maillage interne vers nos comparatifs reste important, y compris dans les
+  tableaux : le rappel du propriétaire du 15 novembre 2026 vise les liens sortants
+  qui donnent de la visibilité aux concurrents, pas nos propres pages Caresse.
+- Les études et sources qui ne sont pas des alternatives à Caresse peuvent être
+  liées, conformément à la précision du propriétaire du 15 novembre 2026.
+  Tawkify et Connected Couples sont utilisés ici comme références éditoriales ;
+  les liens restent limités aux études citées, sans lien vers leurs offres.
 - La règle s’applique à toutes les langues. Les liens légaux et institutionnels
   restent autorisés.
+- `npm run build` contrôle tous les HTML générés : destinations externes limitées
+  aux liens Caresse et aux références non concurrentes déjà vérifiées ; seules les
+  fiches stores et les profils sociaux Caresse sont autorisés. Toute nouvelle
+  destination externe nécessite une vérification avant ajout à la liste autorisée
+  de `scripts/check-no-competitor-links.mjs`.
 
 ## Les invariants techniques
 
@@ -169,6 +177,6 @@ du résultat.
 - [ ] Toutes les langues du site sont traitées (FR, EN, ES, PT, DE)
 - [ ] Aucun libellé de CTA modifié sans décision explicite
 - [ ] Aucun lien sortant vers les alternatives comparées dans `alternatives` / `vs-*`
-- [ ] Aucun lien promotionnel vers une alternative ; les références du blog pointent
-      uniquement vers les documents cités
+- [ ] Aucun lien vers un concurrent, y compris dans les sources du blog
+- [ ] Maillage interne vers nos comparatifs conservé, y compris dans les tableaux
 - [ ] Tous les liens vers des fiches App Store / Google Play ciblent Caresse
