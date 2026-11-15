@@ -590,6 +590,13 @@
                   "attrs": {
                     "class": "featured-card"
                   },
+                  "html": "<p class=\"badge\">Questionário ou cenário gerado</p><h3>Caresse vs Adesira</h3><p class=\"hook\">Adesira seleciona histórias conforme o perfil no percurso examinado. Caresse gera uma experiência com seus nomes, com demos grátis e créditos sem assinatura.</p><a href=\"/pt/vs-adesira/\" class=\"cta\">Comparar Caresse e Adesira →</a>"
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "featured-card"
+                  },
                   "html": "<p class=\"badge\">Áudio guiado individual e a dois</p><h3>Caresse vs Pura Sensa</h3><p class=\"hook\">O Pura Sensa oferece uma biblioteca de áudio, Explore e assinaturas Premium. O Caresse gera sessões com seus nomes e preferências, usando créditos sem assinatura.</p><div class=\"meta\"><span>Sessões guiadas</span><span>Explore + Premium</span></div><a href=\"/pt/vs-pura-sensa/\" class=\"cta\">Comparar Caresse e Pura Sensa →</a>"
                 },
                 {
@@ -664,7 +671,7 @@
                   "attrs": {
                     "class": "matrix-table"
                   },
-                  "html": "<thead><tr><th scope=\"col\">App</th><th scope=\"col\">Formato</th><th scope=\"col\">Português</th><th scope=\"col\">Pagamento</th></tr></thead><tbody><tr><th scope=\"row\">Caresse</th><td>Ficção guiada por voz sintética, individual ou a dois</td><td>Áudios disponíveis; interface em português no Android; atualização iOS aguardando aprovação</td><td>Demos grátis; créditos pagos, sem assinatura</td></tr><tr><th scope=\"row\">Desire</th><td>Desafios, quizzes e pontos; Desire AI</td><td>Site em português; confirme os idiomas do app na loja</td><td>Download grátis; compras e Platinum opcional</td></tr><tr><th scope=\"row\">Spicer</th><td>Perguntas, matches e desafios; Spicer AI</td><td>Perguntas e desafios em português anunciados</td><td>Base gratuita; packs e opções avançadas pagos</td></tr><tr><th scope=\"row\">Dipsea</th><td>Catálogo de áudio com produção humana</td><td>FAQ consultada informa inglês; artigo de 2021</td><td>Assinatura; confira a oferta atual</td></tr><tr><th scope=\"row\"><a href=\"/pt/vs-pura-sensa/\">Pura Sensa</a></th><td>Biblioteca de áudio guiado, com som ambiente e binaural opcional</td><td>Áudio em português não confirmado nas páginas consultadas</td><td>Explore grátis + assinatura Premium</td></tr>\n</tbody>"
+                  "html": "<thead><tr><th scope=\"col\">App</th><th scope=\"col\">Formato</th><th scope=\"col\">Português</th><th scope=\"col\">Pagamento</th></tr></thead><tbody><tr><th scope=\"row\">Caresse</th><td>Ficção guiada por voz sintética, individual ou a dois</td><td>Áudios disponíveis; interface em português no Android; atualização iOS aguardando aprovação</td><td>Demos grátis; créditos pagos, sem assinatura</td></tr><tr><th scope=\"row\">Desire</th><td>Desafios, quizzes e pontos; Desire AI</td><td>Site em português; confirme os idiomas do app na loja</td><td>Download grátis; compras e Platinum opcional</td></tr><tr><th scope=\"row\">Spicer</th><td>Perguntas, matches e desafios; Spicer AI</td><td>Perguntas e desafios em português anunciados</td><td>Base gratuita; packs e opções avançadas pagos</td></tr><tr><th scope=\"row\">Dipsea</th><td>Catálogo de áudio com produção humana</td><td>FAQ consultada informa inglês; artigo de 2021</td><td>Assinatura; confira a oferta atual</td></tr><tr><th scope=\"row\"><a href=\"/pt/vs-pura-sensa/\">Pura Sensa</a></th><td>Biblioteca de áudio guiado, com som ambiente e binaural opcional</td><td>Áudio em português não confirmado nas páginas consultadas</td><td>Explore grátis + assinatura Premium</td></tr>\n<tr><th scope=\"row\">Adesira</th><td>Histórias selecionadas por questionário conforme o perfil</td><td>Áudio em português não verificado</td><td>Escuta paga; condições conforme a oferta apresentada<span class=\"src\">Percurso verificado pelo editor de Caresse</span></td></tr></tbody>"
                 }
               ]
             },
