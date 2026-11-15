@@ -64,6 +64,21 @@ Le maillage interne se fait **pour le SEO, pas pour l'utilisateur final**. Un li
 a sa place dans le corps du texte, le footer ou la nav — là où il transmet du jus de lien
 sans détourner un humain. Il n'a jamais sa place en CTA visible.
 
+### Les prénoms et les crédits dans les comparatifs
+
+Sur `/alternatives/` et les pages `/vs-*/`, mettre en avant les deux bénéfices
+concrets de Caresse : les prénoms ou pseudonymes intégrés au scénario généré et
+prononcés dans la narration, en solo ou en duo ; le paiement des générations par
+crédits, sans abonnement. Cette personnalisation doit être visible dès
+l'introduction, dans toutes les langues, et précisée dans les critères pertinents
+des tableaux. Les démos pré-générées utilisent des noms d'exemple ; elles ne sont
+pas adaptées au prénom du visiteur.
+
+Comparer séparément sélection de contenus, génération à la demande et prénoms
+prononcés. Ne pas revendiquer l'exclusivité de cette fonction ni son absence chez
+un concurrent sans vérification. Conserver les libellés et destinations des CTA
+stores pendant ces changements éditoriaux.
+
 ### `/demo/` ne cannibalise jamais l'app
 
 `/demo/` est une page d'atterrissage SEO, **pas une étape du tunnel de conversion**.

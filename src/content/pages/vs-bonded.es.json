@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "¿Buscas una alternativa a Bonded en español? Bonded prepara la escena por escrito; Caresse te acompaña durante, con audio que se desarrolla solo y sin cuenta."
+      "content": "Compara Bonded y Caresse: audios generados que pronuncian tus nombres, en solitario o en pareja. Demos gratis, créditos sin suscripción."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "¿Buscas una alternativa a Bonded en español? Bonded prepara la escena por escrito; Caresse te acompaña durante, con audio que se desarrolla solo y sin cuenta."
+      "content": "Compara Bonded y Caresse: audios generados que pronuncian tus nombres, en solitario o en pareja. Demos gratis, créditos sin suscripción."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Demos de audio sin email. ES · FR · EN. Pago por sesión, sin suscripción."
+      "content": "Compara Bonded y Caresse: audios generados que pronuncian tus nombres, en solitario o en pareja. Demos gratis, créditos sin suscripción."
     },
     {
       "name": "twitter:image",
@@ -169,7 +169,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse vs Bonded",
-      "description": "Comparación entre Caresse (audio íntimo generado por IA que se reproduce solo, pago por sesión, sin cuenta) y Bonded (chat erótico guiado por IA, útil para preparar pero que exige una respuesta en cada paso, con suscripción y email obligatorio).",
+      "description": "Compara Bonded y Caresse: audios generados que pronuncian tus nombres, en solitario o en pareja. Demos gratis, créditos sin suscripción.",
       "url": "https://caresse.app/es/vs-bonded/",
       "inLanguage": "es",
       "isPartOf": {
@@ -507,6 +507,14 @@
         {
           "tag": "p",
           "attrs": {
+            "class": "hero-badge",
+            "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+          },
+          "html": "<strong>Tus nombres en la voz. Tus deseos en la historia.</strong><br>Generación a petición · Créditos sin suscripción.<br>Demos gratuitas sin cuenta Caresse."
+        },
+        {
+          "tag": "p",
+          "attrs": {
             "class": "hero-sub"
           },
           "html": "Bonded sirve para preparar una escena por escrito. Pero hay que responderle en cada paso para que avance, lo que resulta poco práctico en pleno calentón. Caresse cubre los dos momentos: la preparación y luego la sesión que se desarrolla sola, con vuestros nombres, sin tocar la pantalla."
@@ -517,14 +525,6 @@
             "class": "cta-group"
           },
           "html": "\n            <a href=\"https://apps.apple.com/es/app/caresse/id6758887086?l=es-ES\" id=\"hero-cta\" class=\"cta-pink hero-adaptive-download\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Descargar la app gratis</a>\n        "
-        },
-        {
-          "tag": "p",
-          "attrs": {
-            "class": "hero-badge",
-            "style": "margin-top:20px;font-size:.85rem;color:var(--text-secondary);opacity:.8"
-          },
-          "html": "Demos gratis en la app, sin registro. Sesiones personalizadas de pago, sin suscripción."
         },
         {
           "attrs": {
@@ -643,7 +643,7 @@
               "attrs": {
                 "class": "verdict-table"
               },
-              "html": "\n                <thead>\n                    <tr><th class=\"crit\">Criterio</th><th>Caresse</th><th>Bonded</th></tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Probar sin email</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sí</span>, demos de audio al abrir la app, sin dar nada</td>\n                        <td class=\"other\"><span class=\"no\">No</span>, email obligatorio antes del primer mensaje</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Formato del contenido</th>\n                        <td class=\"caresse\">Audio escrito para ser dicho, duración variable, una voz que narra</td>\n                        <td class=\"other\">Texto para leer en un chat; lectura en voz alta con un botón</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Preparar la escena de antemano</th>\n                        <td class=\"caresse\">Configuración del perfil antes de empezar</td>\n                        <td class=\"other\">Diálogo libre: ideas y preguntas concretas</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">En pleno calentón</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sí</span>: nada que responder, la sesión se desarrolla sola</td>\n                        <td class=\"other\"><span class=\"no\">No</span>: hay que responder para obtener el siguiente paso</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personalización del relato</th>\n                        <td class=\"caresse\"><span class=\"yes\">Profunda</span>, y la voz pronuncia vuestros nombres</td>\n                        <td class=\"other\"><span class=\"yes\">Profunda</span> también, en texto</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Nivel de intensidad</th>\n                        <td class=\"caresse\">Niveles ajustables, de lo romántico a lo muy explícito</td>\n                        <td class=\"other\">Muy explícito, con un vocabulario crudo asumido</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Idiomas</th>\n                        <td class=\"caresse\"><span class=\"yes\">Español, francés, inglés</span></td>\n                        <td class=\"other\">Interfaz en inglés; la IA responde en tu idioma</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modelo de precios</th>\n                        <td class=\"caresse\">Por sesión: 1,99 € · 5,49 € · 7,99 €, sin suscripción</td>\n                        <td class=\"other\">Suscripción de 5,99 € a 129,99 €, según el plan</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Contenido visual</th>\n                        <td class=\"caresse\"><span class=\"no\">Ninguno</span>: solo audio e imaginación</td>\n                        <td class=\"other\">Packs de imágenes aparte, de 2,99 € a 9,99 €</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Datos recogidos</th>\n                        <td class=\"caresse\">Identificador anónimo y el nombre que elijas</td>\n                        <td class=\"other\">Nombre y número de teléfono declarados en la App Store</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Uso en pareja</th>\n                        <td class=\"caresse\">Modo dúo, una misma voz para los dos en la habitación</td>\n                        <td class=\"other\">Emparejamiento de perfiles; una persona lee y transmite las instrucciones</td>\n                    </tr>\n                </tbody>\n            "
+              "html": "\n                <thead>\n                    <tr><th class=\"crit\">Criterio</th><th>Caresse</th><th>Bonded</th></tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Probar sin email</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sí</span>, demos de audio al abrir la app, sin dar nada</td>\n                        <td class=\"other\"><span class=\"no\">No</span>, email obligatorio antes del primer mensaje</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Formato del contenido</th>\n                        <td class=\"caresse\">Audio escrito para ser dicho, duración variable, una voz que narra</td>\n                        <td class=\"other\">Texto para leer en un chat; lectura en voz alta con un botón</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Preparar la escena de antemano</th>\n                        <td class=\"caresse\">Configuración del perfil antes de empezar</td>\n                        <td class=\"other\">Diálogo libre: ideas y preguntas concretas</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">En pleno calentón</th>\n                        <td class=\"caresse\"><span class=\"yes\">Sí</span>: nada que responder, la sesión se desarrolla sola</td>\n                        <td class=\"other\"><span class=\"no\">No</span>: hay que responder para obtener el siguiente paso</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personalización del relato</th>\n                        <td class=\"caresse\">Historia generada con tus nombres o seudónimos y preferencias; la voz pronuncia los nombres elegidos, en solitario o en pareja.</td>\n                        <td class=\"other\"><span class=\"yes\">Profunda</span> también, en texto</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Nivel de intensidad</th>\n                        <td class=\"caresse\">Niveles ajustables, de lo romántico a lo muy explícito</td>\n                        <td class=\"other\">Muy explícito, con un vocabulario crudo asumido</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Idiomas</th>\n                        <td class=\"caresse\"><span class=\"yes\">Español, francés, inglés</span></td>\n                        <td class=\"other\">Interfaz en inglés; la IA responde en tu idioma</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modelo de precios</th>\n                        <td class=\"caresse\">Por sesión: 1,99 € · 5,49 € · 7,99 €, sin suscripción</td>\n                        <td class=\"other\">Suscripción de 5,99 € a 129,99 €, según el plan</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Contenido visual</th>\n                        <td class=\"caresse\"><span class=\"no\">Ninguno</span>: solo audio e imaginación</td>\n                        <td class=\"other\">Packs de imágenes aparte, de 2,99 € a 9,99 €</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Datos recogidos</th>\n                        <td class=\"caresse\">Identificador anónimo y el nombre que elijas</td>\n                        <td class=\"other\">Nombre y número de teléfono declarados en la App Store</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Uso en pareja</th>\n                        <td class=\"caresse\">Modo dúo, una misma voz para los dos en la habitación</td>\n                        <td class=\"other\">Emparejamiento de perfiles; una persona lee y transmite las instrucciones</td>\n                    </tr>\n                </tbody>\n            "
             }
           ]
         },

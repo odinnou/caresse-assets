@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Caresse vs MagicWave: listen to real audio demos without signing up. Personalized sessions that call you by name, no subscription."
+      "content": "Compare MagicWave and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "Real audio demos, no sign-up. EN, FR, ES. Personalized sessions that call you by name, no subscription."
+      "content": "Compare MagicWave and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Real demos, no sign-up. EN · FR · ES. No subscription."
+      "content": "Compare MagicWave and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "name": "twitter:image",
@@ -169,7 +169,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse vs MagicWave",
-      "description": "Comparison between Caresse (AI-personalized intimate audio, pay per session) and MagicWave (library of full-cast romance audiobooks in English, subscription-based).",
+      "description": "Compare MagicWave and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription.",
       "url": "https://caresse.app/en/vs-magicwave/",
       "inLanguage": "en",
       "isPartOf": {
@@ -533,6 +533,14 @@
         },
         {
           "tag": "p",
+          "attrs": {
+            "class": "hero-badge",
+            "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+          },
+          "html": "<strong>Your names, spoken aloud. Your desires in the story.</strong><br>Generated on demand · Paid credits, no subscription.<br>Free demos without a Caresse account."
+        },
+        {
+          "tag": "p",
           "attrs": {},
           "html": "MagicWave offers a library of full-cast romance audiobooks, English only, designed for individual listening. Caresse takes a different path: pre-generated audio demos you can play right now — no sign-up, no account, no email — in English, French and Spanish. Then a bespoke ritual that calls you by name, solo or as a couple."
         },
@@ -542,13 +550,6 @@
             "class": "cta-group"
           },
           "html": "\n            <a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Download the app free</a>\n        "
-        },
-        {
-          "tag": "p",
-          "attrs": {
-            "class": "hero-badge"
-          },
-          "html": "Free demos in the app, no sign-up. Paid personalized sessions, no subscription."
         }
       ]
     },
@@ -629,7 +630,7 @@
               "attrs": {
                 "class": "verdict-table"
               },
-              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Criterion</th>\n                        <th>Caresse</th>\n                        <th>MagicWave</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Free audio demos, no account</th>\n                        <td class=\"caresse\"><span class=\"yes\">Yes</span> — demos playable right now</td>\n                        <td class=\"other\">Limited previews, full catalog behind subscription/Shells</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Content type</th>\n                        <td class=\"caresse\">Generated scenario, unique every session</td>\n                        <td class=\"other\">Catalog of pre-written, full-cast audiobooks</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Your names in the audio</th>\n                        <td class=\"caresse\"><span class=\"yes\">Yes</span> — the voice calls you by name</td>\n                        <td class=\"other\"><span class=\"no\">No</span> — generic fiction narration</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Scenario personalization</th>\n                        <td class=\"caresse\">Genders, practices, accessories, intensity, dirty-talk level, setting, atmosphere</td>\n                        <td class=\"other\">Pick a title from the catalog</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Solo mode + couple mode</th>\n                        <td class=\"caresse\"><span class=\"yes\">Yes</span> — both modes native</td>\n                        <td class=\"other\">Built for individual listening</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Renewal</th>\n                        <td class=\"caresse\">Essentially infinite combinatorial space</td>\n                        <td class=\"other\">Catalog updated regularly</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Pricing model</th>\n                        <td class=\"caresse\">Pay per session, no subscription</td>\n                        <td class=\"other\">Subscription (Prime) or virtual currency (Shells)</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Audio languages</th>\n                        <td class=\"caresse\">French, English, Spanish and Portuguese (PT interface on Android; iOS update awaiting approval)</td>\n                        <td class=\"other\">English only</td>\n                    </tr>\n                </tbody>\n            "
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Criterion</th>\n                        <th>Caresse</th>\n                        <th>MagicWave</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Free audio demos, no account</th>\n                        <td class=\"caresse\"><span class=\"yes\">Yes</span> — demos playable right now</td>\n                        <td class=\"other\">Limited previews, full catalog behind subscription/Shells</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Content type</th>\n                        <td class=\"caresse\">Generated scenario, unique every session</td>\n                        <td class=\"other\">Catalog of pre-written, full-cast audiobooks</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Your names in the audio</th>\n                        <td class=\"caresse\">Names or aliases included in the story and spoken in the audio, solo or together. Fixed demos use example names.</td>\n                        <td class=\"other\"><span class=\"no\">No</span> — generic fiction narration</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Scenario personalization</th>\n                        <td class=\"caresse\">Genders, practices, accessories, intensity, dirty-talk level, setting, atmosphere</td>\n                        <td class=\"other\">Pick a title from the catalog</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Solo mode + couple mode</th>\n                        <td class=\"caresse\"><span class=\"yes\">Yes</span> — both modes native</td>\n                        <td class=\"other\">Built for individual listening</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Renewal</th>\n                        <td class=\"caresse\">Essentially infinite combinatorial space</td>\n                        <td class=\"other\">Catalog updated regularly</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Pricing model</th>\n                        <td class=\"caresse\">Pay per session, no subscription</td>\n                        <td class=\"other\">Subscription (Prime) or virtual currency (Shells)</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Audio languages</th>\n                        <td class=\"caresse\">French, English, Spanish and Portuguese (PT interface on Android; iOS update awaiting approval)</td>\n                        <td class=\"other\">English only</td>\n                    </tr>\n                </tbody>\n            "
             }
           ]
         },

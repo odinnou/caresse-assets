@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Caresse vs InTheMoment : démos audio intimes sans création de compte. Pas le même cas d'usage (méditation/hypnose), mais une vraie alternative IA pour l'intime."
+      "content": "Comparez InTheMoment et Caresse : audios générés avec vos prénoms prononcés, en solo ou à deux. Démos gratuites, crédits sans abonnement."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "Deux apps audio AI, deux cas d'usage. Démos Caresse FR · EN · ES sans inscription."
+      "content": "Comparez InTheMoment et Caresse : audios générés avec vos prénoms prononcés, en solo ou à deux. Démos gratuites, crédits sans abonnement."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Démos Caresse FR · EN · ES sans inscription. Sans abonnement mensuel."
+      "content": "Comparez InTheMoment et Caresse : audios générés avec vos prénoms prononcés, en solo ou à deux. Démos gratuites, crédits sans abonnement."
     },
     {
       "name": "twitter:image",
@@ -169,7 +169,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse vs InTheMoment",
-      "description": "Comparaison d'approche AI entre Caresse (audio intime à prompts curatés) et InTheMoment (méditation et hypnose AI à génération ouverte).",
+      "description": "Comparez InTheMoment et Caresse : audios générés avec vos prénoms prononcés, en solo ou à deux. Démos gratuites, crédits sans abonnement.",
       "url": "https://caresse.app/vs-inthemoment/",
       "inLanguage": "fr",
       "isPartOf": {
@@ -533,6 +533,14 @@
         },
         {
           "tag": "p",
+          "attrs": {
+            "class": "hero-badge",
+            "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+          },
+          "html": "<strong>Vos prénoms dans la voix. Vos envies dans le scénario.</strong><br>Génération à la demande · Crédits sans abonnement.<br>Démos gratuites sans compte Caresse."
+        },
+        {
+          "tag": "p",
           "attrs": {},
           "html": "InTheMoment est une app de méditation et d'hypnose par IA, sur plan mensuel. Caresse adresse un autre besoin (l'audio intime guidé) avec une approche différente : des démos audio jouables tout de suite, en français, anglais et espagnol, sans création de compte. Le mode anonyme ne demande pas de compte Caresse ; les achats passent par votre compte Apple ou Google."
         },
@@ -542,13 +550,6 @@
             "class": "cta-group"
           },
           "html": "\n            <a href=\"https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Télécharger l’app gratuitement</a>\n        "
-        },
-        {
-          "tag": "p",
-          "attrs": {
-            "class": "hero-badge"
-          },
-          "html": "Démos gratuites dans l’app, sans inscription. Sessions personnalisées payantes, sans abonnement."
         }
       ]
     },
@@ -653,7 +654,7 @@
               "attrs": {
                 "class": "verdict-table"
               },
-              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critère</th>\n                        <th>Caresse</th>\n                        <th>InTheMoment</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Démo audio sans compte</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, des démos jouables tout de suite</td>\n                        <td class=\"other\">Inscription requise pour démarrer</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Création de compte requise</th>\n                        <td class=\"caresse\"><span class=\"no\">Sans compte Caresse</span> ; achats via votre compte Apple ou Google</td>\n                        <td class=\"other\">Compte requis</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Cas d'usage</th>\n                        <td class=\"caresse\">Audio intime guidé (couple et solo)</td>\n                        <td class=\"other\">Méditation et hypnose personnalisées</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Approche AI</th>\n                        <td class=\"caresse\">Prompts curatés par l'équipe, pipeline multi-phases</td>\n                        <td class=\"other\">Génération ouverte à partir de la description utilisateur</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Pilotage de la session</th>\n                        <td class=\"caresse\">Configuration de profil intime (genres, prénoms, pratiques, intensité…)</td>\n                        <td class=\"other\">Conversation libre + sélection voix/posture/technique</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Prénoms prononcés</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span></td>\n                        <td class=\"other\">Non documenté</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Durée</th>\n                        <td class=\"caresse\">Variable selon la génération ; ce n’est pas un réglage</td>\n                        <td class=\"other\">Jusqu'à 20 min en gratuit, 45 min en Pro</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modèle économique</th>\n                        <td class=\"caresse\">Achat à la session, sans abonnement</td>\n                        <td class=\"other\">Plan gratuit + Pro à 8,99–9,99 €/mois</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Langues audio</th>\n                        <td class=\"caresse\">Français, anglais, espagnol et portugais (interface PT sur Android ; mise à jour iOS en attente de validation)</td>\n                        <td class=\"other\">Anglais (gratuit), 9 langues (Pro)</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Contenu</th>\n                        <td class=\"caresse\">Intime adulte 18+</td>\n                        <td class=\"other\">Bien-être / mindfulness</td>\n                    </tr>\n                </tbody>\n            "
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critère</th>\n                        <th>Caresse</th>\n                        <th>InTheMoment</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Démo audio sans compte</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, des démos jouables tout de suite</td>\n                        <td class=\"other\">Inscription requise pour démarrer</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Création de compte requise</th>\n                        <td class=\"caresse\"><span class=\"no\">Sans compte Caresse</span> ; achats via votre compte Apple ou Google</td>\n                        <td class=\"other\">Compte requis</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Cas d'usage</th>\n                        <td class=\"caresse\">Audio intime guidé (couple et solo)</td>\n                        <td class=\"other\">Méditation et hypnose personnalisées</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Approche AI</th>\n                        <td class=\"caresse\">Prompts curatés par l'équipe, pipeline multi-phases</td>\n                        <td class=\"other\">Génération ouverte à partir de la description utilisateur</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Pilotage de la session</th>\n                        <td class=\"caresse\">Configuration de profil intime (genres, prénoms, pratiques, intensité…)</td>\n                        <td class=\"other\">Conversation libre + sélection voix/posture/technique</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Prénoms prononcés</th>\n                        <td class=\"caresse\">Prénoms ou pseudonymes intégrés au scénario et prononcés dans l’audio, en solo ou à deux. Les démos utilisent des noms d’exemple.</td>\n                        <td class=\"other\">Non documenté</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Durée</th>\n                        <td class=\"caresse\">Variable selon la génération ; ce n’est pas un réglage</td>\n                        <td class=\"other\">Jusqu'à 20 min en gratuit, 45 min en Pro</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modèle économique</th>\n                        <td class=\"caresse\">Achat à la session, sans abonnement</td>\n                        <td class=\"other\">Plan gratuit + Pro à 8,99–9,99 €/mois</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Langues audio</th>\n                        <td class=\"caresse\">Français, anglais, espagnol et portugais (interface PT sur Android ; mise à jour iOS en attente de validation)</td>\n                        <td class=\"other\">Anglais (gratuit), 9 langues (Pro)</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Contenu</th>\n                        <td class=\"caresse\">Intime adulte 18+</td>\n                        <td class=\"other\">Bien-être / mindfulness</td>\n                    </tr>\n                </tbody>\n            "
             }
           ]
         },

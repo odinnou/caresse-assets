@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Comparaison Caresse vs Quinn : écoutez de vraies démos audio sans créer de compte. Sessions générées à votre nom, sans abonnement."
+      "content": "Comparez Quinn et Caresse : audios générés avec vos prénoms prononcés, en solo ou à deux. Démos gratuites, crédits sans abonnement."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "Vraies démos audio jouables sans inscription. FR, EN, ES. Sessions personnalisées à votre nom, sans abonnement."
+      "content": "Comparez Quinn et Caresse : audios générés avec vos prénoms prononcés, en solo ou à deux. Démos gratuites, crédits sans abonnement."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Vraies démos sans inscription. FR · EN · ES. Sans abonnement."
+      "content": "Comparez Quinn et Caresse : audios générés avec vos prénoms prononcés, en solo ou à deux. Démos gratuites, crédits sans abonnement."
     },
     {
       "name": "twitter:image",
@@ -216,7 +216,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Caresse vs Quinn",
-      "description": "Comparaison entre Caresse (audio intime personnalisé par l'IA, achat à la session) et Quinn (catalogue de stories audio érotiques pré-enregistrées, sur abonnement).",
+      "description": "Comparez Quinn et Caresse : audios générés avec vos prénoms prononcés, en solo ou à deux. Démos gratuites, crédits sans abonnement.",
       "url": "https://caresse.app/vs-quinn/",
       "inLanguage": "fr",
       "isPartOf": {
@@ -580,6 +580,14 @@
         },
         {
           "tag": "p",
+          "attrs": {
+            "class": "hero-badge",
+            "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+          },
+          "html": "<strong>Vos prénoms dans la voix. Vos envies dans le scénario.</strong><br>Génération à la demande · Crédits sans abonnement.<br>Démos gratuites sans compte Caresse."
+        },
+        {
+          "tag": "p",
           "attrs": {},
           "html": "Quinn est une bibliothèque américaine de stories audio érotiques : un large catalogue d'histoires pré-enregistrées en anglais, pensées pour l'écoute passive, seul ou à deux, sur abonnement. Caresse prend une approche différente : des démos audio jouables tout de suite, sans inscription, sans compte, sans email, pour entendre la qualité, le grain de voix et l'ambiance avant la moindre décision. Puis un scénario généré sur-mesure, qui s'adresse à vous par votre prénom."
         },
@@ -589,13 +597,6 @@
             "class": "cta-group"
           },
           "html": "\n            <a href=\"https://apps.apple.com/fr/app/caresse/id6758887086?l=fr-FR\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Télécharger l’app gratuitement</a>\n        "
-        },
-        {
-          "tag": "p",
-          "attrs": {
-            "class": "hero-badge"
-          },
-          "html": "Démos gratuites dans l’app, sans inscription. Sessions personnalisées payantes, sans abonnement."
         }
       ]
     },
@@ -676,7 +677,7 @@
               "attrs": {
                 "class": "verdict-table"
               },
-              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critère</th>\n                        <th>Caresse</th>\n                        <th>Quinn</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Démo audio sans compte</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, des démos jouables tout de suite</td>\n                        <td class=\"other\"><span class=\"no\">Non</span>, compte et abonnement requis pour le catalogue</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Création de compte requise</th>\n                        <td class=\"caresse\"><span class=\"no\">Sans compte Caresse</span> ; achats via votre compte Apple ou Google</td>\n                        <td class=\"other\">Compte requis pour utiliser l'app</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Type de contenu</th>\n                        <td class=\"caresse\">Scénario généré, unique à chaque session</td>\n                        <td class=\"other\">Catalogue de stories écrites, pré-enregistrées</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Vos prénoms dans l'audio</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, la voix vous appelle par votre prénom</td>\n                        <td class=\"other\"><span class=\"no\">Non</span>, narration d'une histoire tierce</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personnalisation du scénario</th>\n                        <td class=\"caresse\">Genres, pratiques, accessoires, intensité, niveau de dirty-talk, lieu, ambiance</td>\n                        <td class=\"other\">Choix d'une story dans le catalogue</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Usage prévu</th>\n                        <td class=\"caresse\">Guidé, à deux ou solo, moment partagé</td>\n                        <td class=\"other\">Écoute individuelle de fiction, en priorité</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Renouvellement</th>\n                        <td class=\"caresse\">Combinatoire quasi-infinie, générée à la demande</td>\n                        <td class=\"other\">Catalogue mis à jour selon calendrier éditorial</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modèle économique</th>\n                        <td class=\"caresse\">Achat à la session, sans abonnement</td>\n                        <td class=\"other\">Abonnement : 7,99 $/mois ou 59,99 $/an</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Langues audio</th>\n                        <td class=\"caresse\">Français, anglais, espagnol et portugais (interface PT sur Android ; mise à jour iOS en attente de validation)</td>\n                        <td class=\"other\"><span class=\"no\">Anglais uniquement</span></td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Mode solo + mode duo</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, les deux modes natifs</td>\n                        <td class=\"other\">Orienté écoute individuelle</td>\n                    </tr>\n                </tbody>\n            "
+              "html": "\n                <thead>\n                    <tr>\n                        <th class=\"crit\">Critère</th>\n                        <th>Caresse</th>\n                        <th>Quinn</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <th class=\"crit\">Démo audio sans compte</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, des démos jouables tout de suite</td>\n                        <td class=\"other\"><span class=\"no\">Non</span>, compte et abonnement requis pour le catalogue</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Création de compte requise</th>\n                        <td class=\"caresse\"><span class=\"no\">Sans compte Caresse</span> ; achats via votre compte Apple ou Google</td>\n                        <td class=\"other\">Compte requis pour utiliser l'app</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Type de contenu</th>\n                        <td class=\"caresse\">Scénario généré, unique à chaque session</td>\n                        <td class=\"other\">Catalogue de stories écrites, pré-enregistrées</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Vos prénoms dans l'audio</th>\n                        <td class=\"caresse\">Prénoms ou pseudonymes intégrés au scénario et prononcés dans l’audio, en solo ou à deux. Les démos utilisent des noms d’exemple.</td>\n                        <td class=\"other\"><span class=\"no\">Non</span>, narration d'une histoire tierce</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Personnalisation du scénario</th>\n                        <td class=\"caresse\">Genres, pratiques, accessoires, intensité, niveau de dirty-talk, lieu, ambiance</td>\n                        <td class=\"other\">Choix d'une story dans le catalogue</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Usage prévu</th>\n                        <td class=\"caresse\">Guidé, à deux ou solo, moment partagé</td>\n                        <td class=\"other\">Écoute individuelle de fiction, en priorité</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Renouvellement</th>\n                        <td class=\"caresse\">Combinatoire quasi-infinie, générée à la demande</td>\n                        <td class=\"other\">Catalogue mis à jour selon calendrier éditorial</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Modèle économique</th>\n                        <td class=\"caresse\">Achat à la session, sans abonnement</td>\n                        <td class=\"other\">Abonnement : 7,99 $/mois ou 59,99 $/an</td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Langues audio</th>\n                        <td class=\"caresse\">Français, anglais, espagnol et portugais (interface PT sur Android ; mise à jour iOS en attente de validation)</td>\n                        <td class=\"other\"><span class=\"no\">Anglais uniquement</span></td>\n                    </tr>\n                    <tr>\n                        <th class=\"crit\">Mode solo + mode duo</th>\n                        <td class=\"caresse\"><span class=\"yes\">Oui</span>, les deux modes natifs</td>\n                        <td class=\"other\">Orienté écoute individuelle</td>\n                    </tr>\n                </tbody>\n            "
             }
           ]
         },

@@ -24,7 +24,7 @@
     },
     {
       "name": "description",
-      "content": "Caresse vs Desire: compare scored dares with guided audio sessions for couples. Free iPhone and Android download. Paid credits, no Caresse subscription."
+      "content": "Compare Desire and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "name": "robots",
@@ -60,7 +60,7 @@
     },
     {
       "property": "og:description",
-      "content": "Caresse vs Desire: compare scored dares with guided audio sessions for couples. Free iPhone and Android download. Paid credits, no Caresse subscription."
+      "content": "Compare Desire and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "property": "og:image",
@@ -104,7 +104,7 @@
     },
     {
       "name": "twitter:description",
-      "content": "Caresse vs Desire: compare scored dares with guided audio sessions for couples. Free iPhone and Android download. Paid credits, no Caresse subscription."
+      "content": "Compare Desire and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription."
     },
     {
       "name": "twitter:image",
@@ -150,7 +150,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Desire alternative: an audio couples game | Caresse",
-      "description": "Caresse vs Desire: compare scored dares with guided audio sessions for couples. Free iPhone and Android download. Paid credits, no Caresse subscription.",
+      "description": "Compare Desire and Caresse: generated audio with your names spoken aloud, solo or together. Free demos, paid credits, no subscription.",
       "url": "https://caresse.app/en/vs-desire/",
       "inLanguage": "en",
       "dateModified": "2026-10-23",
@@ -489,6 +489,14 @@
             },
             {
               "tag": "p",
+              "attrs": {
+                "class": "hero-badge",
+                "style": "max-width:760px;margin:20px auto;color:var(--text-primary);font-size:.95rem;line-height:1.6;opacity:1;"
+              },
+              "html": "<strong>Your names, spoken aloud. Your desires in the story.</strong><br>Generated on demand · Paid credits, no subscription.<br>Free demos without a Caresse account."
+            },
+            {
+              "tag": "p",
               "attrs": {},
               "html": "Prefer a voice guiding your time together to sending dares on your phone? Caresse offers audio fiction for couples, without a score or cards to read during the session."
             },
@@ -498,13 +506,6 @@
                 "class": "cta-group"
               },
               "html": "<a href=\"https://apps.apple.com/us/app/caresse/id6758887086?l=en-US\" id=\"hero-cta\" class=\"cta-pink\" data-store-auto data-cta-position=\"hero\" target=\"_blank\" rel=\"noopener\">Download for free</a>"
-            },
-            {
-              "tag": "p",
-              "attrs": {
-                "class": "hero-badge"
-              },
-              "html": "Guest mode · Free demos · iOS and Android<br>Paid personalised sessions, no subscription."
             }
           ]
         },
