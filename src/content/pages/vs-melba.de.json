@@ -1189,6 +1189,14 @@
                 "class": "related-card"
               },
               "html": "<div class=\"icon\">🆚</div><p class=\"ttl\">Caresse und Bonded</p><p class=\"desc\">Schriftlicher Chat mit Antworten statt einer selbstständig laufenden Audioerzählung.</p>"
+            },
+            {
+              "tag": "a",
+              "attrs": {
+                "href": "/de/vs-adesira/",
+                "class": "related-card"
+              },
+              "html": "<p class=\"ttl\">Caresse vs Adesira</p><p class=\"desc\">Quiz oder generiertes Szenario</p>"
             }
           ]
         }
