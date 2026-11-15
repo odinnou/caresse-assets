@@ -956,7 +956,7 @@
           "type": "container",
           "tag": "div",
           "attrs": {
-            "class": "cta-group"
+            "class": "store-badges"
           },
           "blocks": [
             {
@@ -964,24 +964,26 @@
               "tag": "a",
               "attrs": {
                 "href": "https://apps.apple.com/de/app/caresse/id6758887086?l=de-DE",
-                "class": "cta-pink",
+                "class": "store-badge",
                 "target": "_blank",
                 "rel": "noopener",
-                "data-cta-position": "footer"
+                "data-cta-position": "footer",
+                "aria-label": "Download on the App Store"
               },
-              "html": "App Store"
+              "html": "<img src=\"/badges/app-store.svg\" alt=\"Download on the App Store\" width=\"120\" height=\"40\" loading=\"lazy\">"
             },
             {
               "type": "element",
               "tag": "a",
               "attrs": {
                 "href": "https://play.google.com/store/apps/details?id=studio.mokuton.caresse",
-                "class": "cta-ghost",
+                "class": "store-badge",
                 "target": "_blank",
                 "rel": "noopener",
-                "data-cta-position": "footer"
+                "data-cta-position": "footer",
+                "aria-label": "Get it on Google Play"
               },
-              "html": "Google Play"
+              "html": "<img src=\"/badges/google-play.svg\" alt=\"Get it on Google Play\" width=\"241\" height=\"71\" loading=\"lazy\">"
             }
           ]
         },
